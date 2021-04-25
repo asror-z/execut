@@ -1,8 +1,6 @@
 <NotepadPlus>
     <Session activeView="0">
-        <mainView activeIndex="0">
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="708" startPos="0" endPos="0" selMode="0" lang="Batch" encoding="-1" filename="t:\Message\VOIP\CallApp\Portable\yii2_callapp\service\ALL\nssm-com.cmd" />
-        </mainView>
+        <mainView activeIndex="0" />
         <subView activeIndex="0" />
     </Session>
 </NotepadPlus>

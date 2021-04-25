@@ -108,27 +108,27 @@
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="no" directionDown="no" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="0" transparency="150" dotMatchesNewline="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="no" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="0" transparency="150" dotMatchesNewline="no">
+        <Find name="http2_push_preload" />
+        <Find name="cmd-ALL" />
+        <Find name="nssm-ALL" />
+        <Find name="ALL/cmd-com.cmd" />
+        <Find name="ALL/nssm-com.cmd" />
         <Find name="call ALL/cmd-web.cmd" />
         <Find name="call ALL/nssm-web.cmd" />
         <Find name="COMMANDER_PATH" />
         <Find name="60" />
         <Find name="spread" />
-        <Find name="surv" />
-        <Find name="ari.url" />
-        <Find name="ari" />
-        <Find name="d:\Network\Messages\VOIP\Manager\" />
-        <Find name="Med4" />
+        <Replace name="ALL-cmd" />
+        <Replace name="ALL-nssm" />
+        <Replace name="cmd-ALL.cmd" />
+        <Replace name="nssm-ALL.cmd" />
         <Replace name="hotels" />
         <Replace name="/" />
         <Replace name="&gt;" />
         <Replace name="$model-&gt;" />
         <Replace name="127.0.0.1" />
         <Replace name="Native Technologies OOO" />
-        <Replace name="**" />
-        <Replace name="-" />
-        <Replace name="%COMMANDER_PATH%\..\Utilities\Notepad\notepad++.exe" />
-        <Replace name="." />
     </FindHistory>
     <History nbMaxFile="0" inSubMenu="no" customLength="-1" />
     <ProjectPanels>
