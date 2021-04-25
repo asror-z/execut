@@ -1,0 +1,22 @@
+﻿/**
+ *
+ * Author:  Asror Zakirov
+ * Created: 13.03.2018 18:46:55
+ * https://www.linkedin.com/in/asror-zakirov
+ * https://github.com/asror-z
+ */
+
+
+using System;
+using System.Threading;
+
+namespace Zakirov
+{
+    class AsrorZ//[[$iRandom]]
+    {
+        public static void ZRun()
+        {
+			//[[$sContent]]
+        }
+    }
+}

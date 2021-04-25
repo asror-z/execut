@@ -1,0 +1,52 @@
+<FunctionList>
+    <Language name="AutoIt" imagelistpath="plugins\Config\Cpp.bmp">
+        <Group name="Bookmark" subgroup="" icon="3" child="3" autoexp="1" matchcase="0" fendtobbeg="" bbegtobend="" keywords="">
+            <Rules regexbeg="; BK: " regexfunc="[\w\d\-\|\- ]+" regexend="" bodybegin="" bodyend="" sep="" />
+        </Group>
+        <Group name="Function" subgroup="" icon="4" child="4" autoexp="1" matchcase="0" fendtobbeg="" bbegtobend="" keywords="">
+            <Rules regexbeg="Func +" regexfunc="(?!__)(?!T)[\_\w]+" regexend="" bodybegin="" bodyend="" sep="" />
+        </Group>
+        <Group name="Internal" subgroup="" icon="4" child="4" autoexp="1" matchcase="0" fendtobbeg="" bbegtobend="" keywords="">
+            <Rules regexbeg="Func +" regexfunc="__[\_\w]+" regexend="" bodybegin="" bodyend="" sep="" />
+        </Group>
+        <Group name="Testing" subgroup="" icon="4" child="4" autoexp="1" matchcase="0" fendtobbeg="" bbegtobend="" keywords="">
+            <Rules regexbeg="Func +T" regexfunc="[\_\w]+" regexend="" bodybegin="" bodyend="" sep="" />
+        </Group>
+        <Group name="Region" subgroup="" icon="1" child="2" autoexp="1" matchcase="0" fendtobbeg="" bbegtobend="" keywords="">
+            <Rules regexbeg="#Region " regexfunc="[\w+\| ]+" regexend="" bodybegin="" bodyend="" sep="" />
+        </Group>
+        <Group name="Comments" subgroup="" icon="2" child="2" autoexp="0" matchcase="0" fendtobbeg="" bbegtobend="" keywords="">
+            <Rules regexbeg="; " regexfunc="(?!BK:)[\w\d\-\|\- ]+" regexend="" bodybegin="" bodyend="" sep="" />
+        </Group>
+        <Group name="Include" subgroup="" icon="12" child="12" autoexp="0" matchcase="0" fendtobbeg="" bbegtobend="" keywords="">
+            <Rules regexbeg="#include +&lt;" regexfunc="(?!MyUDFs)[\.\\\w]+" regexend="" bodybegin="" bodyend="" sep="" />
+        </Group>
+        <Group name="Include UDF" subgroup="" icon="10" child="10" autoexp="1" matchcase="0" fendtobbeg="" bbegtobend="" keywords="">
+            <Rules regexbeg="#include +&lt;MyUDFs\\" regexfunc="[\.\\\w]+" regexend="" bodybegin="" bodyend="" sep="" />
+        </Group>
+        <Group name="Include Local" subgroup="" icon="13" child="13" autoexp="1" matchcase="0" fendtobbeg="" bbegtobend="" keywords="">
+            <Rules regexbeg='#include +&quot;' regexfunc="[\.\\\w]+" regexend="" bodybegin="" bodyend="" sep="" />
+        </Group>
+        <Group name="Index" subgroup="" icon="4" child="4" autoexp="0" matchcase="0" fendtobbeg="" bbegtobend="" keywords="include">
+            <Rules regexbeg="\#cs \| +" regexfunc="[\w]+" regexend=" \| =" bodybegin="" bodyend="" sep="" />
+        </Group>
+        <Group name="Func Index" subgroup="" icon="5" child="6" autoexp="0" matchcase="0" fendtobbeg="" bbegtobend="" keywords="">
+            <Rules regexbeg="\#cs \|.*\r\n.*\r\n\s+Name\s+" regexfunc="[\w]+" regexend="" bodybegin="" bodyend="" sep="" />
+        </Group>
+        <Group name="GLOBAL" subgroup="" icon="9" child="10" autoexp="0" matchcase="0" fendtobbeg="" bbegtobend="" keywords="">
+            <Rules regexbeg="Global +\$" regexfunc="[\_\w ]+" regexend="" bodybegin="" bodyend="" sep="" />
+        </Group>
+        <Group name="LOCAL" subgroup="" icon="11" child="12" autoexp="0" matchcase="0" fendtobbeg="" bbegtobend="" keywords="">
+            <Rules regexbeg="Local +\$" regexfunc="[\_\w ]+" regexend="" bodybegin="" bodyend="" sep="" />
+        </Group>
+        <Group name="VARS" subgroup="" icon="13" child="14" autoexp="0" matchcase="0" fendtobbeg="" bbegtobend="" keywords="">
+            <Rules regexbeg="^\$" regexfunc="[\_\w]+" regexend="" bodybegin="" bodyend="" sep="" />
+        </Group>
+        <Group name="ENUM" subgroup="" icon="15" child="16" autoexp="0" matchcase="0" fendtobbeg="" bbegtobend="" keywords="">
+            <Rules regexbeg="Enum +\$" regexfunc="[\_\w]+" regexend="" bodybegin="" bodyend="" sep="" />
+        </Group>
+        <Group name="CONST" subgroup="" icon="17" child="18" autoexp="0" matchcase="0" fendtobbeg="" bbegtobend="" keywords="">
+            <Rules regexbeg="Const +\$" regexfunc="[\_\w]+" regexend="" bodybegin="" bodyend="" sep="" />
+        </Group>
+    </Language>
+</FunctionList>

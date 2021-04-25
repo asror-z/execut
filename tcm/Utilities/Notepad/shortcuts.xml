@@ -1,0 +1,40 @@
+<NotepadPlus>
+    <InternalCommands>
+        <Shortcut id="41003" Ctrl="yes" Alt="no" Shift="no" Key="81" />
+        <Shortcut id="41011" Ctrl="yes" Alt="no" Shift="no" Key="87" />
+        <Shortcut id="49000" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="47000" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43002" Ctrl="yes" Alt="no" Shift="no" Key="114" />
+        <Shortcut id="43048" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43014" Ctrl="no" Alt="no" Shift="no" Key="113" />
+        <Shortcut id="41008" Ctrl="yes" Alt="no" Shift="yes" Key="83" />
+        <Shortcut id="43046" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="50002" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="50000" Ctrl="yes" Alt="no" Shift="no" Key="32" />
+    </InternalCommands>
+    <Macros>
+        <Macro name="Trim Trailing and save" Ctrl="no" Alt="yes" Shift="yes" Key="83">
+            <Action type="2" message="0" wParam="42024" lParam="0" sParam="" />
+            <Action type="2" message="0" wParam="41006" lParam="0" sParam="" />
+        </Macro>
+    </Macros>
+    <UserDefinedCommands>
+        <Command name="Open in another instance" Ctrl="no" Alt="yes" Shift="no" Key="117">$(NPP_DIRECTORY)\notepad++.exe $(CURRENT_WORD) -nosession -multiInst</Command>
+        <Command name="AI Help" Ctrl="no" Alt="no" Shift="no" Key="112">&quot;d:\Develop\System\AutoIT\Manuals\3_3142\AutoIt3Help.exe&quot; &quot;$(CURRENT_WORD)&quot;</Command>
+    </UserDefinedCommands>
+    <PluginCommands>
+        <PluginCommand moduleName="NppExec.dll" internalID="20" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <PluginCommand moduleName="NppExec.dll" internalID="0" Ctrl="no" Alt="no" Shift="no" Key="116" />
+        <PluginCommand moduleName="NppExec.dll" internalID="1" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <PluginCommand moduleName="NppExec.dll" internalID="3" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <PluginCommand moduleName="NppExec.dll" internalID="22" Ctrl="no" Alt="no" Shift="no" Key="115" />
+        <PluginCommand moduleName="NppExec.dll" internalID="23" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <PluginCommand moduleName="NppExec.dll" internalID="24" Ctrl="no" Alt="no" Shift="no" Key="114" />
+        <PluginCommand moduleName="NppExec.dll" internalID="25" Ctrl="no" Alt="no" Shift="no" Key="120" />
+        <PluginCommand moduleName="PythonScript.dll" internalID="5" Ctrl="no" Alt="no" Shift="no" Key="117" />
+    </PluginCommands>
+    <ScintillaKeys>
+        <ScintKey ScintID="2338" menuCmdID="0" Ctrl="yes" Alt="no" Shift="no" Key="46" />
+        <ScintKey ScintID="2336" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="0" />
+    </ScintillaKeys>
+</NotepadPlus>

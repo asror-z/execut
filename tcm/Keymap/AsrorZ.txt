@@ -1,0 +1,63 @@
+EsMake	
+F10	Create .go file for direct crossing to required file or folder
+	
+	
+CodePaster	
+Alt + T:		TXT
+Alt + P:		PHP
+Alt + W:		HTM
+Alt + H:		HTM
+Alt + L:		LUA
+Alt + B:		Cmd File
+Alt + E:		Lnk File
+Alt + Q:		C#
+Alt + I:		C#
+Alt + D:		Lnk File with custom name
+Alt + A:		Paste code with custom extension
+	
+	
+ItemSearch	
+Alt + G:    	Search selected item from Google
+Alt + C:    	Search software with cracks
+Alt + U:    	Search Keyword for Alternatives
+Alt + M:    	Go to original web page taken from MHTML file
+Alt + X:    	Search Keyword from Github and Packagist 
+	
+	
+MoveObject	
+Alt + Shift + O: 		@ Other
+Alt + Shift + W: 		@ Weak
+Alt + Shift + T: 		Theory
+Alt + Shift + I: 		Installer
+Alt + Shift + P: 		Portable
+Alt + Shift + E: 		Element
+Alt + Shift + S: 		Settings
+Alt + Shift + R: 		Sources
+Alt + Shift + M: 		Manuals
+Alt + Shift + D: 		@ Dead
+	
+Alt + Shift + Q:		Process Github & Clone
+Alt + Shift + A:		Process Github 
+Alt + Shift + Z:		Create URL file from MHTML file
+Alt + Shift + F:		Move to custom folder
+Alt+F	_MO_FileToFolder()
+	
+	
+F4Menu	
+F4	Open menu for current file
+	
+	
+NTFSLinks	
+F1	Create Symlink from second side
+	
+	
+SearchInCurrentDir	
+F8	Search In Current Dir via Everything software
+	
+	
+EverySearchTC	
+F9	Search In Local Filesystem via Everything software
+	
+	
+SelectClipTC	
+Alt + Z	SelectClipTC
