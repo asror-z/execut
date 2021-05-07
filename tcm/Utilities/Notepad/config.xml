@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="223" y="98" width="819" height="560" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="223" y="98" width="819" height="560" isMaximized="no" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -89,6 +89,7 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="DockingManager" leftWidth="200" rightWidth="238" topHeight="200" bottomHeight="205">
             <FloatingWindow cont="4" x="757" y="31" width="976" height="587" />
+            <FloatingWindow cont="4" x="757" y="31" width="976" height="587" />
             <PluginDlg pluginName="NppExec.dll" id="-1" curr="3" prev="4" isVisible="no" />
             <PluginDlg pluginName="FunctionList.dll" id="0" curr="1" prev="4" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="4" prev="1" isVisible="no" />
@@ -105,10 +106,13 @@
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
+            <ActiveTabs cont="4" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="no" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="0" transparency="150" dotMatchesNewline="no">
+        <Find name="max" />
+        <Find name="&#x044C;&#x0444;&#x0447;" />
         <Find name="http2_push_preload" />
         <Find name="cmd-ALL" />
         <Find name="nssm-ALL" />
@@ -117,8 +121,6 @@
         <Find name="call ALL/cmd-web.cmd" />
         <Find name="call ALL/nssm-web.cmd" />
         <Find name="COMMANDER_PATH" />
-        <Find name="60" />
-        <Find name="spread" />
         <Replace name="ALL-cmd" />
         <Replace name="ALL-nssm" />
         <Replace name="cmd-ALL.cmd" />
