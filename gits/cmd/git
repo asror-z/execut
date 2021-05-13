@@ -1,0 +1,3 @@
+
+d:\Develop\Projects\execut\flut>d:\Develop\Projects\execut\gits\cmd\git ls-remote --get-url d:\Develop\Projects\execut\flut rev-parse --abbrev-ref --symbolic @{u}
+d:\Develop\Projects\execut\flut

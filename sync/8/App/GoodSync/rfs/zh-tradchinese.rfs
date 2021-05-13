@@ -1,0 +1,2085 @@
+# RFS file codepage.
+RFS_CODEPAGE "950"
+RFS_LANGUAGE "正體中文"
+
+# Job menu
+Menu_Job						"任務"
+Cmd_JobNew						"新建"
+Btn_CreateNew						"新建任務"
+Btn_CreateNewGroup						"新建組"
+
+Btn_AccountSync_On		"帳戶同步 開"
+Btn_AccountSync_Off		"帳戶同步 關"
+
+Cmd_Analyze						"分析"
+Btn_Analyze						"分析"
+Cmd_Sync						"同步"
+Btn_SyncRun						"同步"
+Cmd_AnalyzeAndSyncThis						"分析並同步"
+Cmd_Stop						"停止"
+Btn_Stop						"停止"
+Btn_Clear						"清除"
+Cmd_Pause						"暫停"
+Btn_Pause						"暫停"
+Btn_Resume						"繼續"
+Btn_SelectMultiple		"選擇多個資料夾/篩檢程式"
+Btn_SelectSingle		"後退選擇資料夾"
+
+Cmd_JobOpenLogLeft						"左側的日誌"
+Cmd_JobOpenLogRight						"右側的日誌"
+
+Cmd_JobOptions						"選項..."
+Btn_ShowJobOptions						"選項"
+Btn_Auto						"自動"
+
+Str_Groups						"組"
+Str_Group						"分組"
+Str_InGroups						"(在組中)"
+Str_GroupsInitial						"(沒有組, 點擊新建組來新建一個)"
+Cmd_JobRemoveFromGroup						"從組中刪除"
+
+Str_Group_AllJobs						"所有任務"
+Str_Group_SyncJobs						"同步任務"
+Str_Group_BackupJobs						"備份任務"
+
+Cmd_JobDelete						"刪除"
+Cmd_JobRename						"重命名..."
+Cmd_JobClone						"克隆..."
+
+Str_AskDeleteJob1						"確定要刪除任務 '%1' 嗎？"
+Str_AskDeleteSelJob1						"確定要刪除 %1 個選定的任務？"
+Str_AskDeleteGroup						"確定要刪除組 '%1' 嗎？"
+
+Str_JobMenuAdvanced						"高級"
+Cmd_JobSwapSides						"交換任務兩側"
+Cmd_JobSaveTemplate						"保存為範本..."
+Cmd_Analyze_Comp_MD5						"分析：比較校驗 (速度慢)"
+Cmd_Analyze_Comp_Body						"分析：比較內容 (速度非常慢)"
+Cmd_JobListOfChanges						"更改列表"
+Cmd_JobResetState						"刪除檔狀態"
+Cmd_JobDeleteBackup						"刪除 Recycled && History 資料夾"
+Cmd_JobDeleteGsData						"刪除 _gsdata_ 資料夾"
+Cmd_JobCleanupRecycled						"清理 Recycled && History 資料夾"
+
+Str_TitleResetState						"刪除檔狀態"
+Str_AskDeleteStates						"確定要刪除同步狀態檔嗎？\nT這些是GoodSync用來跟蹤用戶檔歷史的內部檔。\n沒有用戶的檔將會被刪除。"
+
+Str_TitleDeleteBackup						"刪除回收站和歷史檔"
+Str_AskDeleteBackup						"確定要刪除這些資料夾中存放的回收站和歷史檔嗎？"
+
+Str_TitleDeleteGsData						"刪除 _gsdata_ 資料夾"
+Str_AskDeleteGsData						"您要刪除GoodSync生成的 _gsdata_ 資料夾嗎？\nGoodSync在這些資料夾中保存日誌和歷史紀錄檔。\n沒有用戶的檔將會被刪除。"
+
+Cmd_AppExit						"退出"
+
+# All menu
+Menu_All						"全部"
+Cmd_AnalyzeAll						"全部分析"
+Cmd_SyncAll						"全部同步"
+Cmd_AnalyzeAndSyncAll						"全部分析並同步"
+Cmd_StopAll						"全部停止"
+Cmd_EnableAuto						"啟用自動運行"
+Cmd_SuspendAuto						"關閉自動運行"
+
+# Mac Menu Window
+Menu_Mac_Window						"窗口"
+Menu_Mac_Zoom						"放大"
+Menu_Mac_Minimize						"最小化"
+Menu_Mac_BringToFront						"放置在最前"
+
+# Mac Menu File
+Menu_Mac_File           "檔案"
+
+# Mac Menu Edit
+Menu_Mac_Edit           "編輯"
+Menu_Mac_Undo						"撤銷"
+Menu_Mac_Redo						"重做"
+Menu_Mac_SelectAll      "選擇全部"
+
+# Mac Menu GoodSync
+Menu_Mac_Preferences						"偏好..."
+Menu_Mac_Wipeout						"卸載 GoodSync..."
+Menu_Mac_Services						"服務"
+Menu_Mac_HideProgram						"隱藏 GoodSync"
+Menu_Mac_HideArg        "隱藏 %1"
+Menu_Mac_ShowProgram						"顯示 GoodSync"
+Menu_Mac_HideOthers						"隱藏其他"
+Menu_Mac_ShowAll						"全部顯示"
+Menu_Mac_AddFDAccess    "授權GoodSync全盤訪問權限"
+Menu_Mac_Quit						"退出"
+Menu_Mac_QuitArg        "退出 %1"
+
+# Mac App Menu
+Menu_Mac_OpenGSE						"打開 GoodSync Explorer"
+
+# View menu
+Menu_View						"視圖"
+Str_NeedSyncTree						"(分析後出現樹狀視圖)"
+Menu_Mac_ShowToolbar						"顯示工具列"
+Menu_Mac_HideToolbar						"隱藏工具列"
+Menu_Mac_CustomizeToolBar						"自訂工具列"
+
+Menu_View_Other						"其他"
+
+Cmd_View_FullWindow						"完整模式"
+Cmd_View_MiniWindow						"迷你模式"
+Cmd_View_TrayIcon						"工作列圖示"
+
+Cmd_ViewStatusBar						"狀態列"
+Cmd_ViewJobList						"任務列表"
+Cmd_ViewJobFilter						"篩檢程式"
+Cmd_ViewLog						"日誌"
+
+Cmd_ShowAll						"全部"
+Cmd_ShowChanges						"變化"
+
+Cmd_ShowConflict						"衝突"
+Cmd_ShowError						"錯誤"
+
+Cmd_ShowIncluded						"包含"
+Cmd_ShowExcluded						"排除"
+Cmd_ShowToCreate						"新建"
+Cmd_ShowToOverwrite						"覆蓋"
+Cmd_ShowToDelete						"刪除"
+
+# VM: a lot of view names are the same as corresponding action names
+
+Cmd_ShowSameLenDiffTime						"長度相同但時間不同"
+
+Cmd_ShowCountableChanges						"可數變化"
+Cmd_ShowChangesToSync						"要同步的文件"
+Cmd_ShowNotYetSynced						"尚未同步"
+
+Cmd_ShowAllAll						"全部可用的 + 不可用的"
+
+
+# (Tree) Actions menu
+Grp_Actions						"執行"
+Str_NeedSyncNode						"(分析並且按一下樹節點後可進行的同步操作)"
+
+Grp_Show						"樹狀視圖"
+
+# Action and Context menus
+Menu_Actions						"操作"
+Cmd_ItemProp						"屬性"
+Txt_ItemProp						"目標路徑: %1\n左側新文件: %2\n左側舊文件: %3\n右側新文件: %4\n右側舊文件: %5\nLgen: %6\nRgen: %7\n"
+
+Cmd_ItemLOpen						"打開左側文件"
+Cmd_ItemROpen						"打開右側文件"
+Cmd_OpenLFolder						"打開左側資料夾"
+Cmd_OpenRFolder						"打開右側資料夾"
+
+Cmd_Browse						"更改資料夾"
+Cmd_Browse_V11			"資料夾"
+
+Cmd_OpenJobLeft						"在資源管理器中打開左側資料夾"
+Cmd_OpenJobRight						"在資源管理器中打開右側資料夾"
+
+Cmd_LeftSideOpts						"左側資料夾選項"
+Cmd_RightSideOpts						"右側資料夾選項"
+
+Cmd_ItemLDelete						"刪除左側檔"
+Cmd_ItemRDelete						"刪除右側檔"
+Cmd_ItemDeleteBoth						"刪除左右兩側檔"
+Cmd_DeleteLFolder						"刪除左側資料夾"
+Cmd_DeleteRFolder						"刪除右側資料夾"
+Cmd_DeleteBothFolders						"刪除左右兩側資料夾"
+
+Cmd_ItemLDeleteMul1						"從左側刪除 %1 個項目"
+Cmd_ItemRDeleteMul1						"從右側刪除 %1 個項目"
+Cmd_ItemBDeleteMul1						"從左右兩側刪除 %1 個專案"
+
+Cmd_ItemCompare						"左右兩側對比"
+
+Str_AskDeleteItem1						"確定要刪除 %1 這個選中的項目嗎？"
+Str_AskDeleteItem3						"確定要刪除 %1 %2 '%3'嗎？"
+
+
+# filter actions
+Cmd_ItemExcludeFile1						"排除 '%1' 這個檔"
+Cmd_ItemExcludeFolder1						"排除 '%1' 這個資料夾"
+Cmd_ItemExcludeMulti1						"排除 %1 這個選定的項目"
+
+Cmd_ItemIncludeFile1						"僅包含 '%1' 這個檔"
+Cmd_ItemIncludeFolder1						"僅包含 '%1' 這個資料夾"
+Cmd_ItemIncludeMulti1						"僅包含 %1 這個選定的項目"
+
+Cmd_ItemExcludeAllFiles1						"排除全部名稱為 '%1' 的檔"
+Cmd_ItemExcludeAllFolders1						"排除全部名稱為 '%1' 的資料夾"
+Cmd_ItemExcludeAllMulti1						"排除名稱為 %1 的選定項目"
+
+Cmd_ItemExcludeAllMask1						"排除全部名稱匹配 '*%1' 的檔"
+Cmd_ItemExcludeAllMaskMulti1						"排除副檔名為 %1 的項目"
+
+Cmd_ItemIncludeAllMask1						"僅包括 '*%1' 這個檔"
+Cmd_ItemIncludeAllMaskMulti2						"僅包括副檔名為 %1 的項目"
+
+
+# directions in commands
+Cmd_Recommended						"按照推薦"
+Cmd_DoNotCopy						"不做拷貝"
+Cmd_CopyLeftToRight						"從左到右拷貝"
+Cmd_CopyRightToLeft						"從右到左拷貝"
+Cmd_DeleteLeftToRight						"刪除右側"
+Cmd_DeleteRightToLeft						"刪除左側"
+Cmd_RenameMove_LtoR						"右側重命名/移動"
+Cmd_RenameMove_RtoL						"左側重命名/移動"
+Cmd_CopyTimeLeftToRight						"從左到右複製時間"
+Cmd_CopyTimeRightToLeft						"從右到左複製時間"
+Cmd_NameCaseLeftToRight						"名稱大小寫從左到右"
+Cmd_NameCaseRightToLeft						"名稱大小寫從右到左"
+Cmd_CopyStateLeftToRight						"複製狀態從左到右"
+Cmd_CopyStateRightToLeft						"複製狀態從右到左"
+Cmd_CopyStateSyncTail						"同步狀態"
+
+# Directions in pane
+Str_ToLeft						"左側"
+Str_ToRight						"右側"
+Str_Errors						"錯誤"
+Str_Conflicts						"衝突"
+
+# tree toolbar
+TreeToolbar_Directions						"方向"
+TreeToolbar_Filters						"篩檢程式"
+TreeToolbar_Clear						"清除樹狀結構圖"
+
+TreeToolbar_Directions_Explain						"按一下選擇同步樹上的任何檔或資料夾後，您可以通過這個功能表改變檔或資料夾的同步方向"
+TreeToolbar_Filters_Explain						"按一下選擇同步樹上的任何檔或資料夾後，您可以通過這個功能表選擇過濾操作來更改此檔或者資料夾的篩檢程式"
+TreeToolbar_Button_Explain						"按鈕說明"
+
+# Tools menu
+Menu_Tools						"工具"
+Cmd_Tools						"工具"
+Cmd_GsAccountSetup      "GoodSync帳戶配置..."
+Cmd_GsAccountManage     "GoodSync帳戶管理..."
+Cmd_ServerMainSetup						"GoodSync Connect 配置..."
+Cmd_RunnerServiceSetup						"Runner Service 配置..."
+Cmd_ServerControlPanel						"伺服器高級選項..."
+Cmd_ProgOptions						"程式選項..."
+Cmd_UploadAccounts						"上傳帳戶到控制中心"
+Cmd_UploadJobs						"上傳任務到控制中心"
+Cmd_ExportJobsList						"匯出所有任務..."
+Cmd_ExportSelJobsList						"匯出選中的任務"
+Cmd_ImportJobsList						"導入任務列表..."
+Cmd_ImportAll						"導入"
+
+# Help menu
+Menu_Help						"幫助"
+Cmd_AppAbout						"關於..."
+Cmd_AppManual						"手冊"
+Cmd_AppFAQ						"FAQ"
+Cmd_AppCreateTicket						"創建技術支援工單..."
+Cmd_Help_BuyPro						"購買專業版"
+Cmd_Help_Activate						"啟動專業版"
+Cmd_CheckUpdates						"檢查更新"
+
+
+# Search options menu
+Search_Forward						"向前搜索\tEnter"
+Search_Backward						"向後搜索\tShift+Enter"
+Search_Case_Sensitive						"區分大小寫"
+Search_Look_Files_Only						"僅搜索文件"
+
+# Measures
+Str_Items1						" %1 項目"
+Str_Bytes1						"byte(s)"
+Str_Kilobytes1						"Kb"
+Str_Megabytes1						"Mb"
+Str_Gigabytes1						"Gb"
+
+# Misc
+Cmd_Cut						"剪切"
+Cmd_Copy						"複製"
+Cmd_Paste						"粘貼"
+Cmd_Skip				"跳過"
+Cmd_Cancel				"取消"
+
+
+# Buttons below tree
+Btn_ShowJobOptionsToolTip						"任務選項"
+
+Edit_Search						"搜索..."
+Edit_Search_Tooltip						"在這裡輸入搜索關鍵字"
+Edit_Search_Clear						"清除搜索"
+Edit_Search_Find_Next						"查找下一個 (Enter)"
+Edit_Search_Find_Prev						"查找上一個 (Shift+Enter)"
+Edit_Search_Show_DropDown						"顯示清單"
+
+Chk_AutoScroll						"滾動到當前位置"
+
+Hint_NoJobs						"沒有任務，請點擊新建任務創建一個"
+Hint_Select_Paths						"請選擇路徑"
+Hint_Click_Analyze						"按一下分析按鈕開始"
+Hint_Job_under_Runner						"任務在無人值守模式運行"
+Hint_No_Changes						"沒有更改"
+Hint_Waiting_To_Run						"等待運行"
+
+
+# Tree view Columns
+Str_TreeItem						"項目"
+Str_TreeLSize						"左側大小"
+Str_TreeLDate						"左側日期"
+Str_TreeL						"左側"
+Str_TreeCenter			""
+Str_TreeR						"右側"
+Str_TreeRSize						"右側大小"
+Str_TreeRDate						"右側日期"
+Str_TreeStatus						"狀態"
+
+# View Options
+Str_TreeView						"樹形視圖"
+Str_ListView						"列表視圖"
+
+# Job Tree view Columns
+Str_JobTreeColName						"名字"
+
+# Browse Warnings
+Browse_SureAboutChange						"您確定要改變同步資料夾嗎？\n改變同步資料夾將使任務路徑過濾規則失效，\n將會重置所有自動選項（您要先手動分析和同步）。"
+Browse_SyncFolderRoot						"我們建議不要同步到磁片根目錄，因為：\n-磁片根目錄有檔和資料夾數量方面的限制，\n-同步資料夾名稱可以幫助你定位保存資料夾的副本。\n因此我們將同步到資料夾%1 。可以嗎？"
+Browse_Sync_ThisComp						"您正在嘗試通過GoodSync Connect連接該電腦。這並不高效，因為：\n-它比使用file://直接連接本地檔案系統慢，\n-它比直接連接本地檔案系統耗費更多資源。\n因此我們將該連結更改為%1。可以嗎？"
+Browse_PortableGsDisk						"將移動盤符更改為%%GSDISK%%（GoodSync啟動的磁片），這樣它可以在另一台電腦上照樣好使"
+Browse_UsePortablePath						"Re檢測到盤符名為 '%1' 的移動磁片。\n我們建議使用移動資料夾路徑\n'%2’，\n這樣這個移動分區即使以其它盤符載入仍然能夠識別。\n您想使用移動資料夾路徑嗎？"
+Browse_UseUNC_Path						"檢測到網路共用 '%1' -> '%2' 。\n我們建議使用UNC路徑'%3’ 而不要使用字母路徑 '%4'\n您要使用UNC資料夾路徑嗎？"
+
+# Tooltips for buttons, for new users
+Tip_Select_Folsers						"為此任務選擇資料夾和方向"
+Tip_Browse_Left						"選擇左側同步資料夾。\n按一下流覽按鈕輸入網路資料夾的用戶名，密碼和URL。"
+Tip_Browse_Right						"選擇右側同步資料夾.\n按一下流覽按鈕輸入網路資料夾的用戶名，密碼和URL。"
+Tip_Change_Way						"更改任務方向和其他設置"
+Tip_Select_Direction						"選擇任務方向"
+Tip_Analyze						"分析任務，顯示左側和右側之間的差異以及建議的操作"
+Tip_Sync						"按照預先的分析進行同步"
+Tip_SelectMultiple		"選擇多個資料夾，設置基本的包含/排除的篩檢程式"
+Tip_SelectSingle		"後退選擇單個資料夾"
+Tip_Stop						"停止分析或同步"
+Tip_Clear						"清除差異樹以節省記憶體"
+Tip_Opt						"配置自動執行任務"
+Tip_Paused						"已暫停。點擊這裡恢復"
+Tip_Pause						"臨時暫停分析或同步"
+
+# New Job dialog
+Title_JobName						"新建 GoodSync 任務"
+Str_NewJob						"新建任務"
+
+Str_JobName						"輸入任務名稱"
+Str_JobTemplate						"源自範本："
+Str_BadJobName1						"任務名稱不得包含以下字元： / \\ ? < > : * |"
+Str_BadJobName2						"任務名稱不能等於 '%1'。"
+Str_BadJobName3						"任務名稱不能為空或超過100個字元。"
+
+Str_GroupName						"輸入組名"
+Str_BadGroupName1						"組名不能包含以下符號： / \\ ? < > : * |"
+Str_BadGroupName2						"組名不能等於 '%1'。"
+Str_BadGroupName3						"組名不能為空或超過100個字元。"
+
+Str_JobNameExists						"已有相同名稱的任務存在。"
+Str_GroupNameExists						"已有相同名稱的組存在。"
+Str_JobType						"選擇任務類型"
+Str_JobType_Backup						"備份"
+Str_JobDesc_Backup						"單向任務：如果僅在左側更改檔，GoodSync將從左向右進行複製覆蓋右側檔，使兩側保持一致。隱藏和系統檔預設被排除。"
+Str_JobType_Sync						"同步"
+Str_JobDesc_Sync						"雙向任務：如果在同步的兩側分別更改檔，GoodSync將分別對兩側更改進行互相複製，使兩側的內容維持一致。隱藏和系統檔預設被排除。"
+Str_JobType_Template						"從範本新建："
+Str_JobDesc_Template						"範本用於儲存您最喜歡的任務選項。範本只包含任務選項而不包括資料夾路徑。"
+Str_Combo_NoTemplate						"<沒有範本>"
+
+Title_RenameJob						"重命名任務"
+Title_RenameGroup						"重命名組"
+Title_CloneJob						"克隆任務"
+Str_NewJob_Header						"歡迎來到GoodSync"
+Str_NewJob_Descr						"讓我們創建你的第一個任務"
+Str_NewJobClose						"您確定要立即退出GoodSync嗎？\n按確定退出，GoodSync將在下次要求創建新作業。\n按取消退出，可以繼續鍵入新任務的名稱。"
+Lnk_Tutorial						"教程"
+
+# Job Tabs control buttons
+Str_TabAddNewJob						"添加新任務"
+Str_TabScrollLeft						"左側滾動"
+Str_TabScrollRight						"右側滾動"
+
+
+# Job List Pane
+Title_JobList						"任務列表"
+Title_TaskName						"任務名稱"
+Title_LastRunTime						"最後一次執行時間"
+
+Str_ColumnAnalyze						"分析"
+Str_ColumnSync						"同步"
+Str_ColumnAnalyzeAndSync						"分析並同步"
+Str_ColumnLPath						"左側路徑"
+Str_ColumnRPath						"右側路徑"
+
+# job statuses
+Str_ColumnStatus						"狀態"
+
+JobStatus_Idle						"空閒"
+JobStatus_Waiting						"等待"
+JobStatus_Analyzing						"正在分析 %1%"
+JobStatus_Analyzed						"分析完畢"
+JobStatus_ErrorTerm						"錯誤"
+JobStatus_Attention						"注意"
+JobStatus_Conflicts						"衝突"
+JobStatus_ErrorsNonTerm						"錯誤"
+JobStatus_Syncing						"正在同步 %1%"
+JobStatus_Synced						"同步完畢"
+JobStatus_Paused						"已暫停"
+JobStatus_Stopped						"已停止"
+JobStatus_SpOpRunning						"SpecOp Running"
+JobStatus_SpOpDone						"SpecOp Done"
+
+
+# Job Tree View
+Str_Export_This_Group						"匯出組"
+Str_New_Group						"添加組..."
+
+# Log Pane
+Title_LogWnd						"日誌視窗"
+
+# Help -> About
+Title_About						"關於"
+Tip_About						"關於"
+Str_RegTo						"授權給:"
+Help_ChkVer						"連接www.goodsync.com並檢查是否有較新的版本可以下載。"
+Msg_JobGroupTimeTable						" 將運行於（1年時間表 ，前10次運行）：\n"
+Cmd_Test						"測試"
+Help_SmtpTest						"通過向GoodSync寄件者的電子郵寄地址發送測試電子郵件來測試這些SMTP設置。"
+Help_SysStat						"顯示有關GoodSync版本和運行環境的資訊。當您聯繫技術支援時，請提供此資訊。"
+
+# Mouse over
+Help_NotDefined						"沒有為此控制項定義説明"
+Help_MouseOver						"滑鼠懸停選項可查看其詳細說明。如果要滾動或複製説明文本，請按Alt鍵。"
+
+#
+# --- PROGRAM OPTIONS ---
+#
+
+Title_Options						"程式選項 - GoodSync"
+Str_OptDetailedHelp						"詳細幫助"
+Str_OpenProgrammOpt						"打開程式選項"
+
+# Program Options - General
+Title_General						"常規"
+
+Str_UserInterface						"使用者介面"
+Str_Lang						"語言（需要重啟）"
+Help_Lang						"更改GoodSync介面上功能表，選項和消息的語言。需要重新開機GoodSync才能使語言更改生效。"
+
+Str_TreeDisplayDensity						"樹狀圖顯示密度（需要重啟）"
+Tip_TreeDisplayDensity						"設置同步樹中的行距。更高的設置允許您在每頁查看更多的項目。"
+TreeDisplayDensity_Low						"低"
+TreeDisplayDensity_Med						"中"
+TreeDisplayDensity_Hi						"高"
+
+Str_NoAnimations						"不要使用分析動畫"
+Tip_NoAnimations						"關閉分析動畫。"
+
+Chk_SortNamesByAlpha						"按照字母順序對任務名稱排序（需要重新開機）"
+Help_SortNamesByAlpha						"選中：按照字母順序排序任務和組名稱。未選中：按照任務索引排序任務和組名稱，以便可以通過在任務列表試圖中拖放更多工來重新排序（更多）。"
+
+Chk_ShowSystemGroups						"顯示備份/同步任務組（需要重新開機）"
+Help_ShowSystemGroups						"在任務樹中顯示由GoodSync自動生成的備份/同步任務組。"
+
+Str_WindowsIntegration						"Windows集成"
+Str_Mac_SystemIntegration						"系統集成"
+Chk_ShowSysTray						"在系統託盤中顯示GoodSync圖示。"
+Help_ShowSysTray						"選中：當GoodSync運行時，在系統託盤中顯示GoodSync圖示。未選中：運行時不顯示GoodSync系統託盤圖示"
+
+Chk_TrayIcon						"主視窗關閉時隱藏到系統託盤。"
+Help_TrayIcon						"選中：當您關閉GoodSync時，它將在後臺運行。要訪問GoodSync，請使用系統託盤中的圖示（桌面右下角）。未選中：關閉GoodSync時，它從記憶體中卸載。"
+
+Chk_AutoStart						"Windows啟動時自動啟動GoodSync。"
+Help_AutoStart						"當您登錄到Windows帳戶時，Windows會自動啟動GoodSync，GoodSync以最小化狀態啟動。如果您選擇了自動運行作業，也就是如果您勾選了“任務選項”->“自動”選項卡中的任意一個選項，則打開此選項。在Goodsync2Go中不可用。"
+
+Chk_Mac_AutoStart						"Mac啟動時啟動GoodSync。"
+Help_Mac_AutoStart						"當您登錄到系統帳戶時，Mac會自動啟動GoodSync，GoodSync以最小化狀態啟動。如果您選擇了自動運行作業，也就是如果您勾選了“任務選項”->“自動”選項卡中的任意一個選項，則打開此選項。在Goodsync2Go中不可用。"
+
+Chk_Mac_PreventSleep						"阻止系統休眠"
+Help_Mac_PreventSleep						"如有任何任務正在運行或者計畫運行，GoodSync將阻止macOS按計劃進入睡眠狀態。注意，從蘋果功能表中選擇睡眠的強制睡眠或者從筆記型電腦點擊休眠的操作仍然會有效，並不能被阻止。"
+
+Chk_DesktopShortcuts						"將GoodSync快捷方式添加到桌面"
+Help_DesktopShortcuts						"添加GoodSync快捷方式到桌面和快速開機檔案夾（如果存在）。"
+
+Chk_Warn_TimeOutOfRange						"警告時間超出範圍。"
+Help_Warn_TimeOutOfRange						"如果檔修改時間超出[1980,2037]範圍，則發出警告。"
+
+Str_CompareProg						"比較程式"
+Help_CompareProg						"選擇檔/資料夾上下文功能表中的“左右兩側對比”命令後調用的檔比較程式。其命令列參數是要比較的檔的路徑。示例：如果您在此處指定WinDiff.exe，那麼GoodSync將其稱為：WinDiff file1 file2。 如果這裡沒有指定，將使用UNIX diff的預設比較程式。"
+Str_ExecutableFiles						"可執行檔"
+
+Str_Logs						"日誌"
+
+Str_LogDetailLevel						"日誌詳細級別"
+Help_LogDetailLevel						"在日誌視窗中顯示的日誌的詳細級別。文本日誌檔保存到：（1）作業左側和右側同步資料夾中的_gsdata_資料夾，（2）下面的全域日誌資料夾。"
+Str_LogCritical						"危急"
+Str_LogError						"錯誤"
+Str_LogInfo						"操作"
+Str_LogDetails						"詳細"
+
+Str_LogFolderGlobal						"儲存日誌到資料夾"
+Help_LogFolderGlobal						"全域日誌寫入的資料夾。如果留空，則日誌檔預設寫到使用者程式設置下的GoodSync資料夾中。"
+
+Str_LogRetainDays						"日誌內容保留天數"
+Help_LogRetainDays						"任務和全域日誌內容保留這些天。刪除過期的全域日誌檔。"
+
+Chk_ResetIM						"重置全部資訊為預設值"
+Help_ResetIM						"將之前全部被禁止的警告資訊重新啟用。"
+
+
+# Program Options -> Auto
+
+Chk_AutoHideMiniWin						"當沒有活動任務時，自動隱藏迷你視窗"
+Help_AutoHideMiniWin						"選中：當沒有活動任務時，自動隱藏迷你視窗。未選中：在迷你模式下始終顯示迷你視窗"
+
+Str_ParallelAutoJobs						"自動按照最大並行數量運行任務"
+Help_ParallelAutoJobs						"可以並行運行的最大任務數量。1表示所有任務自動啟動按照順序運行。"
+
+Str_AutoJobsQuant						"自動運行任務檢查定量（單位：秒）"
+Help_AutoJobsQuant						"所有工作都會在每隔幾秒鐘內進行檢查，以確定哪些可以自動運行"
+
+Str_FileHistory						"檔歷史記錄"
+Chk_CleanupOldGens						"保持檔歷史記錄月數:"
+Help_CleanupOldGens						"丟棄超過指定月數的檔歷史記錄。如果檔歷史超過指定月份則刪除。如果為0，則將檔歷史紀錄保存在狀態檔中（不推薦）"
+Help_SaveOldGensMonths						"這幾個月將老一代記錄保留在狀態檔中"
+
+Str_Updates						"更新"
+Chk_AutoChkVer						"每天檢查新版本"
+Help_AutoChkVer						"GoodSync將每天連接www.goodsync.com，檢查是否有新版本可以下載。"
+
+Chk_AutoInstallVer						"自動安裝新版本"
+Help_AutoInstallVer						"如果GoodSync找到新版本，將自動安裝新版本。"
+
+
+# Program Options -> Security
+Title_Security						"安全"
+
+Chk_OAuthBrowserPrivate "使用專用默認瀏覽器進行OAuth認證"
+Tip_OAuthBrowserPrivate "選中時：使用專用默認瀏覽器進行OAuth認證，未選中時：使用常規默認瀏覽器進行OAuth認證"
+
+Chk_SavePwdsEncrd						"本地加密保存連接密碼"
+Tip_SavePwdsEncrd						"如果選中，那麼所有系統連接的密碼會加密保存於本地系統——生成主密碼，該密碼GoodSync無法得知，這使得密碼不能在電腦之間移動。如果不選，那麼檔案系統會以固定的主密碼加密，這使得它們可移動。"
+
+Str_ControlCenter						"控制中心上傳"
+Str_CC_UserID						"公司管理員郵寄地址"
+Tip_CC_UserID						"公司管理員郵寄地址"
+Str_CC_Passwd						"公司管理員密碼"
+Tip_CC_Passwd						"公司管理員密碼"
+Str_CC_Accounts_Passwd						"帳戶加密密碼"
+Tip_CC_Accounts_Passwd						"上傳到控制中心的帳戶資訊以該密碼加密，該公司的所有控制中心運行實例必須指定相同的密碼才能在本地解密帳戶"
+Str_CC_CompID						"公司ID"
+Tip_CC_CompID						"您的公司ID，在控制中心介面的設置頁面查看。"
+Str_CC_CompPIN						"公司金鑰"
+Tip_CC_CompPIN						"您的公司金鑰，如果公司管理員請求"
+Str_CC_RunnerService	"開啟時：Runner作為Service運行，off：Runner在User Session中運行"
+Str_CC_ServiceSysUser	"Runner Service的Windows用戶名"
+Str_CC_ServiceSysPwd	"Runner Service的Windows密碼"
+Str_CC_MiniProgress						"顯示迷你進程彈窗——顯示gs-runner運行任務的狀態。"
+Str_CC_AllowUserClose	"允許用戶在任務欄中關閉gs-runner狀態窗口"
+Str_CC_AdminCredsNeed						"管理員憑證需要上傳。\n設置位置在 工具 -> 程式選項 -> 安全 -> 控制中心"
+
+# Program Options -> Connection
+SMTP_options						"SMTP選項"
+
+Str_SMTP_Enable						"使用SMTP伺服器發送電子郵件（未選中時：使用默認MAPI用戶端）"
+Help_SMTP_Enable						"選中：分析和同步完成後使用以下指定的SMTP伺服器發送電子郵件。 未選中：分析和同步完成後使用預設MAPI用戶端發送電子郵件"
+
+Str_SMTP_Host						"SMTP伺服器"
+Help_SMTP_Host						"這裡輸入SMTP伺服器位址，該伺服器用來分析和同步完成後發送電子郵件"
+
+Str_SMTP_Port						"埠"
+Help_SMTP_Port						"輸入SMTP伺服器使用的埠號, 經常使用 587 或 25."
+
+Str_SMTP_UserID						"SMTP用戶名"
+Help_SMTP_UserID						"為需要身份驗證的SMTP伺服器輸入用戶名"
+
+Str_SMTP_Passwd						"密碼"
+Help_SMTP_Passwd						"為需要身份驗證的SMTP伺服器輸入密碼"
+
+Str_SMTP_SenderEmail						"發送電子郵件"
+Help_SMTP_SenderEmail						"輸入寄件者的電子郵件和名稱，它將顯示在GoodSync發送的電子郵件的From：欄位中。可以是'user@server.com'或'FirstName LastName <userid@server.com>'"
+
+Str_SMTP_Secure						"使用SSL安全連接"
+Help_SMTP_Secure						"如果選中，則使用465埠上的SSL加密SMTP通信。如果未選中，則使用明文通信。"
+
+Str_SMTP_StartTls						"使用STARTTLS安全連接"
+Help_SMTP_StartTls						"如果選中，則使用587埠上的STARTTLS對SMTP進行加密。如果未選中，則使用明文通信。"
+
+#
+# --- JOB OPTIONS ---
+#
+Str_Options						"選項"
+
+# Job Options - General
+Title_JobGeneral						"常規"
+Tip_JobGeneral						"任務常規"
+
+Options_job_type						"任務類型和檔刪除"
+Label_JobType						"任務類型"
+Str_JobType_TwoWay						"雙向同步"
+Str_JobType_LeftToRight						"從左到右備份（單向）"
+Str_JobType_RightToLeft						"從右到左備份（單向）"
+Help_JobType						"選擇同步方向。雙向同步保持左右兩側同步，即任意一邊檔有任何更改兩側都同時改變。單向任務將按照從左到右或者從右到左的方向進行拷貝，主要用於備份的目的"
+
+Chk_DelPropagate						"觸發刪除"
+Help_DelPropagate						"在單向任務中打開：如果用戶在源端刪除了檔或資料夾，則GoodSync將在目標端刪除它。在雙向任務中打開：如果用戶一方刪除了檔或資料夾，則在同步時，GoodSync將在另一側刪除它。單向任務中的關閉：源端的刪除被轉換為排除的項目。 雙向任務中不允許關閉。"
+
+Str_ShowBalloon						"顯示消息氣泡"
+Str_Mac_ShowNot						"顯示通知"
+Str_DoNotShowBalloon						"從不"
+Str_ShowBalloonAlways						"有更改和同步時"
+Str_ShowBalloonOnError						"有衝突和錯誤時"
+Help_ShowBalloon						"選擇何時GoodSync在系統託盤圖示中顯示通知消息"
+Help_Mac_ShowNot						"選擇何時使用通知中心或Growl顯示通知消息"
+
+Chk_CreateNewFolder						"創建左/右同步資料夾（如果沒有找到）。"
+Help_CreateNewFolder						"如果不存在，GoodSync將創建左/右同步資料夾。"
+
+Recycled_files						"回收站"
+
+Chk_SaveBakFiles						"將刪除/替換的檔保存到回收站，僅限上一個版本"
+Help_SaveBakFiles						"如果選中，則將由GoodSync刪除或替換的檔保存在位於_gsdata_/_saved_資料夾中的“回收站”中。只有最新版本的已刪除/替換的檔才被保存。如果沒有選中，則刪除/替換的檔已經消失，無法恢復。"
+Chk_CleanupBakFiles						"在數日後清理_saved_資料夾"
+Help_CleanupBakFiles						"如果選中，在保存指定天數或更多天數之後同步時則刪除保存到_gsdata_/_saved_資料夾的檔。如果沒有選中，那麼將檔永遠保存在_gsdata_/_saved_資料夾中。"
+Help_SavePrevDays						"把以前的檔版本到_gsdata_/_saved_資料夾中並保留這些天數"
+
+Chk_SavePastVersions						"保留刪除/替換檔的多個版本到歷史資料夾"
+Help_SavePastVersions						"如果選定，則將GoodSync刪除和替換的檔保存到_gsdata_/_history_資料夾並且將保存多版本。每當GoodSync要刪除或替換一個檔時，它都會被保存到_gsdata_/_history_資料夾，並且檔案名上會被添加時間截。如果不選，則不會保存歷史。"
+Chk_CleanupPastVersions						"數日後清理_history_資料夾"
+Help_CleanupPastVersions						"如果選定，則在保存指定天數或更多天數之後，刪除保存在_gsdata_/_history_資料夾中的檔。刪除動作發生在同步之後。如果不選，則永久保存存放於_gsdata_/_history_資料夾中的文件。"
+Help_SavePastDays						"被刪除/被替換的檔版本將存放於_gsdata_/_history_資料夾中並保留這些天數"
+
+Str_ReconnectSeconds						"重新連接的總秒數"
+Help_ReconnectSeconds						"由連接錯誤導致檔操作失敗時允許重新連接所花費的總秒數"
+
+Str_WorkerThreads						"多執行緒並行運行同步"
+Help_WorkerThreads						"如果選中，同步將在多個執行緒上將並行運行。這可能會使有高延遲並允許多個連接並行工作的檔案系統上同步時速度更快。"
+
+SpeedLimit						"速度限制"
+Str_SpeedLimit						"限制檔拷貝速度 KByte/s"
+Help_SpeedLimit						"如果平均檔複製（下載/上傳）速度超過了Kbytes/second則減慢複製速度。0表示無限制。100表示100 Kbytes/sec或者約1 Mbit/sec。"
+
+TimeLimit						"時間限制"
+Str_MaxRunTime						"運行最大時間（分鐘）"
+Help_MaxRunTime						"如果任務執行時間長於指定的時間（分鐘），將會停止。0表示無限制"
+
+AfterJobFinish						"任務結束後"
+Str_ShutdownOnFinish						"任務結束後關閉"
+Help_ShutdownOnFinish						"關閉本機，如果該任務無錯完成"
+
+
+
+# Job options - Filters page
+Title_Filters						"篩檢程式"
+Tip_Filters						"篩檢程式"
+Str_FilterExcluded						"排除"
+Str_FilterExcludedFull						"排除全部（在包含選項後進行排除，為空表示沒有排除項）"
+Help_FilterExcluded						"與此列表中任何行匹配的文件和資料夾將被排除在同步之外。可以使用萬用字元*'和'？' 。匹配完整檔路徑的行。 示例：*.txt *~ /Fo?der/*.obj size>1000 size<=5k (size < 5 Kb) size>4m (size > 4 Mb) time=2008/03/08 (Mar 8, 2008) time>=-6d (time >= 6 days ago)"
+Str_FilterIncluded						"包含"
+Str_FilterIncludedFull						"包含全部（為空表示包含全部）"
+Help_FilterIncluded						"如果不為空，那麼只有名稱與此包含列表中的一行相匹配且不匹配排除列表的檔才包含在同步中。匹配規則與排除清單相同。"
+Tip_Filter_New						"插入新的篩檢程式"
+Tip_Filter_Edit						"更改所選篩檢程式"
+Tip_Filter_Del						"刪除所選篩檢程式"
+Str_Filter_DummyText						"<按兩下此處添加新項目>"
+Str_Edit						"編輯"
+
+Chk_ExcludeEmptyFolders						"排除空資料夾"
+Help_ExcludeEmptyFolders						"排除空的資料夾或包含僅有排除檔的資料夾"
+Chk_ExcludeHidden						"排除隱藏的文件和資料夾"
+Help_ExcludeHidden						"排除設置了HIDDEN（隱藏）屬性的檔和資料夾"
+Chk_ExcludeSystem						"排除系統檔和資料夾"
+Help_ExcludeSystem						"排除已設置SYSTEM屬性的檔和資料夾"
+Chk_ExcludeTemp 		 "排除臨時檔和資料夾"
+Help_ExcludeTemp		 "排除臨時且無需保存的檔和資料夾"
+Str_FiltersChooseFiles						"選擇同步中要包含或排除的檔。"
+
+
+# Job options - Auto page
+Title_Auto						"自動"
+Tip_Auto						"通過觸發器自動啟動任務"
+
+JobAutoAnalAndSync						"自動分析和同步"
+
+Name_DoOnFileChange						"更改"
+Chk_DoOnFileChange						"文件更改時"
+Help_DoOnFileChange						"當檔在左側或右側資料夾或其子資料夾中更改時，分析並同步此任務。最初執行完全分析，然後僅以更新的方式分析更改的檔/資料夾。"
+Str_Delay						"延遲"
+Str_Sec						"秒."
+Help_AutoStartDelay						"檢測到任務啟動觸發時延時數秒啟動。"
+
+Name_DoOnFoldersConnect						"連接"
+Chk_DoOnFoldersConnect						"資料夾連接時"
+Help_DoOnFoldersConnect						"當此任務的兩個資料夾都已連接時分析並同步此任務。比如：資料夾出現因為其磁片已被插入，或因為Internet連接導致資料夾可訪問時。"
+
+Name_DoOnStart						"開始"
+Chk_DoOnStart						"GoodSync啟動時, 延時 秒"
+Help_DoOnStart						"當GoodSync啟動時分析並同步此任務。"
+Chk_DoOnGsStart						"GoodSync啟動時"
+
+Name_DoPeriodically						"計時器"
+Chk_DoPeriodically						"定期 (計時器觸發時), 每"
+Help_DoPeriodically						"分析並同步此任務每HH小時MM分鐘。"
+Str_Hour						"小時"
+Str_Min						"分鐘"
+
+Name_DoBeforeLogout						"註銷"
+Chk_DoBeforeLogout						"註銷時"
+Help_DoBeforeLogout						"當您關閉，重新開機或登出您的電腦時，分析並同步此任務。如果Windows在此同步期間顯示“程式未回應”消息，請忽略它，以便GoodSync可以完成同步。"
+
+Str_DoOnSchedule						"按照計畫"
+Help_DoOnSchedule						"使用您按一下配置按鈕時指定的計畫分析並同步此任務。"
+Str_SchedConfig						"配置..."
+Help_SchedConfig						"按一下以輸入運行此任務的計畫。計畫格式與實用程式Cron類似。"
+
+Str_ScheduleFor						"時間表"
+Str_Schedule_Line1						"每當時間單位匹配這些值時，它將運行："
+Str_Schedule_Minute						"分鐘"
+Str_Schedule_Hour						"小時"
+Str_Schedule_DOM						"每個月的第幾天"
+Str_Schedule_Month						"月份"
+Str_Schedule_DOW						"每個星期的第幾天"
+Str_Schedule_Explain						"（空字串）匹配任何值\nVal1, Val2, ..., ValN 匹配值列表\nn1-n2匹配從n1到n2的值的範圍\nn1-n2/n3與步驟n3匹配範圍n1到n2\n示例： 分鐘=15 小時=03 月份=3-10/3 每個星期的第幾天=1,3,5\n任務將會在3，6，9月的每週1，3，5早上3點15分運行。"
+
+Str_Unattended						"無人值守：無使用者介面運行"
+Help_Mac_AutoUnattended						"如果選中，則GoodSync Runner Service將自動運行此任務，無需使用者介面，因此即使您從使用者帳戶中註銷也可以運行。任務在沒有使用者交互的情況下運行，因此您將看到任務狀態，但不會看到同步樹。選擇作業->打開左側/右側日誌以查看日誌。此模式適用於所有自動選項。"
+
+AdvancedAuto						"高級自動選項"
+
+Str_AutoRunMode						"在GUI或Runner Service中運行"
+Str_AutoUnattended						"無使用者介面方式運行（無人值守）"
+Help_AutoUnattended						"如果選中，則將在GoodSync Runner Service中自動運行此任務，無需使用者介面，因此即使您從Windows帳戶中註銷，也可以運行此任務。任務在沒有使用者交互的情況下運行，因此您將看到作業狀態，但不會看到同步樹。選擇任務 - >打開左側/右側日誌以查看日誌。此模式適用於所有自動選項。"
+
+Str_LimitChanges						"如果更改的檔超過, 請勿同步"
+Help_LimitChanges						"如果任務中指定的檔數大於更改，則不執行自動同步。更改檔數量異常多，表示有可能出現問題，需要手動干預。設置為100％同步，無論更改有多大。"
+
+Chk_WaitForLocks						"等待鎖定解除（分鐘）"
+Help_WaitForLocks						"如果選中，則在“分析”中等待lock.gsl這個檔由另一個將其設置為顯示其同步的任務刪除。預設情況下等待時間為20分鐘。如果未選中，則在分析期間找到鎖定檔時會產生鎖定錯誤"
+
+Msg_Override_Locks						"按一下“分析”時覆蓋鎖定，因為我確信其他任務已經異常終止"
+Msg_Override_BadState						"當我再次按一下“分析”時，刪除損壞的狀態檔"
+
+Str_ResolveConflicts						"自動解決衝突"
+Help_ResolveConflicts						"強制自動同步任務的自動衝突解決。在非自動任務中，如果用戶未修改，所有衝突都將導致不會進行複製。僅適用於雙向任務，因為單向任務不會產生衝突"
+Str_DoNotCopy						"不要進行拷貝"
+Str_LeftSideWins						"左側覆蓋右側"
+Str_RightSideWins						"右邊覆蓋左側"
+Str_NewerFileWins						"較新的檔覆蓋舊檔"
+Str_StopSync						"停止同步"
+
+Str_RenameLosingFile						"衝突解決：重命名丟失檔，而不是刪除"
+Help_RenameLosingFile						"當自動解決衝突時，將丟失的檔重命名為'<FileName> (Conflicted Copy from <Computer> on <Date>).ext'"
+
+Str_AutoClear						"自動清除分析/同步完成後的樹"
+Help_AutoClear						"分析/同步交易完成後，自動清除更改樹"
+
+Str_NotInPortable						"不適用於便攜版（Portable version）"
+
+
+# Job options - Scripts page
+Title_Script						"腳本"
+Tip_Script						"腳本"
+Str_PreAnalyzeProgram						"預先分析"
+Help_PreAnalyzeProgram						"如果是電子郵寄地址則在分析開始之前發送日誌到郵寄地址（工具->程式選項->連接，這個功能表中指定的伺服器）如果是具有參數的程式名稱，則在“分析”開始之前運行此程式。"
+Str_PostAnalyzeEmailOrProgram						"提交分析（無更改）"
+Help_PostAnalyzeEmailOrProgram						"如果是電子郵寄地址則在分析完成後（無更改時）發送日誌到郵寄地址（工具->程式選項->連接，這個功能表中指定的伺服器）如果是具有參數的程式名稱，則在“分析”分析完成後（無更改時）運行此程式。"
+Str_PostSyncEmailOrProgram						"提交同步資訊"
+Help_PostSyncEmailOrProgram						"同步（更改）完成後，如果是電子郵寄地址則發送日誌到郵寄地址（工具->程式選項->連接，這個功能表中指定的伺服器）如果是具有參數的程式名稱，則在同步（更改）完成後運行此程式。"
+Str_CallingProgramEmail						"調用程式和發送電子郵件"
+Str_PreAnalyze						"預先分析:"
+Str_PostAnalyzeNoChanges						"提交分析（無更改）:"
+Str_PostSync						"提交同步資訊:"
+Str_Variables						"變數可以在程式/電子郵件參數中使用："
+Str_ScriptOptLegend						"\n'errors: ' 首碼：僅在發生錯誤時運行/發送電子郵件\n'nowait: ' 首碼：不要等待程式完成\n'noattach: ' 首碼：不要將日誌檔附加到電子郵件\nuser@email-co.com: 用變數發送電子郵件文本 - 發送自訂郵件\n"
+Str_VarOptLegend						"%%JOBNAME%%\t任務名稱\n%%RESULT%%\t結果為成功或為錯誤資訊\n%%LOGPATH%%\t日誌檔路徑\n%%LF%% %%RF%%\t左或右資料夾\n%%LF_ACT%%\t左側資料夾\n%%RF_ACT%%\t右側資料夾\n%%CHANGED%%\t後期分析中更改項目的數量\n%%ERRORS%%\t分析或同步後錯誤的數量\n%%CONFLICTS%%\t分析或同步後衝突的數量\n%%SYNCOK%%\t同步後同步的項目數\n%%SYNCCHG%%\t同步後同步完成的檔數"
+
+
+# Job Options - Advanced
+Title_JobAdvanced						"高級"
+Tip_JobAdvanced						"高級"
+
+Title_JobLeftSide						"左側"
+Tip_JobLeftSide						"左側選項"
+
+Title_JobRightSide						"右側"
+Tip_JobRightSide						"右側選項"
+
+Chk_CopyCreateTime						"複製檔創建時間"
+Help_CopyCreateTime						"如果選中，則複製檔創建和修改時間。 如果未選中，則只複製檔修改時間。 僅在Windows檔案系統中可用"
+Help_Mac_CopyCreateTime						"如果選中，則複製檔創建和修改時間。 如果未選中，則只複製檔修改時間。 僅適用於Windows和Mac檔案系統"
+
+Chk_CopyOrigFileNames						"複製檔案系統中的原始名稱"
+Help_Mac_CopyOrigFileNames						"不要在檔案名中更改禁止的符號(?\\<>|*\")請小心！此選項只能在Mac到Mac的任務中正常工作！"
+
+Chk_CopyAttrs						"複製屬性"
+Help_CopyAttrs						"複製隱藏，系統，唯讀，歸檔屬性，僅適用於Windows到Windows的任務中。"
+
+Chk_CopyAttrs_Unix						"複製許可權"
+Help_CopyAttrs_Unix						"複製rwxrwxrwx許可權，僅適用於Mac到Mac或Unix到Unix的任務中。"
+
+Chk_CopyOwner						"複製所有者"
+Help_CopyOwner						"複製檔/資料夾所有者。僅適用於NTFS到NTFS或Mac到Mac的任務中。"
+
+Chk_CopyACL						"複製 ACL"
+Help_CopyACL						"複製檔或資料夾時複製存取控制清單。複製DACL（但不是SACL），僅在NTFS到NTFS同步中工作，檔/資料夾必須位於相同的NT域中。"
+
+Chk_CopyACL_Mac						"複製 ACL"
+Help_CopyACL_Mac						"複製檔或資料夾時複製存取控制清單。僅適用於HFS到HFS同步"
+
+Chk_CopyExtendedAttrs						"複製擴展屬性"
+Help_CopyExtendedAttrs						"複製擴展屬性。僅適用於Mac HFS到Mac HFS同步"
+
+Chk_CompareCheckSumAll						"比較所有檔的校驗和（慢）"
+Help_CompareCheckSumAll						"如果選中，則比較所有檔正文的校驗和（CheckSums）（即使檔大小和模式時間相同）; 在同步每個檔之後，比較“源和目標”檔的“校驗和”，以確保該檔沒有錯誤複製。如果沒有選中，則只比較檔大小和檔修改時間，以確定檔是否已更改，同步後無檔複製驗證。此選項使同步速度更慢，但他保證檔的內容相同（根據校驗和）"
+
+
+Chk_CopyLocked						"使用VSS快照複製鎖定的檔"
+Help_CopyLocked						"使用卷影服務從另一個進程鎖定的檔中複製。在64位元系統上需要64位元的GoodSync版本。"
+
+Chk_RetrySyncIfFileChanges						"如果原始檔案在“分析”和“同步”運行之間更改，則重試同步"
+Help_RetrySyncIfFileChanges						"如果選中，檔在“分析”或同步之後發生變化則立即重試同步該檔。如果未選中，檔在“分析”或同步之後發生變化則讓下一次分析來處理差異檔變化。"
+
+Chk_UberUnlockedUploads						"超級解鎖模式: 原始檔案可在上傳過程中被刪除"
+Help_UberUnlockedUploads						"選中: 原始檔案在上傳時可以被刪除或移動，他們不會以任何方式被鎖定。 未選中: 使用作業系統解鎖模式進行上傳，它仍然鎖定原始檔案以防移動或刪除。"
+
+Chk_DetectsMovesRenames						"檢測檔和資料夾的移動和重命名"
+Help_DetectsMovesRenames						"開：將執行檔和資料夾的移動和重命名檢測。關：檔移動和重命名將作為新檔副本舊檔將被刪除。"
+
+Chk_CalcReqSpace						"估計同步所需的磁碟空間"
+Help_CalcReqSpace						"如選中本選項，將計算完成整個同步所需的可用磁碟空間。如預計寫入的磁碟空間有限則建議開啟本選項。如磁碟空間充裕，不擔心磁片溢出則考慮給予關閉。"
+
+
+Radio_OneWayDeleteSource						"移動模式：複製後刪除原始檔案"
+Help_OneWayDeleteSource						"單向作業：成功將其複製到目的檔案夾後，刪除原始檔案。這能有效地將文件從原始檔案夾移動到目的檔案夾。"
+Warn_OneWayDeleteSource						"確定要將原始檔案複製到目標目錄後刪除？\n刪除的檔無法在源端恢復。\n只有當您絕對確定時，請點擊“是”。"
+
+Check_DeleteEmptyFolders						"移動模式：複製後刪除空資料夾"
+Help_DeleteEmptyFolders						"刪除移動模式中的空資料夾：如果原始檔案夾在同步後變為空，則將其刪除。"
+
+
+LinksOption						"符號連結和連接:"
+Radio_Ignore						"忽略"
+Help_Links_Ignore						"如果選擇，GoodSync將忽略符號連結和連接到檔和資料夾"
+
+Radio_CopyAsIs						"按原樣複製（複製連結）"
+Help_Links_CopyAsIs						"如果選中，GoodSync將連結複製到目標端的相同連結。請注意，複製的連結可能指向未複製的檔，因為它們在複製的資料夾樹之外。"
+
+Radio_DrillDown						"向下探尋（深度複製）"
+Help_Links_DrillDown						"如果選中，GoodSync會向下探尋連結。也就是說，將會複製連結的目的檔案，而不是複製連結本身。 請注意，可能會發生更多檔複製，因為多個連結可能指向源端的一個檔。"
+
+
+#
+# Left/Right side options
+#
+Title_Left_Side						"左側"
+Tip_Left_Side						"左側選項"
+Title_Right_Side						"右側"
+Tip_Right_Side						"右側選項"
+
+Str_Side_Analyze						"是什麼使檔不同"
+
+Chk_CompareFileSizeTime						"(x) 比較檔大小和修改時間"
+
+Chk_CompareCheckSumSide						"比較文件校驗和（較慢）"
+Help_CompareCheckSumSide						"選中時：如果分析看到這個檔大小沒有變化，但檔修改時間發生了變化，就檢查檔的校驗和（CheckSums）用以確定檔是否有改變；同步檔後比較原始檔案和目的檔案的校驗和，保證檔已正確複製。未選中：僅比較檔大小和修改時間，以確定檔是否發生更改，同步後無檔複製驗證。"
+
+Chk_CompareAttrs						"比較屬性"
+Help_CompareAttrs						"如果分析看到檔本體沒有改變，但檔的屬性改變了，則聲明此方面有屬性的更改。僅適用於從NTFS到NTFS的同步。"
+
+Chk_CompareAttrs_Unix						"比較許可權"
+Help_CompareAttrs_Unix						"如果分析看到檔本體沒有更改，但檔的許可權有更改，則聲明此方面有許可權更改。僅適用於從Mac到Mac的同步"
+
+Chk_CompareOwner						"比較文件所有者"
+Help_CompareOwner						"如果分析看到檔本體沒有更改，但檔的所有者發生了更改，則聲明此方面的所有者更改"
+
+Chk_CompareACL						"比較 ACL (慢)"
+Help_CompareACL						"如果分析中看到檔主題沒有更改，但檔的ACL發生了更改，則聲明此方面的ACL更改。僅適用於從NTFS到NTFS的同步，並且檔/資料夾必須在同一個NT域中。"
+
+Chk_CompareACL_Mac						"比較 ACL (慢)"
+Help_CompareACL_Mac						"如果分析中看到檔主題沒有更改，但檔的ACL發生了更改，則聲明此方面的ACL更改。僅適用於從HFS到HFS的同步"
+
+Chk_CompareExtendedAttrs						"比較擴展屬性"
+Help_CompareExtendedAttrs						"如果分析看到檔本體沒有改變，但檔的擴展屬性改變了，則聲明此方面有擴展屬性的更改。僅適用於從Mac (HFS)到Mac (HFS)的同步。"
+
+
+Str_Side_Exotic						"異常選項 (不要更改)"
+
+Chk_NoGsData_Side						"不要生成_gsdata_資料夾"
+Help_NoGsData_Side						"如果選中，則不要在任務的這一側創建_GSDATA_資料夾，而是在此電腦上的GoodSync設定檔資料夾中創建_GSDATA_資料夾。如果未選中，則在此任務的同步資料夾中創建_GSDATA_資料夾。使用此選項僅適用於未通過其他任務或其他電腦進行同步的資料夾。"
+Warn_KeepGsData						"您確定要將_GSDATA_資料夾保存在GoodSync設定檔夾中嗎？\n此選項僅適用於高級使用者，您應該在選擇之前先閱讀手冊。"
+Warn_MoveGsData						"您確定要將_GSDATA_資料夾移回到同步資料夾嗎？\n此選項僅適用於高級使用者，您應該在選擇之前先閱讀手冊。"
+
+Chk_FastPreAnalyze						"分析期間不要列出資料夾（危險）"
+Help_FastPreAnalyze						"如果選中，那麼在分析期間不要列出資料夾以查看它們中的內容，而是信任GoodSync狀態檔來提供檔清單。如果未選中，則執行完整分析，並列出所有資料夾。如果只有GoodSync（而不是其他程式）更改資料夾和子資料夾，則可以使用此選項。建議不要使用此選項，除非您真正知道您正在做什麼。"
+
+Chk_UseSafeCopy						"使用暫存檔案以進行安全複製"
+Help_UseSafeCopy						"選中時：將檔複製到目的地時，首先複製到暫存檔案，然後將其重命名為目的檔案。當同步操作意外終止時，可以防止檔損壞。需要額外的磁碟空間，特別是對於大檔。未選中時：直接複製到目的檔案，複製會更快但可能導致檔丟失或損壞。"
+
+
+Str_Side_Encryption						"用戶端加密"
+
+Chk_Encrypt_FileAll						"加密檔內容和名稱"
+Help_Encrypt_FileAll						"如果選中，會使用AES256位金鑰並隨機加鹽來加密檔內容和名稱，檔體積將增加32比特"
+
+Chk_Encrypt_FilePaths						"加密檔案名"
+Help_Encrypt_FilePaths						"如果選中，則在同步時使用256位元金鑰通過AES演算法來加密同步目標的檔/資料夾的名稱。"
+
+Chk_Encrypt_FileBodies						"加密檔本體"
+Help_Encrypt_FileBodies						"如果選中，則同步時將使用256位金鑰和隨機鹽通過AES演算法來加密同步目標的檔本體，這將會導致檔大小增大32個位元組"
+
+Chk_Encrypt_Password						"加密密碼"
+Chk_Encrypt_Password2						"加密密碼（重複）"
+Help_Encrypt_Password						"加密密碼 - 加密的檔案名和檔的金鑰"
+
+Btn_Encrypt_Test						"測試加密"
+Help_Encrypt_Test						"點擊測試加密：嘗試使用您指定的密碼讀取現存的資料夾"
+Msg_Encr_Test_Empty						"加密資料夾現在為空，已準備好添加加密檔，當您從未加密資料夾同步。"
+Msg_Encr_Test_List_Encrypted						"加密資料夾顯示這些檔和資料夾，如果您嘗試使用提供的加密密碼解密。\n\n如果這些名稱看起來像亂碼，那麼加密密碼一定是錯了。\n如果你認出名稱，那麼加密密碼正確。\n如果你忘記加密密碼，點擊清空同步資料夾按鈕，然後從原始檔案夾重新同步。n"
+Msg_Encr_Test_List_Plain						"同步資料夾顯示這些檔和資料夾，並且你指定不加密。\n\n如果這些名稱看起來像亂碼，那麼開啟加密並輸入正確的加密密碼。\N如果你忘記了加密密碼，點擊清空同步資料夾按鈕，然後從原始檔案夾重新同步。\n"
+Msg_Encr_Test_Result						"測試資料夾加密的結果%1：\n\n%2"
+
+Warn_Encrypt_Changed						"資料夾%1的加密選項或密碼已經改變。\n這意味著你需要重新加密整個目的檔案夾。\N如果你對加密參數不確定，點擊否，然後使用測試加密按鈕測試該資料夾的加密密碼是否好使。\n只在測試過或者清空同步資料夾後，點擊是。\n你要執行加密選項嗎？"
+
+Job_Opt_Title_Pwd_DontMatch						"錯誤。 密碼不匹配"
+Job_Opt_Encr_Pwd_Short						"加密密碼不能短於8個字元"
+
+Btn_Delete_Create_Folder						"清空同步資料夾"
+Help_Delete_Create_Folder						"刪除同步資料夾並在它的位置創建新資料夾，這樣新的同步可以執行。"
+Ask_Delete_Create_Folder						"您確定要刪除資料夾%1及其全部內容並重建空資料夾嗎？"
+
+Str_Side_FileSystem						"檔案系統具體選項"
+
+Browse_Str_PreferCompressed						"使用NTFS壓縮"
+Browse_Tip_PreferCompressed						"使用LZ壓縮這邊。僅適用於NTFS卷，而不適用於FAT。"
+Browse_Str_PreferUncompressed						"在NTFS中解壓縮"
+Browse_Tip_PreferUncompressed						"如果另一邊使用了NTFS壓縮則解壓縮，僅適用於NTFS卷，而不適用於FAT。"
+Browse_Str_FatLike						"使用FAT檔案系統規則"
+Browse_Tip_FatLike						"使用FAT檔案系統規則，即使檔案系統說它不是FAT。一些NAS設備錯誤地報告其檔案系統。"
+Browse_Str_PreferEncrypted						"使用EFS加密"
+Browse_Tip_PreferEncrypted						"使用EFS加密。僅適用於NTFS卷，而不適用於FAT。至少需要Windows XP Pro或Windows Vista Business才能使用。"
+Browse_Str_PreferDecrypted						"使用EFS解密"
+Browse_Tip_PreferDecrypted						"如果對方加密，使用EFS解密這邊。僅適用於NTFS卷，而不適用於FAT。至少需要Windows XP Pro或Windows Vista Business才能使用。"
+Browse_Str_TimeTranslate						"檔案系統無法複製/設置檔修改時間"
+Browse_Tip_TimeTranslate						"如果該檔案系統無法複製/設置檔修改時間，並且需要在狀態檔中記住實際時間，請檢查此標誌。"
+Browse_Mac_Str_UnmountOnDisc						"同步後卸載資料夾"
+Browse_Mac_Tip_UnmountOnDisc						"分析或同步停止後，資料夾將被卸載"
+
+
+#
+# -- Misc Messages --
+#
+Warn_GoodSync						"GoodSync 警告"
+Warn_GoodSyncStrong						"GoodSync強烈警告"
+
+Chk_DoNotAsk						"不要再問我"
+Str_MsgBoxTimeout						"%1 秒後關閉"
+
+Str_SignedAppNeeded						"此應用程式未被Siber Systems Inc正確簽名。\n請安裝帶有數位簽章的版本 https://www.goodsync.com/download"
+
+Str_StopJobsBeforeClose						"一個或多個任務正在運行： %1.\n你想停止所有任務嗎？\n按一下“確定”停止所有任務並退出。\n按一下取消返回GoodSync。"
+
+Str_Warn_HideToTray						"如果GoodSync未運行，則自動任務無法運行，因此當關閉它時，GoodSync將隱藏到系統託盤圖示中。\n要更改此選項，請在“工具”->“程式選項”中取消選中 '%1' 選項。"
+
+Str_SyncOnLogoffAsk						"我們無法在註銷時同步，因為Windows自動結束註銷時的任務。\n確定是否要關閉此選項（需要Windows重新開機後生效）?"
+Str_SyncOnLogoffReason						"註銷時同步"
+Str_SyncOnLogoffJobs						"註銷時同步已為這些任務設置："
+
+# Tooltips
+Tooltip_Synchronizer						"GoodSync: 同步和備份檔案"
+Tooltip_AnalyzingJob						"分析任務"
+Tooltip_SyncingJob						"同步任務"
+
+TT_SetLeftSyncFolder						"按一下流覽按鈕設置第一個（左側）資料夾進行同步或鍵入資料夾路徑"
+TT_SetRightSyncFolder						"按一下流覽按鈕設置第二個（右側）資料夾以同步或鍵入資料夾路徑"
+TT_NewJob						"新建任務"
+TT_ClickToAnalyze						"按一下分析按鈕分析資料夾之間的差異，並提出同步操作"
+TT_ClickToSynchronize						"按一下同步按鈕執行分析提出的同步操作"
+
+TT_ClearLogs						"清除日誌"
+TT_CloseLogs						"關閉日誌視窗"
+TT_OpenLogs						"打開日誌視窗"
+
+# Server Account and Job Sync
+Str_ServerAcctJobSync_Ask_On "您想讓GoodSync在設備間自動備份和同步嗎：\n- 任務，組，程式選項 （這樣您就不必在每台設備上重建任務）？\n- 伺服器帳戶 （這樣您就不必在每台設備上輸入伺服器密碼）？\n點擊是同意通過GoodSync帳戶備份和同步任務以及伺服器帳戶。\n點擊否在本機中只保留一份任務和伺服器帳戶的本地記錄（如版本10一樣）"
+Str_ServerAcctJobSync_Ask_Off "自動同步帳戶和任務正在開啟中。\n您想關閉自動同步帳戶，任務，組，程式選項嗎？"
+Str_ServerAcctJobSync_Ask_Merge "您想*合並*您的本地伺服器上的帳戶、任務、組、選項\n與GoodSync伺服器上的全局伺服器帳戶、任務到一起嗎？\n- 點擊是*合並* 本地與全局的伺服器帳戶、任務，\n- 點擊否讓全局伺服器帳戶、任務*覆蓋*本地數據。\n您的選擇是？"
+Str_ServerAcctJobSync_SwitchExplain "您的GoodSync賬號已從'%1'切換至'%2'.\n全局任務-組/伺服器帳戶同步已開啟，\n這樣您本地任務-組、伺服器帳戶會同新的GoodSync帳戶一起同步\n會刪除屬於舊的GoodSync帳戶的本地任務\n並會用屬於新的GoodSync帳戶的任務替代它們。"
+
+# Update toolbar and messages
+Info_Update_Avail						"新版本的GoodSync已經下載。 <a>點擊這裡安裝它</a>"
+
+Info_Update_Available						"新版本的GoodSync已經發佈。"
+Info_Update_Click_To_Download						"點擊這裡來下載它。"
+ 
+Str_UpdateAvail_2						"GoodSync 當前版本 %1, 發佈的 %2 已經提供下載。"
+
+Str_Update_Ask						"您要下載更新版本嗎？"
+Str_Update_Err_1						"無法獲取版本資訊：\n%1\n您是否想訪問網頁獲取最新的GoodSync版本？"
+
+Str_Ver_YesNewVersion						"版本 %1 發佈的版本 %2 已經可以下載。\n您已安裝版本 %3 。"
+Str_Ver_NoNewVersion						"您已安裝版本 %1 。\n您的版本是最新的。你想重新安裝相同的版本嗎？"
+
+
+# Buy License dialog
+BuyPro_Title						"升級GoodSync"
+BuyPro_Text_ProFixed						"升級到GoodSync Pro可以獲得：\n- 無限制的任務,\n- 任務中無檔限制,\n- 電話支援, 即時啟動, 等等"
+BuyPro_Text_Pro2Go						"升級到GoodSync2Go Pro可以獲得：\n- 無限制的任務,\n- 任務中無檔限制,\n- 電話支援, 即時啟動, 等等"
+BuyPro_Text_Server						"升級到GoodSync Enterprise Server可以獲得：\n- 刪除試用限制,\n- 獲得專業的企業支援,\n- 獲取您自己的客戶經理"
+BuyPro_Limit_Pro						"你已經超出了Free版本的限制。 要繼續使用GoodSync，您應該升級到GoodSync Pro版本或將任務減少到3，將任務中的檔減少到100。"
+BuyPro_Limit_Server						"在Windows Server上運行GoodSync需要Enterprise Server許可證。"
+BuyPro_Link						"點擊此處瞭解有關Free vs Pro版本的更多資訊"
+
+BuyPro_Text_WD_Pro		"今天升級到GoodSync付費許可版來獲取:\n- 無限任務，更多源/目標選項"
+BuyPro_Text_WD_LimitPro	"您已超出WD免費版限制。\n 今天升級到GoodSync WD付費許可版來獲取無限任務。"
+
+Str_Msg_SyncAgainAfterActiv						"一旦GoodSync Pro被啟動，再次按一下同步"
+
+
+# Create ticket 
+Ticket_File_Desc						"以下檔包含診斷資訊。\n它不包含您的電腦的任何私人資訊。"
+Ticket_Instruction						"按一下複製路徑按鈕將ZIP檔路徑複製到剪貼板。\n按一下下面的GS支援Web連結，輸入您的電子郵件，然後按一下登錄。\n在工單中說明您的問題。\n在“附加檔”部分中按一下流覽...。\n按Ctrl + V將ZIP檔路徑粘貼到打開對話方塊中並提交。"
+Ticket_Btn_Copy						"Copy Path"
+
+# Mini Mode
+Str_MiniDlgNoActiveJob						"<沒有活動的任務>"
+
+#
+# -- Log Viewer general --
+#
+LV_AppTitle						"日誌檢視器"
+LV_LogListTitle						"日誌檔案名"
+LV_OpenLogDlg						"打開日誌資料夾"
+LV_TotalLine						"總數"
+
+# Log Viewer Error
+LV_Err_NoLogFileFound						"<找不到日誌檔>"
+LV_Err_UnknownFs						"未知檔案系統"
+LV_Err_CannotOpenFile2						"不能打開檔 %1: %2"
+LV_Err_ReadingFile2						"讀取檔錯誤 %1: %2"
+LV_Err_ParseCmdLine						"解析命令列錯誤"
+
+# Log Viewer Find Window
+LV_Find						"查找："
+LV_FindNext						"下一個"
+LV_FindPrev						"上一個"
+LV_FindAll						"查找全部"
+LV_FindCaseSens						"區分大小寫"
+
+#Log Viewer Menu
+LV_MenuFile						"文件"
+LV_MenuView						"視圖"
+LV_MenuOpen						"打開"
+LV_MenuExit						"退出"
+LV_MenuCopyAsText						"複製選擇到剪貼板"
+LV_MenuSelectAll						"全選"
+LV_MenuDelete						"刪除"
+LV_MenuFind						"查找"
+LV_MenuSelectFont						"選擇字體"
+
+#
+# -- Installer --
+#
+Install_GoodSync_Title						"安裝GoodSync"
+Install_Portable_Title						"安裝GoodSync2Go"
+Install_Welcome_Header						"歡迎使用GoodSync"
+Install_Welcome_Header_MidServer   "歡迎使用GoodSync Windows伺服器版"
+Install_Welcome_Header_FileServer  "歡迎使用GoodSync 檔案伺服器版"
+Install_Welcome_Header_BsnsClient  "歡迎使用GoodSync企業工作站"
+Install_Welcome_Header_CC_Runner   "歡迎使用控制中心"
+Install_Welcome_Header_WD          "歡迎使用GoodSync WD版"
+Install_Legal_Part1						"繼續，我同意GoodSync"
+Install_Legal_Part2						"服務協定"
+Install_Legal_Part3						" 和 "
+Install_Legal_Part4						"隱私協議"
+Install_Next						"下一步"
+Install_Back						"後退"
+Install_Cancel						"取消"
+Install_AbortMessage						"確定要停止安裝GoodSync嗎？"
+Install_Install						"安裝"
+Install_ShowAllDrives						"顯示所有磁片"
+Install_Start_GoodSync						"GoodSync已經安裝成功。\n您要運行它嗎？"
+Install_Start_2Go						"GoodSync2Go已經安裝成功。\n您要運行它嗎？"
+
+Uninstall_Approve       "您要卸載 %1 ?"
+Uninstall_DeletePvt     "刪除個人數據（任務，密碼，日志）"
+Uninstall_Uninstalling  "卸載中 "
+
+#
+# --- For Mac ---
+#
+Str_Mac_GSFolder						"資料夾"
+Str_Mac_FinderFavorities						"~最喜愛的"
+
+
+Str_Mac_WelcomeScreenTitle						"歡迎"
+Str_Mac_StartupScreen_WelcomeDescr						"備份或同步您的檔"
+Str_Mac_StartupScreen_Btn_Create						"新建任務"
+Str_Mac_StartupScreen_Str_HowTo						"如何開始"
+Str_Mac_StartupScreen_Str_Choose						"為您的新任務選擇左側和右側資料夾。"
+Str_Mac_StartupScreen_Str_ClickAnalyze						"按一下分析並查看建議的更改。"
+Str_Mac_StartupScreen_Str_ClickSync						"按一下同步。"
+Str_Mac_StartupScreen_Str_YesEasy						"- 是的，這很簡單！"
+Str_Mac_GSStartUpScreen_CheckSucc						"登錄成功"
+Str_Mac_GSStartUpScreen_CreationSucc						"創建成功"
+Str_Mac_GSStartUpScreen_HaveGSAccount						"我有GoodSync Connect帳戶"
+Str_Mac_GSStartUpScreen_CreateGSAccount						"創建GoodSync Connect帳戶"
+Str_Mac_GSStartUpScreen_WillInstallGSServer						"GoodSync將安裝GoodSync伺服器以提供更好的同步服務。"
+Str_Mac_GSStartUpScreen_WillUpdateGSServer						"GoodSync將更新GoodSync伺服器以提供更好的同步服務。"
+Str_Mac_GSStartUpScreen_GSServerInstallFailed						"GoodSync伺服器安裝失敗"
+Str_Mac_GSStartUpScreen_GSServerUpdateFailed						"GoodSync伺服器更新失敗"
+Str_Mac_GSStartUpScreen_PassNotMatch						"密碼不匹配"
+Str_Mac_GSStartUpScreen_WillRemoveGSServer						"GoodSync將卸載GoodSync伺服器"
+Str_Mac_GSStartUpScreen_RemoveGSServerStatus						"Goodsync Connect已成功卸載"
+Str_Mac_GSStartUpScreen_UpdateGSServerStatus						"Goodsync Connect已成功更新"
+Str_Mac_GSStartUpScreen_InstallGSServerStatus						"Goodsync Connect已成功安裝"
+Str_Mac_GSStartUpScreen_ConfPassword						"確認密碼"
+Str_Mac_GSStartUpScreen_AdminSubmitPassMessage						"請為現有的GoodSync Connect帳戶提供使用者ID和密碼。具有相同使用者ID和密碼的所有電腦可以彼此同步"
+Str_Mac_GSStartUpScreen_AdminCreatePassMessage						"請提供唯一標識您的GoodSync服務的使用者ID和密碼。 具有相同使用者ID和密碼的所有電腦可以彼此同步"
+Str_Mac_GSStartUpScreen_AdminPassHeader						"GoodSync Connect配置"
+
+
+Str_Mac_ToolTipInStatusBar_Create						"新建任務"
+Str_Mac_ToolTipInStatusBar_Delete						"刪除任務"
+Str_Mac_ToolTipInStatusBar_JobActions						"任務行動"
+Str_Mac_ToolTipInStatusBar_ShowHideLog						"顯示/隱藏日誌"
+
+Cmd_Mac_Str_Show						"顯示"
+Cmd_Mac_Str_Hide						"隱藏"
+
+Str_Mac_Done                        "完成"
+
+# Grant Full Disk Permissions dialog
+Str_Mac_FDA_Title       "GoodSync需要全盤訪問"
+Str_Mac_FDA_Info        "為備份您的應用數據（郵件，日曆等）和系統保護資料夾，授予GoodSync, gs-server and gs-runner 獲取這些數據的權限。"
+Str_Mac_FDA_OpenPrivTab "打開個人標簽，選擇全盤訪問"
+Str_Mac_FDA_Lock        "點擊鎖定圖示來允許更改"
+Str_Mac_FDA_Drag        "向下拖拽GoodSync圖示到全盤訪問列表中"
+
+Btn_Mac_OpenSPSecPriv   "打開安全與隱私偏好"
+
+# Old Style Browse Dlg mac strings
+Browse_Mac_Btn_Disconnect						"斷開"
+Browse_Mac_Str_Address						"地址"
+Browse_Mac_Str_Enter_Info						"輸入 '%1' 連接資訊並按下 \"連接\""
+Browse_Mac_Str_ChooseFld						"選擇資料夾'%1’並點擊確認"
+Browse_Mac_Str_Network_UpdateBtn						"更新"
+Browse_Mac_Str_Network_NetworkEnv						"網路環境"
+Browse_Mac_Str_Network_IP_Column						"IP地址"
+Browse_Mac_Str_Network_Desc_Column						"描述"
+Browse_Mac_Str_Size						"大小"
+Browse_Mac_Chk_ShowHidden						"顯示隱藏的檔/資料夾"
+
+Cmd_Mac_ShowLeftTrashBin						"左側回收站"
+Cmd_Mac_ShowRightTrashBin						"右側回收站"
+Cmd_Mac_MakeGSDataVisible						"使gsdata可見"
+Cmd_Mac_MakeGSDataInVisible						"使gsdata不可見"
+
+Str_Status_Mac_TrayMenuMulyiAnalyze						"%1 任務正在運行"
+Str_Status_Mac_GsRunnerSetUpSuccess						"GoodSync Runner Service已成功安裝"
+Str_Status_Mac_AnalyzeFinished_OK						"分析成功完成"
+Str_Status_Mac_AnalysisStarted						"分析開始"
+Str_Status_Mac_SyncStarted						"同步開始"
+Str_Mac_NoActiveJob						"沒有活動的任務"
+
+Str_Mac_EqComprassion						"檔都是相等的"
+
+Btn_Mac_Check						"登錄"
+Btn_Mac_Install						"安裝"
+Btn_Mac_Remove						"移除"
+
+Toolbar_Mac_Compare_OneShortWord						"比較"
+ToolBar_Mac_ShowLog_OneShortWord						"顯示日誌"
+Toolbar_Mac_HideLog_OneShortWord						"隱藏日誌"
+Toolbar_Mac_Preferences_OneShortWord						"優先"
+Toolbar_Mac_Customize_OneShortWord						"自訂"
+
+Str_Mac_Default_Group_Groups						"組"
+Str_Mac_Default_Group_Jobs						"任務"
+
+Str_Mac_Count_Jobs_In_Status_Bar						"任務"
+Str_Mac_Count_Job_In_Status_Bar						"任務"
+
+Str_Mac_Accept						"接受"
+Str_Mac_Decline						"拒絕"
+Str_Mac_LicenseAgreement						"授權合約"
+
+#
+# Mac wipeout
+#
+Str_Mac_Wipeout_Text						"您確定要從Mac上完全卸載GoodSync嗎？"
+Str_Mac_Wipeout_Title						"GoodSync即將卸載。"
+
+#
+# Mac Auto Update
+#
+Str_Mac_UpdatingGS						"正在更新 GoodSync"
+Title_Mac_UpdateWnd						"GoodSync 更新窗口"
+
+Chk_Mac_AU						"自動更新GoodSync"
+Help_Mac_AU						"當新的版本可用於goodsync.com更新將沒有任何用戶交互的自動執行。所有任務都完成後，GoodSync將等待並自動更新。"
+
+#
+# GoodSync Explorer for Mac
+#
+Str_Mac_Bookmarks						"書簽"
+Str_Mac_Connected						"連接的"
+Str_Mac_LoginTo						"登錄到"
+
+Str_Mac_UserName						"用戶名"
+Str_Mac_Server						"伺服器"
+Str_Mac_Servers						"伺服器"
+Str_Mac_InitPath						"初始路徑"
+Str_Mac_ServerAndPath						"伺服器, 初始路徑"
+Str_Mac_DisplayNames						"顯示名稱"
+Str_Mac_NetworkEnv						"網路環境"
+Str_Mac_OptSubFolders						"/資料夾/子資料夾/... (可選)"
+Str_Mac_OptFilePath						"檔路徑（可選）"
+Str_Mac_Optional						"可選"
+Str_Mac_Advanced						"高級 >>"
+Str_Mac_ConnectPrompt						"輸入 %1 連接資訊並按下 \"連接\""
+Str_Mac_AdvancedPrompt						"高級設置 %1"
+Str_Mac_UseProxy						"通過代理連接"
+
+#
+# IPhone Common
+#
+Iphone_Done "完成"
+Iphone_Cancel "取消"
+Iphone_Delete "刪除"
+Iphone_copy						"複製"
+Iphone_move						"移動"
+Iphone_clone						"克隆"
+Iphone_Move_Clone_Copy_To_Itself_Message						"您不能%1它自身！"
+Iphone_Create_Folder						"創建資料夾"
+Iphone_Paste_From_Clipboard						"從剪貼板粘貼"
+Iphone_Enter_Not_Empty_Name_Message						"輸入非空名稱！"
+Iphone_New_Folder						"新建資料夾"
+Iphone_copy_suffix						"複製"
+Iphone_Sort_By						"排序："
+Iphone_Sort_Name						"名稱"
+Iphone_Sort_Date						"日期"
+Iphone_Sort_Size						"大小"
+Iphone_Sort_Type						"類型"
+Iphone_SortedBy_Name						"按照名稱排序"
+Iphone_SortedBy_Date						"按照日期排序"
+Iphone_SortedBy_Size						"按照大小排序"
+Iphone_SortedBy_Type						"按照類型排序"
+Iphone_Item_Existing_Message						"項目已存在！你要覆蓋嗎"
+Iphone_You_Want_To_Message						"您要"
+Iphone_Replace_Existing_Question						"替換現在項目？"
+Iphone_Replace_Existing_Message						"名為'%2'的%1已經存在於該位置！你要將它替換為正在複製的嗎？"
+Iphone_One_Time_Password "一次性密碼"
+Iphone_Enter_OTP "請在這裏輸入您的一次性密碼"
+Iphone_Items_Zero 	"%1 個項目"
+Iphone_Items_One 	"%1 個項目"
+Iphone_Items_Two 	"%1 個項目"
+Iphone_Items_Few 	"%1 個項目"
+Iphone_Items_Many 	"%1 個項目"
+Iphone_Items_Other 	"%1 個項目"
+Iphone_Available "%1 可用"
+
+#
+# IPhone MultiSelect
+#
+Iphone_Select "選擇"
+Iphone_Select_All "選擇全部"
+Iphone_Deselect_All "取消全部"
+Iphone_Select_Items "選擇項目"
+Iphone_Select_Title_Zero 	"選擇項目"
+Iphone_Select_Title_One 	"%1 個項目"
+Iphone_Select_Title_Two 	"%1 個項目"
+Iphone_Select_Title_Few 	"%1 個項目"
+Iphone_Select_Title_Many 	"%1 個項目"
+Iphone_Select_Title_Other 	"%1 個項目"
+
+#
+# IPhone Login
+#
+Iphone_Register						"註冊"
+Iphone_Registration						"註冊"
+Iphone_Empty_Password_Message						"密碼為空"
+Iphone_Repeat						"重複"
+Iphone_Enter_ComputerID_Message						"輸入電腦ID"
+Iphone_CopyRight "版權 © 1999 - %1 Siber Systems, Inc.\n版權所有."
+
+#
+# IPhone Actions
+#
+Iphone_Action_Delete "刪除"
+Iphone_Action_Rename "重命名"
+Iphone_Action_Download						"下載"
+Iphone_Action_Copy_To_Clipboard						"複製到剪貼板"
+Iphone_Action_Clone						"克隆"
+Iphone_Action_Replace						"替換"
+Iphone_Action_Replace_All "替換全部"
+Iphone_Action_Skip "跳過"
+Iphone_Action_Skip_All "跳過所有"
+Iphone_Action_Keep_Both						"保留二者"
+
+#
+# IPhone Server
+#
+Iphone_Server_Status_Stopped						"已停止"
+Iphone_Server_Status_Starting "正在開始"
+Iphone_Server_Status_Connecting "正在連接"
+Iphone_Server_Status_Stopping "正在終止"
+Iphone_Server_Status_Running						"正在運行"
+Iphone_Server_Stopped_Message						"啟動伺服器時使用GoodSync連接您的%1"
+Iphone_Server_Running_Message						"現在您能在桌面電腦使用GoodSync連接到這個%1"
+Iphone_Server_Start_Button						"開始"
+Iphone_Server_Stop_Button						"停止"
+
+#
+# IPhone Locations
+#
+Iphone_Locations						"流覽器"
+Iphone_Empty_Locations_Message						"該資料夾中沒有項目"
+Iphone_File_Downloaded_Message						"文件下載到'%1'！"
+Iphone_Files_Downloaded_Message "檔案已下載至 '%1'!"
+Iphone_Folder_Downloaded_Message "資料夾已下載至 to '%1'!"
+
+#
+# IPhone Downloads
+#
+Iphone_Vault "保管庫"
+Iphone_Downloads2 "下載"
+Iphone_Downloading "正在下載"
+Iphone_Empty_Folder						"資料夾為空"
+Iphone_Folder_Exists_Message						"資料夾已存在。選擇其它名稱。"
+Iphone_Folder_Is_Not_Empty_Message						"資料夾非空。它包含%1個項目！"
+Iphone_Folder_Delete_Message						"確定要刪除資料夾'%1’以及全部內容嗎？"
+Iphone_File_Delete_Message						"確定要刪除檔'%1’嗎？"
+Iphone_Link_Delete_Message						"確定要刪除連結'%1’嗎？"
+Iphone_Delete_Items_Message "您確定要刪除所選項目嗎？"
+
+#
+# IPhone Preferences
+#
+Iphone_Preferences						"偏好"
+Iphone_Account						"帳號"
+Iphone_Prefs_Security "安全"
+Iphone_Prefs_GoodSync_Unlock_Mode "GoodSync Explorer解鎖模式"
+Iphone_Prefs_Unlock_Mode "解鎖模式"
+Iphone_Prefs_Password "密碼"
+Iphone_Prefs_Pin_Code "Pin碼"
+Iphone_Prefs_Touch_ID "觸控ID"
+Iphone_Prefs_Face_ID "人臉ID"
+Iphone_Prefs_No_Authorization "無授權"
+Iphone_Prefs_Change_PIN "更改PIN"
+Iphone_Prefs_Change_Password "更改密碼"
+Iphone_Prefs_TouchID_Footer "由於iOS限制觸控ID不能用於檔案應用"
+Iphone_Prefs_FaceID_Footer "由於iOS限制Face ID不能用於檔案應用"
+Iphone_Prefs_Photos_Title "iCloud圖片"
+Iphone_Prefs_Photos_DownloadCloud "允許從iCloud下載"
+Iphone_Prefs_Photos_Footer "開啟該選項會下載沒有保存在本機但保存在iCloud中的所有檔。\n所以您需要更多的手機空間，如果您空間不足，剩餘的檔將轉移至iCloud。"
+
+Iphone_Show_Hidden_Files						"顯示隱藏檔"
+Iphone_Cache_Small_Files						"自動緩存小檔（5MB）"
+Iphone_Show_Thumbnails_On_Cached_Items						"顯示緩存項目的縮略圖"
+Iphone_Clear_Files_Cache						"清除檔緩存"
+Iphone_Show_Thumbnails						"顯示縮略圖"
+Iphone_GoodSync_Account						"GoodSync Connect帳戶"
+Iphone_Manage_Account "管理"
+Iphone_Log_Out						"退出登錄"
+Iphone_LogOut_Message						"確定要退出登錄嗎？"
+Iphone_Delete_Cached_Files_Message						"確定要刪除所有快取檔案嗎？"
+Iphone_Review						"在應用商店評價"
+Iphone_Open_Source						"打開源"
+Iphone_Support						"支持"
+Iphone_SupportTicket_Subject_Placeholder "主題"
+Iphone_SupportTicket_Message_Placeholder "請在這裏輸入您的信息"
+Iphone_SupportTicket_Send "發送"
+
+#
+# Iphone PIN
+#
+IPhone_PIN_NotMatchedText "Pin碼不匹配。"
+IPhone_PIN_ConfirmationText "重新輸入您的pin碼"
+IPhone_PIN_LockedOutString "您已被鎖定。"
+IPhone_PIN_PluralAttemptsLeftString "剩餘嘗試次數"
+IPhone_PIN_SingleAttemptLeftString "剩餘嘗試"
+IPhone_PIN_Setup "設置您的PIN"
+IPhone_PIN_Setup_Title "輸入4位的PIN碼解鎖GoodSync Explorer"
+Iphone_EnterPIN "輸入PIN碼"
+Iphone_CreatePIN "創建PIN碼"
+Iphone_ChangePIN "更改PIN碼"
+Iphone_PINChangedTitle "PIN碼已更改"
+Iphone_PINChangedMessage "PIN碼已成功更改"
+Iphone_PINEnabledTitle "PIN碼已啟用"
+Iphone_PINEnabledMessage "您現在可以用PIN碼打開GoodSync Explorer"
+Iphone_LoginReason "打開GoodSync Explorer"
+Iphone_LoginWithPassword "密碼登陸"
+
+#
+# Iphone Authentication screens
+#
+Intro_TouchId_Title      "觸控ID"
+Intro_TouchId_Text       "您的設備已啟用觸控ID認證。\n您想將觸控ID作為您的GoodSync Explorer認證方式嗎？"
+Intro_TouchId_ButtonText "觸控ID登陸"
+Intro_FaceId_Title      "人臉ID"
+Intro_FaceId_Text       "您的設備已啟用人臉ID認證。\n您想將人臉ID作為您的GoodSync Explorer認證方式嗎？"
+Intro_FaceId_ButtonText "人臉ID登陸"
+
+Iphone_NoAuthorizationModeTitle "免認證模式"
+Iphone_NoAuthorizationModeMessage "您現在無需認證即可打開GoodSync Explorer"
+Iphone_Pin_ConfirmChange "確認您新的PIN碼"
+Iphone_NoAuth_ConfirmChange "確認開啟免認證模式"
+
+Iphone_BiometryIsLockedMessage "生物信息在本機已被鎖定"
+Iphone_BiometryChangedTouchIdPin "指紋信息已在本機設置中更改。為了下次使用它請輸入PIN碼。"
+Iphone_BiometryChangedTouchIdMP "指紋信息已在本機設置中更改。為了下次使用它請輸入密碼。"
+Iphone_BiometryChangedFaceIdPin "臉部信息已在本機設置中更改。為了下次使用它請輸入PIN碼。"
+Iphone_BiometryChangedFaceIdMP "臉部信息已在本機設置中更改。為了下次使用它請輸入密碼。"
+Iphone_EnterPassword_Prompt "輸入您的密碼"
+#
+# --- GSFILESYS localization ---
+# RFS file codepage and Language -- see main default.rfs
+
+Btn_Browse						"流覽"
+Chk_DoNotShowAgain						"不要再顯示此視窗"
+
+# Misc buttons
+Btn_Add						"添加"
+Btn_Delete						"刪除"
+Btn_Save						"保存"
+Btn_Apply						"應用"
+Btn_Finish				"結束"
+Btn_Yes						"是"
+Btn_No						"否"
+Btn_Abort						"終止"
+Btn_Retry						"重試"
+Btn_Ignore						"忽略"
+Btn_Try						"嘗試"
+Btn_Close						"關閉"
+Btn_Help						"幫助"
+Btn_Continue						"繼續"
+Btn_Done				"完成"
+
+Help_Browse_File						"按一下此按鈕在打開檔對話方塊中選擇文件"
+Help_Browse_Folder						"按一下此按鈕在打開資料夾對話方塊中選擇資料夾"
+Help_Browse_Edit						"請點擊這裡選擇資料夾"
+Help_Invalid_Data       "無效數據"
+
+# Browse Dialog
+Btn_Ok						"確定"
+Btn_Cancel						"取消"
+Tip_Ok						"保存值並關閉對話方塊"
+Tip_Cancel						"關閉對話方塊不保存值"
+
+Browse_Btn_Go						"執行"
+Browse_Btn_Go_Tip						"轉至執行"
+Browse_Btn_Stop						"停止"
+Browse_Btn_Stop_Tip						"停止當前操作"
+
+Browse_Btn_FileSystem_Tip						"選擇檔案系統"
+Browse_Btn_Accounts						"帳號"
+Browse_Btn_Accounts_Tip						"使用一個帳戶用於驗證伺服器"
+Browse_Btn_Servers						"伺服器"
+Browse_Btn_Servers_Tip						"帳戶驗證完成後選擇一個伺服器"
+Browse_Btn_Folders						"資料夾"
+Browse_Btn_Folders_Tip						"選擇伺服器上的一個資料夾"
+
+Browse_Btn_Opts_More						"更多"
+Browse_Btn_Opts_Less						"更少"
+Browse_Btn_Opts_Tip						"按一下以顯示更多或更少的檔案系統選項"
+
+Browse_MultiSelect						"選擇多個項目"
+Browse_ShowFiles						"顯示檔"
+
+Browse_Btn_NewFolder						"新建資料夾"
+Browse_Btn_NewFolder_Tip						"按一下以在當前資料夾中創建新資料夾"
+Browse_NewFolder_Prompt_1						"輸入要創建的新資料夾的名稱 '%1'"
+
+Browse_Btn_New						"新建"
+Browse_Btn_New_Tip						"創建新帳戶，輸入新憑證"
+Browse_Btn_Delete						"刪除"
+Browse_Btn_Delete_Tip						"刪除所選帳戶"
+Browse_Btn_Rename						"重命名"
+Browse_Btn_Rename_Tip						"重命名所選帳戶"
+Browse_Str_Account_Name						"帳戶名"
+Browse_Str_Delete_Confirm						"你確定要刪除帳號\n%1嗎?"
+Browse_Str_DelBmk_Confirm						"你確定要刪除我的最愛\n%1?"
+Browse_Str_Delete_Used						"此帳戶由任務使用： %1\n刪除這些任務或使其使用其他帳戶，然後再刪除此帳戶。"
+Browse_Str_DelBmk_Used						"我的最愛被任務使用：%1\n刪除這些任務或改變任務指向的URL。"
+
+Browse_Multiple_SyncPlan						"選擇多個資料夾。 同步計畫:"
+Browse_Multiple_OtherSide						"選擇多個資料夾：選擇要從另一側進行同步的資料夾："
+Browse_Multiple_ParentChanged						"任務的同步資料夾（所有選定項目的公共父項）已更改，因此將重新構建所有任務篩檢程式。"
+
+Browse_Tip_MultiSelectRoot						"多選目錄，查看下列選中的專案"
+Browse_Tip_AndSoOn						"... （等等） ..."
+Browse_Tip_FilterNotListed						"某些過濾專案未列出，您應查看顯示檔和連結視窗"
+Browse_Tip_SelectedSameDisk						"所有選定的資料夾必須位於一個磁片/共用，而不是在多個磁片上"
+
+Browse_Tip_Include						"包含 %1"
+Browse_Tip_Exclude						"排除 %1"
+
+Browse_Status_Connecting						"連接中..."
+Browse_Status_Listing						"列出中..."
+Browse_Status_Expanding						"展開中..."
+
+
+# File Systems
+Browse_Btn_MyComputer						"我的電腦"
+Browse_Short_Tip_MyComputer						"直接掛載到這台電腦的磁片"
+Browse_Tip_MyComputer						"我的電腦：直接掛載到這台電腦的磁片。顯示為磁片X:或者UNC path \\\\DISK. 可以是本地磁片，可擕式磁片，可擕式設備或具有磁片盤符的音樂播放機。"
+
+Browse_Btn_MyNetwork						"Windows共用"
+Browse_Short_Tip_MyNetwork						"通過SMB協定連接的Windows網路共用"
+Browse_Tip_MyNetwork						"通過SMB協定連接的Windows網路共用。顯示為 \\\\SERVER\\SHARE. 資料夾和磁片必須在伺服器電腦上共用才能顯示在這裡。不要忘記設置允許寫入共用的共用許可權。如果您在這裡看不到共用，請確保您可以在Windows資源管理器中看到它們。"
+
+Browse_Short_Tip_MTP						"通過媒體傳輸協定連接的移動設備（手機，攝像機）"
+Browse_Tip_MTP						"通過媒體傳輸協議（MTP）連接的移動設備，如相機和手機。由於協議，寫入的可靠性可能很低，所以主要用於讀取。"
+
+Browse_Short_Tip_GSConnect						"通過GoodSync Connect的GSTP協定連接的電腦和設備：快速P2P"
+Browse_Tip_GSConnect						"GoodSync Connect. 屬於同一帳戶的電腦可以相互同步。創建GoodSync Connect帳戶,選擇工具->Setup GoodSync Connect"
+
+Browse_Short_Tip_GsStorage	"硬盤在線存儲：運行高效"
+Browse_Tip_GsStorage		"GoodSync硬盤在線存儲 快速而高效的在線存儲"
+
+Browse_Short_Tip_FTP						"FTP和FTPS伺服器"
+Browse_Tip_FTP						"FTP伺服器。輸入伺服器位址，用戶名和密碼，然後按一下“開始”。"
+
+Browse_Short_Tip_SecureFTP						"SFTP伺服器(SFTP協議通過SSH)"
+Browse_Tip_SecureFTP						"安全的FTP伺服器（通過SSH的SFTP）。輸入SFTP伺服器，使用者ID和密碼或私密金鑰檔（PuTTY格式）進行身份驗證。您可以使用PuTTY Pageant來緩存私密金鑰密碼。使用PuTTY會話指定代理設置"
+
+Browse_Short_Tip_WebDav						"可通過WebDAV協議訪問的伺服器"
+Browse_Tip_WebDav						"WebDAV伺服器。輸入要連接到的WebDAV資料夾的URL，請訪問https://www.somewhere.com/folder1/folder2。輸入用戶名和密碼以對伺服器進行身份驗證。"
+
+Browse_Short_Tip_AmazonCD						"Amazon Cloud Drive, 流覽器驗證"
+Browse_Tip_AmazonCldDrive						"Amazon Cloud Drive: 點擊執行按鈕在流覽器中輸入Amazon Account UserId和Password"
+
+Browse_Short_Tip_AmazonS3						"Amazon S3 Online Storage: buckets"
+Browse_Tip_AmazonS3						"Amazon S3 Online Storage. 輸入訪問金鑰ID和金鑰訪問金鑰，按一下執行進行身份驗證。Bucket是頂級資料夾。預設使用基於主機的定址"
+
+Browse_Short_Tip_WindowsAzure						"Windows Azure by Microsoft: Blobs and Buckets"
+Browse_Tip_WindowsAzure						"微軟Windows Azure Blob。輸入您的Azure用戶名和密碼，然後按一下執行以進行身份驗證"
+
+Browse_Short_Tip_AzureFiles						"Windows Azure by Microsoft: Files"
+Browse_Tip_AzureFiles						"Windows Azure Files by Microsoft. 輸入您的Azure用戶名和密碼，然後按一下執行以進行身份驗證"
+
+Browse_Short_Tip_GDrive						"Google Drive (API V3), 流覽器驗證"
+Browse_Tip_GDrive						"Google Drive (API V3). 點擊執行按鈕在流覽器中輸入Google帳戶ID和密碼"
+
+Browse_Short_Tip_GTeamDrive						"Google雲端磁片（企業版，V3 API）"
+Browse_Tip_GTeamDrive						"Google雲端磁片（企業版，V3 API）。點擊執行按鈕在流覽器中輸入Google帳戶名和密碼"
+
+Browse_Short_Tip_GNativeDocs						"Google本地目錄導入/匯出（V3 API）"
+Browse_Tip_GNativeDocs						"Google本地目錄導入/匯出（V3 API）。點擊執行按鈕在流覽器中輸入Google帳戶名和密碼"
+
+Browse_Short_Tip_GDocs						"Google Drive online storage, 流覽器驗證"
+Browse_Tip_GDocs						"Google Drive (Docs). 點擊執行按鈕在流覽器中輸入Google帳戶ID和密碼"
+
+Browse_Short_Tip_Dropbox						"Dropbox, 流覽器驗證"
+Browse_Tip_Dropbox						"Dropbox Online Storage. 點擊執行按鈕在流覽器中輸入Dropbox帳戶ID和密碼"
+
+Browse_Short_Tip_MsGraph						"微軟雲盤（全新介面API）：OneDrive用戶，Office365，SharePoint"
+Browse_Tip_MsGraph						"所有微軟碟：OneDrive，Office365，SharePoint點擊執行按鈕在流覽器中輸入微軟帳戶名和密碼"
+
+Browse_Short_Tip_Mega						"MEGA雲（測試）"
+Browse_Tip_Mega						"MEGA雲。輸入您的MEGA帳戶名和密碼，然後點擊執行。"
+
+Browse_Short_Tip_OneDriveV2						"所有Microsoft網盤: OneDrive Consumer, Office365, OneDrive for Business (SharePoint)"
+Browse_Tip_OneDriveV2						"所有Microsoft網盤: OneDrive, Office365, SharePoint. 點擊執行按鈕在流覽器中輸入Microsoft帳戶ID和密碼"
+
+Browse_Short_Tip_SharePoint13						"SharePoint 2013 by Microsoft"
+Browse_Tip_SharePoint13						"SharePoint 2013 (but not later versions). 輸入伺服器位址, 點擊執行按鈕在流覽器中輸入Microsoft帳戶ID和密碼"
+
+Browse_Short_Tip_BoxCom						"Box.com, 流覽器驗證"
+Browse_Tip_BoxCom						"Box.com Storage: 點擊執行按鈕在流覽器中輸入Box.com的帳戶ID和密碼"
+
+Browse_Short_Tip_Backblaze						"Backblaze B2 Cloud Storage"
+Browse_Tip_Backblaze						"Backblaze B2 Cloud Storage: 輸入你的帳戶ID, 應用金鑰。點擊執行按鈕看到backblaze.com->B2 Cloud Storage->My Account->Show Account ID and Application Key."
+
+Browse_Short_Tip_OneFile						"整個檔/資料夾樹存儲在一個檔中，壓縮和加密，只有小樹"
+Browse_Tip_OneFile						"整個檔/資料夾樹存儲在一個檔中，進行壓縮和加密。輸入存儲檔/資料夾樹的本地目的檔案的路徑。由於整個加密而提供最大的安全性，但是目的檔案在記憶體中組合，並且只有在同步結束時才寫入磁片，因此檔大小受到記憶體的限制。"
+Browse_Str_OneFileTarget						"One File"
+Browse_Tip_OneFileTarget						"整個檔/資料夾樹被寫入或讀取的本地檔"
+
+Browse_Short_Tip_WinMobile						"Windows Mobile Phone 或 Pocket PC 設備"
+Browse_Tip_WinMobile						"Windows Mobile Phone或Pocket PC設備。ActiveSync或WMDC必須安裝並運行，並且設備必須已連接，這樣GoodSync才能看到它。"
+
+Browse_Short_Tip_MyMac		"我的Mac"
+Browse_Tip_MyMac			"我的Mac"
+
+Browse_Short_Tip_MacShares	"網絡共享資料夾"
+Browse_Tip_MacShares		"網絡共享資料夾"
+
+Browse_Short_Tip_MacSMBShares	"通過SMB協議連接的網絡共享"
+Browse_Tip_MacSMBShares			"通過SMB協議連接的網絡共享"
+
+Browse_Short_Tip_MacAFPShares	"通過AFP協議連接的網絡共享"
+Browse_Tip_MacAFPShares			"通過AFP協議連接的網絡共享"
+
+Browse_Short_Tip_WDNAS		"MyCloud NAS"
+Browse_Tip_WDNAS			"MyCloud NAS"
+
+Browse_Short_Tip_Unknown						"此未知檔案系統沒有幫助"
+Browse_Tip_Unknown						"此未知檔案系統沒有幫助"
+
+Browse_Short_Tip_Nokl		"Nokl連接"
+Browse_Tip_Nokl				"Nokl連接"
+
+# Browse dlg Options
+Browse_Str_SecureMode						"安全模式 (通過SSL加密)"
+Browse_Tip_SecureMode						"選中時： 加密使用者ID和密碼交換，使用SSL或類似方案加密資料傳輸。更安全，但有點慢。\n未選中時: 不進行加密傳輸。工作更快，但安全性較差。"
+
+Browse_Str_UTF8_encoding						"使用UTF-8編碼檔案名 (關閉: 使用ANSI編碼)"
+Browse_Tip_UTF8_encoding						"選中時：使用UTF-8編碼對伺服器上的檔和資料夾名進行編碼。未選中時： 使用ANSI編碼，用戶端和伺服器都必須設置為相同的ANSI語言"
+Browse_Str_WinInet						"基於WinInet (複雜代理, 驗證)"
+Browse_Tip_WinInet						"選中時：使用基於WinInet API的實現，可以處理複雜的代理和複雜的基於Windows的身份驗證，但又限制並且速度較慢。未選中時：使用基於通訊端的實現，不能處理複雜的Windows身份驗證和代理，但速度更快。"
+Browse_Str_Use_Proxy						"通過程式選項->連接功能表中指定的代理進行連接"
+Browse_Tip_Use_Proxy						"通過工具->程式選項->連接中指定和啟用的代理伺服器連接到此伺服器"
+Browse_Mac_Str_Use_Proxy						"通過在首選項->連接選項卡中指定的代理進行連接"
+Browse_Mac_Tip_Use_Proxy						"通過在首選項->連接選項卡中指定並啟用的代理伺服器連接到此伺服器"
+
+Browse_Str_IgnoreBadCerts						"不要檢查伺服器的SSL證書"
+Browse_Tip_IgnoreBadCerts						"選中時：允許缺少，不匹配或過期的SSL證書，並且允許無效的憑證授權。未選中時：檢查伺服器憑證，如果證書有問題則會產生錯誤"
+
+Str_SSL_UseSystemCerts		"信任系統根證書頒發機構（需要重啟）"
+Str_SSL_Warn_UseSystemCerts	"如果在系統存儲中添加了認證，則允許第三方程式（比如AV程式）通過TLS監聽GoodSync通信"
+
+
+Browse_Str_PrivKey						"私密金鑰"
+Browse_Tip_PrivKey						"使用PuTTY格式的包含私有SSH金鑰的檔"
+Browse_Str_ClientCert						"證書"
+Browse_Tip_ClientCert						"包含證書/私密金鑰對的檔，採用PEM格式"
+
+# FTP options
+Browse_Str_ActiveMode						"主動FTP模式 (關閉: 被動模式)"
+Browse_Tip_ActiveMode						"選中時： 使用主動FTP模式。在主動模式下，將從FTP伺服器返回到用戶端傳輸資料，並且必須在防火牆中允許連接。 \n未選中時：使用被動FTP模式。這樣就可以通過防火牆和NAT路由器輕鬆實現FTP連接。推薦和默認。"
+Browse_Str_UseMDTM_FTP						"使用MDTM獲得精確的檔修改時間（慢）"
+Browse_Tip_UseMDTM_FTP						"選中時：使用MDTM命令從FTP伺服器獲取準確的檔修改時間（非常慢）。 \n未選中時：使用檔列表獲取檔修改時間。如果檔大於3-6個月，這些時間將舍入到最近一天。"
+Browse_Str_UseMLSD_FTP						"使用MLSD/MLST命令獲取文件列表"
+Browse_Tip_UseMLSD_FTP						"選中時：使用MLSD/MLST命令獲取文件列表。對於FTP伺服器這是更精確的實現方法\n未選中時：使用舊樣式LIST命令獲取檔清單。"
+Browse_Str_ImplicitMode						"隱性FTPS (關閉: 顯式)"
+Browse_Tip_ImplicitMode						"選中時： 使用隱式FTP模式：使用SSL/TLS連接到埠990。\n未選中時：使用顯式FTPS模式：連接埠21，協商加密。"
+Browse_Str_FtpListLa						"使用LIST -la命令"
+Browse_Tip_FtpListLa						"選中時：列出資料夾時使用'LIST -la'命令顯示點和隱藏檔。\n未選中時：使用標準（RFC 959）LIST命令。"
+Browse_Str_MoveLevelOnly						"RENAME只能工作在當前資料夾下"
+Browse_Tip_MoveLevelOnly						"選中時：RENAME (MOVE)FTP命令只能在現在的資料夾中重命名檔，它不能將它們移動到另一個資料夾。\n未選中時：RENAME RENAME可以移動到其他資料夾。"
+Browse_Str_SessionReuse						"資料連接需要TLS會話重用"
+Browse_Tip_SessionReuse						"選中：資料連接需要TLS會話重用（安全）。\n不選：不重用會話（相容模式）。"
+
+# S3 options
+Browse_Str_HostBasedAddr						"伺服器端定位Buckets (用於歐洲 buckets)"
+Browse_Tip_HostBasedAddr						"選定: 伺服器端定位Buckets: 適用於歐洲buckets, bucket 名稱僅限於小寫字母和數位。\n不選: 連結定位 buckets: buckets 可以使用區分大小寫的名稱，Amazon不建議使用。"
+Browse_Str_Redundancy						"去冗餘存儲"
+Browse_Tip_Redundancy						"如果選定，則使用S3的去冗餘存儲(RRS)選項。如果不選定，使用預設的冗餘存儲。"
+Browse_Str_InfrequentAccess						"偶爾訪問標準存儲"
+Browse_Tip_InfrequentAccess						"如果選中，則使用S3“偶爾訪問標準存儲”選項。如果未選中，則使用預設存儲冗餘。"
+Browse_Str_ServerEncrypt						"伺服器端加密"
+Browse_Tip_ServerEncrypt						"如果選中，則在S3上使用AES256加密檔。如果未選中，則存儲原始檔資料。"
+Browse_Str_AwsV4Auth						"使用 V4 (AWS4-HMAC-SHA256) 驗證"
+Browse_Tip_AwsV4Auth						"如果選中，則使用AWS4-HMAC-SHA256授權方案，以提高安全性，可能需要某些區域的Buckets。"
+Browse_Str_UsGovCloud						"美國政府雲"
+Browse_Tip_UsGovCloud						"如果選中，則使用美國政府雲伺服器，與其他S3端點分開。"
+Browse_Str_SpecifyACP						"許可權控制"
+Browse_Tip_SpecifyACP						"存取控制策略，預先載入的策略之一：私有（默認），公共讀取，公共讀寫，認證讀取"
+
+# Google Drive options
+Browse_Str_NativeFiles						"導入/匯出穀歌本地文件"
+Browse_Tip_NativeFiles						"如果選定，本地格式的穀歌Docs檔可以下載和上傳，除了非本地(外部) 檔: 下載檔案需要從Google Doc匯出檔，上傳檔到Google Doc需要向Google Doc中導入本地檔。如果不選定，僅交換非本地(外部)檔。該模式可能造成非常慢的分析以及錯誤。"
+
+# MS Graph options
+Browse_Str_Graph_GroupRead						"請求分組。讀取。所有範圍限於管理員"
+Browse_Tip_Graph_GroupRead						"設置該選項為GoodSync請求分組、讀取、所有範圍。這允許GoodSync流覽分組以及相關聯的檔庫。\n您可能需要重新授權應用該選項。"
+Browse_Str_Graph_National						"位置（本地雲）"
+Browse_Tip_Graph_National						"此處用來選擇本地雲。\n空（默認）意味著使用國際。\nUS代表美國微軟雲\nDE代表德國微軟雲\nCN代表中國的世紀互聯公司運營的Azure和Office 365。"
+
+# OAuth2 dialog
+Browse_Str_OAuth2Title						"%1 OAuth2認證說明"
+Browse_Str_OAuth2Message						"您將在默認流覽器中詢問您\nGoodSync是否可以訪問您的 %1. \n\n在同意允許訪問之前，請確保 \n您已登錄到正確的 %1 帳戶。 \n如果沒有，請根據需要登錄。\n\n您的有效使用者ID將顯示在\n流覽器驗證後的流覽對話方塊中。"
+
+# Browsing Tips
+Browse_TipLine_OAuth2_Chang						"OAuth：點擊執行按鈕，帳戶憑據將在您的流覽器中被請求"
+Browse_TipLine_OAuth2_Fixed						"OAuth UserId 是 %1。您無法在此處更改OAuth憑據，但您可以通過按一下新建按鈕添加新帳戶"
+Browse_TipLine_UserId_Fixed						"UserId 是 %1. 要更改帳戶憑據或連接選項，請轉到“帳戶”選項卡，然後按一下“帳戶”以進行編輯"
+
+#
+# GoodSync Connect and Runner setup
+#
+Act_Btn_Back						"後退"
+Act_Btn_Finish						"完成"
+Act_Btn_Next						"下一步"
+
+# Runner Setup
+GsRunnerSetup_Request						"需要GoodSync Runner Service才能在無人值守模式下運行作業。\n要設置（推薦）嗎？"
+GsRunnerSetup_WindowTitle						"Runner Service 配置"
+GsRunnerSetup_ThisWinUser						"GoodSync Runner Service將在此Windows帳戶下運行："
+GsRunnerSetup_WinNote						"GoodSync Runner Service需要Windows密碼以便使用無人參與的方式運行您的任務。\n如果輸入的密碼不正確，則GoodSync Runner服務無法運行。"
+GsRunnerSetup_FinalMsg						"GoodSync Runner Service 將會被更新"
+
+# Connect Connect Page -- removed
+GsConnSetup_WantConnectQuestion						"你想讓你的電腦直接相互同步（P2P）嗎？"
+GsConnSetup_FinRunGoodSync						"運行GoodSync"
+GsConnSetup_FinRunGsExplorer						"運行GoodSync Explorer"
+
+# GS Account Setup -- Common Elements
+GsConnSetup_WindowTitle						"GoodSync Connect Setup"
+GsConnSetup_FirstRunTitle						"歡迎使用 GoodSync Connect Setup"
+GsConnSetup_ConfigureTitle						"配置 GoodSync Connect"
+
+# GoodSync Account page
+GsConnSetup_RegisterThis						"使用您的GoodSync Connect帳戶註冊該電腦："
+GsConnSetup_ExplainWhy			"需要使用GoodSync帳戶進行GoodSync設備間的P2P同步，許可證啟動，在線支持，GoodSync存儲"
+GsConnSetup_SetupLater       	"稍後設置GoodSync帳戶"
+GsConnSetup_UseThisAccount						"使用此GoodSync Connect帳戶："
+GsConnSetup_CreateNewAccount						"創建一個新的GoodSync Connect帳戶"
+GsConnSetup_StNoDiscoveryMode						"GoodSync Connect: 無發現模式"
+GsConnSetup_UserID						"使用者ID或電子郵寄地址"
+GsConnSetup_Email						"電子郵寄地址"
+GsConnSetup_UserIdKey			"GoodSync帳戶用戶名Id"
+GsConnSetup_Password						"密碼"
+GsConnSetup_Retype						"重新輸入"
+GsConnSetup_YourName						"你的名字"
+GsConnSetup_SkipBtn						"跳過"
+GsConnSetup_NoDisco_UserId      "管理員用戶名Id"
+GsConnSetup_NoDisco_Password    "管理員密碼"
+GsConnSetup_SameAccountNote						"註冊到同一個GoodSync Connect帳戶的電腦可以相互同步。"
+
+# GoodSync Connect Server page
+GsConnSetup_ComputerID						"電腦ID"
+GsConnSetup_ServeFilesNo		"不提供檔案，但本機可以聯系其他設備"
+GsConnSetup_ServeFilesYes		"由本機向GoodSync客戶提供檔案"
+GsConnSetup_ConfigureWinUser						"配置Windows帳戶"
+GsConnSetup_WinUser						"Windows 帳戶"
+GsConnSetup_WinAuthUser			"Windows用戶認證"
+GsConnSetup_WinPassword						"Windows 帳戶密碼"
+GsConnSetup_WinFullName			"Windows用戶全名"
+GsConnSetup_WinNote						"GoodSync Server需要您的Windows密碼來類比您的GoodSync用戶端。\n如果您不想要模擬，請將Windows Password欄位留空。沒有模擬GoodSync Server無法訪問您的Windows共用，EFS / BitLocker加密磁片等。\n我們強烈建議您通過提供Windows密碼來使用類比。"
+GsConnSetup_MacFullName			"macOS用戶全名"
+
+GsConnSetup_ConfigureMacUser    "系統用戶，新檔的擁有者"
+GsConnSetup_MacUser             "系統用戶"
+GsConnSetup_MacNote             "該伺服器需要模擬才能使用適當的權限來處理檔案，以便其他應用可以打開新檔而無需詢問管理特權。因此，強烈建議使用。"
+
+# GoodSync Account Confirm Settings page
+GsConnSetup_FinWillBeSetTo						"GoodSync Connect將被設置為"
+GsConnSetup_StLocalOnlyMode						"僅本地模式"
+GsConnSetup_StServerMode						"GoodSync Connect: 伺服器模式"
+GsConnSetup_ThisComputerAddr						"這台電腦的地址"
+
+# Wizard -- status and error messages
+GsConnSetup_StConnMediator						"連接到Mediator..."
+GsConnSetup_ErrSelectSomething						"請選擇一些東西。"
+GsConnSetup_ErrNoUserID						"GoodSync Connect 沒有指定使用者ID或者電子郵件"
+GsConnSetup_ErrNoUserName						"用戶名短於5個字元"
+GsConnSetup_ErrNoPassword						"未指定GoodSync Connect的密碼"
+GsConnSetup_ErrPasswordShort						"密碼太短"
+GsConnSetup_ErrPasswordMatch						"密碼不匹配"
+GsConnSetup_ErrBadEmail						"使用者ID或電子郵件是無效的"
+GsConnSetup_ErrNoWinAccount						"Windows帳戶名不能為空"
+
+# Wizard -- misc
+Msg_StoppingService     "正在停止服務 "
+
+#
+# License Activation Wizard
+#
+Act_Header						"感謝您購買我們的產品"
+Act_Title						"GoodSync 啟動"
+Act_User_Account_Btn    "啟動GoodSync帳戶"
+Act_User_Account_Tip    "使用GoodSync帳戶中未使用的許可證啟動"
+Act_User_Online_Btn						"直接聯網啟動（推薦）："
+Act_User_Online_Tip						"GoodSync將通過Internet連接到啟動伺服器"
+Act_User_Manage_Link    "查看您帳戶中許可證的類型"
+Act_User_ViaBrowser_Btn						"通過流覽器啟動（僅在直接啟動失敗時使用）："
+Act_User_ViaBrowser_Tip						"您將使用默認流覽器連接到啟動伺服器"
+Act_User_Name						"你的名字"
+Act_User_Order						"Order ID (NNNNNNNNNN) 或者 License Key (XXX-XXX-XXX-XXX)"
+Act_Field_Req_Err_1						"'%1' 是啟動所需的。"
+Act_User_AlowCancel_Chk						"取消通過此訂單啟動的所有電腦上的啟動\n還可以重新啟動剩餘的活動電腦"
+Act_User_Order_Err						"請以XXX-XXX-XXX-XXX格式輸入完整的10位元數訂單ID或訂單號。"
+Act_User_Acct_Email	"GoodSync帳戶郵箱"
+Act_User_Acct_Pwd	"GoodSync帳戶密碼"
+
+Act_ViaBrowser_Txt						"使用任何流覽器流覽http://activate.goodsync.com或點擊下麵的連結。按一下複製按鈕，將電腦ID複製到剪貼板。然後將其粘貼到流覽器中的電腦ID欄位中，隨後按一下提交。然後將啟動碼從流覽器複製到下面的啟動代碼視窗，然後按一下下一步。"
+Act_ViaBrowser_ActReq_Text "在這裏複制啟動請求"
+Act_ViaBrowser_Copy						"複製"
+Act_ViaBrowser_ActCode_Txt						"在這裡粘貼啟動碼"
+
+Act_Finish_Success						"感謝您購買GoodSync！\n您的副本現已啟動。"
+Act_Finish_Connect						"連接到啟動伺服器"
+Act_Finish_Fail						"啟動失敗"
+
+#
+# Explorer Strings
+#
+Title_Connect						"連接"
+Title_Proxy						"代理伺服器設置"
+Str_UseProxy_No						"不要使用代理伺服器"
+Str_UseProxy_Auto						"使用Internet Explorer的代理伺服器配置用於遠端連接"
+Str_Mac_UseProxyAuto						"使用系統代理設置"
+Help_UseProxy_Auto						"在Internet屬性->連接->LAN設置中使用Internet Explorer定義的代理伺服器進行遠端連接。這涵蓋了由WinINet和proxy.pac定義的代理伺服器。必須在需要代理連接的任務一側按下“流覽”按鈕並在要使用的任務重中選擇“通過代理連接”選項"
+Help_Mac_UseProxy_Auto						"使用系統首選項->網路選項卡->高級中定義的代理伺服器。必須在需要代理連接的任務一側按下“流覽”按鈕並在要使用的任務重中選擇“通過代理連接”選項"
+Str_UseProxy_Manual						"使用此代理伺服器進行遠端連接"
+Help_UseProxy_Manual						"使用下面指定的代理伺服器進行遠端連接。必須在需要代理連接的任務一側按下“流覽”按鈕並在要使用的任務重中選擇“通過代理連接”選項"
+Str_ProxyHost						"代理伺服器"
+Help_ProxyHost						"在此輸入代理主機名稱。\nSOCKS5代理使用 SOCKS5:// 作為首碼。"
+Str_ProxyPort						"埠號"
+Help_ProxyPort						"輸入代理服務使用的埠號"
+Str_ProxyUserID						"代理伺服器的用戶名"
+Str_ProxyPasswd						"密碼"
+Help_ProxyAuth						"為需要身份驗證的代理輸入代理的用戶名和密碼"
+
+
+# File Operations
+Explorer_File_With_The_Same_Name_Exists	"路徑中已經有一個同名的檔案。"
+Explorer_Skip_Copy						"跳過"
+Explorer_DoOverwrite					"覆蓋"
+Explorer_Replace_Src_By_Dst				"使用原始檔案替換目標資料夾中的檔（可以恢複）："
+Explorer_Keep_Dst_File					"沒有檔將被更改。保留目的地檔："
+Explorer_Copy_If_Newer					"如果較新則複制"
+Explorer_Copy_If_Src_Newer_Than_Dst		"如果原始檔案比目標檔更新，則複制。"
+Explorer_Do_Same_For_Other_Conflicts	"對其他沖突也一樣。"
+Explorer_FileSize						"大小： %1 元組"
+Explorer_DateModified					"修改時間： %1"
+
+# Misc
+Explorer_Properties    "屬性"
+
+Explorer_OpOpen        "打開"
+Explorer_OpDownload	   "下載"
+Explorer_OpUpload      "上傳"
+Explorer_OpDelete      "刪除"
+Explorer_OpRename      "重命名"
+Explorer_OpNewFolder   "新建資料夾"
+Explorer_OpDetails     "詳細"
+Explorer_OpExpand	   "展開"
+Explorer_OpRefresh     "刷新"
+Explorer_OpBookmark	   "書簽"
+Explorer_OpCopy		   "複制"
+Explorer_OpMove        "移動"
+
+# Columns
+Explore_Col_Name						"名稱"
+Explore_Col_Size						"大小"
+Explore_Col_ModTime						"修改時間"
+Explore_Col_CreTime						"創建時間"
+Explore_Col_Attrs						"屬性"
+Explore_Col_Comment						"標注"
+
+#
+# Mac RDC
+#
+Str_RDC_Cannot_Start                  "無法啟動RDP客戶"
+Str_RDC_Error_Not_Installed           "%1 應用沒有安裝"
+Str_RDC_Error_CannotOpenDistPage      "無法打開 %1 頁面"
+Str_RDC_Error_CannotLaunchWithRDPFile "使用RDP檔 %2 無法啟動%1"
+Str_RDC_Error_CannotGetTempFilePath   "無法獲取臨時檔。錯誤： %1"
+Str_RDC_Error_CannotCreateRDPFile     "無法創建RDP檔 %1"
+Str_RDC_Error_UnableToFindAppBundle   "在本機無法找到 %1 應用包"
+Str_RDC_Error_SuggestDownloading      "您可以從Mac App Store下載 %1 並重試"
+Str_RDC_Error_GoToAppStore            "前往App Store"
+
+#
+# V11 Explorer
+#
+Explorer_About						"關於"
+Explorer_1Tree						"1 樹狀圖"
+Explorer_2Trees						"2 樹狀圖"
+Explorer_Decrypt_Folder				"解密資料夾"
+Explorer_Leave_Decrypted			"保留解密資料夾"
+Explorer_Show_Checkboxes			"顯示項目複選框"
+Explorer_Hide_Checkboxes			"隱藏項目複選框"
+Explorer_Tasks_Question				"您想停止任務嗎？"
+Explorer_Tasks_Close_Question		"一些任務還在運行。仍然關閉？"
+Explorer_Known_Encrypted_Folder		"已知加密資料夾"
+Explorer_View_Decrypted_Question	"您想查看解密的此資料夾嗎？"
+Explorer_Op_To						"前往:"
+Explorer_Exit						"退出"
+#
+# --- SYNCLIB localization ---
+# RFS file codepage and Language -- see main default.rfs
+
+# Left and Right
+Str_LeftFolder						"左側資料夾"
+Str_RightFolder						"右側資料夾"
+
+Str_LeftAndRight						"左側和右側"
+Str_Left						"左側"
+Str_Right						"右側"
+Str_Folder						"資料夾"
+Str_File						"文件"
+Str_Deleted						"已刪除"
+Str_NotPresent						"不存在"
+Str_NoSize						"未知"
+
+Str_LeftToRight						"從左到右"
+Str_RightToLeft						"從右到左"
+
+Msg_CompareCheckSum_Slow						"== 分析所有檔的比較校驗和，因此它將運行緩慢，因為所有檔體必須被讀取以計算它們的校驗和"
+Msg_CompareCheckSum_Slow_DiffType						"== 分析所有檔的校驗和與儲存的校驗和進行比對，但是左側校驗和比較不能完成，因為校驗和是不同類型（SHA1與MD5）"
+Msg_CompareCheckSum_Fast						"== 分析比較具有相同大小但檔修改時間不同的檔校驗和"
+Msg_CompareCheckSum_Fast_DiffType						"== 分析所有檔的校驗和與儲存的校驗和進行比對，但是右側校驗和比較不能完成，因為校驗和是不同類型（SHA1與MD5）"
+Msg_CompareCheckSum_Sync						"== 比較剛剛同步的文件的校驗和，以確保文件複製正確"
+
+Msg_CompareFileBodies_Slow						"== 在比較模式下運行分析，因為所有檔都必須被讀取，所以運行將十分緩慢"
+
+Str_Msg_FileDeleted						"用戶已刪除檔 %1"
+Str_Msg_FolderDeleted						"用戶已刪除資料夾 %1"
+Str_Msg_CannotDelete						"無法刪除 %1: %2"
+Str_Msg_StateFileDeleted						"已刪除狀態檔 %1"
+
+
+# Exclusion messages
+Str_ExclBy_FolderAbove						"排除上述資料夾"
+Str_ExclBy_SyncFolder						"已排除：GoodSync資料檔案夾"
+Str_ExclBy_MatchName						"已排除：匹配"
+Str_ExclBy_NoMatchName						"不包括：不匹配的"
+Str_ExclBy_EmptyFolder						"已排除：空資料夾"
+Str_ExclBy_ChildOfExcl						"已排除：已排除項目的子項目"
+Str_ExclBy_NoPropDels						"已排除：尚未觸發刪除的"
+Str_Msg_SkipLink						"跳過連結 %1"
+
+# Job status and progress
+Str_Status_PressAnalyze						"按一下開始分析..."
+Str_Status_ConnectingToFolder						"連接到資料夾 %1"
+Str_Status_Scanning						"正在掃描 %1"
+Str_Status_ReadStateFile						"正在讀取檔狀態 %1"
+Str_Status_ReadEmbeddedStateFile						"正在讀取檔狀態 %1 並將其與根狀態合併"
+Str_Status_NewStateFile						"%1: 沒有找到狀態檔，將新建一個狀態檔"
+Str_Status_SaveStateFile						"保持檔狀態 %1"
+Str_Status_PostProcessing						"後期處理"
+Str_Status_ComputePrevVerSize						"計算 _saved_ 文件大小"
+
+Str_Status_CompareOneSide						"正在對比 %1"
+Str_Status_CompareLeftToRight						"正在從左到右對比"
+
+Str_Status_NotYetAnalyzed						"尚未進行分析"
+Str_Status_Syncing						"正在同步"
+Str_Status_Analyzing						"正在分析"
+Str_Status_Connecting						"正在連接"
+Str_Status_Paused						"暫停"
+Str_Status_Resumed						"繼續"
+Str_Status_All						"所有檔"
+Str_Status_NoFiles						"沒有檔"
+Str_Status_Changes						"更改"
+Str_Status_InSync						"同步中"
+Str_Status_Conflicts						"衝突"
+Str_Status_NoConflicts						"無衝突"
+Str_Status_Errors						"錯誤"
+Str_Status_NoErrors						"無錯誤"
+Str_Status_SyncAttention						"需要注意"
+Str_Status_Connected						"已連接"
+Str_Status_Disconnected						"連接已斷開"
+
+Str_Status_VolumeInfo_Free						"可用空間：%1，總計空間：%2"
+Str_Status_VolumeInfo_Reqd						"所需空間：%1"
+Str_Status_Volume_Unknown						"空閒：未知"
+Str_Status_Volume_Disconnected						"連接已斷開"
+
+Str_Status_FilesChangedCnt						"已更改文件：%1"
+Str_Status_ConflictsCnt						"衝突：%1"
+Str_Status_ErrorsCnt						"錯誤： %1"
+Str_Status_SyncedCnt						"已同步：%1"
+Warn_AllExcluded						"警告!\r\n所有檔均被排除，您設置的過濾規則可能有錯誤。\r\n切換到'所有'或'已排除'視圖驗證過濾參數是否正確。"
+Warn_AllNew						"警告!\r\n左側和右側的資料夾都沒有通用檔。看來您在試圖同步不相關的資料夾。\r\n請確認選擇正確的資料夾進行同步。"
+Warn_AllDelete						"警告!\r\n所有檔均將被從目的檔案夾中刪除。\r\n我們建議將您的資料備份到空資料夾中。"
+
+# Analyze messages
+Str_Msg_Job						"任務"
+Str_Msg_LeftRight_Descrs						"左側： %1，右側： %2"
+Str_Msg_JobFilters						"篩檢程式： %1"
+Str_Msg_SetFolder						"資料夾尚未指定"
+Str_Msg_CannotOpenFolder						"無法打開資料夾：%1"
+Str_Msg_SameFolders						"左側和右側資料夾兩者相同。"
+Str_Msg_NestedFolders2						"資料夾 '%1' 是 '%2'的下級資料夾，或相反。無法對嵌套資料夾進行分析。"
+Str_Msg_WillCreateFolder						"未發現資料夾 '%1' , 因此我們要嘗試創建它"
+Str_Msg_CannotConnect						"無法連接到"
+Str_Msg_Created_Folder						"創建資料夾 '%1' 成功"
+Str_Msg_CannotCreateGsdata						"無法在 %1 上創建GoodSync狀態資料夾_gsdata_： %2\n如果你打算備份唯讀檔案夾，可將唯讀源側欄設置為單向模式(任務->選項)，然後再非唯讀側集中設置_gsdata_資料夾。"
+Str_Msg_ErrReadStateFile						"讀取狀態檔 '%1'出錯： %2。\n受損狀態檔將被重命名為 '%3'。\n在下次分析時將創建新的狀態檔。\n請將受損狀態檔發郵件到 ask@goodsync.com 以便我們知曉。"
+Str_Msg_EmbeddedJob						"發現同步資料檔案夾 '%1' 中的內容屬於另一任務。這意味著同一資料夾同時被多個任務所同步，通常我們不推薦你這樣做。"
+Str_Msg_DetectedDisconnect						"已檢測到連接斷開： %2"
+Str_Msg_RemainsConnected						"保持連接： %2"
+Str_Msg_DetectedConnect						"檢測到已連接，執行分析操作"
+Str_Msg_RemainsDisconnected						"保持連接斷開：%2"
+
+Str_Msg_Filter_ExcludeHidden						"排除隱藏屬性"
+Str_Msg_Filter_ExcludeSystem						"排除系統屬性"
+Str_Msg_Filter_ExcludeTemp         "排除臨時內容"
+Str_Msg_Filter_ExcludeDisregarded  "排除忽略內容"
+Str_Msg_Filter_ExcludeEmptyFolders						"排除空資料夾"
+Str_Msg_Filter_Included						"已包含"
+Str_Msg_Filter_Excluded						"已排除"
+
+Str_Msg_OlderFileVsNewer						"警告：較舊的檔將替換較新的檔"
+Str_Msg_Conflict_BothChanged						"衝突：檔兩側都進行了改動"
+Str_Msg_Conflict_NewFilesDiff						"衝突: 新檔有變化"
+Str_Msg_Conflict_1way_RtoL						"左往右單向任務中出現了相反的同步"
+Str_Msg_Conflict_1way_LtoR						"右往左單向任務中出現了相反的同步"
+
+Str_Status_JobScheduled						"-- %1: 任務計畫已被 %2 所啟動"
+Str_Status_AnalysisStart						"-- 分析開始 %1"
+Str_Status_AnalysisStarted						"%2: 在'%4'這台電腦上，分析操作由 %3 啟動(GoodSync %5)"
+Str_Status_OneSideStats						"%1：文件： %2 (已排除 %3)。資料夾： %4 (已排除 %5)。"
+Str_Status_CurrSideStats     "檔案+資料夾 %1 排除 %2 速度 %3 項目/s"
+Str_Status_AnalysisSummary						"變更：%1， 衝突：%2， 複製時間：%3， 複製狀態：%4， 錯誤： %5"
+Str_Status_AnalysisCompleted						"-- 分析已結束。歷時 %2, 速度： %3 文件/秒"
+Str_Status_AnalyzeStopped						"用戶停止分析"
+Str_Status_AnalyzeFinished_NoChanges						"分析完畢，沒有檢測到變化"
+Str_Status_AnalyzeFinished_ReadyToSync						"分析完畢，按一下同步以進行同步"
+Str_Status_Advise_HaveConflicts						"分析完畢並發現衝突情況。請選擇正確的同步方向解決衝突，然後按一下同步"
+Str_Status_Advise_HaveErrors						"分析完畢併發現有錯誤。點擊錯誤按鈕查看全部錯誤專案。"
+Str_Status_FolderDisconnected						"其中一個資料夾已斷開"
+Str_Status_RemainsConnected						"全部資料夾保持連接"
+Str_Status_RemainsDisconnected						"資料夾之一保持斷開"
+
+Str_Status_SyncStart						"== 同步開始由 %1"
+Str_Status_SynchroStarted						"%2: 在電腦'%4'上，同步已被 %3 啟動"
+Str_Status_SavingStateFor						"保存狀態為"
+Str_Status_SynchroSummary						"完成: %1, 錯誤: %2"
+Str_Status_SynchroErrors						"同步完成，錯誤數為 %1 。點擊錯誤按鈕即可查看同步錯誤情況。"
+Str_Status_SynchroConflicts						"同步完成，未解決的衝突數為 %1 。點擊衝突按鈕即可查看未解決的衝突情況。"
+Str_Status_SynchroCompleted						"== 同步完成. 歷時: %2, 速度: %3"
+Str_Status_Computing_Speed  "計算速度"
+Str_Status_Remaining_Speed						"剩餘 %1, 速度 %2"
+Str_Status_Curr_Recycling   "已回收 %1 of %2 個項目"
+Str_Status_Current_Speed	"當前 "
+Str_Status_Elapsed_Time		"已用 "
+Str_Status_SyncError						"錯誤"
+Str_Status_SyncStopped						"同步由用戶停止，再次按一下同步繼續"
+Str_Status_SyncDisconnected						"資料夾已斷開連接"
+Str_Status_SyncFinished_OK						"同步已成功完成"
+Str_Status_Advise_AnalyzeAttention						"分析已完成但有錯誤"
+Str_Status_Advise_SyncAttention						"同步完成，但仍有錯誤和未解決的衝突。"
+Str_Status_Advise_AnalyzeConflict						"已經檢測到衝突。請通過選擇同步方向來解決衝突："
+
+Str_Msg_StoppedByUser						"已由用戶停止"
+Str_Msg_OTP_InBrowse						"此使用者需要一次性密碼（OTP）。 按一下流覽按鈕，在流覽對話方塊中輸入OTP"
+
+Str_Msg_DeleteOtherJobResults						"刪除與本任務相重疊的另一任務的分析結果： %1"
+Str_Msg_DeleteResultsReason						"同步任務重疊 %1"
+Str_Msg_DeleteThisJobResults						"該任務的分析結果(檔及資料夾樹狀圖)已被刪除：%1"
+
+Str_Msg_Action_DeleteFolder						"刪除資料夾"
+Str_Msg_Action_DeleteFile						"刪除檔"
+Str_Msg_Action_DeleteLink						"刪除連結"
+Str_Msg_Action_CreateFolder						"創建資料夾"
+Str_Msg_Action_CopyOver						"覆蓋複製"
+Str_Msg_Action_CopyNew						"新建複製"
+Str_Msg_Action_CopyTime						"複製 %1 的檔修改時間到 %2"
+Str_Msg_Action_MoveFile						"移動文件 %1 -> %2"
+Str_Msg_Action_MoveFileDone						"移動文件 %1 <-> %2: 已完成"
+Str_Msg_Action_MoveFolder						"移動資料夾 %1 -> %2"
+
+
+Str_Msg_OldNewWholeHour_TimeShift						"%1：檢測到新舊時間偏移為 %2小時，涉及 %3 個檔。判斷：該側內容沒有更改"
+Str_Msg_OldNewRounding_TimeShift						"%1: 檢測到檔 %4 新舊整數時間差 %2 個小時 (類型 %3)。 決定: 本側不做更改"
+Str_Msg_LeftRight_TimeShift						"檢測到 %3 個檔出現兩側時間偏移共 %1 小時(類型 %2)：判斷：同步操作由複製檔更改為複製時間"
+
+Str_Msg_FolderLocked						"其他任務正對檔 %1 進行操作，已啟動於： %2。請稍後再嘗試。"
+Str_Msg_LimitChanges2						"%1 個檔已更改，超過 %2 的限制。因此該任務將不再執行自動同步。"
+Str_Msg_NotEnoughDiskSpace						"磁碟分割 %1 中可用空間不足，尚需 %2，已用 %3"
+Str_Msg_RequiredDiskSpace						"同步需要磁片 %1 上的空間應為 %2，目前為 %3"
+Str_Msg_UnknownDiskSpace						"同步需要磁片 %1 上的空間應為 %2, 而可用空間大小未知"
+
+Str_Msg_CannotOpenStateFile						"無法打開狀態檔，如果它已損壞，請將其刪除"
+Str_Msg_CannotParseStateFile						"無法解析狀態檔，如果它已損壞，請將其刪除"
+
+Str_Msg_AndMoreSimilarLogLines						"... 另， %1 中更多相似的日誌資訊已被忽略(選擇任務 -> 打開左側/右側日誌檔可查看完整日誌內容)"
+
+Str_Msg_AnalyzeAfterStateFileChange						"請再次點擊分析，因為另一個任務已經同步，因此使本次任務的分析結果失效n狀態檔：%1\n新的： [%2] != \n舊的：[%3]\n   "
+
+Str_Msg_JobCommonFolder						"任務%1與當前任務有共用資料夾並且正在運行。先讓它完成 "
+
+

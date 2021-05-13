@@ -1,0 +1,2223 @@
+# RFS file codepage.
+RFS_CODEPAGE "932"
+RFS_LANGUAGE "Japanese"
+
+# Job menu
+Menu_Job			"ジョブ"
+Cmd_JobNew			"新規"
+Btn_CreateNew			"新規ジョブ"
+Btn_CreateNewGroup		"新規グループ"
+
+Btn_AccountSync_On		"アカウント同期オン"
+Btn_AccountSync_Off		"アカウント同期オフ"
+
+Cmd_Analyze				"解析"
+Btn_Analyze				"解析"
+Cmd_Sync				"シンクロ"
+Btn_SyncRun				"シンクロ"
+Cmd_AnalyzeAndSyncThis	"解析とシンクロ"
+Cmd_Stop				"停止"
+Btn_Stop				"停止"
+Btn_Clear               		"消去"
+Cmd_Pause				"停止"
+Btn_Pause				"停止"
+Btn_Resume				"復帰"
+Btn_SelectMultiple		"複数フォルダ/フィルタ"
+Btn_SelectSingle		"フォルダ選択へ戻る"
+
+Cmd_JobOpenLogLeft		"左側ログ"
+Cmd_JobOpenLogRight		"右側ログ"
+
+Cmd_JobOptions			"オプション..."
+Btn_ShowJobOptions		"オプション"
+Btn_Auto				"自動"
+
+Str_Groups				"グループ"
+Str_Group				"グループ"
+Str_InGroups			"(グループ内)"
+Str_GroupsInitial		"(グループ無、作成するには新規グループをクリック)"
+Cmd_JobRemoveFromGroup	"グループから削除"
+
+Str_Group_AllJobs       "すべてのジョブ"
+Str_Group_SyncJobs      "同期ジョブ"
+Str_Group_BackupJobs    "バックアップジョブ"
+
+Cmd_JobDelete			"削除"
+Cmd_JobRename			"名前変更..."
+Cmd_JobClone			"複製..."
+
+Str_AskDeleteJob1		"本当に削除しますか？ ジョブ'%1'"
+Str_AskDeleteSelJob1	"本当に選択された %1 個のジョブを削除しますか？"
+Str_AskDeleteGroup		"本当に削除しますか？ グループ '%1'"
+
+Cmd_SyncAccount_Once    "一度だけアカウントを同期"
+Cmd_SyncAccount_OnOff   "常にアカウントを自動同期"
+
+Str_JobMenuAdvanced		"高度な設定"
+Cmd_JobSwapSides		"左右入替"
+Cmd_JobSaveTemplate     "テンプレートとして保存..."
+Cmd_Analyze_Comp_MD5	"解析: MD5比較"
+Cmd_Analyze_Comp_Body	"解析: 本体比較"
+Cmd_JobListOfChanges	"変更のあるジョブのリスト"
+Cmd_JobResetState		"状態ファイル削除"
+Cmd_JobDeleteBackup		"ごみ箱＆履歴フォルダ削除"
+Cmd_JobDeleteGsData		" _gsdata_ フォルダ削除"
+Cmd_JobCleanupRecycled		"ごみ箱＆履歴フォルダ整理"
+
+Str_TitleResetState		"状態ファイル削除"
+Str_AskDeleteStates		"状態ファイルを削除しますか？\nこれらはグッドシンクの内部ファイルでユーザファイルの履歴を保持しています。\n削除してもユーザファイルが失われることはありません。"
+
+Str_TitleDeleteBackup	"ごみ箱＆履歴ファイルを削除"
+Str_AskDeleteBackup		"ごみ箱＆履歴フォルダに保存されているファイルを削除しますか？"
+
+Str_TitleDeleteGsData	"_gsdata_ フォルダを削除"
+Str_AskDeleteGsData		"グッドシンクの _gsdata_ フォルダを削除しますか？\nグッドシンクはそのデータやログ、履歴などをこのフォルダに保持しています。\n削除してもユーザファイルが失われることはありません。"
+
+Cmd_AppExit			"終了"
+
+# All menu
+Menu_All			"すべて"
+Cmd_AnalyzeAll			"すべて解析"
+Cmd_SyncAll			"すべてシンクロ"
+Cmd_AnalyzeAndSyncAll		"すべて解析とシンクロ"
+Cmd_StopAll			"すべて停止"
+Cmd_EnableAuto			"自動実行を許可"
+Cmd_SuspendAuto			"自動実行を保留"
+
+# Mac Menu Window
+Menu_Mac_Window			"ウィンドウ"
+Menu_Mac_Zoom			"ズーム"
+Menu_Mac_Minimize		"最小化"
+Menu_Mac_BringToFront	"前面表示"
+
+# Mac Menu File
+Menu_Mac_File           "ファイル"
+
+# Mac Menu Edit
+Menu_Mac_Edit           "編集"
+Menu_Mac_Undo			"元に戻す"
+Menu_Mac_Redo			"やり直し"
+Menu_Mac_SelectAll      "すべて選択"
+
+# Mac Menu GoodSync
+Menu_Mac_Preferences	"環境設定..."
+Menu_Mac_Wipeout		"グッドシンクをアンインストール..."
+Menu_Mac_Services		"サービス"
+Menu_Mac_HideProgram	"グッドシンクを隠す"
+Menu_Mac_HideArg        "%1を隠す"
+Menu_Mac_ShowProgram    "グッドシンクを表示"
+Menu_Mac_HideOthers		"他を隠す"
+Menu_Mac_ShowAll		"すべて表示"
+Menu_Mac_AddFDAccess    "グッドシンクにディスクへのフルアクセスを与える"
+Menu_Mac_Quit			"終了"
+Menu_Mac_QuitArg        "%1を終了"
+
+# Mac App Menu
+Menu_Mac_OpenGSE        "グッドシンクエクスプローラを開く"
+
+# View menu
+Menu_View				"表示"
+Str_NeedSyncTree        "(解析後、ここにツリー表示が出ます)"
+Menu_Mac_ShowToolbar	"ツールバーを表示"
+Menu_Mac_HideToolbar	"ツールバーを隠す"
+Menu_Mac_CustomizeToolBar "ツールバーをカスタマイズ"
+
+Menu_View_Other			"その他"
+
+Cmd_View_FullWindow		"フルモード"
+Cmd_View_MiniWindow		"ミニモード"
+Cmd_View_TrayIcon		"トレイアイコン"
+
+Cmd_ViewStatusBar		"ステイタスバー"
+Cmd_ViewJobList			"ジョブリスト"
+Cmd_ViewJobFilter		"フィルタ"
+Cmd_ViewLog			"ログ"
+
+Cmd_ShowAll			"すべて"
+Cmd_ShowChanges			"変更"
+
+Cmd_ShowConflict		"競合"
+Cmd_ShowError			"エラー"
+
+Cmd_ShowIncluded		"対象"
+Cmd_ShowExcluded		"除外"
+Cmd_ShowToCreate        	"作成"
+Cmd_ShowToOverwrite     	"上書"
+Cmd_ShowToDelete		"削除"
+
+# VM: a lot of view names are the same as corresponding action names
+
+Cmd_ShowSameLenDiffTime  "同サイズ時刻違い"
+
+Cmd_ShowCountableChanges "大量の変更"
+Cmd_ShowChangesToSync   "変更"
+Cmd_ShowNotYetSynced    "シンクロ未済"
+
+Cmd_ShowAllAll          "すべて(含削除済)"
+
+
+# (Tree) Actions menu
+Grp_Actions				"アクション"
+Str_NeedSyncNode        "(解析後にツリーの項目をクリックするとアクションがここに表示されます)"
+
+Grp_Show				"ツリー表示"
+
+# Action and Context menus
+Menu_Actions			"アクション"
+
+Cmd_ItemLOpen			"左側ファイルを開く"
+Cmd_ItemROpen			"右側ファイルを開く"
+Cmd_OpenLFolder			"左側フォルダを開く"
+Cmd_OpenRFolder			"右側フォルダを開く"
+
+Cmd_Browse			"フォルダ変更"
+Cmd_Browse_V11			"フォルダ"
+
+Cmd_OpenJobLeft			"エクスプローラで左側フォルダを開く"
+Cmd_OpenJobRight		"エクスプローラで右側フォルダを開く"
+
+Cmd_LeftSideOpts		"左側フォルダオプション"
+Cmd_RightSideOpts		"右側フォルダオプション"
+
+Cmd_ItemLDelete			"左側ファイルを削除"
+Cmd_ItemRDelete			"右側ファイルを削除"
+Cmd_ItemDeleteBoth		"両側のファイルを削除"
+Cmd_DeleteLFolder		"左側フォルダを削除"
+Cmd_DeleteRFolder		"右側フォルダを削除"
+Cmd_DeleteBothFolders		"両側のフォルダを削除"
+
+Cmd_ItemLDeleteMul1		"左側から%1項目を削除"
+Cmd_ItemRDeleteMul1		"右側から%1項目を削除"
+Cmd_ItemBDeleteMul1		"両側から%1項目を削除"
+
+Cmd_ItemCompare			"左側と右側を比較"
+
+Str_AskDeleteItem1		"選択された %1 個の項目を削除しますか？"
+Str_AskDeleteItem3		"削除しますか？ %1 %2 '%3'"
+
+
+# filter actions
+Cmd_ItemExcludeFile1		"'%1'ファイルを除外"
+Cmd_ItemExcludeFolder1		"'%1'フォルダを除外"
+Cmd_ItemExcludeMulti1		" %1 選択項目を除外"
+
+Cmd_ItemIncludeFile1		"'%1'ファイルのみ対象"
+Cmd_ItemIncludeFolder1		"'%1'フォルダのみ対象"
+Cmd_ItemIncludeMulti1		" %1 選択項目のみ対象"
+
+Cmd_ItemExcludeAllFiles1	"すべての'%1'ファイルを除外"
+Cmd_ItemExcludeAllFolders1	"すべての'%1'フォルダを除外"
+Cmd_ItemExcludeAllMulti1	" %1 選択項目を除外"
+
+Cmd_ItemExcludeAllMask1		"すべての'*%1'ファイルを除外"
+Cmd_ItemExcludeAllMaskMulti1	"拡張子が%1の選択項目を除外"
+
+Cmd_ItemIncludeAllMask1		"'*%1'ファイルのみ対象"
+Cmd_ItemIncludeAllMaskMulti2	" %1の拡張子を持つ選択項目のみ対象"
+
+
+# directions in commands
+Cmd_Recommended			"推奨"
+Cmd_DoNotCopy			"コピーしない"
+Cmd_CopyLeftToRight		"左側から右側へコピー"
+Cmd_CopyRightToLeft		"右側から左側へコピー"
+Cmd_DeleteLeftToRight		"右側を削除"
+Cmd_DeleteRightToLeft		"左側を削除"
+Cmd_RenameMove_LtoR		"右側で名前変更"
+Cmd_RenameMove_RtoL		"左側で名前変更"
+Cmd_CopyTimeLeftToRight 	"時刻を左側から右側へコピー"
+Cmd_CopyTimeRightToLeft 	"時刻を右側から左側へコピー"
+Cmd_NameCaseLeftToRight  	"大文字小文字を左側から右側へコピー"
+Cmd_NameCaseRightToLeft	 	"大文字小文字を右側から左側へコピー"
+Cmd_CopyStateLeftToRight 	"状態を左側から右側へコピー"
+Cmd_CopyStateRightToLeft 	"状態を右側から左側へコピー"
+Cmd_CopyStateSyncTail    	"状態をシンクロ"
+
+# Directions in pane
+Str_ToLeft			"左側"
+Str_ToRight			"右側"
+Str_Errors			"エラー"
+Str_Conflicts			"競合"
+
+# tree toolbar
+TreeToolbar_Directions		"方向"
+TreeToolbar_Filters		"フィルタ"
+TreeToolbar_Clear		"ツリー消去"
+
+TreeToolbar_Directions_Explain "ツリー上でファイルやフォルダをクリックすれば、そのファイルやフォルダのコピーの方向をここから変更することができます。"
+TreeToolbar_Filters_Explain "ツリー上でファイルやフォルダをクリックすれば、そのファイルやフォルダのフィルタ設定をここから変更することができます。"
+TreeToolbar_Button_Explain "ボタンの説明"
+
+# Tools menu
+Menu_Tools		"ツール"
+Cmd_Tools               "ツール"
+Cmd_GsAccountSetup      "グッドシンクアカウント設定..."
+Cmd_GsAccountManage     "グッドシンクアカウント管理..."
+Cmd_RunnerServiceSetup  "ランナーサービス設定..."
+Cmd_ServerControlPanel  "サーバ上級オプション..."
+Cmd_ProgOptions		"プログラムオプション..."
+Cmd_UploadAccounts	"コントロールセンターへアカウントをアップロード"
+Cmd_UploadJobs		"コントロールセンターへジョブをアップロード"
+Cmd_ExportJobsList	"すべてのジョブをエクスポート..."
+Cmd_ExportSelJobsList	"選択したジョブをエクスポート"
+Cmd_ImportJobsList	"ジョブリストをインポート..."
+Cmd_ImportAll		"インポート"
+
+Manage_NeedAccount_Err  "このコンピュータをグッドシンクアカウントに追加： ツール -> グッドシンクアカウント設定:\nこれによりこのコマンドを使ってグッドシンクアカウントにログインできます。:\n"
+
+# Help menu
+Menu_Help			"ヘルプ"
+Cmd_AppAbout			"製品情報..."
+Cmd_AppManual			"説明書"
+Cmd_AppFAQ			"よくある質問"
+Cmd_AppCreateTicket		"サポートに連絡..."
+Cmd_Help_BuyPro			"製品版購入"
+Cmd_Help_Activate		"製品版活性化"
+Cmd_CheckUpdates		"最新版チェック"
+
+
+# Search options menu
+Search_Forward			"前方検索\tEnter"
+Search_Backward			"後方検索\tShift+Enter"
+Search_Case_Sensitive		"大文字小文字区別"
+Search_Look_Files_Only		"ファイルのみ検索"
+
+# Measures
+Str_Items1			" %1 項目"
+Str_Bytes1			"バイト"
+Str_Kilobytes1			"キロバイト"
+Str_Megabytes1			"メガバイト"
+Str_Gigabytes1			"ギガバイト"
+
+# Misc
+Cmd_Cut				"切取り"
+Cmd_Copy			"コピー"
+Cmd_Paste			"貼付け"
+Cmd_Skip			"スキップ"
+Cmd_Cancel			"キャンセル"
+
+
+# Buttons below tree
+Btn_ShowJobOptionsToolTip		"ジョブオプション"
+
+Edit_Search				"検索..."
+Edit_Search_Tooltip			"検索語をここに入力"
+Edit_Search_Clear			"検索クリア"
+Edit_Search_Find_Next			"前方検索(Enter)"
+Edit_Search_Find_Prev			"後方検索(Shift+Enter)"
+Edit_Search_Show_DropDown		"リスト表示"
+
+Chk_AutoScroll			"自動スクロール"
+
+Hint_NoJobs             "ジョブがありません。新規ジョブをクリックして作成して下さい。"
+Hint_Select_Paths		"パスを選択してください" 
+Hint_Click_Analyze		"解析ボタンを押してスタートします" 
+Hint_Job_under_Runner	"ジョブがアンアテンディドモードで実行中です" 
+Hint_No_Changes			"変更なし" 
+Hint_Waiting_To_Run		"実行待ち"
+
+
+# Tree view Columns
+Str_TreeItem			"項目"
+Str_TreeLSize			"左サイズ"
+Str_TreeLDate			"左日時"
+Str_TreeL			"左側"
+Str_TreeCenter			""
+Str_TreeR			"右側"
+Str_TreeRSize			"右サイズ"
+Str_TreeRDate			"右日時"
+Str_TreeStatus			"ステイタス"
+
+# View Options
+Str_TreeView			"少なく"
+Str_ListView			"もっと"
+
+# Job Tree view Columns
+Str_JobTreeColName		"名前"
+
+# Browse Warnings
+Browse_SureAboutChange "本当に同期フォルダを変更しますか？\n同期フォルダを変更すると、ジョブパスフィルタが無効になります。\nまたすべての自動オプションはリセットされます(解析とシンクロを手動で最初からやり直す必要があります)。"
+Browse_SyncFolderRoot  "ディスクのルートフォルダを同期することはお勧めできません。なぜなら:\n- ルートフォルダにはファイル/フォルダ数に制限があります。\n- 同期フォルダの名前により何を同期しているかが明確になります。\nという事で、代わりにフォルダ %1 を同期しますがよろしいでしょうか？"
+Browse_Sync_ThisComp   "グッドシンクコネクトを使ってこのコンピュータに接続しようとしています。これは効率的ではありません。なぜなら:\n- 直接ローカルのファイルシステムに file:// を使ってアクセスする方が早い。\n- 直接ローカルのファイルシステムにアクセルするより多くの資源を消費する。\nという事で、代わりに %1 にしますがよろしいでしょうか？"
+Browse_PortableGsDisk   "ポータブルディスクを %%GSDISK%% (グッドシンクの起動ディスク)としました。これによりどのパソコンでもうまく動作します。"
+Browse_UsePortablePath  "リムーバブルドライブのボリューム名 '%1' が検出されました。\n以下のポータブルフォルダパスを使うことをお勧めします。\n'%2'\nそうすることで、別のドライブレターが割り当てられた場合でも、キチンとこのボリュームが見つかるからです。\nこのポータブルフォルダパスを使いますか？"
+Browse_UseUNC_Path      "ネットワーク共有 '%1' -> '%2' が検出されました。\n文字パス'%4'ではなく代わりにUNCパス'%3'を使うことをお勧めします。\nUNCパスを使いますか？"
+
+# Short version for V11 browse dialog messages
+Browse_SyncFolderRootShort	"ルートフォルダ(%1)を同期することはお勧めできません。代わりにフォルダを作成してください。"
+
+# Browse mode indication (for job side buttons)
+Str_BrowseMode			"フォルダ選択(参照)モード"
+
+Str_Startup_Str_ChooseLR     "このジョブの左右のフォルダを選択します。"
+Str_Startup_Str_ClickApply   "適用をクリックしてフォルダの選択を確認します。"
+Str_Startup_Str_ClickAnalyze "解析をクリックして提案されるファイル操作を確認します。"
+Str_Startup_Str_ClickSync    "シンクロをクリックしてバックアップまたは同期を実行します。"
+
+# Tooltips for buttons, for new users
+Tip_Select_Folsers		"同期フォルダと同期の方向を選択してください。"
+Tip_Browse_Left			"左側フォルダを選択\n参照ボタンを押してネットワークフォルダのユーザＩＤ、パスワード、ＵＲＬを入力します。"
+Tip_Browse_Right		"右側フォルダを選択\n参照ボタンを押してネットワークフォルダのユーザＩＤ、パスワード、ＵＲＬを入力します。"
+Tip_Change_Way			"同期の方向やその他の設定を変更します。"
+Tip_Select_Direction		"同期の方向を選択します。"
+Tip_Analyze			"ジョブの解析：左右のフォルダの相違のリストを表示して適切なアクションを提示します。"
+Tip_Sync			"ジョブのシンクロ：直前に解析された内容に基づいてシンクロを行います。"
+Tip_SelectMultiple		"複数フォルダ選択、基本フィルタ(対象/除外)の設定"
+Tip_SelectSingle		"単一フォルダ選択に戻る"
+Tip_Stop			"解析やシンクロを停止します。"
+Tip_Clear			"相違のツリー表示をクリアします（メモリの節約）。"
+Tip_Opt				"自動実行の設定"
+Tip_Paused			"停止中。再開はここをクリック"
+Tip_Pause			"一時的に解析やシンクロを停止します。"
+
+# New Job dialog
+Title_JobName			"グッドシンク新規ジョブ"
+Str_NewJob			"新規ジョブ"
+
+Str_JobName			"ジョブ名を入力"
+Str_JobTemplate			"次のテンプレートから:"
+Str_BadJobName1			"ジョブ名に次の記号を含むことはできません: / \\ ? < > : * |"
+Str_BadJobName2			"ジョブ名は'%1'とは異なるものにしてください。"
+Str_BadJobName3			"ジョブ名は半角換算で100文字を超えない範囲で設定してください。"
+
+Str_GroupName			"グループ名を入力"
+Str_BadGroupName1       "グループ名に次の記号を含むことはできません: / \\ ? < > : * |"
+Str_BadGroupName2       "グループ名は'%1'とは異なるものにしてください。"
+Str_BadGroupName3       "グループ名は半角換算で100文字を超えない範囲で設定してください。"
+
+Str_JobNameExists		"このジョブ名はすでに使用されています。"
+Str_GroupNameExists		"このグループ名はすでに使用されています。"
+Str_JobType			"ジョブタイプを選択"
+Str_JobType_Backup		"バックアップ"
+Str_JobDesc_Backup		"片方向ジョブ: 左側でのみファイルの変更があり右側に対してのみファイルの更新を行います。隠しファイルとシステムファイルも既定で対象となります。"
+Str_JobType_Sync		"同期"
+Str_JobDesc_Sync		"双方向ジョブ: 両側にファイルの変更があり相互にファイルの更新を行います。隠しファイルとシステムファイルは既定で除外されます。"
+Str_JobType_Template	"テンプレートから:"
+Str_JobDesc_Template	 "テンプレートはあらかじめジョブオプションが設定されているジョブのことです。テンプレートにはジョブオプションは設定されていますがフォルダのパスは設定されていません。"
+Str_Combo_NoTemplate	 "<テンプレート無し>"
+
+Title_RenameJob			"ジョブ名前変更"
+Title_RenameGroup		"グループ名変更"
+Title_CloneJob			"ジョブ複製"
+Str_NewJob_Header		"グッドシンクへようこそ"
+Str_NewJob_Descr		"最初のジョブを作成しましょう"
+Str_NewJobClose			"グッドシンクを終了しますか？\n終了するにはOKを押します。次回ジョブの作成についてご案内します。\nキャンセルを押すとジョブ名の入力に戻ります。"
+Lnk_Tutorial			"使い方説明サイト"
+
+# Job Tabs control buttons
+Str_TabAddNewJob		"新規ジョブを追加"
+Str_TabScrollLeft		"左にスクロール"
+Str_TabScrollRight		"右にスクロール"
+
+
+# Job List Pane
+Title_JobList			"ジョブリスト"
+Title_TaskName			"ジョブ名"
+Title_LastRunTime		"前回実行時刻"	
+
+Str_ColumnAnalyze		"解析"
+Str_ColumnSync			"シンクロ"
+Str_ColumnAnalyzeAndSync "解析とシンクロ"
+Str_ColumnLPath			"左側パス"
+Str_ColumnRPath			"右側パス"
+
+# job statuses
+Str_ColumnStatus		"ステイタス"
+
+JobStatus_Idle			"アイドル"
+JobStatus_Waiting		"待機中"
+JobStatus_Analyzing		"解析中 %1%"
+JobStatus_Analyzed		"解析完了"
+JobStatus_ErrorTerm		"エラー"
+JobStatus_Attention		"注意"
+JobStatus_Conflicts		"競合"
+JobStatus_ErrorsNonTerm		"エラー"
+JobStatus_Syncing		"シンクロ中 %1%"
+JobStatus_Synced		"シンクロ完了"
+JobStatus_Paused		"一時停止"
+JobStatus_Stopped		"停止"
+JobStatus_SpOpRunning		"SpecOp 実行中"
+JobStatus_SpOpDone		"SpecOp 完了"
+
+
+# Job Tree View
+Str_Export_This_Group		"グループをエクスポート"
+Str_New_Group			"新規グループ..."
+
+# Log Pane
+Title_LogWnd			"ログウィンドウ"
+
+# Help -> About
+Title_About			"製品情報"
+Tip_About			"製品情報"
+Str_RegTo			"登録者:"
+Help_ChkVer			"グッドシンクのサーバに接続して新バージョンがあるか確認します。"
+Msg_JobGroupTimeTable   " 実行予定 (1年間のタイムテーブル/ 最初の10件):\n"
+Cmd_Test			"テスト"
+Help_SmtpTest			"このSTMP設定でグッドシンクのメール差出人のアドレス宛てにテストメールを送信します。"
+Help_SysStat			"グッドシンクのバージョンや環境についての情報を表示します。技術的な問題があるときには、この情報をサポートまでお知らせください。"
+
+# Mouse over
+Help_NotDefined			"この項目にはヘルプがありません。"
+Help_MouseOver			"マウスをかざすと詳しい説明が表示されます。また説明文をスクロールしたりコピーするには一度ALTキーを押します。"
+
+#
+# --- PROGRAM OPTIONS ---
+#
+
+Title_Options			"プログラムオプション - グッドシンク"
+Str_OptDetailedHelp     	"詳細なヘルプ"
+Str_OpenProgrammOpt     "プログラムオプションを開く"
+
+# Program Options - General
+Title_General			"一般"
+
+Str_UserInterface		"ユーザインタフェース"
+Str_Lang			"表示言語(再起動要)"
+Help_Lang			"メニューやメッセージなどに使われる言語を変更します。グッドシンクの再起動が必要です。"
+
+Str_TreeDisplayDensity		"ツリー表示の密度(要再起動)"
+Tip_TreeDisplayDensity		"高にすると１ページに多くの情報を表示できます。"
+TreeDisplayDensity_Low		"低"
+TreeDisplayDensity_Med		"中"
+TreeDisplayDensity_Hi		"高"
+
+Str_NoAnimations		"解析時のアニメーションを省略"
+Tip_NoAnimations		"解析時のアニメーションを非表示とします。"
+
+Chk_SortNamesByAlpha	"ジョブをアルファベット順に並び替える(要再起動)"
+Help_SortNamesByAlpha	"ON: アルファベット順にジョブやグループを表示。OFF: ジョブインデックス順にジョブやグループを表示。ジョブリスト表示においてドラッグ＆ドロップで表示順を変更可能。"
+
+Chk_ShowSystemGroups	"バックアップ/同期ジョブグループを表示 (要再起動)"
+Help_ShowSystemGroups	"グッドシンクにより自動的に作られたバックアップ/同期ジョブグループをツリーに表示"
+
+Str_WindowsIntegration	"Windows統合"
+Str_Mac_SystemIntegration   "システム統合"
+Chk_ShowSysTray			"システムトレイにグッドシンクのアイコンを表示"
+Help_ShowSysTray		"システムトレイにグッドシンクのアイコンを表示します。"
+
+Chk_TrayIcon			"メインウィンドウを閉じるとシステムトレイに常駐します。"
+Help_TrayIcon			"ON: グッドシンクを閉じてもバックグラウンドで実行します。 OFF: グッドシンクを閉じるとメモリから消去されます。"
+
+Chk_AutoStart			"Windows起動時にグッドシンクを起動します。"
+Help_AutoStart			"Windowsにログインすると自動的にグッドシンクを最小化した状態で起動します。自動でジョブを実行するように設定している場合にはここをオンにしておきます。なお、２Ｇｏではこのオプションは無効です。"
+
+Chk_Mac_AutoStart		"Mac起動時にグッドシンクを起動します。"
+Help_Mac_AutoStart		"Macにログインすると自動的にグッドシンクをを最小化した状態で起動します。自動でジョブを実行するように設定している場合にはここをオンにしておきます。なお、２Ｇｏではこのオプションは無効です。"
+
+Chk_Mac_PreventSleep    "システムがスリープ状態になるのを防ぎます。"
+Help_Mac_PreventSleep   "グッドシンクのジョブが実行中だったりスケジュールによりジョブが実行されるようになっている場合に、MacOSがタイマーによりスリープ状態になるのを防ぎます。ご注意：アップルメニューからスリープを選んだり、ラップトップのふたを閉じたりするとスリープは避けられません。"
+
+Chk_DesktopShortcuts	"デスクトップにグッドシンクのショートカットを追加"
+Help_DesktopShortcuts	"デスクトップやクイックランチにグッドシンクのショートカットを追加します。"
+
+Chk_Warn_TimeOutOfRange	 "時刻がレンジを超えている場合に警告する"
+Help_Warn_TimeOutOfRange "ファイル変更時刻が[1980年~2037年]のレンジを超えている場合に警告を発する"
+
+Str_CompareProg			"比較プログラム"
+Help_CompareProg		"ファイル比較プログラム。引数としてファイルのパスを受け取るGUIプログラムを指定します。例： WinDiff.Exeを指定した場合、グッドシンクは WinDiff file1 file2 という形で呼び出します。プログラムが指定されていない場合は UNIX diff が既定のプログラムとして呼び出されます。"
+Str_ExecutableFiles		"実行ファイル"
+
+Str_Logs			"ログ"
+
+Str_LogDetailLevel		"ログの詳細レベル"
+Help_LogDetailLevel		"ログウィンドウに表示するログの詳細レベル。ログファイルは(1)当該ジョブの左右のフォルダの _gsdata_  (2) グローバルログは以下に保存されます。"
+Str_LogCritical			"クリティカル"
+Str_LogError			"エラー"
+Str_LogInfo			"アクション"
+Str_LogDetails			"詳細"
+
+Str_LogFolderGlobal		"ログ保存フォルダ"
+Help_LogFolderGlobal		"グローバルログが記録されるフォルダ。空の場合はユーザアプリケーションプロファイルフォルダのグッドシンクフォルダに書き出されます。"
+
+Str_LogRetainDays       	"ログファイルを保持する日数"
+Help_LogRetainDays      	"ジョブログとグローバルログを保持する日数を指定します。"
+
+Chk_ResetIM			"すべてのメッセージを既定値に戻す。"
+Help_ResetIM			"以前の無効な警告メッセージをすべて有効にします。"
+
+
+# Program Options -> Auto
+
+Chk_AutoHideMiniWin		"アクティブなジョブがない時にミニウィンドウを自動で隠す。"
+Help_AutoHideMiniWin		"アクティブなジョブがない時にミニウィンドウを自動で隠す。"
+
+Str_ParallelAutoJobs    	"並行して自動で実行するジョブの最大数"
+Help_ParallelAutoJobs   	"並行して自動で実行するジョブの最大数。１を設定した場合はすべての自動で実行するジョブは並行ではなく順番で実行されます。"
+
+Str_AutoJobsQuant       	"自動ジョブの走査間隔(秒)"
+Help_AutoJobsQuant      	"すべての自動ジョブはこの時間間隔で走査され自動実行を開始すべきかどうかが判定されます。"
+
+Str_FileHistory         "ファイル履歴"
+Chk_CleanupOldGens	"古い世代を指定された月数の経過後に削除"
+Help_CleanupOldGens  	"オンの場合は指定された月数の経過後に状態ファイルから古い世代を削除します。削除は同期動作の後に行われます。オフの場合は状態ファイルにすべての世代が永遠に保持されます。"
+Help_SaveOldGensMonths 	"古い世代を状態ファイルに保持する月数"
+
+Str_Updates             "更新"
+Chk_AutoChkVer		"最新版を毎日チェック"
+Help_AutoChkVer		"サーバ www.goodsync.com に新しいバージョンが用意されているかどうかを毎日確認します。"
+
+Chk_AutoInstallVer	"新バージョンを自動的にインストール"
+Help_AutoInstallVer	"新バージョンが利用可能の場合、自動的にインストールを行います。"
+
+
+# Program Options -> Security
+Title_Security          "セキュリティ"
+
+Chk_OAuthBrowserPrivate "OAuthに既定のブラウザを使用"
+Tip_OAuthBrowserPrivate "オン: "OAuthに既定のブラウザを使用する オフ: "OAuthに標準のブラウザを使用する"
+
+Chk_SavePwdsEncrd		"接続パスワードをローカル暗号化で保存"
+Tip_SavePwdsEncrd		"チェックするとすべてのファイルシステムへの接続のパスワードをローカルのOSのマスターパスワードを使って暗号化して保存します。従って他のパソコンへの可搬性がありません。チェックを外した場合は所定のマスターパスワードで暗号化されて保存されますので可搬性があります。"
+
+Str_ControlCenter       "コントロールセンター"
+Str_CC_UserID           "会社の管理者メール"
+Tip_CC_UserID           "会社の管理者メール"
+Str_CC_Passwd           "会社の管理者パスワード"
+Tip_CC_Passwd           "会社の管理者パスワード"
+Str_CC_Accounts_Passwd  "アカウント暗号化用パスワード"
+Tip_CC_Accounts_Passwd  "コントロールセンターにアップロードされるアカウントはこのパスワードで暗号化されます。この会社のすべてのＣＣランナーは、アカウントをローカルに復号化するために同じパスワードを指定しなければなりません。"
+Str_CC_CompID			"コントロールセンターでの会社ID(数字)"
+Tip_CC_CompID			"あなたの会社のIDです。コントロールセンターのUIの設定ページで確認できます。"
+Str_CC_CompPIN			"会社PIN"
+Tip_CC_CompPIN			"あなたの会社のPINです。会社の管理者から要求された場合。"
+Str_CC_RunnerService	"オン: ランナーはサービスとして実行されます。オフ: ランナーはユーザセッションとして実行されます。"
+Str_CC_ServiceSysUser	"ランナーサービスを実行するWindowsユーザ"
+Str_CC_ServiceSysUserMac "ランナーサービスを実行するMacOSユーザ"
+Str_CC_ServiceSysPwd	"ランナーサービスのためのWindowsパスワード"
+Str_CC_MiniProgress		"ミニ進捗ポップアップを表示します。gs-runnerにより実行されているジョブの状態を表示しています。"
+Str_CC_AllowUserClose	"タスクバーのステータスウィンドウをユーザが閉じることを許可します。"
+Str_CC_AdminCredsNeed   "管理者の認証情報をアップロードする必要があります\nツール -> プログラムオプション -> セキュリティ -> コントロールセンターで指定してください。"
+
+# Program Options -> Connection
+SMTP_options			"SMTPオプション"
+
+Str_SMTP_Enable			"メールの送信にSMTPを使用(オフ: 既定のMAPIを使用)"
+Help_SMTP_Enable		"オン: 以下で指定するSMTPサーバを使って解析後やシンクロ後に電子メールを送信します。　オフ: 既定のMAPIクライアントを使って解析後やシンクロ後に電子メールを送信します。"
+
+Str_SMTP_Host			"SMTPサーバ"
+Help_SMTP_Host			"SMTPサーバのホスト名をここに入力します。解析後やシンクロ後に電子メールを送信する際にこのサーバを使用します。"
+
+Str_SMTP_Port			"ポート"
+Help_SMTP_Port			"SMTPのポート番号を入力します。通常は 587 や 25 です。"
+
+Str_SMTP_UserID         	"SMTPユーザID"
+Help_SMTP_UserID        	"SMTPサーバでのユーザIDを入力します。"
+
+Str_SMTP_Passwd         	"パスワード"
+Help_SMTP_Passwd        	"SMTPサーバでのパスワードを入力します。"
+
+Str_SMTP_SenderEmail    	"送信者のメールアドレス"
+Help_SMTP_SenderEmail   	"送信者のメールアドレスを入力します。例： 'user@server.com' または 'FirstName LastName <userid@server.com>'"
+
+Str_SMTP_Secure			"セキュアSMTP"
+Help_SMTP_Secure		"オン: 465番ポートでSSLを使用してSMTPの暗号化通信を行います。 オフ:クリアテキストでの通信を行います。"
+
+Str_SMTP_StartTls		"STARTTLSを使用"
+Help_SMTP_StartTls		"オン：587番ポートでSTARTTLSを使って暗号化通信を行います。オフ：クリアテキストでの通信を行います。"
+
+#
+# --- JOB OPTIONS ---
+#
+Str_Options			"オプション"
+
+# Job Options - General
+Title_JobGeneral		"一般"
+Tip_JobGeneral			"ジョブ一般"
+
+Options_job_type		"ジョブタイプとファイル削除"
+Label_JobType			"ジョブタイプ"
+Str_JobType_TwoWay		"双方向の同期"
+Str_JobType_LeftToRight		"左から右へ(片方向)"
+Str_JobType_RightToLeft		"右から左へ(片方向)"
+Help_JobType			"双方向の同期では左右のフォルダが常に同じになるように動作します。片方向の同期は通常バックアップの目的で使用されます。"
+
+Chk_DelPropagate		"削除を伝播"
+Help_DelPropagate		"ON: 一方のフォルダでファイルやフォルダが削除されるとグッドシンクは他方のフォルダにも同じ操作(削除)を適用します。OFF(片方向): 除外ファイルとして取り扱います。 OFF(双方向): 削除は伝播されません。"
+
+Str_ShowBalloon			"バルーンメッセージを表示"
+Str_Mac_ShowNot         	"通知を表示する"
+Str_DoNotShowBalloon		"表示しない"
+Str_ShowBalloonAlways		"変更ありとシンクロ時"
+Str_ShowBalloonOnError		"競合とエラー時"
+Help_ShowBalloon		"システムトレイに通知メッセージを表示する条件を選びます。"
+Help_Mac_ShowNot		"通知センターまたはGrowlを使ってメッセージを表示する条件を選びます。"
+
+Chk_CreateNewFolder	"同期フォルダが見つからない場合に、それを作成します。"
+Help_CreateNewFolder	"左右の同期フォルダが見つからなかった場合、グッドシンクがそれを作成します。"
+
+Recycled_files			"ゴミ箱"
+
+Chk_SaveBakFiles	"[直近]に削除または置換されたファイルを保存"
+Help_SaveBakFiles	"シンクロの結果により削除されたり置き換えられたりした[直近]のバックアップコピーを取ります。ファイルは _gsdata_/_saved_ フォルダの 'recycle bin' にバックアップされます。バックアップされるのは削除または置換された[直近]のみです。チェックがはずれている場合には保存は行われません。"
+Chk_CleanupBakFiles	"設定日数後に _saved_ フォルダの内容を消去"
+Help_CleanupBakFiles	"_gsdata_/_saved_ フォルダに保存されたファイルは設定した日数を経過した後に削除します。削除はシンクロ動作完了時に行われます。チェックがはずれている場合はファイルは永遠に残ります。"
+Help_SavePrevDays	"設定した日数が経過するまでは _gsdata_/_saved_ のファイルは保持されます。"
+
+Chk_SavePastVersions	"[過去]に削除または置換されたファイルを保存"
+Help_SavePastVersions	"過去に削除または置換されたファイルを保存します。保存場所は _gsdata_/_history_ フォルダでファイル名にはタイムスタンプが追加されます。チェックが無い場合は保存は行われません。"
+Chk_CleanupPastVersions	 "設定日数後に _history_ フォルダの内容を消去"
+Help_CleanupPastVersions "_gsdata_/_history_ フォルダに保存されたファイルは設定した日数を経過した後に削除します。削除はシンクロ動作完了時に行われます。チェックがはずれている場合はファイルは永遠に残ります。"
+Help_SavePastDays	 "設定した日数が経過するまでは _gsdata_/_history_ のファイルは保持されます。"
+
+Str_ReconnectSeconds		"自動再接続を試行する最大時間"
+Help_ReconnectSeconds  		"接続エラー時に自動で再接続を試行することを許容する最大時間"
+
+Str_WorkerThreads		"以下の複数スレッドで実行:"
+Help_WorkerThreads		"指定した数のスレッドで同期を行います。遅延時間の高く複数の接続が可能なファイルシステムにおいて処理スピードの向上が期待できます。"
+
+SpeedLimit			"転送速度制限"
+Str_SpeedLimit			"ファイルコピーのスピード制限 キロバイト/秒、ダウンロード"
+Help_SpeedLimit  		"ファイルコピーの平均スピードが指定の値を超えると処理を遅くします。単位はキロバイト/秒です。ただしゼロに設定すると制限無しとなります。 100 を設定すると 100 キロバイト/秒、およそ 1 メガビット/秒となります。"  "
+
+TimeLimit			"時間制限"
+Str_MaxRunTime			"実行時間の最大値(分)"
+Help_MaxRunTime			"指定の時間よりもジョブの実行に時間(分単位)が掛かる場合はジョブを停止します。0は無制限を意味します。"
+
+AfterJobFinish			"ジョブ終了後"
+Str_ShutdownOnFinish    "ジョブ終了後シャットダウン"
+Help_ShutdownOnFinish   "ジョブがエラー無しで終了した場合、このコンピュータをシャットダウンします。"
+
+
+
+# Job options - Filters page
+Title_Filters			"フィルタ"
+Tip_Filters			"フィルタ"
+Str_FilterExcluded		"除外"
+Str_FilterExcludedFull	"対象以外のすべてを除外 (空行: 除外なし)"
+Help_FilterExcluded		"この除外リストのいずれかの行に合致するファイルやフォルダは同期の対象から除外されます。ワイルトカードとして'*'と'?'が使用可能です。また / で始まる行は同期フォルダからの完全パスに合致します。使用例: *.txt *~ /Fo?der/*.obj"
+Str_FilterIncluded		"対象"
+Str_FilterIncludedFull	"すべてを対象 (空行: すべて対象)"
+Help_FilterIncluded		"この対象リストのいずれかの行に合致して、なおかつ除外リストのいずれにも合致しないものが同期の対象となります。"
+Tip_Filter_New			"新しいフィルタを挿入"
+Tip_Filter_Edit			"選択されたフィルタを変更"
+Tip_Filter_Del			"選択されたフィルタを削除"
+Str_Filter_DummyText		"<ダブルクリックで新しい項目を追加>"
+Str_Edit			"編集"
+
+Chk_ExcludeEmptyFolders	 	"空のフォルダを除外"
+Help_ExcludeEmptyFolders 	"空のフォルダおよび除外ファイルや除外フォルダのみを含むフォルダをシンクロ対象から除外します。"
+Chk_ExcludeHidden		 "隠しファイルと隠しフォルダを除外"
+Help_ExcludeHidden		 "隠しファイル属性が付いたファイルとフォルダを除外します。"
+Chk_ExcludeSystem		 "システムファイルとシステムフォルダを除外"
+Help_ExcludeSystem		 "システムファイル属性が付いたファイルとフォルダを除外します。"
+Chk_ExcludeTemp 		 "一時ファイルと一時フォルダを除外します。"
+Help_ExcludeTemp		 "一時ファイルと一時フォルダは保存する意味がないので除外します。"
+Str_FiltersChooseFiles   	 "同期から除外するファイルおよび対象とするファイルを選びます。"
+
+
+# Job options - Auto page
+Title_Auto			"自動"
+Tip_Auto			"これらのトリガにより自動でジョブを実行します"
+
+JobAutoAnalAndSync		"自動の解析とシンクロ"
+
+Name_DoOnFileChange		"ファイル変更時"
+Chk_DoOnFileChange		"ファイル変更時"
+Help_DoOnFileChange		"左右の同期フォルダにファイルの変更があったときに解析（とシンクロ）を実行します。"
+Str_Delay			"遅延時間"
+Str_Sec				"秒"
+Help_AutoStartDelay     "ジョブの実行を指定した秒数だけ遅延します。これはグッドシンク起動時と定期実行に適用されます。"
+
+Name_DoOnFoldersConnect	"フォルダ接続時"
+Chk_DoOnFoldersConnect	"フォルダ接続時"
+Help_DoOnFoldersConnect	"両側のフォルダが接続された時に解析（とシンクロ）を行います。これは例えばディスクが挿入されたり、インターネット接続が確立したり、携帯電話等が接続された時です。"
+
+Name_DoOnStart			"グッドシンク起動時"
+Chk_DoOnStart			"グッドシンク起動時　遅延(秒)"
+Help_DoOnStart			"グッドシンクが起動した際に解析（とシンクロ）を行います。"
+Chk_DoOnGsStart			"グッドシンク起動時"
+
+Name_DoPeriodically		"周期実行"
+Chk_DoPeriodically		"周期実行"
+Help_DoPeriodically		"毎 HH 時間 MM 分毎に解析とシンクロを行う。"
+Str_Hour			"時間"	
+Str_Min				"分"	
+
+Name_DoBeforeLogout		"ログオフ時"
+Chk_DoBeforeLogout		"ログオフ時"
+Help_DoBeforeLogout		"ログオフや再起動などを行った時に解析とシンクロを行います。'プログラムは応答していません。'というメッセージがWindowsから発せられる場合がありますが無視してください。"
+
+Str_DoOnSchedule		"スケジュール"
+Help_DoOnSchedule		"ジョブは指定されたスケジュールに応じて実行されます。"
+Str_SchedConfig			"設定..."
+Help_SchedConfig		"このジョブを実行するスケジュールを設定します。Cronユーティリティと類似の設定方法です。"
+
+Str_ScheduleFor			"スケジュール "
+Str_Schedule_Line1      "値が一致した時に実行されます:"
+Str_Schedule_Minute     "分"
+Str_Schedule_Hour       "時刻"
+Str_Schedule_DOM        "日"
+Str_Schedule_Month      "月"
+Str_Schedule_DOW        "曜日"
+Str_Schedule_Explain    "(空)はすべてに一致します。\nVal1, Val2, ..., ValN はその値に一致します。\nn1-n2 は n1 から n2 の範囲に一致します。\nn1-n2/n3 は n1 から n2 の範囲の n3 刻みに一致します。\n例: 分=15 時刻=03 月=3-10/3 曜日=1,3,5\nは3月6月9月の毎週月水金曜の午前 03:15 にジョブを実行します。"
+
+Str_Unattended			"ユーザインタフェース無しで実行(アンアテンディドモード)"	
+Help_Mac_AutoUnattended  "チェックするとグッドシンクのランナーサービスがユーザインタフェース無しで自動ジョブを実行します。従ってパソコンにログインしていなくてもジョブが実行されます。ジョブはユーザの介在なしに実行されますので、ツリーで動作を確認することはできません。ジョブ -> 左側(右側)ログを開くでログを確認することができます。このモードはすべての自動ジョブに適用可能です。"
+
+AdvancedAuto			"高度な自動オプション"
+
+Str_AutoRunMode			"GUI上で実行またはランナーサービスで実行"
+Str_AutoUnattended		"ユーザインタフェース無し(アンアテンディド)"
+Help_AutoUnattended     "ここをチェックするとグッドシンクランナーサービスがこのジョブを起動します。つまりWindowsのアカウントにログインしていない場合でもジョブの実行が可能となります。ユーザインタフェース無しで実行されるためジョブの実行結果はログでのみ確認できます。これはすべての自動オプションに適用されます。"
+
+Str_LimitChanges		"変更のあるファイル数が一定割合を超えた場合はシンクロの実行をしない"
+Help_LimitChanges		"変更のあるファイル数が一定割合を超えた場合、自動でのシンクロを行いません。これはユーザによる確認が必要となる可能性があるからです。ここを100%にするとシンクロは常に実行されます。"
+
+Chk_WaitForLocks		"ロック解除を待ちます(分)"
+Help_WaitForLocks		"チェックされていると解析時に lock.gsl が他のジョブにより削除されるのを待ちます。待ち時間の既定値は２０分です。ここがチェックされていない場合はロックファイルの検出によりそのままロックエラーを発生します。"
+
+Msg_Override_Locks      "解析をクリックしたときにロックを解除する(他のジョブが不正終了したことを知っている)。"
+Msg_Override_BadState   "解析をもう一度クリックしたときに壊れた状態ファイルを削除する。"
+
+Str_ResolveConflicts		"競合を自動的に解決"
+Help_ResolveConflicts		"自動シンクロとなっているジョブの競合を自動的に解決します。自動シンクロでない場合の競合はユーザによる変更を除いてすべてコピーなしとなります。なお競合が発生するのは双方向ジョブのみで片方向ジョブでは競合は発生しません。"
+Str_DoNotCopy			"コピーしない"
+Str_LeftSideWins		"左側ファイルが有効"
+Str_RightSideWins		"右側ファイルが有効"
+Str_NewerFileWins		"より新しいファイルが有効"
+Str_StopSync			"同期停止"
+
+Str_RenameLosingFile	"失われるファイルを削除せずに名前を変更する"
+Help_RenameLosingFile	"競合の解決により失われるファイルを <file-base>_lost-in-conflict-<date>.ext に名前変更する。"
+
+Str_AutoClear			"解析やシンクロで変更無しの場合に自動的にツリー表示をクリア"
+Help_AutoClear			"解析やシンクロで変更無しの場合に自動的にツリー表示をクリアします。"
+
+Str_NotInPortable		"ポータブルバージョン(2Go)ではご利用頂けません。"
+
+
+# Job options - Scripts page
+Title_Script			"スクリプト"
+Tip_Script			"スクリプト"
+Str_CallingProgramEmail 	"プログラムの呼び出しおよびメール送信"
+
+Str_PreAnalyze			"解析前:"
+Help_PreAnalyzeProgram		"メールが指定されている場合は解析開始前にログをメールします(ツール -> プログラムオプション -> 接続で指定された方法)。一方プログラムが指定されている場合は解析開始前にそのプログラムを実行します。"
+
+Str_PostAnalyzeNoChanges 	"解析後(変更無):"
+Help_PostAnalyzeEmailOrProgram	"メールが指定されている場合は解析で変更無しと解析された場合に解析ログをメールします(ツール -> プログラムオプション -> 接続で指定された方法)。一方プログラムが指定されている場合は解析後に変更無しと解析された場合にそのプログラムを実行します。"
+
+Str_PostSync			"同期後:"
+Help_PostSyncEmailOrProgram	"メールアドレスを入れておくとシンクロ完了後にシンクロのログをそのメールに送ります(ツール -> プログラムオプション -> 接続で指定された方法)。一方プログラム名を入れておくとシンクロ完了後にそれを実行します。"
+
+Str_Variables		    	"プログラムの引数として使用される変数:"
+Str_ScriptOptLegend 		"空白文字を含むプログラムは\"...\"で囲みます。\n'errors: 'プリフィックスを付けるとエラー時にのみ実行されます。\n'nowait: 'プリフィックスを付けるとプログラムの終了を待ちません。\n'noattach: ' prefix: メールにログファイルを添付しない。\n"
+Str_VarOptLegend 		"%%JOBNAME%%\tジョブ名\n%%RESULT%%\t結果: 空またはエラーメッセージ\n%%LOGPATH%%\tログファイルのパス\n%%LF%% %%RF%%\t左側または右側フォルダ\n%%LF_ACT%% %%RF_ACT%%\t左側または右側フォルダ解決済み\n%%STAGE%%\t同期段階: 解析前 解析後 同期後\n%%CHANGED%%\t解析後の変更あり項目数\n%%ERRORS%%\t解析後または同期後のエラー数\n%%CONFLICTS%%\t解析後または同期後の競合数\n%%SYNCOK%%\t同期後の同期完了数"
+
+
+# Job Options - Advanced
+Title_JobAdvanced		"高度な設定"
+Tip_JobAdvanced			"高度な設定"
+
+Title_JobLeftSide		"左側"
+Tip_JobLeftSide			"左側オプション"
+
+Title_JobRightSide		"右側"
+Tip_JobRightSide		"右側オプション"
+
+Chk_CopyCreateTime	    	"ファイル生成時刻をコピー"
+Help_CopyCreateTime		"オン：生成時刻と変更時刻の両方をコピーします。　オフ：変更時刻のみコピーします。Windowsファイルシステムでのみ有効です。"
+Help_Mac_CopyCreateTime	"オン：生成時刻と変更時刻の両方をコピーします。　オフ：変更時刻のみコピーします。WindowsファイルシステムおよびMacでのみ有効です。"
+
+Chk_CopyOrigFileNames       "オリジナルのファイルシステム名をコピー"
+Help_Mac_CopyOrigFileNames  "ファイル名として禁止されているシンボルを変更しない(?\\<>|*\")。ご注意ください！これは Mac 対 Mac でのみ正しく動作します。"
+
+Chk_CopyAttrs	   		"セキュリティビットをコピー"
+Help_CopyAttrs			"隠し、システム、読み取り専用、rwx 等の属性をコピー。Windows 対 Windows、Mac 対 Mac、UNIX 対 UNIXで有効です。"
+
+Chk_CopyAttrs_Unix	   	"パーミッションをコピー"
+Help_CopyAttrs_Unix		"パーミッション(rwxrwxrwx)をコピーします。Mac 対 Mac または Unix 対 Unix で有効です。"
+
+Chk_CopyOwner  		    	"所有者をコピー"
+Help_CopyOwner			"ファイル・フォルダ所有者をコピー。NTFS 対 NTFS または Mac 対 Mac でのみ有効です。"
+
+Chk_CopyACL	   		"ACLをコピー"
+Help_CopyACL			"ファイルやフォルダのコピー時にDACL(SACLではない)をコピーします。NTFS 対 NTFS でのみ有効で、同じNTドメインにある必要があります。"
+
+Chk_CopyACL_Mac		    	"ACLをコピー"
+Help_CopyACL_Mac		"ファイルやフォルダのアクセスコントロールリスト(ACL)をコピーします。HFS 対 HFS でのみ有効です。"
+
+Chk_CopyExtendedAttrs	"拡張属性をコピー"
+Help_CopyExtendedAttrs	"拡張属性をコピーします。 HFS 対 HFS でのみ有効です。"
+
+Chk_CompareCheckSumAll	"すべてのファイルのチェックサムを比較 (遅い)"
+Help_CompareCheckSumAll	"ここをチェックすると、すべてのファイル本体(ファイルサイズと変更時刻が同じであっても)のチェックサムを比較します。またシンクロ終了後に、ソース側とデスティネーション側のファイルのチェックサムを比較してコピーが問題なく行われたことを確実にします。チェックしない場合、ファイルサイズまたは変更時刻がが異なる場合のみファイルが異なると判定します。またシンクロ後の確認もしません。このオプションを使うと処理に時間が掛かりますが、ファイル本体が同一であることを保証できます（チェックサムにより）。"
+
+
+Chk_CopyLocked			"ロックされたファイルをVSSを使ってコピー"
+Help_CopyLocked			"ボリュームシャドーサービス（VSS）を使って他のプロセスによりロックされているファイルでもコピー可能とします。Windows 2000ではご利用頂けません。また64ビットシステムの場合は64ビット版グッドシンクが必要です。"
+
+Chk_RetrySyncIfFileChanges   	"解析からシンクロまでの間にファイルに変更があった場合は再度シンクロを行う"
+Help_RetrySyncIfFileChanges  	"オン：解析してからシンクロするまでの間にファイルに変更があった場合はそのファイルについて再度シンクロを行います。オフ：次回の解析が行われるまでシンクロしません。"
+
+Chk_UberUnlockedUploads		"超アンロックモード: アップロード時にソースファイルが削除または移動されている可能性を排除しません。"
+Help_UberUnlockedUploads	"オン: ソースファイルはいかなる意味でもロックされないので、アップロード時にソースファイルが削除または移動されている可能性があります。 オフ： アップロード時にオペレーティングシステムが提供するアンロックモードを使用します。この場合アップロード時、ソースファイルは削除や移動ができない状態に保持されます。"
+
+Chk_DetectsMovesRenames		"ファイル・フォルダの移動と名前変更を検出"
+Help_DetectsMovesRenames	"オン: ファイル・フォルダの移動と名前変更を検出しそのように処理を行います。オフ: ファイルの移動と名前変更は新しいファイルのコピーと古いファイルの削除という動作になります。"
+
+Chk_CalcReqSpace		"同期に必要となるディスク容量を見積り"
+Help_CalcReqSpace		"オンの場合は同期に必要となるディスクの空き容量を計算します。ディスク容量にゆとりが無い場合はオンでご利用ください。十分な空き領域がある場合にはオフでの利用をお薦めします。"
+
+
+Radio_OneWayDeleteSource "移動モード: コピー後に転送元ファイルを削除"
+Help_OneWayDeleteSource	 "片方向ジョブ: コピーが完了した際に転送元ファイルを削除します。これは実質的にファイルの移動を意味します。"
+Warn_OneWayDeleteSource  "コピー後に転送元のファイルを削除してよろしいですか？\n削除したファイルを元に戻すことはできません。\n間違いないことを確認した場合のみYESをクリックしてください。"
+
+Check_DeleteEmptyFolders "移動モード: コピー後に空になったフォルダを削除"
+Help_DeleteEmptyFolders  "移動モードにおいて空フォルダを削除します: 同期後に転送元のフォルダが空になった場合、そのフォルダを削除します。"
+
+
+LinksOption			"シンボリックリンクとジャンクション:"
+Radio_Ignore		"リンクを無視"
+Help_Links_Ignore		"グッドシンクはファイルやフォルダに対するシンボリックリンクとジャンクションを無視します。"
+
+Radio_CopyAsIs		"リンクをそのままコピー"
+Help_Links_CopyAsIs		"グッドシンクはリンクを単純にそのままコピーします。コピーされたリンクが指しているファイルはコピーされていない可能性があります。"
+
+Radio_DrillDown		"リンクを掘下げてコピー"
+Help_Links_DrillDown		"グッドシンクはリンクを掘下げてコピーを行います。フォルダへのリンクはそのフォルダのコピー、ファイルへのリンクはそのファイルのコピーとして処理されます。複数のリンクが同一のファイルやフォルダを指し示すことがあるためコピー処理が重複する可能性があります。"
+
+
+#
+# Left/Right side options
+#
+Title_Left_Side			"左側"
+Tip_Left_Side			"左側のオプション"
+Title_Right_Side		"右側"
+Tip_Right_Side			"右側のオプション"
+
+Str_Side_Analyze 		"ファイル相違の判定基準"
+
+Chk_CompareFileSizeTime "(x) ファイルサイズと変更時刻を比較"
+
+Chk_CompareCheckSumSide	 "必要に応じてチェックサムを比較(遅い)"
+Help_CompareCheckSumSide "チェック: ファイルサイズは同一だが変更時刻が異なる場合、ファイル本体のチェックサムを比較します。またシンクロ後にソース側ファイルとデスティネーション側ファイルのチェックサムを比較してコピーが正しく行われたことを確実にします。アンチェック: ファイルサイズまたは変更時刻が異なる場合のみファイルが異なると判定します。シンクロ後の確認も行いません。"
+
+Chk_CompareAttrs	 	"属性を比較"
+Help_CompareAttrs		"解析によりファイル本体が同一内容であるが、属性が異なっていた場合、属性違いを宣言します。NTFS 対 NTFS で有効です。"
+
+Chk_CompareAttrs_Unix 	"パーミッションを比較"
+Help_CompareAttrs_Unix	"解析によりファイル本体が同一内容であるが、パーミッションが異なっていた場合、パーミッション違いを宣言します。Mac 対 Mac でのみ有効です。"
+
+Chk_CompareOwner	 	"所有者を比較"
+Help_CompareOwner		"解析によりファイル本体が同一内容であるが、所有者が異なっていた場合、所有者違いを宣言します。"
+
+Chk_CompareACL	   		"ACLを比較(遅い)"
+Help_CompareACL			"解析によりファイル本体が同一内容であるが、ACLが異なっていた場合、ACL違いを宣言します。NTFS 対 NTFS で有効です。同じNTドメインである必要があります。"
+
+Chk_CompareACL_Mac 		"ACLを比較(遅い)"
+Help_CompareACL_Mac		"解析によりファイル本体が同一内容であるが、ACLが異なっていた場合、ACL違いを宣言します。HFS 対 HFS でのみ有効です。"
+
+Chk_CompareExtendedAttrs 	"拡張属性を比較"
+Help_CompareExtendedAttrs 	"解析によりファイル本体が同一内容であるが、拡張属性が異なっていた場合、拡張属性違いを宣言します。Mac 対 Mac でのみ有効"
+
+
+Str_Side_Exotic 		"通常使わないオプション(変更しないでください)"
+
+Chk_NoGsData_Side		"ここには _gsdata_ を作成しない"
+Help_NoGsData_Side		"オン: このファルダには _GSDATA_ を作成しません。代わりにグッドシンクのプロファイルフォルダに _GSDATA_ を作成します。オフ: ここに _GSDATA_ を作成します。このフォルダが他のジョブで使われていない場合にのみ、このオプションをご利用ください。"
+Warn_KeepGsData			"グッドシンクのプロファイルフォルダに _GSDATA_ を作成しますか？\nこのオプションは上級者向けです。説明書をよく理解した上でご利用ください。"
+Warn_MoveGsData			"グッドシンクのプロファイルフォルダの _GSDATA_ を同期フォルダに戻しますか？\nこのオプションは上級者向けです。説明書をよく理解した上でご利用ください。"
+
+Chk_FastPreAnalyze		"解析中にフォルダのファイルリストを行わない(危険を伴います)"
+Help_FastPreAnalyze		"オン：解析中にフォルダのファイルリストを行わずに、グッドシンクの状態ファイルのファイルリストを信頼する。オフ：フォルダのファイルリストを伴う完全な解析を行う。 このオプションを使う条件としてはグッドシンクでのみファイルの変更が行なわれる環境に限ります。良く分からない場合は、使用しないでください。"
+
+Chk_UseSafeCopy			"一時ファイルを使った安全なコピー"
+Help_UseSafeCopy		"オン: 一時ファイルとしてファイルのコピーを行いコピー完了後に本来の名前に変更します。これによりファイルは安全にコピーされます。一方その分のディスクスペースを必要とします。 オフ: 直接ファイルをコピーします。処理はより早いですがエラー等の発生によりファイル損傷のリスクがあります。"
+
+
+Str_Side_Encryption "クライアント側の暗号化"
+
+Chk_Encrypt_FileAll  "ファイル本体と名前を暗号化"
+Help_Encrypt_FileAll "オンの場合、ファイル本体と名前をAES256ビット-ランダムソルトで暗号化します。ファイルサイズが32バイト増えます。"
+
+Chk_Encrypt_FilePaths  	"ファイル名の暗号化"
+Help_Encrypt_FilePaths 	"オン：同期フォルダ内のファイル名/フォルダ名を256ビットキーのAESにて暗号化します。"
+
+Chk_Encrypt_FileBodies  "ファイル本体の暗号化"
+Help_Encrypt_FileBodies "オン：ファイル本体をソルトと256ビットキーのAESにて暗号化します。ファイルサイズが32バイト増加します。"
+
+Chk_Encrypt_Password    "暗号化のパスワード"
+Chk_Encrypt_Password2   "暗号化のパスワード(確認)"
+Help_Encrypt_Password   "暗号化のパスワード -- ファイル名やファイル本体暗号化の鍵となります。"
+
+Btn_Encrypt_Test    "暗号化テスト"
+Help_Encrypt_Test   "ここをクリックして暗号化をテストします: 既存のフォルダを指定するパスワードで読んでみます"
+Msg_Encr_Test_Empty "暗号化フォルダは現時点で空です。ここには暗号化されていないフォルダとの同期により暗号化ファイルが作成されます。"
+Msg_Encr_Test_List_Encrypted  "指定したパスワードを使って復号化することで、暗号化フォルダのファイルとフォルダを表示します。\n\nもし、表示されるファイル名が意味不明なものなら、指定したパスワードが間違っていることになります。\n意味ある名前が表示されるようなら、指定したパスワードは正しいと考えられます。\nもし、暗号化のパスワードを忘れてしまった場合は、「同期フォルダを空に」のボタンをクリックして、今一度ソースフォルダとの同期を行ってください。\n"
+Msg_Encr_Test_List_Plain  "暗号化しないように指定すると、同期フォルダのファイルとフォルダを表示します。\n\nもし、表示されるファイル名が意味不明なものなら、暗号化を指定して正しい暗号化のパスワードを入力してください。\nもし、暗号化のパスワードを忘れてしまった場合は、「同期フォルダを空に」のボタンをクリックして、今一度ソースフォルダとの同期を行ってください。\n"
+Msg_Encr_Test_Result "暗号化テストの結果　フォルダ %1:\n\n%2"
+
+Warn_Encrypt_Changed    "フォルダ %1 に対する暗号化オプションまたはパスワードが変更されました。\nこのフォルダ全体を再暗号化する必要あります。\n暗号化のパラメータが不明な場合は「いいえ」をクリックして暗号化テストボタンを使って暗号化パスワードが正しいか確認してください。\n暗号化テストを完了した場合、あるいは「同期フォルダを空に」した場合は、「はい」をクリックしてください。\n再暗号化を実行しますか？"
+
+Job_Opt_Title_Pwd_DontMatch	"パスワードが一致しません。"
+Job_Opt_Encr_Pwd_Short	     "暗号化パスワードは８文字以上です。"
+
+Btn_Delete_Create_Folder  "同期フォルダを空に"
+Help_Delete_Create_Folder "同期フォルダを削除して、同じ場所に新規に作ります。そうすることで初期状態から同期可能です。"
+Ask_Delete_Create_Folder  "フォルダ %1 を一旦削除して、同じ名前の空フォルダを作成しますか？"
+
+Str_Side_FileSystem "ファイルシステム別の設定"
+
+Browse_Str_PreferCompressed   "NTFSで圧縮"
+Browse_Tip_PreferCompressed   " LZ 圧縮を行います（NTFSでのみ有効、FATでは無効）。"
+Browse_Str_PreferUncompressed "NTFSで展開"
+Browse_Tip_PreferUncompressed "シンクロ先が圧縮されていた場合こちら側を展開します（NTFSでのみ有効）。"
+Browse_Str_FatLike    "FATファイルシステムは自明ではありません"
+Browse_Tip_FatLike    "FATではないとしてもFATファイルシステムのルールを使ってください。いくつかのNASデバイスではファイルシステムについて間違った報告をします。"
+Browse_Str_PreferEncrypted  "EFSで暗号化"
+Browse_Tip_PreferEncrypted    "EFSを使ってこちら側を暗号化します（NTFSでのみ有効）。XPホームエディションやVistaホームエディションでは利用できません。XPプロまたはVistaビジネス以上が必要です。"
+Browse_Str_PreferDecrypted  "EFSで復号化"
+Browse_Tip_PreferDecrypted    "シンクロ先がEFSで暗号化されている場合にこちら側をEFSで復号します（NTFSでのみ有効）。XPホームエディションやVistaホームエディションでは利用できません。XPプロまたはVistaビジネス以上が必要です。"
+Browse_Str_TimeTranslate      "ファイルシステムはファイル変更時刻のコピー/セットができません。"
+Browse_Tip_TimeTranslate      "ファイル変更時刻のコピー/セットができないファイルシステムのときにこのフラグをセットすると実際の時刻を状態ファイルに記録します。"
+Browse_Mac_Str_UnmountOnDisc   "シンクロ後にフォルダのマウントを外す"
+Browse_Mac_Tip_UnmountOnDisc   "解析やシンクロが停止した後、フォルダのマウントを外します"
+
+#
+# -- Misc Messages --
+#
+Warn_GoodSync			"グッドシンクより注意"
+Warn_GoodSyncStrong		"グッドシンクより警告"
+
+Chk_DoNotAsk			"この質問は次回から表示しない"
+Str_MsgBoxTimeout		"あと%1秒で閉じます"
+
+Str_SignedAppNeeded		"このソフトウェアにはサイバーシステムズ社の署名がありません。\n次のサイトから署名入りのバージョンをインストールしてください。  https://www.goodsync.com"
+
+Str_StopJobsBeforeClose		"一つ以上のジョブが実行中です: %1\nこれらのジョブを中止しますか？\nＯＫを押すとすべてのジョブを中止して終了します。\nグッドシンクに戻るにはキャンセルをクリックしてください。"
+
+Str_Warn_HideToTray		"自動設定のジョブが有効になるにはグッドシンクが起動している必要があります。従ってウィンドウを閉じた時にはシステムトレイに常駐します。\nこの設定を変更するにはツールのプログラムオプションから '%1' のチェックを外してください。"
+
+Str_SyncOnLogoffAsk		"ログオフ時にWindowsがタスクを自動的に終了してしまうためログオフ時のシンクロはできません。\nこのオプションをオフにしますか？（Windowsの再起動後に有効になります）"
+Str_SyncOnLogoffReason		"ログオフ時にシンクロ"
+Str_SyncOnLogoffJobs		"ログオフ時にシンクロを行うジョブ:"
+
+# Tooltips
+Tooltip_Synchronizer		"グッドシンク：ファイルの同期とバックアップ"
+Tooltip_AnalyzingJob		"ジョブの解析中"
+Tooltip_SyncingJob		"ジョブのシンクロ中"
+
+TT_SetLeftSyncFolder		"参照ボタンを押して左側フォルダを選択するか、フォルダへのパスを入力してください。"
+TT_SetRightSyncFolder		"参照ボタンを押して右側フォルダを選択するか、フォルダへのパスを入力してください。"
+TT_NewJob			"新規ジョブ"
+TT_ClickToAnalyze		"解析ボタンを押すと左右のフォルダ間の差異を解析します。"
+TT_ClickToSynchronize		"シンクロボタンを押すと解析された内容に基づいてシンクロを行います。"
+
+TT_ClearLogs			"ログ消去"
+TT_CloseLogs			"ログウィンドウを閉じる"
+TT_OpenLogs			"ログウィンドウを開く"
+
+# Server Account and Job Sync
+Str_ServerAcctJobSync_Ask_On "グッドシンクのジョブ等をコンピュータ間で共有しますか？\n(そうすることでコンピュータ毎にジョブを作りなおす必要がなくなります。)\nまたサーバアカウントを共有しますか？ (そうすることでサーバのパスワードを毎回入力しなくて済みます)？\nジョブやサーバアカウントをグッドシンクアカウントを使って共有する場合は、「はい」をクリックしてください。\nこれらをローカルのコンピュータ毎に保持したい場合は、「いいえ」をクリックします(これはv10と同じ方式です)。"
+Str_ServerAcctJobSync_Ask_Off "現在アカウントの自動同期はオンです。\nアカウントの自動同期をオフにしますか？（ジョブ、サーバアカウント等がコンピュータ間で同期されなくなります)"
+Str_ServerAcctJobSync_Ask_Merge "ローカルのサーバアカウントやジョブ設定と\nグッドシンクサーバ上のグローバルサーバアカウントやジョブ設定を統合しますか？\n統合する場合は、「はい」をクリックしてください。\nサーバ上のサーバアカウントとジョブ設定でローカルの情報を上書きする場合は「いいえ」をクリックします。\nどちらを選びますか？"
+Str_ServerAcctJobSync_SwitchExplain "グッドシンクアカウントを'%1'から'%2'に変更しています。\nまたアカウントの自動同期はオンです。\n従って、すべてのローカルのジョブ設定やサーバアカウントは、新しいグッドシンクアカウントに同期されます。\n結果として古いグッドシンクアカウントに属するジョブやサーバアカウントは削除され、\n新しいグッドシンクアカウントのジョブやサーバアカウントに置き換わります。"
+
+# Update toolbar and messages
+Info_Update_Avail	   	"新しいバージョンがあります。<a>ここをクリックするとダウンロードします。</a>"
+
+Info_Update_Available		"新バージョンのグッドシンクが利用可能です。"
+Info_Update_Click_To_Download	"ここをクリックしてダウンロード"
+ 
+Str_UpdateAvail_2	   "グッドシンク(バージョン%1 リリース%2) がダウンロード可能です。"
+
+Str_Update_Ask		   	"新しバージョンをダウンロードしますか？"
+Str_Update_Err_1	   	"バージョン情報を取得できません:\n%1\nウェブサイトを表示しますか？"
+
+Str_Ver_YesNewVersion  		"バージョン %1(リリース %2)がダウンロードできます。\n現在ご利用頂いているのはバージョン %3 です。"
+Str_Ver_NoNewVersion   		"ご利用中のバージョンは %1 です。\nすでに最新のバージョンをご利用頂いています。それでも再度インストールしますか？"
+
+#
+# Create ticket
+#
+Ticket_File_Desc    "以下のファイルには診断情報が含まれていますが、\nあなたのPCにある個人情報などは一切含まれていません。"
+Ticket_Instruction  "パスをコピーをクリックしてZIPファイルのパスをクリップボードにコピーしてください。\n以下のサポートリンクをクリックしてログインしてください。\n問題の状況をチケットに記載します。\n添付ファイルのところの参照ボタンをクリックして\nCtrl+Vキーを押してZIPファイルのパスを指定して診断情報をお送りください。"
+Ticket_Btn_Copy		"パスをコピー"
+
+Ticket_NeedAccount "あなたのコンピュータをグッドシンクアカウントに登録するには、ツール -> グッドシンクアカウント設定を選びます。\nサポートへのご連絡にもグッドシンクアカウントが必要となります。"
+
+# Mini Mode
+Str_MiniDlgNoActiveJob	"<アクティブジョブなし>"
+
+
+#
+# Buy License dialog -- OLD, removed
+#
+BuyPro_Title		"グッドシンクをアップグレード"
+BuyPro_Text_ProFixed   	"グッドシンクプロにアップグレード:\n- 無制限のジョブ、\n- ファイル数無制限、\n- 電話サポート、今すぐ活性化等々"
+BuyPro_Text_Pro2Go     	"グッドシンク２Ｇｏプロにアップグレード\n- 無制限のジョブ、\n- ファイル数無制限、\n- 電話サポート、今すぐ活性化等々"
+BuyPro_Text_Server     	"エンタープライズサーバへアップグレード:\n- 無料版の制限を撤去、\n- ファーストクラスのサポート、\n- ご自身でのアカウント管理"
+BuyPro_Limit_Pro        "無料版としてご利用頂く際の制限を超えています。継続してご利用いただくにはプロ版にアップグレード頂くかジョブを3個以内、それぞれのジョブのファイルを100個以内として頂く必要があります。"
+BuyPro_Limit_Server     "グッドシンクをWindowsサーバでご利用頂くにはエンタープライズサーバライセンスが必要となります。(7.8以降)"
+BuyPro_Link		"無料版とプロ版の違いにつきましてはこちらをクリックしてください。"
+
+BuyPro_Text_WD_Pro	"有料版のグッドシンクにアップグレードすると:\n- ジョブ数の制限なし、同期先・同期元の多くの選択枝があります。"
+BuyPro_Text_WD_LimitPro	"無料版の制限を超えました。\n有料版にアップグレードしてジョブ数の制限なしにグッドシンクを利用してください。"
+
+Str_Msg_SyncAgainAfterActiv "グッドシンクの活性化が終了した後、再度シンクロをクリックしてください。"
+
+#
+# License Misc
+#
+License_Msg_HaveAlready "すでにライセンスをお持ちです。活性化は必要ありません。"
+License_Msg_EnjoyTrial  "試用ライセンスをご活用ください。"
+License_Msg_TrialOver   "試用期間は終了し、無料版となっています。ツール -> グッドシンクアカウント管理でライセンスを確認可能です:\n"
+License_Msg_NeedAccount "試用期間を利用するためには、グッドシンクアカウント設定が必要です。"
+
+#
+# License Expiration Warning dialog
+#
+ProAd_Title_General     "グッドシンクアップグレード"
+
+License_TrialExpired_Title		"試用期間は終了しています"
+License_TrialExpired_Text		"試用期間は %1日前に終了しています。"
+License_UpgradeNow_Button 		"今すぐアップグレード"
+License_Activate_Link			"すでに購入済の場合は、ここをクリックして活性化してください。"
+
+License_TrialExpires_Title		"試用期間が間もなく終了となります。"
+License_TrialExpires_InDays	    "試用期間はあと %1日で終了します。"
+License_TrialExpires_Today		"試用期間は今日終了となります。"
+License_TrialExpires_Tomorrow	"試用期間は明日終了となります。"
+
+License_LicenseExpired_Title	"サブスクリプションは終了しています。"
+License_LicenseExpired_Text		"グッドシンクライセンスは %1日前に終了しています。"
+
+License_LicenseExpires_Title	"サブスクリプションが間もなく有効期限となります。"
+License_LicenseExpires_InDays	"グッドシンクライセンスはあと %1日で有効期限です。"
+License_LicenseExpires_Tomorrow "サブスクリプションは明日終了となります。"
+License_LicenseExpires_Today	"グッドシンクライセンスは本日有効期限となります。"
+
+License_RenewExpl				"バックアップ・同期が滞らないようにライセンスをすぐに更新することをお勧めします。"
+License_Renew_Button           	"すぐに更新"
+
+License_PaidOnly_Title			"有料版のみの機能"
+License_PaidOnly_Text_GS		"有料版のグッドシンクのみで利用可能: \n3つ以上のジョブ、100項目以上のジョブ、自動オプション"
+License_PaidOnly_Text_WD		"有料版(WD用)のグッドシンクのみで利用可能: \n1つ以上のジョブ、WDファイルシステム以外への対応"
+
+License_Updated_NewExpiration	"あなたのグッドシンクライセンスは更新されました。\n新しい有効期限は %1 です。"
+License_Updated_Expiration		"あなたのグッドシンクライセンスは更新されていません。\n現在の有効期限は %1 です。"
+
+License_SelfAdv_BsnsCaption		"システム管理者にご相談ください"
+License_SelfAdv_Caption			"グッドシンクの利点:"
+License_SelfAdv_Benefit1		"すべての機器間でジョブやサーバアカウントを共有"
+License_SelfAdv_Benefit2		"同僚、友人などとの間で安全にフォルダを共有"
+License_SelfAdv_Benefit3		"ジョブや設定を自動的にバックアップ可能"
+License_SelfAdv_Benefit4		"専用サポートシステムによる優先サポート"
+
+#
+# -- Log Viewer general --
+#
+LV_AppTitle			"ログビューア"
+LV_LogListTitle			"ログファイル名"
+LV_OpenLogDlg			"ログフォルダを開く"
+LV_TotalLine			"総行数"
+
+# Log Viewer Error
+LV_Err_NoLogFileFound		"<ログファイル無し>"
+LV_Err_UnknownFs		"不明なファイルシステム"
+LV_Err_CannotOpenFile2		"ファイルを開けません %1: %2"
+LV_Err_ReadingFile2		"ファイル読込エラー %1: %2"
+LV_Err_ParseCmdLine		"コマンドラインの解析エラー"
+
+# Log Viewer Find Window
+LV_Find					"検索:"
+LV_FindNext				"前方"
+LV_FindPrev				"後方"
+LV_FindAll				"全て検索"
+LV_FindCaseSens				"大文字小文字を区別"
+
+#Log Viewer Menu
+LV_MenuFile				"ファイル"
+LV_MenuView				"表示"
+LV_MenuOpen				"開く"
+LV_MenuExit				"終了"
+LV_MenuCopyAsText			"選択部分をコピー"
+LV_MenuSelectAll			"全てを選択"
+LV_MenuDelete				"削除"
+LV_MenuFind				"検索"
+LV_MenuSelectFont			"フォント選択"
+
+#
+# -- Installer --
+#
+Install_GoodSync_Title  "グッドシンクのインストール"
+Install_Portable_Title  "グッドシンク2Goのインストール"
+Install_Welcome_Header  "グッドシンクへようこそ"
+Install_Welcome_Header_MidServer   "グッドシンク for Windowsサーバへようこそ"
+Install_Welcome_Header_FileServer  "グッドシンクファイルサーバへようこそ"
+Install_Welcome_Header_BsnsClient  "グッドシンクエンタープライズワークステーションへようこそ"
+Install_Welcome_Header_CC_Runner   "コントロールセンターランナーへようこそ"
+Install_Welcome_Header_WD          "WD用グッドシンクへようこそ"
+Install_Legal_Part1     "次へで利用規約に同意したとみなされます"
+Install_Legal_Part2     "利用規約"
+Install_Legal_Part3     " と "
+Install_Legal_Part4     "プライバシポリシー"
+Install_Next            "次へ"
+Install_Back            "戻る"
+Install_Cancel          "キャンセル"
+Install_AbortMessage    "グッドシンクのインストールを中止しますか？"
+Install_Install         "インストール"
+Install_ShowAllDrives   "全てのドライブを表示"
+Install_Start_GoodSync  "グッドシンクは無事インストールされました。\nグッドシンクを起動しますか？"
+Install_Start_2Go       "グッドシンク2Goは無事インストールされました。\nグッドシンク2Goを起動しますか？"
+
+Uninstall_Approve       "%1をアンインストールしますか？"
+Uninstall_DeletePvt     "プライベートデータを削除します(ジョブ、認証情報、ログ)"
+Uninstall_Uninstalling  "アンインストール中 "
+Unintsall_PrivateWarn   "「はい」をクリックすると、すべてのジョブ、認証情報、ログは削除されます。\n実行しますか？"
+
+#
+# --- For Mac ---
+#
+Str_Mac_GSFolder		"フォルダ"
+Str_Mac_FinderFavorities        "お気に入り"
+
+Str_Mac_WelcomeScreenTitle	"ようこそ"
+Str_Mac_StartupScreen_WelcomeDescr "ファイルをバックアップまたは同期します"
+Str_Mac_StartupScreen_Btn_Create "新規ジョブ作成"
+Str_Mac_StartupScreen_Str_HowTo	 "最初の一歩"
+Str_Mac_StartupScreen_Str_YesEasy "- これだけです。簡単でしょ？"
+Str_Mac_GSStartUpScreen_CheckSucc			"ログイン成功"
+Str_Mac_GSStartUpScreen_CreationSucc			"作成成功"
+Str_Mac_GSStartUpScreen_HaveGSAccount			"既にグッドシンクコネクトアカウントを持っています。"
+Str_Mac_GSStartUpScreen_CreateGSAccount			"新規にグッドシンクコネクトアカウントを作成します。"
+Str_Mac_GSStartUpScreen_WillInstallGSServer		"グッドシンクはグッドシンクサーバをインストールすることでより優れた同期機能を提供します。"
+Str_Mac_GSStartUpScreen_WillUpdateGSServer		"グッドシンクはグッドシンクサーバを更新してより優れた同期機能を提供します。"
+Str_Mac_GSStartUpScreen_GSServerInstallFailed		"グッドシンクサーバのインストールに失敗しました。"
+Str_Mac_GSStartUpScreen_GSServerUpdateFailed		"グッドシンクサーバの更新に失敗しました。"
+Str_Mac_GSStartUpScreen_PassNotMatch			"パスワードが一致しません。"
+Str_Mac_GSStartUpScreen_WillRemoveGSServer		"グッドシンクはグッドシンクサーバを削除します。"
+Str_Mac_GSStartUpScreen_RemoveGSServerStatus		"グッドシンクコネクトは削除されました。"
+Str_Mac_GSStartUpScreen_UpdateGSServerStatus		"グッドシンクコネクトは更新されました。"
+Str_Mac_GSStartUpScreen_InstallGSServerStatus		"グッドシンクコネクトはインストールされました。"
+Str_Mac_GSStartUpScreen_ConfPassword			"パスワード確認"
+
+Str_Mac_ToolTipInStatusBar_Create "新規ジョブ作成"
+Str_Mac_ToolTipInStatusBar_Delete "ジョブを削除"
+Str_Mac_ToolTipInStatusBar_JobActions "ジョブアクション"
+Str_Mac_ToolTipInStatusBar_ShowHideLog "ログの表示/非表示"
+
+Cmd_Mac_Str_Show					"表示"
+Cmd_Mac_Str_Hide					"隠す"
+
+Str_Mac_Done                        "完了"
+
+# Grant Full Disk Permissions dialog
+Str_Mac_FDA_Title       "グッドシンクはディスクへのフルアクセスが必要です。"
+Str_Mac_FDA_Info        "アプリケーションデータ(メールやカレンダー)やシステムに保護されているフォルダをバックアップするためには、グッドシンク、gs-server、gs-runnerにアクセスを与える必要があります。"
+Str_Mac_FDA_OpenPrivTab "プライバシタブを開いてフルディスクアクセスを選択します。"
+Str_Mac_FDA_Lock        "変更を可能にするためにロックアイコンをクリックします。"
+Str_Mac_FDA_Drag        "グッドシンクのアイコンをフルディスクアクセスのリストにドラッグします。"
+
+Btn_Mac_OpenSPSecPriv   "システム環境設定のセキュリティとプライバシを開く"
+
+# Old Style Browse Dlg mac strings
+Browse_Mac_Btn_Disconnect	"切断"
+Browse_Mac_Str_Address          "アドレス"
+Browse_Mac_Str_Enter_Info		"'%1'の接続情報を入力して\"接続\"をクリック"
+Browse_Mac_Str_ChooseFld        "フォルダ '%1' を選び OK をクリック"
+Browse_Mac_Str_Network_UpdateBtn	"更新"
+Browse_Mac_Str_Network_NetworkEnv	"ネットワーク環境"
+Browse_Mac_Str_Network_IP_Column	"IPアドレス"
+Browse_Mac_Str_Network_Desc_Column	"説明"
+Browse_Mac_Str_Size			"サイズ"
+Browse_Mac_Chk_ShowHidden               "ファイルおよびフォルダの表示・非表示"
+
+Cmd_Mac_ShowLeftTrashBin			"左側ゴミ箱"
+Cmd_Mac_ShowRightTrashBin			"右側ゴミ箱"
+Cmd_Mac_MakeGSDataVisible			"GSデータを表示"
+Cmd_Mac_MakeGSDataInVisible			"GSデータを非表示"
+
+Str_Status_Mac_TrayMenuMulyiAnalyze "%1 個のジョブが実行中"
+Str_Status_Mac_GsRunnerSetUpSuccess "グッドシンクランナーサービスがインストールされました。"
+Str_Status_Mac_AnalyzeFinished_OK	"解析完了"
+Str_Status_Mac_AnalysisStarted		"解析開始"
+Str_Status_Mac_SyncStarted		"シンクロ開始"
+Str_Mac_NoActiveJob             "アクティブなジョブはありません。"
+
+Str_Mac_EqComprassion			"ファイルは同一です。"
+
+Btn_Mac_Check					"ログイン"
+Btn_Mac_Install					"インストール"
+Btn_Mac_Remove					"削除"
+
+Toolbar_Mac_Compare_OneShortWord		"比較"
+ToolBar_Mac_ShowLog_OneShortWord		"ログ表示"
+Toolbar_Mac_HideLog_OneShortWord		"ログ非表示"
+Toolbar_Mac_Preferences_OneShortWord		"環境設定"
+Toolbar_Mac_Customize_OneShortWord		"カスタマイズ"
+
+Str_Mac_Default_Group_Groups	 "グループ"
+Str_Mac_Default_Group_Jobs		 "ジョブ"
+
+Str_Mac_Count_Jobs_In_Status_Bar	"ジョブ"
+Str_Mac_Count_Job_In_Status_Bar		"ジョブ"
+
+Str_Mac_Accept						"受諾"
+Str_Mac_Decline						"拒否"
+Str_Mac_LicenseAgreement			"ライセンス合意書"
+
+#
+# Mac wipeout
+#
+Str_Mac_Wipeout_Text 			"グッドシンクを完全に削除しますか？"
+Str_Mac_Wipeout_Title 			"グッドシンクのアンインストール"
+
+#
+# Mac Auto Update
+#
+Str_Mac_UpdatingGS              "グッドシンクを更新"
+Title_Mac_UpdateWnd             "グッドシンク更新ウィンドウ"
+
+Chk_Mac_AU                      "自動的にグッドシンクを更新"
+Help_Mac_AU                     "更新は新バージョンが利用可能になった時点でユーザの介在なしに自動的に行われます。なおすべてのジョブが完了するまで更新を待ちます。"
+
+#
+# GoodSync Explorer for Mac
+#
+Str_Mac_Bookmarks				"ブックマーク"
+Str_Mac_Connected				"接続"
+Str_Mac_LoginTo					"ログイン"
+
+Str_Mac_UserName				"ユーザ名"
+Str_Mac_Server					"サーバ"
+Str_Mac_Servers					"サーバ"
+Str_Mac_InitPath				"初期パス"
+Str_Mac_ServerAndPath			"サーバと初期パス"
+Str_Mac_DisplayNames			"表示名"
+Str_Mac_NetworkEnv				"ネットワーク環境"
+Str_Mac_OptSubFolders			"/フォルダ/サブフォルダ/... (任意)"
+Str_Mac_OptFilePath				"ファイルパス(任意)"
+Str_Mac_Optional				"任意"
+Str_Mac_Advanced				"高度 >>"
+Str_Mac_ConnectPrompt			"%1 の接続情報を入力して\"接続\"ボタンを押します。"
+Str_Mac_AdvancedPrompt			"%1 の高度な設定"
+Str_Mac_UseProxy				"プロキシを使って接続"
+
+#
+# IPhone Common
+#
+Iphone_Done "完了"
+Iphone_copy "コピー"
+Iphone_move "移動"
+Iphone_clone "複製"
+Iphone_Move_Clone_Copy_To_Itself_Message "%1自身にコピーできません"
+Iphone_Create_Folder "フォルダ作成"
+Iphone_Paste_From_Clipboard "クリップボードから貼付け"
+Iphone_Enter_Not_Empty_Name_Message "何か名前を入力"
+Iphone_New_Folder "新規フォルダ"
+Iphone_copy_suffix "コピー"
+Iphone_Sort_By "並び順:"
+Iphone_SortedBy_Name "名前で並び替え"
+Iphone_SortedBy_Date "日付で並び替え"
+Iphone_SortedBy_Size "サイズで並び替え"
+Iphone_SortedBy_Type "種類で並び替え"
+Iphone_Item_Existing_Message "既に存在します。上書きしますか？"
+Iphone_You_Want_To_Message "しますか"
+Iphone_Replace_Existing_Question "既存の項目の置き換え？"
+Iphone_Replace_Existing_Message "%1('%2')は既に存在します。コピーしたもので置き換えますか？"
+Iphone_One_Time_Password "ワンタイムパスワード"
+Iphone_Enter_OTP "ここにワンタイムパスワードを入力"
+Iphone_Items_Zero 	"%1 項目"
+Iphone_Items_One 	"%1 項目"
+Iphone_Items_Two 	"%1 項目"
+Iphone_Items_Few 	"%1 項目"
+Iphone_Items_Many 	"%1 項目"
+Iphone_Items_Other 	"%1 項目"
+Iphone_Available "%1 有効"
+
+#
+# IPhone MultiSelect
+#
+Iphone_Select "選択"
+Iphone_Select_All "すべて選択"
+Iphone_Deselect_All "すべて解除"
+Iphone_Select_Items "項目選択"
+Iphone_Select_Title_Zero 	"項目選択"
+Iphone_Select_Title_One 	"%1 項目"
+Iphone_Select_Title_Two 	"%1 項目"
+Iphone_Select_Title_Few 	"%1 項目"
+Iphone_Select_Title_Many 	"%1 項目"
+Iphone_Select_Title_Other 	"%1 項目"
+
+#
+# IPhone Login
+#
+Iphone_Register "登録"
+Iphone_Registration "登録"
+Iphone_Empty_Password_Message "パスワードが空です"
+Iphone_Repeat "もう一度"
+Iphone_Enter_ComputerID_Message "コンピュータIDを入力"
+Iphone_CopyRight "Copyright ﾂｩ 1999 - %1 Siber Systems, Inc.\nAll rights reserved."
+
+#
+# IPhone Actions
+#
+Iphone_Action_Delete "削除"
+Iphone_Action_Rename "名前変更"
+Iphone_Action_Download "ダウンロード"
+Iphone_Action_Copy_To_Clipboard "クリップボードにコピー"
+Iphone_Action_Clone "複製"
+Iphone_Action_Replace "置換"
+Iphone_Action_Replace_All "すべて置換"
+Iphone_Action_Skip "スキップ"
+Iphone_Action_Skip_All "すべてスキップ"
+Iphone_Action_Keep_Both "両方保持"
+
+#
+# IPhone Server
+#
+Iphone_Server_Status_Stopped "停止"
+Iphone_Server_Status_Starting "開始中"
+Iphone_Server_Status_Connecting "接続中"
+Iphone_Server_Status_Stopping "停止中"
+Iphone_Server_Status_Running "実行中"
+Iphone_Server_Stopped_Message "サーバを起動してグッドシンクで%1に接続します"
+Iphone_Server_Running_Message "デスクトップコンピュータからグッドシンクを使って%1に接続可能です。"
+Iphone_Server_Start_Button "起動"
+Iphone_Server_Stop_Button "停止"
+
+#
+# IPhone Locations
+#
+Iphone_Locations "エクスプローラ"
+Iphone_Empty_Locations_Message "このフォルダに項目はありません"
+Iphone_File_Downloaded_Message "'%1'にファイルをダウンロード!"
+Iphone_Files_Downloaded_Message "'%1'にファイルをダウンロード"
+Iphone_Folder_Downloaded_Message "'%1'にフォルダをダウンロード"
+
+#
+# IPhone Downloads
+#
+Iphone_Downloads2 "ダウンロード"
+Iphone_Downloading "ダウンロード中"
+Iphone_Folder_Exists_Message "このフォルダは既に存在します。別の名前をお選びください。"
+Iphone_Folder_Is_Not_Empty_Message "フォルダは空ではありません。%1個の項目があります!"
+Iphone_Folder_Delete_Message "フォルダ'%1'とその中身を削除しますか？"
+Iphone_File_Delete_Message "ファイル'%1'を削除しますか？"
+Iphone_Link_Delete_Message "リンク'%1'を削除しますか？"
+
+#
+# IPhone Preferences
+#
+Iphone_Preferences "環境設定"
+Iphone_Account "アカウント"
+Iphone_Prefs_Security "セキュリティ"
+Iphone_Prefs_GoodSync_Unlock_Mode "グッドシンクエクスプローラアンロックモード"
+Iphone_Prefs_Unlock_Mode "アンロックモード"
+Iphone_Prefs_Password "パスワード"
+Iphone_Prefs_Pin_Code "PIN番号"
+Iphone_Prefs_Touch_ID "タッチID"
+Iphone_Prefs_Face_ID "ファイスID"
+Iphone_Prefs_No_Authorization "認証無し"
+Iphone_Prefs_Change_PIN "PIN番号変更"
+Iphone_Prefs_Change_Password "パスワード変更"
+Iphone_Prefs_TouchID_Footer "タッチIDはiOSの制限によりファイルアプリケーションでは利用できません。"
+Iphone_Prefs_FaceID_Footer "フェイスIDはiOSの制限によりファイルアプリケーションでは利用できません。"
+Iphone_Prefs_Photos_Title "iCloudフォト"
+Iphone_Prefs_Photos_DownloadCloud "iCloudからのダウンロードを許可"
+Iphone_Prefs_Photos_Footer "このオプションを有効にするとiCloudからこのデバイスにダウンロードが発生する可能性があります。 \nこれはより多くの容量が必要になることを意味します。"
+
+Iphone_Show_Hidden_Files "隠しファイルを表示"
+Iphone_Cache_Small_Files "小さいファイル(5 MB)を自動的にキャッシュ"
+Iphone_Show_Thumbnails_On_Cached_Items "キャッシュ項目のサムネイル表示"
+Iphone_Clear_Files_Cache "ファイルキャッシュを消去"
+Iphone_Show_Thumbnails "サムネイル表示"
+Iphone_GoodSync_Account "グッドシンクアカウント"
+Iphone_Manage_Account "管理"
+Iphone_Log_Out  "ログアウト"
+Iphone_LogOut_Message "ログアウトしますか？"
+Iphone_Delete_Cached_Files_Message "すべてのキャッシュされたファイルを削除しますか？"
+Iphone_Review "アップストアでの評価"
+Iphone_Open_Source "オープンソース"
+Iphone_Support "サポート"
+Iphone_SupportTicket_Subject_Placeholder "件名"
+Iphone_SupportTicket_Message_Placeholder "内容を入力"
+Iphone_SupportTicket_Send "送信"
+
+#
+# Iphone PIN
+#
+IPhone_PIN_NotMatchedText "PIN番号が一致しません。"
+IPhone_PIN_ConfirmationText "PIN番号を再入力してください"
+IPhone_PIN_LockedOutString "ロックアウトされました。"
+IPhone_PIN_PluralAttemptsLeftString "試行回数残"
+IPhone_PIN_SingleAttemptLeftString "試行回数"
+IPhone_PIN_Setup "PIN番号設定"
+IPhone_PIN_Setup_Title "グッドシンクエクスプローラをアンロックするための4桁のPIN番号を選択してください。"
+Iphone_EnterPIN "PIN番号を入力"
+Iphone_CreatePIN "PIN番号を作成"
+Iphone_ChangePIN "PIN番号を変更"
+Iphone_PINChangedTitle "PIN番号変更"
+Iphone_PINChangedMessage "PIN番号が変更されました"
+Iphone_PINEnabledTitle "PIN番号有効化"
+Iphone_PINEnabledMessage "PIN番号でグッドシンクエクスプローラを開くことができます"
+Iphone_LoginReason "グッドシンクエクスプローラを開く"
+Iphone_LoginWithPassword "パスワードを使う"
+
+#
+# Iphone Authentication screens
+#
+Intro_TouchId_Title      "タッチID"
+Intro_TouchId_Text       "あなたの機器はタッチIDが有効になっています。\nグッドシンクエクスプローラの認証にタッチIDを使用しますか？"
+Intro_TouchId_ButtonText "タッチIDを使う"
+Intro_FaceId_Title      "フェイスID"
+Intro_FaceId_Text       "あなたの機器はフェイスIDが有効になっています。\nグッドシンクエクスプローラの認証にフェイスIDを使用しますか？"
+Intro_FaceId_ButtonText "フェイスIDを使う"
+
+Iphone_NoAuthorizationModeTitle "認証無しモード"
+Iphone_NoAuthorizationModeMessage "認証無しにグッドシンクエクスプローラを開くことができます"
+Iphone_Pin_ConfirmChange "新しいPIN番号を確認"
+Iphone_NoAuth_ConfirmChange "認証無しモードを確認"
+
+Iphone_BiometryIsLockedMessage "この機器では生体認証がロックされています。"
+Iphone_BiometryChangedTouchIdPin "指紋認証の設定が変更されています。利用するためにはPIN番号を入力してください。"
+Iphone_BiometryChangedTouchIdMP "指紋認証の設定が変更されています。利用するためにはパスワードを入力してください。"
+Iphone_BiometryChangedFaceIdPin "顔認証の設定が変更されています。利用するためにはPIN番号を入力してください。"
+Iphone_BiometryChangedFaceIdMP "顔がの設定が変更されています。利用するためにはパスワードを入力してください。"
+Iphone_EnterPassword_Prompt "パスワードを入力"
+Iphone_EnterNewPassword_Prompt "新しいパスワードを入力"
+Iphone_PasswordChangedMessage "グッドシンクアカウントのパスワードが変更されています。\nグッドシンクを使用するために新しいパスワードを入力してください。"
+
+Iphone_ConnectAccount "アカウント接続"
+Iphone_FileSystemNotFound "ファイルシステム %1 が見つかりません。"
+#
+# --- GSFILESYS localization ---
+# RFS file codepage and Language -- see main default.rfs
+
+Btn_Browse				"参照"
+Chk_DoNotShowAgain		"今後このウィンドウを表示しない"
+
+# Misc buttons
+Btn_Add				"追加"
+Btn_Delete              	"削除"
+Btn_Save			"保存"
+Btn_Apply			"適用"
+Btn_Finish			"終了"
+Btn_Yes				"はい"
+Btn_No				"いいえ"
+Btn_Abort               	"中断"
+Btn_Retry               	"再試行"
+Btn_Ignore              	"無視"
+Btn_Try                 	"試行"
+Btn_Close               	"閉じる"
+Btn_Help                	"ヘルプ"
+Btn_Continue			"継続"
+Btn_Done			"完了"
+
+Help_Browse_File		"ファイル選択ダイアログを開きます。"
+Help_Browse_Folder		"フォルダ選択ダイアログを開きます。"
+Help_Browse_Edit		"クリックしてフォルダを選択してください。"
+
+# Browse Dialog
+Btn_Ok					"OK"
+Btn_Cancel				"キャンセル"
+Btn_Skip				"スキップ"
+Btn_Overwrite				"上書き"
+
+Tip_Ok					"保存してダイアログを閉じます"
+Tip_Cancel				"保存せずにダイアログを閉じます"
+
+Browse_Btn_Go			"確認"
+Browse_Btn_Go_Tip       	"アドレスを確認する"
+Browse_Btn_Stop			"停止"
+Browse_Btn_Stop_Tip		"現在の処理を停止する"
+
+Browse_Btn_FileSystem_Tip	"ファイルシステム選択"
+Browse_Btn_Accounts			"アカウント"
+Browse_Btn_Accounts_Tip		"サーバの認証に使うアカウントを選択"
+Browse_Btn_Servers			"サーバ"
+Browse_Btn_Servers_Tip		"認証を終えたアカウントのサーバを選択"
+Browse_Btn_Folders			"フォルダ"
+Browse_Btn_Folders_Tip		"サーバ上のフォルダを選択"
+
+Browse_Btn_Opts_More		"もっと"
+Browse_Btn_Opts_Less		"少なく"
+Browse_Btn_Opts_Tip		"表示される情報量をクリックして選択"
+
+Browse_MultiSelect		"複数項目の選択"
+Browse_ShowFiles		"ファイル表示"
+
+Browse_Btn_NewFolder	    "新規フォルダ"
+Browse_Btn_NewFolder_Tip    "現在のフォルダに新規フォルダを作成します。"
+Browse_NewFolder_Prompt_1	"'%1'に作成する新しいフォルダの名前を入力"
+
+Browse_Btn_New			"新規"
+Browse_Btn_New_Tip		"新規アカウント作成"
+Browse_Btn_Delete		"削除"
+Browse_Btn_Delete_Tip		"選択したアカウントを削除"
+Browse_Btn_Rename		"名前変更"
+Browse_Btn_Rename_Tip		"選択したアカウント名を変更"
+Browse_Str_Account_Name     "アカウント名"
+Browse_Str_Delete_Confirm   "アカウントを削除しますか？\n%1"
+Browse_Str_DelBmk_Confirm   "フォルダブックマークを削除しますか？\n%1"
+Browse_Str_Delete_Used      "このアカウント %1 はジョブで使用されています。このアカウントを削除する前にこれらのジョブを削除するか、あるいはほかのアカウントを使用するように変更してください。"
+Browse_Str_DelBmk_Used      "このフォルダブックマークは以下のジョブが使用しています: %1\nこれらのジョブを削除するかURLを変更してください。"
+
+Browse_Multiple_SyncPlan    "以下にチェックを入れて複数のフォルダを選択してください:"
+Browse_Multiple_OtherSide	"複数フォルダの選択: 同期相手のフォルダを選択してください: "
+Browse_Multiple_ParentChanged "ジョブの同期フォルダ(共通の親フォルダ)が変更されました。すべてのジョブのフィルタを再設定する必要があります。"
+
+Browse_Tip_MultiSelectRoot	"複数選択のルート。以下のチェックされた項目を確認ください。"
+Browse_Tip_AndSoOn          "... (同様に) ..."
+Browse_Tip_FilterNotListed  "いくつかのフィルタは表示されていません。ファイルとリンク表示ボックスで確認してください。"
+Browse_Tip_SelectedSameDisk "すべてのフォルダは同一ディスク上に存在しなければなりません。複数のディスクにまたがることはできません。"
+
+Browse_Tip_Include          "対象 %1"
+Browse_Tip_Exclude          "除外 %1"
+
+Browse_Status_Connecting    "接続中..."
+Browse_Status_Listing       "リスティング中..."
+Browse_Status_Expanding     "拡張中..."
+
+#
+# File Systems
+#
+Browse_Btn_MyComputer 		"マイコンピュータ"
+Browse_Short_Tip_MyComputer	"このコンピュータに直接マウントされているディスク"
+Browse_Tip_MyComputer		"マイコンピュータ: このパソコンに直接マウントされているディスクです。(例  X:  \\\\DISK) ドライブ文字を持つローカルディスク、ポータブルディスク、音楽プレーヤなど。"
+
+Browse_Btn_MyNetwork  		"Windows共有"
+Browse_Short_Tip_MyNetwork	"Windowsのネットワーク共有(SMBプロトコル)"
+Browse_Tip_MyNetwork		"マイネットワーク: Windowsのネットワーク共有(SMBプロトコル)(例： \\\\SERVER\\SHARE)　フォルダやディスクはここで表示されるように共有されていなければなりません。共有フォルダへの書き込みが許可されている必要があります。ここにフォルダが表示されない場合は、Windowsエクスプローラで見えるか確認してみてください。"
+Browse_Warn_SMB_Offline     	"ワークフォルダ(オフラインフォルダ)が有効です: これにより共有フォルダの内容が正しく表示されない可能性があります。ワークフォルダをオフにしてください。"
+
+Browse_Short_Tip_MTP		"メディア転送プロトコル(MTP)により接続されたモバイルデバイス(電話、カメラ等)"
+Browse_Tip_MTP			"メディア転送プロトコル(MTP)により接続されたモバイルデバイス(電話、カメラ等)。書込みの信頼性はプロトコルの特性上高くないかもしれません。基本的に読込みに使用します。"
+
+Browse_Short_Tip_GSConnect	"グッドシンクコネクト(GSTP)で接続された機器: 高速P2P"
+Browse_Tip_GSConnect		"グッドシンクコネクト(GSTP)。同じアカウントに属するコンピュータはお互いに同期が可能です。\nグッドシンクコネクトのアカウントの作成は ツール -> グッドシンクコネクト設定"
+
+Browse_Short_Tip_GsStorage	"リアルディスクオンラインストレージ:超高速動作"
+Browse_Tip_GsStorage		"グッドシンクリアルディスクオンラインストレージ。高速で高効率なオンラインストレージです。"
+
+Browse_Short_Tip_FTP		"FTPとFTPSサーバ"
+Browse_Tip_FTP			"FTPサーバ。サーバ名、ユーザID、パスワードを入力して確認をクリック"
+
+Browse_Short_Tip_SecureFTP	"SFTPサーバ(SFTP over SSH)"
+Browse_Tip_SecureFTP		"セキュアFTPサーバ(SFTP over SSH)。サーバ名、ユーザID、パスワード、または秘密鍵ファイル(Putty書式)を入力します。PuTTY Pageant をつかって秘密鍵をキャッシュすることが可能です。プロキシの設定にはPuTTYセッションを使用してください。"
+
+Browse_Short_Tip_WebDav		"WebDAVプロトコルでアクセス可能なサーバ"
+Browse_Tip_WebDav		"WebDAVサーバ。WebDAVフォルダのURLを入力します。例: https://www.somewhere.com/folder1/folder2　ユーザIDとパスワードで認証を受けます。"
+
+Browse_Short_Tip_AmazonCD	"Amazonクラウドドライブ(ブラウザ認証)"
+Browse_Tip_AmazonCldDrive	"Amazonクラウドドライブ: 確認ボタンをクリックしてブラウザを起動。ブラウザにおいてAmazonアカウントのユーザIDとパスワードを入力します。"
+
+Browse_Short_Tip_AmazonS3	"Amazon S3 オンラインストレージ: バケット"
+Browse_Tip_AmazonS3		"Amazon S3 オンラインストレージ。アクセスキーIDとシークレットアクセスキーを入力して確認をクリックします。バケットは最上位のフォルダです。既定ではホストベースのアドレッシングが使われます。"
+
+Browse_Short_Tip_WindowsAzure "Azure(Microsoft社): Blobs と Buckets"
+Browse_Tip_WindowsAzure		"Microsoft社のWindows Azure Blobsです。Azureのユーザ名とパスワードを入力して確認をクリックします。"
+
+Browse_Short_Tip_AzureFiles "Azure(Microsoft社): Files API"
+Browse_Tip_AzureFiles		"Microsoft社のWindows Azure Filesです。Azureのユーザ名とパスワードを入力して確認をクリックします。"
+
+Browse_Short_Tip_GDrive		"グーグルドライブ(消費者向、V3 API、ファイル変更)"
+Browse_Tip_GDrive			"グーグルドライブ(消費者向、V3 API、ドックスのみ)。確認をクリックしてブラウザを起動。ブラウザでグーグルアカウントのユーザIDとパスワードを入力します。"
+
+Browse_Short_Tip_GTeamDrive	"グーグルチームドライブ(企業向、V3 API)"
+Browse_Tip_GTeamDrive		"グーグルチームドライブ(企業向、V3 API)。確認をクリックしてブラウザを起動。ブラウザでグーグルアカウントのユーザIDとパスワードを入力します。"
+
+Browse_Short_Tip_GNativeDocs "グーグルネイティブ文書 インポート/エクスポート(V3 API)"
+Browse_Tip_GNativeDocs		 "グーグルネイティブ文書 インポート/エクスポート(V3 API)。確認をクリックしてブラウザを起動。ブラウザでグーグルアカウントのユーザIDとパスワードを入力します。"
+
+Browse_Short_Tip_GDocs		"グーグルドライブ(ブラウザ認証)"
+Browse_Tip_GDocs		"グーグルドライブ(Docs)。確認ボタンをクリックしてブラウザを起動。ブラウザにおいてグーグルアカウントのユーザIDとパスワードを入力します。"
+
+Browse_Short_Tip_Dropbox	"Dropbox(ブラウザ認証)"
+Browse_Tip_Dropbox		"Dropbox オンラインストレージ。確認ボタンをクリックしてブラウザを起動。ブラウザにおいてDropboxアカウントのユーザIDとパスワードを入力します。"
+
+Browse_Short_Tip_MsGraph	"マイクロソフト: 消費者向ワンドライブ、オフィス365、シェアポイント(Graph API)"
+Browse_Tip_MsGraph 		 "すべてのマイクロソフトドライブ: 消費者向ワンドライブ、オフィス365、シェアポイント。確認ボタンをクリックしてブラウザを起動。ブラウザにおいてマイクロソフトアカウントのユーザIDとパスワードを入力します。"
+
+Browse_Short_Tip_Mega		"MEGAクラウド (ベータ)"
+Browse_Tip_Mega 		    "MEGAクラウド。MEGAアカウントのユーザIDとパスワードを入力して、確認ボタンをクリックします。"
+
+Browse_Short_Tip_OneDriveV2	"MSドライブ(旧API): OneDrive(消費者向け)/ Office365/ OneDrive(ビジネス向け)(SharePoint)"
+Browse_Tip_OneDriveV2		"すべてのマイクロソフトドライブ: 消費者向ワンドライブ、オフィス365、シェアポイント。確認ボタンをクリックしてブラウザを起動。ブラウザにおいてマイクロソフトアカウントのユーザIDとパスワードを入力します。"
+
+Browse_Short_Tip_SharePoint13 "マイクロソフト社シェアポイント2013"
+Browse_Tip_SharePoint13		  "シェアポイント2013(新バージョン含まず)。サーバアドレスを入力して確認ボタンをクリックしてブラウザを起動。ブラウザにおいてマイクロソフトアカウントのユーザIDとパスワードを入力します。"
+
+Browse_Short_Tip_BoxCom		"Box.com(ブラウザ認証)"
+Browse_Tip_BoxCom		"Box.com ストレージ: 確認ボタンをクリックしてブラウザを起動。ブラウザにおいてBox.comアカウントのユーザIDとパスワードを入力します。"
+
+Browse_Short_Tip_Backblaze	"Backblaze B2 クラウドストレージ"
+Browse_Tip_Backblaze		"Backblaze B2 クラウドストレージ: アカウントIDとアプリケーションキーを入力して確認ボタンをクリックします。backblaze.com->B2 Cloud Storage->My Account->Show Account ID and Application Key."
+
+Browse_Short_Tip_OneFile	"すべてのフォルダ/ファイルツリーはひとつのファイル(One File)に圧縮＆暗号化されます。小規模なツリーのみ。"
+Browse_Tip_OneFile		"すべてのフォルダ/ファイルツリーはひとつのファイル(One File)に圧縮＆暗号化されます。アカウントをクリックしてターゲットとなるローカルのファイルを指定してください。 暗号化時のセキュリティ向上のためファイルはメモリ上で構築されます。従ってファイルのサイズは小規模なものに限られます。"
+Browse_Str_OneFileTarget    "One File"
+Browse_Tip_OneFileTarget    "ターゲットとなるローカルファイル"
+
+Browse_Short_Tip_WinMobile	"WindowsモバイルフォンまたはポケットPC機器"
+Browse_Tip_WinMobile		"WindowsモバイルフォンまたはポケットPC機器。アクティブシンクまたはWMDCがインストールされ、実行されている必要があります。"
+
+Browse_Short_Tip_MyMac		"私のMac"
+Browse_Tip_MyMac		"私のMac"
+
+Browse_Short_Tip_MacShares	"ネット共有フォルダ"
+Browse_Tip_MacShares		"ネット共有フォルダ"
+
+Browse_Short_Tip_MacSMBShares	"SMBプロトコルで接続されたネット共有"
+Browse_Tip_MacSMBShares		"SMBプロトコルで接続されたネット共有"
+
+Browse_Short_Tip_MacAFPShares	"AFPプロトコルで接続されたネット共有"
+Browse_Tip_MacAFPShares		"AFPプロトコルで接続されたネット共有"
+
+Browse_Short_Tip_WDNAS		"MyCloud NAS"
+Browse_Tip_WDNAS		"MyCloud NAS"
+
+Browse_Short_Tip_Unknown	"このファイルシステムに関するヘルプはありません。"
+Browse_Tip_Unknown		"このファイルシステムに関するヘルプはありません。"
+
+Browse_Short_Tip_Nokl		"Nokl 接続"
+Browse_Tip_Nokl			"Nokl 接続"
+
+# Browse dlg Options
+Browse_Str_SecureMode     "セキュアモード(暗号化)"
+Browse_Tip_SecureMode     "オンの場合: ユーザＩＤとパスワードを暗号化して送信します。またデータの転送もSSLや他のスキームを使って暗号化します。安全ですが処理は遅くなります。\nオフの場合: ユーザＩＤやパスワードは暗号化されません。データの転送も暗号化されません。処理は速くなりますが安全度は下がります。"
+
+Browse_Str_UTF8_encoding  "UTF-8でエンコード(オフでANSIでエンコード)"
+Browse_Tip_UTF8_encoding  "オンの場合: サーバ上のファイル名やフォルダ名をUTF-8でエンコードします。\nオフの場合: ANSIでのエンコードとなります。両者のANSIコードは同じでなければなりません。"
+Browse_Str_WinInet 	  "WinInetベース(複雑なプロキシと認証)"
+Browse_Tip_WinInet	  "オン: WinInetベースのインプリメント。複雑なプロキシと複雑なWindowsベースの認証に対応している一方処理は遅く制限もある。オフ: ソケットベースのインプリメント。複雑なプロキシと複雑なWindowsベースの認証には対応していないが処理は速くより堅牢。"
+Browse_Str_Use_Proxy      "プロキシを使って接続する(プログラムオプションの接続で設定)"
+Browse_Tip_Use_Proxy      "このサーバへの接続にプロキシサーバを使用する(ツール -> プログラムオプション -> 接続において設定が行われている必要があります)。"
+Browse_Mac_Str_Use_Proxy  "プロキシを使って接続（設定->接続タブ）"
+Browse_Mac_Tip_Use_Proxy  "プロキシサーバを使ってこのサーバに接続します。条件は設定->接続タブで指定します。"
+
+Browse_Str_IgnoreBadCerts  "SSL証明書のチェックを行わない"
+Browse_Tip_IgnoreBadCerts     "オンにするとHTTPSプロトコルにおいて一致しないSSL証明書や期限切れのSSL証明書を容認します。また無効なＣＡサーバも容認します。オフの場合はこれらの証明書をエラーとして処理します。"
+
+Str_SSL_SecureConnection    "セキュア接続"
+Str_SSL_UseSystemCerts		"信頼されたルート証明機関(要再起動)"
+Str_SSL_Warn_UseSystemCerts	"第三者プログラム(AVプログラム等)がシステム記憶に彼らの証明書を追加した場合、TLS上のグッドシンク通信を傍受することを許可します。"
+
+Browse_Str_PrivKey	"プライベートキー"
+Browse_Tip_PrivKey	"プライベートSSH キーファイル（PuTTY形式）"
+Browse_Str_ClientCert	  "証明書"
+Browse_Tip_ClientCert	  "PEM フォーマットの証明書/プライベートキーを含むファイル"
+
+# FTP options
+Browse_Str_ActiveMode	"アクティブFTPモード(オフでパッシブモード)"
+Browse_Tip_ActiveMode	"オンでアクティブFTPモード。アクティブモードではFTPサーバ側からの接続がありますのでファイヤウォールの設定に注意が必要です。\nオフの場合はパッシブFTPモード（既定値）となります。パッシブモードではファイやウォールやNATルータなども容易に通過できるのでお勧めです。"
+Browse_Str_UseMDTM_FTP  "FTPのMDTMコマンドを使って正確なファイル変更時刻を取得(遅い)"
+Browse_Tip_UseMDTM_FTP    "オンの場合: FTPプロトコルのMDTMコマンドを使ってファイル変更時刻をFTPサーバから取得します(時間がかかります)。 \nオフの場合: ファイルのリスティングからファイル変更時刻を取得します。この場合は３ヶ月から６ヶ月以上古いファイルについては日付が丸められます。"
+Browse_Str_UseMLSD_FTP    "MLSD/MLST コマンドを使ってファイルリストを取得"
+Browse_Tip_UseMLSD_FTP    "オンの場合: MLSD/MLST コマンドを使ってファイルリストを取得します。FTPサーバによってこのコマンドが正しく実装されていればより正確なリストが取得できます。\nオフの場合: LIST コマンドを使ってファイルリストを取得します。"
+Browse_Str_ImplicitMode	  "暗黙のFTPS (オフ: 明示的)"
+Browse_Tip_ImplicitMode	  "オンで暗黙のFTPモード: SSL/TLS を使ってポート990に接続。オフで明示的なFTPSモード: ポート21に対して暗号化のネゴシエーションを行います。"
+Browse_Str_FtpListLa      "LIST -la コマンドを使用"
+Browse_Tip_FtpListLa      "オンの場合: フォルダのリストを取得する際に'LIST -la'コマンドを使用します。これによりドットで始まるファイルや隠しファイルが表示されます。\nオフの場合: 標準の(RFC 959) LIST コマンドを使用します。"
+Browse_Str_MoveLevelOnly  "名前変更は同一フォルダ内のみ"
+Browse_Tip_MoveLevelOnly  "オンの場合: FTPのコマンドであるファイルの名前変更(MOVE)をそのファイルが属するフォルダに限定。\nオフの場合: 現在のフォルダを超えて名前変更が可能。"
+Browse_Str_SessionReuse	  "データ接続にTLSセッションの再利用が必要"
+Browse_Tip_SessionReuse   "オンの場合: データ接続にTLSセッションの再利用を必要とします(セキュア)。\nオフの場合: セッションの再利用なし(互換モード)。"
+
+# S3 options
+Browse_Str_HostBasedAddr  "バケットに対してホストベースでアドレシングを行う(ユーロバケット用)"
+Browse_Tip_HostBasedAddr  "オンの場合: ホストベースのバケットアドレッシング: ユーロバケットで有効です。バケット名は必ず小文字英数字でなければなりません。\nオフの場合: ＵＲＬベースのバケットアドレッシング: バケット名としては大文字小文字を使用可能ですがアマゾンでは推奨されていません。"
+Browse_Str_Redundancy	   "ＲＲＳ"
+Browse_Tip_Redundancy	   "オンの場合 S3のRRS(低冗長化ストレージ)オプションを使用します。オフの場合はデフォルトの設定を使用します。"
+Browse_Str_InfrequentAccess	"低頻度アクセス標準ストレージ"
+Browse_Tip_InfrequentAccess	"オンの場合: S3の低頻度アクセスオプションを使用します。オフの場合: 標準のストレージを使います。"
+Browse_Str_ServerEncrypt	"サーバ側で暗号化"
+Browse_Tip_ServerEncrypt	"オンの場合 S3においてAES256での暗号化が行われます。オフの場合は暗号化されません。"
+Browse_Str_AwsV4Auth		"V4 (AWS4-HMAC-SHA256) 認証を使用します。"
+Browse_Tip_AwsV4Auth		"オンの場合: AWS4-HMAC-SHA256認証を使用します。これによりセキュリティが向上します。地域によってはこれが必要な場合があります。"
+Browse_Str_UsGovCloud		"アメリカ合衆国政府クラウド"
+Browse_Tip_UsGovCloud		"オンの場合: アメリカ合衆国政府クラウドサーバが使用されます。他のS3エンドポイントとは分離されています。"
+Browse_Str_SpecifyACP	  "アクセスコントロール"
+Browse_Tip_SpecifyACP	  "アクセスコントロールポリシ。以下のいずれか: private (既定値), public-read, public-read-write, authenticated-read"
+
+# Google Drive options
+Browse_Str_NativeFiles		"グーグルネイティブファイルのインポート/エクスポート"
+Browse_Tip_NativeFiles		"オンの場合 グーグルのネイティブフォーマットと非ネイティブフォーマットの両方のダウンロード/アップロードとなります。ファイルのダウンロードはグーグルドックスからのエクスポートとなり、ローカルファイルのアップロードはグーグルドックスへのインポートとなります。オフの場合　非ネイティブファイルのみが交換されます。このモードでは解析に多くの時間がかかったりエラーの原因となる可能性があります。"
+
+# MS Graph options
+Browse_Str_Graph_GroupRead	"Group.Read.All スコープを要求(管理者のみ)"
+Browse_Tip_Graph_GroupRead	"グッドシンク用に Group.Read.All スコープを要求する場合にオンにします。そうするとグッドシンクはグループと関連の文書ライブラリが参照できるようになります。\nこのオプションを適用する際に再認証が必要になる可能性があります。"
+Browse_Str_Graph_National	"ロケーション(ナショナルクラウド)"
+Browse_Tip_Graph_National	"ナショナルクラウドを選択する場合にこのフィールドを使用します。\n空の場合はインターナショナルを意味します。\nUSはUS政府用のマイクロソフトクラウドを意味します。\nDEはドイツ政府用のマイクロソフトクラウドを意味します。\nCNは中国の21Vianetが運営するAzureとOffice365を意味します。"
+
+# OAuth2 dialog
+Browse_Str_OAuth2Title		"%1 OAuth2 認証の手順"
+Browse_Str_OAuth2Message	"デフォルトのブラウザにおいてグッドシンクが %1 にアクセスできるかどうかを聞いてきます。\n\nアクセスを許可する前に正しく %1 のアカウントにログインしていることを確認してください。\nそうでない場合は必要に応じてログアウト、ログインを行います。\n\nブラウザの認証の後で参照ダイアログのユーザＩＤのフィールドに有効なユーザＩＤが表示されます。 "
+
+# Browsing Tips
+Browse_TipLine_OAuth2_Chang "OAuth: 確認ボタンをクリックするとブラウザが開き、アカウントの認証情報の入力が要求されます。"
+Browse_TipLine_OAuth2_Fixed "OAuth ユーザID  %1。ここで認証情報を変更することはできませんが、新規ボタンをクリックして新しいアカウントを追加することが可能です。"
+Browse_TipLine_UserId_Fixed "ユーザID %1。 認証情報または接続オプションの変更は、アカウントタブを開いて編集したいアカウントをクリックします。"
+
+#
+# Browse Dlg Ver 11
+#
+Browse_MultiLeave_Title     "複数フォルダモードを抜ける"
+Browse_MultiLeave_Text      "複数フォルダモードを抜けるとフィルタで設定されたフォルダ選択が失われます。よろしいでしょうか？"
+
+Browse_UnlistedServer_Title "表示されていないサーバを追加"
+Browse_UnlistedServer_Capt  "サーバ名を入力"
+
+Browse_Account_Data			"アカウントデータ"
+Browse_Account_Name			"アカウント名"
+Browse_Account_URL			"アカウントURL"
+Browse_Account_UserID		"ユーザID"
+Browse_Account_Password		"パスワード"
+Browse_Account_Email		"メール"
+Browse_Account_UserName		"ユーザ名"
+Browse_Account_ServerAddress "サーバアドレス"
+Browse_Account_Credentials   "認証情報"
+Browse_Account_AdvancedOpts  "高度な設定"
+Browse_Account_Test			 "テスト"
+Browse_Account_TestResults	 "テスト結果:"
+
+Browse_Account_Authorization "認証"
+Browse_Account_StartAuth	 "認証開始"
+Browse_Account_OAuthNeeded	 "%1 は安全な委任されたアクセス(OAuth2)を使用しています。\n既定のブラウザであなたのアカウントの認証情報を入力する必要があります。\n以下の認証開始ボタンをクリックして処理を進めてください。"
+
+Browse_EmptyFolder        "空フォルダ"
+
+# Browse dialog hint messages
+Browse_Hint_SelectLeft			"左側フォルダを選択してください"
+Browse_Hint_SelectRight			"右側フォルダを選択してください"
+Browse_Hint_Apply				"適用をクリックしてフォルダを確認するか、複数フォルダをクリックしてフォルダを除外または包含してください。"
+Browse_Hint_Wait				"お待ちください..."
+
+Browse_Hint_BadLeft				"左側: 適切ではありません: %1"
+Browse_Hint_BadRight			"右側: 適切ではありません: %1"
+
+Browse_Hint_SameFolder			"左右のフォルダが同じです。"
+Browse_Hint_SubFolder			"同期フォルダのサブフォルダが指定されています。"
+
+Browse_Hint_Reason_NotAFolder	"フォルダではありませ。掘り下げてください。"
+Browse_Hint_Reason_NoFolders	"このレベルにはフォルダは作成できません。掘り下げてください。"
+Browse_Hint_Reason_NoFiles	"このレベルにはファイルをアップロードできません。掘り下げてください。"
+Browse_Hint_Reason_VirtFolder	"存在しないフォルダです。再度参照してください。"
+
+#
+# GoodSync Connect and Runner setup
+#
+Act_Btn_Back		"戻る"
+Act_Btn_Finish		"終了"
+Act_Btn_Next		"次へ"
+
+# Runner Setup
+GsRunnerSetup_Request           "アンアテンディドモードでジョブを実行するためにはグッドシンクランナーサービスが必要です。\nここで設定しますか？(推奨)"
+GsRunnerSetup_WindowTitle		"ランナーサービス設定"
+GsRunnerSetup_ThisWinUser		"グッドシンクランナーサービスを以下のWindowsアカウントで実行:"
+GsRunnerSetup_WinNote			"ランナーサービスを実行するためにWindowsのパスワードが必要です。\nランナーサービスを実行するために正しいパスワードを入力してください。"
+GsRunnerSetup_FinalMsg			"グッドシンクランナーサービスが更新されます。"
+GsRunnerSetup_CannotStart		"ランナーサービスを起動できません。"
+
+# GS Account Setup -- Common Elements
+GsConnSetup_WindowTitle			"グッドシンクアカウント設定"
+GsConnSetup_FirstRunTitle		"グッドシンクアカウント設定へようこそ"
+GsConnSetup_ConfigureTitle		"グッドシンクアカウントを構成"
+
+# GoodSync Account page
+GsConnSetup_RegisterThis		"このコンピュータをグッドシンクアカウントに登録"
+GsConnSetup_ExplainWhy			"コンピュータ間を直接P2Pで同期/ライセンスの活性化/オンラインサポート/グッドシンクストレージの利用にはグッドシンクアカウントが必要です。"
+GsConnSetup_SetupLater       	"後でグッドシンクアカウントを設定"
+GsConnSetup_UseThisAccount		"既存のグッドシンクアカウントを使用"
+GsConnSetup_CreateNewAccount	"新規にグッドシンクアカウントを作成"
+GsConnSetup_StNoDiscoveryMode	"メディエータには登録せずに、このコンピュータをIPアドレスで指定"
+GsConnSetup_UserID				"ユーザIDまたはメール"
+GsConnSetup_Email				"グッドシンクアカウントのメール"
+GsConnSetup_UserIdKey			"グッドシンクアカウントのユーザID"
+GsConnSetup_Password			"パスワード"
+GsConnSetup_Retype				"再入力"
+GsConnSetup_YourName			"お名前"
+GsConnSetup_NoDisco_UserId      "管理者のユーザID"
+GsConnSetup_NoDisco_Password    "管理者のパスワード"
+GsConnSetup_SameAccountNote		"同じグッドシンクアカウントに登録されたコンピュータはお互いに同期が可能となります。"
+
+# GoodSync Connect Server page
+GsConnSetup_ComputerID			"このコンピュータの名前"
+GsConnSetup_ServeFilesNo		"ファイルサーバにはならないが、他のコンピュータを呼び出すことは可能"
+GsConnSetup_ServeFilesYes		"ファイルサーバになり、グッドシンククライアントにファイルを提供する"
+GsConnSetup_ConfigureWinUser	"Windowsユーザ　新規ファイルの所有者"
+GsConnSetup_WinUser				"Windowsユーザ"
+GsConnSetup_WinAuthUser			"認証するWindowsユーザ"
+GsConnSetup_WinPassword			"Windowsパスワード"
+GsConnSetup_WinFullName			"Windowsユーザフルネーム"
+GsConnSetup_WinNote			"このサーバがWindows共有やBitLocker暗号化ディスク等にアクセスするためにはインパーソネーションが必要で、推奨されます。どうしてもインパーソネーションを使いたくない場合は、Windowsパスワードの欄を空白にしてください。"
+GsConnSetup_MacFullName			"MacOSユーザフルネーム"
+
+GsConnSetup_ConfigureMacUser    "システムユーザ　新規ファイルの所有者"
+GsConnSetup_MacUser             "システムユーザ"
+GsConnSetup_MacNote             "このサーバが適切なパーミッションで動作するためにはインパーソネーションが必要です。そうすることで特権を要求することなく他のアプリが新規ファイルを開けるようになります。インパーソネーションの使用を強く推奨します。"
+
+# GoodSync Account Confirm Settings page
+GsConnSetup_FinWillBeSetTo		"グッドシンクアカウントが次に設定されます"
+GsConnSetup_StLocalOnlyMode		"このコンピュータのファイルは提供しない"
+GsConnSetup_StServerMode		"グッドシンクコネクトを使ってこのコンピュータのファイルを提供"
+
+# Wizard -- status and error messages
+GsConnSetup_StConnMediator		"メディエータに接続..."
+GsConnSetup_ErrSelectSomething	"いずれかを選択してください"
+GsConnSetup_ErrNoUserID			"グッドシンクコネクトユーザＩＤが指定されていません"
+GsConnSetup_ErrNoUserName		"名前が５文字に達していません。"
+GsConnSetup_ErrNoPassword		"グッドシンクコネクトのパスワードが指定されていません。"
+GsConnSetup_ErrPasswordShort	"パスワードが短すぎます"
+GsConnSetup_ErrPasswordMatch	"パスワードが一致しません"
+GsConnSetup_ErrBadEmail			"電子メールアドレスが無効です"
+GsConnSetup_ErrNoWinAccount		"Windowsアカウント名が空白です"
+
+# Wizard -- misc
+Msg_StoppingService     "サービス停止中 "
+
+#
+# License Activation Wizard
+#
+Act_Header			"グッドシンクをお求め頂きありがとうございます。＾＾；"
+Act_Title  			"グッドシンク活性化"
+Act_Msg_NeedAccount   "グッドシンクのライセンスを活性化するには、まずグッドシンクアカウントを設定する必要があります。"
+Act_Msg_AcctSetup_Win "アプリケーションのツール -> グッドシンクアカウント設定...を選びます。"
+Act_Msg_AcctSetup_Mac "アプリケーションのグッドシンク -> グッドシンクアカウント設定...を選びます。"
+Act_PasswordOnFile    "(ファイル上)"
+
+Act_User_Account_Btn    "グッドシンクアカウントで活性化(推奨)"
+Act_User_Account_Tip    "グッドシンクアカウントの未使用のライセンスを使って活性化します。"
+Act_User_Online_Btn	    "ご注文IDと名前を使って活性化"
+Act_User_Online_Tip	    "ご注文IDと名前を検索して活性化します(以前の方法)。"
+Act_User_Manage_Link    "アカウントにログインしてでライセンスを管理する"
+Act_User_ViaBrowser_Btn		"ブラウザ経由で活性化（オンラインでの活性化がうまくいかない場合のみ）:"
+Act_User_ViaBrowser_Tip 	"既定ブラウザを使って活性化用サーバに接続します。"
+Act_User_Acct_Email	"グッドシンクアカウントのメール"
+Act_User_Acct_Pwd	"グッドシンクアカウントのパスワード"
+
+Act_ViaBrowser_Txt		"ブラウザ経由での活性化ページに移動します。次に表示されている活性化要求コードをクリップボードにコピーします。ブラウザの活性化ページで活性化要求コードフィールドにコピーした内容を貼り付けて送信します。活性化応答コードが返ってくるので、これを活性化応答コードのフィールドに貼り付けて次へをクリックします。"
+Act_ViaBrowser_ActReq_Text	"活性化要求コードをここからコピー"
+Act_ViaBrowser_Copy		"コピー"
+Act_ViaBrowser_ActCode_Txt	"活性化応答コードを貼付け"
+
+Act_Finish_Success	"これらのライセンスは活性化されました:"
+Act_Finish_Connect	"活性化サーバに接続"
+Act_Finish_Fail		"活性化に失敗しました"
+
+#
+# Explorer Strings -- V11 incluided
+#
+Title_Connect			"接続"
+Title_Proxy			"プロキシ設定"
+Str_UseProxy_No			"リモート接続にプロキシサーバを使わない"
+Str_UseProxy_Auto		"リモート接続にIEで設定されているプロキシサーバを使う"
+Str_Mac_UseProxyAuto    "システムのプロキシ設定を使う"
+Help_UseProxy_Auto  	"インターネットエクスプローラで設定されているプロキシサーバを使用します。インターネットオプション -> 接続 -> LAN設定　で設定します。WinINetとproxy.pacで定義されるプロキシサーバをカバーしています。プロキシを使用して接続するためには、それぞれのジョブオプションで「プロキシを使って接続する」を指定しておく必要があります。"
+Help_Mac_UseProxy_Auto  "システムに定義されているプロキシサーバを使用。システム環境設定->ネットワーク->詳細->プロキシ。プロキシを使いたいジョブはすべて参照ダイアログで「プロキシを使って接続」に設定されている必要があります。"
+Str_UseProxy_Manual		"リモート接続に以下のプロキシを使用する"
+Help_UseProxy_Manual	"以下で指定されるプロキシサーバを使用します。なお、それぞれのジョブオプションで「プロキシを使って接続する」を指定しておく必要があります。"
+Str_ProxyHost			"プロキシサーバ"
+Help_ProxyHost			"プロキシサーバのホスト名を入力します。\n SOCKS5プロキシには SOCKS5:// を先頭に付与してください。"
+Str_ProxyPort			"ポート"
+Help_ProxyPort			"プロキシサーバのポート番号を入力します。"
+Str_ProxyUserID         "プロキシのユーザID"
+Str_ProxyPasswd         "パスワード"
+Help_ProxyAuth          "認証のためにプロキシサーバのユーザIDとパスワードを入力します。"
+
+# Explorer File Operations
+Explorer_File_With_The_Same_Name_Exists	"この場所にはすでに同じ名前のファイルが存在します。"
+Explorer_Replace_Src_By_Dst				"転送先のファイルを転送元のファイルで置換え:"
+Explorer_Keep_Dst_File					"ファイルを変更しない。転送先ファイルを維持:"
+Explorer_Copy_If_Newer					"新しければコピー"
+Explorer_Copy_If_Src_Newer_Than_Dst		"転送元のファイルが転送先のファイルより新しければコピー"
+
+Explorer_DestFilePresent "転送先には既に以下の名前のファイルが存在します"
+Explorer_Source		"転送元"
+Explorer_Destination	 "転送先"
+Explorer_FileSize	"サイズ: %1 バイト"
+Explorer_DateModified	"更新日時: %1"
+Explorer_Do_Same_For_Other_Conflicts		"他の競合についても同様に処理"
+
+Explorer_EnterEncryptPass "以下のための暗号化パスワードを入力: "
+Explorer_UnnamedBmkList  "リストの中から場所をクリック:"
+
+# Misc
+Cmd_Properties		"プロパティ"
+Explorer_Properties    	"プロパティ"
+Txt_ItemProp            "TPath: %1\nLnew: %2\nLold: %3\nRnew: %4\nRold: %5\nLgen: %6\nRgen: %7\n"
+Explorer_CopyToClipboard "クリップボードにコピー"
+
+# Explorer Commands
+Explorer_OpOpen        "開く"
+Explorer_OpDownload	"ダウンロード"
+Explorer_OpUpload      "アップロード"
+Explorer_OpDelete      "削除"
+Explorer_OpRename      "名前変更"
+Explorer_OpNewFolder   "新フォルダ"
+Explorer_OpDetails     "詳細"
+Explorer_OpExpand	   "拡張"
+Explorer_OpGoto        "行く"
+Explorer_OpRefresh     "リフレッシュ"
+Explorer_OpBookmark	   "ブックマーク"
+Explorer_OpCopy		   "コピー"
+Explorer_OpPaste	   "ペースト"
+Explorer_OpMove        "移動"
+Explorer_OpNew         "新規"
+Explorer_OpEdit        "編集"
+Explorer_OpFavorites   "お気に入り(%1)"
+Explorer_OpRDC         "リモートデスクトップ接続"
+
+# Explorer Columns
+Explore_Col_Type	"タイプ"
+Explore_Col_Server	"サーバ"
+Explore_Col_Location	"場所"
+Explore_Col_Name       "名前"
+Explore_Col_Size       "サイズ"
+Explore_Col_Date	"日付"
+Explore_Col_ModTime    "変更時刻"
+Explore_Col_CreTime    "作成時刻"
+Explore_Col_Attrs      "属性"
+Explore_Col_Owner	"所有者"
+Explore_Col_Comment    "コメント"
+
+#
+# Explorer V11
+#
+Explorer_About						"製品情報"
+Explorer_1Tree						"1 画面"
+Explorer_2Trees						"2 画面"
+Explorer_Decrypt_Folder				"フォルダ復号化"
+Explorer_Leave_Decrypted			"復号化フォルダを去る"
+Explorer_Show_Checkboxes			"チェックボックス表示"
+Explorer_Hide_Checkboxes			"チェックボックス非表示"
+Explorer_Op_From					"ここから:"
+Explorer_Op_To						"ここへ:"
+Explorer_Exit						"終了"
+Explorer_Tasks_Question				"タスクを停止しますか？"
+Explorer_Tasks_Close_Question		"まだ実行中のタスクがあります。それでも終了しますか？"
+Explorer_Known_Encrypted_Folder		"既知の暗号化フォルダ"
+Explorer_View_Decrypted_Question	"フォルダを復号化して閲覧しますか？"
+
+#
+# Mac RDC
+#
+Str_RDC_Cannot_Start                  "RDPクライアントを起動できません"
+Str_RDC_Error_Not_Installed           "%1アプリケーションはインストールされていません"
+Str_RDC_Error_CannotOpenDistPage      "%1配布ページを開けません"
+Str_RDC_Error_CannotLaunchWithRDPFile "%1がRDPファイル%2では起動できません"
+Str_RDC_Error_CannotGetTempFilePath   "一時ファイルのパスが取得できません。エラー: %1"
+Str_RDC_Error_CannotCreateRDPFile     "RDPファイル %1を作成できません"
+Str_RDC_Error_UnableToFindAppBundle   "このコンピュータには%1アプリケーションが見つかりません"
+Str_RDC_Error_SuggestDownloading      "アップストアから%1をダウンロードして再度お試しください"
+Str_RDC_Error_GoToAppStore            "アップストアへ行く"
+
+# Mac specific
+Explorer_OpShowInFinder             "ファインダで表示"
+
+#
+# --- SYNCLIB localization ---
+# RFS file codepage and Language -- see main default.rfs
+
+# Left and Right
+Str_LeftFolder			"左側フォルダ"
+Str_RightFolder			"右側フォルダ"
+
+Str_LeftAndRight		"左側と右側"
+Str_Left				"左側"
+Str_Right				"右側"
+Str_Folder				"フォルダ"
+Str_File				"ファイル"
+Str_Deleted				"削除済"
+Str_NotPresent			"なし"
+Str_NoSize				"不明"
+
+Str_LeftToRight			"左側から右側"
+Str_RightToLeft			"右側から左側"
+
+Msg_CompareCheckSum_Slow          "== 解析時にそれぞれのファイルのチェックサムを比較しますので処理に時間が掛かります。チェックサムの算出にすべてのファイルを読むためです。"
+Msg_CompareCheckSum_Slow_DiffType "== 解析時にそれぞれのファイルの保存されているチェックサムを比較します。左側と右側のチェックサムの比較はできません。チェックサムのタイプが異なるからです(SHA1 vs MD5)。"
+Msg_CompareCheckSum_Fast          "== 解析時に同サイズで時刻違いのファイルについてチェックサムの比較を行います。"
+Msg_CompareCheckSum_Fast_DiffType "== 解析時に同サイズのファイルで左側と右側のチェックサムのタイプが異なるものについてチェックサムの比較を行います(例: SHA1 vs MD5 等)。"
+Msg_CompareCheckSum_Sync          "== シンクロが正しく行われたことを確認するためにチェックサムを比較します。"
+
+Msg_CompareFileBodies_Slow        "== ファイル本体の比較を行うように指定された解析では全てのファイルを読むので極めて処理が遅くなります。"
+
+Str_Msg_FileDeleted     "ユーザによるファイル削除 - %1"
+Str_Msg_FolderDeleted   "ユーザによるフォルダ削除 - %1"
+Str_Msg_CannotDelete    "削除できません - %1: %2"
+Str_Msg_StateFileDeleted "状態ファイル削除 - %1"
+
+
+# Exclusion messages
+Str_ExclBy_FolderAbove  	"上記のフォルダにより除外"
+Str_ExclBy_SyncFolder   	"除外: グッドシンクデータフォルダ"
+Str_ExclBy_MatchName    	"除外: 一致 "
+Str_ExclBy_NoMatchName  	"除外: 不一致 "
+Str_ExclBy_EmptyFolder  	"除外: 空フォルダ"
+Str_ExclBy_ChildOfExcl  	"除外: 除外フォルダのサブフォルダ"
+Str_ExclBy_NoPropDels      	"除外: 削除を伝播しない"
+Str_Msg_SkipLink		"リンクをスキップ - %1"
+
+# Job status and progress
+Str_Status_PressAnalyze		"解析ボタンを押して開始..."
+Str_Status_ConnectingToFolder	"フォルダ%1に接続"
+Str_Status_Scanning		"スキャン中 %1"
+Str_Status_ReadStateFile        "状態ファイル読込中 %1"
+Str_Status_ReadEmbeddedStateFile "状態ファイル %1 を読み込んでルート状態に結合中"
+Str_Status_NewStateFile		"新規状態ファイル作成 %1"
+Str_Status_SaveStateFile        "状態ファイル保存 %1"
+Str_Status_PostProcessing	"後処理中"
+Str_Status_ComputePrevVerSize	"ファイルサイズ計算(_saved_ファイル)"
+
+Str_Status_CompareOneSide	"比較中 %1"
+Str_Status_CompareLeftToRight	"左側と右側を比較中"
+
+Str_Status_NotYetAnalyzed	"未解析"
+Str_Status_Syncing		"シンクロ中"
+Str_Status_Analyzing		"解析中"
+Str_Status_Connecting		"接続中"
+Str_Status_Paused		"一時停止"
+Str_Status_Resumed		"復帰"
+Str_Status_All			"すべてのファイル"
+Str_Status_NoFiles		"ファイル無し"
+Str_Status_Changes		"変更"
+Str_Status_InSync		"シンクロ済み"
+Str_Status_Conflicts		"競合"
+Str_Status_NoConflicts		"競合無し"
+Str_Status_Errors		"エラー"
+Str_Status_NoErrors		"エラー無し"
+Str_Status_SyncAttention	"要注意"
+Str_Status_Connected		"接続"
+Str_Status_Disconnected		"切断"
+
+Str_Status_VolumeInfo_Free  "利用可能: %1, 合計: %2"
+Str_Status_VolumeInfo_Reqd  "必要容量: %1"
+Str_Status_Volume_Unknown      "利用可能: 不明"
+Str_Status_Volume_Disconnected "切断"
+
+Str_Status_FilesChangedCnt	"変更されたファイル: %1"
+Str_Status_ConflictsCnt		"競合: %1"
+Str_Status_ErrorsCnt		"エラー: %1"
+Str_Status_SyncedCnt		"シンクロ済み: %1"
+Warn_AllExcluded		"ご注意!\r\nすべてのファイルが除外対象となっています。恐らくフィルタの設定に問題があると思われます。\r\n表示を 'すべて' または '除外' に切り替えてファイルタが正しく設定されているかを確認頂けると幸いです。"
+Warn_AllNew			"ご注意!\r\n左側フォルダと右側フォルダで共通のファイルが一件もありません。可能性としては誤って無関係なフォルダをシンクロしようとしている事が考えられます。\r\nお手数ながら今一度シンクロ対象のフォルダが正しいことを確認してみてください。"
+Warn_AllDelete			"ご注意!\r\nバックアップ先のフォルダのすべてのファイルが削除されることになります。\r\nバックアップする場合には空のフォルダへのバックアップを推奨します。"
+
+# Analyze messages
+Str_Msg_Job			"ジョブ"
+Str_Msg_LeftRight_Descrs    "左側: %1, 右側: %2"
+Str_Msg_JobFilters          "フィルタ: %1"
+Str_Msg_SetFolder		"フォルダが指定されていません。"
+Str_Msg_CannotOpenFolder    	"ファイルシステムがありません: %1"
+Str_Msg_SameFolders		"左側と右側のフォルダが同じです。"
+Str_Msg_NestedFolders2	    	"フォルダ '%1' は\n フォルダ '%2'のサブフォルダです。\n入れ子になっているフォルダは解析できません。"
+Str_Msg_WillCreateFolder    "フォルダ '%1' は見つかりませんので新規に作成します。"
+Str_Msg_CannotConnect       "次に接続できません： "
+Str_Msg_Created_Folder      "フォルダ作成成功 '%1'"
+Str_Msg_CannotCreateGsdata  	"状態フォルダ_gsdata_が作成できません %1: %2\nこれが読込専用フォルダの場合はメニューからジョブのオプションで片方向を選び左側または右側で_gsdata_無しをお選びください。"
+Str_Msg_ErrReadStateFile    	"状態ファイル '%1' の読込エラー: %2\nこの状態ファイルを '%3' に名前変更しました。\n次回の解析時に新規に状態ファイルが作成されます。\n変更された状態ファイルを ask@goodsync.com 宛てにお送り頂けると問題解決の助けとなります。"
+Str_Msg_EmbeddedJob         	"このジョブに属さないシンクロデータフォルダ '%1' が見つかりました。これは複数のジョブが同じフォルダをシンクロしようとしていることを示しています。これは推奨されない使用法です。"
+Str_Msg_DetectedDisconnect  "切断を検出: %2"
+Str_Msg_RemainsConnected    "接続中: %2"
+Str_Msg_DetectedConnect     "接続チェック: 接続確認、解析実行"
+Str_Msg_RemainsDisconnected "切断中: %2"
+
+Str_Msg_Filter_ExcludeHidden       "隠し属性を除外"
+Str_Msg_Filter_ExcludeSystem       "システム属性を除外"
+Str_Msg_Filter_ExcludeTemp         "一時ファイル/フォルダを除外"
+Str_Msg_Filter_ExcludeDisregarded  "廃棄ファイル/フォルダを除外"
+Str_Msg_Filter_ExcludeEmptyFolders "空フォルダを除外"
+Str_Msg_Filter_Included     "対象"
+Str_Msg_Filter_Excluded     "除外"
+
+Str_Msg_OlderFileVsNewer	"ご注意: 古いファイルが新しいファイルを上書きします。"
+Str_Msg_Conflict_BothChanged  "競合: 両側で共にファイルが更新されています。"
+Str_Msg_Conflict_NewFilesDiff "競合: 新しいファイルは異なります"
+Str_Msg_Conflict_1way_RtoL   "右側から左側へのシンクロ（左側から右側への片方向ジョブ）"
+Str_Msg_Conflict_1way_LtoR   "左側から右側へのシンクロ（右側から左側への片方向ジョブ）"
+
+Str_Status_JobScheduled      "-- %1: %2 により実行されるようにスケジュール"
+Str_Status_AnalysisStart     "-- %1 による解析開始"
+Str_Status_AnalysisStarted   "-- %2: PC '%4'の %3 による解析開始(グッドシンク %5)"
+Str_Status_OneSideStats      "%1: ファイル: %2 (除外 %3) フォルダ: %4 (除外 %5)"
+Str_Status_CurrSideStats     "ファイル+フォルダ %1 除外 %2 速度 %3 項目/秒"
+Str_Status_AnalysisSummary   "変更: %1  競合: %2  時刻コピー: %3  状態コピー: %4  エラー: %5"
+Str_Status_AnalysisCompleted "-- 解析完了 時間 %2  速度: %3 ファイル/秒"
+Str_Status_AnalyzeStopped		"ユーザによる解析の停止"
+Str_Status_AnalyzeFinished_NoChanges	"解析完了、シンクロ不要"
+Str_Status_AnalyzeFinished_ReadyToSync	"解析完了、シンクロボタンでシンクロ"
+Str_Status_Advise_HaveConflicts		   "同期の方向を選択して競合を解決します。"
+Str_Status_Advise_HaveErrors	"シンクロ完了ですがエラーがあります。エラーボタンを押してエラーを確認できます。"
+Str_Status_FolderDisconnected     "一方のフォルダが切断されています。"
+Str_Status_RemainsConnected       "両方のフォルダが接続されています。"
+Str_Status_RemainsDisconnected    "一方のフォルダが切断されたままです。"
+
+Str_Status_SyncStart		 "== %1 によるシンクロ開始"
+Str_Status_SynchroStarted	 "== '%2': PC '%4'の %3 によるシンクロ開始"
+Str_Status_SavingStateFor	"状態保存： "
+Str_Status_SynchroSummary	 "シンクロ完了項目: %1  エラー: %2"
+Str_Status_SynchroErrors	 "シンクロ完了ですが %1 個のエラーがあります。エラーボタンを押してエラーを確認できます。"
+Str_Status_SynchroConflicts	 "シンクロ完了ですが %1 個の競合が未解決です。競合ボタンを押して競合を確認できます。"
+Str_Status_SynchroCompleted	 "== シンクロ完了 時間: %2  速度: %3"
+Str_Status_Computing_Speed  	"計算速度"
+Str_Status_Remaining_Speed	"残り %1　平均 %2"
+Str_Status_Curr_Recycling   "リサイクル %1/%2 項目"
+Str_Status_Current_Speed	"現在 "
+Str_Status_Elapsed_Time		"経過 "
+Str_Status_SyncError		"エラー"
+Str_Status_SyncStopped		"ユーザによるシンクロの停止。継続するにはシンクロボタンを押します。"
+Str_Status_SyncDisconnected 	"フォルダが切断されました。"
+Str_Status_SyncFinished_OK  	"シンクロ無事完了"
+Str_Status_Advise_AnalyzeAttention	 "解析完了しましたがエラーがあります。"
+Str_Status_Advise_SyncAttention	 	"シンクロ完了ですがエラーまたは競合が発生しています。"
+Str_Status_Advise_AnalyzeConflict 	"競合が検出されています。同期方向をここで指定して競合を解決してください:"
+
+Str_Msg_StoppedByUser		"ユーザによる停止"
+Str_Msg_OTP_InBrowse		"このユーザはワンタイムパスワード(OTP)が必要です。グッドシンクコネクトの参照ボタンをクリックして参照ダイアログにOTPを入力してください。"
+
+Str_Msg_DeleteOtherJobResults "このジョブと交差するジョブの解析結果を削除します: %1"
+Str_Msg_DeleteResultsReason   "交差するジョブ %1 のシンクロ"
+Str_Msg_DeleteThisJobResults  "このジョブの解析結果（ツリー）は%1によって削除されました。"
+
+Str_Msg_Action_DeleteFolder "フォルダ削除"
+Str_Msg_Action_DeleteFile   "ファイル削除"
+Str_Msg_Action_DeleteLink   "リンク削除"
+Str_Msg_Action_CreateFolder "フォルダ作成"
+Str_Msg_Action_CopyOver     "上書コピー"
+Str_Msg_Action_CopyNew      "新規コピー"
+Str_Msg_Action_CopyTime     "時刻コピー( %1 から %2へ)"
+Str_Msg_Action_MoveFile       "ファイル名前変更 %1 -> %2"
+Str_Msg_Action_MoveFileDone   "ファイル名前変更 %1 -> %2: 完了済み"
+Str_Msg_Action_MoveFolder     "フォルダ名前変更 %1 -> %2"
+
+
+Str_Msg_OldNewWholeHour_TimeShift  "%1: 新旧の時間差 %2 時間が検出されました。 %3 ファイル: こちら側は変化無しとして処理されます。"
+Str_Msg_OldNewRounding_TimeShift   "%1: 新旧の丸め時間差 %2 時間(タイプ %3) が検出されました。 %4 ファイル: こちら側は変化無しとして処理されます。"
+Str_Msg_LeftRight_TimeShift        "左側と右側の時間差 %1 時間(タイプ %2) が検出されました。 %3 ファイル: 操作をファイルコピーから時刻コピーに変更します。"
+
+Str_Msg_FolderLocked    	"別のジョブがフォルダ %1 でシンクロを行っています。\n これは%2により起動されています。\n　少し時間をおいて再度試していただくか、他のジョブが完了していることが明確な場合はロックを上書きしてください。"
+Str_Msg_LimitChanges2		"%1 個のファイルが変更されています。これは制限値 %2個を超えているため、自動でのシンクロは行われません。"
+Str_Msg_NotEnoughDiskSpace  	"十分な容量がディスク %1 にありません。必要量 %2 ： 空容量 %3\n"
+Str_Msg_RequiredDiskSpace   	"シンクロにおいてディスク %1 に必要な容量は %2 です。現在の空き容量 %3"
+Str_Msg_UnknownDiskSpace    	"シンクロにおいてディスク %1 に必要な容量は %2 です。現在の空き容量は不明"
+
+Str_Msg_CannotOpenStateFile  "状態ファイルを開くことができません。壊れているようなら削除してください。"
+Str_Msg_CannotParseStateFile "状態ファイルをパースできません。壊れているようなら削除してください。"
+
+Str_Msg_AndMoreSimilarLogLines "... さらに %1 行の類似のログメッセージが省略されています。(省略されていなログを見るにはジョブメニューから左側（右側）のログファイルを開く)"
+
+Str_Msg_AnalyzeAfterStateFileChange "他のジョブがシンクロを行ったため解析が無効になりました。今一度解析をクリックしてください。\n状態ファイル: %1\nNew: [%2] != \nOld: [%3]\n"
+
+Str_Msg_JobCommonFolder  "ジョブ %1 が共通の同期フォルダを持っており現在実行中です。この完了をお待ちください。"
+
+
+
+#
+# Duplicated IDs.
+# File: D:/Home/goodsync/localization/rfs/jp-japanese-Sep2020.rfs
+#
+*- Iphone_Empty_Folder "フォルダは空です"
+*- Iphone_Empty_Folder "フォルダは空です"
+
+#
+# Unused IDs.
+# File: D:/Home/goodsync/localization/rfs/jp-japanese-Sep2020.rfs
+#
+*- Btn_Mac_Finish					"終了"
+*- Iphone_Downloads "保管室"
+*- GsConnSetup_SkipBtn				"スキップ"

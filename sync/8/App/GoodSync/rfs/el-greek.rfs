@@ -1,0 +1,439 @@
+﻿# RFS file codepage.
+RFS_CODEPAGE "1253"
+RFS_LANGUAGE "Ελληνικά"
+
+# Menus
+Menu_Job				"&Έργο"
+Cmd_JobNew				"Νέο"
+Cmd_JobDelete			"Διαγραφή"
+Cmd_JobRename			"Μετονομασία..."
+Cmd_JobSaveTemplate     "Αποθήκευση ως &Πρότυπο..."
+Cmd_Analyze			"&Ανάλυση"
+Cmd_AnalyzeAll			"Ανά&λυση Όλων"
+Cmd_Sync				"&Συγχρονισμός"
+Cmd_SyncAll				"Συγ&χρονισμός Όλων"
+Cmd_AnalyzeAndSyncAll	"Ανάλυση και Συγχ. Όλων"
+Cmd_Stop			"Δ&ιακοπή"
+Cmd_JobOptions			"Επιλο&γές..."
+Cmd_JobResetState		"Επανα&φορά Κατάστασης"
+Cmd_AppExit				"Έ&ξοδος"
+
+Menu_View				"&Προβολή"
+Cmd_ViewStatusBar		"Γραμμή Κ&ατάστασης"
+Cmd_ProgOptions			"Επιλογές &Προγράμματος..."
+
+
+
+Menu_Help				"&Βοήθεια"
+Cmd_AppAbout			"&Πληροφορίες..."
+Cmd_AppManual			"&Οδηγίες Χρήσης"
+Cmd_AppFAQ				"&Συχνές Ερωτήσεις (FAQ)"
+Cmd_AppCreateTicket		"&Δημιουργία Αίτησης Υποστήριξης..."
+Cmd_Help_BuyPro			"Αγορά Pro..."
+Cmd_Help_Activate		"Ενεργοποίηση Pro..."
+Cmd_CheckUpdates					"Ελέγξτε για Ενημερώσεις"
+
+Cmd_ShowAll				"Ό&λα"
+Cmd_ShowChanges			"&Αλλαγές"
+Cmd_ShowConflict		"Διενέ&ξεις"
+Cmd_ShowError			"Λά&θη"
+
+Cmd_ShowToDelete		"Διαγραφή"
+Cmd_ShowExcluded		"Εξαίρεση"
+
+Cmd_ViewJobList			"&Λίστα Έργων"
+Cmd_ViewJobFilter		"&Φίλτρα"
+Cmd_ViewLog				"Αρχείο &Καταγραφής"
+
+
+
+# Context menus
+
+Cmd_ItemProp			"&Ιδιότητες"
+
+Cmd_ItemLDelete			"&Διαγραφή Αριστερού Αρχείου"
+Cmd_ItemRDelete			"&Διαγραφή Δεξιού Αρχείου"
+Cmd_ItemDeleteBoth		"&Διαγραφή και των Δύο Αρχείων"
+
+
+Cmd_DeleteLFolder			"&Διαγραφή Αριστερού Φακέλου"
+Cmd_DeleteRFolder			"&Διαγραφή Δεξιού Φακέλου"
+Cmd_DeleteBothFolders		"&Διαγραφή και των Δύο Φακέλων"
+
+
+Cmd_Recommended			"&Συστηνόμενο"
+Cmd_DoNotCopy			"Χ&ωρίς αντιγραφή"
+Cmd_CopyLeftToRight		"Αριστερό προς &Δεξί"
+Cmd_CopyRightToLeft		"Δεξί προς &Αριστερό"
+
+
+Cmd_ItemExcludeFile1		"&Εξαίρεση του Αρχείου '%1'"
+Cmd_ItemExcludeFolder1		"&Εξαίρεση του Φακέλου '%1'"
+
+
+Cmd_ItemExcludeAllFiles1		"Εξαίρεση Ό&λων των Αρχείων '%1'"
+Cmd_ItemExcludeAllFolders1	"Εξαίρεση Ό&λων των Φακέλων '%1'"
+
+Cmd_ItemExcludeAllMask1	"Εξαί&ρεση Όλων των Αρχείων '*%1'"
+
+Cmd_ItemIncludeAllMask1	"Προσ&θήκη Μόνο των Αρχείων '*%1'"
+
+
+# Taskbar Icon menu
+
+
+# Buttons below tree
+Grp_Actions				"Ενέργειες"
+Btn_Analyze				"Ανάλυση"
+Btn_SyncRun				"Συγχρονισμός"
+Btn_Stop			"Διακοπή"
+Grp_Show				"Εμφάνιση Δένδρου"
+
+
+# Tree view Columns
+Str_TreeItem			"Αντικείμενο"
+Str_TreeLSize			"Α Μέγεθος"
+Str_TreeLDate			"Α Ημ/νία"
+Str_TreeL				"Α"
+Str_TreeCenter			""
+Str_TreeR				"Δ"
+Str_TreeRSize			"Δ Μέγεθος"
+Str_TreeRDate			"Δ Ημ/νία"
+Str_TreeStatus			"Κατάσταση"
+
+# Misc buttons
+Btn_Ok					"ΟΚ"
+Btn_Cancel				"Άκυρο"
+Btn_Apply				"Εφαρμογή"
+Btn_Yes					"Ναι"
+Btn_No					"Όχι"
+Btn_Abort               "Ματαίωση"
+Btn_Retry               "Επανάληψη"
+Btn_Ignore              "Παράβλεψη"
+Btn_Close               "Κλείσιμο"
+Btn_Help                "Βοήθεια"
+Btn_Continue			"Συνέχεια"
+Btn_Browse				"Αναζήτηση"
+
+
+# Tooltips for buttons, for new users
+
+# New Job dialog
+Title_JobName			"Συμπληρώστε το Όνομα του Έργου"
+Str_JobName				"Όνομα Έργου:"
+Str_JobTemplate			"Από Πρότυπο:"
+Str_BadJobName1			"Το όνομα του έργου δεν μπορεί να περιέχει τα παρακάτω σύμβολα: / \\ ? < > : * |"
+Str_BadJobName2			"Το όνομα του έργου δεν μπορεί να είναι ίσο με '%1'."
+Str_BadJobName3			"Το όνομα του έργου δεν μπορεί να είναι άδειο ή περισσότερο από 100 χαρακτήρες."
+Str_JobNameExists		"Υπάρχει ήδη ένα έργο με τέτοιο όνομα."
+
+# Job Tabs control buttons
+Str_TabAddNewJob		"Προσθήκη νέου έργου"
+Str_TabScrollLeft		"Κύλιση Αριστερά"
+Str_TabScrollRight		"Κύλιση Δεξιά"
+
+# Windows menu and dialog
+
+
+
+# Job List Pane
+Title_JobList			"Λίστα Έργων"
+Title_TaskName			"Όνομα Εργασίας"
+Title_LastRunTime		"Τελευταίός Χρόνος Εκτέλεσης"	
+
+#Log Pane
+
+# Help -> About
+Title_About				"Πληροφορίες"
+Str_RegTo				"Καταχωρημένο Στον:"
+Help_ChkVer				"Συνδεθείτε στον web server του GoodSync και ελέγξτε εάν υπάρχει διαθέσιμη νεότερη έκδοση για λήψη."
+Help_SysStat			"Εμφανίζει πληροφορίες για την έκδοση του GoodSync και το περιβάλλον. Παρακαλούμε εφοδιαστείτε με αυτές τις πληροφορίες όταν επικοινωνείτε με την Τεχνική Υποστήριξη."
+
+# Program Options
+Title_Options			"Επιλογές του GoodSync"
+Str_Options				"Επιλογές"
+
+Help_NotDefined			"Δεν έχει οριστεί βοήθεια γι' αυτό το εξάρτημα χειρισμού"
+Help_MouseOver			"Φέρτε το ποντίκι πάνω από την επιλογή για να δείτε μια λεπτομερή περιγραφή. Πιέστε το κουμπί Alt μια φορά εάν θέλετε να κυλίσετε ή να αντιγράψετε το κείμενο βοήθειας."
+
+# Program Options - General
+Title_General			"Γενικά"
+Str_Lang				"Γλώσσα"
+Help_Lang				"Αλλάξτε τη γλώσσα του περιβάλλοντος του GoodSync που χρησιμοποιείται για τα μενού, τις επιλογές και τα μηνύματα.   Χρειάζεται επανεκκίνηση του GoodSync για να εφαρμοστεί η αλλαγή γλώσσας."
+Chk_TrayIcon			"Απόκρυψη στις Ειδοποιήσεις όταν το Κύριο Παράθυρο κλείσει"
+Help_TrayIcon			"Ενεργοποιημένο: Όταν κλείσετε το GoodSync, θα παραμείνει ενεργό στο παρασκήνιο. Για να αποκτήσετε πρόσβαση στο GoodSync, χρησιμοποιείστε το εικονίδιο στην Περιοχή Ειδοποιήσεων του Συστήματος (κάτω δεξιά γωνία της επιφάνειας εργασίας).  Απενεργοποιημένο: όταν κλείσετε το GoodSync, αφαιρείται από τη μνήμη."
+Chk_AutoStart			"Άνοιγμα του GoodSync όταν αρχίζουν τα Windows"
+Help_AutoStart			"Τα Windows φορτώνουν το GoodSync αυτόματα όταν συνδέεστε στον λογαριασμό χρήστη σας στα Windows, το GoodSync ανοίγει σε κατάσταση ελαχιστοποίησης. Ενεργοποιήστε αυτήν την επιλογή εάν τρέχετε τα Έργα αυτόματα, δηλαδή, εάν έχετε τσεκάρει κάποια ρύθμιση στην καρτέλα Επιλογές Έργου -> Αυτόματα."
+
+Chk_ResetIM				"Επαναφορά όλων των μηνυμάτων πληροφοριών στις προεπιλογές"
+Help_ResetIM			"Επανενεργοποιήστε όλα τα προειδοποιητικά μηνύματα που έχετε απενεργοποιήσει"
+Chk_AutoChkVer			"Καθημερινός έλεγχος για νέες εκδόσεις"
+Help_AutoChkVer			"Το GoodSync θα επικοινωνεί με το www.goodsync.com καθημερινά για να ελέγχει εάν μια νέα έκδοση είναι διαθέσιμη για λήψη."
+Chk_CreateNewFolder		"Δημιουργία αριστερών/δεξιών φακέλων εάν δεν υπάρχουν"
+Help_CreateNewFolder	"Το GoodSync θα δημιουργήσει αρ./δεξ. φακέλους συγχρονισμού αν δεν υπάρχουν."
+
+Str_LogDetailLevel		"Επίπεδο καταγραφής:"
+Str_LogCritical			"Κριτικά δεδομένα"
+Str_LogError			"Λάθη"
+Str_LogInfo				"Πληροφορίες"
+Str_LogDetails			"Λεπτομέρειες"
+Help_LogDetailLevel		"Ορίστε το επίπεδο λεπτομερειών για τα αρχεία καταγραφής."
+
+
+
+Str_CompareProg		"Σύγκριση Αρχείων με Εξωτερικό Πρόγραμμα"
+Help_CompareProg		"Πρόγραμμα σύγκρισης αρχείων. Πρέπει να είναι παραθυρικό και να παίρνει 2 παραμέτρους: τα ονόματα των αρχείων που συγκρίνει. Παράδειγμα: Αν δηλώσετε το WinDiff.Exe εδώ πρέπει να καλείται ως εξής: WinDiff αρχείο1 αρχείο2"
+Str_ExecutableFiles		"Εκτελέσιμα Αρχεία"
+
+# Program Options -> Connection
+
+
+
+# Job Options - General
+Title_JobGeneral		"Γενικά"
+Label_JobType			"Κατεύθυνση Συγχρονισμού"
+Str_JobType_TwoWay		"Διπλή"
+
+Str_JobType_LeftToRight	"Μονή Αριστερά προς Δεξιά"
+Str_JobType_RightToLeft	"Μονή Δεξιά προς Αριστερά"
+Help_JobType			"Ορίζει την προτιμώμενη κατεύθυνση του Συγχρονισμού.  Η διπλή κατεύθυνση κρατά τους φακέλους σε συγχρονισμό, ακόμα και αν τα αρχεία αλλάξουν και στις δύο πλευρές.  Η μονή κατεύθυνση προωθεί τις αλλαγές μόνο από τη μια πλευρά, αν θέλουμε Αντίγραφα Ασφαλείας."
+
+
+
+Chk_DelPropagate		"Διάδοση Διαγραφών"
+Help_DelPropagate		"Εάν ένα αρχείο ή φάκελος έχει διαγραφεί από έναν χρήστη στην μία πλευρά, το GoodSync θα το διαγράψει και από την άλλη πλευρά όταν κάνει Συγχρονισμό."
+
+Chk_SaveBakFiles		"Αποθήκευση αντιγράφου διαγραμμένων αρχείων"
+Help_SaveBakFiles		"Αποθήκευση αντιγράφου ασφαλείας των αρχείων που διαγράφονται ή αντικαθιστώνται εξαιτίας του Συγχρονισμού. Τα αρχεία αποθηκεύονται στον φάκελο _gsdata_\\_saved_. Μόνο η πιο πρόσφατη έκδοση κάθε διαγραμμένου/αντικαθιστώμενου αρχείου αποθηκεύεται."
+
+Str_ShowBalloon			"Εμφάνιση μηνυμάτων σε μπαλόνι"
+Str_DoNotShowBalloon	"Ποτέ"
+Str_ShowBalloonAlways	"Σε αλλαγές και Συγχρονισμό"
+Str_ShowBalloonOnError	"Σε διενέξεις και Λάθη"
+Help_ShowBalloon		"Επιλέξτε πότε θα εμφανίζονται μηνύματα αναγγελίας στο εικονίδιο του GoodSync στην Περιοχή Ειδοποιήσεων του Συστήματος"
+
+
+# Job options - Filters page
+Title_Filters			"Φίλτρα"
+Str_FilterExcluded		"Εξαιρούμενα"
+Help_FilterExcluded		"Αρχεία και φάκελοι που ταιριάζουν σε μια γραμμή αυτής της λίστας θα εξαιρούνται από τον συγχρονισμό. Χαρακτήρες μπαλαντέρ είναι τα '*' και '?'. Οι γραμμές που αρχίζουν με \\ ταιριάζουν σε υποφακέλους του φακέλου συγχρονισμού. Π.χ.: *.txt *~ \\Fo?der\\*.obj"
+Str_FilterIncluded		"Προστιθέμενα"
+Help_FilterIncluded		"Εάν δεν είναι άδεια αυτή η λίστα, τότε μόνο τα αρχεία που ταιριάζουν σε μια από τις γραμμές και δεν ταιριάζουν σε καμιά γραμμή από την λίστα Εξαιρουμένων περιλαμβάνονται στο συγχρονισμό."
+
+Chk_ExcludeEmptyFolders	 "Εξαίρεση άδειων φακέλων"
+Help_ExcludeEmptyFolders "Εξαιρέστε φακέλους που είναι άδειοι ή περιέχουν μόνο εξαιρεμένα αρχεία και φακέλους"
+
+# Job options - Auto page
+Title_Auto				"Αυτόματα"
+Str_ColumnAnalyze		"Ανάλυση"
+Str_ColumnSync			"Συγχρονισμός"
+
+Chk_DoOnStart			"Κατά την έναρξη του GoodSync"
+Help_DoOnStart			"Αναλύστε (και ίσως Συγχρονίστε) το Έργο όταν εκκινείται το GoodSync."
+
+
+
+Chk_DoBeforeLogout		"Κατά την Αποσύνδεση"
+Help_DoBeforeLogout		"Αναλύστε και ύστερα Συγχρονίστε το Έργο όταν Τερματίζετε, Επανεκκινείτε ή Αποσυνδέεστε από το PC σας. Εάν τα Windows εμφανίσουν το μήνυμα 'Το πρόγραμμα δεν αποκρίνεται' καθόλη τη διάρκεια αυτή, αγνοήστε το έτσι ώστε να μην σταματήσετε τον Συγχρονισμό."
+
+Chk_DoPeriodically		"Περιοδικά"
+Help_DoPeriodically		"Αναλύστε (και ίσως Συγχρονίστε) το Έργο κάθε ΩΩ ώρες ΛΛ λεπτά. Το GoodSync πρέπει να εκτελείται για το κάνετε αυτό."
+
+Str_DoOnSchedule				"Με Χρονοπρογραμματισμό Εργασιών"
+Help_DoOnSchedule				"Το GoodSync θα εκκινηθεί από το Χρονοπρογραμματισμό Εργασιών χρησιμοποιώντας ένα χρονοδιάγραμμα που θα έχετε ορίσει από τον Χρονοπρογραμματισμό. Πατήστε το κουμπί 'Διαμόρφωση' για να ανοίξετε το Χρονοπρογραμματισμό Εργασιών των Windows."
+Str_SchedConfig			"Διαμόρφωση..."
+Help_SchedConfig		"Πατήστε για να ανοίξετε τον Χρονοπρογραμματισμό Εργασιών των Windows"
+
+
+Str_ResolveConflicts	"Αυτόματη επίλυση διενέξεων"
+Help_ResolveConflicts	"Επιβάλλετε αυτόματη επίλυση διενέξεων για έργα που Συγχρονίζονται αυτόματα. Σε μη αυτόματα Έργα όλες οι Διενέξεις επιλύονται ως Χωρίς Αντιγραφή."
+Str_DoNotCopy			"Χωρίς Αντιγραφή"
+Str_NewerFileWins		"Κερδίζει το Νεότερο Αρχείο"
+
+Str_LimitChanges		"Χωρίς Συγχρονισμό εάν τα αλλαγμένα αρχεία είναι περισσότερα από"
+Help_LimitChanges		"Ο Αυτόματος Συγχρονισμός δεν πραγματοποιείται εάν περισσότερο από το καθορισμένο ποσοστό των αρχείων του Έργου έχει αλλάξει. Αυτό δηλώνει την πιθανή ύπαρξη προβλήματος και χρειάζεται χειροκίνητη παρέμβαση. Ορίστε το στο 100% για να Συγχρονίζετε πάντοτε."
+
+
+
+
+
+
+# Job options - Scripts page
+
+
+
+# Job Options - Advanced
+
+Chk_UseSafeCopy			"Ασφαλής αντιγραφή μέσω Προσωρινών αρχείων"
+Help_UseSafeCopy		"Όταν αντιγράφεται ένα αρχείο σε έναν προορισμό, να γίνεται σε προσωρινό αρχείο πρώτα. Έτσι δε δημιουργούνται ημιτελή/κατεστραμμένα αρχεία όταν ο Συγχρονισμός τερματίζει απροσδόκητα. Αυτό χρειάζεται επιπλέον χώρο στο δίσκο, ειδικά για μεγάλα αρχεία."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Left and Right
+Str_LeftFolder			"Αριστερός Φάκελος"
+Str_RightFolder			"Δεξιός Φάκελος"
+
+Str_LeftAndRight		"αριστερά και δεξιά"
+Str_Left				"αριστερά"
+Str_Right				"δεξιά"
+Str_Folder				"φάκελος"
+Str_File				"αρχείο"
+
+Str_LeftToRight			"Αριστερά προς Δεξιά"
+Str_RightToLeft			"Δεξιά προς Αριστερά"
+
+# Exclusion messages
+
+# Job status and progress
+Str_Status_PressAnalyze		"Πατήστε Ανάλυση για να αρχίσει..."
+
+Str_Status_CompareLeftToRight	"Σύγριση Αριστερού με Δεξιό"
+
+Str_Status_NotYetAnalyzed		"Δεν έχει Αναλυθεί Ακόμα"
+Str_Status_Syncing			"Γίνεται Συγχρονισμός"
+Str_Status_Analyzing		"Αναλύεται"
+Str_Status_All			"Όλα"
+Str_Status_NoFiles		"Χωρίς Αρχεία"
+Str_Status_Changes		"Αλλαγές"
+Str_Status_InSync		"Συγχρονισμένα"
+Str_Status_Conflicts		"Διενέξεις"
+Str_Status_NoConflicts	"Χωρίς Διενέξεις"
+Str_Status_Errors		"Λάθη"
+Str_Status_NoErrors		"Χωρίς Λάθη"
+
+
+
+# Analyze messages
+Str_Msg_SetFolder		    "Δεν έχει οριστεί φάκελος"
+Str_Msg_CannotOpenFolder	"Ο φάκελος δεν περιέχει απόλυτη διαδρομή: '%1'"
+Str_Msg_SameFolders			"Ο αριστερός και ο δεξιός φάκελος είναι οι ίδιοι."
+Str_Msg_NestedFolders2	    "Ο φάκελος '%1' είναι υποφάκελος\n του φακέλου '%2'.\nΔεν γίνεται Ανάλυση εμφωλιασμένων φακέλων."
+
+
+
+Str_Status_AnalyzeStopped		"Η Ανάλυση Διακόπηκε από το Χρήστη"
+Str_Status_AnalyzeFinished_NoChanges	"Η Ανάλυση Ολοκληρώθηκε, δεν εντοπίστηκαν αλλαγές"
+Str_Status_AnalyzeFinished_ReadyToSync	"Η Ανάλυση Ολοκληρώθηκε, πατήστε Συχρονισμός για να συγχρονίσετε"
+
+Str_Status_SavingStateFor		"Αποθήκευση κατάστασης για "
+Str_Status_SyncStopped			"Ο Συγχρονισμός Διακόπηκε από τον Χρήστη"
+
+Str_Msg_StoppedByUser		"Διακόπηκε από το Χρήστη"
+
+
+
+
+
+
+
+Str_Msg_FolderLocked    "Ένα άλλο έργο συγχρονίζει στον φάκελο %1:\nΆρχισε: %2"
+Str_Msg_LimitChanges2	"%1 των αρχείων έχει αλλάξει, περισσότερα από το όριο του %2. Γι' αυτό το έργο δε θα συγχρονιστεί αυτόματα."
+
+
+
+# Misc Messages
+Chk_DoNotAsk			"Να μην ερωτηθώ ξανά"
+Str_TitleWarning		"Προειδοποίηση του GoodSync"
+Str_TitleError			"Λάθος του GoodSync"
+Str_MsgBoxTimeout		"Κλείνει σε %1 δευτερόλεπτα"
+
+Str_SaveOptions			"Οι επιλογές του έργου έχουν αλλάξει. Να αποθηκευθούν;"
+
+Str_Win2kAtLeast		"Το GoodSync χρειάζεται το λιγότερο Windows 2000 για να τρέξει."
+Str_SignedAppNeeded		"Αυτή η εφαρμογή δεν έχει υπογραφεί σωστά από την Siber Systems Inc.\nΠαρακαλούμε, εγκαταστήστε την υπογεγραμμένη έκδοση από το https://www.goodsync.com"
+
+Str_AskDeleteJob1		"Θέλετε σίγουρα να διαγράψετε το έργο '%1'?"
+
+Str_AskDeleteItem3		"Είστε σίγουρος ότι θέλετε να διαγράψετε το %1%2 '%3'?"
+
+Str_StopJobsBeforeClose	"Ένα ή περισσότερα έργα τρέχουν αυτή τη στιγμή: %1.\nΘέλετε να διακόψετε όλα αυτά τα έργα;\nΠατήστε ΟΚ για να διακόψετε όλα τα έργα και να εξέρθετε.\nΠατήστε Άκυρο για να επιστρέψετε στο GoodSync."
+
+
+Str_TitleResetState		"Επαναφορά κατάστασης."
+Str_AskDeleteStates		"Είστε σίγουρος ότι θέλετε να διαγράψετε τις αποθηκευμένες καταστάσεις;"
+
+
+
+Str_SyncOnLogoffAsk		"Δεν είναι δυνατός ο Συγχρονισμός κατά την Αποσύνδεση γιατί: Τα Windows Αυτόματα Κλείνουν τις Εργασίες κατά την Αποσύνδεση.\nΘέλετε να απενεργοποιήσετε αυτήν την επιλογή (θα λάβει χώρα μετά την επανεκκίνηση των Windows);"
+Str_SyncOnLogoffReason	"Συγχρονίζει κατά την αποσύνδεση"
+Str_SyncOnLogoffJobs	"Ο Συγχρονισμός κατά την Αποσύνδεση είναι ενεργοποιημένος για τα έργα:"
+
+Err_OpenLogFails		"Δεν μπορεί να ανοίξει το αρχείο καταγραφής του έργου"
+
+
+# Tooltips
+Tooltip_Synchronizer	"Συγχρονισμός Αρχείων GoodSync"
+Tooltip_AnalyzingJob	"Αναλύεται το Έργο"
+
+TT_SetLeftSyncFolder	"Πατήστε το κουμπί Αναζήτηση για να ορίσετε τον πρώτο (αριστερό) φάκελο προς συγχρονισμό ή πληκτρολογήστε τη διαδρομή του φακέλου"
+TT_SetRightSyncFolder	"Πατήστε το κουμπί Αναζήτηση για να ορίσετε το δεύτερο (δεξιό) φάκελο προς συγχρονισμό ή πληκτρολογήστε τη διαδρομή του φακέλου"
+TT_NewJob				"Νέο Έργο"
+TT_ClickToAnalyze		"Πατήστε το κουμπί Ανάλυση για να αναλύσετε τις διαφορές μεταξύ των φακέλων και να προτείνετε ενέργειες συγχρονισμού"
+TT_ClickToSynchronize	"Πατήστε το κουμπί Συγχρονισμός για να εκτελέσετε τις ενέργειες συγχρονισμού που προτάθηκαν από την Ανάλυση"
+
+
+# Update toolbar and messages
+Info_Update_Avail	"Νέα Έκδοση του GoodSync είναι διαθέσιμη. <a>Πατήστε εδώ να κάνετε λήψη του</a>"
+ 
+Str_Ver_YesNewVersion	"Το GoodSync έκδοση %1, που δημοσιεύτηκε στις %2 είναι διαθέσιμο προς λήψη. You have ver %3"
+Str_Update_Ask		"Θέλετε να κάνετε λήψη της ενημερωμένης έκδοσης;"
+Str_Update_Err_1	"Δεν ήταν δυνατόν να ληφθούν πληροφορίες έκδοσης:\n%1\nΘα θέλατε να μεταβείτε στην Ιστοσελίδα με τις ενημερώσεις;"
+
+
+# Browse Dialog
+Browse_Str_PrivKey	"Ιδιωτικό κλειδί:"
+
+
+# Buy License dialog
+BuyPro_Title	"Επιλογή PRO"
+BuyPro_Text_ProFixed	"Περιορισμοί της ΔΩΡΕΑΝ έκδοσης:\n- Όχι περισσότερα από 3 έργα.\n- Όχι περισσότερα από 100 αντικείμενα σε ένα έργο.\n- Μερικές επιλογές είναι απενεργοποιημένες."
+BuyPro_Limit_Pro		"Για να συνεχίσετε να χρησιμοποιείτε το GoodSync θα πρέπει να ελαττώσετε τον αριθμό των αποθηκευμένων σας έργων ή να αγοράσετε την έκδοση PRO."
+BuyPro_Link		"Πατήστε εδώ για να μάθετε περισσότερα για την ΔΩΡΕΑΝ και την PRO έκδοση"
+
+
+# Activation Wizard
+Act_Title			"Ενεργοποίηση του GoodSync"
+Act_Field_Req_Err_1	"Το πεδίο '%1' είναι αναγκαίο για την ενεργοποίηση."
+Act_User_Name		"Όνομα Χρήστη"
+Act_User_Order		"Αναγνωριστικό Παραγγελίας (NNNNNNNNNN) ή Κωδικός Παραγγελίας (XXX-XXX-XXX-XXX)"
+Act_User_Online_Btn		"Ενεργοποιήστε Άμεσα Online (συνιστάται)"
+Act_User_Online_Tip		"Το GoodSync θα συνδεθεί στον Server Ενεργοποίησης μέσω του Internet"
+Act_User_ViaBrowser_Btn	"Ενεργοποιήστε Online μέσω Περιηγητή"
+Act_User_ViaBrowser_Tip	"Θα συνδεθείτε με τον Εξυπηρετητή Ενεργοποίησης χρησιμοποιώντας τον προεπιλεγμένο σας περιηγητή Ίντερνετ"
+Act_User_Order_Err	"Παρακαλούμε δώστε το πλήρη 10-ψήφιο Αναγνωριστικό Παραγγελίας ή τον Κωδικό Παραγγελίας στη μορφή XXX-XXX-XXX-XXX."
+
+
+
+
+
+
+
+
+
+
+Act_ViaBrowser_Txt		"Μεταφερθείτε στη Σελίδα Ενεργοποίησης http://activate.goodsync.com στον browser της επιλογής σας σε οποιοδήποτε υπολογιστή. Δώστε το Αναγνωριστικό Υπολογιστή που φαίνεται παρακάτω στη φόρμα του browser. Έπειτα αντιγράψτε τον Κωδικό Ενεργοποίησης από τον browser στο παράθυρο Κωδικού Ενεργοποίησης πιο κάτω και πατήστε Επόμενο."
+
+Act_ViaBrowser_Copy	"Αντιγραφή"
+Act_ViaBrowser_ActCode_Txt "Επικολλήστε τον Κωδικό Ενεργοποίησης εδώ"
+
+Act_Finish_Success	"Σας ευχαριστούμε που αγοράσατε το GoodSync!\nΤο αντίγραφό σας είναι τώρα ενεργοποιημένο."
+Act_Finish_Connect	"Σύνδεση με τον server ενεργοποίησης"
+Act_Finish_Fail		"Η ενεργοποίηση απέτυχε"
+
+
+# Create ticket 
+Ticket_File_Desc    "Το παρακάτω αρχείο περιέχει τις διαγνωστικές πληροφορίες. Παρακαλούμε σημειώστε, δεν περιέχει καθόλου ιδιωτικές πληοροφορίες από το PC σας."
+Ticket_Instruction  "Αντιγράψτε τη διαδρομή στο πρόχειρο και επικολλήστε την στο κουτί 'Επισύναψη Αρχείων' της Αίτησης Υποστήριξης Συστήματος.\nΠατήστε στο σύνδεσμο παρακάτω για να δημιουργήσετε την Αίτηση."
+Ticket_Btn_Copy		"Αντιγραφή Διαδρομής"
+

@@ -1,0 +1,843 @@
+﻿# RFS file codepage.
+RFS_CODEPAGE "1251"
+RFS_LANGUAGE "Беларуский"
+
+# Menus
+Menu_Job				"&Заданне"
+Cmd_JobNew				"&Новае"
+Cmd_JobDelete			"&Выдаліць"
+Cmd_JobRename			"Пера&назваць.."
+Cmd_JobSaveTemplate     "Захаваць як &Шаблон..."
+Cmd_JobClone			"&Выразаць......"
+Cmd_JobSwapSides		"Памяняць Заданне Месцамi"
+Cmd_Analyze			"&Аналізаваць"
+Cmd_AnalyzeAll			"Ана&лизировать усё"
+Cmd_Sync				"&Сінхранізаваць"
+Cmd_SyncAll				"Сінхранізаваць усё"
+Cmd_AnalyzeAndSyncThis	"Аналізаваць і Сінхранізаваць"
+Cmd_AnalyzeAndSyncAll	"Аналізаваць і Сінхранізаваць усё"
+Cmd_Stop				"С&топ"
+Cmd_StopAll				"Стоп усё"
+Cmd_SuspendAuto			"Адключыць аўтазапуск"
+Cmd_JobListOfChanges	        "Спіс &Змен"
+Cmd_JobOpenLogLeft		"Адкрыць левы &лог-файл"
+Cmd_JobOpenLogRight		"Адкрыць правы ло&г-файл"
+Cmd_JobOptions			"&Налада..."
+Cmd_JobResetState		"З&кінуць гісторыю"
+Cmd_JobDeleteBackup		"Выдаліць гісторыю (у сьметнiк)"
+Cmd_AppExit				"&Выйсцi"
+Cmd_Cut				"Выразаць"
+Cmd_Copy				"Капіяваць"
+Cmd_Paste			"Уставіць"
+Cmd_ExportJobsList		"Экспарт спісу Заданняў.."
+Cmd_ExportSelJobsList	"Экспарт вылучаных Заданняў..."
+Cmd_ImportJobsList		"Імпарт спісу Заданняў..."
+
+Menu_View				"&Выгляд"
+Cmd_ViewStatusBar		"&Радок стану"
+Cmd_ProgOptions			"&Опцыі праграмы..."
+
+
+Cmd_View_FullWindow		"&Поўны Рэжым"
+Cmd_View_MiniWindow		"&Міні Рэжым"
+Cmd_View_TrayIcon		"&Значок у трэі"
+
+Menu_Help				"&Дапамога"
+Cmd_AppAbout			"&Пра праграму..."
+Cmd_AppManual			"&Кіраўніцтва"
+Cmd_AppFAQ				"&Часта задаваныя пытанні"
+Cmd_AppCreateTicket		"П&аведаміць пра памылку..."
+Cmd_Help_BuyPro			"Ку&піць PRO..."
+Cmd_Help_Activate		        "Актываваць..."
+Cmd_CheckUpdates		"Праверыць &абнаўленні"
+
+Cmd_ShowAll				"&Усё"
+Cmd_ShowChanges	        "&Змены"
+Cmd_ShowConflict		"&Канфлікты"
+Cmd_ShowError			"&Памылкі"
+
+Cmd_ShowToDelete		"&Выдаляныя"
+Cmd_ShowExcluded		"Вык&лючынные"
+Cmd_ShowIncluded		"Уключаныя"
+Cmd_ShowSameLenDiffTime  "Адзін памер - розны час"
+Cmd_ShowNotYetSynced    "Не сінхранізавана"
+Cmd_ShowAllAll          "Усё"
+
+Menu_Actions			"&Дзеянне"
+Cmd_ViewJobList			"Спіс &заданняў"
+Cmd_ViewJobFilter		"&Фільтры"
+Cmd_ViewLog				"&Часопіс"
+
+Menu_Tools				"&Прылады"
+Menu_View_Other			"&Іншае"
+
+
+# Context menus
+
+Cmd_ItemProp			"Уласцівасці"
+
+Cmd_ItemLOpen			"Адкрыць &Левы Файл"
+Cmd_ItemROpen			"Адкрыць П&равый Файл"
+Cmd_ItemLDelete			"&Выдаліць левы файл"
+Cmd_ItemRDelete			"В&ыдаліць правы файл"
+Cmd_ItemDeleteBoth		"Вы&даліць абодва файла"
+
+Cmd_ItemLDeleteMul1		"Выдаліць %1 файлаў/тэчак Злева"
+Cmd_ItemRDeleteMul1		"Выдаліць %1 файлаў/тэчак Справа"
+Cmd_ItemBDeleteMul1		"Выдаліць %1 файлаў/тэчак з абодвух бакоў"
+
+Cmd_OpenLFolder			"Адкрыць Левую Тэчку"
+Cmd_OpenRFolder			"Адкрыць Правую Тэчку"
+Cmd_DeleteLFolder		"&Выдаліць левую тэчку"
+Cmd_DeleteRFolder		"В&ыдаліць правую тэчку"
+Cmd_DeleteBothFolders	        "Вы&даліць абедзве тэчкі"
+
+Cmd_ItemCompare			"&Параўнаць злева и з права"
+
+Cmd_Recommended			 "&Рэкамендаванае"
+Cmd_DoNotCopy			 "&Не капіяваць"
+Cmd_CopyLeftToRight		 "Злева на&права"
+Cmd_CopyRightToLeft		 "Справа на&лева"
+Cmd_DeleteLeftToRight		 "Выдаліць" з права"
+Cmd_DeleteRightToLeft		 "Выдаліць" з лева"
+Cmd_CopyTimeLeftToRight  "Капіяваць час злева направа"
+Cmd_CopyTimeRightToLeft  "Капіяваць час справа налева"
+Cmd_CopyStateSyncTail    "Сінхран. гісторыя"
+
+Str_Items1				  " %1 файлаў/тэчак"
+
+Cmd_ItemExcludeFile1		"&Выключыць файл '%1'"
+Cmd_ItemExcludeFolder1		"&Выключыць тэчку '%1'"
+Cmd_ItemExcludeMulti1		"&Выключыць %1 Вылучаных файлаў/тэчак"
+
+Cmd_ItemIncludeFile1		"&Уключыць толькі '%1' файл"
+Cmd_ItemIncludeFolder1		"Ук&лючыць толькі тэчку '%1'"
+Cmd_ItemIncludeMulti1		"У&ключыць толькі %1 Вылучаных файлаў/тэчак"
+
+Cmd_ItemExcludeAllFiles1	"Выключыць &Усе файлы '%1'"
+Cmd_ItemExcludeAllFolders1	"Выключыць У&се тэчкі '%1'"
+Cmd_ItemExcludeAllMulti1	"Выключыць файлаў/тэчак з імёнамі як у %1 Вылучаных файлаў/тэчак"
+
+Cmd_ItemExcludeAllMask1			"Выклю&чыць Усе файлы '*%1'"
+Cmd_ItemExcludeAllMaskMulti1	"Выключ&ыць файлаў/тэчак з пашырэннямі як у %1 Вылучаных"
+
+Cmd_ItemIncludeAllMask1			"Укл&ючыць толькі файлы '*%1'"
+
+
+# Taskbar Icon menu
+
+
+# Buttons below tree
+Grp_Actions				"Дзеянні"
+Btn_Analyze				"&Аналізаваць"
+Btn_SyncRun				"&Сінхран."
+Btn_Stop				 "С&топ"
+Btn_Pause				"Паўза"
+Btn_Resume				"Аднавіць"
+Btn_Auto				"Аўта"
+Btn_Clear               "Ачысціць"
+Grp_Show				"Выгляд Дрэва"
+Cmd_ShowToCreate		"Новые"
+Cmd_ShowToOverwrite		"Перазапісаныя"
+
+Chk_AutoScroll			"Праг."
+
+# Tree view Columns
+Str_TreeItem			"Элемент"
+Str_TreeLSize			"Л Памер"
+Str_TreeLDate			"Л Дата"
+Str_TreeL				"Л"
+Str_TreeCenter			" "
+Str_TreeR			    "П"
+Str_TreeRSize			"П Памер"
+Str_TreeRDate			"П Дата"
+Str_TreeStatus			"Статут"
+
+# Misc buttons
+Btn_Ok					"&Ok"
+Btn_Cancel				"&Адмена"
+Btn_Apply				"&Прыняць"
+Btn_Yes					"&Так"
+Btn_No					"&Не"
+Btn_Abort               "&Перапыніць"
+Btn_Retry               "Паў&тарыць"
+Btn_Ignore              "Прап&усціць"
+Btn_Close               "&Зачыніць"
+Btn_Help                "&Дапамога"
+Btn_Continue			"П&рацягнуць"
+Btn_Browse				"Выбар"
+
+
+# Tooltips for buttons, for new users
+Tip_Browse_Left			"Выбар левай Сінхран. тэчкі.\nВыбар увядзіце ID карыстача, пароль i спасылку сеткі тэчкі."
+Tip_Browse_Right		 "Выбар Right Сінхран. тэчкі.\n Выбар to enter ID карыстача, пароль i спасылку сеткі тэчкі."
+Tip_Change_Way			"Змена кірунку сінхранізацыі і іншых усталёвак"
+Tip_Analyze				"Націсніце тут для пачатку Аналізу"
+Tip_Sync				 "Націсніце тут для пачатку Сінхранізацыі"
+Tip_Stop				        "Націсніце  тут для перапынення бягучай аперацыі"
+Tip_Clear				        "Ачысціць дрэва змен"
+Tip_Opt					"Налада аўтаматычнага выканання Задання"
+Tip_Paused				"Прыпынена. Націсніце тут для працягу"
+Tip_Pause				"Націсніце тут для прыпынення бягучай аперацыі"
+
+# New Job dialog
+Title_JobName			"Новае Заданне"
+Str_JobName				"Увядзіце імя задання"
+Str_JobTemplate			"З шаблону:"
+Str_BadJobName1			"Імя задання не можа ўтрымоўваць наступныя знакі: / \\ ? < > : * |"
+Str_BadJobName2			"Імя задання не можа быць роўна '%1'."
+Str_BadJobName3			"Імя задання не можа быць даўжэй 100 знакаў."
+Str_JobNameExists		"Заданне з такім імем ужо існуе."
+Str_JobType				"Выбярыце тып Задання"
+Str_JobType_Sync		"Сінхранізаваць"
+Str_JobDesc_Sync		"Двунакіраванае заданне, выкарыстоўваецца пры змене файлаў з двух бакоў, напрыклад, на настольном і пераносным кампутарах."
+Str_JobType_Backup		"Рэзервовае капіяванне"
+Str_JobDesc_Backup		"Аднанакіраванае заданне, выкарыстоўваецца для капіявання змен з левага боку ў рэзервовае сховішча справа"
+Str_JobType_Template	"З Шаблону:"
+Str_JobDesc_Template	"Шаблон - гэта часткова наладжанае Заданне выкарыстоўванае для захавання опцый Задання. Шаблон утрымоўвае Опцыі Заданні, але не ўтрымоўвае шляхі да тэчак."
+Str_JobDesc_NoTemplate_1 "Няма створаных Шаблонаў. Выкарыстоўвайце каманду '%1' для захавання Шаблону з наяўнага Задання."
+Str_Combo_NoTemplate	"<Без шаблону>"
+Title_RenameJob			"Пераназваць Заданне"
+Title_CloneJob			"Кланаваць Заданне"
+Str_NewJob_Header		"Сардэчна запрашаем у GoodSync"
+Str_NewJob_Descr		       "Стварыце сваё першае Заданне"
+Str_NewJobClose			"Вы ўпэўнены, што жадаеце выйсці з GoodSync?\nНацicнiце OK  каб выйсцi, GoodSync прапануе стварыць новае Заданне ў наступны раз.\nНацiснiце Адмена для працягу працы."
+Lnk_Tutorial			"Дапаможнікі"
+
+# Job Tabs control buttons
+Str_TabAddNewJob		"Дадаць Новае Заданне"
+Str_TabScrollLeft		"Прагортка налева"
+Str_TabScrollRight		"Прагортка направа"
+
+# Windows menu and dialog
+
+
+
+# Job List Pane
+Title_JobList			"Спіс заданняў"
+Title_TaskName			"Імя задання"
+Title_LastRunTime		"Час апошняга запуску"
+
+#Log Pane
+Title_LogWnd			"Акно лога"
+
+# Help -> About
+Title_About				"Пра прагр."
+Tip_About				"Пра праграму"
+Str_RegTo				"Зарэгістравана на:"
+Help_ChkVer				"Падлучэнне да сервера GoodSync для праверкі наяўнасці новай версіі."
+Help_SysStat			"Паказвае інфармацыю пра ўсталяваную версію GoodSync і пра сістэму. Калі ласка, падайце гэту інфармацыю пры звароце ў Службу Падтрымкі."
+
+# Program Options
+Title_Options			"Опцыі GoodSync"
+Str_Options				"Опцыі"
+
+Help_NotDefined			"Для гэтага элемента няма даведкі"
+Help_MouseOver			"Навядзіце паказальнік мышы на опцыю для прагляду апісання."
+
+
+# Program Options - General
+Title_General			"Асноўныя"
+Str_Lang				"Мова"
+Help_Lang			"Змена мовы інтэрфейсу GoodSync.   Пасля змены мовы патрабуецца перазапуск GoodSync."
+Chk_TrayIcon			"Згортваць у трэй пры зачыненні галоўнага акна"
+Help_TrayIcon			"УКЛЮЧАНА: Пры зачыненні GoodSync ён працягвае працаваць у фонавым рэжыме. Для доступу да функцый GoodSync выкарыстоўвайце значок у сістэмнай панэлі Windows.  ВЫКЛЮЧАНА: пры зачыненні GoodSync ён выгружаецца з памяці."
+Chk_AutoStart			"Запускаць GoodSync пры загрузцы Windows"
+Help_AutoStart			"Пры ўваходзе ў Windows GoodSync запускаецца аўтаматычна. Гэта опцыя ўключаецца аўтаматычна пры ўключэнні любой опцыі з часткі Аўтаматызацыя -> Auto tab. Адключана у Goodsync2Go."
+Chk_ShowSysTray		"Паказваць значок GoodSync у сістэмнай панэлі"
+Help_ShowSysTray		"Паказваць значок GoodSync у сістэмнай панэлі"
+
+Chk_ResetIM				"Паўторна ўключыць усе інфармацыйныя паведамленні"
+Help_ResetIM			"Уключае ўсе адключаныя раней папярэджанні"
+Chk_AutoChkVer			"Штодня правяраць абнаўленні"
+Help_AutoChkVer			"GoodSync будзе штодня злучацца з серверам www.goodsync.com для праверкі наяўнасці абнаўленняў."
+Chk_CreateNewFolder		"Ствараць левую/правую тэчку, калі яна не існуе"
+Help_CreateNewFolder	 "GoodSync будзе cоздавать левую/правую тэчку, калі яна не існуе."
+Chk_AutoHideMiniWin		"Аўта-скрываць Міні-вакно пры адсутнасці актыўных Заданняў"
+Help_AutoHideMiniWin	"Міні-акно будзе аўтаматычна хавацца пры адсутнасці актыўных Заданняў"
+
+Str_LogDetailLevel		"Захаваць часопісы, узровень дэталізацыі"
+Help_LogDetailLevel		"Узровень дэталізацыі для часопісаў паказана ў акне часопіса. Тэкставыя файлы часопіса захоўваюцца: (1) _gsdata_ папцы ў левай і правай сінхранізаваць тэчцы задання, (2) глабальнай тэчцы часопіса ніжэй"
+Str_LogCritical			"Крытычны"
+Str_LogError			"Памылкі"
+Str_LogInfo				"Памылкі"
+Str_LogDetails			"дэталізавана"
+
+Str_LogFolderGlobal		"У тэчцы"
+Help_LogFolderGlobal	"Тэчку, у якую глабальнай часопісы пішуцца. Калі пуста, часопісы пісаць у тэчку GoodSync ў папцы профілю карыстальніка прыкладной праграмы"
+
+Str_LogRetainDays       "Захаваць часопісы для гэтага некалькі дзён"
+Help_LogRetainDays      "Захаваць заданне і глабальныя часопісы шмат дзён. Выдаліць старэйшыя глабальныя лог-файлы. '0 Дзён" азначае '2 гадзін'"
+
+Str_CompareProg		"Параўноўваць файлы з выкарыстаннем вонкавай праграмы"
+Help_CompareProg		"Праграма параўнання файлаў. Пры выкліку праграме перадаюцца два аргументу - шляхі да параўноўваных файлаў. Напрыклад: калі Вы паказваеце праграму WinDiff.Exe, то яна павінна выклікацца як: WinDiff file1 file2"
+Str_ExecutableFiles		"Выканаучыя файлы"
+
+# Program Options -> Connection
+Title_Connect			"Падлучэнне"
+Str_UseProxy_Auto		"Выкарыстоўваць проксі-сервер з Internet Explorer для падлучэнняў"
+Help_UseProxy_Auto  	"Для выдаленых падлучэнняў будзе скарыстаны проксі-сервер, паказаны ва ўласцівасцях Internet Explorer. Опцыя 'Падлучэнне праз проксі' павінна быць усталявана для кожнага Задання, у якім патрабуецца падлучэнне праз проксі"
+Str_UseProxy_Manual		"Выкарыстоўваць проксі-сервер для выдаленых падлучэнняў"
+Help_UseProxy_Manual       "Выкарыстоўваць проксі-сервер для выдаленых падлучэнняў"
+Str_ProxyHost			"Імя хаста"
+Help_ProxyHost			"Увядзіце імя проксі-хаста"
+Str_ProxyPort			"Порт"
+Help_ProxyPort			"Увядзіце нумар порта проксі"
+Str_ProxyUserID         "Імя карыстальнiка проксі"
+Str_ProxyPasswd         "Пароль"
+Help_ProxyAuth          "Увядзіце імя карыстача і пароль для проксі-сервераў, якія патрабуюць аўтарызацыю."
+
+Str_SMTP_Enable			"Выкарыстоўваць SMTP-сервер для адпраўкі эл. пошты"
+Help_SMTP_Enable		"Уключана: Выкарыстоўваецца паказаны ніжэй SMTP-сервер для адпраўкі паведамленняў электроннай пошты з вынікамі Аналізу і Сінхранізацыі. Выключана: для адпраўкі паведамленняў электроннай пошты з вынікамі Аналізу і Сінхранізацыі выкарыстоўваецца паштовы кліент па змаўчанні (MAPI)"
+Str_SMTP_Host			"SMTP-сервер"
+Help_SMTP_Host			"Увядзіце імя SMTP-сервера, выкарыстоўванага для адпраўкі паведамленняў электроннай пошты з вынікамі Аналізу і Сінхранізацыі"
+Str_SMTP_Port			"Порт"
+Help_SMTP_Port			"Увядзіце нумар порта SMTP, звычайна 587 ці 25."
+Str_SMTP_UserID         "Імя карыст.SMTP"
+Str_SMTP_Passwd         "Пароль"
+Help_SMTP_UserID          "Увядзіце імя карыстача і пароль для сервера SMTP, калі ён патрабуе аўтарызацыі"
+Str_SMTP_SenderEmail    "Email адпраўнік"
+Help_SMTP_SenderEmail   "Увядзіце Email-адрас адпраўніка (Ваш адрас)"
+Str_SMTP_Secure			"Бяспечная адпраўка праз SSL"
+Help_SMTP_Secure		"Пры ўключэнні выкарыстоўваецца бяспечнае злучэнне праз SSL праз порт 465."
+
+
+# Job Options - General
+Title_JobGeneral		         "Асноўныя"
+Tip_JobGeneral			"Заданне Асноўныя"
+Label_JobType			"Выгляд задання"
+Str_JobType_TwoWay		"Два кірункі"
+
+Str_JobType_LeftToRight	"Злева направа"
+Str_JobType_RightToLeft	"Справа налева"
+Help_JobType			"Вызначае асноўны кірунак Сінхранізацыі. Пры двунакіраванай сінхранізацыі тэчкі захоўваюцца з двух бакоў, нават калі файлы змяніліся з двух бакоў.  Аднанакіраваныя заданні мяркуюць змены файлаў з аднаго боку, бо звычайна выкарыстоўваюцца для рэзервовага капіявання."
+
+
+Radio_OneWayDeleteSource "Выдаляць зыходныя файлы пасля Сінхранізацыі (Перасоўванне)"
+Help_OneWayDeleteSource	 "Выдаляць зыходныя файлы(не тэчкі) пасля паспяховай Сінхранізацыі. Увага: не выкарыстоўвайце гэту опцыю калі не да канца разумееце яе сэнс"
+Warn_OneWayDeleteSource  "Вы сапраўды ўпэўнены ў тым, што жадаеце выдаліць файлы з зыходнага боку пасля іх сінхранізацыі?\nНацiснiце Так толькі калі Вы абсалютна ўпэўнены ў гэтым."
+
+Chk_DelPropagate		"Сінхроннае выдаленне"
+Help_DelPropagate		"Калі карыстач выдаляе тэчку ці файл з аднаго боку, то гэта тэчка ці файл будуць выдалены і з іншага боку пры сінхранізацыі"
+
+Chk_SaveBakFiles		"Захоўваць рэзервовую копію выдаленага"
+Help_SaveBakFiles		"Захоўвае рэзервовую копію выдаленых ці замененых пры сінхранізацыі файлаў. Файлы захоўваюцца ў тэчцы _gsdata_\\_saved_. Захоўваецца толькі самая апошняя версія файлаў."
+Help_SavePrevDays		"Пакінуць Папярэднія версіі выдаленых / замененых файлаў для гэтага шмат дзён, у тэчцы _gsdata_ \ \ _saved_"
+
+Chk_SavePastVersions	"Захаваць папярэднія версіі выдаленых / замененых файлаў"
+Help_SavePastVersions	"Пакінуць апошнія версіі файлаў, якія будуць выдаленыя або замененыя GoodSync. Файлы захоўваюцца ў _gsdata_ тэчцы \ \ _history_. Кожны раз, калі GoodSync збіраецца перапісаць ці выдаліць файл, ён захоўваецца ў _gsdata_ \ \ _history_ тэчку з пазнакай часу дададзенага да імя."
+Help_SavePastDays		"Пакінуць папярэднія версіі выдаленых / замененых файлаў для гэтага шмат дзён, у тэчцы _gsdata_ \ \ _history_"
+
+Chk_CalcReqSpace		"Разлік дыскавай прасторы для сінхранізацыі."
+Help_CalcReqSpace		"Пры ўключанай опцыі вырабляецца Разлік дыскавай прасторы, неабходнага для сінхранізацыі. Уключайце гэту опцыю для дыскаў з абмежаваным аб'ёмам і адключайце для заданняў, пры выкананні сінхранізацыі якіх перапаўненне дыска малаверагодна."
+
+Str_SpeedLimit			"Лімітавая хуткасць капіявання файлаў Кб/сек"
+Help_SpeedLimit  		"Памяншэнне хуткасці капіявання файлаў (загрузкі ці выгрузкі) пры дасягненні паказанага значэння. 0 азначае адсутнасць мяжы."
+
+Str_ShowBalloon			"Паказваць паведамленні"
+Str_DoNotShowBalloon	 "Нiколi"
+Str_ShowBalloonAlways	 "Заўсёды паказваць"
+Str_ShowBalloonOnError	"Толькі пры памылках"
+Help_ShowBalloon		"Абярыце спосаб паказу ўсплывальных паведамленняў у сістэмнай панэлі"
+
+
+# Job options - Filters page
+Title_Filters			"Фільтры"
+Tip_Filters			"Налады фільтраў"
+Str_FilterExcluded		"Файлы, выключаныя з сінхранізацыі"
+Help_FilterExcluded		"Пакажыце файлы і тэчкі, якія неабходна выключыць з сінхранізацыі. Кожнае імя павінна размяшчацца на асобным радку. Магчыма выкарыстанне масак: '*' і '?'. Радкі, якія пачынаюцца з  \\, разглядаюцца як адносныя шляхі да сінхранізавальнай тэчкі. Напрыклад: *.txt *~ \\Тэ?ка\\*.obj Памер>1000 Памер<=5k (Памер < 5 Kb) Памер>4m (Памер > 4 Mb) time=2008/03/08 (Mar 8, 2008) time>=-6d (time >= 6 days ago)"
+Str_FilterIncluded		"Файлы, якія ўключаюцца ў сінхранізацыю"
+Help_FilterIncluded		"Калі спіс не пусты, то будуць сінхранізавацца толькі файлы з паказанымі імёнамі."
+Tip_Filter_New			"Стварэнне новага фільтра"
+Tip_Filter_Edit			"Змена абранага фільтра"
+Tip_Filter_Del			"Выдаленне абраных фільтраў"
+Str_Filter_DummyText	"<двойчы пстрыкніце тут для дадання фільтра>"
+Str_Edit				"Змяніць"
+
+Chk_ExcludeEmptyFolders	 "Выключыць пустыя тэчкі"
+Help_ExcludeEmptyFolders "Выключаць пустыя тэчкі і тэчкі, якія змяшчаюць толькі файлы са спісу выключэнняў"
+Chk_ExcludeHidden		 "Выключыць утоеныя файлы і тэчкі"
+Help_ExcludeHidden		 "Выключаюцца ўсе файлы і тэчкі, што маюць атрыбут УТОЕНЫ"
+Chk_ExcludeSystem		 "Выключаць сістэмныя файлы і тэчкі"
+Help_ExcludeSystem		 "Выключаюцца ўсе файлы і тэчкі, якія маюць атрыбут СІСТЭМНЫ"
+
+# Job options - Auto page
+Title_Auto				"Аўта"
+Tip_Auto				"Налады аўтаматычных функцый"
+Str_ColumnAnalyze		"Аналізаваць"
+Str_ColumnSync			"Сінхран."
+Str_ColumnAnalyzeAndSync "Аналізаваць і Сінхран."
+
+Name_DoOnStart			"Старт"
+Chk_DoOnStart			"Пры старце GoodSync"
+Help_DoOnStart			"Аналізаваць (і магчыма Сінхран.) Задання пры старце GoodSync"
+
+Name_DoOnFoldersConnect	"Падлучэнне"
+Chk_DoOnFoldersConnect	"Пры падлучэнні тэчак"
+Help_DoOnFoldersConnect	"Аналізаваць (і магчыма Сінхран.) Задання пры падлучэнні абедзвюх тэчак. Напрыклад, пры падлучэнні здымнага дыска, падлучэнні да Інтэрнэт, падлучэнні КПК і г.д."
+
+Name_DoOnFileChange		"Змена"
+Chk_DoOnFileChange		"Аб змяненні файла"
+Help_DoOnFileChange		"Аналіз (і, магчыма, Сінхранізацыя) Задання, калі файл змянiўся злева або зправа, сінхранізаваць тэчцы і іх падтэчкі"
+
+Name_DoBeforeLogout		"Выйсці з сістэмы"
+Chk_DoBeforeLogout		"Перад выйсцем з сістэмы"
+Help_DoBeforeLogout		"Аналізаваць і Сінхранізаваць Заданне перад выключэннем ці перазагрузкай кампутара. Калі Windows паказвае паведамленне 'Праграма не адказвае' падчас сінхранізацыі, праігнаруйце яго, каб звычайна завяршыць Сінхранізацыю."
+
+Name_DoPeriodically		"Таймер"
+Chk_DoPeriodically		        "Перыядычна"
+Help_DoPeriodically		"Аналізаваць (і магчыма Сінхран.) Заданне кожныя HH гадзін MM мінуць. GoodSync павінен быць пры гэтым запушчаны."
+Str_ColumnLPath			"Шлях злева"
+Str_ColumnRPath			"Шлях справа"
+
+Str_DoOnSchedule		"Выкарыстоўваць планоўшчык задач"
+Help_DoOnSchedule		"GoodSync запускаецца Планоўшчыкам Windows па яго раскладзе. Для налады Планоўшчыка Windows націсніце кнопку 'Наладзіць'."
+Str_AutoUnattended     "Scheduled: Logged Out Mode (Unattended)"
+Help_AutoUnattended    "Планоўшчык Windows запусцiць гэтае Заданне нават калі вы выйшлі са свайго лагіна Windows."
+Str_SchedConfig			"Канфігурацыя..."
+Help_SchedConfig		"Націсніце для запуску Планоўшчыка Windows. ВЫ павiнны ведаць UserID і Пароль акоунта Windows"
+
+Str_ResolveConflicts	"Аўтаматычна вырашаць канфлікты"
+Help_ResolveConflicts	"Прымусовы аўтаматычны вырашаць канфліктаў для Заданняў, выкананых у аўтаматычным рэжыме. Пры наяўнасці канфліктаў у неаўтаматычных Заданнях, гэтыя файлы не капіююцца."
+Str_DoNotCopy			"Не Капіяваць"
+Str_NewerFileWins		"Перавага новых файлау"
+
+Str_LimitChanges		"Не Сінхран. калі змен больш"
+Help_LimitChanges		"Аўтаматычная Сінхранізацыя не адбываецца пры наяўнасці змен у паказанай частцы файлаў. Звычайна пры наяўнасці вялікай колькасці змен патрабуецца ўмяшанне карыстача, бо гэта кажа пра магчымую памылку. Усталюеце значэнне ў 100%, калі колькасць змен не важна."
+
+Help_AutoStartDelay             "Затрымка пачатку гэтага Задання на некалькіх секунд пры першым запуску. Выкарыстаецца да GoodSync пры Старце і Па часу"
+
+
+Str_AutoClear			"Аўтаматычная ачыстка дрэва пасля Аналізу ці Сінхранізацыі"
+Help_AutoClear			"Аўтаматычная ачыстка дрэва пасля Аналізу без змен ці завяршэнні Сінхранізацыі"
+
+Str_NotInPortable		"Недаступна ў пераноснай версіі"
+
+
+# Job options - Scripts page
+Title_Script			"скрыпт"
+Tip_Script				"Налада скрыптоў"
+Str_PreAnalyzeProgram	"Праграма перад Аналізам"
+Help_PreAnalyzeProgram	"Перад Аналізам будзе запушчана паказаная праграма з аргументам: імя-заданні"
+Str_PostAnalyzeEmailOrProgram	"Справаздача пра аналіз на E-mail/у праграму"
+Help_PostAnalyzeEmailOrProgram	"Калі паказаны адрас электроннай пошты, то па канчатку Аналізу лог адпраўляецца на гэты адрас. Калі паказана імя праграмы, то па канчатку Аналізу выклікаецца гэта праграма з аргументамі: шлях-да-логу сінхранізавана памылкі канфлікты"
+Str_PostSyncEmailOrProgram	"Справаздача пра Сінхранізацыю на E-mail/у праграму"
+Help_PostSyncEmailOrProgram	"Калі паказаны адрас электроннай пошты, то па канчатку сінхранізацыі лог сінхранізацыі адпраўляецца на гэты адрас. Калі паказана імя праграмы, то па канчатку сінхранізацыі выклікаецца гэта праграма з аргументамі: шлях-да-логу змены памылкі канфлікты"
+
+
+
+# Job Options - Advanced
+Title_JobAdvanced		"Дадаткова"
+Tip_JobAdvanced			"Дадатковыя налады"
+
+Chk_UseSafeCopy			"Бяспечнае капіяванне"
+Help_UseSafeCopy		"Пры капіяванні спачатку ствараецца часавая копія файла, а затым яна пераназываецца. Гэта дапамагае прадухіліць страту файлаў пры аварыйным завяршэнні сінхранізацыі. Патрабуе дадатковага месца на дыску, асабліва для вялікіх файлаў."
+
+Chk_CopyLocked			"Капіяваць блакаваныя файлы"
+Help_CopyLocked			"Выкарыстоўваць службу Volume Shadow для капіявання файлаў, заблакаваных іншымі працэсамі"
+
+Chk_FastPreAnalyze		"Хуткі папярэдні аналіз выкарыстоўваючы часавыя пазнакі"
+Help_FastPreAnalyze		"Калі адзначана, перш чым рабіць поўны Аналіз правяраецца, ці змянілася часавая пазнака файла на павольным боку сервера. Калі часавая пазнака створаная Сінхранізацыяq не змянялася, то Аналіз не будзе выконвацца. Калі не адзначана, заўсёды выконваць поўны аналіз."
+
+Help_Links_Ignore	"Калі выбрана, GoodSync ігнаруе спасылкі Файлаў . Усе файлы на Windows Home Servers з'яўляюцца спасылках на файлы, таму не варта выбіраць гэты варыянт, калі вы хочаце WHS файлы для капіравання, выберыце Праглядзець Спасылкі на Файл"
+Help_Links_CopyAsIs	"Калі выбрана, GoodSync зкапіруе спасылка файлаў  на тую ж спасылку на баку прызначэння. Звярніце ўвагу, што скапіяваныя спасылкі могуць указваць на файлы, якія не зкапіраваны, таму што яны знаходзіліся за межамі скапіяванага файл дрэва"
+Help_Links_DrillDown	"Калі выбрана, GoodSync прагледзiць файл спасылкі. Гэта значыць, спасылкі на файл будзе скапіяваны ў файл, што яна вызначае. Звярніце ўвагу, што можа адбыцца файлавае дубліраванне , бо больш за 1 спасылка можа ўказваць на адзін файл на баку крыніцы"
+
+Chk_CopyACL	   		    "Капіяваць атрыбуты бяспекі ACL"
+Help_CopyACL			"Капіяваць Спісы Кантролю Доступу(ACL)пасля капіявання файла ці тэчкі. Гэта магчыма толькі на файлавай сістэме Windows NTFS, але не на FAT ці іншых"
+
+
+# Left and Right
+Str_LeftFolder			"Левая тэчка"
+Str_RightFolder			"Правая тэчка"
+
+Str_LeftAndRight		"злева і справа"
+Str_Left				"Злева"
+Str_Right				"Справа"
+Str_Folder				"тэчку"
+Str_File				"файл"
+Str_Deleted				"выдалена"
+Str_NotPresent			"адсутнічае"
+
+Str_LeftToRight			"Злева направа"
+Str_RightToLeft			"Справа налева"
+
+# Exclusion messages
+Str_ExclBy_FolderAbove  "выключана тэчкай вышэй"
+Str_ExclBy_SyncFolder   "выключаецца: Тэчка дадзеных сінхранізацыі"
+
+
+
+
+
+Str_ExclBy_MatchName    "выключаецца: Адпаведнасць"
+Str_ExclBy_NoMatchName  "не ўключана: Неадпаведнасць"
+Str_ExclBy_EmptyFolder  "выключаецца: Пустая тэчка"
+Str_ExclBy_ChildOfExcl  "выключаецца: Частка выключэння"
+
+Str_ExclBy_NoPropDels      "выключаецца: выдаленні не сінхранізуюцца"
+Str_Msg_SkipLink     "Прапушчана спасылка на тэчку %1"
+
+# Job status and progress
+Str_Status_PressAnalyze			"Націсніце Аналізаваць каб пачаць..."
+Str_Status_ConnectingToFolder	"Падлучэнне да тэчкі %1"
+Str_Status_Scanning				"Сканаванне %1"
+Str_Status_ReadStateFile         "Чытаю файл гісторыі %1"
+Str_Status_ReadEmbeddedStateFile "Аб'ядноўваю файл гісторыі %1 з файлам гісторыі каранёвай тэчкі"
+Str_Status_NewStateFile			"Ствараю новы файл гісторыі %1"
+Str_Status_SaveStateFile        "Захоўваю файл гісторыі %1"
+Str_Status_PostProcessing		"Заключная апрацоўка"
+Str_Status_ComputePrevVerSize	"Вызначаю памер рэзервовых файлаў"
+
+Str_Status_CompareOneSide		"Параўнанне %1"
+Str_Status_CompareLeftToRight	"Параўнанне Левай з Правай"
+
+Str_Status_NotYetAnalyzed	"Яшчэ не аналізаваны"
+Str_Status_Syncing			"Сінхранізацыя"
+Str_Status_Analyzing		"Ідзе аналіз"
+Str_Status_Connecting		"Падлучэнне"
+Str_Status_Paused			"Прыпынена"
+Str_Status_Resumed		"Адноўлена"
+Str_Status_All				"Усе файлы"
+Str_Status_NoFiles			"Няма файлаў"
+Str_Status_Changes		"Змены"
+Str_Status_InSync			"Сінхронна"
+Str_Status_Conflicts		"Канфлікты"
+Str_Status_NoConflicts		"Няма канфліктаў"
+Str_Status_Errors			"Памылкі"
+Str_Status_NoErrors		"Няма памылак"
+Str_Status_SyncAttention	"Увага"
+Str_Status_Connected		"Падлучана"
+Str_Status_Disconnected	"Адключана"
+
+Str_Status_VolumeInfo_Free  "Вольна: %1, Усяго: %2"
+Str_Status_VolumeInfo_Reqd  "Патрабуецца: %1"
+
+Str_Status_FilesChangedCnt	"Змен: %1"
+Str_Status_ConflictsCnt		"Канфліктаў: %1"
+Str_Status_ErrorsCnt		"Памылак: %1"
+Str_Status_SyncedCnt		"Сінхранізавана: %1"
+Warn_AllExcluded			"Увага!\r\nУсе файлы выключаны. Верагодна налады Фільтраў няслушныя.\r\nПераключыце прагляд у рэжым 'Усё' ці 'Выключэнні' і пераканаецеся, што Фільтры наладжаны правільна."
+Warn_AllNew					 "Увага!\r\nЛевая і Правая тэчкі не ўтрымоўваюць агульных файлаў. Верагодна Вы спрабуеце сінхранізаваць незвязаныя тэчкі.\r\nКалі ласка, пераканаецеся ў тым, што сінхранізавальныя тэчкі абраны правільна."
+Warn_AllDelete				"Увага!\r\nУсе файлы з тэчкі прызначэння будуць выдалены.\r\nМы рэкамендуем рабіць рэзервовую копію дадзеных у пустую тэчку."
+
+# Analyze messages
+Str_Msg_Job					"Заданне"
+Str_Msg_LeftRight_Descrs    "Левых: %1, Правых: %2"
+Str_Msg_JobFilters          "Фільтры: %1"
+Str_Msg_SetFolder		    "Калі ласка, абярыце тэчку перад аналізам."
+Str_Msg_CannotOpenFolder    "Няма абсалютнага шляху да тэчкі:\n'%1"
+Str_Msg_SameFolders			"Злева і справа адна і тая ж тэчка."
+Str_Msg_NestedFolders2	    "Тэчка '%1' з'яўляецца падкаталогам\nтэчкi '%2'.\nНемагчыма Аналізаваць укладзеныя тэчкі."
+Str_Msg_WillCreateFolder    "Тэчка '%1' не знойдзена, таму будзе прадпрынятая спроба яе стварэння"
+Str_Msg_Created_Folder      "Створана тэчка '%1"
+Str_Msg_CannotConnect       "Немагчыма падлучыцца да"
+Str_Msg_ErrReadStateFile    "Памылка чытання файла гісторыі '%1': %2.\nНекорректный файл гісторыі пераназваны ў '%3'.\nПри наступным аналізе будзе створаны новы файл гісторыі.\nПожалуйста, адпраўце некарэктны файл гісторыі нам па адрасе ask@goodsync.com."
+Str_Msg_EmbeddedJob         "Выяўлена тэчка дадзеных сінхранізацыі '%1', не якая адносіцца да бягучага Задання. Гэта азначае, што маецца Ўбудаванае Заданне, якое сінхранізуе падкаталогі дадзенага Задання. Выкарыстанне Ўбудаваных Заданняў не рэкамендуецца."
+Str_Msg_DetectedDisconnect  "Праверка падлучэння: Адключана: %2"
+Str_Msg_RemainsConnected    "Праверка падлучэння: Застаецца подключеной: %2"
+Str_Msg_DetectedConnect     "Праверка падлучэння: Падлучана, выканаць Аналіз"
+Str_Msg_RemainsDisconnected "Праверка падлучэння: Застаецца адключанай: %2"
+
+Str_Msg_Filter_ExcludeHidden       "Выкл. утоеныя"
+Str_Msg_Filter_ExcludeSystem       "Выкл. Сістэмныя"
+Str_Msg_Filter_ExcludeEmptyFolders "Выкл. Пустыя тэчкі"
+Str_Msg_Filter_Included     	   "Уключана"
+Str_Msg_Filter_Excluded     	   "Выключана"
+
+Str_Msg_OlderFileVsNewer	  "Увага: Новы файл замяняецца старым"
+Str_Msg_Conflict_BothChanged  "Канфлікт: файл зменены з двух бакоў"
+Str_Msg_Conflict_1way_RtoL    "Сінхранізацыя Справа-налева ў аднанакіраваным Злева-направа Заданні"
+Str_Msg_Conflict_1way_LtoR    "Сінхранізацыя Злева-направа ў аднанакіраваным Справа-налева Заданні"
+
+Str_Status_JobScheduled      "----- Заданне '%1': Запланавана да выканання опцыяй %2"
+Str_Status_AnalysisStarted   "----- Заданне '%2': АНАЛІЗ запусціў %3 на кампутары '%4' (GoodSync вер. %5) -----"
+Str_Status_OneSideStats      "%1: Файлаў: %2 (выключана %3). Тэчак: %4 (выключана %5)."
+Str_Status_AnalysisSummary   "Змен: %1, Канфліктаў: %2, Дзід Часу: %3, Дзід Стану: %4, Памылак: %5"
+Str_Status_AnalysisCompleted "----- Аналіз завершаны. Час %2, Хуткасць: %3 файлаў/сек -----"
+Str_Status_AnalyzeStopped	 "Аналіз перапынены карыстачом"
+Str_Status_AnalyzeFinished_NoChanges   "Аналіз завершаны, змен не выяўлена"
+Str_Status_AnalyzeFinished_ReadyToSync "Аналіз завершаны, націсніце 'Сiнхран.' для сінхранізацыі"
+Str_Status_Advise_HaveConflicts	"Вырашыце канфлікты выбарам правільнага кірунку сінхранізацыі"
+Str_Status_Advise_HaveErrors	"Падчас Аналізу паўсталі памылкі. Націсніце кнопку Памылкі для іх прагляду."
+Str_Status_FolderDisconnected   "Адна з тэчак адключана"
+Str_Status_RemainsConnected     "Абедзве тэчкі застаюцца падлучанымі"
+Str_Status_RemainsDisconnected  "Адна з тэчак застаецца адключанай"
+
+Str_Status_SynchroStarted	 "===== Заданне '%2': СІНХРАНІЗАЦЫЮ запусціў %3 на кампутары '%4' ====="
+Str_Status_SavingStateFor	"Захаванне гісторыі для"
+Str_Status_SynchroSummary	 "Сінхранізавана: %1, Памылак: %2"
+Str_Status_SynchroErrors	 "Сінхранізацыя завершана. Памылак - %1. Націсніце кнопку Памылкі для прагляду памылак, якія ўзніклі пры сінхранізацыі"
+Str_Status_SynchroConflicts	 "Сінхранізацыя завершана. Невырашальных канфліктаў - %1. Націсніце кнопку Канфлікты для прагляду невырашальных канфліктаў"
+Str_Status_SynchroCompleted	 "===== Сінхранізацыя завершана. Час %2, Хуткасць: %3 файлаў/сек ====="
+Str_Status_Remaining_Speed	"Засталося %1, Хуткасць %2"
+Str_Status_SyncError		"ПАМЫЛКА"
+Str_Status_SyncStopped		"Сінхранізацыя перапынена карыстачом"
+Str_Status_SyncDisconnected "Тэчка адключана. Спынена"
+Str_Status_SyncFinished_OK  "Сінхранізацыя паспяхова завершана"
+Str_Status_Advise_SyncAttention	 "Сінхранізацыя завершана з памылкамі і невырашальнымі канфліктамі"
+
+Str_Msg_StoppedByUser		"Перапынена карыстачом"
+
+Str_Msg_DeleteOtherJobResults "Выдалены вынікі аналізе пересекющихся заданняў: %1"
+Str_Msg_DeleteResultsReason   "Сінхранізацыя перасякальнага задання %1"
+Str_Msg_DeleteThisJobResults  "Вынікі аналізa заданні выдалены: %1"
+
+Str_Msg_Action_DeleteFolder "Выдалена Тэчка"
+Str_Msg_Action_DeleteFile   "Выдалены Файл"
+Str_Msg_Action_CreateFolder "Створана Тэчка"
+Str_Msg_Action_CopyOver     "Скапіявана па-над"
+Str_Msg_Action_CopyNew      "Скапіяваны новы"
+Str_Msg_Action_CopyTime     "Скапіявана час змены %1 у %2"
+
+Str_Msg_AndMoreSimilarLogLines "... і яшчэ %1 радкоў лога прапушчаны (абярыце Заданне -> Адкрыць Левы/Правы лог-файл, каб убачыць увесь лог)"
+
+Str_Msg_OldNewWholeHour_TimeShift  "%1: Выяўлены часавы зрух(стары-новы)  %2 гадзіны(ов) у %3 файлаў. Рашэнне: на гэтым боку змен няма"
+Str_Msg_OldNewRounding_TimeShift   "%1: Выяўлены акруглены часавы зрух(стары-новы) %2 гадзіны(ов) (тып %3) у %4 файлаў. Рашэнне: на гэтым боку змен няма"
+Str_Msg_LeftRight_TimeShift        "Выяўлены часавы зрух(левы-правы) %1  гадзіны(ов) (тып %2) у %3 файлаў. Рашэнне: Замяніць аперацыю капіявання файлаў капіяваннем часу	"
+
+Str_Msg_SyncAgainAfterActiv "Націсніце 'Сінхранізаваць' яшчэ раз"
+
+
+Str_Msg_FolderLocked	    "Выконваецца іншае Заданне ў тэчцы %1:\nфайл %2 заблакаваны.\nВыдаліце гэты файл, калі Вы ўпэўнены ў тым, што ніякае іншае Заданне не выконваецца ў гэтай тэчцы"
+Str_Msg_LimitChanges2	    "Змененых файлаў (%1) больш чым усталяваны карыстачом ліміт (%2), так што заданне не будзе сихронизированно аўтаматычна."
+Str_Msg_NotEnoughDiskSpace  "Недастаткова вольнага месца: на дыску %1 маецца %2, неабходна %3\n"
+Str_Msg_RequiredDiskSpace   "Патрабаваны памер для сінхранізацыі на дыску %1 : %2, у Вас маецца %3"
+
+
+
+
+# Misc Messages
+Chk_DoNotAsk			"Не пытаць ізноў"
+Str_TitleWarning		"GoodSync - Папярэджанне"
+Str_TitleError			"GoodSync Памылка"
+Str_MsgBoxTimeout		"Зачыніцца праз %1 секунд"
+
+Str_SaveOptions			"Налады задання былі зменены. Захаваць змены?"
+
+Str_Win2kAtLeast			"Для запуску GoodSync павінна быць усталявана прынамсі Windows 2000."
+Str_SignedAppNeeded		"Гэта прыкладанне не было павінным выявай падпісана ў Siber Systems Inc.\nПожалуйста, усталюеце падпісаную версію з https://www.goodsync.com"
+
+Str_AskDeleteJob1		"Вы сапраўды жадаеце выдаліць заданне '%1'?"
+Str_AskDeleteSelJob1	"Выдаліць вылучаныя заданні(%1)?"
+
+Str_AskDeleteItem1		"Вы ўпэўнены, што жадаеце выдаліць %1 вылучаных аб'ектаў?"
+Str_AskDeleteItem3		"Вы ўпэўнены, што жадаеце выдаліць %1%2 '%3'?"
+Str_Msg_FileDeleted     "Файл %1 выдалены карыстачом"
+Str_Msg_FolderDeleted   "Тэчка %1 выдалена карыстачом"
+Str_Msg_CannotDelete    "Немагчыма выдаліць %1: %2"
+Str_Msg_StateFileDeleted "Выдалены файл гісторыі %1"
+
+Str_StopJobsBeforeClose	"Выконваецца прынамсі адно Заданне: %1.\nВы жадаеце перапыніць выкананне ўсіх Заданняў?\nНацісніце OK для перапынення і выйсця.\nНацісніце Адмена для звароту ў GoodSync."
+
+Str_Warn_HideToTray		"Заданні не могуць выконвацца ў аўтаматычным рэжыме, калі GoodSync не запушчаны. Таму GoodSync будзе хавацца ў сістэмнай панэлі пры яго зачыненні.\nДля змены гэтага рэжыму адключыце опцыю '%1' у Прылады -> Налады праграмы"
+
+Str_TitleResetState		"Скінуць гісторыю"
+Str_AskDeleteStates		"Вы ўпэўнены, што жадаеце выдаліць захаваныю гісторыю?"
+
+Str_TitleDeleteBackup	"Выдаліць _Saved_ і _History_ файлы"
+Str_AskDeleteBackup		"Вы хочаце выдаліць папярэднюю гісторыю і файлы (у сьметнiк), якія захоўваюцца ў гэтых тэчках?"
+
+
+Str_SyncOnLogoffAsk		"Сінхранізацыя пры выхадзе з Windows немагчымая, бо Windows аўтаматычна завяршае задачы пры выхадзе.\nВы жадаеце адключыць гэту опцыю (набудзе моц пасля перазапуску Windows)?"
+Str_SyncOnLogoffReason	"Сінхранізацыя пры выхадзе"
+Str_SyncOnLogoffJobs	"Сінхранізацыя пры выхадзе ўсталявана для задання:"
+
+Str_LogoffTitle			"Сінхранізацыя пры выхадзе з сістэмы - GoodSync"
+Str_LogoffPopup			"Калі ласка, дачакайцеся канчатка сінхранізацыі.\nАПасля канчатку сінхранізацыі буден выраблены выхад з сістэмы."
+Err_OpenLogFails		"Не атрымалася адкрыць лог-файл."
+Err_ExecLogViewer		"Немагчыма запусціць праграму прагляду логаваў.\nКалі ласка, звяжыцеся са службай падтрымкі GoodSync\n"
+
+
+# Tooltips
+Tooltip_Synchronizer	"Файлавы сінхранізатар GoodSync"
+Tooltip_AnalyzingJob	"Аналізавальнае заданне"
+Tooltip_SyncingJob		"Сінхранізацыя Заданняў"
+
+TT_SetLeftSyncFolder	"Націсніце кнопку Выбар для ўсталёўкі першай (левай) тэчкі ці ўвядзіце шлях"
+TT_SetRightSyncFolder	"Націсніце кнопку Выбар для ўсталёўкі другой (правай) тэчкі ці ўвядзіце шлях"
+TT_NewJob			    "Новае Заданне"
+TT_ClickToAnalyze		"Націсніце кнопку Аналіз для аналізу змен у тэчках і падрыхтоўкі да сінхранізацыі"
+TT_ClickToSynchronize	"Націсніце кнопку Сінхран. для сінхранізацыі файлаў"
+
+
+# Update toolbar and messages
+Info_Update_Avail	   "Маецца новая версія GoodSync. <a>Націсніце тут</a> для яе загрузкі. Вы можаце адключыць Аўтаабнаўленне ў дыялогу Пра Праграму."
+ 
+Str_Ver_YesNewVersion	"Для загрузкі даступны GoodSync версіі %1 ад %2. You have ver %3"
+Str_Update_Ask		    "Загрузіць абноўленую версію?"
+Str_Update_Err_1	    "Памылка пры атрыманні інфармацыі з сайта:\n%1\nПерайсці на старонку абнаўленняў?"
+Str_Ver_NoNewVersion	"У Вас усталявана апошняя версія GoodSync %1. Усталяваць нанова тую ж версію?"
+
+
+# Browse Dialog
+Browse_Btn_MyComputer "Мой Кампутар"
+Browse_Btn_MyNetwork  "Сетка"
+Browse_Str_SecureMode     "Абаронены рэжым (шыфр.)"
+Browse_Tip_SecureMode     "Шыфраванне перадатных Імя Карыстача, Пароля і дадзеных"
+Browse_Str_PrivKey	      "Асабісты ключ"
+Browse_Tip_PrivKey	      "Файл, які ўтрымоўвае прыватны ключ SSH, у фармаце PuTTY"
+Browse_Str_HostBasedAddr  "Хост-адрасаванне для Сховішчаў(еўрапейскіх Buckets)"
+Browse_Tip_HostBasedAddr  "Пры ўключэнні выкарыстоўваецца Хост-адрасаванне для сховішчаў, змесцаваных у Еўропе. Імёны сховішчаў могуць утрымоўваць толькі вялікія лацінскія літары і лічбы.\nПри адключанай опцыі выкарыстоўваецца URL-адрасаванне для сховішчаў."
+Browse_Str_SpecifyACP	  "Контр.доступу"
+Browse_Tip_SpecifyACP	  "Палітыка Кантролю Доступу, адна з палітык: прыватная (па змаўчанні), публічная-чытанне, публічная-чытанне-запіс, з аўтарызацыяй-чытанне"
+Browse_Str_ImplicitMode	  "Няяўны FTPS (адкл: Відавочны)"
+Browse_Tip_ImplicitMode	  "Пры ўключэнні выкарыстоўваецца нявный FTP-рэжым: падлучэнне ажыццяўляецца праз порт 990 з выкарыстаннем SSL/TLS. Пры адключэнні выкарыстоўваецца Відавочны FTPS-рэжым: падлучэнне да порта 21, узгадненне шыфравання"
+Browse_Str_ActiveMode	  "Актыўны FTP-рэжым (пры адключэнні Пасіўны рэжым)"
+Browse_Tip_ActiveMode	  "Пры ўключэнні будзе выкарыстоўвацца Актыўны рэжым FTP. Пры актыўным рэжыме для перадачы дадзеных злучэнне ўсталёўваецца ад FTP-сервера зваротна да кліента. Вы павінны дазволіць гэты рэжым у сваім брандмаўары. Пры выключанай опцыі (па змаўчанні) выкарыстоўваецца Пасіўны рэжым."
+Browse_Str_UseMDTM_FTP    "Выкарыстоўваць MDTM для атрымання часу змены файла"
+Browse_Tip_UseMDTM_FTP    "Выкарыстанне каманды MDTM FTP-пратаколу для атрымання часу змены файла ад FTP-сервера."
+Browse_Str_UTF8_encoding  "Кадоўка UTF-8 для імёнаў файлаў (адкл.: кадоўка ANSI)"
+Browse_Tip_UTF8_encoding  "Пры ўключэнні выкарыстоўваецца кадоўка UTF-8 для імёнаў файлаў і тэчак на серверы. Пры выключэнні выкарыстоўваецца кадоўка ANSI для імёнаў файлаў і тэчак на серверы"
+Browse_Str_WinInet 		  "Заснаванае на WinInet (складаныя проксі, аутарыз.)"
+Browse_Tip_WinInet		  "Уключана: выкарыстоўваецца заснаваная на WinInet рэалізацыя, якая дазваляе кіраваць складанымі проксі і аўтарызацыяй, але мае шэраг ограничеий і павальнейшая.\nВыключена: выкарыстоўваецца працавальная хутчэй рэалізацыя, заснаваная на сокетах."
+Browse_Str_Use_Proxy      "Падлучэнне праз проксі, калі гэта паказана ў Прылады -> Налады праграмы -> Падлучэнні"
+Browse_Tip_Use_Proxy      "Падлучэнне да сервера праз проксі, калі гэта паказана ў Прылады -> Налады праграмы -> Падлучэнні"
+Browse_Str_PreferEncrypted    "Шыфраваць, выкарыстоўваючы EFS"
+Browse_Tip_PreferEncrypted    "Шыфраваць гэты бок з выкарыстаннем EFS. Працуе толькі для частак NTFS"
+Browse_Str_PreferDecrypted    "Расшыфраваць, выкарыстоўваючы EFS"
+Browse_Tip_PreferDecrypted    "Расшыфроўваць гэты бок з выкарыстаннем EFS, калі другі бок зашыфравана. Працуе толькі для частак NTFS"
+Browse_Str_PreferCompressed   "Сціск у NTFS"
+Browse_Tip_PreferCompressed   "Сціск гэтага боку з выкарыстаннем LZ. Працуе толькі для частак NTFS"
+Browse_Str_PreferUncompressed "Распакаванне ў NTFS"
+Browse_Tip_PreferUncompressed "Распакаванне гэтага боку, калі іншы бок сціснута. Працуе толькі для частак NTFS"
+Browse_Str_IgnoreBadCerts     "Не правяраць SSL-сертыфікаты"
+Browse_Tip_IgnoreBadCerts     "Пры ўключэнні дапушчаецца выкарыстанне неадпаведных ці пратэрмінаваных SSL-сертыфікатаў у пратаколе HTTPS. Пры адключэнні исполльзование такіх сертыфікатаў прывядзе да памылкі"
+
+
+Browse_Btn_Go			    "Перайсці"
+Browse_Btn_NewFolder	    "Новая тэчка"
+Browse_Btn_NewFolder_Tip	    "Стварыць новую тэчку ў бягучай тэчцы"
+Browse_NewFolder_Prompt_1	"Увядзіце імя новай тэчкі ў '%1'"
+
+
+
+Browse_Tip_MyComputer		"Мой Кампутар - дыскі, далучаныя непасрэдна да кампутара: лакальныя і здымныя дыскі, розныя прылады з даступнай файлавай сістэмай (большасць Palm-прылад, старыя iPod). %%GSDISK%% у шляхі пазначае дыск, з якога запушчаны GoodSync.exe, выкарыстоўвайце яго для пазначэння Майго Дыска ў GoodSync2Go."
+Browse_Tip_MyNetwork		"Сетка - тэчкі з агульным доступам у сеткі Windows(пратакол SMB), якія Вы можаце бачыць у Правадыру Windows з кампутараў Вашай лакальнай сеткі."
+Browse_Tip_FTP				"FTP серверы - неабходны IP-адрас для падлучэння, Імя Карыстача і Пароль для аўтарызацыі. Калі Пасіўны(па змаўчанні) рэжым не працуе, паспрабуйце Актыўны рэжым."
+Browse_Tip_SecureFTP		"Абароненыя FTP-серверы (SFTP ці FTP праз SSH). неабходны IP-адрас для падлучэння, Імя Карыстача і Пароль ці Асабісты ключ у фармаце PuTTY і пароль для аўтарызацыі."
+Browse_Tip_AmazonS3			"Анлайн-сховішча Amazon S3. Бо маецца толькі адзін падобны сервер, Вы не можаце змяняць імя сервера. Для аўтарызацыі неабходны Access Key ID і Secret Access Key."
+Browse_Tip_WebDav			"Сервер WebDAV - неабходны IP-адрас для падлучэння, Імя Карыстача і Пароль для аўтарызацыі. Для шыфравання перадатных дадзеных з дапамогай SSL выкарыстоўваецца прэфікс https://"
+Browse_Tip_WinMobile		"Прылады Windows Mobile. Можа быць смартфон ці КПК. Microsoft ActiveSync ці Цэнтр Прылад Windows Mobile павінны быць усталяваны і запушчаны, а прылада падлучана. Прылада можа не быць партнёрам кампутара."
+Browse_Tip_Unknown			"Для дадзенай невядомай файлавай сістэмы няма падказкі"
+
+
+# Buy License dialog
+BuyPro_Title		   "Функцыянальнасць PRO-версіі"
+BuyPro_Text_ProFixed   "Абнавіце GoodSync да версіі Pro і атрымаеце:\n- Неабмежаваная колькасць Заданняў,\n- Неабмежаваная колькасць файлаў у Заданні,\n- Падтрымку па тэлефоне, імгненную актывацыю, і г.д."
+BuyPro_Text_Pro2Go     "Абнавіце да GoodSync2Go Pro і атрымаеце:\n- неабмежаваная колькасць Заданняў,\n- неабмежаваная колькасць файлаў у Заданні,\n- тэхпадтрымку па тэлефоне, неадкладную актывацыю, і г.д."
+BuyPro_Text_Server     "Абновіце да GoodSync Enterprise Server, каб:\n- выключыць абмежаванні бясплатнай версіі,\n- атрымаць адмысловую тэхпадтрымку Enterprise,\n- атрымаць персанальнага мэнэджара ўліковых запісаў"
+BuyPro_Limit_Pro       "Вы дасягнулі абмежаванняў Бясплатнай версіі. Для працягу выкарыстання GoodSync Вы павінны абнавіць яго да версіі Pro ці паменшыць колькасць заданняў да 3-х ці файлаў у Заданні да 100."
+BuyPro_Limit_Server     "Для запуску GoodSync на Windows Server патрабуецца ліцэнзія Enterprise Server."
+BuyPro_Link		        "Пстрыкніце тут для параўнання бясплатнай і Pro версій"
+
+
+# Activation Wizard
+Act_Header			"Дзякуй за куплю нашага прадукта"
+Act_Title			"Актывацыя GoodSync"
+Act_Field_Req_Err_1	"Для актывацыі патрабуецца '%1"
+Act_User_Name		"Імя карыстача"
+Act_User_Order		"ID Замовы (NNNNNNNNNN) ці код Замовы (XXX-XXX-XXX-XXX)"
+Act_User_Online_Btn	"Анлайн-актывацыя (рэкамендуецца):"
+Act_User_Online_Tip	"GoodSync падлучыцца да Сервера Актывацыі праз Інтэрнэт"
+Act_User_ViaBrowser_Btn	"Анлайн-актывацыя праз браўзар:"
+Act_User_ViaBrowser_Tip "Вы падлучыцеся да Сервера Актывацыі з выкарыстаннем браўзара"
+Act_User_Order_Err	"Увядзіце ID Замовы (10 лічбаў) ці код замовы ў фармаце XXX-XXX-XXX-XXX"
+
+
+
+
+
+
+
+
+
+
+Act_ViaBrowser_Txt	"Перайдзіце ў браўзары на старонку актывацыі http://activate.goodsync.com. Увядзіце ў форму ID кампутара, уазанный ніжэй. Скапіюйце Код Актывацыі з браўзара ў акно Кода Актывацыі і націсніце Далей."
+
+Act_ViaBrowser_Copy	"Капіяваць"
+Act_ViaBrowser_ActCode_Txt "Устаўце сюды код актывацыі"
+
+Act_Finish_Success	"Дзякуй за куплю GoodSync!\nВаша копія актывавана."
+Act_Finish_Connect	 "Падлучэнне да Сервера Актывацыі"
+Act_Finish_Fail		"Памылка актывацыі"
+
+
+# Create ticket 
+Ticket_File_Desc    "Гэты файл утрымоўвае толькі дыягнастычную інфармацыю. Заўважце, што ён не ўтрымоўвае ніякай асабістай інфармацыі з Вашага кампутара."
+Ticket_Instruction  "Скапіюйце шлях у буфер абмену і ўстаўце яго ў акно 'Прымацаванне файлаў' у Заяўцы Сістэмы Поддерки.\nНажмите спасылку ніжэй для стварэння Заяўкі."
+Ticket_Btn_Copy		"Капіяваць шлях"
+
+# Mini Mode
+Str_MiniDlgNoActiveJob	"<Няма актыўных Заданняў>"
+
+# Log Viewer general
+LV_AppTitle					"Праглядальщык Логаў"
+LV_LogListTitle				"Імёны Лог-файлаў"
+LV_OpenLogDlg				"Адкрыць тэчку логаў"
+LV_TotalLine				 "Агульны"
+
+# Log Viewer Error
+LV_Err_NoLogFileFound		  "<Не знойдзены лог-файлы>"
+LV_Err_UnknownFs			   "Невядомая файлавая сістэма"
+LV_Err_CannotOpenFile2		"Немагчыма адкрыць файл %1: %2"
+LV_Err_ReadingFile2			"Памылка чытання файла %1: %2"
+LV_Err_ParseCmdLine			"Памылка ў камандным радку"
+
+# Log Viewer Find Window
+LV_Find						"Пошук:"
+LV_FindNext					"Наст."
+LV_FindPrev					"Пап."
+LV_FindAll					"Знайсці ўсё"
+LV_FindCaseSens				"Адчувальна да рэгістра"
+
+#Log Viewer Menu
+LV_MenuFile					"файл"
+LV_MenuView					"Прагляд"
+LV_MenuOpen					"Адкрыць"
+LV_MenuExit					"Выйсцi"
+LV_MenuCopyAsText			"Капіяваць вылучанае ў буфер"
+LV_MenuSelectAll			 "Вылучыць усё"
+LV_MenuDelete				"Выдаліць"
+LV_MenuFind					"Знайсці"
+LV_MenuSelectFont			"Абраць шрыфт"
+
+# For Mac
+
+Menu_Mac_Window				"Акно"
+Menu_Mac_Zoom					"Маштаб"
+Menu_Mac_Minimize				"Мінімізаваць"
+Menu_Mac_BringToFront			"Змясціць над усімі"
+Menu_Mac_Undo					"Адмена"
+Menu_Mac_Redo					"Зварот"
+Menu_Mac_Preferences			"Уласцівасці..."
+Menu_Mac_Services				"Службы"
+Menu_Mac_HideProgram			"Схаваць GoodSync"
+Menu_Mac_HideOthers				"Схаваць Астатнія"
+Menu_Mac_Quit					"Выйсці"
+
+
+Chk_Mac_AutoStart					 "Запускаць GoodSync пры запуску Mac"
+
+Browse_Mac_Btn_Disconnect		"Адключэнне"
+
+Str_Mac_GSFolder					"Тэчка"
+Str_Mac_WelcomeScreenTitle				"Прывітанне"
+
+
+
+Browse_Mac_Str_Size						"Памер"
+
+Menu_Mac_ShowAll						"Паказаць усё"
+
+
+
+Cmd_Mac_Str_Show					"Паказаць"
+Cmd_Mac_ShowLeftTrashBin			"Левы сьметнік"
+Cmd_Mac_ShowRightTrashBin			"Правы сьметнік"
+Cmd_Mac_MakeGSDataVisible			"Зрабіць gsdata бачнай"
+Cmd_Mac_MakeGSDataInVisible			"Зрабіць gsdata нябачнай"
+
+Str_Status_Mac_AnalyzeFinished_OK	"Аналіз паспяхова завершаны"
+Str_Status_Mac_AnalysisStarted		"Аналіз пачаты"
+Str_Status_Mac_SyncStarted		"Сынхранізацыя пачата"

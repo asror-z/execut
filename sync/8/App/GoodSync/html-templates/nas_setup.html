@@ -1,0 +1,64 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>GoodSync Server: NAS Setup</title>
+    <link rel=stylesheet href="/style.css" type="text/css" media="screen, print">
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="version"><h2>Version&nbsp;:&nbsp;<!-- serverversion -->&nbsp;</h2></div>
+      </div>
+      <div id="menu_and_contents">
+        <div id="menubar"></div>
+        <div id="contents">
+          <h1>GoodSync Server for <!-- nastype --> NAS Setup</h1>
+          <h2>Register this NAS with your GoodSync Connect Account</h2>
+          <form name="connect_setup" action="commit_setup" method="post">
+            <table style="padding-top: 0px; padding-left: 0px; padding-bottom: 24px;">
+              <tr>
+                <td class="setting_name">User ID or E-Mail</td>
+                <td class="setting_value">
+                  <!-- connectuserid -->
+                  <div class="setting_hint" style="margin-left: 0px">Please enter your GoodSync Connect User ID</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="setting_name">Password</td>
+                <td class="setting_value">
+                  <input type="password" name="connectpassword">
+                </td>
+              </tr>
+              <tr>
+				<td></td>
+				<td class="setting_value">
+					<a href="https://www.goodsync.com/manage/add-user-form" target=_blank rel="noopener noreferrer">Create an account</a>
+				</td>
+              </tr>
+              <tr>
+                <td class="setting_name"></td>
+                <td class="setting_value">
+                  <div id="action_buttons">
+                    <input type="submit" name="next" value="Next">
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </form>
+          <div id="system_info"><!-- nas_sysinfo --></div>
+        </div>
+      </div>
+      <div id="footer">
+        Copyright &copy; 1997-2021 Siber Systems Inc. All rights reserved.
+      </div>
+    </div>
+    <script> 
+        window.onload = function(){
+            if (typeof(Storage) !== "undefined") {
+                localStorage.setItem("gs_setup_version", document.getElementById('version').innerHTML);
+            }
+        }
+    </script>
+  </body>
+</html>

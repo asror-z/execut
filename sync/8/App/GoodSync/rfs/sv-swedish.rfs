@@ -1,0 +1,1207 @@
+﻿# RFS file codepage.
+RFS_CODEPAGE "1252"
+RFS_LANGUAGE "Swedish"
+
+# Menus
+Menu_Job				"&Jobb"
+Cmd_JobNew				"Nytt"
+Cmd_JobDelete			"Ta bort"
+Cmd_JobRename			"Byt na&mn..."
+Cmd_JobSaveTemplate     "Spara som &mall..."
+Cmd_JobClone			"Klona..."
+Cmd_JobSwapSides		"Växla jobbsida"
+Cmd_Analyze			"&Analysera"
+Cmd_Analyze_Comp_MD5	"Analys: Jämför MD5s"
+Cmd_Analyze_Comp_Body	"Analys: Jämför huvuddelar"
+Cmd_AnalyzeAll			"Ana&lysera allt"
+Cmd_Sync				"&Synkronisera"
+Cmd_SyncAll				"Syn&kronisera allt"
+Cmd_AnalyzeAndSyncThis	"Analysera och synkronisera"
+Cmd_AnalyzeAndSyncAll	"Analysera och synkronisera allt"
+Cmd_Stop			"&Avbryt"
+Cmd_StopAll			"Avbryt allt"
+Cmd_SuspendAuto			"Avaktivera auto-kör"
+Cmd_JobListOfChanges	"Lista ä&ndringar"
+Cmd_JobOpenLogLeft		"Öppna vänster lo&ggfil"
+Cmd_JobOpenLogRight		"Öppna höger loggfil"
+Cmd_JobOptions			"&Inställningar..."
+Cmd_JobResetState		"Återställ status"
+Cmd_JobDeleteBackup		"Radera återvunna- && historikmappar"
+Cmd_JobDeleteGsData		"Radera _gsdata_ mappar"
+Cmd_JobCleanupRecycled	"Rensa återvunna- && historikmappar"
+Cmd_AppExit				"&Avsluta"
+Cmd_Cut				"Klipp ut"
+Cmd_Copy				"Kopiera"
+Cmd_Paste			"Klistra in"
+Cmd_ExportJobsList		"Exportera jobblista..."
+Cmd_ExportSelJobsList	"Exportera valda jobb ..."
+Cmd_ImportJobsList		"Importera jobblista..."
+
+Menu_View				"&Visa"
+Cmd_ViewStatusBar		"&Statusrad"
+Cmd_ProgOptions			"&Programinställningar..."
+
+
+Cmd_View_FullWindow		"&Totalläge"
+Cmd_View_MiniWindow		"&Miniläge"
+Cmd_View_TrayIcon		"&Ikon i startlisten"
+
+Menu_Help				"&Hjälp"
+Cmd_AppAbout			"&Om..."
+Cmd_AppManual			"&Manual (engelsk)"
+Cmd_AppFAQ				"&FAQ (engelska)"
+Cmd_AppCreateTicket		"&Skapa supportärende..."
+Cmd_Help_BuyPro			"Köp Pro..."
+Cmd_Help_Activate		"Aktivera Pro..."
+Cmd_CheckUpdates		"Sök uppdateringar"
+Cmd_Test				"&Testa"
+
+Cmd_ShowAll				"Alla"
+Cmd_ShowChanges			"&Ändringar"
+Cmd_ShowConflict		"Kon&flikter"
+Cmd_ShowError			"&Fel"
+
+Cmd_ShowToDelete		"Delete"
+Cmd_ShowExcluded		"Excluded"
+Cmd_ShowIncluded		"Medtagna"
+Cmd_ShowSameLenDiffTime "SameLength DiffTime"
+Cmd_ShowCountableChanges "Räkningsbara ändringar"
+Cmd_ShowNotYetSynced    "Inte synkad än"
+Cmd_ShowAllAll          "Alla Live + Döda"
+
+Menu_Actions			"&Åtgärd"
+Cmd_ViewJobList			"&Jobblista"
+Cmd_ViewJobFilter		"&Filter"
+Cmd_ViewLog				"&Logg"
+
+Menu_Tools				"&Verktyg"
+Cmd_ServerMainSetup     "GoodSync anslutningsinstallation..."
+Cmd_ServerControlPanel  "Avancerade serveralternativ..."
+Menu_View_Other			"&Annat"
+
+
+# Context menus
+
+Cmd_ItemProp			"Egenskaper"
+
+Cmd_ItemLOpen			"Öppna &vänster fil"
+Cmd_ItemROpen			"Öppna &höger fil"
+Cmd_ItemLDelete			"&Radera vänster fil"
+Cmd_ItemRDelete			"&Radera höger fil"
+Cmd_ItemDeleteBoth		"&Radera båda filerna"
+
+Cmd_ItemLDeleteMul1		"Radera %1 poster på vänster sida"
+Cmd_ItemRDeleteMul1		"Radera %1 poster på höger sida"
+Cmd_ItemBDeleteMul1		"Radera %1 poster på båda sidor"
+
+Cmd_OpenLFolder			"Öppna vänster mapp"
+Cmd_OpenRFolder			"Öppna höger mapp"
+Cmd_DeleteLFolder		"&Radera vänster mapp"
+Cmd_DeleteRFolder		"&Radera höger mapp"
+Cmd_DeleteBothFolders	"&Radera båda mapparna"
+
+Cmd_ItemCompare			"&Jämför vänster med höger"
+
+Cmd_Recommended			 "&Rekommenderas"
+Cmd_DoNotCopy			 "Kopiera &inte"
+Cmd_CopyLeftToRight		 "Vänster till höger"
+Cmd_CopyRightToLeft		 "Höger till vänster"
+Cmd_DeleteLeftToRight	 "Radera till höger"
+Cmd_DeleteRightToLeft	 "Radera till vänster"
+Cmd_RenameMove_LtoR		 "Byt namn/Flytta till höger"
+Cmd_RenameMove_RtoL		 "Byt namn/Flytta till vänster"
+Cmd_CopyTimeLeftToRight  "Kopieringstid Vänster till Höger"
+Cmd_CopyTimeRightToLeft  "Kopieringstid tid Höger till Vänster"
+Cmd_NameCaseLeftToRight  "Namnge ärende V till H"
+Cmd_NameCaseRightToLeft	 "Namnge ärende H till V"
+Cmd_CopyStateLeftToRight "Kopiera tillstånd V till H"
+Cmd_CopyStateRightToLeft "Kopiera tillstånd H till V"
+Cmd_CopyStateSyncTail    "Synkstatus"
+
+Str_Items1				 " %1 poster"
+
+Cmd_ItemExcludeFile1		"&Uteslut filen '%1'"
+Cmd_ItemExcludeFolder1		"&Uteslut mappen '%1'"
+Cmd_ItemExcludeMulti1		"&Uteslut %1 valda poster"
+
+Cmd_ItemIncludeFile1		"&Ta bara med filen '%1'"
+Cmd_ItemIncludeFolder1		"&Ta bara med mappen '%1'"
+Cmd_ItemIncludeMulti1		"&Ta bara med %1 valda poster"
+
+Cmd_ItemExcludeAllFiles1	"Uteslut &alla '%1' filer"
+Cmd_ItemExcludeAllFolders1	"Uteslut &alla '%1' mappar"
+Cmd_ItemExcludeAllMulti1	"Uteslut &alla poster med namn %1"
+
+Cmd_ItemExcludeAllMask1			"Uteslut alla '*%1' filer"
+Cmd_ItemExcludeAllMaskMulti1	"Ute&slut alla filer med filtillägg %1"
+
+Cmd_ItemIncludeAllMask1			"Ta &bara med '*%1' filer"
+Cmd_ItemIncludeAllMaskMulti2	"Ink&ludera endast objekt med förlängning av %1 valda objekt"
+
+
+# Taskbar Icon menu
+
+
+# Buttons below tree
+Grp_Actions				"Åtgärder"
+Btn_Analyze				"&Analysera"
+Btn_SyncRun				"&Synka"
+Btn_Stop			"&Avbryt"
+Btn_Pause				"&Pausa"
+Btn_Resume				"&Fortsätt"
+Btn_Auto				"Auto"
+Btn_Clear               "Rensa"
+Grp_Show				"Trädvy"
+Cmd_ShowToCreate		"Ny"
+Cmd_ShowToOverwrite		"Skriv över"
+
+Chk_AutoScroll			"Rulla"
+
+# Tree view Columns
+Str_TreeItem			"Post"
+Str_TreeLSize			"V storlek"
+Str_TreeLDate			"V datum"
+Str_TreeL				"V"
+Str_TreeCenter			""
+Str_TreeR				"H"
+Str_TreeRSize			"H storlek"
+Str_TreeRDate			"H datum"
+Str_TreeStatus			"Status"
+
+# Misc buttons
+Btn_Add					"L&ägg till"
+Btn_Delete              "Ra&dera"
+Btn_Ok					"&OK"
+Btn_Save				"&Spara"
+Btn_Cancel				"&Avbryt"
+Btn_Apply				"&Tillämpa"
+Btn_Yes					"&Ja"
+Btn_No					"&Nej"
+Btn_Abort               "&Avbryt"
+Btn_Retry               "&Nytt försök"
+Btn_Ignore              "&Ignorera"
+Btn_Try                 "&Försök"
+Btn_Close               "&Stäng"
+Btn_Help                "&Hjälp"
+Btn_Continue			"&Fortsätt"
+Btn_Browse				"Bläddra"
+Help_Browse_File		"Klicka på denna knapp för att välja fil i fönstret 'Öppna fil'"
+Help_Browse_Folder		"Klicka på denna knapp för att välja mapp i fönstret 'Öppna mapp'"
+
+
+# Tooltips for buttons, for new users
+Tip_Browse_Left			"Välj vänster mapp. \nAnge även användarid, lösenord och URL för nätverksmappar. \nDu kan använda miljövariabler i sökvägen som t ex %%USERPROFILE%%. \nSträngarna %%YYYY%% %%MM%% %%DD%% motsvarar aktuellt år, månad resp dag"
+Tip_Browse_Right		"Välj höger mapp. \Ange även användarid, lösenord och URL för nätverksmappar. \nDu kan använda miljövariabler i sökvägen som t ex %%USERPROFILE%%. \nSträngarna %%YYYY%% %%MM%% %%DD%% motsvarar aktuellt år, månad resp dag"
+Tip_Change_Way			"Ändra jobbriktning och andra inställningar"
+Tip_Analyze				"Klicka här för att analysera jobb"
+Tip_Sync				"Klicka här för att synkronisera jobb"
+Tip_Stop				"Klicka här för att stoppa pågående funktion"
+Tip_Clear				"Rensa differensträdet för att spara minne"
+Tip_Opt					"Konfigurera automatisk jobbkörning"
+Tip_Paused				"Pausläge. Klicka här för att fortsätta"
+Tip_Pause				"Klicka här för att pausa pågående funktion"
+
+# New Job dialog
+Title_JobName			"Nytt jobb"
+Str_JobName				"Ange jobbnamn"
+Str_JobTemplate			"Från mall:"
+Str_BadJobName1			"Jobbnamn får inte innehålla följande symboler: / \\ ? < > : * |"
+Str_BadJobName2			"Jobbnamn får inte vara lika '%1'."
+Str_BadJobName3			"Jobbnamn får inte utelämnas eller vara längre än 100 tecken."
+Str_JobNameExists		"Jobb med detta namn finns redan."
+Str_JobType				"Välj jobbtyp"
+Str_JobType_Sync		"Synkronisera"
+Str_JobDesc_Sync		"Tvåvägsjobb - används när filer har ändrats på båda sidor och GoodSync ska behandla ändringar i båda riktningarna, t ex på stationär och bärbar dator"
+Str_JobType_Backup		"Backup"
+Str_JobDesc_Backup		"Envägsjobb - används för att kopiera ändrade filer från vänster sida till backupmapp på höger sida"
+Str_JobType_Template	"Från mall:"
+Str_JobDesc_Template	 "Mall är delvis ifyllt jobb som används för att lagra favoritinställningar för jobb. Mall innehåller jobbval, men inte sökväg till mappar."
+Str_JobDesc_NoTemplate_1 "Inga mallar har skapats än. Använd kommandot '%1' för att skapa ny mall från befintliga jobb."
+Str_Combo_NoTemplate	 "<ingen mall>"
+Title_RenameJob			"Byt jobbnamn"
+Title_CloneJob			"Klona jobb"
+Str_NewJob_Header		"Välkommen till GoodSync"
+Str_NewJob_Descr		"Låt oss skapa ditt första jobb"
+Str_NewJobClose			"Är du säker på att du vill avsluta GoodSync nu?\nKlicka på 'OK' för att avsluta. GoodSync kommer att be dig skapa ett nytt jobb nästa gång.\nKlicka på 'AVBRYT' för att gå tillbaka och ange namnet på ett nytt jobb."
+Lnk_Tutorial			"Handledning"
+
+
+# Job Tabs control buttons
+Str_TabAddNewJob		"Lägg till nytt jobb"
+Str_TabScrollLeft		"Rulla vänster"
+Str_TabScrollRight		"Rulla höger"
+
+# Windows menu and dialog
+Warn_GoodSync			"GoodSync-varning"
+Warn_GoodSyncStrong		"Stark GoodSync-varning"
+
+
+# Job List Pane
+Title_JobList			"Jobblista"
+Title_TaskName			"Jobbnamn"
+Title_LastRunTime		"Senast använd"
+
+Str_ColumnAnalyze		"Analysera"
+Str_ColumnSync			"Synka"
+Str_ColumnAnalyzeAndSync "Analysera och synka"
+Str_ColumnLPath			"Vänster sökväg"
+Str_ColumnRPath			"Höger sökväg"
+
+#Log Pane
+Title_LogWnd			"Loggfönster"
+
+# Help -> About
+Title_About				"Om"
+Tip_About				"Om"
+Str_RegTo				"Registrerat för:"
+Help_ChkVer				"Kontaktar GoodSync.com för att kolla om nyare version finns tillgänglig för hämtning."
+Help_SmtpTest			"Testa dessa STMP-inställningar genom att skicka ett testmail till GoodSync's avsändar e-postadress."
+Help_SysStat			"Visa information om version och användarmiljö för GoodSync. Vänligen ange denna information när du kontaktar teknisk support."
+
+# Program Options
+Title_Options			"Inställningar för GoodSync"
+Str_Options				"Inställningar"
+
+Help_NotDefined			"Ingen hjälp finns för denna funktion"
+Help_MouseOver			"För musen över alternativen för detaljerad beskrivning. Tryck Alt-tangenten när du vill rulla eller kopiera texten."
+
+Str_OptDetailedHelp     "Detaljerad hjälp"
+Str_Updates             "Uppdateringar"
+
+Str_Logs				"Loggar"
+
+# Program Options - General
+Title_General			"Allmänt"
+Str_Lang				"Språk"
+Help_Lang				"Ändra användarspråk för GoodSync i menyer, inställningar och meddelanden.  Omstart av GoodSync krävs för att aktivera ändrat språkval."
+Chk_TrayIcon			"Dölj i Aktivitetsfältet när huvudfönstret är stängt"
+Help_TrayIcon			"PÅ: När du stänger GoodSync, fortsätter det att köras i bakgrunden. För åtkomst till GoodSync, använd ikonen i Aktivitetsfältet (nedre högre hörnet av bildskärmen).  AV: När du avslutar GoodSync, laddas det ur från minnet."
+Chk_AutoStart			"Starta GoodSync när Windows startar"
+Help_AutoStart			"Windows startar GoodSync automatiskt när du loggar in på ditt Windowskonto med GoodSync i minimerat läge. Använd detta alternativ om du startar jobb automatiskt, dvs om du markerade någon ruta i fliken Jobbalternativ -> Auto."
+Chk_ShowSysTray			"Visa ikonen GoodSync i Aktivitetsfältet"
+Help_ShowSysTray		"Visar ikonen GoodSync i Aktivitetsfältet"
+
+
+
+Chk_ResetIM				"Återställ alla meddelanden till standard"
+Help_ResetIM			"Aktiverar alla tidigare inaktiverade varningar"
+Chk_AutoChkVer			"Sök ny version dagligen"
+Help_AutoChkVer			"GoodSync ansluter till www.goodsync.com dagligen för att kolla om ny version finns tillgänglig för hämtning."
+Chk_CreateNewFolder		"Skapa nya vänster/höger synkmappar om de inte finns"
+Help_CreateNewFolder	"GoodSync skapar nya vänster/höger synkmappar om de inte redan finns."
+Chk_AutoHideMiniWin		"Auto-dölj minifönster när det inte finns några aktiva jobb"
+Help_AutoHideMiniWin	"Auto-dölj minifönster när det inte finns några aktiva jobb"
+Chk_Warn_TimeOutOfRange	 "Varna om tiden ligger utanför intervall"
+Help_Warn_TimeOutOfRange "Utfärda en varning om filens ändringstid ligger utanför [1980,2037] intervallet"
+
+Str_LogDetailLevel		"Loggingsnivå:"
+Help_LogDetailLevel		"Anger detaljnivå för loggfiler."
+Str_LogCritical			"Kritisk"
+Str_LogError			"Fel"
+Str_LogInfo				"Information"
+Str_LogDetails			"Detaljer"
+
+Str_LogFolderGlobal		"Lagra loggar i mapp"
+Help_LogFolderGlobal	"Mappen som globala loggar skrivs till. Om tomt, skrivs loggar till GoodSync-mappen i användarprogrammets profilmapp."
+
+Str_LogRetainDays       "Behåll loggar i så här många dagar"
+Help_LogRetainDays      "Behåll jobb och globala loggar så här många dagar. Radera äldre globala loggfiler."
+
+Str_ParallelAutoJobs    "Max antal auto-jobb som körs parallellt"
+Help_ParallelAutoJobs   "Maximalt antal auto-jobb som kan köras parallellt. 1 innebär att alla jobb som startas automatiskt körs sekventiellt."
+
+Str_AutoJobsQuant       "Auto-jobb kvant, sek"
+Help_AutoJobsQuant      "Alla jobb kontrolleras varje så här många sekunder för att avgöra vilka som kan köras automatiskt."
+
+Str_CompareProg		"Jämför filer med hjälp av externt program"
+Help_CompareProg		"Filjämförelseprogram. Det ska vara ett program med grafiskt gränssnitt som kan ta två argument: sökvägar till filer att jämföra. Exempel: Om du anger WinDiff.Exe kan det anropas som WinDiff fil1 fil2"
+Str_ExecutableFiles		"Körbara filer"
+
+# Program Options -> Connection
+Title_Connect			"Anslutning"
+Title_Proxy				"Proxy-inställningar"
+Str_UseProxy_No			"Använd inte proxyserver"
+Str_UseProxy_Auto		"Använd proxyservern som används av Internet Explorer för fjärranslutningar"
+Help_UseProxy_Auto  	"Använd proxyservern som definieras av Internet Explorer i Internetalternativ -> Anslutningar -> Inställningar för fjärr- och VPN-anslutningar. Detta omfattar proxyservrar definierade av WinINet och proxy.pac. Alternativet 'Anslut via proxy' måste markeras i varje jobb som vill använda det, under knappen 'Bläddra' på sidan för jobbet som behöver en proxy för att ansluta."
+Str_UseProxy_Manual			"Använd proxyserver för fjärranslutningar"
+Help_UseProxy_Manual			"Använd proxyserver för fjärranslutningar"
+Str_ProxyHost			"Värdnamn"
+Help_ProxyHost			"Ange värdnamn för proxy här"
+Str_ProxyPort			"Port"
+Help_ProxyPort			"Ange nummer för proxyport"
+Str_ProxyUserID         "Användarid för proxy"
+Str_ProxyPasswd         "Lösenord"
+Help_ProxyAuth          "Ange användarid och lösenord för proxies som kräver autentisering. Proxy används för Internet. Dessa globala inställningar används vid all uppkoppling för FTP, DAV, S3-filsystem"
+
+Str_SMTP_Enable			"Använd SMTP-server för att skicka e-post (Av: använd standard MAPI-klient)"
+Help_SMTP_Enable		"Markerad: Använd SMTP-server specificerad nedan för att skicka Post-Analyze och Post-Sync e-post. Ej markerad: Använd standard MAPI-klient för att skicka Post-Analyze och Post-Sync e-post"
+Str_SMTP_Host			"SMTP-server"
+Help_SMTP_Host			"Ange SMTP-serverns värdnamn här, som denna server använder för att skicka Post-Sync och Post-Analyze e-post"
+Str_SMTP_Port			"Port"
+Help_SMTP_Port			"Ange SMTP-portnummer, vanligtvis 587 eller 25."
+Str_SMTP_UserID         "SMTP Användar-ID"
+Str_SMTP_Passwd         "Lösenord"
+Help_SMTP_UserID          "Ange SMTP-serverns Användar-ID och Lösenord för servrar som kräver inloggning"
+Str_SMTP_SenderEmail    "Avsändarens e-post"
+Help_SMTP_SenderEmail   "Ange avsändarens e-post och namn som rapporteras till SMTP-servern. Kan visas som 'anvandare@server.se' eller som 'Förnamn Efternamn <anvandarid@server.se>'"
+Str_SMTP_Secure			"Säker SMTP-överföring med SSL"
+Help_SMTP_Secure		"Om markerad, kryptera SMTP-kommunikation med SSL via port 465. Om ej markerad, använd kommunikation i klartext"
+Str_SMTP_StartTls		"Säker SMTP-överföring med STARTTLS"
+Help_SMTP_StartTls		"Om markerad, kryptera SMTP med STARTTLS via port 587. Om ej markerad, använd kommunikation i klartext"
+
+
+# Job Options - General
+Title_JobGeneral		"Allmänt"
+Tip_JobGeneral			"Allmänna jobb "
+Label_JobType			"Synkriktning"
+Str_JobType_TwoWay		"2-vägs"
+Str_JobType_LeftToRight	"1-vägs Vänster till Höger"
+Str_JobType_RightToLeft	"1-vägs Höger till Vänster"
+Help_JobType			"Bestämmer önskad riktning för synkning.  Tvåvägsjobb håller vänster och höger mappar synkroniserade även om filer ändras på båda sidor.  Envägsjobb behandlar filändringar från vänster till höger eller från höger till vänster. Därför används de oftast för backup."
+
+Chk_DelPropagate		"Behandling av raderingar"
+Help_DelPropagate		"PÅ: Om fil eller mapp har raderats av användare på ena sidan, kommer GoodSync att radera den på andra sidan under synkningen.  AV i 2-vägsjobb: raderingar ändras till filkopior. AV i 1-vägsjobb: raderingar ändras till uteslutna poster"
+
+Radio_OneWayDeleteSource "Flyttningsläge: Radera källa efter kopiering"
+Help_OneWayDeleteSource	 "1-vägs jobb: Radera källfiler efter att du framgångsrikt har kopierat dem till målmappen. Detta flyttar effektivt filer från källmappen till målmappen."
+Warn_OneWayDeleteSource  "Är du säker på att du vill radera källfilerna efter att de har kopierats till målet?\nRaderade filer kan inte återställas på källsidan.\nKlicka endast på 'JA' om du är helt säker."
+
+Check_DeleteEmptyFolders "Flyttningsläge: Radera tomma mappar efter kopiering"
+Help_DeleteEmptyFolders  "Radera tomma mappar i flyttningsläge: Om källmappen blir tom efter synkroniseringen, radera den då."
+
+Chk_CompareCheckSumAll		"Jämför kontrollsummor av filhuvud (långsamt)"
+Help_CompareCheckSumAll		"Om markerad, jämför då MD5-kontrollsummor av filhuvud i analysen för att verifiera att filerna är samma, i förhållande till filens ändringstid och storlek. Om ej markerad, jämför då endast filstorleken och filens ändringstid för att avgöra om filerna är samma"
+
+Chk_SaveBakFiles		"Spara tidigare versioner av raderade/ersatta filer"
+Help_SaveBakFiles		"Sparar tidigare versioner av filer som har raderats eller ersatts som resultat av synkning. Filer sparas i mappen _gsdata_\\_saved_. Endast den senaste versionen av raderad/ersatt fil sparas."
+Chk_CleanupBakFiles		"Rensa mappen _sparat_ efter så här många dagar"
+Help_CleanupBakFiles	"Om markerad, tas filer bort som har sparats till mappen _gsdata_/_saved_, efter att de tillbringat det angivna antalet dagar eller mer. Rensning sker efter synkronisering. Om ej markerad, behålls filer i mappen _gsdata_/_saved_ för alltid"
+Help_SavePrevDays		"Behåll tidigare versioner av raderade/ersatta filer i mappen _gsdata_/_saved_ i så här många dagar"
+
+Chk_SavePastVersions	"Spara raderade/ersatta filer, flera versioner"
+Help_SavePastVersions	"Om markerad, sparas filer som har raderats eller ersatts av GoodSync till mappen _gsdata_/_history_. Flera versioner sparas. Varje gång GoodSync är på väg att skriva om eller radera en fil, sparas den till mappen _gsdata_/_history_ med en tidsstämpel tillagd till sitt namn. Om ej markerad, då sparas ingen historik"
+Chk_CleanupPastVersions	 "Rensa mappen _history_ efter så här många dagar"
+Help_CleanupPastVersions "Om markerad, raderas filer som sparats till mappen _gsdata_/_history_, efter att de tillbringat det angivna antalet dagar eller mer. Rensning sker efter synkronisering. Om ej markerad, behålls filer i mappen _gsdata_/_history_ för alltid"
+Help_SavePastDays		"Behåll tidigare versioner av raderade/ersatta filer i mappen _gsdata_/_history_ i så här många dagar"
+
+Chk_CleanupOldGens		"Behåll filhistorik i månader"
+Help_CleanupOldGens		"Radera filhistorik (generationer) som är äldre än det angivna antalet månader. Så filhistorik går in i det förflutna för så här många månader och GoodSync kan inte sprida ändringar som är äldre. Om noll, behålls filhistoriken för alltid (rekommenderas inte)."
+Help_SaveOldGensMonths	"Behåll gamla generationer i så här många månader"
+
+Str_ReconnectSeconds	"Totalt antal sekunder för återanslutningsförsök"
+Help_ReconnectSeconds  	"Totalt antal sekunder tillåtna för återanslutningsförsök för varje filsystemsoperation som misslyckas p.g.a. anslutningsfel"
+
+Str_WorkerThreads		"Kör parallella trådar i synkronisering, så här många:"
+Help_WorkerThreads		"Om markerad, kör så här många trådar parallellt vid synkronisering. Detta kan påskynda synkroniseringen i filsystem som har hög svarstid och tillåta flera anslutningar att arbeta parallellt"
+
+Str_SpeedLimit			"Hastighetsgräns för filkopiering i Kb/sek"
+Help_SpeedLimit  		"Sänk filkopiering (uppströms eller nedströms) om genomsnittlig hastighet för filkopiering överskrider detta värde angivet i Kbytes / sekund. 0 innebär Ingen gräns."
+Str_SpeedLimit_Upload	"Upp"
+Help_SpeedLimit_Upload  "Hastighetsgräns vid uppladdning i KBytes/sek. 0 betyder att uppladdningsgränsen är samma som nedladdningsgränsen"
+
+Str_ShowBalloon			"Visa ballongmeddelanden"
+Str_DoNotShowBalloon	"Aldrig"
+Str_ShowBalloonAlways	"Vid ändringar och synk"
+Str_ShowBalloonOnError	"Vid konflikter och fel"
+Help_ShowBalloon		"Välj när meddelanden ska visas i ikonen för GoodSync i Aktivitetsfältet"
+
+# to be deleted
+
+
+
+
+
+# Job options - Filters page
+Title_Filters			"Filter"
+Tip_Filters				"Filter"
+Str_FilterExcluded		"Uteslutna"
+Help_FilterExcluded		"Filer och mappar som motsvarar någon rad i listan, kommer att uteslutas från synkronisering. Jokertecknen '*' och '?' kan användas. Rader som börjar med \\ motsvarar fullständiga mappsökvägar relativt mot synkmappar. Exempel: *.txt *~ \\Map?par\\*.obj strl>1000 strl<=5k (strl <=5 Kb) strl>4m (strl > 4 Mb) time=2008/03/08 (8 mars 2008) time>=-6d (tid >= för 6 dagar sedan)"
+Str_FilterIncluded		"Medtagna"
+Help_FilterIncluded		"Om inte tomma, tas endast filer med namn som matchar en av raderna i denna inkluderingslista och som inte matchar någon av raderna i uteslutingslistan med i synkroniseringen. Samma matchningsregler som för uteslutning gäller"
+Tip_Filter_New			"Lägg till nytt filter"
+Tip_Filter_Edit			"Ändra valt filter"
+Tip_Filter_Del			"Ta bort valda filter"
+Str_Filter_DummyText	"<Dubbelklicka här för att lägga till ny post>"
+Str_Edit				"Ändra"
+
+Chk_ExcludeEmptyFolders	 "Uteslut tomma mappar"
+Help_ExcludeEmptyFolders "Uteslut mappar som är tomma eller endast innehåller uteslutna filer och mappar" 
+Chk_ExcludeHidden		 "Uteslut dolda filer och mappar"
+Help_ExcludeHidden		 "Uteslut filer och mappar som har attributet Dold"
+Chk_ExcludeSystem		 "Uteslut systemfiler och -mappar"
+Help_ExcludeSystem		 "Uteslut filer och mappar som har attributet System"
+Str_FiltersChooseFiles   "Välj filer som ska inkluderas eller exkluderas från synkroniseringen."               
+
+
+# Job options - Auto page
+Title_Auto				"Auto"
+Tip_Auto				"Auto"
+
+Name_DoOnFileChange		"Ändra"
+Chk_DoOnFileChange		"En filändring"
+Help_DoOnFileChange		"Analysera (och kanske synkronisera) jobbet när filer ändras i de vänstra eller högra synkroniserinsmapparna eller deras undermappar"
+Str_Delay				"Fördröjning"
+Str_Sec					"sek."
+Help_AutoStartDelay     "Fördröj denna jobbstart så här många sekunder vid den första körningen. Verkställs på GoodSync-uppstart och på timer"
+
+Name_DoOnFoldersConnect	"Anslut"
+Chk_DoOnFoldersConnect	"Vid mappanslutning"
+Help_DoOnFoldersConnect	"Analysera (och vid behov synka) jobb när båda jobbmapparna har anslutits, dvs när de dyker upp på grund av att skiva har satts in, Internetanslutning aktiveras eller telefon har kopplats in"
+
+Name_DoOnStart			"Starta"
+Chk_DoOnStart			"Starta med GoodSync"
+Help_DoOnStart			"Analysera (och vid behov synka) jobb när GoodSync startar."
+Chk_DoOnGsStart			"Vid GoodSync-start"
+
+Name_DoPeriodically		"Timer"
+Chk_DoPeriodically		"Periodiskt"
+Help_DoPeriodically		"Analysera (och vid behov synka) jobb var TT timme MM minut. GoodSync måste vara igång för att kunna göra detta."
+Str_Hour				"t."	
+Str_Min					"min."	
+
+Name_DoBeforeLogout		"Logga ut"
+Chk_DoBeforeLogout		"Vid utloggning"
+Help_DoBeforeLogout		"Analysera och synka sedan jobb när du stänger av eller startar om datorn eller loggar ut. Om Windows visar meddelandet 'Programmet svarar inte' vid synkningen - ignorera detta så att GoodSync kan fullborda synkningen."
+
+Str_DoOnSchedule		"Använd Schemaläggaren"
+Help_DoOnSchedule		"GoodSync startas av Schemaläggaren i Windows på tid som du anger. Klicka på knappen 'Inställning' för att öppna Schemalägggaren."
+Str_SchedConfig			"Inställning..."
+Help_SchedConfig		"Klicka för att öppna Schemaläggaren i Windows"
+
+Str_AutoUnattended		"Kör utan användargränssnitt (Obevakat)"
+Help_AutoUnattended     "Om markerad, kommer GoodSync-tjänsten att köra detta jobb automatiskt utan användargränssnitt, så att det kan köras även när du är utloggad från ditt Windows-konto. Jobbet körs utan användarens medverkan, så du kommer att se jobbstatusen men inte synkroniseringsträdet. Välj Jobb -> Öppna Vänster/Höger loggar för att se loggarna. Detta läge gäller för alla auto-alternativ"
+
+
+Str_LimitChanges		"Synka inte om ändrade filer fler än"
+Help_LimitChanges		"Automatisk synk utförs inte om fler än den angivna filmängden i jobbet har ändrats. Ovanligt högt antal ändrade filer indikerar att någonting kan vara fel och manuellt ingripande krävs. Ange 100% för synk oberoende av hur stora ändringarna är."
+
+Chk_WaitForLocks		"Vänta på rensning av låsta, minuter"
+Help_WaitForLocks		"Om markerad, analysen väntar på att lock.gsl filer som ska raderas genom ett annat jobb som satte dem att visa att de synkroniseras. Väntetiden är 20 minuter som standard. Om ej markerad, produceras ett låsfel om låsta filer påträffas under analysen"
+
+Str_ResolveConflicts	"Lös konflikter automatiskt"
+Help_ResolveConflicts	"Tvingad automatisk konfliktlösning för jobb som synkas automatiskt. För icke automatiserade jobb resulterar alla konflikter i utebliven kopiering om inte ändrat av användaren."
+Str_DoNotCopy			"Kopiera inte"
+Str_LeftSideWins		"Vänstra sidan vinner"
+Str_RightSideWins		"Högra sidan vinner"
+Str_NewerFileWins		"Nyare fil vinner"
+Str_StopSync			"Stoppa synkronisering"
+
+Str_RenameLosingFile	"Konfliktlösning: Byt namn på förlorade filer, radera inte"
+Help_RenameLosingFile	"Vid automatisk konfliktlösning, byt namn på en fil som förlorats till <file-base> (Konflikt-<date>).ext"
+
+Str_AutoClear			"Rensa trädet automatiskt efter synk eller analys utan ändringar"
+Help_AutoClear			"Rensa ändringsträdet automatiskt efter utförd analys utan ändringar eller synk"
+
+Str_NotInPortable		"Inte möjligt i flyttbar version"
+
+
+# Job options - Scripts page
+Title_Script			"Skript"
+Tip_Script				"Skript"
+Str_PreAnalyzeProgram	"Föranalysprogram"
+Help_PreAnalyzeProgram	"Använd programmet innan analysen startar, med argumentet: jobbnamn"
+Str_PostAnalyzeEmailOrProgram	"Posta analys utan ändrad e-post eller program"
+Help_PostAnalyzeEmailOrProgram	"Om e-postadress, skicka då analysloggen till denna e-postadress när analysen är klar utan ändringar (med servern i Verktyg -> Programalternativ -> Anslut). Om programnamn med argument, kör detta program när analysen är klar utan ändringar."
+Str_PostSyncEmailOrProgram	"Post Sync E-mail or Program"
+Help_PostSyncEmailOrProgram	"If E-mail address then send Sync log to this e-mail when Sync finishes. If program name, run this Program when Sync finishes, with arguments: job-name terminal-error-msg log-path synced-ok errors conflicts"
+Str_Variables		    "Variabler som ska användas i programargument:"
+Str_ScriptOptLegend "Bifoga programnamn som innehåller mellanslag i citat \"...\"\n'fel: ' prefix: kör endast om fel uppstår\n'nowait: ' prefix: vänta inte på att program ska avslutas\n'noattach: ' prefix: bifoga inte loggfil i e-post\n"
+Str_VarOptLegend "%%JOBNAME%%\tjobname\n%%RESULT%%\tresult: empty or 'error message'\n%%LOGPATH%%\tlog file path\n%%LF%% %%RF%%\tleft or right folder\n%%LF_ACT%% %%RF_ACT%%\tleft or right folder resolved\n%%CHANGED%%\tnumber of Changed Items in Post-Analyze\n%%ERRORS%%\tnumber of Errors in Post-Analyze or Post-Sync\n%%CONFLICTS%%\tnumber of Conflicts in Post-Analyze or Post-Sync\n%%SYNCOK%%\tnumber of Synced-OK items in Post-Sync"
+
+
+
+# Job Options - Advanced
+Title_JobAdvanced		"Avancerat"
+Tip_JobAdvanced			"Avancerat"
+
+Chk_CopyCreateTime	    "Kopiera filers skapandetid"
+Help_CopyCreateTime		"Om markerad, då kopieras filers skapande- och ändringstid. Om ej markerad, då kopieras endast filers ändringstid. Endast tillgängligt i Windows-filsystem"
+
+Chk_CopyAttrs	   		"Kopiera säkerhet/diverse bitar"
+Help_CopyAttrs			"Kopiera dolda, system, skrivskyddade, rwx och andra liknande attribut, fungerar endast från Windows till Windows, från Mac till Mac, eller från UNIX till UNIX"
+
+Chk_CopyExtendedAttrs	"Kopiera utökade attribut"
+Help_CopyExtendedAttrs	"Kopiera utökade attribut, fungerar endast från Mac till Mac"
+
+Chk_CompareExtendedAttrs "Upptäck ändringar av utökade attribut även om filen är samma"
+Help_CompareExtendedAttrs "Om en fil hittas genom analys som inte ändrats men de utökade attributen skiljer sig, kopiera då endast de utökade attributen. Fungerar endast från Mac till Mac."
+
+Chk_CopyACL	   		    "Kopiera säkerhetsattribut för ACL"
+Help_CopyACL			"Kopiera listor för ACL (åtkomstkontroll) när fil eller mapp kopieras. Detta är möjligt bara o filsystemet är Windows NTFS, inte för FAT eller andra"
+
+Chk_CompareACL	   		"Upptäck ACL/Ägare ändringar även om filen är samma"
+Help_CompareACL			"Om en fil hittas genom analys som inte ändrats men ACL säkerhetsattribut eller filägare skiljer sig, kopiera då endast ACL och ägare med operationen Copy Time. Endast tillgängligt i Windows NTFS filsystem, inte i FAT eller andra."
+
+Chk_CopyOwner  		    "Kopiera fil/Mappägare"
+Help_CopyOwner			"Kopiera fil/Mappägare. Detta är endast tillgängligt i Windows och Mac/Unix filsystem. Välj inte detta alternativ om alternativet Kopiera ACL är valt, eftersom Kopiera ACL redan kopierar Fil/Mappägare"
+
+Chk_CopyLocked			"Kopiera låsta filer"
+Help_CopyLocked			"Använder Volume Shadow Service för att kopiera från filer låsta av andra processer. Inte tillgängligt i Windows 2000 och för 64-bit system."
+
+Chk_RetrySyncIfFileChanges   "Synkronisera igen om källfil ändras mellan analys och synkronisering"
+Help_RetrySyncIfFileChanges  "Om markerad, och en fil ändras efter analysen eller under synkroniseringen, försök då direkt att synkronisera denna fil igen. Om ej markerad, och filer ändras efter analysen eller under synkroniseringen, avsluta då synkroniseringen och låt nästa analys hantera den nya skillnaden"
+
+Chk_DetectsMovesRenames		"Upptäck fil- och mappförflyttningar och namnbyten"
+Help_DetectsMovesRenames	"På: Fil- och mappförflyttningar och namnbyten upptäcks och utförs som sådant. Av: Filförflyttningar och namnbyten utförs som en ny filkopia och gammal fil raderas."
+
+Chk_UberUnlockedUploads		"Superolåst läge: Källfiler kan raderas under uppladdningen"
+Help_UberUnlockedUploads	"På: Källfilerna kan raderas eller flyttas under uppladdningen, de är inte låsta på något sätt. Av: Använder operativsystemets olåsta läge för uppladdningar, det låser fortfarande källfiler från att flyttas eller raderas."
+
+Chk_CalcReqSpace		"Uppskattar diskutrymme som krävs för synk"
+Help_CalcReqSpace		"Om aktiverad beräknas hur mycket fritt diskutrymme som behövs för att genomföra synkning. Använd På för jobb som skrivs till enheter med begränsat fritt utrymme.  Använd Av för jobb som inte spränger diskar eftersom fritt utrymme är rikligt på båda sidor"
+
+
+LinksOption				"Symboliska länkar och korsningar:"
+Help_Links_Ignore		"Om markerad, GoodSync ignorerar symboliska länkar och korsningar till filer och mappar"
+Help_Links_CopyAsIs		"Om markerad, GoodSync kopierar länkar till samma länkar på målsidan. Observera att de kopierade länkarna kan peka till filer som inte har kopierats, eftersom de var utanför det kopierade mappträdet"
+Help_Links_DrillDown	"Om markerad, GoodSync borrar ned länkar. Det vill säga, en länk till en mapp kopieras som dess målmapp och en länk till en fil kopieras som sin målfil. Observera att fildubbletter kan uppstå, eftersom mer än en länk kan peka till en fil på källsidan"
+
+Radio_Ignore			"Ignorera"
+Radio_CopyAsIs			"Kopiera som det är"
+Radio_DrillDown			"Borra ned"
+
+
+# Left/Right side options
+Title_Left_Side			"Vänster sida"
+Tip_Left_Side			"Alternativ för vänstersidan"
+Title_Right_Side		"Höger sida"
+Tip_Right_Side			"Alternativ för högersidan"
+
+Chk_UseSafeCopy			"Säkerhetskopiering med  tillfälliga filer"
+Help_UseSafeCopy		"På: Vid kopiering av fil till destination, sker kopiering först till en tillfällig fil, som sedan döps om till destinationsfil. Detta förhindrar att ofullständiga/förvanskade filer finns kvar om synkningen oväntat avbryts . Kräver extra diskutrymme, särskilt för stora filer. AV: kopiering direkt till destinationsfil: snabbare men kan resultera i filförlust."
+
+Chk_NoGsData_Side		"Ingen _gsdata_ mapp här"
+Help_NoGsData_Side		"Om markerad, skapas ingen _GSDATA_ mapp på denna sida av jobbet, istället skapas _GSDATA_ mapp i GoodSync's profilmapp på denna dator. Om ej markerad, skapas _GSDATA_ mapp i synkroniseringsmappen på denna sida av det här jobbet. Använd endast detta alternativ för mappar som inte är synkroniserade med andra mappar i något annat jobb på denna eller några andra datorer"
+Warn_KeepGsData			"Är du säker på att du vill behålla _GSDATA_ mappen i GoodSync's profilmapp?\nDetta alternativ är endast till för avancerade användare och du bör läsa bruksanvisningen innan du väljer det."
+Warn_MoveGsData			"Är du säker på att du vill flytta _GSDATA_ mappen tillbaka till synkroniseringsmappen?\nDetta alternativ är endast till för avancerade användare och du bör läsa bruksanvisningen först."
+
+Chk_FastPreAnalyze		"Lista inte mappar under analysen (farligt)"
+Help_FastPreAnalyze		"Om markerad, lista då inte mappar för att se vad som finns i dem under analysen, lita istället på att GoodSync's state-fil tillhandahåller fillistor. Om ej markerad, utför fullständig analys med listning av alla mappar. Detta alternativ kan användas om endast GoodSync (inte du och inte andra program) ändrar filer i mappar och undermappar på denna sida. Använd INTE detta alternativ om du inte verkligen VET vad du gör"
+
+Chk_Encrypt_FilePaths  "Kryptera filnamn"
+Help_Encrypt_FilePaths "Om markerad, kryptera då fil- och mappnamn inuti synkroniseringsmappen, med AES med 256-bitars nyckel"
+
+Chk_Encrypt_FileBodies  "Kryptera filhuvuden"
+Help_Encrypt_FileBodies "Om markerad, kryptera då filhuvuden med AES med 246-bitars nyckel och slumpmässig salt, filstorleken ökar med 32 bytes"
+
+Chk_Encrypt_Password    "Krypteringslösenord"
+Help_Encrypt_Password   "Krypteringslösenord -- nyckeln till krypterade namn och filhuvuden"
+
+
+# Left and Right
+Str_LeftFolder			"Vänster mapp"
+Str_RightFolder			"Höger mapp"
+
+Str_LeftAndRight		"Vänster och Höger"
+Str_Left				"Vänster"
+Str_Right				"Höger"
+Str_Folder				"mapp"
+Str_File				"fil"
+Str_Deleted				"raderad"
+Str_NotPresent			"finns inte"
+
+Str_LeftToRight			"Vänster till Höger"
+Str_RightToLeft			"Höger till Vänster"
+
+
+# Conflict resolution
+
+
+
+
+
+
+# Exclusion messages
+Str_ExclBy_FolderAbove  "undantag av ovanstående mapp"
+Str_ExclBy_SyncFolder   "undantag GoodSync datamapp"
+
+
+
+
+
+
+Str_ExclBy_MatchName    "undantag matchande filer "
+Str_ExclBy_NoMatchName  "inte medtagen: ingen matchning "
+Str_ExclBy_EmptyFolder  "undantag tomma mappar"
+Str_ExclBy_ChildOfExcl     "undantag 'barn' till uteslutna"
+
+Str_ExclBy_NoPropDels      "undantag inte överförda raderingar"
+Str_Msg_SkipLink		"Hoppa över mapplänk %1"
+
+# Job status and progress
+Str_Status_PressAnalyze			"Klicka på Analysera för att starta..."
+Str_Status_ConnectingToFolder	"Ansluter till mapp %1"
+Str_Status_Scanning				"Sök igenom %1"
+Str_Status_ReadStateFile        "Läs statusfil %1"
+Str_Status_ReadEmbeddedStateFile "Läs inbäddad statusfil %1 och samkör den med rotstatus"
+Str_Status_NewStateFile			"%1: Ingen statusfil hittas, ny statusfil skapas"
+Str_Status_SaveStateFile        "Spara statusfil %1"
+Str_Status_PostProcessing		"Förbehandling"
+Str_Status_ComputePrevVerSize	"Beräkna storlek för filen _saved_ "
+
+Str_Status_CompareOneSide		"Jämför %1"
+Str_Status_CompareLeftToRight	"Jämför Vänster till Höger"
+
+Str_Status_NotYetAnalyzed	"Inte analyserad än"
+Str_Status_Syncing			"Synkroniserar"
+Str_Status_Analyzing		"Analyserar"
+Str_Status_Connecting		"Ansluter"
+Str_Status_Paused			"Pausläge"
+Str_Status_Resumed			"Fortsätter"
+Str_Status_All				"Alla filer"
+Str_Status_NoFiles			"Inga filer"
+Str_Status_Changes			"Ändringar"
+Str_Status_InSync			"Synkade"
+Str_Status_Conflicts		"Konflikter"
+Str_Status_NoConflicts		"Inga konflikter"
+Str_Status_Errors			"Fel"
+Str_Status_NoErrors			"Inga fel"
+Str_Status_SyncAttention	"Kräver uppmärksamhet"
+Str_Status_Connected		"Ansluten"
+Str_Status_Disconnected		"Frånkopplad"
+
+Str_Status_VolumeInfo_Free  "Ledigt: %1, Totalt: %2"
+Str_Status_VolumeInfo_Reqd  "Behövs: %1"
+
+Str_Status_FilesChangedCnt	"Ändrade filer: %1"
+Str_Status_ConflictsCnt		"Konflikter: %1"
+Str_Status_ErrorsCnt		"Fel: %1"
+Str_Status_SyncedCnt		"Synkroniserade: %1"
+Warn_AllExcluded			"Varning!\r\nAlla filer har uteslutits, din filterinställning är troligen inte korrekt.\r\nVäxla till vyn 'Alla' eller 'Uteslutna' för att verifiera att filtren arbetar korrekt."
+Warn_AllNew					"Varning!\r\nVänster och höger mapp innehåller inga standardfiler. Verkar som att du försöker synka inte relaterade mappar.\r\nVänligen, kolla att rätt mappar har valts för synkning."
+Warn_AllDelete				"Varning!\r\nAlla filer kommer att raderas från målmappen.\r\nVi rekommenderar backup av dina data."
+
+# Analyze messages
+Str_Msg_Job					"Jobb"
+Str_Msg_LeftRight_Descrs    "Vänster: %1, Höger: %2"
+Str_Msg_JobFilters          "Filter: %1"
+Str_Msg_SetFolder		    "Mapp har inte angivits"
+Str_Msg_CannotOpenFolder    "Kan inte öppna mapp (troligen därför att den saknar sökväg): %1"
+Str_Msg_SameFolders			"Vänster och höger mapp är identiska."
+Str_Msg_NestedFolders2	    "Mapp '%1' är undermapp till mapp '%2' eller vice versa. Kan inte analysera nästlade mappar."
+Str_Msg_WillCreateFolder    "Mappen '%1' hittades inte, så vi försöker att skapa den"
+Str_Msg_CannotConnect       "Kan inte ansluta till "
+Str_Msg_Created_Folder      "Skapat mapp '%1'"
+Str_Msg_CannotCreateGsdata  "Kan inte skapa statusmappen för GoodSync _gsdata_ i %1: %2.\nOm du vill ta backup på skrivskyddad mapp, ange jobbet som 1-vägs Tvingande skrivskyddad källa i  Jobb -> Inställningar"
+Str_Msg_ErrReadStateFile    "Fel vid läsning av statusfil '%1': %2.\nFörstörd statusfil har döpts om till '%3'.\nVid nästa analys kommer ny statusfil att skapas.\nVänligen sänd förstörd statusfil till ask@goodsync.com."
+Str_Msg_EmbeddedJob         "Hittade synkdatamapp '%1' som inte tillhör detta jobb utan till annat jobb. Det innebär att mer än ett jobb synkroniserar mot samma mapp. Detta rekommenderas inte"
+Str_Msg_DetectedDisconnect  "Koll nätverksanslutning: Bortkoppling: %2"
+Str_Msg_RemainsConnected    "Koll nätverksanslutning: Fortsatt ansluten: %2"
+Str_Msg_DetectedConnect     "Koll nätverksanslutning: Hittat anslutning, utför analys"
+Str_Msg_RemainsDisconnected "Koll nätverksanslutning: Fortsatt bortkopplad: %2"
+
+Str_Msg_Filter_ExcludeHidden       "Uteslut dolda"
+Str_Msg_Filter_ExcludeSystem       "Uteslut system"
+Str_Msg_Filter_ExcludeEmptyFolders "Uteslut tomma mappar"
+Str_Msg_Filter_Included     "Medtagna"
+Str_Msg_Filter_Excluded     "Uteslutna"
+
+Str_Msg_OlderFileVsNewer	  "Varning: Äldre filer ersätter nyare filer"
+Str_Msg_Conflict_BothChanged  "Konflikt: Fil modifierad på båda sidor"
+Str_Msg_Conflict_NewFilesDiff "Konflikt: Nya filer som skiljer sig"
+Str_Msg_Conflict_1way_RtoL    "HögertillVänstersynk i Vänstertillhöger 1-vägsjobb"
+Str_Msg_Conflict_1way_LtoR    "VänstertillHögersynk i Högertillvänster 1-vägsjobb"
+
+Str_Status_JobScheduled      "----- Jobb '%1': Schemalagt att utföras av %2"
+Str_Status_AnalysisStart     "-- Analys startad av %1"
+Str_Status_AnalysisStarted   "----- Jobb '%2': ANALYS startad av %3 på dator '%4' (GoodSync v %5) -----"
+Str_Status_OneSideStats      "%1: Filer: %2 (uteslutna %3). Mappar: %4 (uteslutna %5)."
+Str_Status_AnalysisSummary   "Ändringar: %1, Konflikter: %2, Kopieringstid: %3, Kopieringsstatus: %4, Fel: %5"
+Str_Status_AnalysisCompleted "----- Analys avslutad. Tid %2, Hastighet: %3 filer/s -----"
+Str_Status_AnalyzeStopped	 "Analys stoppad av användare"
+Str_Status_AnalyzeFinished_NoChanges   "Analyserad, inga ändringar hittas"
+Str_Status_AnalyzeFinished_ReadyToSync "Analyserad, klicka på Synka för synkronisering"
+Str_Status_Advise_HaveConflicts	"Analys har avslutats med konflikter. Lös konflikter genom att välja rätt synkriktning"
+Str_Status_Advise_HaveErrors	"Analys har avslutats med fel. Klicka på knappen Fel för att se alla felposter"
+Str_Status_FolderDisconnected     "En av mapparna har kopplats bort"
+Str_Status_RemainsConnected       "Båda mapparna fortsatt anslutna"
+Str_Status_RemainsDisconnected    "En av mapparna fortsatt bortkopplad"
+
+Str_Status_SyncStart		 "== Synkronisering startad av %1"
+Str_Status_SynchroStarted	 "===== Jobb '%2': SYNK startade %3 på dator '%4' ====="
+Str_Status_SavingStateFor	"Sparar status för "
+Str_Status_SynchroSummary	 "Poster synkade OK: %1, Fel: %2"
+Str_Status_SynchroErrors	 "Synk avslutad med %1 fel. Klicka på knappen Fel för att se synkfel"
+Str_Status_SynchroConflicts	 "Synk avslutad med %1 olösta konflikter. Klicka på knappen Konflikter för att se olösta konflikter"
+Str_Status_SynchroCompleted	 "===== Synkronisering avslutad. Tid: %2, Hastighet: %3 ====="
+Str_Status_Remaining_Speed	"Återstår %1, Hastighet %2"
+Str_Status_SyncError		"FEL"
+Str_Status_SyncStopped		"Synkronisering stoppad av användare"
+Str_Status_SyncDisconnected "Mapp bortkopplad"
+Str_Status_SyncFinished_OK  "Synk korrekt genomförd"
+Str_Status_Advise_AnalyzeAttention	 "Analys har slutförts med fel"
+Str_Status_Advise_SyncAttention	 "Synk har avslutats med fel eller olösta konflikter"
+Str_Status_Advise_AnalyzeConflict 	 "Konflikter har upptäckts. Lös konflikter genom att välja riktning på synkroniseringen:"
+
+Str_Msg_StoppedByUser		"Stoppad av användare"
+
+Str_Msg_DeleteOtherJobResults "Radera analysresultat för jobb som korsar jobbet: %1"
+Str_Msg_DeleteResultsReason   "Synkning av korsande jobb %1"
+Str_Msg_DeleteThisJobResults  "Analysresultat (fil/mappträd) för detta jobb har raderats: %1"
+
+Str_Msg_Action_DeleteFolder "Radera mapp"
+Str_Msg_Action_DeleteFile   "Radera fil"
+Str_Msg_Action_DeleteLink   "Radera länk"
+Str_Msg_Action_CreateFolder "Skapa mapp"
+Str_Msg_Action_CopyOver     "Kopiera över"
+Str_Msg_Action_CopyNew      "Kopiera ny"
+Str_Msg_Action_CopyTime     "Kopiera ändrad tid från %1 till %2"
+Str_Msg_Action_MoveFile       "Flytta fil %1 -> %2"
+Str_Msg_Action_MoveFileDone   "Flytta fil %1 <-> %2: redan klar"
+Str_Msg_Action_MoveFolder     "Flytta mapp %1 -> %2"
+
+Str_Msg_AndMoreSimilarLogLines "... och %1 liknande loggrader har hoppats över här (välj Jobb -> Öppna Vänster/Höger logg för att se hela loggen)"
+
+Str_Msg_OldNewWholeHour_TimeShift  "%1: Tidsskillnad Gammal/Ny på %2 timmar upptäckt för %3 av filerna. Beslut: Ingen ändring på denna sida"
+Str_Msg_OldNewRounding_TimeShift   "%1: Avrundad tidsskillnad mellan Gammal/Ny på %2 timmar (typ %3) upptäckt för %4 filer. Beslut: Ingen ändring på denna sida"
+Str_Msg_LeftRight_TimeShift        "Tidsskillnad Vänster/Höger på %1 timmar (typ %2) upptäckt för %3 filer: Beslut: Ändra Kopiera fil-körning till Kopierad tid"
+
+Str_Msg_SyncAgainAfterActiv "Klicka på Synk igen när GoodSync Pro har aktiverats"
+
+
+Str_Msg_FolderLocked		"Ett annat jobb utför synk av mapp %1:\n med start: %2. Vänligen försök igen senare"
+Str_Msg_LimitChanges2		"%1 filer har ändrats, fler än en tröskel på %2. Jobbet kommer inte att synkroniseras automatiskt."
+Str_Msg_NotEnoughDiskSpace  "För litet fritt utrymme på disk %1, behöver %2, har %3"
+Str_Msg_RequiredDiskSpace   "På disk %1 behövs utrymme för synk med %2, du har %3"
+Str_Msg_UnknownDiskSpace    "På disk %1 krävs %2 ledigt utrymme för synkronisering, ledigt utrymme är okänt"
+
+
+
+
+# Misc Messages
+Chk_DoNotAsk			"Fråga mig inte längre"
+Chk_DoNotShowAgain		"Visa inte detta fönster igen"
+Str_TitleWarning		"GoodSync-varning"
+Str_TitleError			"GoodSync-fel"
+Str_MsgBoxTimeout		"Avslutar om %1 sekunder"
+
+Str_SaveOptions			"Jobbinställningar har ändrats. Spara dem?"
+
+Str_Win2kAtLeast		"GoodSync kräver Windows 2000 eller nyare "
+Str_SignedAppNeeded		"Detta program är inte godkänt av Siber Systems Inc.\nVänligen installera den godkända versionen från https://www.goodsync.com"
+
+Str_AskDeleteJob1		"Vill du verkligen radera jobb '%1'?"
+Str_AskDeleteSelJob1	"Vill du verkligen radera %1 valda jobb?"
+
+Str_AskDeleteItem1		"Vill du radera %1 valda poster?"
+Str_AskDeleteItem3		"Vill du radera %1 %2 '%3'?"
+Str_Msg_FileDeleted     "Av användare raderad fil %1"
+Str_Msg_FolderDeleted   "Av användare raderad mapp %1"
+Str_Msg_CannotDelete    "Kan inte radera %1: %2"
+Str_Msg_StateFileDeleted "Raderad statusfil %1"
+
+Str_StopJobsBeforeClose	"Ett eller flera jobb körs nu: %1.\nVill du stoppa alla dessa jobb?\nKlicka på OK för att stoppa alla jobb och avsluta.\nKlicka på Avbryt för att återgå till GoodSync."
+
+Str_Warn_HideToTray		"Automatiska jobb kan inte köras om inte GoodSync körs, så GoodSync lägger sig i ikonen på Aktivitetsfältet när du stänger det.\nFör att ändra detta, avmarkera valet '%1' i Inställningar -> Programinställningar"
+
+Str_TitleResetState		"Nollställ status"
+Str_AskDeleteStates		"Är du säker på att du vill radera sparade synkstatus (inga användarfiler raderas)?"
+
+Str_TitleDeleteBackup	"Radera återvunna och historikfiler"
+Str_AskDeleteBackup		"Vill du radera återvunna och historikfiler som lagras i dessa mappar?"
+
+Str_TitleDeleteGsData	"Radera _gsdata_ mapp"
+Str_AskDeleteGsData		"Vill du radera GoodSync's _gsdata_ mappar?\nGoodSync lagrar sina uppgifter, loggar och historik i dessa mappar.\nInga användarfiler kommer att raderas."
+
+Str_SyncOnLogoffAsk		"Det går inte att synkronisera vid utloggning eftersom Windows automatiskt avslutar körningar vid utloggning.\nVill du stänga av detta alternativ (får effekt efter omstart av Windows)?"
+Str_SyncOnLogoffReason	"Synkronisering vid utloggning"
+Str_SyncOnLogoffJobs	"Synk vid utloggning har angetts för jobben:"
+
+Str_LogoffTitle			"Synk vid utloggning - GoodSync"
+Str_LogoffPopup			"Synk vid utloggning har startats.\nVänligen vänta tills denna synkronisering har avslutas.\nUtloggning kommer att ske efter att synkningen avslutats."
+Err_OpenLogFails		"Kan inte öppna loggfilen"
+Err_ExecLogViewer		"Kan inte utför Log Viewer\nVänligen kontakta teknisk support hos GoodSync\n"
+
+# File Operations
+Explorer_File_With_The_Same_Name_Exists	"Det finns redan en fil med samma namn på denna plats."
+Explorer_Skip_Copy						"Hoppa över"
+Explorer_DoOverwrite						"Skriv över"
+Explorer_Replace_Src_By_Dst				"Ersätt filen i målmappen med källfilen (kan återupptas):"
+Explorer_Keep_Dst_File					"Inga filer kommer att ändras. Behåll målfilen:"
+Explorer_Copy_If_Newer					"Kopiera om nyare"
+Explorer_Copy_If_Src_Newer_Than_Dst		"Kopiera om källfilen är nyare än målfilen."
+Do_Same_For_Other_Conflicts		"Gör samma sak för andra konflikter."
+Explorer_FileSize						"Storlek: %1 bytes"
+Explorer_DateModified					"Ändringsdatum: %1"
+
+
+# Tooltips
+Tooltip_Synchronizer	"GoodSync: Synka och ta backup på filer"
+Tooltip_AnalyzingJob	"Analyserar jobb"
+Tooltip_SyncingJob		"Synkroniserar jobb""
+
+TT_SetLeftSyncFolder	"Klicka på knappen Bläddra för att välja första (vänster) mapp för synkronisering eller ange sökväg till mapp"
+TT_SetRightSyncFolder	"Klicka på knappen Bläddra för att välja andra (höger) mapp för synkronisering eller ange sökväg till mapp"
+TT_NewJob				"Nytt jobb"
+TT_ClickToAnalyze		"Klicka på knappen Analysera för att analysera skillnaden mellan mappar och för att förbereda synkkörningar"
+TT_ClickToSynchronize	"Klicka på knappen Synka för att utföra synkronisering som föreslagits av analysen"
+
+
+# Update toolbar and messages
+Info_Update_Avail	"Ny version av GoodSync finns tillgänglig, <a>Klicka här</a> för att hämta den."
+Str_Update_Ask		"Vill du hämta den uppdaterade versionen?"
+Str_Update_Err_1	"Kan inte få versionsinfo:\n%1\nVill du gå till webbsidan för uppdateringar?"
+
+Str_Ver_YesNewVersion	"GoodSync version %1, utgiven %2 finns tillgänglig för hämtning. You have ver %3"
+Str_Ver_NoNewVersion "Din version är aktuell: %1. Vill du installera om samma version för reparation?"
+
+
+# Browse Dialog
+Browse_Btn_MyComputer "Min dator"
+Browse_Btn_MyNetwork  "Mitt nätverk"
+Browse_Str_OneFileTarget  "En fil"
+Browse_Tip_OneFileTarget  "Lokal fil dit hela fil/mappträdet skrivs till eller läses från"
+Browse_Str_SecureMode     "Säkert läge (krypterad)"
+Browse_Tip_SecureMode     "Kryptera användar-id och lösenord. Kryptera även överföring av data"
+Browse_Str_PrivKey	  "Privat nyckel"
+Browse_Tip_PrivKey	      "Fil som innehåller Private SSH-nyckel, i PuTTY-format"
+Browse_Str_ClientCert	  "Certifikat"
+Browse_Tip_ClientCert	  "Fil som innehåller certifikatet/privata nyckelpar, i PEM-format"
+Browse_Str_HostBasedAddr  "Värdbaserad adressering för Buckets (för euro buckets)"
+Browse_Tip_HostBasedAddr  "Markerad: Värdbaserad adressering för Buckets: fungerar med Euro buckets, bucket namn får endast innehålla små bokstäver och siffror.\nEj makrerad: Webbadressbaserad adressering för buckets: buckets kan ha skiftlägeskänsliga namn, Amazon rekommenderar det inte"
+Browse_Str_SpecifyACP	  "Åtkomstkontroll"
+Browse_Tip_SpecifyACP	  "Policy för åtkomstkontroll, en av de färdiga riktlinjerna: privat (förvald), allmän-läs, allmän-läs-skriv, autentiserande-läs"
+Browse_Str_ImplicitMode	  "Implicit FTPS (av: Explicit)"
+Browse_Tip_ImplicitMode	  "Om markerad – använd implicit FTP-läge: anslut till port 990 med SSL/TLS. Om inte markerad – använd explicit FTPS-läge: anslut till port 21, förhandla om kryptering"
+Browse_Str_ActiveMode	"Aktivera FTP-läge (inaktiverad innebär passivt läge)"
+Browse_Tip_ActiveMode	  "Om markerad, använd aktivt FTP-läge. I aktivt läge skapas anslutning från FTP-server tillbaka till klienten för att överföra data och du måste tillåta det i dina brandväggar. Om inte markerad, använd passivt FTP-läge (förvalt)"
+Browse_Str_UseMDTM_FTP  "Skaffa exakt filändringstid i FTP med kommando MDTM"
+Browse_Tip_UseMDTM_FTP    "Använd MDTM-kommando i FTP-protokollet för att erhålla filändringstid från FTP-server"
+Browse_Str_UseMLSD_FTP    "Använd MLSD/MLST-kommandon för att hämta fillistor"
+Browse_Tip_UseMLSD_FTP    "Markerad: använd MLSD/MLST-kommandon för att hämta fillistor. Det är ett mer exakt sätt när de genomförs korrekt av FTP-servern.\nEj markerad: Använd äldre variant av LIST-kommando för att hämta fillistor."
+Browse_Str_FtpListLa      "Använd LIST -la kommando"
+Browse_Tip_FtpListLa      "Markerad: När mappar listas, använd 'LIST -la' kommando för att visa filer vars namn börjar med punkt och dolda filer.\nEj markerad: Använd standard (RFC 959) LIST kommando."
+Browse_Str_UTF8_encoding  "UTF-8-kodning av filnamn (av: ANSI-kodning)"
+Browse_Tip_UTF8_encoding  "Om markerad: använd UTF-8 för att koda fil- och mappnamn på servern. Inte markerad: använd ANSI för att koda filnamn på servern"
+Browse_Str_WinInet 		  "WinInet-baserad (komplexa proxies, auth)"
+Browse_Tip_WinInet		  "MArkerad: använd WinInet-baserade genomföranden som kan hantera komplexa proxies och komplex Windows-baserad autentisering, men har begränsningar och är långsammare. Ej markerad: Använd socket-baserade genomföranden som inte hanterar komplex Windows-authentication och proxies, men är snabbare och mer stabil"
+Browse_Str_Use_Proxy      "Anslut via proxyinställningar i Programalternativ -> Anslutning"
+Browse_Tip_Use_Proxy      "Anslut till denna server via proxyserver som är specificerad och aktiverad i Verktyg -> Programalternativ -> Anslutning"
+Browse_Str_FatLike		  "FAT-filsystem som inte avslöjar sig själv"
+Browse_Tip_FatLike		  "Använd FAT-filsystemregler, även om filsystemet säger att det inte är FAT. Vissa NAS-enheter felrapporterar sitt filsystem."
+Browse_Str_TimeTranslate      "Filsystem kan inte kopiera/ställa in filers ändringstid"
+Browse_Tip_TimeTranslate      "Markera denna flagga om detta filsystem inte kan kopiera/ställa in filers ändringstid och memorering av faktisk tid i state-filen krävs."
+Browse_Str_PreferEncrypted "Kryptera med EFS"
+Browse_Tip_PreferEncrypted    "Kryptera denna sida med EFS. Fungerar bara på NTFS-volymer, inte vid FAT"
+Browse_Str_PreferDecrypted "Dekryptera med EFS"
+Browse_Tip_PreferDecrypted    "Dekryptera denna sida om den andra sidan är krypterad med EFS. Fungerar bara på NTFS-volymer, inte vid FAT"
+Browse_Str_PreferCompressed   "Komprimera vid NTFS"
+Browse_Tip_PreferCompressed   "Komprimera denna sida med LZ-komprimering. Fungerar bara på NTFS-volymer, inte vid FAT"
+Browse_Str_PreferUncompressed "Dekomprimera vid NTFS"
+Browse_Tip_PreferUncompressed "Dekomprimera denna sida om den andra sidan är komprimerad. Fungerar bara på NTFS-volymer, inte vid FAT"
+Browse_Str_IgnoreBadCerts  "Tillåt inte-matchande eller utgångna SSL servercertifikat"
+Browse_Tip_IgnoreBadCerts     "Om markerad tillåt ickematchande eller utgångna SSL-servercertifikat i HTTPS-protokoll. Om inte markerad utlös fel vid felaktigt certifikat"
+Browse_Str_Redundancy		"Reducerad redundanslagring"
+Browse_Tip_Redundancy		"Om markerad, använd alternativet S3's reducerade redundanslagring (RRS). Om ej markerad, använd standard redundanslagring."
+Browse_Str_ServerEncrypt	"Serversidans kryptering"
+Browse_Tip_ServerEncrypt	"Om markerad, kryptera filer med AES256 på S3. Om ej markerad, lagra raw fildata."
+Browse_Str_NativeFiles		"Importera/exportera Google's ursprungliga filer"
+Browse_Tip_NativeFiles		"Om markerad, Google Docs-filer i ursprungsformat kan laddas ned och upp, förutom ej ursprungsfiler (externa): Nedladdning av fil medför exportering från Google Doc, uppladdning av Google doc medför importering av lokal fil till Google Doc. Om ej markerad, endast ej ursprungsfiler (externa) utbyts. Detta läge kan orsaka extremt långsam analys och fel."
+
+Browse_Str_OAuth2Title		"Instruktioner för %1 OAuth2 inloggning"
+Browse_Str_OAuth2Message	"Du kommer att tillfrågas i din standardwebbläsare\nom GoodSync kan få tillgång till din %1.\n\nInnan du tillåter åtkomst, se till att\ndu är inloggad till rätt %1 konto.\nOm inte, vänligen logga ut och logga in vid behov.\n\nDitt effektiva användar-ID kommer att visas i fältet Användar-ID\ni fönstret 'Bläddra' efter webbläsarinloggning."
+
+
+Browse_Btn_Go			"Kör"
+Browse_Btn_Stop				"Stoppa"
+Browse_Btn_Servers			"Servrar"
+Browse_Btn_Opts_More		"Mer"
+Browse_Btn_Opts_Less		"Mindre"
+Browse_Btn_NewFolder	"Skapa ny mapp"
+Browse_Btn_NewFolder_Tip	    "Ska ny mapp i den aktuella mappen"
+Browse_NewFolder_Prompt_1	"Ange namn på ny mapp som skapas i '%1'"
+Browse_MultiSelect			"Välj flera objekt"
+Browse_ShowFiles			"Visa filer"
+
+
+
+Browse_Tip_MyComputer		"Min dator avser diskar tillgängliga i denna dator: lokala diskar, flyttbara diskar anslutna till datorn, flyttbara enheter som visar ett filsystem (de flesta Palm-enheter), musikspelare som visar sitt filsystem (äldre iPod). %%GSDISK%% i sökväg avser disk från vilken GoodSync.exe startades – använd den till att specificera Min disk i GoodSync2Go"
+Browse_Tip_GSConnect		"GoodSync-anslutning. Ange ditt användar-ID och lösenord för GoodSync Connect för att verifiera. Klicka på knappen 'Servrar' för att bläddra bland dina servrar eller ange gstp://<dator-id>.<användar-id>.goodsync för att använda en specifik server."
+Browse_Tip_MyNetwork		"Mitt nätverk avser delat nätverk i Windows (SMB-protokoll) som du kan se i Utforskaren för andra datorer i ditt lokala nätverk. Mappar och diskar måste vara delade i andra datorer för att de ska dyka upp här."
+Browse_Tip_MTP				"Media Transfer Protocol (MTP). Mobila enheter använder det för att visa sina filer. Klicka på 'Servrar' för att se en lista över enheter som är anslutna till din dator."
+
+Browse_Tip_FTP   "FTP-servrar. Kräver IP-adress till server för att ansluta, användar-id och lösenord för att autentisera. Försök aktivt läge om förvalt passivt läge inte fungerar "
+Browse_Tip_WebDav			"WebDAV-server. Kräver IP-adress till server för att ansluta, användar-id och lösenord för att autentisera. Använd https://-prefix för att kryptera trafiken med SSL"
+Browse_Tip_AmazonS3			"Amazon S3 Online Storage. Hittills finns det bara en sådan server, så du kan inte ändra servernamnet. Kräver Access Key ID och Secret Access Key för att autentisera. Bucket är toppnivåmapp."
+Browse_Tip_SecureFTP		"SecureFTP-servrar (SFTP eller FTP över SSH). Kräver serverns adress för att ansluta, användar-id och lösenord eller Private Key-fil (i PuTTY-format) och lösenord för att autentisera. Du kan använda PuTTY Pageant för att lagra privat nyckellösenord. Använd PuTTY-session för att specificera proxyinställningar"
+
+Browse_Tip_GDocs			"Google Drive (Docs). Ange din Google e-postadress (användarnamn@gmail.com). Klicka sedan på 'GÅ' för att fortsätta inloggningen (OAuth2) i din standardwebbläsare."
+Browse_Tip_WindowsAzure		"Windows Azure av Microsoft. Ange ditt Azure användarnamn och lösenord, klicka sedan på 'GÅ' för att logga in."
+Browse_Tip_Dropbox			"Dropbox. Lämna fältet Användar-ID tomt, klicka på [GÅ] för att fortsätta inloggningen (OAuth2) i din standardwebbläsare."
+Browse_Tip_OneFile		    "Hela fil/mappträdet lagras i en fil, komprimerad och krypterad. Klicka på 'Avancerat' för att ange sökvägen till den lokala målfilen som lagrar fil/mappträdet. Ger mest säkerhet på grund av komplett kryptering, men målfilen monteras i minnet, så filstorleken är begränsad."
+
+Browse_Tip_WinMobile		"Windows Mobile-enhet. Kan vara telefon eller fickdator. Microsoft ActiveSync eller WMDC måste vara installerat och igång och enheten måste vara dockad för att GoodSync ska se den. Enheten krävs inte för samverkan med datorn."
+
+Browse_Tip_Unknown			"Ingen hjälp för detta okända filsystem "
+
+
+# Buy License dialog
+BuyPro_Title	"Funktioner i PRO"
+BuyPro_Text_ProFixed	"Uppgradera till GoodSync Pro idag:\n- Obegränsat antal jobb,\n- Obegränsat antal i ett jobb,\n- Telefonsupport, Direktaktivering med mera"
+BuyPro_Text_Pro2Go     "Uppgradera till GoodSync2Go Pro idag för att få:\n- Obegränsat antal jobb,\n- Obegränsat antal filer i ett jobb,\n- Telefonsupport, Direktaktivering m m."
+BuyPro_Text_Server     "Uppgradera till GoodSync Enterprise Server för att:\n- Ta bort testbegränsningar,\n- Få anpassad support för Enterprise,\n-Få din egen kontohanterare"
+BuyPro_Limit_Pro		"Du har överskridit begränsningarna i gratisversionen. För att fortsatt använda GoodSync bör du uppgradera till Proversionen av GoodSync eller minska dina jobb till 3 eller filer i ett jobb till 100."
+BuyPro_Limit_Server     "Användning av GoodSync på en Windows-server kräver licens för Enterprise Server."
+BuyPro_Link		"Klicka här för att få veta mer om fördelarna med Proversionen jämfört med gratisversionen"
+
+
+# Activation Wizard
+Act_Header			"Tack för att du köper vår produkt"
+Act_Title			"Aktivering av GoodSync"
+Act_Field_Req_Err_1	"'%1' krävs för aktivering."
+Act_User_Name		"Användarnamn"
+Act_User_Order		"Order-ID (NNNNNNNNNN) eller Orderkod (XXX-XXX-XXX-XXX)"
+Act_User_Online_Btn	"Aktivera direktansluten (rekommenderas):"
+Act_User_Online_Tip "GoodSync ansluter till en aktiveringsserver över Internet"
+Act_User_ViaBrowser_Btn	"Aktivera direkt via webbläsare (bara om direktaktivering misslyckas):"
+Act_User_ViaBrowser_Tip "Du ansluts till Aktiveringsserver via din egen webbläsare"
+Act_User_Order_Err	"Vänligen ange ditt fullständiga 10-siffriga ordernummer eller din orderkod i formatet XXX-XXX-XXX-XXX."
+Act_Btn_Back		"Tillbaka"
+Act_Btn_Finish		"Slutför"
+Act_Btn_Next		"Nästa"
+
+
+
+
+
+
+
+
+
+
+Act_ViaBrowser_Txt	"Gå till http://activate.goodsync.com i någon webbläsare eller klicka på länken nedan. Klicka på knappen Kopiera som kopierar Dator ID till Urklipp. Klistra sedan in denna i fältet Computer ID och klicka på Skicka. Kopiera därefter Aktiveringskoden från webbläsaren till fönstret Activation Code nedan och klicka på Nästa."
+
+Act_ViaBrowser_Copy	"Kopiera"
+Act_ViaBrowser_ActCode_Txt "Klistra in din Aktiveringskod här"
+
+Act_Finish_Success	"Tack för köpet av GoodSync!\nDin kopia är nu aktiverad."
+Act_Finish_Connect	"Ansluter till aktiveringsserver"
+Act_Finish_Fail		"Aktivering misslyckades"
+
+
+# Create ticket 
+Ticket_File_Desc    "Följande fil innehåller diagnostisk information. Vänligen notera att den inte innehåller någon privat information från din dator."
+Ticket_Instruction  "Kopiera sökvägen till Urklipp och klistra in den i rutan 'Bifoga filer' på Supportmeddelandet.\nKlicka på länken nedan för att skapa supportmeddelande."
+Ticket_Btn_Copy		"Kopiera sökväg"
+
+# Mini Mode
+Str_MiniDlgNoActiveJob	"Inga aktiva jobb"
+
+# Log Viewer general
+LV_AppTitle					"Loggar"
+LV_LogListTitle				"Loggfilnamn"
+LV_OpenLogDlg				"Öppna loggmapp"
+LV_TotalLine				"Total"
+
+# Log Viewer Error
+LV_Err_NoLogFileFound		"<Inga loggfier hittas>"
+LV_Err_UnknownFs			"Obekant filsystem"
+LV_Err_CannotOpenFile2		"Kan inte öppna filen %1: %2"
+LV_Err_ReadingFile2			"Fel vid läsning av filen %1: %2"
+LV_Err_ParseCmdLine			"Fel vid tolkning av kommandorad"
+
+# Log Viewer Find Window
+LV_Find						"Sök:"
+LV_FindNext					"Nästa"
+LV_FindPrev					"Föreg."
+LV_FindAll					"Sök alla"
+LV_FindCaseSens				"Teckenlägeskänslig"
+
+#Log Viewer Menu
+LV_MenuFile					"Arkiv"
+LV_MenuView					"Visa"
+LV_MenuOpen					"Öppna"
+LV_MenuExit					"Avsluta"
+LV_MenuCopyAsText			"Kopiera urval till Urklipp"
+LV_MenuSelectAll			"Välj alla"
+LV_MenuDelete				"Radera"
+LV_MenuFind					"Sök"
+LV_MenuSelectFont			"Välj typsnitt"
+
+# For Mac
+
+Menu_Mac_Window					"Fönster"
+Menu_Mac_Zoom					"Zooma"
+Menu_Mac_Minimize				"Minimera"
+Menu_Mac_BringToFront			"Flytta fram alla"
+Menu_Mac_Undo					"Ångra"
+Menu_Mac_Redo					"Gör om"
+Menu_Mac_Preferences			"Inställningar..."
+Menu_Mac_Wipeout				"Avinstallera GoodSync..."
+Menu_Mac_Services				"Tjänster"
+Menu_Mac_HideProgram			"Dölj GoodSync"
+Menu_Mac_HideOthers				"Dölj annat"
+Menu_Mac_Quit					"Avsluta"
+Menu_Mac_ShowToolbar			"Visa verktygsfält"
+Menu_Mac_HideToolbar			"Dölj verktygsfält"
+Menu_Mac_CustomizeToolBar		"Anpassa verktygsfält"
+
+
+
+
+Str_Mac_UseProxyAuto            "Använd systemets proxyinställningar"
+
+Chk_Mac_AutoStart					"Starta GoodSync när Mac startar"
+
+
+Browse_Mac_Btn_Disconnect		"Koppla ifrån"
+Browse_Mac_Str_UnmountOnDisc    "Avmontera mapp eter synkronisering"
+Browse_Mac_Tip_UnmountOnDisc    "Mapp kommer att avmonteras efter att analys eller synkronisering stoppats"
+
+Str_Mac_GSFolder						"Mapp"
+Str_Mac_FinderFavorities                 "~Favoriter"
+Str_Mac_WelcomeScreenTitle				"Välkommen"
+
+
+
+Browse_Mac_Str_Network_UpdateBtn		"Uppdatera"
+Browse_Mac_Str_Network_NetworkEnv		"Nätverksmiljö"
+Browse_Mac_Str_Network_IP_Column		"IP-adress"
+Browse_Mac_Str_Network_Desc_Column		"Beskrivning"
+Browse_Mac_Str_Size						"Storlek"
+Browse_Mac_Chk_ShowHidden               "Visa dolda filer/mappar"
+
+Browse_Mac_Str_Use_Proxy                "Anslut via proxy om en finns inställd i Inställningar -> Anslutning"
+Browse_Mac_Tip_Use_Proxy                "Anslut till denna server via proxyserver som är specificerad och aktiverad i Inställningar -> Anslutning"
+
+Menu_Mac_ShowAll						"Visa alla"
+
+
+
+Cmd_Mac_Str_Show					"Visa"
+Cmd_Mac_ShowLeftTrashBin			"Vänstra papperskorgen"
+Cmd_Mac_ShowRightTrashBin			"Högra papperskorgen"
+Cmd_Mac_MakeGSDataVisible			"Gör gsdata synlig"
+Cmd_Mac_MakeGSDataInVisible			"Gör gsdata osynlig"
+
+Str_Status_Mac_AnalyzeFinished_OK	"Analysen slutförd"
+Str_Status_Mac_AnalysisStarted		"Analys startad"
+Str_Status_Mac_SyncStarted		"Synkronisering startad"
+Str_Status_Mac_TrayMenuMulyiAnalyze "%1 jobb körs"
+
+Str_Mac_EqComprassion			"Båda filerna är lika"
+Str_Mac_NoActiveJob             "Inga aktiva jobb"
+
+Btn_Mac_Check					"Logga in"
+Btn_Mac_Install					"Installera"
+Btn_Mac_Remove					"Ta bort"
+Btn_Mac_Finish					"Klar"
+
+Toolbar_Mac_Compare_OneShortWord		"Jämför"
+ToolBar_Mac_ShowLog_OneShortWord		"Visa logg"
+Toolbar_Mac_HideLog_OneShortWord		"Dölj logg"
+Toolbar_Mac_Preferences_OneShortWord	"Inställningar"
+Toolbar_Mac_Customize_OneShortWord		"Anpassa"
+
+Str_Mac_Default_Group_Groups	 "GRUPPER"
+Str_Mac_Default_Group_Jobs		 "JOBB"
+
+Str_Mac_Count_Jobs_In_Status_Bar	"jobb"
+Str_Mac_Count_Job_In_Status_Bar		"jobb"
+
+
+
+Str_Mac_StartupScreen_WelcomeDescr "Säkerhetskopiera eller synkronisera dina filer"
+Str_Mac_StartupScreen_Btn_Create "Skapa ett nytt jobb"
+Str_Mac_StartupScreen_Str_HowTo	 "Hur du börjar"
+Str_Mac_StartupScreen_Str_Choose "Välj de vänstra och de högra mapparna för ditt nya jobb."
+Str_Mac_StartupScreen_Str_ClickAnalyze "Klicka på 'Analys' och granska de föreslagna ändringarna."
+Str_Mac_StartupScreen_Str_ClickSync "Klicka på 'Synkronisera'."
+Str_Mac_StartupScreen_Str_YesEasy "- Ja, så lätt är det!"
+
+Str_Mac_ToolTipInStatusBar_Create "Skapa ett nytt jobb"
+Str_Mac_ToolTipInStatusBar_Delete "Radera jobb"
+Str_Mac_ToolTipInStatusBar_JobActions "Jobbåtgärder"
+Str_Mac_ToolTipInStatusBar_ShowHideLog "Visa/dölj logg"
+
+
+Str_Mac_GSStartUpScreen_CheckSucc				"Inloggning lyckades"
+Str_Mac_GSStartUpScreen_CreationSucc			"Skapning lyckades"
+Str_Mac_GSStartUpScreen_HaveGSAccount			"Jag har ett GoodSync Connect-konto"
+Str_Mac_GSStartUpScreen_CreateGSAccount			"Skapa GoodSync Connect-konto"
+Str_Mac_GSStartUpScreen_WillInstallGSServer		"GoodSync kommer att installera GoodSync server för att ge en bättre synkronisering."
+Str_Mac_GSStartUpScreen_WillUpdateGSServer		"GoodSync kommer att uppdatera GoodSync server för att ge en bättre synkronisering."
+Str_Mac_GSStartUpScreen_GSServerInstallFailed	"GoodSync's serverinstallation misslyckades"
+Str_Mac_GSStartUpScreen_GSServerUpdateFailed	"GoodSync's serveruppdatering misslyckades"
+Str_Mac_GSStartUpScreen_PassNotMatch			"Lösenorden matchar inte"
+Str_Mac_GSStartUpScreen_WillRemoveGSServer		"GoodSync kommer att ta bort GoodSync server"
+Str_Mac_GSStartUpScreen_RemoveGSServerStatus	"Goodsync Connect har tagits bort"
+Str_Mac_GSStartUpScreen_UpdateGSServerStatus	"Goodsync Connect har uppdaterats"
+Str_Mac_GSStartUpScreen_InstallGSServerStatus	"Goodsync Connect har installerats"
+Str_Mac_GSStartUpScreen_UserName				"GoodSync Användar-ID"
+Str_Mac_GSStartUpScreen_Password				"GoodSync Lösenord"
+Str_Mac_GSStartUpScreen_ConfPassword			"Bekräfta lösenordet"
+Str_Mac_GSStartUpScreen_AdminSubmitPassMessage	"Ange användarnamn och lösenord för dit befintliga GoodSync Connect-konto. Alla datorer som har samma användarnamn och lösenord kan synkronisera med varandra"
+Str_Mac_GSStartUpScreen_AdminCreatePassMessage	"Ange användarnamn och lösenord som unikt identifierar dig till GoodSync-tjänsten. Alla datorer som har samma användarnamn och lösenord kan synkronisera med varandra"
+Str_Mac_GSStartUpScreen_AdminPassHeader			"GoodSync Connect-installation"
+
+#
+# Mac wipeout
+#
+Str_Mac_Wipeout_Text 			"Är du säker på att du vill ta bort GoodSync från din Mac?"
+Str_Mac_Wipeout_Title 			"GoodSync är på väg att avinstalleras."
+
+#
+# GoodSync Connect setup wizard strings
+#
+
+# Runner Wizard
+GsRunnerSetup_Request           "GoodSync Runner Service behövs för att köra jobb i oövervakat läge.\nVill du installera det (rekommenderas)?"
+GsRunnerSetup_WindowTitle		"Runner Service-installation"
+GsRunnerSetup_ThisWinUser		"GoodSync Runner Service kommer att köras under detta Windows-konto:"
+GsRunnerSetup_WinNote			"GoodSync Runner Service behöver Windows-lösenordet för att köra dina jobb i obevakat läge.\nOm du anger fel lösenord, kan inte GoodSync Runner-tjänsten köras."
+GsRunnerSetup_FinalMsg			"GoodSync Runner Service kommer att uppdateras"
+
+
+# Connect Wizard -- first page
+GsConnSetup_WindowTitle			"GoodSync Connect-installation"
+GsConnSetup_FirstRunTitle		"Välkommen till GoodSync Connect-installation"
+GsConnSetup_ConfigureTitle		"Konfigurera GoodSync Connect"
+GsConnSetup_WantConnectQuestion	"Vill du att den här datorn ska ansluta till dina andra datorer?"
+
+
+
+
+GsConnSetup_SkipBtn				"Hoppa över"
+
+# Wizard -- account settings
+GsConnSetup_UseThisAccount		"Använd detta GoodSync Connect-konto:"
+
+GsConnSetup_CreateNewAccount	"Skapa ett nytt GoodSync Connect-konto"
+GsConnSetup_RegisterThis		"Registrera denna dator med ditt GoodSync Connect-konto:"
+GsConnSetup_SameAccountNote		"Datorer som är registrerade i samma GoodSync Connect-konto kan synkronisera med varandra."
+GsConnSetup_ComputerID			"Dator-ID"
+GsConnSetup_UserID				"Användar-ID"
+GsConnSetup_Password			"Lösenord"
+GsConnSetup_Retype				"Skriv igen"
+GsConnSetup_YourName			"Ditt namn"
+GsConnSetup_Email				"E-post"
+
+# Wizard -- windows user settings
+GsConnSetup_ConfigureWinUser	"Konfigurera Windows-användare"
+
+GsConnSetup_WinUser				"Windows-användare"
+GsConnSetup_WinPassword			"Windows-lösenord"
+GsConnSetup_WinNote				"GoodSync Server behöver ditt Windows-lösenord för att komma åt dina filer för GS Connect-klient.\nOm du anger ett felaktigt lösenord, så kommer inte GoodSync Server att kunna läsa och skriva filer."
+
+# Wizard -- last page
+GsConnSetup_FinWillBeSetTo		"GoodSync Connect kommer att ställas in till"
+GsConnSetup_FinRunGoodSync		"Kör GoodSync"
+GsConnSetup_FinRunGsExplorer	"Kör GoodSync Explorer"
+
+# Wizard -- status and error messages
+GsConnSetup_StConnMediator		"Ansluter till Mediator..."
+GsConnSetup_StLocalOnlyMode		"Endast lokalt läge"
+GsConnSetup_StNoDiscoveryMode	"GoodSync Connect: Inget Discovery-läge"
+GsConnSetup_StServerMode		"GoodSync Connect: Serverläge"
+GsConnSetup_ThisComputerAddr	"Denna datoradress"
+GsConnSetup_ErrSelectSomething	"Välj någonting."
+GsConnSetup_ErrNoUserID			"GoodSync Connect's användar-ID är inte angett"
+
+GsConnSetup_ErrNoPassword		"GoodSync Connect's lösenord är inte angett"
+GsConnSetup_ErrPasswordShort	"Lösenordet är för kort"
+GsConnSetup_ErrPasswordMatch	"Lösenorden matchar inte"
+
+GsConnSetup_ErrBadEmail			"E-postadressen är ogiltig"
+GsConnSetup_ErrNoWinAccount		"Windows kontonamn kan inte vara tomt"
+

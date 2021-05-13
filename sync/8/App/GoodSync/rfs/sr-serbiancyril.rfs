@@ -1,0 +1,1126 @@
+﻿# RFS file codepage.
+RFS_CODEPAGE "1251"
+RFS_LANGUAGE "Српски"
+
+# Menus
+Menu_Job				"Посао"
+Cmd_JobNew				"Нови"
+Cmd_JobDelete			"Избриши"
+Cmd_JobRename			"Преименуј..."
+Cmd_JobSaveTemplate     "Сачувај као шаблон..."
+Cmd_JobClone			"Клонирај рад..."
+Cmd_JobSwapSides		"Пребаци стране рада"
+Cmd_Analyze			"Анализирај"
+Cmd_Analyze_Comp_MD5	"Анализа: Упореди MD5s"
+Cmd_Analyze_Comp_Body	"Анализа: Упореди тела"
+Cmd_AnalyzeAll			"Анализирај све"
+Cmd_Sync				"Синхронизуј"
+Cmd_SyncAll				"Синхронизуј све"
+Cmd_AnalyzeAndSyncThis	"Анализирај и синхронизуј"
+Cmd_AnalyzeAndSyncAll	"Све анализирај и синхронизуј"
+Cmd_Stop				"Заустави"
+Cmd_StopAll				"Заустави све"
+Cmd_SuspendAuto			"Угаси ауто покретање"
+Cmd_JobListOfChanges	"Списак промена"
+Cmd_JobOpenLogLeft		"Отвори леви извештај"
+Cmd_JobOpenLogRight		"Отвори десни извештај"
+Cmd_JobOptions			"Подешавања..."
+Cmd_JobResetState		"Бриши статусне датотеке"
+Cmd_JobDeleteBackup		"Бриши канту и историјат"
+Cmd_JobDeleteGsData		"Бриши _gsdata_ фасцикле"
+Cmd_AppExit				"Излаз"
+Cmd_Cut				"Исеци"
+Cmd_Copy				"Копирај"
+Cmd_Paste			"Налепи"
+Cmd_ExportJobsList		"Извоз списка рада..."
+Cmd_ExportSelJobsList	"Извоз изабраних радова..."
+Cmd_ImportJobsList		"Увоз списка рада..."
+
+Menu_View				"Приказ"
+Cmd_ViewStatusBar		"Статусна трака"
+Cmd_ProgOptions			"Могућности програма..."
+
+
+Cmd_View_FullWindow		"Пуни режим"
+Cmd_View_MiniWindow		"Мали режим"
+Cmd_View_TrayIcon		"Стартни плато"
+
+Menu_Help				"Помоћ"
+Cmd_AppAbout			"О програму..."
+Cmd_AppManual			"Приручник"
+Cmd_AppFAQ				"Најчешћа питања"
+Cmd_AppCreateTicket		"Направи тикет подршци..."
+Cmd_Help_BuyPro			"Купи ПРО"
+Cmd_Help_Activate		"Активирај ПРО"
+Cmd_CheckUpdates		"Провери ажурирања"
+Cmd_Test				"Проба"
+
+Cmd_ShowAll				"Све"
+Cmd_ShowChanges			"Промене"
+Cmd_ShowConflict		"Сукоб"
+Cmd_ShowError			"Грешка"
+
+Cmd_ShowToDelete		"Избриши"
+Cmd_ShowExcluded		"Одбијено"
+Cmd_ShowIncluded		"Са"
+Cmd_ShowSameLenDiffTime "Иста дужина, други датум"
+Cmd_ShowNotYetSynced    "Није још синхронизовано"
+Cmd_ShowAllAll          "Све уживо+Мртво"
+
+Menu_Actions			"Акција"
+Cmd_ViewJobList			"Списак рада"
+Cmd_ViewJobFilter		"Филтер"
+Cmd_ViewLog				"Журнал"
+
+Menu_Tools				"Алатке"
+Cmd_ServerMainSetup     "Подешавање GoodSync привезивања..."
+Cmd_ServerControlPanel  "Server напредне опције..."
+Menu_View_Other			"Остало"
+
+
+# Context menus
+
+Cmd_ItemProp			"Својства"
+
+Cmd_ItemLOpen			"Отвори леву датотеку"
+Cmd_ItemROpen			"Отвори десну датотеку"
+Cmd_ItemLDelete			"Избриши леву датотеку"
+Cmd_ItemRDelete			"Избриши десну датотеку"
+Cmd_ItemDeleteBoth		"Избриши обе датотеке"
+
+Cmd_ItemLDeleteMul1		"Избриши %1 елементе са леве стране"
+Cmd_ItemRDeleteMul1		"Избриши %1 елементе са десне стране"
+Cmd_ItemBDeleteMul1		"Избриши %1 елементе са обе стране"
+
+Cmd_OpenLFolder			"Отвори леву фасциклу"
+Cmd_OpenRFolder			"Отвори десну фасциклу"
+Cmd_DeleteLFolder			"Бриши леву фасциклу"
+Cmd_DeleteRFolder			"Бриши десну фасциклу"
+Cmd_DeleteBothFolders		"Бриши обе фасцикле"
+
+Cmd_ItemCompare			"Упореди леву и десну"
+
+Cmd_Recommended			"Препоручено"
+Cmd_DoNotCopy			"Не копирај"
+Cmd_CopyLeftToRight		"Копирај лево->десно"
+Cmd_CopyRightToLeft		"Копирај десно<-лево"
+Cmd_DeleteLeftToRight	 "Бриши на десно"
+Cmd_DeleteRightToLeft	 "Бриши на лево"
+Cmd_RenameMove_LtoR		 "Преименуј/Премести на Десно"
+Cmd_RenameMove_RtoL		 "Преименуј/Премести на Лево"
+Cmd_CopyTimeLeftToRight  "Копирај време Л на Д"
+Cmd_CopyTimeRightToLeft  "Копирај време Д на Л"
+Cmd_NameCaseLeftToRight  "Име Л на Д"
+Cmd_NameCaseRightToLeft	 "Име Д на Л"
+Cmd_CopyStateLeftToRight "Копирај статус Л на Д"
+Cmd_CopyStateRightToLeft "Копирај статус Д на Л"
+Cmd_CopyStateSyncTail    "Синхронизуј статус"
+
+Str_Items1				" %1 елемената"
+
+Cmd_ItemExcludeFile1		"Искључи датотеку '%1'"
+Cmd_ItemExcludeFolder1		"Искључи фасциклу '%1'"
+Cmd_ItemExcludeMulti1		"Одбаци %1 одабрани елемент"
+
+Cmd_ItemIncludeFile1		"Увоз само '%1' датотеке"
+Cmd_ItemIncludeFolder1		"Увоз само '%1' фасцикле"
+Cmd_ItemIncludeMulti1		"Увоз само %1 одабрани елемент"
+
+Cmd_ItemExcludeAllFiles1		"Искључи све '%1' датотеке"
+Cmd_ItemExcludeAllFolders1	"Искључи све '%1' фасцикле"
+Cmd_ItemExcludeAllMulti1	"Одбаци елемента са именом као %1 одабрани елемент"
+
+Cmd_ItemExcludeAllMask1	"Искључи све '*%1' датотеке"
+Cmd_ItemExcludeAllMaskMulti1	"Одбаци елемента са типом као %1 одабрани елемент"
+
+Cmd_ItemIncludeAllMask1	"Укључи само '*%1' датотеке"
+Cmd_ItemIncludeAllMaskMulti2	"Убаци елемент са екстензијом као %1 одабраних елемената"
+
+
+# Taskbar Icon menu
+
+
+# Buttons below tree
+Grp_Actions				"Акције"
+Btn_Analyze				"Анализирај"
+Btn_SyncRun				"Синхронизуј"
+Btn_Stop				"Стани"
+Btn_Pause				"Пауза"
+Btn_Resume				"Настави"
+Btn_Auto				"Ауто"
+Btn_Clear               "Испразни"
+Grp_Show				"Приказ стабла"
+Cmd_ShowToCreate		"Ново"
+Cmd_ShowToOverwrite		"Препиши"
+
+Chk_AutoScroll			"Померање"
+
+# Tree view Columns
+Str_TreeItem			"Ставка"
+Str_TreeLSize			"Л велич."
+Str_TreeLDate			"Л датум"
+Str_TreeL				"Л"
+Str_TreeCenter			""
+Str_TreeR				"Д"
+Str_TreeRSize			"Д велич."
+Str_TreeRDate			"Д датум"
+Str_TreeStatus			"Статус"
+
+# Misc buttons
+Btn_Add					"Додај"
+Btn_Delete              "Избриши"
+Btn_Ok					"У реду"
+Btn_Save				"Сачувај"
+Btn_Cancel				"Поништи"
+Btn_Apply				"Постави"
+Btn_Yes					"Да"
+Btn_No					"Не"
+Btn_Abort               "Поништи"
+Btn_Retry               "Понови"
+Btn_Ignore              "Занемари"
+Btn_Try                 "Пробај"
+Btn_Close               "Затвори"
+Btn_Help                "Помоћ"
+Btn_Continue			"Настави"
+Btn_Browse				"Тражи"
+Help_Browse_File		"Кликни овде за одабир датотеке у дијалогу"
+Help_Browse_Folder		"Кликни овде за одабир фасцикле у дијалогу"
+
+
+# Tooltips for buttons, for new users
+Tip_Browse_Left			"Одабери леву синх. фасциклу.\nКликни на претражи и унеси кориснички ID, лозинку и URL за мрежну фасциклу."
+Tip_Browse_Right		"Одабери десну синх. фасциклу.\nКликни на претражи и унеси кориснички ID, лозинку и URL за мрежну фасциклу."
+Tip_Change_Way			"Промени смер рада и друга подешавања"
+Tip_Analyze				"Анализа посла, покажи списак између леве и десне фасцикле и препоручи рад"
+Tip_Sync				"Синхронизуј претходно анализиране радове"
+Tip_Stop				"Заустави анализу или синх."
+Tip_Clear				"Испразни стабло разлике да бисте сачували меморију"
+Tip_Opt					"Подеси аутоматско покретање рада"
+Tip_Paused				"Заустављено. Кликнути овде за наставак"
+Tip_Pause				"Привремено искључи анализу или синх."
+
+# New Job dialog
+Title_JobName			"Нов GoodSync посао"
+Str_JobName				"Име посла"
+Str_JobTemplate			"Са шаблона:"
+Str_BadJobName1			"Име не може да садржи ове знакове: / \\ ? < > : * |"
+Str_BadJobName2			"Име не може да буде '%1'."
+Str_BadJobName3			"Име не може да буде празно или веће од 100 карактера."
+Str_JobNameExists		"Рад са тим именом већ постоји."
+Str_JobType				"Одабери тип рада"
+Str_JobType_Sync		"Синхронизуј"
+Str_JobDesc_Sync		"Рад два-смера: датотеке су промењене на обе стране, пошаљи промене на обе стране. Скривене и системске датотеке су одбијене"
+Str_JobType_Backup		"Копија"
+Str_JobDesc_Backup		"Рад један-смер.: датотеке су промењене само на десној страни, шаље промене у леву страну. Скривене и системске датотеке су убачене"
+Str_JobType_Template	"Од модела:"
+Str_JobDesc_Template	"Модел је делимично попуњен рад за чувањем омиљене опције. Модел садржи опције рада, али не и фасцикле."
+Str_JobDesc_NoTemplate_1 "Нема још направљеног модела. Користи '%1' команду за прављење новог модела."
+Str_Combo_NoTemplate	"<нема модела>"
+Title_RenameJob			"Преименуј рад"
+Title_CloneJob			"Клонирај рад"
+Str_NewJob_Header		"Добродошли у GoodSync"
+Str_NewJob_Descr		"Креирајмо први посао"
+Str_NewJobClose			"Сигурно затворите GoodSync?\nСтисни У реду за излаз, GoodSync ће питати за прављење посла при следећем покретању.\nСтисни Поништи да бисте се вратили и унели име новог посла."
+Lnk_Tutorial			"Како се ради?"
+
+# Job Tabs control buttons
+Str_TabAddNewJob		"Додај нови рад"
+Str_TabScrollLeft		"Смотај лево"
+Str_TabScrollRight		"Смотај десно"
+
+# Windows menu and dialog
+Warn_GoodSync			"GoodSync узбуне"
+Warn_GoodSyncStrong		"Јака GoodSync узбуна"
+
+
+
+# Job List Pane
+Title_JobList			"Списак рада"
+Title_TaskName			"Име рада"
+Title_LastRunTime		"Задње покретање"	
+
+#Log Pane
+Title_LogWnd			"Прозор журнала"
+
+# Help -> About
+Title_About				"О..."
+Tip_About				"О..."
+Str_RegTo				"Регистровано:"
+Help_ChkVer				"Повежи се на GoodSync сервер и проверити да ли је доступно ново издање."
+Help_SmtpTest			"Пробај ова STMP подешавања тако што пошаљете пробну поруку серверима GoodSync-а."
+Help_SysStat			"Показује податке о GoodSync издању. Молим да пошаљете ове податке када контактирате техничку подршку."
+
+# Program Options
+Title_Options			"Могућности GoodSync-а"
+Str_Options				"Могућности"
+
+Help_NotDefined			"Нема помоћи за ову контролу"
+Help_MouseOver			"Прелетите избор мишем да би се видео детаљан опис. Стисните Alt за померање или копирање текста помоћи."
+
+Str_OptDetailedHelp     "Детаљни помоћ"
+Str_Updates             "Ажурирања"
+
+Str_Logs				"Извештаји"
+
+# Program Options - General
+Title_General			"Опште"
+Str_Lang				"Језик"
+Help_Lang				"Мења језик интерфејса за избор, опције и поруке.  Поновно покретање GoodSync-а је потребно ради учитавања новог језика."
+Chk_TrayIcon			"Сакриј у систему када је главни прозор затворен"
+Help_TrayIcon			"ON: Када затворите GoodSync, радиће у позадини. За приступ GoodSync-а, користити икону у палети.  OFF: када затворите GoodSync, брише се из меморије."
+Chk_AutoStart			"Покрени GoodSync са системом"
+Help_AutoStart			"GoodSync се аутоматски покреће када се пријавите на систем. Укључити ову могућност ако имате аутоматске радове. Не ради у Goodsync2Go"
+Chk_ShowSysTray			"Покажи GoodSync икону у палети"
+Help_ShowSysTray		"Покажи GoodSync икону у палети"
+
+Chk_ResetIM				"Врати све поруке на почетно"
+Help_ResetIM			"Омогући све претходно угашене поруке"
+Chk_AutoChkVer			"Дневна провера  ажурирања"
+Help_AutoChkVer			"GoodSync ће дневно контактирати www.goodsync.com за проверу ажурирања."
+Chk_CreateNewFolder		"Креирај леву/десну фасциклу ако не постоје"
+Help_CreateNewFolder	"GoodSync ће креирати леву/десну фасциклу ако не постоје."
+Chk_AutoHideMiniWin		"Аутоматски сакриј мини прозор када нема активних послова"
+Help_AutoHideMiniWin	"Аутоматски сакриј мини прозор када нема активних послова"
+Chk_Warn_TimeOutOfRange	 "Обавести на време ван опсега"
+Help_Warn_TimeOutOfRange "Обавести ако је промена датотеке ван [1980,2037] опсега"
+
+Str_LogDetailLevel		"Сачувај извештаје, ниво детаља"
+Help_LogDetailLevel		"Ниво датаља извештаја. Текст извештаји су сачувани у: (1) _gsdata_ фасцикле рада, (2) општа фасцикла извештаја"
+Str_LogCritical			"Критично"
+Str_LogError			"Грешке"
+Str_LogInfo				"Акције"
+Str_LogDetails			"Детаљи"
+
+Str_LogFolderGlobal		"У фасцикли"
+Help_LogFolderGlobal	"фасцила где је сачуван извештај. Ако је празна, писши у GoodSync фасцикли у профилу корисника"
+
+Str_LogRetainDays       "Задржи извештаје оволико дана"
+Help_LogRetainDays      "Задржи опште и глобалне извештаје за оволико дана"
+
+Str_CompareProg		"Програм упоређивања"
+Help_CompareProg		"Програм за упореду разлике који се користи из контекстуелном менију. Аргументу су путање датотеке за упореду. Нпр: ако дефинишете WinDiff.Exe овде, GoodSync ће га позвати као: WinDiff file1 file2. Ако није ништа унето, користиће се стандардни програм, што је UNIX diff"
+Str_ExecutableFiles		"Покретне датотеке"
+
+# Program Options -> Connection
+Title_Connect			"Веза"
+Title_Proxy				"Подешавања проксија"
+Str_UseProxy_No			"Не користи прокси"
+Str_UseProxy_Auto		"Користи прокси од Internet Explorer за удаљене везе"
+Help_UseProxy_Auto  	"Користи прокси дефинисан у Internet Explorer. То је за проксије дефинисане по WinINet и proxy.pac. 'Веза преко проксија' треба да буде одабрана у свим Пословима да би се користила"
+Str_UseProxy_Manual		"Користи овај прокси за удаљене везе"
+Help_UseProxy_Manual	"Користи унети прокси за удаљене везе. 'Веза преко проксија' треба бити одабрана у свим Пословима да би се користила"
+Str_ProxyHost			"Прокси сервер"
+Help_ProxyHost			"Унети овде име проксија"
+Str_ProxyPort			"Порт"
+Help_ProxyPort			"Унети порт проксија"
+Str_ProxyUserID         "Прокси корисник"
+Str_ProxyPasswd         "Лозинка"
+Help_ProxyAuth          "Унеси корисника и лозинку проксија ако је потребно"
+
+Str_SMTP_Enable			"Користи SMTP сервер за слање поште (ОФ: користи MAPI клијент)"
+Help_SMTP_Enable		"Унето: Користи SMTP сервер за слање е-поште анализе и синхронизације. Неодабрано: користи стандардни MAPI клијент за слање поште"
+Str_SMTP_Host			"SMTP сервер"
+Help_SMTP_Host			"Унеси SMTP име сервера"
+Str_SMTP_Port			"Порт"
+Help_SMTP_Port			"Унеси SMTP порт, обично 587 или 25."
+Str_SMTP_UserID         "SMTP корисник"
+Str_SMTP_Passwd         "Лозинка"
+Help_SMTP_UserID          "Унеси SMTP име сервера и лозинку за сервере којима је потребна идентификација"
+Str_SMTP_SenderEmail    "Е-пошта пошиљаоца"
+Help_SMTP_SenderEmail   "Унесите Е-пошту пошиљаоца и име како обавештава СМТП сервер. Може бити 'user@server.com' или 'Име Презиме <userid@server.com>'"
+Str_SMTP_Secure			"Осигурај SMTP слање преко SSL"
+Help_SMTP_Secure		"Ако је унето, шифруј SMTP комуникације користећи SSL на порту 465. Ако није унето, користи текст комуникација."
+
+
+# Job Options - General
+Title_JobGeneral		"Опште"
+Tip_JobGeneral			"Општи рад"
+Label_JobType			"Тип посла"
+Str_JobType_TwoWay		"Двосмерно Синх"
+Str_JobType_LeftToRight	"Лево->Десно (једносмерно)"
+Str_JobType_RightToLeft	"Десно->Лево (једносмерно)"
+Help_JobType			"Смер синхронизације. Двосмерни радови задржавају леву и десну фасциклу синхронизовану, и ако су датотеке промењене на обе стране.  Једносмерни радови мењају датотеке са леве на десну или са десне на леву, најчешће коришћено за сигурносне копије."
+
+Chk_DelPropagate	"Проширење брисања"
+Help_DelPropagate	"ОН: Ако је датотека избрисана са једне стране, GoodSync ће избрисати датотеку са друге стране.  ОФФ у 2-стране: уместо брисања ће бити копиране. ОФФ у 1-страну: брисање се мења у одбацивање елемента"
+
+Radio_OneWayDeleteSource "Премештање: Обриши извор после копирања"
+Help_OneWayDeleteSource	 "Једносмерно: Обриши извор после успешног копирања у циљу. То премешта датотеке из извора у циљ."
+Warn_OneWayDeleteSource  "Сигурно избриши извор после Синх?\nНЕ кликнути ДА осим ако сте сигурни."
+
+Check_DeleteEmptyFolders "Премештање: Обриши празну фасциклу после копирања"
+Help_DeleteEmptyFolders  "Обриши празне фасциклу у Премештању: ако је изворна фасцикла празна после синхронизације, онда је обрисати"
+
+Chk_CompareCheckSumAll		"Упореди податке датотеке (споро)"
+Help_CompareCheckSumAll		"Ако унето онда провери MD5 вредности датотеке да си се успоставило да ли су датотеке исте, у додавању са датомом датотеке и величином. Ако није унето онда упореси само датум/величину датотеке"
+
+Chk_SaveBakFiles		"Сачувај обрисане/преписане датотеке, само последња верзија"
+Help_SaveBakFiles		"Ако одабрано, сачувај обрисане/преписане датотеке у 'Канту' лоцирано овде _gsdata_/_saved_. Само последња верзија датотеке је сачувана. Ако неодабрано, онда датотеке не могу да се поврате после брисања/преписивања."
+Chk_CleanupBakFiles		"Очисти фасциклу _saved_ после оволико дана"
+Help_CleanupBakFiles	"Ако одабрано, уклони сачуване датотеке из фасцикле _gsdata_/_saved_, после унетог броја дана. Чишћење се дешава после синхронизације. Ако неодабрано, заувек задржи датотеке у _gsdata_/_saved_."
+Help_SavePrevDays		"Задржи претходне верзије обрисане/преписане датотеке у фасцикли _gsdata_/_saved_ за оволико дана"
+
+Chk_SavePastVersions	"Сачувај избрисане/премештене датотеке, више верзије"
+Help_SavePastVersions	"Сачувај датотеке које су избрисане или преписане са стране GoodSync из _gsdata_/_history_ фасцикле_. Више верзије су сачуване. Сваки пут пре него што програм препише или избрише датотеку, он је сачува у _gsdata_\\_history_ и дода датум у имену. Ако није одабрано, онда историјат није сачуван."
+Chk_CleanupPastVersions	 "Очисти _history_ фасциклу после оволико дана"
+Help_CleanupPastVersions "Избриши датотеке из фасцикле _gsdata_/_history_, после оволико дана. Брисање се збива после Синх. Ако није одабрано, онда заувек задржи датотеке из фасцикле _gsdata_\\_history_."
+Help_SavePastDays	 "Задржи старе верзије брисане/преписане датотеке у фасиклу _gsdata_/_history_ за оволико дана"
+
+Chk_CleanupOldGens	 "Обриши старе генереције после оволико месеци"
+Help_CleanupOldGens  "Ако унето, бриши генерације датотке ако су старије од оволико месеца. Ако очишћено, онда је листа генерације празна и датотека је обрисана са ове стране. Чишћење се дешава после синхронизације. Ако није унето, заувек задржи генрације датотеке."
+Help_SaveOldGensMonths "Задржи старе генерације за оволико месеца"
+
+Str_WorkerThreads		"Оволико синхронизуј истовремено:"
+Help_WorkerThreads		"Ако одабрано, покрени оволико синхронизовања истовремено. У зависности система, то може убрзати синхронизацију"
+
+Str_SpeedLimit			"Копија ограничена у КБ/сек, Преуз"
+Help_SpeedLimit  		"Успори копију ако просечна брзина преузимања/слања пређе ову вредност у КБ/сек. 0 значи без ограничења. 100 значи 100 КБ/сек што је отприлике 1 МБ/сек"
+Str_SpeedLimit_Upload		"Слање"
+Help_SpeedLimit_Upload  		"Граница слање података КБ/сек. 0 знаћи да је граница иста као за преузимање"
+
+Str_ShowBalloon			"Покажи облачиће поруке"
+Str_DoNotShowBalloon	"Никада"
+Str_ShowBalloonAlways	"На мењај и синх."
+Str_ShowBalloonOnError	"На сукобе и грешке"
+Help_ShowBalloon		"Одабери када да се покажу поруке у палети"
+
+# to be deleted
+
+
+
+
+
+# Job options - Filters page
+Title_Filters			"Филтери"
+Tip_Filters				"Филтери"
+Str_FilterExcluded		"Искључено"
+Help_FilterExcluded		"Датотеке и фасцикле које одговарају било којој линији листе биће одбијене од синхронизације. Знакови '*' и '?' могу се користити. Линије које почињу са / одговарају путањи синх. фасцикле. Примери: *.txt *~ /Фасц?кла/*.obj величина>1000 величина<=5k (величина < 5 Kb) величина>4m (величина > 4 Mb) време=2008/03/08 (Mar 8, 2008) сат>=-6d (сат >= пре 6 дана)"
+Str_FilterIncluded		"Укључено"
+Help_FilterIncluded		"Ако није празно, само датотеке које одговарају једној линији са дозвољене листе и не одговара одбијене листе, синхронизоване су."
+Tip_Filter_New			"Унеси нови филтер"
+Tip_Filter_Edit			"Промени одабрани филтер"
+Tip_Filter_Del			"Избриши одабрани филтер"
+Str_Filter_DummyText	"<Дупли клик за додавање елемента>"
+Str_Edit				"Уреди"
+
+Chk_ExcludeEmptyFolders	 "Одбаци празне фасцикле"
+Help_ExcludeEmptyFolders "Одбаци фасцикле које су празне или које садрже само одбијене датотеке и фасцикле"
+Chk_ExcludeHidden		 "Одбаци сакривене датотеке и фасцикле"
+Help_ExcludeHidden		 "Одбаци датотеке и фасцикле које имају особину 'HIDDEN'"
+Chk_ExcludeSystem		 "Одбаци системске датотеке и фасцикле"
+Help_ExcludeSystem		 "Одбаци датотеке и фасцикле које имају особину 'SYSTEM'"
+Str_FiltersChooseFiles   "Одабрати датотеке које ће бити убачене/избачене из синхронизације."               
+
+# Job options - Auto page
+Title_Auto				"Ауто"
+Tip_Auto				"Ауто"
+Str_ColumnAnalyze		"Анализирај"
+Str_ColumnSync			"Синхронизуј"
+Str_ColumnAnalyzeAndSync "Анализирај и синх."
+Str_Sec					"сек."
+Str_Hour				"х."	
+Str_Min					"мин."	
+Str_Delay				"Чекање"
+
+Name_DoOnStart			"Покрени"
+Chk_DoOnStart			"На покретање GoodSync-а, сачекај сек"
+Help_DoOnStart			"Анализира (може и синх.) рад на покретање GoodSync-а."
+Chk_DoOnGsStart			"На покретање GoodSync-а"
+
+Name_DoOnFoldersConnect	"Привежи"
+Chk_DoOnFoldersConnect	"На привезивање фасцикле"
+Help_DoOnFoldersConnect	"Анализирај (и можда синх.) рад на привезивању обе фасцикле, то је на показивање пошто су њихови дискови убачени, појавила се Интернет веза"
+
+Name_DoOnFileChange		"Промени"
+Chk_DoOnFileChange		"На промену датотеке"
+Help_DoOnFileChange		"Анализирај (а можда и Синх) посао када се датотеке промене из леве или десне синх фасцикле или подфасцкле"
+
+Name_DoBeforeLogout		"Одјави"
+Chk_DoBeforeLogout		"На гашење"
+Help_DoBeforeLogout		"Анализира па синхронизује рад на гашење, поновно покретање или одјављивање са рачунара. Ако се појави 'Program is not responding' на синхронизовање, занемарити га тако да синхронизовање не буде заустављено."
+
+Name_DoPeriodically		"Тајмер"
+Chk_DoPeriodically		"Периодично"
+Help_DoPeriodically		"Анализира (може и синх.) рада свака HH сата MM минута. GoodSync мора да буде покренут за то."
+Str_ColumnLPath			"Лева путања"
+Str_ColumnRPath			"Десна путања"
+
+Chk_WaitForLocks		"Чекај оволико минута да се катанац отвори"
+Help_WaitForLocks		"Ако одабрано, у Анализу сачекати да датотеке lock.gsl буду обрисане од стране другог рада. Стандардно чекање је 20 минута. Ако неодабрано, уради грешку блокирања ако су нађена блокирања док се Анализира"
+
+Str_DoOnSchedule		"Планирано: Покрени са пуним интерфејсом (Attended)"
+Help_DoOnSchedule		"GoodSync ће се покренути са планером Виндоза. GoodSync ће бити покренут у треј иконици. Дупли-клик на икону да би видели рад. Ако GoodSync већ ради, овај посао ће бити постављен у ред за послови за рад."
+Str_AutoUnattended		"Покрени без интерфејса (Unattended)"	
+Help_AutoUnattended    "Ако је унето онда ће планер Виндоза покренути рад без интерфејса, тако да може да посао ради и ако нисте пријављени на рачунару. Посао ради без потребе корисника, тако да ће те видети резултат посла само у дневнику. Отоврити Посао -> Отвори леви/десни дневник да би видели дневнике."
+Str_SchedConfig			"Подеси..."
+Help_SchedConfig		"Кликни за отварање Планера који планира ваш рад. Треба да унесети рачун Windows-а (Корисник и лозинку) на крају креације планера па кликнути 'У реду' за завршавање"
+
+Str_ResolveConflicts	"Аутоматски реши сукобе"
+Help_ResolveConflicts	"Натерај аутоматску резолуцију сукоба. Супротно, сви сукоби су некопирани. Важно само за радове 2-смера, пошто једносмерни рад не прави сукобе"
+Str_DoNotCopy			"Не копирај"
+Str_LeftSideWins		"Лево побеђује"
+Str_RightSideWins		"Десно побеђује"
+Str_NewerFileWins		"Најновије побеђује"
+Str_StopSync			"Заустави Синх"
+
+Str_LimitChanges		"Не синхронизуј ако је датотека промењена више од"
+Help_LimitChanges		"Аутоматска синхронизација није урађена ако су више од оволико датотека са рада промењене. Висок број промењених датотека показује да нешто можда није добро и да је потребна ручна интервенција. Да се 100% увек синхронизује."
+
+Help_AutoStartDelay     "Одложити овај посао после оволико секунди на прво покретање. Примењује се на покретање GoodSync-а и на планер"
+
+Str_RenameLosingFile	"Преуменуј изгубљену датотеку, не бриши"
+Help_RenameLosingFile	"када се аутоматско одради сукоб, преименуј датотеку која избуби у <датотека>_lost-in-conflict-<датум>.ext"
+
+Str_AutoClear			"Аутоматски испразни дрво после Синх. или Анализе без промена"
+Help_AutoClear			"Аутоматски испразни дрвво промена после Анализе без промене или краја Синх."
+
+Str_NotInPortable		"Није доступно у Преносном издању"
+
+
+# Job options - Scripts page
+Title_Script			"Скрипте"
+Tip_Script				"Скрипте"
+Str_PreAnalyzeProgram	"Програм/е-пошта пре анализе"
+Help_PreAnalyzeProgram	"Ако је е-адреса онда пошаљи извештај овој адреси пре анализе (преко Алатке -> Опције програма -> Прикључак). Ако је име програма са параметрима, покрени га пре покретања анализе"
+Str_PostAnalyzeEmailOrProgram	"Адреса или програм после анализе без промене"
+Help_PostAnalyzeEmailOrProgram	"Ако је е-адреса, онда пошаљи извештај овој адреси после анализе без промене (преко Алатке -> Опције програма -> Прикључак). Ако је име програма са аргументима, покрени програм на крају анализе без промене."
+Str_PostSyncEmailOrProgram	"Имејл или програм после Синх"
+Help_PostSyncEmailOrProgram	"Ако је имејл адреса онда пошаљи извештај овој адреси после анализе са променама (преко Алатке -> Опције програма -> Прикључак). Ако је име програма са аргументима, покрени програм на крају анализе са променама"
+Str_CallingProgramEmail "Звање програма и слање е-поште"
+Str_PreAnalyze			"Пре анализа:"
+Str_PostAnalyzeNoChanges "Пост анализа без промене:"
+Str_PostSync			"Пост синх:"
+Str_Variables		    "Промењљиве за употребу као аргументе програма:"
+Str_ScriptOptLegend "Окружи име програма са размацима измежу \"...\"\n'грешке: ' префикс: покрени само ако грешке\n'безчекања: ' префикс: не чекај завршавање програма\n'nowait: ' префикс: не чекај да се програм заврши\n'noattach: ' префикс: не додај дневник е-поруци\n"
+Str_VarOptLegend "%%JOBNAME%%\tИме рада\n%%RESULT%%\tРезултат: празно или 'порука грешке'\n%%LOGPATH%%\tПутања извештаја\n%%LF%% %%RF%%\tЛева или десна фасцикла\n%%LF_ACT%% %%RF_ACT%%\tНађена лева или десна фасцикла\n%%CHANGED%%\tПромењене ставке у пост-анализу\n%%ERRORS%%\tГрешке у пост-анализу или пост-синх\n%%CONFLICTS%%\tСукоби у пост-анализу или пост-аинх\n%%SYNCOK%%\tДобре синх ставке у пост-синх"
+
+
+
+# Job Options - Advanced
+Title_JobAdvanced		"Напредно"
+Tip_JobAdvanced			"Напредно"
+
+Chk_UseSafeCopy			"Сигурна копија користећи преивремену датотеку"
+Help_UseSafeCopy		"На копирање датотеке, прво копирати у привремену датотеку, па преименуј је у циљну датотеку. То не дозвољава да непотпуне датотеке остану на неочекиваном крају синхронизовања. Потребно је допунског простора."
+
+Chk_CopyCreateTime	    "Копирај датум креације датотеке"
+Help_CopyCreateTime		"Ако одарано, онда копирај датум креације датотеке. Ако неодарано, онда копирај само датум промене. Доступна само са Windows-ом"
+
+Chk_CopyACL	   		    "Копирај DACL сигурносне атрибуте"
+Help_CopyACL			"Копирај DACL са датотеком/фасциклом. Доступно само у Windows NTFS системом, не у FAT или друго"
+
+Chk_CopyLocked			"Копирај блокиране датотеке"
+Help_CopyLocked			"Користи 'Volume Shadow Service' за копирање блокираних датотека"
+
+Chk_NoGsData_Side		"Без _gsdata_ фасцикле са Десне стране"
+Help_NoGsData_Side		"Ако одарано, онда не креирај фасциклу _GSDATA_ folder са десне стране (али користи фасциклу _gsdata_ са леве стране), у место креирај фасциклу _GSDATA_ у фасциклу профила GoodSync-а.  Ако неодарано, онда креирај фасциклу _GSDATA_ у обе фасцикле. Употребити само ако фасцикле нису центар синхронизације (радови који су само-читљиви са ове фасцикле или само-писљиве). Ако је фасцикла _gsdata_ угашена, онда је угашено Сачувај Претходну/Прошлу верзију."
+Warn_KeepGsData			"Сигруно задржити фасциклу _GSDATA_ у профилу GoodSync-а?\nОва опција је за напредне кориснике."
+Warn_MoveGsData			"Сигурно вратити фасциклу _GSDATA_ у фасциклу синхронизације?\nОва опција је за напредне кориснике."
+
+Chk_FastPreAnalyze		"Брза пре-анализа користећи датум"
+Help_FastPreAnalyze		"Ако је унето, пре пуне анализе провери да је датум датотеке промењен на спором серверу. Ако датум није промењен, онда Анализа није урађена. Ако није унето, увек уради пуну анализу"
+
+Chk_DetectsMovesRenames		"Нађи премештене/преименована датотеке и фасцикле"
+Help_DetectsMovesRenames	"On: Датотеке и фасцикле које су премештеен/преименоване су тако покренуте. Off: Те датотеке су сматране као нове датотекеи старе су избрисане."
+
+Chk_UberUnlockedUploads		"Uber-деблокирање: изворне датоетке могу да се обриши при слању"
+Help_UberUnlockedUploads	"On: Изворне датотеке могу да се обришу/преместе при слање, нису блокиране. Off: Употреби системски начин деклобирања за слање, блокира изворне датотеке против премештања/брисања."
+
+Chk_CalcReqSpace		"Потребан простор за Синх"
+Help_CalcReqSpace		"Ако одарано, онда нађи колики је потребан простор за Синх. Задржити опцију за драјвове са ограниченим простором. Угасити за радови који не могу да попуне диск, пошто има довољно простора на обе стране"
+
+LinksOption				"Везе датотеке:"
+Help_Links_Ignore		"GoodSync ће игнорисати линкове датотеке. Све датотеке на Windows Home Servers су линкови, тако да не требате да одаберете ову опцију ако желите да копирате датотеке из WHS, одабрати пратњу линкова"
+Help_Links_CopyAsIs		"GoodSync копира линк у циљној страни. Копиран линк може да показује датотеке које нису копиране пошто су ван копиране фасцикле"
+Help_Links_DrillDown	"GoodSync прати линкове датотеке. Линк за датотеку ће бити копиран као датотеке коју показује. Дупле датотеке могу се појавити ако више линкова показивају исту датотеку у извору"
+
+Radio_Ignore			"Игнориши"
+Radio_CopyAsIs			"Копирај као"
+Radio_DrillDown			"Drill down"
+
+# Left and Right
+Str_LeftFolder			"Лева фасцикла"
+Str_RightFolder			"Десна фасцикла"
+
+Str_LeftAndRight		"лево и десно"
+Str_Left				"Л"
+Str_Right				"Д"
+Str_Folder				"фасцикла"
+Str_File				"датотека"
+Str_Deleted				"избрисано"
+Str_NotPresent			"није доступно"
+
+Str_LeftToRight			"Лево на Десно"
+Str_RightToLeft			"Десно на Лево"
+
+
+# Conflict resolution
+
+
+
+
+
+
+# Exclusion messages
+Str_ExclBy_FolderAbove  "одбачено из фасцикле"
+Str_ExclBy_SyncFolder   "одбачено: фасцикла података синх"
+
+
+
+
+
+
+Str_ExclBy_MatchName    "одбачено: исто "
+Str_ExclBy_NoMatchName  "одбачено: различито "
+Str_ExclBy_EmptyFolder  "одбачено: празна фасцикла"
+Str_ExclBy_ChildOfExcl     "одбачено: подређено је одбачено"
+
+Str_ExclBy_NoPropDels      "одбачено: не настављај брисање"
+Str_Msg_SkipLink     "Прескок линк фасцикле %1"
+
+# Job status and progress
+Str_Status_PressAnalyze		"Стисни Анализирај за покретање..."
+Str_Status_ConnectingToFolder			"Привезивање на фасциклу %1"
+Str_Status_Scanning				"Скенирање %1"
+Str_Status_ReadStateFile         "Читање статуса датотеке %1"
+Str_Status_ReadEmbeddedStateFile "Читање статуса датотеке %1 и споји га са главним статусом"
+Str_Status_NewStateFile					"Креирај нов статус датотеке на %1"
+Str_Status_SaveStateFile        "Сачувај статус датотеке %1"
+Str_Status_PostProcessing		"PostProcessing"
+Str_Status_ComputePrevVerSize	"Рачунај величину _saved_ датотека"
+
+Str_Status_CompareOneSide		"Упоређивање %1"
+Str_Status_CompareLeftToRight	"Упореда лево на десно"
+
+Str_Status_NotYetAnalyzed		"Није анализирано"
+Str_Status_Syncing			"Синхронизација"
+Str_Status_Analyzing		"Анализирање"
+Str_Status_Connecting		"Привезивање"
+Str_Status_Paused			"Паузирано"
+Str_Status_Resumed			"Настављено"
+Str_Status_All			"Све"
+Str_Status_NoFiles		"Без датотеке"
+Str_Status_Changes		"Промене"
+Str_Status_InSync		"Синхронизује"
+Str_Status_Conflicts		"Сукоб"
+Str_Status_NoConflicts	"Без сукоба"
+Str_Status_Errors		"Грешке"
+Str_Status_NoErrors		"Без грешака"
+Str_Status_SyncAttention	"Потребна пажња"
+Str_Status_Connected		"Привезано"
+Str_Status_Disconnected		"Откачено"
+
+Str_Status_VolumeInfo_Free  "Слободно: %1, Укупно: %2"
+Str_Status_VolumeInfo_Reqd  "Потребно: %1"
+
+Str_Status_FilesChangedCnt	"Промена: %1"
+Str_Status_ConflictsCnt		"Сукоб: %1"
+Str_Status_ErrorsCnt		"Грешке: %1"
+Str_Status_SyncedCnt		"Синх: %1"
+Warn_AllExcluded			"Пажња!\r\nСве датотеке су одбачене, највероватније су погрешни филтери.\r\nПребаци на 'Све' или 'Одбачено' да би се проверили филтери."
+Warn_AllNew					"Пажња!\r\nЛева и десна фасцикла немају ни једну исту датотеку. Како да пробате да Синх неповезане фасцикле.\r\nМолим да проверите да ли су добре фасцикле одабране за Синх."
+Warn_AllDelete				"Пажња!\r\nСве датотеке ће бити избрисане.\r\nПрепоручујемо да сачувате податке у празној фасцикли."
+
+# Analyze messages
+Str_Msg_Job					"Рад"
+Str_Msg_LeftRight_Descrs    "Лево: %1, Десно: %2"
+Str_Msg_JobFilters          "Филтери: %1"
+Str_Msg_SetFolder		    "Фасцикла није специфирана"
+Str_Msg_CannotOpenFolder	"Фасцикла не садржи апсолутну путању: '%1'"
+Str_Msg_SameFolders			"Лева и десна фасцикла су исте."
+Str_Msg_NestedFolders2	    "Фасцикла '%1' је под-фасцикла\n од '%2'.\nТакве фасцикле не могу да се анализирају."
+Str_Msg_WillCreateFolder    "Фацикла '%1' није нађена, тако да ћемо пробати да је креирамо"
+Str_Msg_Created_Folder      "Фасцикла '%1' је успешно креирана"
+Str_Msg_CannotConnect       "Неуспешно повезивање на "
+Str_Msg_CannotCreateGsdata  "Не може да се креира 'GoodSync' фасцикла '_gsdata_' на %1: %2\nАко је ово само читљива фасцикла онда поставити овај рад на 1-смер приморан 'ReadOnlySource' у опције рада"
+Str_Msg_ErrReadStateFile    "Грешка читања статуса '%1': %2.\nЛоша датотека је преименована у '%3'.\nНа нову Анализу, нови статус ће бити креиран.\nПослати лош статус на ask@goodsync.com."
+Str_Msg_EmbeddedJob         "Нађена фасцикла '%1' која не одговара овом раду. То значи да имате Побољшан рад који синхронизује подфасцикле овог рада. Употреба Побољшаних радова није препоручено"
+Str_Msg_DetectedDisconnect  "Нађено Откачени: %2"
+Str_Msg_RemainsConnected    "Остају Привезани: %2"
+Str_Msg_DetectedConnect     "Нађено привезано, анализа у току"
+Str_Msg_RemainsDisconnected "Остају Откачени: %2"
+
+Str_Msg_Filter_ExcludeHidden       "Одбаци сакривено"
+Str_Msg_Filter_ExcludeSystem       "Одбаци систем"
+Str_Msg_Filter_ExcludeEmptyFolders "одбаци празне фасцикле"
+Str_Msg_Filter_Included     	   "Убаци"
+Str_Msg_Filter_Excluded     	   "Одбаци"
+
+Str_Msg_OlderFileVsNewer	  "Пажња: Старије датотеке замењују новије"
+Str_Msg_Conflict_BothChanged  "Сукоб: Датотеке је промењена са обе стране"
+Str_Msg_Conflict_NewFilesDiff "Сукоб: Различите нове датотеке"
+Str_Msg_Conflict_1way_RtoL    "ДесноНаЛево синх у ЛевоНаДесно 1-смер рад"
+Str_Msg_Conflict_1way_LtoR    "ЛевоНаДесно синх у ДесноНаЛево 1-смер рад"
+
+Str_Status_JobScheduled      "-- %1: Планирано по %2"
+Str_Status_AnalysisStarted   "-- %2: Анализа покренута %3 на рачунару '%4' (GoodSync %5) -----"
+Str_Status_OneSideStats      "%1: Датотека: %2 (одбачене %3). Фасцикле: %4 (одбачене %5)."
+Str_Status_AnalysisSummary   "Промене: %1, Сукоба: %2, Време: %3, Статус: %4, Грешке: %5"
+Str_Status_AnalysisCompleted "-- Анализа завршена. Време %2, Брзина: %3 датотека -----"
+Str_Status_AnalyzeStopped		"Корисник је зауставио анализу"
+Str_Status_AnalyzeFinished_NoChanges	"Анализирано, нема промене"
+Str_Status_AnalyzeFinished_ReadyToSync	"Анализирано, кликнути Синх за синхронизовање"
+Str_Status_Advise_HaveConflicts		   "Поправи сукобе са одабир доброг синх смера"
+Str_Status_Advise_HaveErrors	"Анализа се завршила са грешкама. Кликнити дугме Грешке да се виде погрешни елементи"
+Str_Status_FolderDisconnected     "Једна фасцикла није на вези"
+Str_Status_RemainsConnected       "Обе фасцикле су привезане"
+Str_Status_RemainsDisconnected    "једна фасцикла остаје ван везе"
+
+Str_Status_SynchroStarted	 "== %2: СИНХ покренуо %3 на рачунар '%4' ====="
+Str_Status_SavingStateFor		"Сачувај статус за "
+Str_Status_SynchroSummary	 "Елементи синх: %1, Грешке: %2"
+Str_Status_SynchroErrors	 "Синх завршено са %1 грешака. Кликнити дугме Грешке да се виде грешке"
+Str_Status_SynchroConflicts	 "Синх завршено са %1 сукоба. Кликнути дугме Сукоби да се виде елементи"
+Str_Status_SynchroCompleted	 "== Синх завршена. Време: %2, Брзина: %3 ====="
+Str_Status_Remaining_Speed	"Остало %1, Брзина %2"
+Str_Status_SyncError		"ГРЕШКА"
+Str_Status_SyncStopped		"Корисник је зауставио синхронизовање, опет кликнути синх за наставак"
+Str_Status_SyncDisconnected "Фасцикла одкачена, Стани"
+Str_Status_SyncFinished_OK  "Синх је успешно завршена"
+Str_Status_Advise_AnalyzeAttention	 "Анализа се завршила са грешкама"
+Str_Status_Advise_SyncAttention	 "Синх завршен са грешкама или сукобом"
+Str_Status_Advise_AnalyzeConflict "Сукоби су нађени. Требате да решите сукобе тако што одаберете смер синхронизације:"
+
+Str_Msg_StoppedByUser		"Корисник је зауставио"
+
+Str_Msg_DeleteOtherJobResults "Обриши резулатате анализе радови који се укрштају са : %1"
+Str_Msg_DeleteResultsReason   "Синх укрштаних рада %1"
+Str_Msg_DeleteThisJobResults  "Резултати анализе (датотека/фасцикла) посла је избрисао %1"
+
+Str_Msg_Action_DeleteFolder "Избриши фасциклу"
+Str_Msg_Action_DeleteFile   "Избриши датотеку"
+Str_Msg_Action_DeleteLink   "Избриши везу"
+Str_Msg_Action_CreateFolder "Направи фасциклу"
+Str_Msg_Action_CopyOver     "Копирај преко"
+Str_Msg_Action_CopyNew      "Копирај нову"
+Str_Msg_Action_CopyTime     "Копирај датум од %1 на %2"
+Str_Msg_Action_MoveFile     "Премести датотеку %1 -> %2"
+Str_Msg_Action_MoveFileDone "Премести датотеку %1 <-> %2: већ урађено"
+Str_Msg_Action_MoveFolder     "Премести фасциклу %1 -> %2"
+
+Str_Msg_AndMoreSimilarLogLines "... и још %1 сличних линија прескочена овде (Рад -> Отвори Л/Д извештај за преглед пуног извештаја)"
+
+Str_Msg_OldNewWholeHour_TimeShift  "%1: Old-New Time Shift of %2 hours detected for %3 of files. Decided: No Change on this side"
+Str_Msg_OldNewRounding_TimeShift   "%1: Old-New Rounding Time Shift of %2 hours (type %3) detected for %4 files. Decided: No Change on this side"
+Str_Msg_LeftRight_TimeShift        "Left-Right Time Shift of %1 hours (type %2) detected for %3 files: Decided: Change Copy File operations to Copy Time"
+
+Str_Msg_SyncAgainAfterActiv "Опет кликнути Синх после активирања 'GoodSync Pro'-а"
+
+
+Str_Msg_FolderLocked	    "Други посао синх фасциклу %1,\nпочео је : %2.\nПокушај касније или Прекорачити блокирања ако сте *сигурни* да се други посао завршио."
+Str_Msg_LimitChanges2	"%1 датотеке су промењене, више него нормала %2. Тако да посао неће да синхронизује аутоматски."
+Str_Msg_NotEnoughDiskSpace  "Недовоњно простора на %1, потребно %2, доступно %3\n"
+Str_Msg_RequiredDiskSpace   "На диску %1 је потребан простор од %2, ви имате %3"
+
+
+
+
+# Misc Messages
+Chk_DoNotAsk			"Не питај ме више"
+Str_TitleWarning		"GoodSync Пажња"
+Str_TitleError			"GoodSync Грешка"
+Str_MsgBoxTimeout		"Затварање за %1 секунда"
+
+Str_SaveOptions			"Опције посла су промењене. Сачувати их?"
+
+Str_Win2kAtLeast		"GoodSync-у је потребан макар Виндоуз 2000 за рад."
+Str_SignedAppNeeded		"Програм није добро потписан од стране Siber Systems Inc.\nМолимо да инсталирате верзију са https://www.goodsync.com"
+
+Str_AskDeleteJob1		"Сигурно избриши посао '%1'?"
+Str_AskDeleteSelJob1	"Сигурно избриши %1 одабрани рад?"
+
+Str_AskDeleteItem1		"Сигурно избрисати %1 одабрани елемент?"
+Str_AskDeleteItem3		"Сигурно избрисати%1%2 '%3'?"
+Str_Msg_FileDeleted     "Корисник је избрисао датотеку %1"
+Str_Msg_FolderDeleted   "Корисник је избрисао фасциклу %1"
+Str_Msg_CannotDelete    "Немогуће брисање %1: %2"
+Str_Msg_StateFileDeleted "Избрисана је статусна датотеке %1"
+
+Str_StopJobsBeforeClose	"Један или више посла су у току: %1.\nЗауставити све ове послове?\nКликни У реду за заустављање посла и излаз.\nКликнути Поништи за враћање у GoodSync."
+
+Str_Warn_HideToTray		"Аутоматски радови не могу да раде ако 'GoodSync' не ради, тако да се 'GoodSync' смањи у систему на затварање.\nЗа промену тога, уклонити опцију '%1' у Алатке -> Опције програма"
+
+Str_TitleResetState		"Бриши статсуне датотеке."
+Str_AskDeleteStates		"Да ли да се обришу статусне датотеке?\nТо су интерне датотеке које садрже историјат корисничких датотека.\nНи једна корисничка датотеке није обрисана."
+
+Str_TitleDeleteBackup	"Брисање Recycled и историјат датотеке"
+Str_AskDeleteBackup		"Стварно избрисати датотеке из канте и историјат сачувати у ове фасцикле?"
+
+Str_TitleDeleteGsData	"Бриши _gsdata_ фасциклу"
+Str_AskDeleteGsData		"да лида се обришу _gsdata_ фасцикле?\nGoodSync сачува податке, извештаје и историјат унутра.\nКорисничке датотеке нису брисане."
+
+Str_SyncOnLogoffAsk		"Не може да се синхронизује на одјаву пошто: Виндоз аутоматски завршава радове на Одјаву.\nДа ли да се угаси овај избор (доступно после покретања Виндоза)?"
+Str_SyncOnLogoffReason	"Синхронизација на одјаву"
+Str_SyncOnLogoffJobs	"Синхронизација и одјава је постављено за:"
+
+Str_LogoffTitle			"Синх на искључивање - GoodSync"
+Str_LogoffPopup			"Синх је започео са опцијом искључивања.\nСачекајте да се ова синх заврши.\nБиће искључивање на крају синх."
+Err_OpenLogFails		"Не може да се отвори журнал посла."
+Err_ExecLogViewer		"Не може да се покрене извештај. Контактирај подршку 'GoodSync'-а\n"
+
+
+Explorer_File_With_The_Same_Name_Exists	"Већ има датотека са тим именом у тој локацији."
+Explorer_Skip_Copy						"Прескоћи"
+Explorer_DoOverwrite						"Препиши"
+Explorer_Replace_Src_By_Dst				"Препиши цињну датотеку са изворном (може да се настави са GSTP серверима):"
+Explorer_Keep_Dst_File					"Нема промене. Задржи циљну датотеку:"
+Explorer_Copy_If_Newer					"Копирај ако новију"
+Explorer_Copy_If_Src_Newer_Than_Dst		"Копирај ако је извор новији од циља."
+Do_Same_For_Other_Conflicts		"Уради исто за остала сукоба."
+Explorer_FileSize						"Величина: %1 бајтова"
+Explorer_DateModified					"Промењено: %1"
+
+
+
+# Tooltips
+Tooltip_Synchronizer	"GoodSync Синхронизер датотеке"
+Tooltip_AnalyzingJob	"Посао анализирања"
+Tooltip_SyncingJob		"Синхронизовање радова"
+
+TT_SetLeftSyncFolder	"Кликнути дугме Тражи да се постави прва фасцикла (лева) за синхронизирање, или унети пут фасцикле"
+TT_SetRightSyncFolder	"Кликнути дугме Тражи да се постави друга фасцикла (десна) за синхронизирање, или унети пут фасцикле"
+TT_NewJob				"Нов посао"
+TT_ClickToAnalyze		"Кликнути дугме Анализуј за анализирање разлике између фасцикле и да се предложи синхронизација"
+TT_ClickToSynchronize	"Кликнути дугме Синхронизуј за покретање предложене синхронизације"
+
+
+# Update toolbar and messages
+Info_Update_Avail	   "Нова верзија GoodSync-а је доступна. <a>Кликнути овде</a> да се преузме. Можете угасити аутоматско ажурирање у дијалогу Опције -> О програму."
+ 
+Str_Ver_YesNewVersion   "GoodSync верзија %1, издање %2 је доступна за преузимање. You have ver %3"
+Str_Update_Ask		   "Да ли да се преузме ажурирана верзија?"
+Str_Update_Err_1	   "Не може да се узме информација:\n%1\nДа ли да се оде на лист са задњом верзијом GoodSync-а?"
+Str_Ver_NoNewVersion "Имате задњу верзију: %1. Да ли да се поново инсталира иста верзија?"
+
+
+# Browse Dialog
+Browse_Btn_MyComputer "Мој рачунар"
+Browse_Btn_MyNetwork  "Моја мрежа"
+Browse_Str_SecureMode     "Сигурносни мод (шифрирано)"
+Browse_Tip_SecureMode     "Унето: Шифруј корисник и лозинку, шифруј слање података са SSL или слично. Сигурније али спорије.  \nНеодабрано: Не шифруј корисник и лозинку, не шифруј податке. Ради брже али мање сигурно"
+Browse_Str_PrivKey	"Приватни кључ"
+Browse_Tip_PrivKey	      "Датотека са Приватни SSH кључ, у PuTTY формату"
+Browse_Str_ClientCert	  "Цертификат"
+Browse_Tip_ClientCert	  "Датотека са цертификатом/приватним кључем, у PEM формату"
+Browse_Str_HostBasedAddr  "Host-based addressing for Buckets (for euro buckets)"
+Browse_Tip_HostBasedAddr  "Checked: Host-based addressing for Buckets: works for Euro buckets, bucket names must be lower case letters and digits only.\nUchecked: URL-based addressing for buckets: buckets can have case-sensitive names, Amazon does not recommend it"
+Browse_Str_SpecifyACP	  "Контрола приступа"
+Browse_Tip_SpecifyACP	  "Контрола присутпа, један од пре угашени: приватно (стандардно), публика-чита, публика-чита-пише, аутентификација-чита"
+Browse_Str_ImplicitMode	  "Имплицитни FTPS (угашено: Експлицитни)"
+Browse_Tip_ImplicitMode	  "Унето: користи имплицитни FTP: прикључак на порт 990 са SSL/TLS. \nНе унето: користи експлицитни FTPS: прикључак на порт 21, негација за шифровање"
+Browse_Str_ActiveMode	  "Активирај ФТП режим (оф: пасивни мод)"
+Browse_Tip_ActiveMode	  "Унето: користити Активни ФТП. У активном моду биће веза између ФТП сервера и клијента, што мора да се одобри у заштитном зиду. \nНе унето: користи Пасивни режим. FTP везе пролазе заштитни зид и NAT рутери. препоручено и иницијално."
+Browse_Str_UseMDTM_FTP    "Тачно време датотеке користећи MDTM команду (споро)"
+Browse_Tip_UseMDTM_FTP    "Унето: користи MDTM команду ФТП-а за преузимање време датотеке са ФТП сервера (ВРЛО СПОРО).  \nНе унето: корисити листовање за време промене. Та времена су заокружена ако је датотека старија од 3-6 месеци.""
+Browse_Str_UseMLSD_FTP    "Употреби MLSD/MLST команде да би добили листу датотеке"
+Browse_Tip_UseMLSD_FTP    "Одабрано: употреби MLSD/MLST команде да би добили листе датотеке. То је прецизније када је добро имплементирано на FTP серверу. \nНеодарбано: употреби стару LIST команду за добијање листе датотеке."
+Browse_Str_UTF8_encoding  "UTF-8 имена (оф: ANSI кодирање)"
+Browse_Tip_UTF8_encoding  "Унето: користи UTF-8 за кодирање имена датотеке и фасцикле на сервер. Не унето: користи ANSI за кодирање имена, клијент и сервер морају бити подешени са истим ANSI језиком"
+Browse_Str_WinInet 		  "WinInet-базирано (комплексни проксији)"
+Browse_Tip_WinInet		  "Checked: use WinInet-based implementation that can handle complex proxies and complex Windows-based authentication but has limitations and is slower.  Un-checked: use socket-based implementation that does not handle complex Windows authentication and proxies but is faster and more robust"
+Browse_Str_Use_Proxy      "Веза преко проксија ако је подешено у избору алатке"
+Browse_Tip_Use_Proxy      "Веза на овом серверу преко проксија, ако је активно из Алатке -> Опције програма -> Веза"
+Browse_Str_FatLike    "FAT систем који не показује себе"
+Browse_Tip_FatLike    "Употреби FAT сзстем, и ако систем каже да није FAT. Неки NAS уређаји могу да погрешно известе њихов систем."
+Browse_Str_TimeTranslate      "Систем не може да копира/постави датум у датотеци"
+Browse_Tip_TimeTranslate      "Одабрати ако систем не може да копира/постави датум а памчење времена је потребно."
+Browse_Str_PreferEncrypted  "Шифруј са EFS"
+Browse_Tip_PreferEncrypted    "Шифруј ову страну са EFS. ради само на NTFS волумену. Не ради на Windows XP Home или Vista Home, потребно је макар XP Pro или Vista Business"
+Browse_Str_PreferDecrypted  "Дешифруј са EFS"
+Browse_Tip_PreferDecrypted    "Дешифруј ову страну ако је друга шифрована користећи EFS. Ради само на NTFS волумене. Не ради на Windows XP Home или Vista Home, потребно је макар XP Pro или Vista Business"
+Browse_Str_PreferCompressed   "Компресуј у NTFS"
+Browse_Tip_PreferCompressed   "Компресуј ову страну са LZ компресијом. Ради само на NTFS волумене"
+Browse_Str_PreferUncompressed "Декомпресуј у NTFS"
+Browse_Tip_PreferUncompressed "Декомпресуј ову страну ако је друга компресована. ради само са NTFS волумене"
+Browse_Str_IgnoreBadCerts     "Не проверавај SSL сертификате сервера"
+Browse_Tip_IgnoreBadCerts     "Унето: дозвољава недостајуће друге или завршене SSL сертификате сервера, и 'Invalid Certificate Authority'. Не унето: провери сертификат и уреди грешку ако сервер има лош, погрешан или завршен SSL сертификат"
+Browse_Str_Redundancy		"Умањи сивишност стоваришта"
+Browse_Tip_Redundancy		"Ако је унето, употребити S3' умањеност сувишност стоваришта (RRS). Инаће, употребити стандардну сивушност."
+Browse_Str_ServerEncrypt	"Шифровање са стране сервера"
+Browse_Tip_ServerEncrypt	"Ако унето, шифровати датотеке са AES256 на S3. Ако није унето, сачувај сирову датотеку."
+Browse_Str_NativeFiles		"Увоз/Извоз Google домаће Native датотеке"
+Browse_Tip_NativeFiles		"Ако унето, домаће Google Docs датотеке могу да се преузму и пошаљу, са додатком у не домаће (екстерне) датотеке: преузимање доводи извоз из Google doc, слање доводи увоз у Google doc. Ако није унето, само не домаће (екстерне) датотеке су промењене. Овај рад може да доводи врло спору анализу и грешке."
+
+
+Browse_Btn_Go			    "Иди"
+Browse_Btn_Stop				"Заустави"
+Browse_Btn_Servers			"Сервери"
+Browse_Btn_Opts_More		"Више"
+Browse_Btn_Opts_Less		"Мање"
+Browse_Btn_NewFolder	"Направи нову фасциклу"
+Browse_Btn_NewFolder_Tip	    "креирај нову фасциклу унутар актуелне"
+Browse_NewFolder_Prompt_1	"Унети име за нову фасциклу у '%1'"
+Browse_MultiSelect			"Одабери више ставки"
+Browse_ShowFiles			"Прикажи датотеке"
+
+
+
+Browse_Tip_MyComputer		"Мој рачунар: Дискови директно монтирани на овом рачунару. Адресирано као X:\\фасцикла1\\фасцикла2 где је X слово диска. Може бити локални дискови, преносни, преносни уређаји или плејери који имају диск слово (Palm, стари iPod). Користити преносну путању =ИмеВолумена:\\фасцикла1\\фасцикла2 за волумене са лабелом који немају фиксно слово. Користи %%GSDISK%%:\\фасцикла1\\фасцикла2 за фасцикле на диску из којег је GoodSync.exe покренут у GoodSync2Go."
+Browse_Tip_MyNetwork		"Моја мрежа: Windows Network Shares (SMB протокол). Адресе као \\\\ИмеРачунара\\ИмеДељења\\фасцикла1\\фасцикла2. Проверити да можете да видите дељења преко 'Explorer' пре уноса. Фасцикле и дискови требају бити дељени на серверу па да се овде виде. Не заборавити да подесите права за писање на дељење."
+Browse_Tip_FTP				"FTP сервери. Унети фасциклу за везу као ftp://server.domain.com/фасцикла1/фасциклаr2. Унети корисник/лозинку за аутентификацију. Пробати активни мод ако пасивни не ради"
+Browse_Tip_SecureFTP		"Сигурносни FTP сервери (SFTP преко SSH). Унети SFTP фасциклу за привезивање као sftp://server.domain.com/фасцикла1/фасцикла2. Унети корисник/лозинку или Приватни кључ (PuTTY формат) и лозинку за аутентификацију. Можете користити PuTTY Pageant за кеширање приватниг кључа. Користити PuTTY сесију за прокси поставке"
+Browse_Tip_AmazonS3			"Amazon S3 навези стовариште. Унети фасциклу за привезивање као as http://s3.amazonaws.com/bucket-name/folder1/folder2. Унети приступни кључ и поверљив кључ за аутентификацију. Bucket је највиша фасцикла. Use Host-Based addressing for Euro buckets"
+Browse_Tip_WebDav			"WebDAV сервер. Унети URL или WebDAV фасциклу за привезивање као http://www.somewhere.com/folder1/folder2. Унети корисник/лозинку за аутентификације на сервер."
+Browse_Tip_WinMobile		"Windows Mobile Phone или Pocket PC уређај. Адресирано као wm:DeviceName\\folder1\\folder2. 'Microsoft ActiveSync' или WMDC треба бити инсталиран и покренут и уређај убачен да би га GoodSync видео. Уређају није потребно да има спој на радној површини."
+
+Browse_Tip_GSConnect		"GoodSync привезивање. Унети Маш GoodSync Connect корисник и лозинку. Кликнути на дугме сервера да би га претражили или унети gstp://<computer-id>.<user-id>.goodsync да би употребили специфичан сервер."
+Browse_Tip_GDocs			"Google Drive(Docs). Унети фасциклу за привезивање као gdocs://www.google.com/folder1/folder2. Унети Вашу Google е-пошту (као username@gmail.com) и лозинку"
+Browse_Tip_WindowsAzure		"Windows Azure. Унети фасциклу за привезивање као azure://<username>.blob.core.windows.net/folder1/folder2. Унети Ваше <корисничко име> и лозинку за аутентификацију."
+Browse_Tip_AmazonCldDrive	"Amazon Cloud Drive.  Унети фасциклу за привезивање као acds://www.amazon.com/folder1/folder2. Унети Вашу е-пошту и лозинку за аутентификацију."
+
+Browse_Tip_Unknown			"Без помоћи за овај непознат систем датотека"
+
+
+# Buy License dialog
+BuyPro_Title		   "Ажурирај GoodSync"
+BuyPro_Text_ProFixed   "Ажурирај у GoodSync Pro today да би добили:\n- Неограничено послова,\n- Неограничене датотеке у послу,\n- Телефонска подршка, Инстантна активација, и још"
+BuyPro_Text_Pro2Go     "Ажурирај у GoodSync2Go Pro today да би добили:\n- Неограничено послова,\n- Неограничене датотеке у послу,\n- Телефонска подршка, Инстантна активација, и још"
+BuyPro_Text_Server     "Ажурирај у GoodSync Enterprise Server за:\n- Уклон пробних ограничења,\n- Фирмска подршка,\n- Ваш управљач рачуна"
+BuyPro_Limit_Pro        "Прекорачили сте бесплатна ограничења. За наставак коришћења GoodSync-а треба да ажурирате  GoodSync Pro или да смањите послове на 3 или до 100 датотеке по послу."
+BuyPro_Limit_Server     "Рад GoodSync на Windows Server је потребно Enterprise Server лиценца."
+BuyPro_Link		        "Кликнути Овде да бисте знали више о разликама између Бесплатне и Pro верзије"
+
+
+# Activation Wizard
+Act_Header			"Хвала за куповиму нашег производа"
+Act_Title			"GoodSync активација"
+Act_Field_Req_Err_1	"'%1' је потребно за активирање."
+Act_User_Name		"Ваше име"
+Act_User_Order		"Број команде (NNNNNNNNNN) или код команде (XXX-XXX-XXX-XXX)"
+Act_User_Online_Btn	"Директно на вези активирање (препоручено):"
+Act_User_Online_Tip	"GoodSync ће се прикачити на сервер активирања преко интернета"
+Act_User_ViaBrowser_Btn	"Онлајн активација преко претраживача (само ако не ради директна активација):"
+Act_User_ViaBrowser_Tip "Бићете прикачени на серверу активирања преко стандардног читача"
+Act_User_Order_Err	"Унети ваш 10-дигитални ИД или код куповине у формату XXX-XXX-XXX-XXX."
+Act_Btn_Back		"Назад"
+Act_Btn_Finish		"Заврши"
+Act_Btn_Next		"Даље"
+
+
+
+
+
+
+
+
+
+
+Act_ViaBrowser_Txt		"Ићи на лист http://activate.goodsync.com. Унети овај број рачунара у формулару. Онда копирати код активирања са читача у овом прозору па кликнути даље."
+
+Act_ViaBrowser_Copy	"Копирај"
+Act_ViaBrowser_ActCode_Txt "Овде прилепити код активирања"
+
+Act_Finish_Success	"Хвала за куповину GoodSync-а!\nВаша копија је сада активирана."
+Act_Finish_Connect	"Повезивање на сервер активирања"
+Act_Finish_Fail		"Погрешна активација"
+
+
+# Create ticket 
+Ticket_File_Desc    "Ова датотека садржи информације о дијагностици. Не садржи никакву информацију о Вашем рачунару."
+Ticket_Instruction  "Копирати путању у оставу и прилепити га у 'Attach Files' са 'Support System Ticket'.\nКликнути на овај линк за креацију Тикета."
+Ticket_Btn_Copy		"Копирај путању"
+
+# Mini Mode
+Str_MiniDlgNoActiveJob	"<Без активних радова>"
+
+# Log Viewer general
+LV_AppTitle					"Прегледач извештаја"
+LV_LogListTitle				"Имена извештаја"
+LV_OpenLogDlg				"Отвори фасциклу извештаја"
+LV_TotalLine				"Збир"
+
+# Log Viewer Error
+LV_Err_NoLogFileFound		"<Нема извештаја>"
+LV_Err_UnknownFs			"Непознат FileSystem"
+LV_Err_CannotOpenFile2		"Не може да се отвори %1: %2"
+LV_Err_ReadingFile2			"грешка читања датотеке %1: %2"
+LV_Err_ParseCmdLine			"Грешка слања командне линије"
+
+# Log Viewer Find Window
+LV_Find						"Нађи:"
+LV_FindNext					"Даље"
+LV_FindPrev					"Назад"
+LV_FindAll					"Нађи све"
+LV_FindCaseSens				"Пази слова"
+
+#Log Viewer Menu
+LV_MenuFile					"Датотека"
+LV_MenuView					"Приказ"
+LV_MenuOpen					"Отвори"
+LV_MenuExit					"Излаз"
+LV_MenuCopyAsText			"Копирај одабрано у оставу"
+LV_MenuSelectAll			"Одабери све"
+LV_MenuDelete				"Избриши"
+LV_MenuFind					"Нађи"
+LV_MenuSelectFont			"Одабрати фонт"
+
+# For Mac
+
+Menu_Mac_Window					"Прозор"
+Menu_Mac_Zoom					"Зум"
+Menu_Mac_Minimize				"Умањи"
+Menu_Mac_BringToFront			"Све испред"
+Menu_Mac_Undo					"Врати"
+Menu_Mac_Redo					"Понови"
+Menu_Mac_Preferences			"Поставке..."
+Menu_Mac_Wipeout				"Деинсталирај GoodSync..."
+Menu_Mac_Services				"Сервиси"
+Menu_Mac_HideProgram			"Сакриј GoodSync"
+Menu_Mac_HideOthers				"Сакриј остале"
+Menu_Mac_Quit					"Затвори"
+Menu_Mac_ShowToolbar			"Прикажи алталну траку"
+Menu_Mac_HideToolbar			"Сакриј алатну траку"
+Menu_Mac_CustomizeToolBar		"Прилагофи алатну траку"
+
+
+Chk_Mac_AutoStart					"Покрени GoodSync са системом"
+
+Browse_Mac_Btn_Disconnect		"Одјава"
+
+Str_Mac_GSFolder						"Фасцикла"
+Str_Mac_FinderFavorities                 "~Омиљени"
+Str_Mac_WelcomeScreenTitle				"Добродошли"
+
+
+
+Browse_Mac_Str_Network_UpdateBtn		"Ажурирај"
+Browse_Mac_Str_Network_NetworkEnv		"Network Environment"
+Browse_Mac_Str_Network_IP_Column		"ИП адреса"
+Browse_Mac_Str_Network_Desc_Column		"Опис"
+Browse_Mac_Str_Size						"Величина"
+Browse_Mac_Chk_ShowHidden               "Прикажи сакривене датотеке/фасцикле"
+
+Browse_Mac_Str_Use_Proxy                "Привежи преко проксија ако је подешено на Подешавања->Веза"
+Browse_Mac_Tip_Use_Proxy                "Привежи се на овом серверу преко проксија ако је подешено на Подешавања->Веза"
+
+Menu_Mac_ShowAll						"Покажи све"
+
+
+
+Cmd_Mac_Str_Show					"Покажи"
+Cmd_Mac_ShowLeftTrashBin			"Лева канта"
+Cmd_Mac_ShowRightTrashBin			"Десна канта"
+Cmd_Mac_MakeGSDataVisible			"Постави gsdata видљив"
+Cmd_Mac_MakeGSDataInVisible			"Сакриј gsdata"
+
+Str_Status_Mac_AnalyzeFinished_OK	"Анализа је успешно завршена"
+Str_Status_Mac_AnalysisStarted		"Анализа је покренута"
+Str_Status_Mac_SyncStarted		"Синхронизација је покренута"
+Str_Status_Mac_TrayMenuMulyiAnalyze "%1 посла раде"
+
+Str_Mac_EqComprassion			"Обе датотеке су исте"
+Str_Mac_NoActiveJob             "Нема актвног посла"
+
+Btn_Mac_Check					"Пријава"
+Btn_Mac_Install					"Инсталирај"
+Btn_Mac_Remove					"Уклони"
+Btn_Mac_Finish					"Заврши"
+
+Toolbar_Mac_Compare_OneShortWord "Упореди"
+ToolBar_Mac_ShowLog_OneShortWord		"Прикажи извештај"
+Toolbar_Mac_HideLog_OneShortWord		"Сакриј извештај"
+Toolbar_Mac_Preferences_OneShortWord	"Поставке"
+Toolbar_Mac_Customize_OneShortWord		"Прилагоди"
+
+Str_Mac_Default_Group_Groups	 "ГРУПЕ"
+Str_Mac_Default_Group_Jobs		 "ПОСЛОВИ"
+
+Str_Mac_Count_Jobs_In_Status_Bar	"послова"
+Str_Mac_Count_Job_In_Status_Bar		"посао"
+
+
+Str_Mac_StartupScreen_WelcomeDescr "Копирај или синхронизуј Ваше датотеке"
+Str_Mac_StartupScreen_Btn_Create "Креирај нов посао"
+Str_Mac_StartupScreen_Str_HowTo	 "Како да почнете"
+Str_Mac_StartupScreen_Str_Choose "одаберите леву и десну фасцикле новог посла."
+Str_Mac_StartupScreen_Str_ClickAnalyze "Кликнути Амализирај и проверите промене."
+Str_Mac_StartupScreen_Str_ClickSync "кликнути Синх."
+Str_Mac_StartupScreen_Str_YesEasy "- Да, тако је једноставно!"
+
+Str_Mac_ToolTipInStatusBar_Create "Креирај нов посао"
+Str_Mac_ToolTipInStatusBar_Delete "Обриши посао"
+Str_Mac_ToolTipInStatusBar_JobActions "Акције посла"
+Str_Mac_ToolTipInStatusBar_ShowHideLog "Покажи/сакриј извештај"
+
+
+Str_Mac_GSStartUpScreen_CheckSucc				"Успешно пријављивање"
+Str_Mac_GSStartUpScreen_CreationSucc			"Успешна креација"
+Str_Mac_GSStartUpScreen_HaveGSAccount			"Имам GoodSync Connect налог"
+Str_Mac_GSStartUpScreen_CreateGSAccount			"Креирај GoodSync Connect налог"
+Str_Mac_GSStartUpScreen_WillInstallGSServer		"GoodSync ће инсталирати GoodSync server за бољу синхронизацију."
+Str_Mac_GSStartUpScreen_WillUpdateGSServer		"GoodSync ће ажурирати GoodSync server за бољу синхронизацију."
+Str_Mac_GSStartUpScreen_GSServerInstallFailed	"неуспешна инсталација GoodSync server"
+Str_Mac_GSStartUpScreen_GSServerUpdateFailed	"Неуспешно ажурирање GoodSync server"
+Str_Mac_GSStartUpScreen_PassNotMatch			"Лозинке нису једнаке"
+Str_Mac_GSStartUpScreen_WillRemoveGSServer		"GoodSync ће уклонити GoodSync server"
+Str_Mac_GSStartUpScreen_RemoveGSServerStatus	"Goodsync Connect је успешно уклоњен"
+Str_Mac_GSStartUpScreen_UpdateGSServerStatus	"Goodsync Connect је успешно ажуриран"
+Str_Mac_GSStartUpScreen_InstallGSServerStatus	"Goodsync Connect је успешно инсталиран"
+Str_Mac_GSStartUpScreen_UserName				"GoodSync корисник"
+Str_Mac_GSStartUpScreen_Password				"GoodSync лозинка"
+Str_Mac_GSStartUpScreen_ConfPassword			"Потврди лозинку"
+Str_Mac_GSStartUpScreen_AdminSubmitPassMessage	"Унети корисник/лозинку за постојећи налог GoodSync Connect. Сви рачунари са истим корисником/лозинком могу се синхронизовати међусобно"
+Str_Mac_GSStartUpScreen_AdminCreatePassMessage	"Унети корисник/лозинку који идентификује Ваш GoodSync сервис. Сви рачунари који имају исти корисник/лозинку могу да се неђусобно синхронизују"
+Str_Mac_GSStartUpScreen_AdminPassHeader			"Подешавање GoodSync Connect"
+
+#
+# Mac wipeout
+#
+Str_Mac_Wipeout_Text 			"Сигурно да се потпуно деинсталира GoodSync са Mac?"
+Str_Mac_Wipeout_Title 			"GoodSync се спрема да буде деинсталиран."
+
+#
+# GoodSync Connect setup wizard strings
+#
+
+# Wizard -- first page
+GsConnSetup_WindowTitle			"Сетап GoodSync Connect"
+GsConnSetup_FirstRunTitle		"Добродошли у GoodSync Connect"
+GsConnSetup_ConfigureTitle		"Подеси GoodSync Connect"
+GsConnSetup_WantConnectQuestion	"Да ли да се овај рачунар привеже на остале рачунаре?"
+
+
+
+
+GsConnSetup_SkipBtn				"Прескоћи"
+
+# Wizard -- account settings
+GsConnSetup_UseThisAccount		"Употреби овај GoodSync Connect налог:"
+
+GsConnSetup_CreateNewAccount	"Креирај нов GoodSync Connect налог"
+GsConnSetup_RegisterThis		"Региструј овај рачунар са GoodSync Connect налогом:"
+GsConnSetup_SameAccountNote		"Рачунари који употребљавају исти GoodSync Connect налог могу да се синхронизују међу собно."
+GsConnSetup_ComputerID			"ID рачунара"
+GsConnSetup_UserID				"ID корисника"
+GsConnSetup_Password			"Лозинка"
+GsConnSetup_Retype				"Поново унети"
+GsConnSetup_YourName			"Ваше име"
+GsConnSetup_Email				"Е-пошта"
+
+# Wizard -- windows user settings
+GsConnSetup_ConfigureWinUser	"Подеси корисник Windows"
+
+GsConnSetup_WinUser				"Корисник"
+GsConnSetup_WinPassword			"Windows лозинка"
+GsConnSetup_WinNote				"Унети Windows лозинку ако желите да опонаша Ваш Windows корисник.\nОпонашавање је потребно за приступ Windows дељења и за читање EFS шифроване датотеке."
+
+# Wizard -- last page
+GsConnSetup_FinWillBeSetTo		"GoodSync Connect ће бити подешен на"
+GsConnSetup_FinRunGoodSync		"Покрени GoodSync"
+GsConnSetup_FinRunGsExplorer	"Покрени GoodSync претраживач"
+
+# Wizard -- status and error messages
+GsConnSetup_StConnMediator		"Привезивање на Mediator..."
+GsConnSetup_StLocalOnlyMode		"Само локално"
+GsConnSetup_StServerMode		"GoodSync Connect: Сервер"
+GsConnSetup_ThisComputerAddr	"Адреса овог рачунара"
+GsConnSetup_ErrSelectSomething	"Одаберите нешто."
+GsConnSetup_ErrNoUserID			"Корисник GoodSync Connect није унет"
+
+GsConnSetup_ErrNoPassword		"Лозинка GoodSync Connect није унета"
+GsConnSetup_ErrPasswordShort	"Лозинка је кратка"
+GsConnSetup_ErrPasswordMatch	"Лозинке нису исте"
+
+GsConnSetup_ErrBadEmail			"Е-адреса није добра"
+GsConnSetup_ErrNoWinAccount		"Име Windows налога не може да буде празно"
+

@@ -1,0 +1,430 @@
+/* General styles */
+body {
+  font: 13px Tahoma, Verdana, 'Lucida Grande', 'Lucida Sans Unicode', Lucida, 'DejaVu Serif', 'Liberation Serif', Arial, Helvetica, sans-serif;
+  color: #535353;
+  background: white;
+  margin: 0px;
+  padding: 0px;
+  border-style: none;
+  min-width: 1024px;
+}
+h1 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+h2 {
+  font-size: 16px;
+}
+a {
+	color: #428de7;
+	text-decoration: underline;
+}
+table {
+  border: 0px solid black;
+  border-spacing: 0px;
+}
+table th {
+	text-align: left;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 10px;
+	border-top: 0px;
+	border-bottom: 1px solid #c0c0c0;
+	border-left: 0px solid black;
+	border-right: 0px solid black;
+}
+table td {
+	text-align: left;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 0px;
+	padding-right: 10px;
+}
+table td img {
+  border-style: none;
+}
+input {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 8px;
+}
+input::-moz-focus-inner /* Remove button padding in FF */ { 
+	border: 0px;
+  padding: 0px;
+}
+input[type="text"], input[type="password"] {
+	color: #000000;
+	background: white;
+	border: 1px solid #c0c0c0;
+	border-radius: .15em;
+	-ms-border-radius: .15em;
+	min-width: 240px;
+}
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* Specific styles */
+#container {
+  margin: 0 40px;
+}
+#header {
+  margin: 20px;
+  height: 60px;
+  background-image: url('/server_header.png');
+  background-repeat: no-repeat;
+}
+#version {
+  float: right;
+  margin-top: 8px;
+}
+#menu_and_contents {
+  border-top: 1px solid #c0c0c0;
+  border-bottom: 8px solid #c0c0c0;
+  border-left: 1px solid #c0c0c0;
+  border-right: 1px solid #c0c0c0;
+  border-top-right-radius: .2em;
+  border-top-left-radius: .2em;
+  -ms-border-radius: .2em;
+  margin: 0px;
+  padding: 0px;
+}
+#menubar {
+  background: #eaeaea;
+  font-weight: bold;
+  border-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#menubar ul {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  list-style-type: none;
+  white-space: nowrap;
+  border-top-style: none;
+  border-bottom: 1px solid #c0c0c0;
+  border-left-style: none;
+  border-right-style: none;
+}
+#menubar ul li {
+  padding: 10px 40px;
+  display: inline;
+}
+#menubar ul li a {
+  color: #525252;
+  text-decoration: none;
+}
+#menubar ul li a img {
+  vertical-align: middle;
+  border-style: none;
+}
+#menubar ul li a span {
+  padding-left: 6px;
+  vertical-align: middle;
+}
+#menubar ul li#menu_active {
+  padding-top: 10px;
+  padding-bottom: 11px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-bottom: 1px solid white;
+  border-left: 1px solid #c0c0c0;
+  border-right: 1px solid #c0c0c0;
+  border-top-right-radius: .2em;
+  border-top-left-radius: .2em;
+  background: #feffff;
+}
+#logout {
+  padding-right:20px;
+}
+#contents {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  border-style: none;
+}
+
+/* Apply, Save, Cancel etc */
+#action_buttons {
+  text-align: left;
+	margin-top: 20px;
+}
+#action_buttons input {
+  font-weight: bold;
+  color: white;
+  background-image: url("/btn_normal.png");
+  background-repeat: no-repeat;
+  border: 0px solid black;
+  width: 92px;
+  height: 27px;
+  margin-left: 0px;
+  margin-right: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#action_buttons input:focus {
+	background-image: url("/btn_active.png");
+}
+#action_buttons input:active {
+	background-image: url("/btn_pressed.png");
+	outline: none;
+}
+#action_buttons input[name="cancel"] {
+	color: #525252;
+  background-image: url("/btn_gray_normal.png");
+}
+#action_buttons input[name="cancel"]:focus {
+	background-image: url("/btn_gray_active.png");
+}
+#action_buttons input[name="cancel"]:active {
+	background-image: url("/btn_gray_pressed.png");
+	outline: none;
+}
+
+.button_link {
+  color: white;	
+  font-weight: bold;
+  background-color: #5789e4;
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+}
+
+#footer {
+  padding: 20px;
+  color: #444444;
+  background: white;
+  font-size: 11px;
+  text-align: center;
+}
+/* User list styles */
+#accounts_path {
+	float: right;
+}
+.bool_column {
+	text-align: center;
+}
+table#user_list td img {
+	vertical-align: middle;
+}
+.bool_column {
+	text-align: center;
+}
+.edit_delete_button {
+	padding-left: 10px;
+	text-align: right;
+	vertical-align: middle;
+}
+.edit_delete_button a {
+	text-decoration: none;
+}
+.edit_delete_button a img {
+	vertical-align: middle;
+  margin-right: 8px;
+}
+.edit_delete_button a span {
+	vertical-align: middle;
+}
+
+/* Additional links next to page H1 */
+.additional_link {
+	margin-left: 30px;
+	vertical-align: middle;
+	text-decoration: none;
+	font-size: 12px;
+	display: inline;
+}
+
+/* Log file list styles */
+table#log_list {
+	min-width: 30%;
+}
+.delete_log {
+  text-align: right;
+}
+.delete_log input {
+	background: white url('i_delete.png') no-repeat center left;
+	color: #428de7;
+	padding-left: 24px;
+	border: hidden;
+}
+table#log_list td img {
+	vertical-align: middle;
+  margin-right: 8px;
+}
+table#log_list td a {
+	text-decoration: none;
+}
+table#log_list td a img {
+	vertical-align: middle;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  margin-right: 8px;
+}
+table#log_list td input {
+	vertical-align: middle;
+}
+/* Server settings styles */
+#settings_switch {
+  font-size: 16px;
+  font-weight: bold;
+}
+#settings_switch a {
+  font-size: 12px;
+  text-decoration: none;
+}
+#settings_switch a:hover {
+  font-size: 16px;
+}
+#settings_path {
+	padding-top: 20px;
+	padding-bottom: 16px;
+}
+.setting_name {
+    text-align: right;
+    vertical-align: top;
+    padding-right: 19px;
+}
+.setting_value {
+  text-align: left;
+  vertical-align: middle;
+}
+.setting_value span {
+  vertical-align: middle;
+}
+.setting_value input {
+  vertical-align: middle;
+}
+.setting_hint {
+  font: 11px Tahoma, Verdana, 'Lucida Grande', 'Lucida Sans Unicode', Lucida, 'DejaVu Serif', 'Liberation Serif', Arial, Helvetica, sans-serif;
+  color: #080830;
+	text-align: left;
+	vertical-align: top;
+  margin-top: 2px;
+  margin-left: 32px;
+}
+/* GoodSync connect status styles */
+.inactive_user {
+  background-color: #eec5be;
+}
+
+.critical_notification {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 3px;
+    border-width: thin;
+    color: #e86a59;
+    font-size: large
+}
+
+.critical_notification img {
+    vertical-align: middle;
+}
+
+.critical_notification span {
+    vertical-align: middle;
+}
+
+.info_notification {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 3px;
+    border-width: thin;
+    color: #000000;
+    font-size: large
+}
+
+.info_notification img {
+    vertical-align: middle;
+}
+
+.info_notification span {
+    vertical-align: middle;
+}
+
+/* Error hint */
+#error_hint {
+  color: #ec5b3f;
+}
+
+/* Relocate menu to the left on small screen devices */
+@media screen and (max-width:1200px) {
+	#menu_and_contents{
+		display:flex;
+	}
+	#menubar{
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 160px;
+	}
+	#menubar ul li{
+		display:block;
+	}
+	#menubar ul li#menu_active {
+		border: 0;
+	}
+	#logout {
+		padding: 20px 0;
+	}
+}
+
+/* Login page styles */
+#login_block {
+    width: 300px;
+    margin-top: -100px;
+    margin-left: -150px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+#login_header {
+    font-size: large;
+    padding-bottom: 20px;
+}
+/* Decorative strip */
+#login_block table {
+    border-left: solid 4px #eb4c27;
+    padding-left: 16px;
+}
+#login_submit {
+    color: #535353;
+    border-color: #535353;
+    background-color: white;
+    float: right;
+    border-style: solid;
+    border-radius: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.login_captions {
+    padding-bottom: 0px;
+}

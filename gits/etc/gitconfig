@@ -1,0 +1,50 @@
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+[diff]
+	guitool = kdiff3
+[difftool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+[user]
+	name = Asror Zakirov
+	email = asror.zk@gmail.com
+[branch]
+	autosetuprebase = always
+[http]
+	sslVerify = false
+[core]
+	excludesfile = d:\\Develop\\Projects\\execut\\gits\\conf\\.gitignore
+	attributesFile = d:\\Develop\\Projects\\execut\\gits\\conf\\.gitattributes
+	eol = native
+	autocrlf = false
+	symlinks = false
+	quotepath = false
+	commitGraph = true
+	fscache = true
+[tgit]
+	projectlanguage = 1033
+[receive]
+	denyCurrentBranch = ignore
+[credential]
+	useHttpPath = false
+	helper = wincred
+	username = asror-z
+[gc]
+	writeCommitGraph = true
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = true
+[help]
+	format = html	
+[diff "astextplain"]
+	textconv = astextplain
+[rebase]
+	autosquash = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

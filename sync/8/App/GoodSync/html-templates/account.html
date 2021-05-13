@@ -1,0 +1,74 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>GoodSync Server: Primary Account</title>
+    <link rel=stylesheet href="/style.css" type="text/css" media="screen, print">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="version"><h2>Version&nbsp;:&nbsp;<!-- serverversion -->&nbsp;</h2></div>
+        </div>
+        <!-- notificationbar -->
+        <div id="menu_and_contents">
+            <!-- menubar -->
+            <div id="contents">
+                <h1>GoodSync Account</h1>
+                <p>
+                    <table>
+                        <tr id="account_userid">
+                            <td class="setting_name">User ID</td>
+                            <td class="setting_value">
+                                <!-- accountuserid -->
+                                <div style="<!-- changeacctstyle -->">
+                                    <a href="/change_account" rel="noopener noreferrer">
+                                        <div style="display:inline; margin-left: 10px">Change</div>
+                                    </a>
+                                </div>
+                                <div class="setting_hint" style="<!-- nochangeacctstyle -->">
+                                    To change GoodSync Account, in GoodSync Desktop app select Tools -> GoodSync Account Setup.
+                                </div>
+                            </td>
+                        </tr>
+                        <tr id="account_email">
+                            <td class="setting_name">Email</td>
+                            <td class="setting_value">
+                                <!-- accountemail -->
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="setting_name">Computer ID</td>
+                            <td class="setting_value">
+                                <!-- computername -->
+                                <a href="/change_computer_id" rel="noopener noreferrer">
+                                    <div style="display:inline; margin-left: 10px">Change</div>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="setting_name">Product</td>
+                            <td class="setting_value"><!-- productversion --></td>
+                        </tr>
+                        <tr>
+                            <td class="setting_name">Operating System</td>
+                            <td class="setting_value"><!-- osversion --></td>
+                        </tr>
+                        <tr>
+                            <td class="setting_name">Hardware Platform</td>
+                            <td class="setting_value"><!-- hardware --></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <a href="/manage_account_redir" target=_blank rel="noopener noreferrer"><div class="button_link">Manage my GoodSync Account</div></a>
+                            </td>
+                        </tr>
+                    </table>
+            </div>
+        </div>
+        <div id="footer">
+            Copyright &copy; 1997-2021 Siber Systems Inc. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>

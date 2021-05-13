@@ -1,0 +1,383 @@
+﻿# RFS file codepage.
+RFS_CODEPAGE "1252"
+RFS_LANGUAGE "Galego"
+
+# Menus
+Menu_Job				"&Emparellamento"
+Cmd_JobNew				"&Novo"
+Cmd_JobDelete			"&Borrar"
+Cmd_JobRename			"Reno&mear..."
+Cmd_JobSaveTemplate     "Gardar como &Modelo..."
+Cmd_Analyze			"&Analizar"
+Cmd_AnalyzeAll			"Ana&lizar Todo"
+Cmd_Sync				"&Sincronizar"
+Cmd_SyncAll				"Sin&cronizar Todo"
+Cmd_AnalyzeAndSyncAll	"Analizar e sincronizar todo"
+Cmd_Stop			"&Parar"
+Cmd_JobOptions			"&Opcións..."
+Cmd_JobResetState		"R&estaurar Estado"
+Cmd_AppExit				"Saír"
+
+Menu_View				"&Ver"
+Cmd_ViewStatusBar		"Barra de E&stado"
+Cmd_ProgOptions			"Opcións do &Programa..."
+
+
+
+Menu_Help				"Axu&da"
+Cmd_AppAbout			"&Acerca de..."
+Cmd_AppManual			"&Manual"
+Cmd_AppFAQ				"&FAQ"
+Cmd_AppCreateTicket		"&Crear boletín de Asistencia..."
+Cmd_Help_BuyPro         "Comprar Pro..."
+Cmd_Help_Activate	 	"Activar Pro..."
+Cmd_CheckUpdates			"Comprobar actualizacións"
+
+Cmd_ShowAll				"&Todo"
+Cmd_ShowChanges			"&Cambios"
+Cmd_ShowConflict		"Con&flitos"
+Cmd_ShowError			"&Erros"
+
+
+Cmd_ViewJobFilter		"&Filtros"
+Cmd_ViewLog				"&Historial"
+
+
+
+# Context menus
+
+Cmd_ItemProp			"&Propiedades"
+
+Cmd_ItemLDelete			"&Borrar Ficheiro Esquerdo"
+Cmd_ItemRDelete			"&Borrar Ficheiro Dereito"
+Cmd_ItemDeleteBoth		"&Borrar ámbolos dous Ficheiros"
+
+
+Cmd_DeleteLFolder			"&Borrar Cartafol Esquerda"
+Cmd_DeleteRFolder			"&Borrar Cartafol Dereita"
+Cmd_DeleteBothFolders		"&Borrar ámbolos dous Cartafoles"
+
+
+Cmd_Recommended			"&Recomendado"
+Cmd_DoNotCopy			"&Non Copiar"
+Cmd_CopyLeftToRight		"Esquerda a &Dereita"
+Cmd_CopyRightToLeft		"Dereita a &Esquerda"
+
+
+Cmd_ItemExcludeFile1		"&Excluír Ficheiro '%1'"
+Cmd_ItemExcludeFolder1		"&Excluír Cartafol '%1'"
+
+
+Cmd_ItemExcludeAllFiles1		"Excluír &Tódolos Ficheiros '%1'"
+Cmd_ItemExcludeAllFolders1	"Excluír & Tódolos Cartafoles '%1'"
+
+Cmd_ItemExcludeAllMask1	"Ex&cluír tódolos Ficheiros '*%1'"
+
+Cmd_ItemIncludeAllMask1	"Inc&luír só os Ficheiros '*%1'"
+
+
+# Taskbar Icon menu
+
+
+# Buttons below tree
+Grp_Actions				"Accións"
+Btn_Analyze				"Analizar"
+Btn_SyncRun				"Sincronizar"
+Btn_Stop			"Parar"
+Grp_Show				"Ver árbore"
+
+
+# Tree view Columns
+Str_TreeItem			"Elemento"
+Str_TreeLSize			"Tamaño da Esquerda"
+Str_TreeLDate			"Data da Esquerda"
+Str_TreeL				"Esquerda"
+Str_TreeCenter			""
+Str_TreeR				"Dereita"
+Str_TreeRSize			"Tamaño da Dereita"
+Str_TreeRDate			"Data da Dereita"
+Str_TreeStatus			"Estado"
+
+# Misc buttons
+Btn_Ok					"Aceptar"
+Btn_Cancel				"Cancelar"
+Btn_Yes					"Si"
+Btn_No					"Non"
+Btn_Abort               "Abandonar"
+Btn_Retry               "Reintentar"
+Btn_Ignore              "Ignorar"
+Btn_Close               "Pechar"
+Btn_Help                "Axuda"
+Btn_Continue			"Continuar"
+Btn_Browse				"Examinar"
+
+
+# Tooltips for buttons, for new users
+
+# New Job dialog
+Title_JobName			"Introduce o Nome do Emparellamento"
+Str_JobName				"Nome de Emparellamento:"
+Str_JobTemplate			"Desde un Modelo:"
+Str_BadJobName1			"O nome do emparellamento non pode conter os seguintes símbolos: / \\ ? < > : * |"
+Str_BadJobName2			"O nome do emparellamento non pode ser igual a '%1'."
+Str_BadJobName3			"O nome do emparellamento non pode ter máis de 100 carácteres."
+
+# Job Tabs control buttons
+
+# Windows menu and dialog
+
+
+
+# Job List Pane
+
+#Log Pane
+
+# Help -> About
+Title_About				"Acerca de"
+Str_RegTo				"Rexistrado a:"
+
+# Program Options
+Title_Options			"Opcións GoodSync"
+Str_Options				"Opcións"
+
+
+# Program Options - General
+Title_General			"Xeral"
+Str_Lang				"Idioma"
+Help_Lang			"Nota: reiniciar GoodSync para aplicar o novo idioma."
+Chk_TrayIcon			"Ocultar na Bandexa do sistema ao pechar a Ventá Principal"
+Chk_AutoStart			"Iniciar GoodSync ao arrancar Windows"
+
+Chk_ResetIM				"Restaurar tódalas mensaxes informativas ás predeterminadas"
+
+Str_LogDetailLevel		"Nivel do Historial:"
+Str_LogCritical			"Critico"
+Str_LogError			"Erros"
+Str_LogInfo				"Información"
+Str_LogDetails			"Detalles"
+
+
+
+
+# Program Options -> Connection
+
+
+
+# Job Options - General
+Title_JobGeneral		"Xeral"
+Label_JobType			"Tipo de Emparellamento"
+Str_JobType_TwoWay		"Bidireccional"
+Str_JobType_LeftToRight	"Unidireccional de Esquerda a Dereita"
+Str_JobType_RightToLeft	"Unidireccional de Dereita a Esquerda"
+
+
+
+
+
+
+
+
+
+
+
+Str_ShowBalloon			"Ver as mensaxes de axuda"
+Str_DoNotShowBalloon	"Nunca"
+Str_ShowBalloonAlways	"Sempre"
+Str_ShowBalloonOnError	"Só cando haxa erros"
+
+
+# Job options - Filters page
+Title_Filters			"Filtros"
+Str_FilterExcluded		"Ficheiros/Cartafoles excluídos"
+Str_FilterIncluded		"Ficheiros incluídos"
+
+
+# Job options - Auto page
+Title_Auto				"Auto"
+Str_ColumnAnalyze		"Analizar"
+Str_ColumnSync			"Sincronizar"
+
+Chk_DoOnStart			"Ao Iniciar GoodSync"
+
+
+
+Chk_DoBeforeLogout		"Antes de Desconectar"
+
+Chk_DoPeriodically		"Periodicamente"
+
+Str_DoOnSchedule				"Usando Planificador de Tarefas"
+Str_SchedConfig			"Configurar..."
+
+
+Str_ResolveConflicts	"Resolver os conflitos de forma automática"
+Str_DoNotCopy			"Non Copiar"
+Str_NewerFileWins		"Teñen preferencia os ficheiros máis novos"
+
+
+
+
+
+
+
+# Job options - Scripts page
+
+
+
+# Job Options - Advanced
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Left and Right
+Str_LeftFolder			"Cartafol Esquerda"
+Str_RightFolder			"Cartafol Dereita"
+
+Str_LeftAndRight		"esquerda e dereita"
+Str_Left				"esquerda"
+Str_Right				"dereita"
+Str_Folder				"cartafol"
+Str_File				"ficheiro"
+
+Str_LeftToRight			"Esquerda a Dereita"
+Str_RightToLeft			"Dereita a Esquerda"
+
+# Exclusion messages
+
+# Job status and progress
+Str_Status_PressAnalyze		"Pulsar Analizar para comezar..."
+
+Str_Status_CompareLeftToRight	"Comparar Esquerda e Dereita"
+
+Str_Status_NotYetAnalyzed		"Aínda non Analizado"
+Str_Status_Syncing			"Sincronizando"
+Str_Status_Analyzing		"Analizando"
+Str_Status_All			"Todo"
+Str_Status_NoFiles		"Sen Ficheiros"
+Str_Status_Changes		"Cambios"
+Str_Status_InSync		"Sincronizados"
+Str_Status_Conflicts		"Conflitos"
+Str_Status_NoConflicts	"Sen Conflitos"
+Str_Status_Errors		"Erros"
+Str_Status_NoErrors		"Sen Erros"
+
+
+
+# Analyze messages
+Str_Msg_SetFolder		    "Por favor, indica o cartafol antes de analizar."
+Str_Msg_CannotOpenFolder	"O cartafol non contén unha ruta absoluta:\n'%1'"
+Str_Msg_SameFolders			"O cartafol esquerda e dereita coinciden."
+Str_Msg_NestedFolders2	    "O cartafol '%1' é un subcartafol\n do cartafol '%2'.\nNon podes Analizar cartafoles anidados."
+
+
+
+Str_Status_AnalyzeStopped		"Análise cancelada polo usuario"
+
+Str_Status_SavingStateFor		"Gardar estado para "
+Str_Status_SyncStopped			"Sincronización cancelada polo usuario"
+
+Str_Msg_StoppedByUser		"Detido polo Usuario"
+
+
+
+
+
+
+
+
+
+# Misc Messages
+Chk_DoNotAsk			"Non preguntar máis"
+Str_TitleWarning		"Aviso de GoodSync"
+Str_TitleError			"Erro de GoodSync"
+
+
+Str_Win2kAtLeast		"GoodSync necesita polo menos Windows 2000."
+Str_SignedAppNeeded		"Esta aplicación non está correctamente asinada por Siber Systems Inc.\nInstala a versión asinada desde https://www.goodsync.com"
+
+Str_AskDeleteJob1		"Seguro que queres borrar o emparellamento '%1'?"
+
+Str_AskDeleteItem3		"Seguro que queres borrar %1%2 '%3'?"
+
+Str_StopJobsBeforeClose	"Un ou máis emparellamentos están executándose: %1.\nQueres paralos todos agora?\nClick OK para parar os emparellamentos e saír.\nClick Cancelar para volver a GoodSync."
+
+
+Str_TitleResetState		"Restaurar estado."
+Str_AskDeleteStates		"Seguro que queres borrar os estados gardados?"
+
+
+
+
+Err_OpenLogFails		"Non se pode abrir o historial."
+
+
+# Tooltips
+Tooltip_Synchronizer	"Sincronizador de Ficheiros GoodSync"
+Tooltip_AnalyzingJob	"Analizando emparellamento"
+
+TT_SetLeftSyncFolder	"Pulsa o botón Examinar para definir o primeiro cartafol (esquerda) a sincronizar ou escribe la ruta do cartafol"
+TT_SetRightSyncFolder	"Pulsa o botón Examinar para definir o segundo cartafol (dereita) a sincronizar ou escribe a ruta do cartafol"
+TT_NewJob				"Novo emparellamento"
+TT_ClickToAnalyze		"Pulsa o botón Analizar para analizar as diferenzas entre cartafoles e propoñer as operacións de sincronización"
+TT_ClickToSynchronize	"Pulsa o botón Sincronizar para executar as operacións de sincronización propostas por Analizar"
+
+
+# Update toolbar and messages
+Info_Update_Avail "Hai unha Nova versión de GoodSync dispoñible. <a>Pulsa aquí</a> para descargala. Podes desactivar Actualizacións Automáticas no diálogo de Opcións."
+ 
+Str_Ver_YesNewVersion "GoodSync versión %1, a versión %2 está dispoñible para a súa descarga. You have ver %3"
+Str_Update_Ask	  "Queres descargar a versión actualizada?"
+Str_Update_Err_1  "Non se puido obter a información da versión desde o sitio Web:\n%1\nQueres ir á páxina web das actualizacións?"
+
+
+# Browse Dialog
+
+
+# Buy License dialog
+BuyPro_Title	"Característica PRO"
+BuyPro_Text_ProFixed	"Limitacións da versión LIBRE:\n- Non máis de 3 emparellamentos.\n- Non máis de 100 elementos nun emparellamento.\n- Algúns comandos están desactivados."
+BuyPro_Limit_Pro		"Para continuar usando GoodSync deberías reducir o número de emparellamentos gardados ou comprar a versión PRO."
+BuyPro_Link		"Fai Clic aquí para aprender máis sobre as diferenzas entre LIBRE y PRO"
+
+
+# Activation Wizard
+Act_Title  "Activar GoodSync"
+Act_Field_Req_Err_1 "'%1' é necesario para a activación."
+Act_User_Name	 "Nome de Usuario"
+Act_User_Order	 "ID de pedido (NNNNNNNNNN) ou Código de Pedido (XXX-XXX-XXX-XXX)"
+Act_User_Online_Btn  "Activar en liña (recomendado)"
+Act_User_ViaBrowser_Btn "Activar Desconectado: Iniciar (usar só se falla a activación en liña)"
+Act_User_Order_Err  "Por favor, introduce o teu ID de pedido de 10 díxitos completo ou o teu Código de Pedido en formato XXX-XXX-XXX-XXX."
+
+
+
+
+
+
+
+
+
+
+Act_ViaBrowser_Txt   "Accede á páxina de Activación http://activate.goodsync.com no navegador que desexes en calquera ordenador. Escribe no formulario do navegador a ID do ordenador que se indica abaixo. Despois copia o Código de Activación desde o navegador á ventá do Código de Activación e pulsa en Seguinte."
+
+Act_ViaBrowser_ActCode_Txt "Pegua aquí o Código de Activación"
+
+Act_Finish_Success	"Grazas por comprar GoodSync!\nA túa copia quedou activada."
+Act_Finish_Connect	"Conectando ao servidor de activación"
+Act_Finish_Fail	    "A Activación fallou"
+
+
+# Create ticket 
+Ticket_File_Desc    "O seguinte ficheiro conten a información de diagnóstico. Date conta de que non contén ningunha información privada do teu PC."
+Ticket_Btn_Copy		"Ruta da copia"
+
