@@ -4,16 +4,38 @@ REGEDIT4
 "CleanUpTime"=dword:609cf794
 "LastUpdateCheck2Go"=dword:609cf794
 "TreeViewSelected"=dword:00000001
-"CurrentJobName"="TDrives"
-"CurrentGroupName"=""
+"CurrentJobName"=""
+"CurrentGroupName"="Sync Jobs"
 "LastLicenseCheck"=dword:609cf795
 "GS_WINPOSWindowPlacement"=hex:2c,00,00,00,02,00,00,00,01,00,00,00,00,83,ff,ff,\
-  00,83,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,99,00,00,00,8b,00,00,00,63,05,00,00,ae,\
+  00,83,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,99,00,00,00,8b,00,00,00,63,05,00,00,c0,\
   02,00,00
 "FiltersWidth"=dword:00000000
 "SyncTreeColumnWidths"="359,96,180,72,31,72,96,180,120"
-"Str_TreeDisplayDensity"=dword:00000016
+"Str_TreeDisplayDensity"=dword:00000010
 "Str_NoAnimations"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\GroupInfo]
+
+[HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\GroupInfo\All Jobs]
+"IconIndex"=dword:00000000
+"IsExpanded"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\GroupInfo\Backup Jobs]
+"IconIndex"=dword:00000000
+"IsExpanded"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\GroupInfo\CoreApp]
+"IconIndex"=dword:00000002
+"IsExpanded"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\GroupInfo\Merino]
+"IconIndex"=dword:00000003
+"IsExpanded"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\GroupInfo\Sync Jobs]
+"IconIndex"=dword:00000000
+"IsExpanded"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs]
 
