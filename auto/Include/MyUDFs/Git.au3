@@ -427,7 +427,6 @@ EndFunc   ;==>ConfAfter
 
 Func _Conf_Get()
 
-$configFolder = "c:\Users\Administrator\AppData\Roaming\Kerio\"
 	
 	; ExitBox($configFolder)
 	
