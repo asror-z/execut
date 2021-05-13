@@ -1,0 +1,1 @@
+"c:\Program Files\Listary\Listary.exe"
