@@ -4,8 +4,8 @@ REGEDIT4
 "CleanUpTime"=dword:609cf794
 "LastUpdateCheck2Go"=dword:609cf794
 "TreeViewSelected"=dword:00000001
-"CurrentJobName"=""
-"CurrentGroupName"="Sync Jobs"
+"CurrentJobName"="Projects"
+"CurrentGroupName"="Develop"
 "LastLicenseCheck"=dword:609cf795
 "GS_WINPOSWindowPlacement"=hex:2c,00,00,00,02,00,00,00,01,00,00,00,00,83,ff,ff,\
   00,83,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,99,00,00,00,8b,00,00,00,63,05,00,00,c0,\
@@ -21,16 +21,20 @@ REGEDIT4
 "IconIndex"=dword:00000000
 "IsExpanded"=dword:00000000
 
+[HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\GroupInfo\Asterisk]
+"IconIndex"=dword:00000000
+"IsExpanded"=dword:00000000
+
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\GroupInfo\Backup Jobs]
 "IconIndex"=dword:00000000
 "IsExpanded"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\GroupInfo\CoreApp]
 "IconIndex"=dword:00000002
-"IsExpanded"=dword:00000001
+"IsExpanded"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\GroupInfo\Merino]
-"IconIndex"=dword:00000003
+[HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\GroupInfo\Develop]
+"IconIndex"=dword:00000002
 "IsExpanded"=dword:00000001
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\GroupInfo\Sync Jobs]
@@ -39,11 +43,23 @@ REGEDIT4
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs]
 
+[HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs\Google]
+"LastRunTime32"=dword:609d1217
+
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs\Informs]
 "LastRunTime32"=dword:609d0bf9
 
+[HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs\Projects]
+"LastRunTime32"=dword:609d0f3d
+
+[HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs\Records]
+"LastRunTime32"=dword:609d12d7
+
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs\TDrives]
 "LastRunTime32"=dword:609d0b9e
+
+[HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\SshHostKeys]
+"rsa2@22:172.31.11.14"="0x10001,0xfd44bee0197d3b324102df4f63fe1b769b412bfcbb6a2b2c01560c78e128a9abac885d0d1211c91b559b925b4536a31420ca01e3827684564928c331651fe7c94e0934c3f15e67c3749a1e243197ef30f819552fb958225513ac4e731c2663afb7b42d9ed86f4769aad2d72efeaf22d453d18163e096151c5d7a6c5edb1142b2f702da8b4c2a162d1755ac3c8fb0d3215b426aa61f0caa1885cea500ea562b3d39ee6b584858d6a445632ceee7bbb22dcf21fcb42ffd6a11f98372cd5f321bbc9be8847ceff066f4008051c192248f6e173b33f6aeea856ff5d243d7b6b335ddd8b4741b31a3bda3f80f3946688f6f31fbb823738b677e7ecec4484fd3bbac39"
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\UserReg]
 "affid"="[g-s]"
