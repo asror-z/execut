@@ -109,6 +109,7 @@
     </GUIConfigs>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="no" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="0" transparency="150" dotMatchesNewline="no">
+        <Find name="_Conf_Get" />
         <Find name="date" />
         <Find name=".php" />
         <Find name="bower" />
@@ -118,7 +119,6 @@
         <Find name="max" />
         <Find name="&#x044C;&#x0444;&#x0447;" />
         <Find name="http2_push_preload" />
-        <Find name="cmd-ALL" />
         <Replace name="&apos;," />
         <Replace name="ALL-cmd" />
         <Replace name="ALL-nssm" />
