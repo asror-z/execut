@@ -1,5 +1,6 @@
 #include <MyUDFs\_ShellAll.au3>
 #include <MyUDFs\_ShellFolder.au3>
+
 #include <MyUDFs\FileZ.au3>
 
 #include <Array.au3>
@@ -20,7 +21,7 @@ If $CmdLine[0] > 0 Then
     $sFilename = _FZ_Name($sFilename, $eFZN_FilenameNoExt)
 
     
-    ShellExecute('C:\Program Files\Everything\Everything.exe', '-nocase -ontop -noww -s "' & $sFilename & '"')
+    ShellExecute('Everything', '-nocase -ontop -noww -s "' & $sFilename & '"')
 
     ; Send("{LWIN}{LEFT}")
 

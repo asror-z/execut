@@ -1,24 +1,28 @@
 REGEDIT4
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync]
-"CleanUpTime"=dword:609d2ea0
+"CleanUpTime"=dword:60a3ecb8
 "LastUpdateCheck2Go"=dword:609d2ea0
 "TreeViewSelected"=dword:00000001
-"CurrentJobName"="Asterisk"
+"CurrentJobName"="Sysadmin"
 "CurrentGroupName"="Develop"
-"LastLicenseCheck"=dword:609d2ea1
+"LastLicenseCheck"=dword:60a3ecb9
 "SyncTreeColumnWidths"="359,96,180,72,31,72,96,180,120"
 "Str_TreeDisplayDensity"=dword:00000016
 "Str_NoAnimations"=dword:00000000
 "GS_WINPOSWindowPlacement"=hex:2c,00,00,00,02,00,00,00,01,00,00,00,00,83,ff,ff,\
-  00,83,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,99,00,00,00,8b,00,00,00,63,05,00,00,c0,\
-  02,00,00
+  00,83,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,8b,00,00,00,7f,00,00,00,80,05,00,00,10,\
+  03,00,00
 "FiltersWidth"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\GroupInfo]
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\GroupInfo\Develop]
 "IconIndex"=dword:00000002
+"IsExpanded"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\GroupInfo\Informs]
+"IconIndex"=dword:00000000
 "IsExpanded"=dword:00000001
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs]
@@ -33,10 +37,10 @@ REGEDIT4
 "LastRunTime32"=dword:609d48d2
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs\Google]
-"LastRunTime32"=dword:609e25f8
+"LastRunTime32"=dword:60a4acc2
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs\Projects]
-"LastRunTime32"=dword:609d48ef
+"LastRunTime32"=dword:60a3f9c0
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs\Softs]
 "LastRunTime32"=dword:609d48d7

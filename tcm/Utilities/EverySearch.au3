@@ -1,5 +1,6 @@
-#include "UDF\_ShellFolder-1_0.au3"
-#include "UDF\_ShellAll.au3"
+#include <MyUDFs\_ShellFolder.au3>
+#include <MyUDFs\_ShellAll.au3>
+
 
 #include <Array.au3>
 #include <File.au3>
@@ -17,7 +18,7 @@ If $CmdLine[0] > 0 Then
 
 	Local $aPathSplit = _PathSplit($sFullPath, $sDrive, $sDir, $sFilename, $sExtension)
 
-    ShellExecute('C:\Program Files\Everything\Everything.exe', '-nocase -ontop -noww -s "' & $sFilename & '"')
+    ShellExecute('Everything', '-nocase -ontop -noww -s "' & $sFilename & '"')
 
 	; Send("{LWIN}{LEFT}")
 
