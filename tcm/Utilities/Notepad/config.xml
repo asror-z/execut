@@ -89,6 +89,7 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="DockingManager" leftWidth="200" rightWidth="238" topHeight="200" bottomHeight="205">
             <FloatingWindow cont="4" x="757" y="31" width="976" height="587" />
+            <FloatingWindow cont="4" x="757" y="31" width="976" height="587" />
             <PluginDlg pluginName="NppExec.dll" id="-1" curr="3" prev="4" isVisible="no" />
             <PluginDlg pluginName="FunctionList.dll" id="0" curr="1" prev="4" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="4" prev="1" isVisible="no" />
@@ -105,6 +106,7 @@
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
+            <ActiveTabs cont="4" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->

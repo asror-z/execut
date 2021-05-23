@@ -1,9 +1,6 @@
 <NotepadPlus>
     <Session activeView="0">
-        <mainView activeIndex="1">
-            <File firstVisibleLine="23" xOffset="0" scrollWidth="882" startPos="0" endPos="0" selMode="0" lang="Normal Text" encoding="-1" filename="D:\Humans\Medicines\Diseases\Nose\Allergy\&#x041A;&#x0440;&#x043E;&#x043C;&#x043E;&#x0433;&#x043B;&#x0438;&#x0446;&#x0438;&#x0435;&#x0432;&#x0430;&#x044F;\&#x041B;&#x0435;&#x043A;&#x0440;&#x043E;&#x043B;&#x0438;&#x043D;\Readme.txt" />
-            <File firstVisibleLine="60" xOffset="0" scrollWidth="1071" startPos="3189" endPos="3189" selMode="0" lang="Normal Text" encoding="-1" filename="D:\Humans\Medicines\Diseases\Nose\Allergy\&#x041A;&#x0440;&#x043E;&#x043C;&#x043E;&#x0433;&#x043B;&#x0438;&#x0446;&#x0438;&#x0435;&#x0432;&#x0430;&#x044F;\&#x041A;&#x0440;&#x043E;&#x043C;&#x043E;&#x0432;&#x0438;&#x0437;\Readme.txt" />
-        </mainView>
+        <mainView activeIndex="0" />
         <subView activeIndex="0" />
     </Session>
 </NotepadPlus>
