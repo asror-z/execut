@@ -55,7 +55,7 @@ Func Executer($sFullPathToFolder)
 
             ConsoleWrite($aFileList[$i] & @CRLF)
 
-            If StringInStr($aFileList[$i], '@ Other') < 1 Then
+            If StringInStr($aFileList[$i], '@ Other') < 1 And StringInStr($aFileList[$i], '- Theory') < 1 Then
 
                 _GetFileName($aFileList[$i])
                 ShellExecute($aFileList[$i],"","","",@SW_MINIMIZE)

@@ -4,7 +4,6 @@
 #include <WinAPIEx.au3>
 #include <TrayConstants.au3>
 #include <MsgBoxConstants.au3>
-#include <MyUDFs\Startup.au3>
 #include <Misc.au3>
 
 #include <MyUDFs\Startup.au3>
