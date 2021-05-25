@@ -89,7 +89,6 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="DockingManager" leftWidth="200" rightWidth="238" topHeight="200" bottomHeight="205">
             <FloatingWindow cont="4" x="757" y="31" width="976" height="587" />
-            <FloatingWindow cont="4" x="757" y="31" width="976" height="587" />
             <PluginDlg pluginName="NppExec.dll" id="-1" curr="3" prev="4" isVisible="no" />
             <PluginDlg pluginName="FunctionList.dll" id="0" curr="1" prev="4" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="4" prev="1" isVisible="no" />
@@ -106,11 +105,11 @@
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
-            <ActiveTabs cont="4" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="no" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="0" transparency="150" dotMatchesNewline="no">
+        <Find name="api" />
         <Find name="_Conf_Get" />
         <Find name="date" />
         <Find name=".php" />
@@ -120,7 +119,6 @@
         <Find name="lang" />
         <Find name="max" />
         <Find name="&#x044C;&#x0444;&#x0447;" />
-        <Find name="http2_push_preload" />
         <Replace name="&apos;," />
         <Replace name="ALL-cmd" />
         <Replace name="ALL-nssm" />
