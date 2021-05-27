@@ -73,7 +73,7 @@ If $CmdLine[0] > 0 Then
         Case FileExists($sItem & '\Conf-Set.au3')
             ShellExecuteWait($sItem & '\Conf-Set.au3')
 
-        Case FileExists($sItem & '\Readme.txt')
+        Case FileExists($sItem & '\Readme.run')
             $array = FileReadToArray($sItem & '\Readme.txt')
 
             For $vElement In $array
