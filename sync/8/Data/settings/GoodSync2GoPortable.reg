@@ -1,18 +1,18 @@
 REGEDIT4
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync]
-"CleanUpTime"=dword:60abf054
+"CleanUpTime"=dword:60af2ba6
 "LastUpdateCheck2Go"=dword:609d2ea0
 "TreeViewSelected"=dword:00000001
-"CurrentJobName"="Projects"
+"CurrentJobName"="Sysadmin"
 "CurrentGroupName"="Develop"
-"LastLicenseCheck"=dword:60abf055
+"LastLicenseCheck"=dword:60af1d97
 "SyncTreeColumnWidths"="359,96,180,72,31,72,96,180,120"
 "Str_TreeDisplayDensity"=dword:00000016
 "Str_NoAnimations"=dword:00000000
-"GS_WINPOSWindowPlacement"=hex:2c,00,00,00,00,00,00,00,01,00,00,00,00,83,ff,ff,\
-  00,83,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,7f,00,00,00,74,00,00,00,74,05,00,00,05,\
-  03,00,00
+"GS_WINPOSWindowPlacement"=hex:2c,00,00,00,02,00,00,00,01,00,00,00,00,83,ff,ff,\
+  00,83,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,74,00,00,00,6a,00,00,00,69,05,00,00,fb,\
+  02,00,00
 "FiltersWidth"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\GroupInfo]
@@ -37,16 +37,16 @@ REGEDIT4
 "LastRunTime32"=dword:609d48d2
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs\Google]
-"LastRunTime32"=dword:60abf0a9
+"LastRunTime32"=dword:60ae6430
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs\Projects]
-"LastRunTime32"=dword:60aca84f
+"LastRunTime32"=dword:60af5e55
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs\Softs]
 "LastRunTime32"=dword:609d48d7
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs\Sysadmin]
-"LastRunTime32"=dword:60a6715d
+"LastRunTime32"=dword:60af5e95
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\SshHostKeys]
 "rsa2@22:172.31.11.14"="0x10001,0xfd44bee0197d3b324102df4f63fe1b769b412bfcbb6a2b2c01560c78e128a9abac885d0d1211c91b559b925b4536a31420ca01e3827684564928c331651fe7c94e0934c3f15e67c3749a1e243197ef30f819552fb958225513ac4e731c2663afb7b42d9ed86f4769aad2d72efeaf22d453d18163e096151c5d7a6c5edb1142b2f702da8b4c2a162d1755ac3c8fb0d3215b426aa61f0caa1885cea500ea562b3d39ee6b584858d6a445632ceee7bbb22dcf21fcb42ffd6a11f98372cd5f321bbc9be8847ceff066f4008051c192248f6e173b33f6aeea856ff5d243d7b6b335ddd8b4741b31a3bda3f80f3946688f6f31fbb823738b677e7ecec4484fd3bbac39"
