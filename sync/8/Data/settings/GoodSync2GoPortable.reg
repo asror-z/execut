@@ -1,12 +1,12 @@
 REGEDIT4
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync]
-"CleanUpTime"=dword:60af2ba6
+"CleanUpTime"=dword:60b11b4d
 "LastUpdateCheck2Go"=dword:609d2ea0
 "TreeViewSelected"=dword:00000001
-"CurrentJobName"="Sysadmin"
+"CurrentJobName"="Projects"
 "CurrentGroupName"="Develop"
-"LastLicenseCheck"=dword:60af1d97
+"LastLicenseCheck"=dword:60b11b4e
 "SyncTreeColumnWidths"="359,96,180,72,31,72,96,180,120"
 "Str_TreeDisplayDensity"=dword:00000016
 "Str_NoAnimations"=dword:00000000
@@ -40,7 +40,7 @@ REGEDIT4
 "LastRunTime32"=dword:60ae6430
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs\Projects]
-"LastRunTime32"=dword:60af5e55
+"LastRunTime32"=dword:60b23a82
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs\Softs]
 "LastRunTime32"=dword:609d48d7

@@ -22,7 +22,7 @@
 
 _Singleton(@ScriptName)
 
-$SF = _StartupFolder_Install()
+; $SF = _StartupFolder_Install()
 
 
 ;	Starting
