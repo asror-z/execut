@@ -1,8 +1,7 @@
 <NotepadPlus>
     <Session activeView="0">
-        <mainView activeIndex="1">
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="1" startPos="0" endPos="0" selMode="0" lang="Normal Text" encoding="-1" filename="S:\Payeers\UZB\Click.Uz\Contact\+998 97 5020304 Nigora.txt" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="264" startPos="74" endPos="74" selMode="0" lang="Normal Text" encoding="-1" filename="S:\Services\EDocker\didox.uz\Account\ZetSoft.txt" />
+        <mainView activeIndex="0">
+            <File firstVisibleLine="134" xOffset="0" scrollWidth="2220" startPos="6014" endPos="6014" selMode="0" lang="Normal Text" encoding="-1" filename="t:\Informs\Contracts\Persons\ALL\Readme\Readme-4X.txt" />
         </mainView>
         <subView activeIndex="0" />
     </Session>
