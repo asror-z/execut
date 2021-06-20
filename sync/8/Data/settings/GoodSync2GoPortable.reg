@@ -1,19 +1,21 @@
 REGEDIT4
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync]
-"CleanUpTime"=dword:60c9d79e
-"LastUpdateCheck2Go"=dword:609d2ea0
+"CleanUpTime"=dword:60cdeb77
+"LastUpdateCheck2Go"=dword:60ce0f3b
 "TreeViewSelected"=dword:00000001
 "CurrentJobName"="Projects"
 "CurrentGroupName"="Develop"
-"LastLicenseCheck"=dword:60c9d79f
+"LastLicenseCheck"=dword:60cdeb78
 "SyncTreeColumnWidths"="359,96,180,72,31,138,96,180,120"
 "Str_TreeDisplayDensity"=dword:00000016
 "Str_NoAnimations"=dword:00000000
 "GS_WINPOSWindowPlacement"=hex:2c,00,00,00,02,00,00,00,01,00,00,00,00,83,ff,ff,\
-  00,83,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,60,00,00,00,57,00,00,00,55,05,00,00,e8,\
+  00,83,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,57,00,00,00,4f,00,00,00,4c,05,00,00,e0,\
   02,00,00
 "FiltersWidth"=dword:00000000
+"LocalizationFile"="en-English.rfs"
+"2GoInstallPath"="D:/Develop/Projects/execut/sync/8/App/GoodSync"
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\GroupInfo]
 
@@ -43,7 +45,7 @@ REGEDIT4
 "LastRunTime32"=dword:60c9eb44
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs\Projects]
-"LastRunTime32"=dword:60ca1b60
+"LastRunTime32"=dword:60ce0f7f
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs\Softs]
 "LastRunTime32"=dword:609d48d7
