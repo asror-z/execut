@@ -1,0 +1,761 @@
+﻿# RFS file codepage.
+RFS_CODEPAGE "1251"
+RFS_LANGUAGE "Български"
+
+# Menus
+Menu_Job                "&Задача"
+Cmd_JobNew				"&Нова задача"
+Cmd_JobDelete			"&Изтрий"
+Cmd_JobRename			"&Преименувай..."
+Cmd_JobSaveTemplate     "Запази като &Шаблон..."
+Cmd_JobClone			"&Клонирай..."
+Cmd_JobSwapSides		"Размени местата на Задачите"
+Cmd_Analyze			"&Анализирай"
+Cmd_AnalyzeAll		    "Ана&лизирай всичко"
+Cmd_Sync				"&Синхронизирай"
+Cmd_SyncAll			    "Син&хронизирай всичко"
+Cmd_AnalyzeAndSyncThis	"Анали&зирай и Синхронизирай"
+Cmd_AnalyzeAndSyncAll	"Анализ и синх&ронизиране на всичко"
+Cmd_Stop			"П&рекъсни"
+Cmd_StopAll				"Спри Всичко"
+Cmd_JobListOfChanges	"&Списък на Промените"
+Cmd_JobOpenLogLeft		"Отвори &Левия Лог"
+Cmd_JobOpenLogRight		"Отвори &Десния Лог"
+Cmd_JobOptions			"&Настройки на задачата..."
+Cmd_JobResetState		"И&зтрий историята"
+Cmd_AppExit				"&Изход"
+Cmd_Cut				"Отрежи"
+Cmd_Copy				"Копирай"
+Cmd_Paste			"Вмъкни"
+Cmd_ExportJobsList		"Експортирай Списъка със Задачи..."
+Cmd_ExportSelJobsList	"Експортирай Избраните Задачи ..."
+Cmd_ImportJobsList		"Импортирай Списък Задачи..."
+
+Menu_View				"&Вид"
+Cmd_ViewStatusBar		"&Лента на състоянието"
+Cmd_ProgOptions			"&Настройки на програмата..."
+
+
+Cmd_View_FullWindow		"&Пълен Режим"
+Cmd_View_MiniWindow		"&Мини Режим"
+Cmd_View_TrayIcon		"&Трей Икона"
+
+Menu_Help				"&Помощ"
+Cmd_AppAbout			"&За програмата..."
+Cmd_AppManual			"&Ръководство"
+Cmd_AppFAQ				"&Често задавани въпроси"
+Cmd_AppCreateTicket		"&Съобщи за грешка..."
+Cmd_Help_BuyPro        "Купи PRO..."
+Cmd_Help_Activate	   "Активирай..."
+Cmd_CheckUpdates			  "Провери за обновяване"
+
+Cmd_ShowAll				"&Всички"
+Cmd_ShowChanges			"&Изменения"
+Cmd_ShowConflict		"&Конфликти"
+Cmd_ShowError			"&Грешки"
+
+Cmd_ShowToDelete		"Изтриване"
+Cmd_ShowExcluded		"Изключени"
+Cmd_ShowIncluded		"Включително"
+Cmd_ShowSameLenDiffTime "Разлика във времето"
+Cmd_ShowNotYetSynced    "Все още несинхронизиран"
+
+Menu_Actions			"&Действие"
+Cmd_ViewJobList			"&Списък Задачи"
+Cmd_ViewJobFilter		"&Филтри"
+Cmd_ViewLog				"&Дневник"
+
+Menu_Tools				"&Инструменти"
+Menu_View_Other			"&Други"
+
+
+# Context menus
+
+Cmd_ItemProp			"&Свойства"
+
+Cmd_ItemLOpen			"Отвори &Левия файл"
+Cmd_ItemROpen			"Отвори &Десния файл"
+Cmd_ItemLDelete			"&Изтрий левия файл"
+Cmd_ItemRDelete			"&Изтрий десния файл"
+Cmd_ItemDeleteBoth		"&Изтрий двата файла"
+
+Cmd_ItemLDeleteMul1		"Изтрий %1 елементи отляво"
+Cmd_ItemRDeleteMul1		"Изтрий %1 елементи отдясно"
+Cmd_ItemBDeleteMul1		"Изтрий %1 елементи от двете страни"
+
+Cmd_OpenLFolder			"Отвори Лявата папка"
+Cmd_OpenRFolder			"Отвори Дясната папка"
+Cmd_DeleteLFolder			"&Изтрий лявата папка"
+Cmd_DeleteRFolder			"&Изтрий дясната папка"
+Cmd_DeleteBothFolders		"&Изтрий двете папки"
+
+Cmd_ItemCompare			"&Сравни Лява с Дясна"
+
+Cmd_Recommended			"&Препоръчано"
+Cmd_DoNotCopy			"&Не копирай"
+Cmd_CopyLeftToRight		"Отляво на&дясно"
+Cmd_CopyRightToLeft		"Отдясно на&ляво"
+Cmd_CopyTimeLeftToRight  "Копирай Времето Л към Д"
+Cmd_CopyTimeRightToLeft  "Копирай Времето Д към Л"
+Cmd_CopyStateSyncTail    "Синхро Състояние"
+
+Str_Items1				 " %1 елементи"
+
+Cmd_ItemExcludeFile1		"&Изключи '%1' файл"
+Cmd_ItemExcludeFolder1		"&Изключи '%1' папка"
+Cmd_ItemExcludeMulti1		"&Изключи %1 Избраните елементи"
+
+Cmd_ItemIncludeFile1		"&Включи Само файл '%1'"
+Cmd_ItemIncludeFolder1		"&Включи Само папка '%1'"
+Cmd_ItemIncludeMulti1		"&Включи Само %1 Избраните елементи"
+
+Cmd_ItemExcludeAllFiles1		"Изключи &всички '%1' файлове"
+Cmd_ItemExcludeAllFolders1	"Изключи &всички '%1' папки"
+Cmd_ItemExcludeAllMulti1	"Изключи елементи с Имена Names от %1 Избрани елементи"
+
+Cmd_ItemExcludeAllMask1	"Из&ключи всички '*%1' файлове"
+Cmd_ItemExcludeAllMaskMulti1	"И&зключи елементи с Разширения от %1 Избрани елементи"
+
+Cmd_ItemIncludeAllMask1	"&Включи само '*%1' файлове"
+
+
+# Taskbar Icon menu
+
+
+# Buttons below tree
+Grp_Actions				"Действия"
+Btn_Analyze				"Анализ"
+Btn_SyncRun				"Синхрон."
+Btn_Stop			"Стоп"
+Btn_Pause				"Пауза"
+Btn_Resume				"Отново"
+Btn_Auto				"Авто"
+Btn_Clear               "Изчисти"
+Grp_Show				"Показване на"
+Cmd_ShowToCreate		"Нов"
+Cmd_ShowToOverwrite		"Презапиши"
+
+Chk_AutoScroll			"Скрол"
+
+# Tree view Columns
+Str_TreeItem			"Файл"
+Str_TreeLSize			"Ляво - Размер"
+Str_TreeLDate			"Ляво - Дата"
+Str_TreeL				"Ляво"
+Str_TreeCenter			""
+Str_TreeR				"Дясно"
+Str_TreeRSize			"Дясно - Размер"
+Str_TreeRDate			"Дясно - Дата"
+Str_TreeStatus			"Състояние"
+
+# Misc buttons
+Btn_Ok					"Ok"
+Btn_Cancel				"Отказ"
+Btn_Apply				"Приложи"
+Btn_Yes					"Да"
+Btn_No					"Не"
+Btn_Abort               "Прекрати"
+Btn_Retry               "Повтори"
+Btn_Ignore              "Пропусни"
+Btn_Close               "Затвори"
+Btn_Help                "Помощ"
+Btn_Continue			"Продължи"
+Btn_Browse				"Избор"
+
+
+# Tooltips for buttons, for new users
+Tip_Browse_Left			"Избери Лява синхро папка.\nНатисни Избери, Въведи Потребител, Парола и адрес на мрежова папка."
+Tip_Browse_Right		"Избери Дясна синхро папка.\nНатисни Избери, Въведи Потребител, Парола и адрес на мрежова папка."
+Tip_Change_Way			"Смени Посоката на Задачата и други настройки"
+Tip_Analyze				"Анализирай Задача, покажи списъка с разлики между лява и дясна папки и предлаганите действия"
+Tip_Sync				"Синхронизирай Задача, която е била Анализирана"
+Tip_Stop				"спри Анализа или Синхронизирай"
+Tip_Clear				"Изчисти дървото с разликите, за да спестиш памет"
+Tip_Opt					"Задай автоматично изпълнение на Задача"
+Tip_Paused				"Пауза. Натисни тук за старт"
+Tip_Pause				"Временно отлагане на Анализ или Синхронизация"
+
+# New Job dialog
+Title_JobName			"Въведете името на задачата"
+Str_JobName				"Име:"
+Str_JobTemplate			"От шаблона:"
+Str_BadJobName1			"Името на задачата не може да съдържа следните символи:  / \ ? < > : * |"
+Str_BadJobName2			"Името на задачата не може да бъде равно '%1'."
+Str_BadJobName3			"Името на задачата не може да бъде по-дълго от 100 символа."
+Str_JobNameExists		"Задача с такова име вече съществува."
+Str_JobType				"Избери тип на Задача"
+Str_JobType_Sync		"Синхронизирай"
+Str_JobDesc_Sync		"Двупосочна Задача: Файлове се променят и от двете страни.  Скритите и Системни Файлове са изключени по подразбиране"
+Str_JobType_Backup		"Архив"
+Str_JobDesc_Backup		"Еднопосочна Задача: Файлове се копират отляво към дясната страна. Скритите и Системни Файлове са включени по подразбиране"
+Str_JobType_Template	"От шаблон:"
+Str_JobDesc_Template	 "Шаблонът е частично попълнена Задача, с често изпалзвани настройки на Вашите Задачи. Шаблонът съдържа настройки за Задача, но не и пътища до папки."
+Str_JobDesc_NoTemplate_1 "Няма създадени шаблони. Ползвайте командата '%1', за да създадете нов шаблон от съществуваща Задача."
+Str_Combo_NoTemplate	 "<няма шаблон>"
+Title_RenameJob			"Преименувай Задача"
+Title_CloneJob			"Клонирай Задача"
+
+# Job Tabs control buttons
+Str_TabAddNewJob		"Добави Нова Задача"
+Str_TabScrollLeft		"Скрол Наляво"
+Str_TabScrollRight		"Скрол Надясно"
+
+# Windows menu and dialog
+
+
+
+# Job List Pane
+Title_JobList			"Списък Задачи"
+Title_TaskName			"Име на Задача"
+Title_LastRunTime		"Последно Изпълнение"	
+
+#Log Pane
+Title_LogWnd			"Лог Прозорец"
+
+# Help -> About
+Title_About				"За програмата"
+Tip_About				"За Програмата"
+Str_RegTo				"Регистрирана от:"
+Help_ChkVer				"Свържи се с GoodSync.com и провери дали има нова версия за изтегляне."
+Help_SysStat			"Покажи информация за версията и обкръжението. Моля, предайте тази информация при контак с Техническата Поддръжка."
+
+# Program Options
+Title_Options			"Опции GoodSync"
+Str_Options				"Опции"
+
+Help_NotDefined			"Не е дефинирана помощ"
+Help_MouseOver			"Задръжте Мишката отгоре за подробно описание. Натиснете  веднъж Alt клавиша, ако искате да скролирате или копирате текста."
+
+# Program Options - General
+Title_General			"Основни"
+Str_Lang				"Език"
+Help_Lang				"Променете езика на GoodSync интерфейса за менюта, опции и съобщения.   нужен е рестарт на програмата, за да приложите смяната на езика."
+Chk_TrayIcon			"В лентата за задачи при затваряне на основния прозорец"
+Help_TrayIcon			"ВКЛ: Когато затворите GoodSync, ще остане да работи на заден фон. За да го ползвате GoodSync, натиснете иконката в Системния Трей (долния десен ъгъл на десктопа).  ИЗКЛ: когато затваряте GoodSync, ще излиза напълно от паметта."
+Chk_AutoStart			"Стартирай GoodSync заедно с Windows"
+Help_AutoStart			"Windows стартира GoodSync автоматично при влизане във Вашия Windows профил, GoodSync стартира минимизиран в трея. включете този режим, ако искате автоматично да стартирате Задачи, т.е. ако сте маркирали  нещо в Настройки на Задачи -> Авто таба. недостъпно в Goodsync2Go."
+Chk_ShowSysTray			"Показвай GoodSync Иконата в трея"
+Help_ShowSysTray		"Показва GoodSync Иконата в трея"
+
+Chk_ResetIM				"Повторно включи всички информационни съобщения"
+Help_ResetIM			"Включи всички спрени предупредителни съобщения"
+Chk_AutoChkVer			"Ежедневно проверявай за нови версии"
+Help_AutoChkVer			"GoodSync ще проверява ежедневно www.goodsync.com за наличието на нови версии на програмата."
+Chk_CreateNewFolder		"Създавай папка, ако тя не съществува"
+Help_CreateNewFolder	"GoodSync ще създаде лява/дясна синхро-папки ако не съществуват."
+
+Str_LogCritical			"Критичен"
+Str_LogError			"Грешки"
+Str_LogInfo			    "Информация"
+Str_LogDetails			"Детайлизирано"
+Help_LogDetailLevel		"Задай ниво на детайли за логовете."
+
+
+
+Str_CompareProg		"Сравни Файлове с външна програма"
+Help_CompareProg		"Програма за сравнение на файлове. Трябва да програма с GUI, която взима пътищата на сравняваните файлове като аргументи. Например: ако тук укажете WinDiff.Exe, GoodSync ще го извика като: WinDiff file1 file2. Ако тук не укажете нищо, ще се ползва стандартната сравняваща програма, която е UNIX diff"
+Str_ExecutableFiles		"Изпълними Файлове"
+
+# Program Options -> Connection
+Title_Connect			"Връзка"
+Str_UseProxy_Manual		"Ползвай Прокси сървър за отдалечени връзки"
+Help_UseProxy_Manual			"Ползвай Прокси сървър за отдалечени връзки"
+Str_ProxyHost			"Име на сървър"
+Help_ProxyHost			"Въведи Име на Прокси"
+Str_ProxyPort			"Порт"
+Help_ProxyPort			"Въведи порт на Прокси"
+Str_ProxyUserID         "Прокси Потребител"
+Str_ProxyPasswd         "Парола"
+Help_ProxyAuth          "Въведи Прокси Потребител и Парола, ако проксито изисква идентификация"
+
+Str_SMTP_Enable			"Ползвай SMTP сървър за пращане на ел.поща (ИЗКЛ: ползвай стандартен MAPI клиент)"
+Help_SMTP_Enable		"Избрано: ползвай SMTP сървър указан по-долу за пращане на Пост-Анализ и Пост-Синхро имейли.. Не избрано: ползвай подразбиращ се MAPI клиент за пращане на имейлите"
+Str_SMTP_Host			"SMTP Сървър"
+Help_SMTP_Host			"Въведи тук име на SMTP сървър, този сървър ще се ползва за пращане на Пост-Анализ и Пост-Синхро имейли"
+Str_SMTP_Port			"Порт"
+Help_SMTP_Port			"Въведи номер на SMTP порт, нормално 587 или 25."
+Str_SMTP_UserID         "SMTP Потребител"
+Str_SMTP_Passwd         "Парола"
+Help_SMTP_UserID          "Въведи Потребител и Парола за SMTP сървър изискващ идентификация"
+Str_SMTP_SenderEmail    "Ел.Поща на Изпращача"
+Help_SMTP_SenderEmail   "Въведи Ел.Поща на Изпращача(вашия имейл адрес)"
+Str_SMTP_Secure			"Сигурно SMTP изпращане чрез SSL"
+Help_SMTP_Secure		"Ако е маркирано, криптирай SMTP комуникацията със SSL на порт 465. Ако не у, ползвай комуникация в открит текст."
+
+
+# Job Options - General
+Title_JobGeneral		"Основни"
+Tip_JobGeneral			"Основна Задача "
+Label_JobType			"Вид на задачата"
+Str_JobType_TwoWay		"В двете посоки"
+
+Str_JobType_LeftToRight	"Отляво надясно"
+Str_JobType_RightToLeft	"Отдясно наляво"
+Help_JobType			"задава предпочитана посока на Синхронизация.  2-посочната Задача запазва лявата и дясната синхронизирани, дори ако има променени Файлове от двете страни. 1-посочната задача синхронизира промени отляво надясно или отдясно наляво, използва се главно за бекъпи."
+
+Chk_DelPropagate		"Разпространи Изтриванията"
+Help_DelPropagate		"ВКЛ: Ако файл или папка са изтрити от едната страна, GoodSync ще го Изтрие и от другата страна при Синхронизация.  ИЗКЛ при 2-посочни Задачи: изтриванията се обръщат в копиране на файловете. ИЗКЛ при 1-посочни Задачи: изтриванията стават изключени елементи"
+
+Chk_SaveBakFiles		"Запази Предишни Версии на изтрити/заменени файлове"
+Help_SaveBakFiles		"Запази предишни версии на Файлове изтрити или заменени вследствие на Синхронизация. Файловете се запазват в _gsdata_\\_saved_ папка. Само последната версия на изтрития/заменен файл се запазва."
+
+Chk_CalcReqSpace		"Пресметни мястото нужно за Синхро"
+Help_CalcReqSpace		"Ако е маркирано, пресмятането на свободното дисково пространство е нужно за Синхронизацията. Използвайте го за Задачи върху дискове с ограничено свободно място. Изключете го за  Задачи, където няма такава опасност и от двете страни"
+
+Str_SpeedLimit			"лимит на скоростта при Копиране в Кб/сек"
+Help_SpeedLimit  		"Забави скоростта на копиране (ъплоуд или даунлоуд) ако средната скорост на копиране превишава указаната стойност. 0 означава Без Лимит."
+
+Str_ShowBalloon			"Показвай информационни съобщения"
+Str_DoNotShowBalloon	"Не показвай"
+Str_ShowBalloonAlways	"Винаги показвай"
+Str_ShowBalloonOnError	"Само ако има грешки"
+Help_ShowBalloon		"Изберете кога да показвате уведомителни съобщения в GoodSync трей-иконата"
+
+
+# Job options - Filters page
+Title_Filters			"Филтри"
+Tip_Filters				"Филтри"
+Str_FilterExcluded		"Файлове/папки, изключени от синхронизацията"
+Help_FilterExcluded		"Файлове и папки, отговарящи на ред в този списък, ще бъдат изключени от синхронизация. Можете да ползвате жокерите '*' и '?'. Линии почващи с \\ отговарят на пълен път относителен спрямо синхро папката. Примери: *.txt *~ \\Fo?der\\*.obj размер>1000 размер<=5k (размер < 5 Kb) размер>4m (размер > 4 Mb) време=2008/03/08 (Mar 8, 2008) >=-6d (време >= преди 6 дена)"
+Str_FilterIncluded		"Файлове, включени в синхронизацията"
+Help_FilterIncluded		"Ако не е празно, само Файлове с имена отговарящи на ред в този Разрешителен списък и не отговарящи на ред в Забранителния списък, ще се синхронизират. Правилата за сравнение по редовете са еднакви"
+Tip_Filter_New			"Вмъкни Нов Филтър"
+Tip_Filter_Edit			"Смени Избрания Филтър"
+Tip_Filter_Del			"Изтрий Избраните Филтри"
+Str_Filter_DummyText	"<Двоен клик тук, за добавяне>"
+Str_Edit				"Редактирай"
+
+Chk_ExcludeEmptyFolders	"Изключи папки, съдържащи само изключени файлове и папки"
+Help_ExcludeEmptyFolders "Изключи папки, които са празни или съдържат само изключени Файлове и папки"
+Chk_ExcludeHidden		 "Изключи Скритите Файлове и папки"
+Help_ExcludeHidden		 "Изключи Файлове и папки с атрибут СКРИТИ"
+Chk_ExcludeSystem		 "Изключи Системни Файлове и папки"
+Help_ExcludeSystem		 "Изключи Файлове и папки с атрибут СИСТЕМНИ"
+
+# Job options - Auto page
+Title_Auto				"Авто"
+Tip_Auto				"Автоматично"
+Str_ColumnAnalyze		"Анализ"
+Str_ColumnSync			"Синхронизация"
+Str_ColumnAnalyzeAndSync "Анализирай И Синхронизирай"
+
+Name_DoOnStart			"Старт"
+Chk_DoOnStart			"Когато GoodSync стартира"
+Help_DoOnStart			"Анализирай (и може би Синхр.) Задачата при старта на GoodSync."
+
+Name_DoOnFoldersConnect	"Свързване"
+Chk_DoOnFoldersConnect	"при Свръзване с папки"
+Help_DoOnFoldersConnect	"Анализирай (и може би Синхр.) Задачата, когато и двете папки на Задачата са свързани, т.е. когато са достъпни понеже дисковете им са поставени, или има Интернет връзка, или е включен Джиесема"
+
+
+Name_DoBeforeLogout		"Излизане"
+Chk_DoBeforeLogout		"При изход от програмата"
+Help_DoBeforeLogout		"Анализирай и Синхронизирай Задачата, при Изключване, Рестартиране или Излизане от ПК. Ако ОС покаже съобщение 'Program is not responding' по време на Синхронизация, игнорирайте го, за да може GoodSync да завърши синхронизацията."
+
+Name_DoPeriodically		"Таймер"
+Chk_DoPeriodically		"Периодично"
+Help_DoPeriodically		"Анализирай (и може би Синхр.) Задачата на всеки HH часа и MM минути. За целта GoodSync трябва да е стартиран."
+Str_ColumnLPath			"Ляв път"
+Str_ColumnRPath			"Десен път"
+
+Str_DoOnSchedule		"Използвай планировчика на задачи"
+Help_DoOnSchedule		"GoodSync ще бъде стартиран от Windows използвайки зададено от вас разписание. Натиснете бутона 'Конфигурирай', за да започнете."
+Str_SchedConfig			"Конфигурация..."
+Help_SchedConfig		"натиснете, за да отворите Windows Task Scheduler"
+
+Str_ResolveConflicts	"Автоматично разрешавай конфликтите"
+Help_ResolveConflicts	"Форсирай автоматично решаване на конфликти за Задачите, които се Синхронизират автоматично. При не автоматизираните Задачи, всички Конфликти се рашават като 'Не Копирай, ако потребителя не го промени'."
+Str_DoNotCopy			"Не копирай"
+Str_NewerFileWins		"Новият файл остава"
+
+Str_LimitChanges		"Не синхронизирай, ако променените файлове са повече от"
+Help_LimitChanges		"Автоматична Синхронизация не се извършва ако повече от указания лимит от Файлове в Задачата са променени. Неочаквано голям брой промени е признак, че може би има проблем и е нужна ръчна манипулация. Установете го в  100% за Синхронизация без значение големината на промените."
+
+
+
+Str_AutoClear			"Авто-изчистване на дървото след Синхр. или Анализ без промени"
+Help_AutoClear			"Автоматично изчисти дървото на Промените след Анализ без Промени или завършване на Синхронизация"
+
+Str_NotInPortable		"Не е налично в Портативната версия"
+
+
+# Job options - Scripts page
+Title_Script			"Скриптове"
+Tip_Script				"Скриптове"
+Str_PreAnalyzeProgram	"Програма Преди Анализ"
+Help_PreAnalyzeProgram	"Стартирай Програмата преди Анализ, с аргументи: Име_на_Задача"
+Str_PostAnalyzeEmailOrProgram	"След Анализ - Ел.Поща или Програма"
+Help_PostAnalyzeEmailOrProgram	"Ако въведете Ел.Поща ще изпрати лога на Анализа на този имейл. Ако е име на програма, ще стартира програмата след края на Анализа, с аргументи: Име_на_Задача Краен-код-Грешка лог-път Промени Грешки Конфликти"
+Str_PostSyncEmailOrProgram	"След Синхр. - Ел.Поща или Програма"
+Help_PostSyncEmailOrProgram	"Ако въведете Ел.Поща ще изпрати лога на синхронизацията на този имейл. Ако е име на програма, ще стартира програмата след края на Синхронизацията, с аргументи:: Име_на_Задача Краен-код-Грешка лог-път Синхр-ок Грешки Конфликти"
+
+
+
+# Job Options - Advanced
+Title_JobAdvanced		"Подробно"
+Tip_JobAdvanced			"Подробно"
+
+Chk_UseSafeCopy			"Безопасно Копиране с временни Файлове"
+Help_UseSafeCopy		"ВКЛ: При копиране на файл, първо се Копира във временен файл, после се преименува в крайния. Това предотвратява оставането на непълни/повредени копия при неочакван край на Синхронизацията. Изисква допълнително дисково пространство, особено за големи файлове.  ИЗКЛ: Копира директно в крайния файл: по-бърз, но криещ рискове метод"
+
+Chk_CopyLocked			"Копирай заключени Файлове"
+Help_CopyLocked			"Ползвай Volume Shadow Service за Копиране на файлове заключени от друго приложение. Не е налична в Windows 2000.  Изисква 64-бит версия на GoodSync на 64-бит системи"
+
+Chk_CopyACL	   		    "Копирай ACL Атрибутите за Сигурност"
+Help_CopyACL			"Копира Списъците за Контрол на Сигурността при копиране на файл или папка. Те са достъпни само за NTFS файлова система, липсват при FAT или други"
+
+# Left and Right
+Str_LeftFolder			"Лява папка"
+Str_RightFolder			"Дясна папка"
+
+Str_LeftAndRight		"отляво и отдясно"
+Str_Left				"отляво"
+Str_Right				"отдясно"
+Str_Folder				"папка"
+Str_File				"файл"
+Str_Deleted				"изтрит"
+Str_NotPresent			"не е наличен"
+
+Str_LeftToRight			"Отляво надясно"
+Str_RightToLeft			"Отдясно наляво"
+
+# Exclusion messages
+Str_ExclBy_FolderAbove  "изключен от горната папка"
+Str_ExclBy_SyncFolder   "изключен: GoodSync папка за данни"
+
+
+
+
+
+Str_ExclBy_MatchName    "изключен: съвпадение "
+Str_ExclBy_NoMatchName  "не е включен: няма съвпадение "
+Str_ExclBy_EmptyFolder  "изключен: празна папка"
+Str_ExclBy_ChildOfExcl  "изключен: дете на изключен"
+
+Str_ExclBy_NoPropDels      "изключен: не разпространявай изтривания"
+Str_Msg_SkipLink     "пропусни връзка към папка %1"
+
+# Job status and progress
+Str_Status_PressAnalyze			"Натисни Анализирай за старт..."
+Str_Status_ConnectingToFolder	"Свързване към папка %1"
+Str_Status_Scanning				"Сканирай %1"
+Str_Status_ReadStateFile        "Прочети файл на състояние %1"
+Str_Status_ReadEmbeddedStateFile "прочети Вграден файл на състояние %1 и съедини със сътояние на корена"
+Str_Status_NewStateFile			"%1: Не намерен файл на състояние, ще бъде създаден нов такъв"
+Str_Status_SaveStateFile        "Запази файл на състояние %1"
+Str_Status_PostProcessing		"ПостОбработка"
+Str_Status_ComputePrevVerSize	"Изчисли размера на архивните файлове"
+
+Str_Status_CompareOneSide		"Сравни %1"
+Str_Status_CompareLeftToRight	"Сравнение на лявата и дясната част"
+
+Str_Status_NotYetAnalyzed		"Още не е проанализирано"
+Str_Status_Syncing			"Синхронизиране"
+Str_Status_Analyzing		"Анализ"
+Str_Status_Connecting		"Свързване"
+Str_Status_Paused			"Пауза"
+Str_Status_Resumed			"Рестартиран"
+Str_Status_All			"Всички"
+Str_Status_NoFiles		"Няма файлове"
+Str_Status_Changes		"Изменения"
+Str_Status_InSync		"Синхронно"
+Str_Status_Conflicts		"Конфликти"
+Str_Status_NoConflicts	"Няма конфликти"
+Str_Status_Errors		"Грешки"
+Str_Status_NoErrors		"Няма грешки"
+Str_Status_SyncAttention	"Изисква Внимание"
+Str_Status_Connected		"Свързан"
+Str_Status_Disconnected		"Разкачен"
+
+Str_Status_VolumeInfo_Free  "Свободни: %1, Общо: %2"
+Str_Status_VolumeInfo_Reqd  "Нужни: %1"
+
+Str_Status_FilesChangedCnt	"Променени Файлове: %1"
+Str_Status_ConflictsCnt		"Конфликти: %1"
+Str_Status_ErrorsCnt		"Грешки: %1"
+Str_Status_SyncedCnt		"Синхр: %1"
+Warn_AllExcluded			"Внимание!\r\nВсички Файлове са изключени, вероятно конфигурацията на Филтрите Ви е некоректна.\r\nПревключете на 'Всички' или 'Изключен' изглед, за да проверите че филтрите работят коректно."
+Warn_AllNew					"Внимание!\r\nЛявата и дясната папки нямат общи Файлове. Може би искате да синхронизирате несвързани папки.\r\nМоля, проверете че сте избрали правилните папки за синхронизация."
+Warn_AllDelete				"Внимание!\r\nВсички Файлове в папката-цел ще бъдат изтрити.\r\nПрепоръчваме Ви да архивирате вашите данни в празна папка."
+
+# Analyze messages
+Str_Msg_Job					"Задача"
+Str_Msg_LeftRight_Descrs    "Лява: %1, Дясна: %2"
+Str_Msg_JobFilters          "Филтри: %1"
+Str_Msg_SetFolder		    "Моля изберете папка за анализ."
+Str_Msg_CannotOpenFolder	"Липсва абсолютен път към папка:\n'%1'"
+Str_Msg_SameFolders			"Лявата и дясната папка съвпадат."
+Str_Msg_NestedFolders2	    "Папката '%1' е подкаталог/папка '%2'.\nНе е възможно да се анализират подпапките."
+Str_Msg_Created_Folder      "Създадена папка '%1'"
+Str_Msg_CannotConnect       "не мога да се свържа с "
+Str_Msg_CannotCreateGsdata  "Не мога да създам GoodSync папка на състояние _gsdata_ в %1: %2\nАко искате да архивирате папка само за четене, тогава задайте тази Задача като 1-посочна Форсиран Източник само за четене в Задача -> Настройки"
+Str_Msg_ErrReadStateFile    "Грешка четене файл на състоянието '%1': %2.\nЛошия файл на състоянието е преименуван на '%3'.\nПри следващия Анализ, ще се създаде нов файл на състоянието.\nМоля изпратете лошия файл на ask@goodsync.com."
+Str_Msg_EmbeddedJob         "Открита е синхро-папка '%1' не принадлежаща на тази задача, а на друга. Това означава, че може би повече от една задача синхронизира същата папка. Това не се препоръчва"
+Str_Msg_DetectedDisconnect  "Проверете Връзката: Открито разпадане на Връзка: %2"
+Str_Msg_RemainsConnected    "Проверете Връзката: Остава Свързан: %2"
+Str_Msg_DetectedConnect     "Проверете Връзката: Открита Връзка, извършете Анализ"
+Str_Msg_RemainsDisconnected "Проверете Връзката: Остава Разкачена: %2"
+
+Str_Msg_Filter_ExcludeHidden       "Изключи Скрити"
+Str_Msg_Filter_ExcludeSystem       "Изключи Системни"
+Str_Msg_Filter_ExcludeEmptyFolders "Изключи Празни папки"
+Str_Msg_Filter_Included     	   "Включи"
+Str_Msg_Filter_Excluded     	   "Изключи"
+
+Str_Msg_OlderFileVsNewer	  "Внимание: По-стар файл ще замени по-нов"
+Str_Msg_Conflict_BothChanged  "Конфликт: файлът е Променен и от двете страни"
+Str_Msg_Conflict_1way_RtoL    "Отдясно-Наляво Синхро в 1-посочна Отляво-Надясно Задача"
+Str_Msg_Conflict_1way_LtoR    "Отляво-Надясно Синхро в 1-посочна Отдясно-Наляво Задача"
+
+Str_Status_JobScheduled      "----- Задача '%1': В Разписание за старт от %2"
+Str_Status_AnalysisStarted   "----- Задача '%2': Анализ стартиран от %3 на ПК '%4' (GoodSync в. %5) -----"
+Str_Status_OneSideStats      "%1: Файлове: %2 (изключени %3). папки: %4 (изключени %5)."
+Str_Status_AnalysisSummary   "Промени: %1, Конфликти: %2, Време: %3, Състояние: %4, Грешки: %5"
+Str_Status_AnalysisCompleted "----- Анализа завършен. Време %2, Скорост: %3 Файлове/сек -----"
+Str_Status_AnalyzeStopped		"Анализът е прекъснат от потребителя"
+Str_Status_AnalyzeFinished_NoChanges   "Анализирано, не са открити промени"
+Str_Status_AnalyzeFinished_ReadyToSync "Анализирано, натиснете Синхронизация за начало"
+Str_Status_Advise_HaveConflicts	"Анализа завърши с Конфликти. Решете Конфликтите избирайки правилната посока за синхронизация, след което натиснете Синхронизация"
+Str_Status_Advise_HaveErrors	"Анализа завърши с Грешки. Натиснете бутона Грешки, за да видите всички Грешни елементи"
+Str_Status_FolderDisconnected   "Една от папките загуби връзка"
+Str_Status_RemainsConnected     "И двете папки имат връзка"
+Str_Status_RemainsDisconnected  "Една от папките остава без връзка"
+
+Str_Status_SynchroStarted	 "===== Задача '%2': Синхр. стартирана от %3 на ПК '%4' ====="
+Str_Status_SavingStateFor		"Запазване на историята за "
+Str_Status_SynchroSummary	 "елементи синхронизирани: %1, Грешки: %2"
+Str_Status_SynchroErrors	 "Синхронизацията завърши с %1 грешки. Натиснете бутона Грешки, за да видите синхро-грешките"
+Str_Status_SynchroConflicts	 "Синхронизацията завърши с %1 нерешени конфликти. Натиснете бутона Конфликти, за да видите нерешените Конфликти"
+Str_Status_SynchroCompleted	 "===== Синхронизацията Завърши. Време: %2, Скорост: %3 ====="
+Str_Status_Remaining_Speed	"Остават %1, Скорост %2"
+Str_Status_SyncError		"Грешка"
+Str_Status_SyncStopped			"Синхронизацията е прекъсната от потребителя"
+Str_Status_SyncDisconnected "Папката загуби връзка"
+Str_Status_SyncFinished_OK  "Синхронизацията завърши успешно"
+Str_Status_Advise_SyncAttention	 "Синхронизацията завърши с Грешки или Нерешени Конфликти"
+
+Str_Msg_StoppedByUser		"Прекъснато от потребителя"
+
+Str_Msg_DeleteOtherJobResults "Изтрий резултатите от Анализи на задачи, които се пресичат с текущата задача: %1"
+Str_Msg_DeleteResultsReason   "Синхронизация на засичаща се Задача %1"
+Str_Msg_DeleteThisJobResults  "Резултатите от Анализа (дървото файл/папки) на задачата бяха изтрити от %1"
+
+Str_Msg_Action_DeleteFolder "Изтрий папка"
+Str_Msg_Action_DeleteFile   "Изтрий файл"
+Str_Msg_Action_CreateFolder "Създай папка"
+Str_Msg_Action_CopyOver     "Копирай Върху"
+Str_Msg_Action_CopyNew      "Копирай Нови"
+Str_Msg_Action_CopyTime     "Копирай Време на промени от %1 до %2"
+
+Str_Msg_AndMoreSimilarLogLines "... и още %1 подобни реда в лога бяха пропуснати (изберете Задача -> Отвори Ляв/Десен Лог за да видите целия лог)"
+
+Str_Msg_OldNewWholeHour_TimeShift  "%1: Стар-Нов времево отместване от %2 часа открито за %3 Файлове. Решение: без Промени от тази страна"
+Str_Msg_OldNewRounding_TimeShift   "%1: Стар-Нов времево отместване от %2 часа (тип %3) за %4 Файлове. Решение: Без промени от тази страна"
+Str_Msg_LeftRight_TimeShift        "Лява-Дясна папка времево отместване от %1 часа (тип %2) за %3 Файлове: Решение: Смени операцията Копиране файл на операция Копирай Време"
+
+Str_Msg_SyncAgainAfterActiv "Натиснете Синхронизация отново, след като GoodSync Pro е активиран"
+
+
+Str_Msg_FolderLocked    "Изпълнява се друга задача в папка %1:\nфайлът %2 е блокиран.\nИзтрийте този файл, ако сте уверени, че никаква друга задача не се изпълнява в тази папка."
+Str_Msg_LimitChanges2	"Променените файлове (%1) са повече от зададения от потребителя лимит (%2), така че задачата няма да бъде синхронизирана автоматично."
+Str_Msg_NotEnoughDiskSpace  "Няма достатъчно свободно място на диск %1, нужни са %2, има %3"
+Str_Msg_RequiredDiskSpace   "На диск %1 нужното пространство за синхронизация е %2, налични са %3"
+
+
+
+
+# Misc Messages
+Chk_DoNotAsk			"Не питай повече"
+Str_TitleWarning		"GoodSync Предупреждение"
+Str_TitleError			"GoodSync Грешка"
+Str_MsgBoxTimeout		"Ще се затвори след %1 секунди"
+
+Str_SaveOptions			"Настройките на задачата бяха променени. Да запазя ли промените?"
+
+Str_Win2kAtLeast		"За да стартира GoodSync, трябва да имате инсталиран поне Windows 2000."
+Str_SignedAppNeeded		"Тази програма не е регистрирана в Siber Systems Inc.\nМоля инсталирайте регистрирана версия от https://www.goodsync.com"
+
+Str_AskDeleteJob1		"Наистина ли искате да изтриете задачата '%1'?"
+Str_AskDeleteSelJob1	"Наистина ли искате да изтриете %1 избрани задачи?"
+
+Str_AskDeleteItem1		"Искате ли за Изтриете %1 избрани елементи?"
+Str_AskDeleteItem3		"Сигурни ли сте, че искате да изтриете %1%2 '%3'?"
+Str_Msg_FileDeleted     "Потребителя изтри файла %1"
+Str_Msg_FolderDeleted   "Потребителя изтри папката %1"
+Str_Msg_CannotDelete    "Не мога да Изтрия %1: %2"
+Str_Msg_StateFileDeleted "Изтрит файл на състоянието %1"
+
+Str_StopJobsBeforeClose	"Изпълнява се минимум една задача: %1.\nИскате ли да спрете изпълнението на всички задачи?\nНатиснете OK за прекъсване и изход.\nНатиснете Отказ за връщане в GoodSync."
+
+Str_Warn_HideToTray		"Автоматизираните Задачи не могат да работят ако GoodSync не е стартиран, затова GoodSync се скрива в трея, когато го затворите.\nЗа да промените това, не маркирайте опцията '%1' в Инструменти -> Програмни Настройки"
+
+Str_TitleResetState		"Изтрий историята"
+Str_AskDeleteStates		"Сигурни ли сте, че искате да изтриете историята?"
+
+
+
+Str_SyncOnLogoffAsk		"Синхронизацията при изход от Windows е невъзможна, тъй като Windows автоматично завършва задачата при изход.\nИскате ли да изключите тази опция (влиза в сила след рестарт на Windows)?"
+Str_SyncOnLogoffReason	"Синхронизация при изход"
+Str_SyncOnLogoffJobs	"Синхронизацията при изход е разрешена за  задачата:"
+
+Str_LogoffTitle			"Синхро при Логоф - GoodSync"
+Str_LogoffPopup			"Стартирана е Синхронизация при Логоф.\nМоля изчакайте края и..\nЛогофът ще продължи след края на синхронизацията."
+Err_OpenLogFails		"Лог-файлът не беше открит."
+Err_ExecLogViewer		"Не мога да покажа Лога\nМоля свържете се с поддръжката на GoodSync\n"
+
+
+# Tooltips
+Tooltip_Synchronizer	"Файлов синхронизатор GoodSync"
+Tooltip_AnalyzingJob	"Анализираща задача"
+Tooltip_SyncingJob		"Синхронизиране на Задачи"
+
+TT_SetLeftSyncFolder	"Натиснете бутон Избор, за да определите първата (лявата) папка, или въведете пътя до нея"
+TT_SetRightSyncFolder	"Натиснете бутон Избор, за да определите втората (дясната) папка, или въведете пътя до нея"
+TT_NewJob				"Нова задача"
+TT_ClickToAnalyze		"Натиснете бутон Анализ, за да анализирате промените в папките и за подготовка за синхронизацията"
+TT_ClickToSynchronize	"Натиснете бутон Синхрон., за да синхронизирате файловете"
+
+
+# Update toolbar and messages
+Info_Update_Avail "Налична е нова версия на GoodSync. <a>Натиснете тук,</a> за да я изтеглите. Вие можете да изключите автоматичното обновяване в прозореца За програмата."
+ 
+Str_Ver_YesNewVersion "Налична е за изтегляне GoodSync версия %1 от %2. You have ver %3"
+Str_Update_Ask	  "Да изтегля ли новата версия?"
+Str_Update_Err_1  "Грешка при получаване на информацията от сайта:\n%1\nДа премина ли на страницата за обновяване?"
+Str_Ver_NoNewVersion "Вашата версия не е стара: %1. Искате ли да преинсталирате същата версия?"
+
+
+# Browse Dialog
+Browse_Btn_MyComputer "Моя компютър"
+Browse_Btn_MyNetwork  "Моята Мрежа"
+Browse_Str_SecureMode     "Сигурен Режим (криптиран)"
+Browse_Tip_SecureMode     "Избрано: Криптирай подаването на Потребител, Парола и данни използвайки SSL или подобен протокол. По-надеждно, но по-бавно.  \nНе Избрано: Не криптирай обмена на данни. Работи по-бързо, но е по-ненадеждно"
+Browse_Str_PrivKey	      "Частен ключ"
+Browse_Tip_PrivKey	      "файл съдържащ Частен SSH ключ, в PuTTY формат"
+Browse_Str_HostBasedAddr  "Хост-базирано адресиране за Buckets"
+Browse_Tip_HostBasedAddr  "Проверено: Хост-базирано адресиране за Buckets: работи за Евро buckets, името трябва да е само с малки букви и цифри.\nНе проверено: URL-базирано адресиране: имена с отчитане големината на буквите, Amazon не го препоръчва"
+Browse_Str_SpecifyACP	  "Контрол на достъп"
+Browse_Tip_SpecifyACP	  "Политика по контрола на достъп, една от предефинираните политики: частен достъп(стандартно), открит за четене, открет за четен и писане, четене след идентификация"
+Browse_Str_ImplicitMode	  "Подразбиращ се FTPS (ИЗКЛ: Стандартен)"
+Browse_Tip_ImplicitMode	  "Ако е избрано, ползва подразбиращия се FTP Режим: връзка по порт 990 със SSL/TLS. Ако не е маркирано, се ползва стандартен FTPS Режим: връзка на порт 21, с криптиране по договаряне"
+Browse_Str_ActiveMode	  "Активен FTP Режим (ИЗКЛ: Пасивен)"
+Browse_Tip_ActiveMode	  "Ако е избрано, ползва Активен FTP Режим. Тогава ще има връзка от FTP сървъра обратно до клиента за трансфер на данни и Вие трябва да го разрешите във вашата Защитна Стена. Ако не е избрано, ще се ползва Пасивен FTP Режим (подразбиращ се)"
+Browse_Str_UseMDTM_FTP    "получи точното време за файла с MDTM команда"
+Browse_Tip_UseMDTM_FTP    "Ползвай MDTM командата на FTP протокола за получаване на времето на промяна на файла от FTP сървър"
+Browse_Str_UTF8_encoding  "UTF-8 кодиране за имена на файлове (ИЗКЛ: ANSI кодиране)"
+Browse_Tip_UTF8_encoding  "Ако е избрано: ползва UTF-8 за кодиране имената на файлове и папки на сървъра. Не маркирано: ползва ANSI кодиране"
+Browse_Str_WinInet 		  "WinInet-базирано (сложни проксита, идентификация)"
+Browse_Tip_WinInet		  "Избрано: ползвай WinInet-базирана реалицация, която може да управлява сложни проксита и аутентификации, но има ограничения и е по-бавна.  \nНе Избрано: ползвай сокет-базирана реализация, която е по-бърза и надеждна, но не поддържа сложни аутентификации и проксита"
+Browse_Str_Use_Proxy      "Свързване през Прокси"
+Browse_Tip_Use_Proxy      "Свързва се през Прокси сървър, указан в Инструменти -> Настройки -> Връзка"
+Browse_Str_PreferEncrypted    "Криптирай с EFS"
+Browse_Tip_PreferEncrypted    "Криптирай this side с EFS. Works only on NTFS volumes, not on FAT"
+Browse_Str_PreferDecrypted    "Декриптирай с EFS"
+Browse_Tip_PreferDecrypted    "Декриптирай тази страна ако другата страна е криптирана, с EFS. Работи само на NTFS раздели, не на FAT"
+Browse_Str_PreferCompressed   "Компресирай в NTFS"
+Browse_Tip_PreferCompressed   "Компресирай тази страна. Работи само с NTFS раздели, не на FAT"
+Browse_Str_PreferUncompressed "Де-Компресирай в NTFS"
+Browse_Tip_PreferUncompressed "Де-Компресирай тази страна ако другата страна е компресирана. Работи само с NTFS раздели, не на FAT"
+Browse_Str_IgnoreBadCerts     "Разреши невалидни SSL сървър сертификати"
+Browse_Tip_IgnoreBadCerts     "Избрано: разреши липсващи, не съвпадащи или изтекли SSL сървърни сертификати, разреши Невалиден Издател на Сертификати. Не Избрано: дай Грешка ако сървъра има невалиден SSL сертификат"
+
+
+Browse_Btn_Go			    "Старт"
+Browse_Btn_NewFolder	    "Направи Нова папка"
+Browse_Btn_NewFolder_Tip	    "Създай Нова папка в текущата папка"
+Browse_NewFolder_Prompt_1	"Въведи име за ново създадена папка в '%1'"
+
+
+
+Browse_Tip_MyComputer		"Моят Компютър е за дисковете монтирани директно към този ПК: локални дискове, преносими дискове свързани към този ПК, преносими устройства с файлова система(повечето Palm устройства), музикални плеъри с файлови системи (стари iPod). %%GSDISK%% в пътя означава диска от който GoodSync.exe е стартиран, ползва се да означи Моя Диск в GoodSync2Go"
+Browse_Tip_MyNetwork		"Моята Мрежа означава Windows Споделени Мрежови папки, които виждате в Windows Експлорера, от други ПК в локалната мрежа. Папките и дискове трябва да са споделени от другите ПК, за да се виждат тук."
+Browse_Tip_FTP				"FTP сървъри. За връзка е нужен IP адрес на сървъра, Потребител и Парола за идентификация. Опитайте Активен режим ако стандартния Пасивен Режим не работи"
+Browse_Tip_SecureFTP		"Сигурни FTP сървъри (SFTP или FTP по SSH). За връзка е нужен IP адрес на сървъра, Потребител и Парола или Файл с Частен Ключ (PuTTY формат) и Парола. Може да ползвате PuTTY Pageant за кеширане Паролата на частния ключ. В PuTTY сесията укажете настройките на Проксито"
+Browse_Tip_AmazonS3			"Amazon S3 Онлайн пространство. Въведи папка за връзка като http://s3.amazonaws.com/bucket-name/folder1/folder2. Въведи Ключ за Достъп и Секретен Ключ за Достъп за идентификация. Bucket e папката от най-горно ниво. Ползвайте хост-базирано адресиране за Евро buckets"
+Browse_Tip_WebDav			"WebDAV сървър. За връзка е нужен IP адрес на сървъра, Потребител и Парола за идентификация. Ползвайте https:// префикс за криптиране на трафика с SSL"
+Browse_Tip_WinMobile		"Windows Мобилно устройство. Може да е GSM или Pocket PC. Microsoft ActiveSync или WMDC трябва да са инсталирани и стартирани и устройството да е на док-станция за да го види GoodSync. У-вото не е нужно за връзка с десктопа."
+Browse_Tip_Unknown			"Няма помощ за тази Неизвестна файлова система"
+
+
+# Buy License dialog
+BuyPro_Title	"Функционалност на PRO-версията"
+BuyPro_Text_ProFixed	"Ограничения в безплатната версия:\n- Не повече от 3 задачи.\n- Не повече от 100 позиции в задача.\n- Блокирани са някои команди."
+BuyPro_Text_Pro2Go     "Ъпгрейднете до GoodSync2Go Pro, за да получите:\n- Неограничени Задачи,\n- Неограничен брой  Файлове в Задача,\n- Поддръжка на GSM-и, Моментална Активация и Още"
+BuyPro_Text_Server     "Ъпгрейднете до GoodSync Enterprise Server за:\n- Махане Пробните Ограничения,\n- Специална Ентърпрайз Поддръжка,\n- Ваш собствен Акаунт Мениджър"
+BuyPro_Limit_Pro		"За да продължите да използвате GoodSync, трябва да намалите количеството на задачите или да купите PRO-версията."
+BuyPro_Limit_Server     "Стартирането на GoodSync на Windows Server изисква лиценз за Enterprise Server."
+BuyPro_Link		"Различия между БЕЗПЛАТНАТА и PRO версията"
+
+
+# Activation Wizard
+Act_Header			"Благодарим Ви, че купихте Нашия Продукт"
+Act_Title  "Активиране на GoodSync"
+Act_Field_Req_Err_1 "За активиране е необходимо '%1'."
+Act_User_Name	 "Име на потребителя"
+Act_User_Order	 "ID Поръчка (NNNNNNNNNN) или код на поръчката (XXX-XXX-XXX-XXX)"
+Act_User_Online_Btn  "Онлайн-активиране (препоръчва се)"
+Act_User_Online_Tip "GoodSync ще се свърже към сървъра за активиране через Интернет"
+Act_User_ViaBrowser_Btn "Онлайн-активиране през браузър(при неуспешна онлайн-активация)"
+Act_User_ViaBrowser_Tip "Вие ще се включите към сървъра за активиране през браузър"
+Act_User_Order_Err  "Въведете пълен ID на поръчката (10 цифри) или код на поръчката във формат XXX-XXX-XXX-XXX."
+
+
+
+
+
+
+
+
+
+
+Act_ViaBrowser_Txt   "Премини на страницата за активиране http://activate.goodsync.com. Въведете във формата ID на компютъра, указан по-долу. Копирайте кода за активиране от браузъра в прозореца Код за активиране и натиснете Продължи."
+
+Act_ViaBrowser_Copy	"Копирай"
+Act_ViaBrowser_ActCode_Txt "Поставете тук кода за активиране"
+
+Act_Finish_Success	"Благодаря, че закупихте GoodSync!\r\nВашето копие е активирано."
+Act_Finish_Connect	"Включване към сървъра за активиране"
+Act_Finish_Fail	    "Грешка при активиране"
+
+
+# Create ticket 
+Ticket_File_Desc    "Този файл съдържа само диагностична информация. Забележете, че той не съдържа никаква лична информация от Вашия компютър."
+Ticket_Instruction  "Копирайте пътя в буфера за обмен и го поставете в прозореца'Прикрепване на файлове' в заявката за системна поддръжка.\nНатиснете линка по-долу, за да създадете заявката."
+Ticket_Btn_Copy		"Копирай пътя"
+
+# Mini Mode
+Str_MiniDlgNoActiveJob	"<Няма активни задачи>"
+
+# Log Viewer general
+LV_AppTitle					"Преглед на Логове"
+LV_LogListTitle				"Имена на Логове"
+LV_OpenLogDlg				"Отвори Лог папка"
+LV_TotalLine				"Общо"
+
+# Log Viewer Error
+LV_Err_NoLogFileFound		"<Не са открити логове>"
+LV_Err_UnknownFs			"Непозната Файлова Система"
+LV_Err_CannotOpenFile2		"Не мога да Отворя файл %1: %2"
+LV_Err_ReadingFile2			"Грешка четейки файл %1: %2"
+LV_Err_ParseCmdLine			"Грешка в команден ред"
+
+# Log Viewer Find Window
+LV_Find						"Намери:"
+LV_FindNext					"Следващ"
+LV_FindPrev					"Предишен"
+LV_FindAll					"Намери всички"
+LV_FindCaseSens				"Отчита главни/малки букви"
+
+#Log Viewer Menu
+LV_MenuFile					"Файл"
+LV_MenuView					"Изглед"
+LV_MenuOpen					"Отвори"
+LV_MenuExit					"Изход"
+LV_MenuCopyAsText			"Копирай Избраното в Клипборда"
+LV_MenuSelectAll			"Избери Всичко"
+LV_MenuDelete				"Изтрий"
+LV_MenuFind					"Намери"
+LV_MenuSelectFont			"Избери Шрифт"
+
+# For Mac
+

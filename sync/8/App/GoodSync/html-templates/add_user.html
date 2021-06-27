@@ -1,0 +1,137 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>GoodSync Server: Add User</title>
+    <link rel=stylesheet href="/style.css" type="text/css" media="screen, print">
+    <script>
+      function onSysPasswordKeyUp() {
+        // Hide/show impersonation checkbox
+        if (document.getElementById("sys_user_pwd").value.length > 0) {
+          document.getElementById("impersonate_row").style.display = 'table-row';
+        } else {
+          document.getElementById("impersonate_row").style.display = 'none';
+        }
+      }
+      function init() {
+        // Analyze current state and show/hide sections as needed
+        if (document.getElementById("connect_user_radio").checked == true) {
+          onConnectUserMode();
+        } else {
+          onLocalUserMode();
+        }
+        // System user password is empty by default, so hide impersonation checkbox
+        document.getElementById("impersonate_row").style.display = 'none';        
+      }
+    </script>    
+  </head>
+  <body onload="init()">
+    <div id="container">
+      <div id="header">
+        <div id="version"><h2>Version&nbsp;:&nbsp;<!-- serverversion -->&nbsp;</h2></div>
+      </div>
+      <div id="menu_and_contents">
+          <!-- menubar -->
+        <div id="contents">
+          <h1>Add New User</h1>
+          <form name="usersettings" action="add_user" method="post">
+            <div>If adding new GoodSync Connect User, <a target="_blank" rel="noopener noreferrer" href="https://www.goodsync.com/gs-connect/add-user-form">Click here</a> to create it.</div>
+            <table>
+              <tr>
+                <td class="setting_name"> <!-- useridcaption --> </td>
+                <td class="setting_value">
+                  <!-- newuserid -->
+                </td>
+              </tr>
+              <tr>
+                <td class="setting_name">Password</td>
+                <td class="setting_value">
+                  <input type="password" name="newpassword">
+                </td>
+              </tr>
+              <tr id="password2_row">
+                <td class="setting_name">Retype Password</td>
+                <td class="setting_value">
+                  <input type="password" name="newpassword2">
+                </td>
+              </tr>
+              <tr>
+                <td class="setting_name">Home Folder</td>
+                <td class="setting_value">
+                  <!-- newuserhome -->
+                  <div class="setting_hint" style="margin-left: 0px">Example Windows: c:/Users/John Smith/Folder | Example Mac: /Users/John Smith/Folder</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="setting_name">Disk quota (in bytes)</td>
+                <td class="setting_value">
+                  <!-- newdiskquota -->
+                  <div class="setting_hint" style="margin-left: 0px">Disk space limit (-1 means no limit; K, M or G suffix can be used). Has no effect on Admin users.</div>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2"></td>
+              </tr>
+              <tr>
+                <td class="setting_name">System User ID</td>
+                <td class="setting_value">
+                  <!-- newusersysid -->
+                </td>
+              </tr>
+              <tr>
+                <td class="setting_name">System User Password</td>
+                <td class="setting_value">
+                  <input type="password" id="sys_user_pwd" name="newusersyspwd" onkeyup="onSysPasswordKeyUp()">
+                </td>
+              </tr>
+              <tr id="admin_row">
+                <td class="setting_name"></td>
+                <td class="setting_value">
+                  <!-- newadmin --><span>Server Administrator</span>
+                </td>
+              </tr>
+              <tr id="impersonate_row">
+                <td class="setting_name"></td>
+                <td class="setting_value">
+                  <input type="checkbox" name="newimpersonate" value="yes"><span>Impersonate system user</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="setting_name"></td>
+                <td class="setting_value">
+                  <!-- newreadonly --><span>Read-only mode</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="setting_name"></td>
+                <td class="setting_value">
+                  <!-- newsysfileprotect --><span>Protect system files</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="setting_name"></td>
+                <td class="setting_value">
+                  <div id="action_buttons">
+                    <input type="submit" name="save" value="Save">
+                    <input type="submit" name="cancel" value="Cancel">
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+      <div id="footer">
+        Copyright &copy; 1997-2021 Siber Systems Inc. All rights reserved.
+      </div>
+    </div>
+    <script> 
+        window.onload = function(){
+            if (typeof(Storage) !== "undefined") {
+                localStorage.setItem("gs_setup_version", document.getElementById('version').innerHTML);
+            }
+        }
+    </script>
+  </body>
+</html>
+

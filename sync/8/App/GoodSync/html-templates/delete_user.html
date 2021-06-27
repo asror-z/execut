@@ -1,0 +1,62 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>GoodSync Server: Delete User</title>
+    <link rel=stylesheet href="/style.css" type="text/css" media="screen, print">
+    <script type="text/javascript">
+      function init() {
+        // Delete local user by default
+        document.getElementById("delete_local_radio").checked = true;
+        onDeleteLocally();
+      }
+      function onDeleteFromMediator() {
+        // Display password confirmation field
+        document.getElementById("password_confirm_row").style.display = 'table-row';
+      }
+      function onDeleteLocally() {
+        // Hide password confirmation field
+        document.getElementById("password_confirm_row").style.display = 'none';
+      }
+    </script>    
+  </head>
+  <body onload="init()">
+    <div id="container">
+      <div id="header">
+        <div id="version"><h2>Version&nbsp;:&nbsp;<!-- serverversion -->&nbsp;</h2></div>
+      </div>
+      <div id="menu_and_contents">
+          <!-- menubar -->
+        <div id="contents">
+          <h1>Do you really want to delete user '<!-- userid -->'?</h1>
+          <div style="color: #9f0000; margin-bottom: 20px;"><!-- admindeletewarning --></div>
+          <form name="deleteuser" action="delete_user" method="post">
+            <div>This will delete user from this Server. If you need to delete GoodSync Connect account, use GoodSync Connect <a href="https://www.goodsync.com/gs-connect" target="_blank" rel="noopener noreferrer">site</a>.</div>
+            <table>
+              <tr>
+                <td class="setting_name"></td>
+                <td class="setting_value">
+                  <div id="action_buttons">
+                    <input type="submit" name="delete" value="Delete">
+                    <input type="submit" name="cancel" value="Cancel">
+                    <!-- useridhidden -->
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+      <div id="footer">
+        Copyright &copy; 1997-2021 Siber Systems Inc. All rights reserved.
+      </div>
+    </div>
+    <script> 
+        window.onload = function(){
+            if (typeof(Storage) !== "undefined") {
+                localStorage.setItem("gs_setup_version", document.getElementById('version').innerHTML);
+            }
+        }
+    </script>
+  </body>
+</html>

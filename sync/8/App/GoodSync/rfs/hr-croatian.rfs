@@ -1,0 +1,860 @@
+﻿# RFS file codepage.
+RFS_CODEPAGE "1250"
+RFS_LANGUAGE "Croatian"
+
+# Menus
+Menu_Job				"Zadatak"
+Cmd_JobNew				"Novi"
+Cmd_JobDelete			"Izbriši"
+Cmd_JobRename			"Preimenuj..."
+Cmd_JobSaveTemplate     "Pohrani kao predložak..."
+Cmd_JobClone			"Kloniraj zadatak..."
+Cmd_JobSwapSides		"Zamijeni lijevu i desnu stranu"
+Cmd_Analyze			"Analiziraj"
+Cmd_AnalyzeAll			"Analiziraj sve"
+Cmd_Sync				"Sinkroniziraj"
+Cmd_SyncAll				"Sinkroniziraj sve"
+Cmd_AnalyzeAndSyncThis	"Analiziraj i sinkroniziraj"
+Cmd_AnalyzeAndSyncAll	"Analiziraj i sinkroniziraj sve"
+Cmd_Stop				"Prekini"
+Cmd_StopAll				"Prekini sve"
+Cmd_SuspendAuto			"Isključi automatsko pokretanje"
+Cmd_JobListOfChanges	"Popis promjena"
+Cmd_JobOpenLogLeft		"Otvori izvještaj lijeve strane"
+Cmd_JobOpenLogRight		"Otvori izvještaj desne strane"
+Cmd_JobOptions			"Postavke zadatka..."
+Cmd_JobResetState		"Obriši datoteke stanja"
+Cmd_JobDeleteBackup		"Obriši zapamćene datoteke iz _gsdata_"
+Cmd_JobDeleteGsData		"Obriši _gsdata_ mape"
+Cmd_AppExit				"Izlaz"
+Cmd_Cut				"Izreži"
+Cmd_Copy				"Kopiraj"
+Cmd_Paste			"Zalijepi"
+Cmd_ExportJobsList		"Izvoz liste zadataka..."
+Cmd_ExportSelJobsList	"Izvoz označenih zadataka..."
+Cmd_ImportJobsList		"Uvoz liste zadataka..."
+
+Menu_View				"Prikaz"
+Cmd_ViewStatusBar		"Statusna traka"
+Cmd_ProgOptions			"Postavke programa..."
+
+
+Cmd_View_FullWindow		"Normalno sučelje"
+Cmd_View_MiniWindow		"Umanjeno sučelje"
+Cmd_View_TrayIcon		"Ikona u području obavijesti"
+
+Menu_Help				"Pomoć"
+Cmd_AppAbout			"O programu..."
+Cmd_AppManual			"Upute za korištenje"
+Cmd_AppFAQ				"Često postavljana pitanja"
+Cmd_AppCreateTicket		"Zahtjev za korisničkom podrškom..."
+Cmd_Help_BuyPro			"Kupi Pro verziju"
+Cmd_Help_Activate		"Aktiviraj Pro verziju"
+Cmd_CheckUpdates		"Ažuriranje programa"
+
+Cmd_ShowAll				"Sve"
+Cmd_ShowChanges			"Promjene"
+Cmd_ShowConflict		"Konflikti"
+Cmd_ShowError			"Greške"
+
+Cmd_ShowToDelete		"Izbrisati"
+Cmd_ShowExcluded		"Neuključeno"
+Cmd_ShowIncluded		"Uključeno"
+Cmd_ShowSameLenDiffTime "Ista veličina ali drugi datum"
+Cmd_ShowNotYetSynced    "Još ne-sinkronizirano"
+Cmd_ShowAllAll          "Prikaži sve"
+
+Menu_Actions			"Akcija"
+Cmd_ViewJobList			"Lista zadataka"
+Cmd_ViewJobFilter		"Filteri"
+Cmd_ViewLog				"Opće izvješće"
+
+Menu_Tools				"Alati"
+Menu_View_Other			"Ostalo"
+
+
+# Context menus
+
+Cmd_ItemProp			"Svojstva"
+
+Cmd_ItemLOpen			"Otvori lijevu datoteku"
+Cmd_ItemROpen			"Otvori desnu datoteku"
+Cmd_ItemLDelete			"Izbriši lijevu datoteku"
+Cmd_ItemRDelete			"Izbriši desnu datoteku"
+Cmd_ItemDeleteBoth		"Izbriši obje datoteke"
+
+Cmd_ItemLDeleteMul1		"Izbriši %1 elemente sa lijeve strane"
+Cmd_ItemRDeleteMul1		"Izbriši %1 elemente sa desne strane"
+Cmd_ItemBDeleteMul1		"Izbriši %1 elemente sa obje strane"
+
+Cmd_OpenLFolder			"Otvori lijevu mapu"
+Cmd_OpenRFolder			"Otvori desnu mapu"
+Cmd_DeleteLFolder		"Izbriši lijevu mapu"
+Cmd_DeleteRFolder		"Izbriši desnu mapu"
+Cmd_DeleteBothFolders	"Izbriši obje mape"
+
+Cmd_ItemCompare			"Usporedi lijevo i desno"
+
+Cmd_Recommended			 "Preporučeno"
+Cmd_DoNotCopy			 "Ne kopiraj"
+Cmd_CopyLeftToRight		 "Kopiraj lijevo na desno"
+Cmd_CopyRightToLeft		 "Kopiraj desno na lijevo"
+Cmd_DeleteLeftToRight		 "Brisanje na desnoj strani"
+Cmd_DeleteRightToLeft		 "Brisanje na lijevoj strani"
+Cmd_CopyTimeLeftToRight  "Kopiraj vrijeme lijevo na desno"
+Cmd_CopyTimeRightToLeft  "Kopiraj vrijeme desno na lijevo"
+Cmd_CopyStateSyncTail    "Sinkroniziraj stanje"
+
+Str_Items1				 " %1 elemenata"
+
+Cmd_ItemExcludeFile1		"Isključi datoteku '%1'"
+Cmd_ItemExcludeFolder1		"Isključi mapu '%1'"
+Cmd_ItemExcludeMulti1		"Uključi %1 odabrani element"
+
+Cmd_ItemIncludeFile1		"Uključi samo '%1' datoteke"
+Cmd_ItemIncludeFolder1		"Uključi samo '%1' mape"
+Cmd_ItemIncludeMulti1		"Uključi samo %1 odabrani element"
+
+Cmd_ItemExcludeAllFiles1	"Isključi sve '%1' datoteke"
+Cmd_ItemExcludeAllFolders1	"Isključi sve '%1' mape"
+Cmd_ItemExcludeAllMulti1	"Isključi sve elemente koji imaju ime kao %1 odabrani element"
+
+Cmd_ItemExcludeAllMask1			"Isključi sve '*%1' datoteke"
+Cmd_ItemExcludeAllMaskMulti1	"Isključi elemente tipa %1 odabrani element"
+
+Cmd_ItemIncludeAllMask1			"Uključi samo '*%1' datoteke"
+
+
+# Taskbar Icon menu
+
+
+# Buttons below tree
+Grp_Actions				"Akcije"
+Btn_Analyze				"Analiziraj"
+Btn_SyncRun				"Sinkroniziraj"
+Btn_Stop				"Prekini"
+Btn_Pause				"Pauza"
+Btn_Resume				"Nastavi"
+Btn_Auto				"Auto"
+Btn_Clear               "Isprazni"
+Grp_Show				"Prikaz stabla"
+Cmd_ShowToCreate		"Novo"
+Cmd_ShowToOverwrite		"Prepisati"
+
+Chk_AutoScroll			"Klizanje"
+
+# Tree view Columns
+Str_TreeItem			"Stavka"
+Str_TreeLSize			"L veličina"
+Str_TreeLDate			"L datum"
+Str_TreeL				"L"
+Str_TreeCenter			""
+Str_TreeR				"R"
+Str_TreeRSize			"R veličina"
+Str_TreeRDate			"R datum"
+Str_TreeStatus			"Status"
+
+# Misc buttons
+Btn_Ok					"U redu"
+Btn_Cancel				"Odustani"
+Btn_Apply				"Postavi"
+Btn_Yes					"Da"
+Btn_No					"Ne"
+Btn_Abort               "Prekini"
+Btn_Retry               "Ponovi"
+Btn_Ignore              "Zanemari"
+Btn_Close               "Zatvori"
+Btn_Help                "Pomoć"
+Btn_Continue			"Nastavi"
+Btn_Browse				"Pretraži"
+Help_Browse_File		"Kliknite ovdje za odabir datoteke"
+Help_Browse_Folder		"Kliknite ovdje za odabir mape"
+
+
+# Tooltips for buttons, for new users
+Tip_Browse_Left			"Odaberite lijevu mapu za sinkronizaciju.\nKliknite na Pretraži te unesite korisničko ime, lozinku i URL mrežnih mapa."
+Tip_Browse_Right		"Odaberite desnu mapu za sinkronizaciju.\nKliknite na Pretraži te unesite korisničko ime, lozinku i URL mrežnih mapa."
+Tip_Change_Way			"Promjena smjera zadatka i ostale postavke"
+Tip_Analyze				"Analiza zadatka, prikaz razlika između lijevih i desnih mapa te prijedlog mogućih akcija"
+Tip_Sync				"Sinkroniziraj prethodno analizirani zadatak"
+Tip_Stop				"Zaustavi analizu ili sinkronizaciju"
+Tip_Clear				"Isprazni stablo sa razlikama radi oslobođenja memorije"
+Tip_Opt					"Podešavanje automatskog pokretanja zadatka"
+Tip_Paused				"Pauzirano. Kliknite ovdje za nastavak"
+Tip_Pause				"Pauziraj analizu ili sinkronizaciju"
+
+# New Job dialog
+Title_JobName			"Novi GoodSync zadatak"
+Str_JobName				"Naziv zadatka"
+Str_JobTemplate			"Iz predloška:"
+Str_BadJobName1			"Naziv zadatka ne može sadržavati ove znakove: / \\ ? < > : * |"
+Str_BadJobName2			"Naziv zadatka ne može biti '%1'."
+Str_BadJobName3			"Naziv zadatka mora biti unesen te ne smije biti veći od 100 znakova."
+Str_JobNameExists		"Zadatak sa tim imenom već postoji."
+Str_JobType				"Odabir vrste zadatka"
+Str_JobType_Sync		"Sinkronizacija"
+Str_JobDesc_Sync		"Zadatak u dva smjera: datoteke se mijenjaju na obje strane, promjene se reflektiraju na obje strane.  Skrivene i sistemske datoteke se ignoriraju."
+Str_JobType_Backup		"Sigurnosna pohrana (Backup)"
+Str_JobDesc_Backup		"Zadatak u jednom smjeru: datoteke se mijenjaju samo na desnoj strani. Sve promjene teku sa lijeve na desnu stranu."
+Str_JobType_Template	"Iz predloška:"
+Str_JobDesc_Template	"Predložak je djelomično definirani zadatak gdje su zapamćene vaše omiljene postavke zadatka. Predložak ne pamti putanje mapa."
+Str_JobDesc_NoTemplate_1 "Još nema predloška. Koristite opciju '%1' kako biste kreirali novi predložak iz postojećeg zadatka."
+Str_Combo_NoTemplate	"<nema predloška>"
+Title_RenameJob			"Preimenuj predložak"
+Title_CloneJob			"Kloniraj predložak"
+Str_NewJob_Header		"Dobrodošli u GoodSync"
+Str_NewJob_Descr		"Kreirajmo sada prvi zadatak"
+Str_NewJobClose			"Zatvoriti GoodSync?\nKliknite U redu za izlaz, GoodSync će pitati za kreiranje novog zadatka pri sljedećem pokretanju.\nKliknite Odustani kako biste se vratili i unijeli naziv novog zadatka."
+Lnk_Tutorial			"Kratke upute"
+
+# Job Tabs control buttons
+Str_TabAddNewJob		"Dodaj novi zadatak"
+Str_TabScrollLeft		"Klizanje lijevo"
+Str_TabScrollRight		"Klizanje desno"
+
+# Windows menu and dialog
+
+
+
+# Job List Pane
+Title_JobList			"Lista zadataka"
+Title_TaskName			"Ime zadatka"
+Title_LastRunTime		"Zadnje pokretanje"	
+
+#Log Pane
+Title_LogWnd			"Prozor općeg izvješća"
+
+# Help -> About
+Title_About				"Informacije"
+Tip_About				"Informacije"
+Str_RegTo				"Registrirano:"
+Help_ChkVer				"Povezivanje na GoodSync.com i provjera je li ažurirana verzija programa dostupna za download."
+Help_SysStat			"Prikaz informacija o GoodSync verziji i okruženju. Molimo priložite ove informacije kada kontaktirate tehničku podršku."
+
+# Program Options
+Title_Options			"GoodSync opcije"
+Str_Options				"Postavke"
+
+Help_NotDefined			"Pomoć nije dostupna za ovu kontrolu"
+Help_MouseOver			"Pomaknite miša iznad pojedine opcije kako biste dobili detaljan opis. Pritisnite tipku Alt za pomicanje ili kopiranje teksta pomoći."
+
+
+# Program Options - General
+Title_General			"Općenito"
+Str_Lang				"Jezik"
+Help_Lang				"Promjena jezika sučelja za izbornike, opcije i obavijesti.   Nakon promjene jezika potrebno je zatvoriti i ponovno pokrenuti GoodSync."
+Chk_TrayIcon			"Pri zatvaranju sakrij prozor kao ikonu u području obavijesti"
+Help_TrayIcon			"ON: Kada zatvorite GoodSync, on će nastaviti raditi u pozadini. Za pristup GoodSyncu, koristite njegovu ikonu u području obavijesti na programskoj traci (dolje desno, kod sata).  OFF: GoodSync se ugasi kada ga zatvorite."
+Chk_AutoStart			"Pokreni GoodSync automatski kada se pokrene i Windows OS"
+Help_AutoStart			"GoodSync se automatski pokreće u minimiziranom načinu svaki put kada se prijavite u Windows. Uključite ovu opciju ukoliko imate zadatke koji se trebaju automatski izvršavati. Ova opcija je nedostupna u Goodsync2Go verziji."
+Chk_ShowSysTray			"Prikaži GoodSync ikonu u području obavijesti na programskoj traci"
+Help_ShowSysTray		"GoodSync ikona će se nalaziti u području obavijesti (na desnoj strani programske trake, kod sata)."
+
+Chk_ResetIM				"Vrati postavke prikaza poruka na početne vrijednosti"
+Help_ResetIM			"Omogući prikaz svih poruka i upozorenja čiji je prikaz korisnik isključio."
+Chk_AutoChkVer			"Dnevna provjera ažuriranja"
+Help_AutoChkVer			"GoodSync će dnevno kontaktirati www.goodsync.com radi provjere je li dostupna novija verzija."
+Chk_CreateNewFolder		"Kreiraj lijevu/desnu mapu ako ne postoje."
+Help_CreateNewFolder	"GoodSync će automatski kreirati lijevu/desnu mapu ukoliko ne postoje."
+Chk_AutoHideMiniWin		"Automatski sakrij mini-prozor kada nema aktivnih zadataka"
+Help_AutoHideMiniWin	"Automatski sakrij mini-prozor kada nema aktivnih zadataka."
+
+Str_LogDetailLevel		"Razina detalja pri pohrani izvješća"
+Help_LogDetailLevel		"Razina detalja koji se prikazuju u prozoru općeg izvješća. Tekstualne datoteke izvješća se pohranjuju u: (1) _gsdata_ mape, (2) mapu za opća izvješća."
+Str_LogCritical			"Samo kritične stvari"
+Str_LogError			"Greške"
+Str_LogInfo				"Informacije"
+Str_LogDetails			"Detalji"
+
+Str_LogFolderGlobal		"U mapi"
+Help_LogFolderGlobal	"Mapa u koju se pohranjuju opća izvješća. Ako je prazno, piše se u GoodSync mapu u aplikacijskom profilu korisnika."
+
+Str_LogRetainDays       "Čuvaj izvještaje ovoliko dana"
+Help_LogRetainDays      "Čuvaj opće i globalne izvještaje ovoliko dana. Izbriši starije globalne izvještaje. '0 dana' znači '2 sata'."
+
+Str_CompareProg		"Vanjski program za usp."
+Help_CompareProg		"Program za usporedbu datoteka koji se koristi u kontekstualnom meniju datoteke/mape. Argumenti su putanje datoteka koje treba usporediti. Primjer: ako ovdje definirate WinDiff.Exe onda će ga GoodSync pozivati ovako: WinDiff file1 file2. Ako ovdje nije ništa definirano onda će se koristiti UNIX diff."
+Str_ExecutableFiles		"Izvršne datoteke"
+
+# Program Options -> Connection
+Title_Connect			"Veza"
+Str_UseProxy_Auto		"Koristi među-poslužitelj (proxy) kojeg koristi Internet Explorer"
+Help_UseProxy_Auto  	"Koristi među-poslužitelj (proxy) koji je definiran za Internet Explorer za udaljene veze. To pokriva među-poslužitelje definirane po WinINet i proxy.pac. Opcija za spajanje preko među-poslužitelja mora biti odabrana u svakom zadatku koji ju treba koristiti."
+Str_UseProxy_Manual		"Koristi ovaj među-poslužitelj za udaljene veze"
+Help_UseProxy_Manual	"Koristi uneseni među-poslužitelj za udaljene veze. Opcija za spajanje preko među-poslužitelja mora biti odabrana u svakom zadatku koji ju treba koristiti."
+Str_ProxyHost			"Među-poslužitelj"
+Help_ProxyHost			"Unesite naziv među-poslužitelja"
+Str_ProxyPort			"Port"
+Help_ProxyPort			"Unesite port među-poslužitelja"
+Str_ProxyUserID         "Korisničko ime"
+Str_ProxyPasswd         "Lozinka"
+Help_ProxyAuth          "Unesite korisničko ime i lozinku ako to zahtjevano od strane među-poslužitelja."
+
+Str_SMTP_Enable			"Koristi SMTP poslužitelj za slanje e-pošte (Off: koristi MAPI klijent)"
+Help_SMTP_Enable		"Odabrano: koristi SMTP poslužitelj pri slanju e-pošte nakon analize i sinkronizacije. Neodabrano: koristi uobičajeni MAPI klijent za slanje e-pošte."
+Str_SMTP_Host			"SMTP poslužitelj"
+Help_SMTP_Host			"Unesite naziv SMTP poslužitelja, ovaj poslužitelj će se koristiti pri slanju e-pošte nakon analize i sinkronizacije."
+Str_SMTP_Port			"Port"
+Help_SMTP_Port			"Unesite broj SMTP porta (najčešće 587 ili 25)."
+Str_SMTP_UserID         "SMTP korisničko ime"
+Str_SMTP_Passwd         "Lozinka"
+Help_SMTP_UserID          "Unesite SMTP korisničko ime i lozinku ako to zahtjevano od strane među-poslužitelja."
+Str_SMTP_SenderEmail    "E-pošta pošiljatelja"
+Help_SMTP_SenderEmail   "Unesite adresu e-pošte pošiljatelja koja će biti prikazana SMTP poslužitelju. Može se prikazati kao 'user@server.com' ili kao 'Ime Prezime <userid@server.com>'."
+Str_SMTP_Secure			"Osiguraj SMTP slanje preko SSL"
+Help_SMTP_Secure		"Ako je odabrano, SMTP komunikacija će biti šifrirana koristeći SSL protokol preko porta 465. Ako nije odabrano, koristit će se obična ne-šifrirana tekstualna komunikacija."
+
+
+# Job Options - General
+Title_JobGeneral		"Općenito"
+Tip_JobGeneral			"Općenite postavke zadatka"
+Label_JobType			"Vrsta zadatka"
+Str_JobType_TwoWay		"Dvosmjerna sinkronizacija"
+
+Str_JobType_LeftToRight	"Samo lijevo na desno"
+Str_JobType_RightToLeft	"Samo desno na lijevo"
+Help_JobType			"Odabir vrste zadatka.  Dvosmjerna sinkronizacija održava lijevu i desnu stranu sinkroniziranu iako se datoteke mijenjaju na obje strane.  Jednosmjerna pohrana podataka reflektira promjene samo sa lijeve na desnu ili samo sa desne na lijevu stranu, ovaj način rada najčešće se koristi za sigurnosnu pohranu (backup)."
+
+
+Radio_OneWayDeleteSource "Premjesti datoteke (Napredno)"
+Help_OneWayDeleteSource	 "Izbriši izvorne datoteke nakon njihove uspješne sinkronizacije.  UPOZORENJE: nikako NEMOJTE koristiti ovu opciju osim ako zaista znate što radite."
+Warn_OneWayDeleteSource  "Želite li zaista izbrisati izvorne datoteke nakon njihove sinkronizacije?\nNikako NEMOJTE kliknuti DA osim ako ste potpuno sigurni."
+
+Chk_DelPropagate	"Propagacija brisanja"
+Help_DelPropagate	"ON: Ako je korisnik obrisao datoteku ili mapu na jednoj strani, GoodSync će ju obrisati i na drugoj strani pri sinkronizaciji.  OFF u dvosmjernim zadacima: umjesto brisanja datoteke i folderi će biti kopirani.  OFF u jednosmjernim zadacima: obrisane datoteke i folderi će biti isključeni iz procesa."
+
+Chk_CompareCheckSumAll		 "Usporedi MD5 zbrojeve za provjeru"
+Help_CompareCheckSumAll		 "Ako je odabrano, onda će se uz uobičajenu provjeru vremena modifikacije i veličine datoteka uporediti i njihovi MD5 zbrojevi (checksums) kako bi se provjerilo da su datoteke jednake pri Analizi. Ako ova opcija nije odabrana, onda će se koristiti samo vrijeme modifikacije i veličine datoteka za utvrđivanje jesu li jednake."
+
+Chk_SaveBakFiles	"Pohrani obrisane/zamijenjene datoteke, zadnje verzije"
+Help_SaveBakFiles	"Ako je odabrano, originalne datoteke koje je GoodSync obrisao ili zamijenio će se sačuvati u 'kantu za smeće' u _gsdata_/_saved_ mapi. Spremaju se samo zadnje verzije obrisanih/zamijenjenih datoteka.  Ako ova opcija nije odabrana onda se originalne obrisane/zamijenjene datoteke ne mogu povratiti natrag."
+Chk_CleanupBakFiles	"Izbriši datoteke iz _saved_ mape nakon x dana"
+Help_CleanupBakFiles	"Ako je odabrano, sačuvane datoteke koje je GoodSync izbrisao ili zamijenio biti će automatski obrisane iz _gsdata_/_saved_ mape nakon definiranog broja dana, nakon sinkronizacije. Ako ova opcija nije odabrana, onda se datoteke u _gsdata_/_saved_ mapi čuvaju zauvijek."
+Help_SavePrevDays	"Prethodne verzije izbrisanih/zamijenjenih datoteka u mapi _gsdata_/_saved_ čuvaju se uneseni broj dana."
+
+Chk_SavePastVersions	"Pohrani obrisane/zamijenjene datoteke, više verzija"
+Help_SavePastVersions	"Ako je odabrano, datoteke koje GoodSync izbriše ili zamijeni će biti pohranjene u _gsdata_/_history_ mapu. Pohranjuje se više verzija. Svaki puta prije nego GoodSync zamijeni ili obriše datoteku, ona će biti pohranjena u _gsdata_/_history_ mapu sa vremenskom oznakom u imenu."
+Chk_CleanupPastVersions	 "Izbriši sadržaj _history_ mape nakon ovoliko dana"
+Help_CleanupPastVersions "Ako je odabrano, datoteke sačuvane u _gsdata_/_history_ mapi će biti obrisane nakon što su tamo stajale definirani broj dana ili dulje, nakon sinkronizacije. Ako ova opcija nije odabrana, datoteke u _gsdata_/_history_ mapi se čuvaju zauvijek."
+Help_SavePastDays	 "Čuvaj stare verzije obrisanih/zamijenjenih datoteka u mapi _gsdata_/_history_ ovoliko dana."
+
+Chk_CalcReqSpace		"Provjeri količinu potrebnog slobodnog prostora"
+Help_CalcReqSpace		"Ako je odabrano, izračunat će se koliko je potrebno slobodnog prostora na disku kako bi se uspješno obavila sinkronizacija. Uključite ovu opciju za zadatke koji pišu na diskove sa ograničenim slobodnim prostorom. Isključite ovu opciju za zadatke koji pišu na diskove koji imaju dovoljno slobodnog prostora (za obje strane)."
+
+Str_SpeedLimit			"Ograničenje brzine kopiranja u KB/sek."
+Help_SpeedLimit  		"Smanjuje brzinu kopiranja datoteka (slanje i preuzimanje) ako prosječna brzina prijenosa prijeđe ovu vrijednost kilobajta po sekundi. 0 znači bez ograničenja. 100 znači 100 KB/sek. što je približno 1 Mbit/sek."
+
+Str_ShowBalloon			"Prikazuj oblačiće sa porukama."
+Str_DoNotShowBalloon	"Nikad"
+Str_ShowBalloonAlways	"Za promjene i sinkronizacije"
+Str_ShowBalloonOnError	"Za konflikte i greške"
+Help_ShowBalloon		"Odabir kada prikazati GoodSync-ove notifikacijske poruke u području obavijesti na programskoj traci."
+
+
+# Job options - Filters page
+Title_Filters			"Filteri"
+Tip_Filters				"Filteri"
+Str_FilterExcluded		"Isključeno"
+Help_FilterExcluded		"Datoteke i mape koje odgovaraju bilo kojem retku na ovoj listi biti će isključene iz sinkronizacije (ignorirane). Mogu se koristiti '*' i '?' višeznačnici. Redci koji počinju sa / odgovaraju putanji mape sinkronizacije. Primjer: *.txt *~ /Neka_ma?a/*.obj"
+Str_FilterIncluded		"Uključeno"
+Help_FilterIncluded		"Ako nije prazno, sinkroniziraju se samo datoteke čija imena odgovaraju nekom od redaka na ovoj listi a ne odgovaraju ni jednom retku na listi Isključenih datoteka."
+Tip_Filter_New			"Unos novog filtera"
+Tip_Filter_Edit			"Promjena odabranog filtera"
+Tip_Filter_Del			"Izbriši odabrane filtere"
+Str_Filter_DummyText	"<Dvoklik ovdje za novi element>"
+Str_Edit				"Uredi"
+
+Chk_ExcludeEmptyFolders	 "Isključi prazne mape"
+Help_ExcludeEmptyFolders "Ako je odabrano, tada se isključuju (ignoriraju) sve mape koje su prazne (ili sadrže samo isključene datoteke i podmape)."
+Chk_ExcludeHidden		 "Isključi skrivene datoteke i mape"
+Help_ExcludeHidden		 "Ako je odabrano, tada se isključuju (ignoriraju) sve datoteke i mape koje imaju atribut 'HIDDEN'."
+Chk_ExcludeSystem		 "Isključi sistemske datoteke i mape"
+Help_ExcludeSystem		 "Ako je odabrano, tada se isključuju (ignoriraju) sve datoteke i mape koje imaju atribut 'SYSTEM'."
+
+# Job options - Auto page
+Title_Auto				"Automatski"
+Tip_Auto				"Postavke automatizacije zadatka"
+Str_ColumnAnalyze		"Analiziraj"
+Str_ColumnSync			"Sinkroniziraj"
+Str_ColumnAnalyzeAndSync "Analiziraj i sinkroniziraj"
+
+Name_DoOnStart			"Početak"
+Chk_DoOnStart			"Kod pokretanja, pričekati sek."
+Help_DoOnStart			"Analiza (i/ili sinkronizacija) zadatka kada se GoodSync pokrene. Moguće je i definirati pauzu (u sekundama) prije početka."
+
+Name_DoOnFoldersConnect	"Kod spajanja"
+Chk_DoOnFoldersConnect	"Kod spajanja na mape"
+Help_DoOnFoldersConnect	"Analiza (i/ili sinkronizacija) kada se uspostavi veza na obje mape zadatka, odnosno kada su ubačeni njihovi diskovi, uspostavi se Interentska veza, ili spoji telefon."
+
+Name_DoOnFileChange		"Kod promjene"
+Chk_DoOnFileChange		"Kod promjene datoteke"
+Help_DoOnFileChange		"Analiza (i/ili sinkronizacija) zadatka pri promjeni datoteke u lijevoj ili desnoj mapi ili njihovim podmapama."
+
+Name_DoBeforeLogout		"Kod odjave"
+Chk_DoBeforeLogout		"Kod odjave sa računala"
+Help_DoBeforeLogout		"Analiza te sinkronizacija zadatka pri gašenju, ponovnom pokretanju ili odjavi sa računala. Ako se tijekom sinkronizacije prikaže poruka (od strane Windows OS-a) da program ne reagira, ignorirajte ju kako bi GoodSync mogao dovršiti sinkronizaciju."
+
+Name_DoPeriodically		"Vremensko pokretanje"
+Chk_DoPeriodically		"Periodički"
+Help_DoPeriodically		"Analiza (i/ili sinkronizacija) zadatka svakih SS sati i MM minuta. GoodSync mora biti pokrenut (može i u pozadini) kako bi ovo funkcioniralo."
+Str_ColumnLPath			"Lijeva putanja"
+Str_ColumnRPath			"Desna putanja"
+
+Str_DoOnSchedule		"Planirano: sa prijavom na sustavu (sa nadzorom)"
+Help_DoOnSchedule		"GoodSync će biti pokrenut od strane Windows Planera (Windows Scheduler) koristeći vremenski raspored koji definirate u Planeru. GoodSync će se pokrenuti kao ikona u području obavijesti na programskoj traci. Kliknite dvaput na tu ikonu kako biste vidjeli što se događa. Ako je GoodSync već pokrenut, ovaj zadatak će se dodati u redoslijed."
+Str_AutoUnattended     "Planirano: bez prijave na sustavu (bez nadzora)"
+Help_AutoUnattended    "Ako je odabrano, Windows Planer (Windows Task Scheduler) će pokrenuti ovaj zadatak čak i ako niste prijavljeni na svoj Windows korisnički račun. Zadatak obavlja GSYNC.EXE u komandnom retku te neće biti nikakve interakcije sa korisnikom, tako da ćete rezultate zadatka moći vidjeti samo u izvještaju analize i sinkronzacije. U glavnom izborniku odaberite 'Zadatak' -> 'Otvori izvještaj lijeve/desne strane' kako biste vidjeli izvještaje."
+Str_SchedConfig			"Podešavanja..."
+Help_SchedConfig		"Kliknite za pristup Windows Planeru (Windows Task Scheduler) za postavljanje plana/rasporeda za vaš zadatak. Morat ćete također unijeti korisničko ime i lozinku Windows korisničkog računa, te kliknuti 'U redu' za završetak."
+
+Str_ResolveConflicts	"Automatski razriješi konflike"
+Help_ResolveConflicts	"Prisila automatskog razrješenja konflikata za zadatke koji se izvršavaju automatski. Kod ne-automatskih zadataka svi konflikti rezultiraju u 'Ne kopiraj' ako nisu mijenjani od strane korisnika. Ovo vrijedi samo za dvosmjerne zadatke, pošto se konflikti ne javljaju u jednosmjernim zadacima."
+Str_DoNotCopy			"Ne kopiraj"
+Str_NewerFileWins		"Novija datoteka pobjeđuje"
+
+Str_LimitChanges		"Ne sinkroniziraj pri promjenama više od"
+Help_LimitChanges		"Automatska sinkronizacija se ne provodi ako je promijenjeno više od definiranog broja datoteka. Neuobičajeno veliki broj promijenjenih datoteka ukazuje da možda nešto nije u redu te je potrebna ručna intervencija korisnika. Postavite na 100% kako bi se sinkronizacija izvršila bez obzira koliko velike bile promjene."
+
+Help_AutoStartDelay             "Odgoditi početak ovog zadatka ovoliko sekundi pri prvom pokretanju. Vrijedi pri pokretanju GoodSync programa te za vremensko pokretanje."
+
+
+Str_AutoClear			"Automatski isprazni stablo nakon sinkr. ili analize ako nema promjena"
+Help_AutoClear			"Ako nema promjena nakon sinkronizacije ili analize, stablo će se automatski isprazniti."
+
+Str_NotInPortable		"Nije dostupno u 'Portable' (prijenosnoj) verziji"
+
+
+# Job options - Scripts page
+Title_Script			"Skripte"
+Tip_Script				"Skripte"
+Str_PreAnalyzeProgram	"Adresa e-pošte ili program prije analize"
+Help_PreAnalyzeProgram	"Ako je unesena adresa e-pošte onda će se na tu adresu poslati izvješće prije nego počne analiza. (preko poslužitelja definiranog u Alati -> Programske opcije -> Spajanje). Ako je uneseno ime programa sa parametrima, taj program će biti pokrenut prije početka analize."
+Str_PostAnalyzeEmailOrProgram	"Adresa e-pošte ili putanja programa nakon analize bez promjena."
+Help_PostAnalyzeEmailOrProgram	"Ako je unesena adresa e-pošte onda će se na tu adresu poslati izvješće poslije analize nakon koje nije bilo promjena. (preko poslužitelja definiranog u Alati -> Programske opcije -> Spajanje). Ako je uneseno ime programa sa argumentima, taj program će biti pokrenut poslije analize nakon koje nema promjena."
+Str_PostSyncEmailOrProgram	"Adresa e-pošte ili program nakon sinkronizacije"
+Help_PostSyncEmailOrProgram	"Ako je unesena adresa e-pošte onda će se na tu adresu poslati izvješće nakon sinkronizacije (sa promjenama). (preko poslužitelja definiranog u Alati -> Programske opcije -> Spajanje). Ako je uneseno ime programa sa argumentima, taj program će biti pokrenut nakon sinkronizacije (sa promjenama)."
+
+
+
+# Job Options - Advanced
+Title_JobAdvanced		"Napredno"
+Tip_JobAdvanced			"Napredne postavke zadatka"
+
+Chk_UseSafeCopy			"Sigurno kopiranje koristeći privremene datoteke"
+Help_UseSafeCopy		"Ako je odabrano, pri kopiranju datoteke na odredište, najprije se kopira u privremenu datoteku te se zatim preimenuje u odredišnu datoteku. Ovaj postupak sprečava nepotpune/neispravne datoteke ukoliko se operacija sinkronizacije neočekivano prekine. Ovaj postupak zahtjeva dodatni slobodni prostor, pogotovo za jako velike datoteke."
+
+
+Chk_CopyLocked			"Kopiraj zauzete datoteke"
+Help_CopyLocked			"Koristeći 'Volume Shadow Service' za kopiranje datoteka koje je zauzeo (koje koristi) drugi proces. Nije dostupno na Windows 2000. Na 64-bitnim sustavima zahtjeva 64-bitnu verziju GoodSync-a."
+
+Chk_FastPreAnalyze		"Brza pred-analiza vremenskih oznaka"
+Help_FastPreAnalyze		"Ako je odabrano, onda će se prije pune analize provjeriti je li se vremenska oznaka datoteke promijenila na sporijem poslužitelju. Ako se vremenska oznaka datoteke kreirane pri sinkronizaciji nije promijenila onda se puna analiza ne provodi. Ako ova opcija nije odabrana, onda se uvijek provodi puna analiza."
+
+Help_Links_Ignore	"Ako je odabrano, GoodSync ignorira prečace na datoteke. Sve datoteke na 'Windows Home Server' su prečaci na datoteke, tako da nemojte odabrati ovu opciju ako želite da se kopiraju WHS datoteke, već odaberite 'Prati prečace datoteka'."
+Help_Links_CopyAsIs	"Ako je odabrano, GoodSync kopira prečace datoteka na iste datoteke na odredištu. Imajte na umu da kopirani prečaci mogu voditi na datoteke koje nisu kopirane jer se nalaze izvan kopirane mape."
+Help_Links_DrillDown	"Ako je odabrano, GoodSync će pratiti prečace datoteka. To znači, prečac na datoteku će biti kopiran kao datoteka na koju taj prečac vodi. Imajte na umu da može doći do duplikacije datoteka pošto više od jednog prečaca može voditi na istu datoteku na izvorišnoj strani."
+
+Chk_CopyACL	   		    "Kopiraj DACL sigurnosne atribute"
+Help_CopyACL			"Kopira 'Discretionary Access Control Lists' atribute na kopiranu datoteku ili mapu. Dostupno samo na Windows NTFS datotečnom sustavu, nedostupno na FAT i ostalima."
+
+
+# Left and Right
+Str_LeftFolder			"Lijeva mapa"
+Str_RightFolder			"Desna mapa"
+
+Str_LeftAndRight		"lijevo i desno"
+Str_Left				"lijevo"
+Str_Right				"desno"
+Str_Folder				"mapa"
+Str_File				"datoteka"
+Str_Deleted				"izbrisano"
+Str_NotPresent			"nije dostupno"
+
+Str_LeftToRight			"Lijevo na desno"
+Str_RightToLeft			"Desno na lijevo"
+
+# Exclusion messages
+Str_ExclBy_FolderAbove  "isključeno od mape"
+Str_ExclBy_SyncFolder   "isključeno: GoodSync podatkovna mapa"
+
+
+
+
+
+Str_ExclBy_MatchName    "isključeno: odgovara "
+Str_ExclBy_NoMatchName  "nije uključeno: ne odgovara "
+Str_ExclBy_EmptyFolder  "isključeno: prazna mapa"
+Str_ExclBy_ChildOfExcl  "isključeno: član od isključenoga"
+
+Str_ExclBy_NoPropDels      "isključeno: ne propagirati brisanja"
+Str_Msg_SkipLink		"Preskok prečice na mapu %1"
+
+# Job status and progress
+Str_Status_PressAnalyze			"Kliknite Analiziraj za pokretanje..."
+Str_Status_ConnectingToFolder	"Spajanje na mapu %1"
+Str_Status_Scanning				"Ispitivanje %1"
+Str_Status_ReadStateFile         "Čitanje datoteke stanja %1"
+Str_Status_ReadEmbeddedStateFile "Čitanje datoteke stanja %1 i integracija sa korijenskim stanjem"
+Str_Status_NewStateFile			"%1: nema datoteke stanja, biti će kreirana nova"
+Str_Status_SaveStateFile        "Pohrana datoteke stanja %1"
+Str_Status_PostProcessing		"Završna obrada"
+Str_Status_ComputePrevVerSize	"Računanje veličine _saved_ datoteka"
+
+Str_Status_CompareOneSide		"Uspoređivanje %1"
+Str_Status_CompareLeftToRight	"Usporedba lijevo na desno"
+
+Str_Status_NotYetAnalyzed	"Analiza nije provedena"
+Str_Status_Syncing			"Sinkronizacija u tijeku"
+Str_Status_Analyzing		"Analiza u tijeku"
+Str_Status_Connecting		"Spajanje"
+Str_Status_Paused			"Pauza aktivna"
+Str_Status_Resumed			"Nastavljeno"
+Str_Status_All				"Sve datoteke"
+Str_Status_NoFiles			"Bez datoteka"
+Str_Status_Changes			"Promjene"
+Str_Status_InSync			"Sinkronizirano"
+Str_Status_Conflicts		"Konflikti"
+Str_Status_NoConflicts		"Nema konflikata"
+Str_Status_Errors			"Greške"
+Str_Status_NoErrors			"Nema grešaka"
+Str_Status_SyncAttention	"Potrebna pažnja"
+Str_Status_Connected		"Veza uspostavljena"
+Str_Status_Disconnected		"Veza isključena"
+
+Str_Status_VolumeInfo_Free  "Slobodno: %1, Ukupno: %2"
+Str_Status_VolumeInfo_Reqd  "Potrebno: %1"
+
+Str_Status_FilesChangedCnt	"Promjena: %1"
+Str_Status_ConflictsCnt		"Konflikata: %1"
+Str_Status_ErrorsCnt		"Grešaka: %1"
+Str_Status_SyncedCnt		"Sinkronizirano: %1"
+Warn_AllExcluded			"Upozorenje!\r\nSve datoteke su isključene, provjerite postavke filtera.\r\nPrebacite prikaz na 'Sve' ili 'Isključeno' kako biste provjerili filtere."
+Warn_AllNew					"Upozorenje!\r\nLijeva i desna mapa nemaju zajedničkih datoteka. Čini se da pokušavate sinkronizirati dvije nepovezane mape.\r\nMolimo provjerite da su ispravne mape odabrane za sinkronizaciju."
+Warn_AllDelete				"Upozorenje!\r\nSve datoteke u odredišnoj mapi će biti izbrisane.\r\nPreporučamo da napravite pričuvnu kopiju podataka u praznu mapu."
+
+# Analyze messages
+Str_Msg_Job					"Zadatak"
+Str_Msg_LeftRight_Descrs    "Lijevo: %1, Desno: %2"
+Str_Msg_JobFilters          "Filteri: %1"
+Str_Msg_SetFolder		    "Mapa nije definirana"
+Str_Msg_CannotOpenFolder    "Nije moguće pristupiti mapi (vjerojatno ne sadrži apsolutnu putanju): %1"
+Str_Msg_SameFolders			"Lijeva i desna mapa su jednake."
+Str_Msg_NestedFolders2	    "Mapa '%1' je pod-mapa mape '%2' ili obrnuto. Analiza ugniježđenih mapa nije moguća."
+Str_Msg_WillCreateFolder    "Mapa '%1' nije pronađena, stoga će biti kreirana."
+Str_Msg_Created_Folder      "Mapa '%1' uspješno kreirana."
+Str_Msg_CannotConnect       "Neuspjelo spajanje na "
+Str_Msg_CannotCreateGsdata  "Nije moguće kreirati mapu stanja _gsdata_ na %1: %2\nAko je to mapa samo za čitanje, postavite ovaj zadatak kao jednosmjerni sa izvorom samo za čitanje u 'Zadatak' -> 'Postavke zadatka...'"
+Str_Msg_ErrReadStateFile    "Pogreška kod čitanja datoteke stanja '%1': %2.\nIme neispravne datoteke je promijenjeno u '%3'.\nPri sljedećoj analizi biti će kreirana nova datoteka stanja.\nMolimo pošaljite neispravnu datoteku stanja na ask@goodsync.com."
+Str_Msg_EmbeddedJob         "Pronađena mapa stanja '%1' pripada nekom drugom zadatku. To znači da više zadataka može sinkronizirati u istu mapu, što ne preporučujemo."
+Str_Msg_DetectedDisconnect  "Provjeriti vezu: detektiran prekid: %2"
+Str_Msg_RemainsConnected    "Provjeriti vezu: veza ostaje uspostavljena: %2"
+Str_Msg_DetectedConnect     "Provjera veze: detektirana uspostava, analiza pokrenuta"
+Str_Msg_RemainsDisconnected "Provjeriti vezu: veza nije uspostavljena: %2"
+
+Str_Msg_Filter_ExcludeHidden       "Isključi skrivene"
+Str_Msg_Filter_ExcludeSystem       "Isključi sistemske"
+Str_Msg_Filter_ExcludeEmptyFolders "Isključi prazne mape"
+Str_Msg_Filter_Included     	   "Uključi"
+Str_Msg_Filter_Excluded     	   "Isključi"
+
+Str_Msg_OlderFileVsNewer	  "Pažnja: starija datoteka prepisuje noviju"
+Str_Msg_Conflict_BothChanged  "Konflikt: datoteka promijenjena na obje strane"
+Str_Msg_Conflict_1way_RtoL    "Sinkronizacija 'desno na lijevo' u 'lijevo na desno' jednosmjernom zadatku"
+Str_Msg_Conflict_1way_LtoR    "Sinkronizacija 'lijevo na desno' u 'desno na lijevo' jednosmjernom zadatku"
+
+Str_Status_JobScheduled      "----- Zadatak '%1': planirano pokretanje od %2"
+Str_Status_AnalysisStarted   "----- Zadatak '%2': ANALIZA pokrenuto %3 na računalu '%4' (GoodSync %5) -----"
+Str_Status_OneSideStats      "%1: Datoteka: %2 (isključeno %3). Mapa: %4 (isključeno %5)."
+Str_Status_AnalysisSummary   "Promjena: %1, Konflikata: %2, Trajanje: %3, Status: %4, Grešaka: %5"
+Str_Status_AnalysisCompleted "----- Analiza dovršena. Trajanje %2, Brzina: %3 datoteka/sek. -----"
+Str_Status_AnalyzeStopped	 "Analiza prekinuta od strane korisnika"
+Str_Status_AnalyzeFinished_NoChanges   "Analizirano, nema promjena"
+Str_Status_AnalyzeFinished_ReadyToSync "Analizirano, kliknite 'Sinkroniziraj' za sinkronizaciju"
+Str_Status_Advise_HaveConflicts	"Analiza dovršena sa greškama. Razriješite konflikte odabirom ispravnog smjera sinkronizacije, te kliknite 'Sinkroniziraj'"
+Str_Status_Advise_HaveErrors	"Analiza dovršena sa greškama. Kliknite gumb 'Greške' za prikaz stavki"
+Str_Status_FolderDisconnected   "Veza na jednu od mapa je prekinuta"
+Str_Status_RemainsConnected     "Veza na obje mape je i dalje uspostavljena"
+Str_Status_RemainsDisconnected  "Veza na jednu od mapa je i dalje ne-uspostavljena"
+
+Str_Status_SynchroStarted	 "===== Zadatak '%2': SINKRONIZACIJA pokrenuto od %3 na računalu '%4' ====="
+Str_Status_SavingStateFor	"Pohrana stanja za "
+Str_Status_SynchroSummary	 "Uspješno sinkronizirano: %1, Grešaka: %2"
+Str_Status_SynchroErrors	 "Sinkronizacija dovršena sa %1 grešaka. Kliknite gumb 'Greške' za prikaz stavki"
+Str_Status_SynchroConflicts	 "Sinkronizacija dovršena sa %1 nerazriješenih konflikata. Kliknite gumb 'Konflikti' za prikaz stavki"
+Str_Status_SynchroCompleted	 "===== Sinkronizacija dovršena. Trajanje: %2, Brzina: %3 ====="
+Str_Status_Remaining_Speed	"Preostalo %1, Brzina %2"
+Str_Status_SyncError		"GREŠKA"
+Str_Status_SyncStopped		"Sinkronizacija prekinuta od strane korisnika, kliknite ponovno 'Sinkroniziraj' za nastavak"
+Str_Status_SyncDisconnected "Veza na mapu prekinuta"
+Str_Status_SyncFinished_OK  "Sinkronizacija uspješno dovršena"
+Str_Status_Advise_SyncAttention	 "Sinkronizacija dovršena sa greškama ili nerazriješenim konfliktima"
+
+Str_Msg_StoppedByUser		"Prekinuto od strane korisnika"
+
+Str_Msg_DeleteOtherJobResults "Izbrisati rezultate analize zadataka koji se kose sa ovim zadatkom: %1"
+Str_Msg_DeleteResultsReason   "Sinkronizacija zadatka koji se kosi (sa drugim) %1"
+Str_Msg_DeleteThisJobResults  "Rezultate analize (datoteke/mape) za ovaj zadatak je izbrisao %1"
+
+Str_Msg_Action_DeleteFolder "Izbriši mapu"
+Str_Msg_Action_DeleteFile   "Izbriši datoteku"
+Str_Msg_Action_CreateFolder "Kreiraj mapu"
+Str_Msg_Action_CopyOver     "Kopiraj preko"
+Str_Msg_Action_CopyNew      "Kopiraj novu"
+Str_Msg_Action_CopyTime     "Kopiraj vrijeme modifikacije od %1 na %2"
+
+Str_Msg_AndMoreSimilarLogLines "... i %1 još sličnih linija izvješća preskočeno ovdje (Zadatak -> Otvori lijevi/desni izvještaj za pregled cijelog izvješća)"
+
+Str_Msg_OldNewWholeHour_TimeShift  "%1: Staro-novo pomak vremena od %2 sata detektirano za %3 datoteka. Odluka: nema promjena na ovoj strani"
+Str_Msg_OldNewRounding_TimeShift   "%1: Staro-novo pomak zaokruženog vremena od %2 sata (tip %3) detektirano za %4 datoteka. Odluka: nema promjena na ovoj strani"
+Str_Msg_LeftRight_TimeShift        "Lijevo-desno pomak vremena od %1 sati (tip %2) detektirano za %3 datoteka: Odluka: promjena operacije kopiranja datoteka u operaciju kopiranja vremena"
+
+Str_Msg_SyncAgainAfterActiv "Ponovno kliknite 'Sinkroniziraj' nakon aktivacije GoodSync Pro"
+
+
+Str_Msg_FolderLocked	    "Neki drugi zadatak sinkronizira u mapu %1,\npokrenuto od: %2.\nMolimo pokušajte ponovno kasnije, ili premostite blokadu ako ste *sigurni* da je drugi zadatak završio."
+Str_Msg_LimitChanges2	    "%1 datoteka je promijenjeno, što prelazi granicu od %2. S obzirom na to, zadatak se neće sinkronizirati automatski."
+Str_Msg_NotEnoughDiskSpace  "Nedovoljno slobodnog prostora na disku %1, potrebno %2, dostupno %3"
+Str_Msg_RequiredDiskSpace   "Na disku %1 potreban slobodni prostor je %2, vi imate %3"
+
+
+
+
+# Misc Messages
+Chk_DoNotAsk			"Ne pitaj ponovno"
+Str_TitleWarning		"GoodSync upozorenje"
+Str_TitleError			"GoodSync greška"
+Str_MsgBoxTimeout		"Zatvaranje za %1 sek."
+
+Str_SaveOptions			"Postavke zadatka su promijenjene. Pohraniti ih?"
+
+Str_Win2kAtLeast		"GoodSync zahtjeva barem Windows 2000 za rad."
+Str_SignedAppNeeded		"Ova aplikacija nije ispravno potpisana od strane Siber Systems Inc.\nMolimo instalirajte potpisanu verziju sa  https://www.goodsync.com"
+
+Str_AskDeleteJob1		"Jeste li sigurni da želite izbrisati zadatak '%1'?"
+Str_AskDeleteSelJob1	"Jeste li sigurni da želite izbrisati %1 odabranih zadataka?"
+
+Str_AskDeleteItem1		"Izbrisati %1 odabranih stavki?"
+Str_AskDeleteItem3		"Izbrisati %1 %2 '%3'?"
+Str_Msg_FileDeleted     "Korisnik je izbrisao datoteku %1"
+Str_Msg_FolderDeleted   "Korisnik je izbrisao mapu %1"
+Str_Msg_CannotDelete    "Nije uspjelo brisanje %1: %2"
+Str_Msg_StateFileDeleted "Izbrisana je datoteka stanja %1"
+
+Str_StopJobsBeforeClose	"Jedan ili više zadataka su trenutno u tijeku: %1.\nŽelite li ih sve zaustaviti?\nKliknite 'U redu' za zaustavljanje svih zadataka i izlaz.\nKliknite 'Odustani' za povratak u GoodSync."
+
+Str_Warn_HideToTray		"Automatizirani zadaci ne mogu biti izvršeni ako GoodSync nije pokrenut, GoodSync će se stoga sakriti kao ikona u području obavijesti na programskoj traci kada ga zatvorite, kako bi nastavio raditi u pozadini.\nZa promjenu ove postavke, isključite opciju '%1' u Alati -> Postavke programa."
+
+Str_TitleResetState		"Brisanje datoteka stanja"
+Str_AskDeleteStates		"Obrisati datoteke sinkronizacijskih stanja i povijesti promjena?\nTo su GoodSync-ove interne datoteke u kojima se pamti povijest korisničkih datoteka.\nNiti jedna korisnička datoteka neće biti obrisana."
+
+Str_TitleDeleteBackup	"Brisanje datoteka stanja"
+Str_AskDeleteBackup		"Obrisati datoteke stanja iz ove mape?"
+
+Str_TitleDeleteGsData	"Brisanje _gsdata_ mape"
+Str_AskDeleteGsData		"Obrisati GoodSync-ove _gsdata_ mape?\nGoodSync čuva svoje podatke, izvješća i povijest promjena u ovim mapama.\nNiti jedna korisnička datoteka neće biti obrisana."
+
+Str_SyncOnLogoffAsk		"Sinkronizacija se ne može obaviti prilikom odjave pošto Windows automatski zatvara programe pri odjavi.\nŽelite li ugasiti ovu opciju (morat ćete ponovno pokrenuti Windowse)?"
+Str_SyncOnLogoffReason	"Sinkronizacija prilikom odjave"
+Str_SyncOnLogoffJobs	"Sinkronizacija prilikom odjave postavljena za zadatke:"
+
+Str_LogoffTitle			"Sinkronizacija prilikom odjave - GoodSync"
+Str_LogoffPopup			"Sinkronizacija prilikom odjave aktivirana.\nMolimo pričekajte da se sinkronizacija dovrši.\nOdjava će dalje nastaviti nakon završetka sinkronizacije."
+Err_OpenLogFails		"Nije moguće otvoriti izvješće zadatka"
+Err_ExecLogViewer		"Nije moguće pokrenuti prikaz izvješća. Molimo kontaktirajte GoodSync tehničku podršku:\n"
+
+
+# Tooltips
+Tooltip_Synchronizer	"GoodSync: Sinkronizacija i sigurnosna pohrana datoteka"
+Tooltip_AnalyzingJob	"Analiza zadataka"
+Tooltip_SyncingJob		"Sinkronizacija zadataka"
+
+TT_SetLeftSyncFolder	"Kliknite gumb 'Pretraži' kako biste postavili prvu (lijevu) mapu za sinkronizaciju, ili unesite putanju mape"
+TT_SetRightSyncFolder	"Kliknite gumb 'Pretraži' kako biste postavili drugu (desnu) mapu za sinkronizaciju, ili unesite putanju mape"
+TT_NewJob				"Novi zadatak"
+TT_ClickToAnalyze		"Kliknite gumb 'Analiziraj' za analizu razlika između mapa i prijedlog operacija sinkronizacije"
+TT_ClickToSynchronize	"Kliknite gumb 'Sinkroniziraj' kako bi se izvršile predložene operacije sinkronizacije"
+
+
+# Update toolbar and messages
+Info_Update_Avail	   "Dostupna je ažurirana verzija GoodSync-a. <a>Kliknite ovdje za preuzimanje</a>"
+ 
+Str_Ver_YesNewVersion	"GoodSync verzija %1, izdanje %2 je dostupno za preuzimanje. You have ver %3"
+Str_Update_Ask		   "Želite li preuzeti ažuriranu verziju?"
+Str_Update_Err_1	   "Nije moguće dobiti informaciju o verziji:\n%1\nŽelite li otići na web stranicu sa zadnjim verzijama GoodSync-a?"
+Str_Ver_NoNewVersion "Imate zadnju verziju: %1. Želite li ponovno reinstalirati ovu istu verziju?"
+
+
+# Browse Dialog
+Browse_Btn_MyComputer "Moje računalo"
+Browse_Btn_MyNetwork  "Moja mreža"
+Browse_Str_SecureMode     "Sigurnosni mod (šifrirano)"
+Browse_Tip_SecureMode     "Ako je odabrano, razmjena korisničkog imena i lozinke te prijenos podataka šifriraju se koristeći SSL ili slično. Sigurnije je ali i sporije. \nAko ova opcija nije odabrana, razmjena korisničkog imena i lozinke te prijenos podataka nisu šifrirani. Brže je ali i manje sigurno."
+Browse_Str_PrivKey	      "Privatni ključ"
+Browse_Tip_PrivKey	      "Datoteka koja sadrži privatni SSH ključ, u PuTTY formatu"
+Browse_Str_HostBasedAddr  "Adresiranje za bukete (Buckets) bazirano na klijentu (za euro bukete)"
+Browse_Tip_HostBasedAddr  "Ako je odabrano, funkcionira za euro bukete, imena buketa moraju biti samo sva mala slova i brojke.\nAko ova opcija nije odabrana, adresiranje za bukete je bazirano na URL-u: buketi mogu imati velika i mala slova u imenu, Amazon ovo ne preporučuje."
+Browse_Str_SpecifyACP	  "Kontrola pristupa"
+Browse_Tip_SpecifyACP	  "Pravila kontrole pristupa, jedno od pripremljenih pravila: privatno (zadano), javnost-čitanje, javnost-čitanje-pisanje, autentificirani-čitanje"
+Browse_Str_ImplicitMode	  "Implicitni FTPS (isključeno: Eksplicitni)"
+Browse_Tip_ImplicitMode	  "Ako je odabrano, koristi se Implicitni FTP način: spajanje na port 990 koristeći SSL/TLS. \nAko ova opcija nije odabrana, koristi se Eksplicitni FTPS način: spajanje na port 21, pregovor za šifriranje"
+Browse_Str_ActiveMode	  "Aktivan FTP način (isključeno: Pasivni način)"
+Browse_Tip_ActiveMode	  "Ako je odabrano, koristi se Aktivni FTP način. U aktivnom načinu uspostavljena je veza između FTP poslužitelja i klijenta radi prijenosa podataka i morate ju omogućiti u svojim vatrozidovima.  \nAko ova opcija nije odabrana, koristi se Pasivni FTP način. Tako se FTP veze lako mogu uspostaviti kroz vatrozidove i NAT usmjerivače. Ovo je preporučena i zadana opcija."
+Browse_Str_UseMDTM_FTP    "Koristi MDTM za dobivanje točnog vremena promjene datoteke"
+Browse_Tip_UseMDTM_FTP    "Ako je odabrano, koristit će se MDTM naredba za dobivanje točnog vremena modifikacije datoteke sa FTP poslužitelja.  \nAko ova opcija nije odabrana, koristit će se datotečni popis za dobivanje vremena promjene. Ta vremena su zaokružena na najbliži dan ako je datoteka starija od 3-6 mjeseci."
+Browse_Str_UTF8_encoding  "UTF-8 imena datoteka (isključeno: ANSI kodiranje)"
+Browse_Tip_UTF8_encoding  "Ako je odabrano, koristit će se UTF-8 za kodiranje imena datoteka i mapa na poslužitelju.   Ako ova opcija nije odabrana, koristit će se ANSI kodiranje za imena datoteka i mapa na poslužitelju, i klijent i poslužitelj moraju biti postavljeni na isti ANSI jezik."
+Browse_Str_WinInet 		  "Bazirano na WinInet (kompleksni među-poslužitelji)"
+Browse_Tip_WinInet		  "Ako je odabrano, koristit će se WinInet implementacija koja podržava kompleksne među-poslužitelje i kompleksne Windows autentifikacije, ali ima ograničenja i sporije je.  Ako ova opcija nije odabrana, koristit će se 'socket' bazirana implementacija koja ne podržava kompleksnu Windows autentifikaciju i među-poslužitelje, ali je brža i robusnija."
+Browse_Str_Use_Proxy      "Spajanje preko među-poslužitelja ako je podešen u Alati -> Postavke programa -> Veza"
+Browse_Tip_Use_Proxy      "Spajanje na ovaj poslužitelj preko među-poslužitelja koji je podešen i uključen u Alati -> Postavke programa -> Veza"
+Browse_Str_PreferEncrypted    "Šifriranje koristeći EFS"
+Browse_Tip_PreferEncrypted    "Šifriranje ove strane koristeći EFS. Radi samo na NTFS diskovima. Ne radi na Windows XP Home ili Vista Home, potrebno je minimalno XP Pro ili Vista Business"
+Browse_Str_PreferDecrypted    "Dešifriranje koristeći EFS"
+Browse_Tip_PreferDecrypted    "Dešifriranje ove strane ako je druga strana šifrirana korištenjem EFS. Radi samo na NTFS diskovima. Ne radi na Windows XP Home ili Vista Home, potrebno je minimalno XP Pro ili Vista Business"
+Browse_Str_PreferCompressed   "Sažimanje u NTFS"
+Browse_Tip_PreferCompressed   "Sažimanje ove strane koristeći LZ algoritam za komprimiranje podataka. Radi samo na NTFS diskovima"
+Browse_Str_PreferUncompressed "Dekomprimiranje u NTFS"
+Browse_Tip_PreferUncompressed "Dekomprimiranje ove strane ako je druga strana komprimirana. Radi samo na NTFS diskovima"
+Browse_Str_IgnoreBadCerts     "Ne provjeravati certifikate SSL poslužitelja"
+Browse_Tip_IgnoreBadCerts     "Ako je odabrano, certifikati poslužitelja koji nedostaju, ne odgovaraju ili su istekli su dopušteni, kao i 'Invalid Certificate Authority'.  Ako ova opcija nije odabrana, SSL certifikati poslužitelja biti će provjereni, te ako su nevažeći prijavit će se kao greška."
+
+
+Browse_Btn_Go			    "Idi"
+Browse_Btn_NewFolder	    "Kreiraj novu mapu"
+Browse_Btn_NewFolder_Tip	    "Kreiraj novu mapu unutar trenutne"
+Browse_NewFolder_Prompt_1	"Unesite ime nove mape u '%1'"
+
+
+
+Browse_Tip_MyComputer		"Moje računalo: diskovi postavljeni direktno na ovom računalu. Adresirano kao X:\\mapa1\\mapa2 gdje je X slovna oznaka diska. Mogu biti lokalni diskovi, prijenosni diskovi, prijenosni uređaji ili glazbeni uređaji koji imaju slovnu oznaku (Palm, stari iPod). Koristite prijenosnu putanju =ImeDiska:\\mapa1\\mapa2 za imenovane diskove koji nemaju fiksnu slovnu oznaku. Koristite %%GSDISK%%:\\mapa1\\mapa2 za mape na disku odakle je GoodSync.exe pokrenut u GoodSync2Go."
+Browse_Tip_MyNetwork		"Moja mreža: Windows Network Shares (SMB protokol). Adresirano kao \\\\ImeRačunala\\ImeDijeljenja\\mapa1\\mapa2. Provjerite da možete vidjeti dijeljene resurse u Windows Exploreru prije unosa ovdje. Mape i diskovi moraju biti dijeljeni na poslužiteljima kako bi se pojavili ovdje. Ne zaboravite postaviti dopuštenja dijeljenja koja dozvoljavaju pisanje po njima."
+Browse_Tip_FTP				"FTP poslužitelji. Unesite mapu za spajanje kao ftp://posluzitelj.domena.com/mapa1/mapa2. Unesite korisničko ime i lozinku za autentifikaciju. Pokušajte Aktivni način ako zadani Pasivni način ne radi."
+Browse_Tip_SecureFTP		"Sigurni FTP poslužitelji (SFTP preko SSH). Unesite SFTP za spajanje kao sftp://posluzitelj.domena.com/mapa1/mapa2. Unesite korisničko ime i lozinku ili datoteku sa privatnim ključem (PuTTY format) i lozinku za autentifikaciju. Možete koristiti PuTTY Pageant za pamćenje privatne lozinke. Koristite PuTTY sesiju za definiranje postavki među-poslužitelja."
+Browse_Tip_AmazonS3			"Amazon S3 Online Storage. Unesite mapu za spajanje kao http://s3.amazonaws.com/ime-buketa/mapa1/mapa1. Unesite identifikacijski pristupni ključ i tajni pristupni ključ za autentifikaciju. Buket je vršna mapa. Koristite adresiranje bazirano na domaćinu za Euro bukete."
+Browse_Tip_WebDav			"WebDAV poslužitelj. Unesite URL WebDAV mape za spajanje kao http://www.negdje.com/mapa1/mapa2. Unesite korisničko ime i lozinku za autentifikaciju na poslužitelj."
+Browse_Tip_WinMobile		"Windows Mobile Phone ili Pocket PC uređaj. Adresirano kao wm:ImeUredjaja\mapa1\mapa2. Microsoft ActiveSync ili WMDC moraju biti instalirani i pokrenuti te uređaj mora biti spojen kako bi ga GoodSync vidio. Uređaj ne mora imati vezu sa radnom površinom."
+Browse_Tip_Unknown			"Pomoć nije dostupna za ovaj nepoznati datotečni sustav"
+
+
+# Buy License dialog
+BuyPro_Title		   "GoodSync nadogradnja"
+BuyPro_Text_ProFixed   "Nadogradite se na GoodSync Pro danas za:\n- Neograničeno zadataka,\n- Neograničene datoteke u zadacima,\n- Telefonska podrška, Trenutna aktivacija, i više"
+BuyPro_Text_Pro2Go     "Nadogradite se na GoodSync2Go Pro danas za:\n- Neograničeno zadataka,\n- Neograničene datoteke u zadacima,\n- Telefonska podrška, Trenutna aktivacija, i više"
+BuyPro_Text_Server     "Nadogradite se na GoodSync Enterprise Server za:\n- Bez ograničenja probne verzije,\n- Posebna podrška za tvrtke,\n- Vlastiti menadžer računa"
+BuyPro_Limit_Pro        "Prekoračili ste ograničenja besplatne verzije. Za nastavak korištenja GoodSync programa potrebna je ili nadogradnja na GoodSync Pro verziju, ili možete smanjiti broj zadataka na 3, ili smanjiti količinu datoteka po zadatku na 100."
+BuyPro_Limit_Server     "Pokretanje GoodSync programa na Windows Server zahtjeva Enterprise Server licencu."
+BuyPro_Link		        "Kliknite ovdje kako biste doznali više o razlikama između besplatne i Pro verzije"
+
+
+# Activation Wizard
+Act_Header			"Zahvaljujemo na kupnji našeg proizvoda"
+Act_Title			"GoodSync aktivacija"
+Act_Field_Req_Err_1	"'%1' je potrebno za aktivaciju."
+Act_User_Name		"Korisničko ime"
+Act_User_Order		"Broj narudžbe (NNNNNNNNNN) ili šifra narudžbe (XXX-XXX-XXX-XXX)"
+Act_User_Online_Btn	"Direktna Online aktivacija (preporučeno):"
+Act_User_Online_Tip	"GoodSync će se spojiti na aktivacijski poslužitelj putem interneta"
+Act_User_ViaBrowser_Btn	"Aktivacija Online preko internet pretraživača (koristiti ako direktna ne funkcionira):"
+Act_User_ViaBrowser_Tip "Spojit ćete se na aktivacijski poslužitelj putem zadanog pretraživača"
+Act_User_Order_Err	"Molimo unesite 10-znamenkasti broj narudžbe (Order ID) ili šifru narudžbe (License Key) u XXX-XXX-XXX-XXX formatu."
+
+
+
+
+
+
+
+
+
+
+Act_ViaBrowser_Txt	"Otiđite na http://activate.goodsync.com u bilo kojem internet pretraživaču ili kliknite link ispod. Kliknite gumb 'Kopiraj' koji će kopirati ID računala. Zatim ga zalijepite u 'Computer ID' polje na stranici u pretraživaču te kliknite 'Submit'. Nakon toga kopirajte aktivacijski kod iz pretraživača u prozor za aktivacijski kod ispod, i kliknite 'Dalje'."
+
+Act_ViaBrowser_Copy	"Kopiraj"
+Act_ViaBrowser_ActCode_Txt "Ovdje zalijepite aktivacijski kod"
+
+Act_Finish_Success	"Zahvaljujemo na kupnji GoodSync programa!\nVaša kopija je sada aktivirana."
+Act_Finish_Connect	"Spajanje na aktivacijski server"
+Act_Finish_Fail		"Aktivacija nije uspjela"
+
+
+# Create ticket 
+Ticket_File_Desc    "Ova datoteka sadrži dijagnostičke informacije.\nNe sadrži nikakve privatne informacije sa vašeg računala."
+Ticket_Instruction  "Kliknite gumb 'Kopiraj putanju' kako biste kopirali putanju ZIP datoteke.\nKliknite web link GS podrške dolje, unesite adresu svoje e-pošte i kliknite gumb za prijavu.\nOpišite svoj problem.\nKliknite 'Browse...' u 'Attached Files' sekciji.\nPritisnite Ctrl+V kako biste zalijepili putanju ZIP datoteke."
+Ticket_Btn_Copy		"Kopiraj putanju"
+
+# Mini Mode
+Str_MiniDlgNoActiveJob	"<Nema aktivnih zadataka>"
+
+# Log Viewer general
+LV_AppTitle					"Pregled izvješća"
+LV_LogListTitle				"Imena datoteka izvješća"
+LV_OpenLogDlg				"Otvori mapu izvješća"
+LV_TotalLine				"Ukupno"
+
+# Log Viewer Error
+LV_Err_NoLogFileFound		"<Nema datoteka izvješća>"
+LV_Err_UnknownFs			"Nepoznati datotečni sustav"
+LV_Err_CannotOpenFile2		"Neuspjelo otvaranje datoteke %1: %2"
+LV_Err_ReadingFile2			"Greška pri čitanju datoteke %1: %2"
+LV_Err_ParseCmdLine			"Greška pri raščlambi naredbenog redka"
+
+# Log Viewer Find Window
+LV_Find						"Pronađi:"
+LV_FindNext					"Dalje"
+LV_FindPrev					"Natrag"
+LV_FindAll					"Pronađi sve"
+LV_FindCaseSens				"Pazi na velika/mala slova"
+
+#Log Viewer Menu
+LV_MenuFile					"Datoteka"
+LV_MenuView					"Prikaz"
+LV_MenuOpen					"Otvori"
+LV_MenuExit					"Izlaz"
+LV_MenuCopyAsText			"Kopiraj odabrano kao tekst"
+LV_MenuSelectAll			"Odaberi sve"
+LV_MenuDelete				"Ukloni"
+LV_MenuFind					"Pronađi"
+LV_MenuSelectFont			"Odabir fonta"
+
+# For Mac
+
+Menu_Mac_Window					"Prozor"
+Menu_Mac_Zoom					"Povećanje"
+Menu_Mac_Minimize				"Umanji"
+Menu_Mac_BringToFront			"Prikaži sve ispred"
+Menu_Mac_Undo					"Opovrgni akciju"
+Menu_Mac_Redo					"Vrati opovrgnutu akciju"
+Menu_Mac_Preferences			"Postavke..."
+Menu_Mac_Services				"Usluge"
+Menu_Mac_HideProgram			"Sakrij GoodSync"
+Menu_Mac_HideOthers				"Sakrij ostale"
+Menu_Mac_Quit					"Zatvori"
+
+
+Chk_Mac_AutoStart					"Pokreni GoodSync kada se pokrene i Mac"
+
+Browse_Mac_Btn_Disconnect		"Prekini vezu"
+
+Str_Mac_GSFolder						"Mapa"
+Str_Mac_WelcomeScreenTitle				"Dobrodošli"
+
+
+
+Browse_Mac_Str_Size						"Veličina"
+
+Menu_Mac_ShowAll						"Prikaži sve"
+
+
+
+Cmd_Mac_Str_Show					"Prikaz"
+Cmd_Mac_ShowLeftTrashBin			"Lijeva kanta za smeće"
+Cmd_Mac_ShowRightTrashBin			"Desna kanta za smeće"
+Cmd_Mac_MakeGSDataVisible			"Postavi gsdata vidljiv"
+Cmd_Mac_MakeGSDataInVisible			"Postavi gsdata nevidljiv"
+
+Str_Status_Mac_AnalyzeFinished_OK	"Analiza uspješno dovršena"
+Str_Status_Mac_AnalysisStarted		"Analiza pokrenuta"
+Str_Status_Mac_SyncStarted		"Sinkronizacija pokrenuta"
+
+
+

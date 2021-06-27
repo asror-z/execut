@@ -1,0 +1,45 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>GoodSync Server: Change Computer ID</title>
+    <link rel=stylesheet href="/style.css" type="text/css" media="screen, print">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="version"><h2>Version&nbsp;:&nbsp;<!-- serverversion -->&nbsp;</h2></div>
+        </div>
+        <div id="menu_and_contents">
+            <!-- menubar -->
+            <div id="contents">
+                <h1>Change Computer ID</h1>
+                <p>
+                <form name="computer_name" action="change_computer_name" method="post">
+                    <table>
+                        <tr>
+                            <td class="setting_name">Old Computer ID</td>
+                            <td class="setting_value"><!-- oldcomputerid --></td>
+                        </tr>
+                        <tr>
+                            <td class="setting_name">New Computer ID</td>
+                            <td class="setting_value"><input type="text" name="new_computer_name"></td>
+                        </tr>
+                        <tr>
+                          <td class="setting_value" colspan="2">
+                            <div id="action_buttons">
+                              <input type="submit" name="change" value="Change">
+                              <input type="submit" name="cancel" value="Cancel">
+                            </div>
+                          </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div id="footer">
+            Copyright &copy; 1997-2021 Siber Systems Inc. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>

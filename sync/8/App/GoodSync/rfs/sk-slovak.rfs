@@ -1,0 +1,1053 @@
+﻿# RFS file codepage.
+RFS_CODEPAGE "1250"
+RFS_LANGUAGE "Slovak"
+
+# Menus
+Menu_Job				"Úloha&"
+Cmd_JobNew				"Nová"
+Cmd_JobDelete			"Zmazať"
+Cmd_JobRename			"Premenovať..."
+Cmd_JobSaveTemplate     "Uložiť ako &šablónu..."
+Cmd_JobClone			"Klonovať..."
+Cmd_JobSwapSides		"Prehodiť ľavú stranu úloh s pravou"
+Cmd_Analyze			"&Analyzovať"
+Cmd_AnalyzeAll			"Analyzovať všetko"
+Cmd_Sync				"&Synchronizovať"
+Cmd_SyncAll				"Synchronizovať všetko"
+Cmd_AnalyzeAndSyncThis	"Analyzovať a Synchronizovať"
+Cmd_AnalyzeAndSyncAll	"Analyzovať a Synchronizovať všetko"
+Cmd_Stop			"Zastaviť"
+Cmd_StopAll			"Zastaviť všetko"
+Cmd_SuspendAuto			"zablokuj Auto Run (automatické spustenie)"
+Cmd_JobListOfChanges	"Zoznam zmien"
+Cmd_JobOpenLogLeft		"Otvoriť súbory s protokolom ľavej strany"
+Cmd_JobOpenLogRight		"Otvoriť súbory s protokolom pravej strany"
+Cmd_JobOptions			"M&ožnosti..."
+Cmd_JobResetState		"Resetovanie stavov"
+Cmd_JobDeleteBackup		"Zmaž históriu (Koš)"
+Cmd_JobDeleteGsData		"Zmaž zložku _gsdata_ "
+Cmd_AppExit				"Koniec"
+Cmd_Cut				"Vybrať"
+Cmd_Copy				"Kopírovať"
+Cmd_Paste			"Vložiť"
+Cmd_ExportJobsList		"Exportovať zoznam úloh..."
+Cmd_ExportSelJobsList	"Exportovať vybranú úlohu..."
+Cmd_ImportJobsList		"Importovať zoznam úloh..."
+
+Menu_View				"&Zobraziť"
+Cmd_ViewStatusBar		"&Stavový riadok"
+Cmd_ProgOptions			"&¨Možnosti programu..."
+
+
+Cmd_View_FullWindow		"&Plný režim"
+Cmd_View_MiniWindow		"&Mini režim"
+Cmd_View_TrayIcon		"&Iba ikona"
+
+Menu_Help				"&Pomoc"
+Cmd_AppAbout			"&O programe..."
+Cmd_AppManual			"&Dokumentácia"
+Cmd_AppFAQ				"&Často kladené otázky"
+Cmd_AppCreateTicket		"&Požiadať o technickú podporu..."
+Cmd_Help_BuyPro			"Kúpiť PRO..."
+Cmd_Help_Activate		"Aktivovať PRO..."
+Cmd_CheckUpdates		"Vyhľadať aktualizácie"
+
+Cmd_ShowAll				"&Všetko"
+Cmd_ShowChanges			"&Zmeny"
+Cmd_ShowConflict		"&Konflikty"
+Cmd_ShowError			"&Chyby"
+
+Cmd_ShowToDelete		"Pre zmazanie"
+Cmd_ShowExcluded		"Vylúčené"
+Cmd_ShowIncluded		"Zahrnuté"
+Cmd_ShowSameLenDiffTime "S rovnakou veľkosťou ale iným časom"
+Cmd_ShowNotYetSynced    "Zatiaľ nezosynchronizované"
+Cmd_ShowAllAll          "Všetky živé + mŕtve"
+
+Menu_Actions			"&Akcia"
+Cmd_ViewJobList			"&Zoznam úloh"
+Cmd_ViewJobFilter		"&Filtre"
+Cmd_ViewLog				"&Protokoly"
+
+Menu_Tools				"&Nástroje"
+Cmd_ServerMainSetup     "Nastavenie pripojenia GoodSync Connect..."
+Cmd_ServerControlPanel  "Pokročilé nastavenia servera..."
+Menu_View_Other			"&Iné"
+
+
+# Context menus
+
+Cmd_ItemProp			"Vlastnosti ľavej položky"
+
+Cmd_ItemLOpen			"Otvoriť &ľavý súbor"
+Cmd_ItemROpen			"Otvoriť &pravý súbor"
+Cmd_ItemLDelete			"Odstrániť súbor &vľavo"
+Cmd_ItemRDelete			"Odstrániť súbor vprav&o"
+Cmd_ItemDeleteBoth		"Odstrániť o&ba súbory"
+
+Cmd_ItemLDeleteMul1		"Odstrániť z ľavej strany %1 položiek"
+Cmd_ItemRDeleteMul1		"Odstrániť z pravej strany %1 položiek"
+Cmd_ItemBDeleteMul1		"Odstrániť z oboch strán %1 položiek"
+
+Cmd_OpenLFolder			"Otvoriť ľavú zložku"
+Cmd_OpenRFolder			"Otvoriť pravú zložku"
+Cmd_DeleteLFolder			"&Odstrániť ľavú zložku"
+Cmd_DeleteRFolder			"&Odstrániť pravú zložku"
+Cmd_DeleteBothFolders		"&Odstrániť obe zložky"
+
+Cmd_ItemCompare			"&Porovnať ľavú a pravú"
+
+Cmd_Recommended			"&Podľa odporúčania"
+Cmd_DoNotCopy			"Nekopírovať"
+Cmd_CopyLeftToRight		"Zľava doprava"
+Cmd_CopyRightToLeft		"Sprava doľava"
+Cmd_DeleteLeftToRight		 "Zmaž na pravej strane"
+Cmd_DeleteRightToLeft		 "Zmaž na ľavej strane"
+Cmd_RenameMove_LtoR		 "Premenovať/Presunúť vpravo"
+Cmd_RenameMove_RtoL		 "Premenovať/Presunúť vľavo"
+Cmd_CopyTimeLeftToRight  "Kopírovať čas zľava doprava"
+Cmd_CopyTimeRightToLeft  "Kopírovať čas sprava doľava"
+Cmd_NameCaseLeftToRight  "Veľkosť znakov zľava doprava"
+Cmd_NameCaseRightToLeft	 "Veľkosť znakov sprava doľava"
+Cmd_CopyStateSyncTail    "Synchronizovať stavy"
+
+Str_Items1				 " %1 položiek"
+
+Cmd_ItemExcludeFile1		"&Vylúčiť '%1' súbor(-ov)"
+Cmd_ItemExcludeFolder1		"&Vylúčiť '%1' zložku(-iek)"
+Cmd_ItemExcludeMulti1		"&Vylúčiť %1 označených položiek"
+
+Cmd_ItemIncludeFile1	"&Zahrnúť iba '%1' súbor(ov)"
+Cmd_ItemIncludeFolder1	"&Zahrnúť iba '%1' zložku(-iek)"
+Cmd_ItemIncludeMulti1	"&Zahrnúť iba %1 označených položiek"
+
+Cmd_ItemExcludeAllFiles1		"Vylúčiť všetkých '%1' súborov"
+Cmd_ItemExcludeAllFolders1	"Vylúčiť všetkých '%1' zložiek"
+Cmd_ItemExcludeAllMulti1	"Vylúčiť položky s názvom %1 označených položiek"
+
+Cmd_ItemExcludeAllMask1	"Vylúčiť všetky '*%1' súbory"
+Cmd_ItemExcludeAllMaskMulti1	"Vylúčiť položky s príponou %1 označených položiek"
+
+Cmd_ItemIncludeAllMask1	"Zahrnúť iba '*%1' súbor(-ov)"
+
+
+# Taskbar Icon menu
+
+
+# Buttons below tree
+Grp_Actions				"Akcia"
+Btn_Analyze				"Analyzovať"
+Btn_SyncRun				"Synchronizovať"
+Btn_Stop			"Zastaviť"
+Btn_Pause				"&Pozastaviť"
+Btn_Resume				"&Pokračovať"
+Btn_Auto				"Automaticky"
+Btn_Clear               "Vyčistiť"
+Grp_Show				"Zobraziť v strome"
+Cmd_ShowToCreate		"Nové"
+Cmd_ShowToOverwrite		"K prepísanie"
+
+Chk_AutoScroll			"Rolovať"
+
+# Tree view Columns
+Str_TreeItem			"Položka"
+Str_TreeLSize			"Ľavá Veľkosť"
+Str_TreeLDate			"Ľavá Dátum"
+Str_TreeL				"L"
+Str_TreeCenter			""
+Str_TreeR				"P"
+Str_TreeRSize			"Pravá Veľkosť"
+Str_TreeRDate			"Pravá Dátum"
+Str_TreeStatus			"Stav"
+
+# Misc buttons
+Btn_Add					"&Pridať"
+Btn_Delete              "&Zmazať"
+Btn_Ok					"Ok"
+Btn_Save				"&Uložiť"
+Btn_Cancel				"Storno"
+Btn_Apply				"Použiť"
+Btn_Yes					"Áno"
+Btn_No					"&Nie"
+Btn_Abort               "&Zrušiť"
+Btn_Retry               "&Opakovať"
+Btn_Ignore              "&Ignorovať"
+Btn_Try                 "&Vyskúšať"
+Btn_Close               "&Zavrieť"
+Btn_Help                "&Pomoc"
+Btn_Continue			"Pokračovať"
+Btn_Browse				"Prechádzať"
+Help_Browse_File		"Kliknite na toto tlačidlo pre vybratie súboru v dialógovom okne"
+Help_Browse_Folder		"Kliknite na toto tlačidlo pre vybratie zložky v dialógovom okne"
+
+
+# Tooltips for buttons, for new users
+Tip_Browse_Left			"Vyberte ľavú zložku. \nTaktiež zadajte užívateľské meno, heslo a URL adresu sieťových zložiek. \nV zadaní sieťovej cesty je možné použiť premenné prostredia ako %%USERPROFILE%%. \nReťazce %%YYYY%% %%MM%% %%DD%% budú nahradené aktuálnym rokom, mesiacom alebo dňom."
+Tip_Browse_Right		"Vyberte pravú zložku. \nTaktiež zadajte užívateľské meno, heslo a URL adresu sieťových zložiek. \nV zadaní sieťovej cesty je možné použiť premenné prostredia ako %%USERPROFILE%%. \nReťazce %%YYYY%% %%MM%% %%DD%% budú nahradené aktuálnym rokom, mesiacom alebo dňom."
+Tip_Change_Way			"Zmení smer synchronizácie a ďalšie nastavenie úloh"
+Tip_Analyze				"Kliknite tu pre analýzu úlohy"
+Tip_Sync				"Kliknite tu pre synchronizáciu úlohy"
+Tip_Stop				"Kliknite tu pre zastavenie aktuálnej operácie"
+Tip_Clear				"Vyčisti strom zmien pre uvoľnenie pamäte"
+Tip_Opt					"Nastaví automatické spúšťanie úloh"
+Tip_Paused				"Pozastavené. Pre pokračovanie stlačte"
+Tip_Pause				"Pre pozastavenie činnosti stlačte"
+
+# New Job dialog
+Title_JobName			"Vlož názov úlohy"
+Str_JobName				"Názov úlohy:"
+Str_JobTemplate			"Zo šablóny:"
+Str_BadJobName1			"Názov úlohy nesmie obsahovať nasledujúce znaky: / \\ ? < > : * |"
+Str_BadJobName2			"Názov úlohy nesmie byť rovnať '%1'."
+Str_BadJobName3			"Názov úlohy nesmie byť dlhší ako 100 znakov."
+Str_JobNameExists		"Úloha s týmto názvom už existuje."
+Str_JobType				"Vyberte typ úlohy"
+Str_JobType_Sync		"Synchronizácia"
+Str_JobDesc_Sync		"2-smernú úlohu použite, keď sú súbory na oboch a GoodSync by mal prevádzať zmeny na oboch stranách, napr. počítač a notebook."
+Str_JobType_Backup		"Zálohovanie"
+Str_JobDesc_Backup		"1-smernú úlohu použite napr. pre kopírovanie zmenených súborov na ľavej strane do zálohovacej zložky na strane pravej."
+Str_JobType_Template	"Zo šablóny:"
+Str_JobDesc_Template	 "Šablóna je čiastočne predvyplnená úloha, ktorá slúži k uloženiu vašeho obľúbeného nastavenia úlohy. Šablóna obsahuje iba nastavenia predvolieb bez definície ciest k zložkám,"
+Str_JobDesc_NoTemplate_1 "Žiadna šablóna pre úlohu nebola doposiaľ vytvorená. Príkazom '%1' vytvoríte šablónu z existujúcej úlohy."
+Str_Combo_NoTemplate	 "<šablona neexistuje>"
+Title_RenameJob			"Prejmenuj úlohu"
+Title_CloneJob			"Klonuj úlohu"
+Str_NewJob_Header		"Vitajte v GoodSync"
+Str_NewJob_Descr		"Vytvorte svoju prvú úlohu"
+Str_NewJobClose			"Ste si istý, že chcete ukončiť teraz?\nStlačte OK pre ukončenie, GoodSync sa spýta na vytvorenie novej úlohy nabudúce.\nStlačte ZRUŠIT pre návrat a napíšte názov novej úlohy."
+Lnk_Tutorial			"Príručka"
+
+# Job Tabs control buttons
+Str_TabAddNewJob		"Pridať novú úlohu"
+Str_TabScrollLeft		"Posúvať vľavo"
+Str_TabScrollRight		"Posúvať vpravo"
+
+# Windows menu and dialog
+Warn_GoodSync			"Varovanie GoodSync"
+Warn_GoodSyncStrong		"Dôrazné varovanie GoodSync"
+
+
+
+# Job List Pane
+Title_JobList			"Zoznam úloh"
+Title_TaskName			"Názov úlohy"
+Title_LastRunTime		"Posledné spustenie"	
+
+#Log Pane
+Title_LogWnd			"Okno protokolov"
+
+# Help -> About
+Title_About				"O programe"
+Tip_About				"O programe"
+Str_RegTo				"Registrované na:"
+Help_ChkVer				"Pripojí sa k webu GoodSync.com a skontroluje dostupnosť novšej verzie na stiahnutie."
+Help_SysStat			"Zobrazí informácie o verzii programu GoodSync a o prostredí. Poskytnite nám tieto informácie pri prípadnom kontakte technickej podpory."
+
+# Program Options
+Title_Options			"Možnosti GoodSync"
+Str_Options				"Možnosti"
+
+Help_NotDefined			"Pomoc pre túto položku nebola vytvorená"
+Help_MouseOver			"Pre zobrazenie podrobnej pomoci prejdite myškou nad požadovanú voľbu. Ak si prajete posunúť alebo kopírovať text pomoci, potom stlačte raz klávesu Alt."
+
+Str_OptDetailedHelp     "Podrobnejšia pomoc"
+Str_Updates             "Aktualizácie"
+
+Str_Logs				"Záznamy"
+
+# Program Options - General
+Title_General			"Všeobecné"
+Str_Lang				"Jazyk"
+Help_Lang				"Zmení jazykové nastavenie programu GoodSync a systémových hlásení.   Pre aktiváciu zmien je nutné program GoodSync reštartovať."
+Chk_TrayIcon			"Skryť do systémovej lišty pri zatvorení programu"
+Help_TrayIcon			"ZAPNUTÉ: Keď program GoodSync zavriete, potom pobeží stále na pozadí. Kliknutím na ikonku GoodSync v systémovej lište (vpravo dole pri hodinách) program opäť aktivujete.  VYPNUTÉ: pri zatvorení programu sa GoodSync ukončí."
+Chk_AutoStart			"Spustiť GoodSync pri štarte Windows-u"
+Help_AutoStart			"Ako náhle sa prihlásite do Windows-u, potom sa program GoodSync automaticky spustí v minimalizovanom režime. Túto voľbu zapnite, ak ste v menu Možnosti úloh na záložke Auto nastavili voľby pre automatické spúšťanie úloh."
+Chk_ShowSysTray			"Zobraziť ikonu GoodSync v systémovej lište"
+Help_ShowSysTray		"Zobraziť ikonu GoodSync v systémovej lište (vpravo dole pri hodinách)"
+
+Chk_ResetIM				"Resetovať všetky informačné správy na prednastavené"
+Help_ResetIM			"Opätovne povolí všetky skôr zakázané hlásenia a výstrahy"
+Chk_AutoChkVer			"Denne kontrolovať dostupnosť novej verzie"
+Help_AutoChkVer			"GoodSync se každý deň pripojí k webu www.goodsync.com a zistí, či je k dispozícii na stiahnutie novšia verzia produktu."
+Chk_CreateNewFolder		"Vytvoriť pri synchronizácii neexistujúce zložky na ľavej/pravej strane"
+Help_CreateNewFolder	"Ak ľavá alebo práva synchronizačná zložka neexistuje, potom ju program GoodSync automaticky vytvorí."
+Chk_AutoHideMiniWin		"Automaticky zminimalizovať okno, ak nie sú aktívne úlohy"
+Help_AutoHideMiniWin	"Automaticky zminimalizovať okno, ak nie sú aktívne úlohy"
+Chk_Warn_TimeOutOfRange	 "Upozornenie na prekročenie časového limitu"
+Help_Warn_TimeOutOfRange "Upozorniť v prípade zmeny času, ktorá je mimo rozsah [1980,2037]"
+
+Str_LogDetailLevel		"Ukladanie log súborov, úroveň podrobnosti"
+Help_LogDetailLevel		"Úroveň podrobnosti zobrazeného záznamu (log) v okne záznamu. Súbory záznamu sú uložené v: (1) _gsdata_ folder v ľavej a pravej zložke synchronizovanej úlohy, (2) zložka globálnych zápisov je dole"
+Str_LogCritical			"Kritický"
+Str_LogError			"Chybový"
+Str_LogInfo				"Informatívny"
+Str_LogDetails			"Detailný"
+
+Str_LogFolderGlobal		"V zložke"
+Help_LogFolderGlobal	"Zložka, do ktorej sa zapisujú globálne záznamy (log). Ak je prázdna, súbory záznamu sa ukladať do zložky užívateľského profilu aplikácie Goodsync"
+
+Str_LogRetainDays       "Ponechaj log súbory (dni)"
+Help_LogRetainDays      "Ponechaj zoáznam úloh a globálne záznamy pre daného počtu dní. Zmaž staršie log súbory. '0 dní' znamená '2 hodiny'"
+
+Str_CompareProg		"Porovnávať súbory pomocou externého programu"
+Help_CompareProg		"Externý program pre porovnávaniu súborov by mal mať grafické uživatelské rozhranie a podporovať dva parametre: cesty k porovnávaným súborom. Napr.: ak zvolíte program WinDiff.Exe, potom by mal byť spúšťaný príkazom: WinDiff súbor1 súbor2"
+Str_ExecutableFiles		"Spustiteľné súbory"
+
+# Program Options -> Connection
+Title_Connect			"Pripojenie"
+Title_Proxy				"Nastavenia Proxy servera"
+Str_UseProxy_No			"Nepoužívať Proxy server"
+Str_UseProxy_Auto		"Použiť Proxy server nastavený v Internet Explorer-i pre vzdialené pripojenia"
+Help_UseProxy_Auto  	"Použiť Proxy server definovaný v programe Internet Explorer: Nástroje -> Možnosti siete Internet -> Pripojenia -> Nastavenie siete LAN pre vzdialené pripojenia. Toto zhŕňa proxy servery definované v WinINet a proxy.pac. Voľba 'Pripojenie cez Proxy' musí byť zaškrtnuté v každej úlohe, v ktorej to chcete použiť pod tlačidlom Prehliadať na strane úlohy, ktorá potrebuje pre pripojenie proxy server"
+Str_UseProxy_Manual		"Použiť tento proxy server pre vzdialené pripojenia"
+Help_UseProxy_Manual	"Použiť proxy server určený dole pre vzdialené pripojenia. Voľba 'Pripojenie cez Proxy' musí byť zaškrtnuté v každej úlohe, v ktorej to chcete použiť pod tlačidlom Prehliadať na strane úlohy, ktorá potrebuje pre pripojenie proxy server"
+Str_ProxyHost			"Proxy Server"
+Help_ProxyHost			"Zadajte meno proxy servera tu"
+Str_ProxyPort			"Port"
+Help_ProxyPort			"Zadajte číslo portu proxy servera"
+Str_ProxyUserID         "Proxy užívateľské meno"
+Str_ProxyPasswd         "Heslo"
+Help_ProxyAuth          "Zadajte užívateľské meno a heslo pre proxy servery, ktoré si vyžadujú overenie"
+
+Str_SMTP_Enable			"Použiť SMTP server pre odosielanie e-mailov (Off/Vypnuté: použitie prednastaveného MAPI client-a)"
+Help_SMTP_Enable		"Zaškrtnuté: použi SMTP server určený dole pre odosielanie emailov po analýze a synchronizácii. Nezaškrtnuté: použi prednastaveného MAPI clienta pre odosielanie emailov po analýze a synchronizácii"
+Str_SMTP_Host			"SMTP Server"
+Help_SMTP_Host			"Zadajte meno SMTP servera tu, tento server bude použitý na odoslanie emailov po analýze a synchronizácii"
+Str_SMTP_Port			"Port"
+Help_SMTP_Port			"Zadajte číslo SMTP portu, obvykle 587 alebo 25."
+Str_SMTP_UserID         "SMTP Užívateľské meno"
+Str_SMTP_Passwd         "Heslo"
+Help_SMTP_UserID          "Zadajte Užívateľské meno a heslo SMTP servera pre servery, ktoré si vyžadujú overenie"
+Str_SMTP_SenderEmail    "Adresa odosielateľa"
+Help_SMTP_SenderEmail   "Zadajte adresu odosielateľa (Váš e-mail) ako je to zadané pri SMTP server=i"
+Str_SMTP_Secure			"Zabezpečený SMTP potvrďte cez SSL"
+Help_SMTP_Secure		"Ak zaškrtnuté, šifrujte SMTP komunikáciu cez SSL na porte 465. Ak nezašrtnuté, použité na komunikáciu čistým textom."
+
+
+# Job Options - General
+Title_JobGeneral		"Všeobecné"
+Tip_JobGeneral			"Vlastnosti úlohy"
+Label_JobType			"Typ úlohy"
+Str_JobType_TwoWay		"2-smerný"
+
+Str_JobType_LeftToRight	"1-smerný zľava doprava"
+Str_JobType_RightToLeft	"1-smerný sprava doľava"
+Help_JobType			"Určuje preferovaný smer synchronizácie. 2-smerná úloha udržuje synchronizované obe strany (ľavú i pravú) aj keď dôjde ku zmene na oboch stranách.  1-smerná úloha prenáša zmenené súbory zľava doprava alebo sprava doľava a používa sa hlavne pre zálohovanie údajov."
+
+
+Radio_OneWayDeleteSource "Presuň súbory (Pokročilé)"
+Help_OneWayDeleteSource	 "Zmaž zdrojové súbory po úspešnej synchronizácii týchto súborov. POZOR: NEPOUŽIVAJTE TÚTO možnosť, kým si nie ste istý, že viete, čo robíte."
+Warn_OneWayDeleteSource  "Ste si istý, že chcete zmazať súbory na zdrojovej strane po synchronizácii?\nNeklikajte Áno, kým si nie ste absolútne isty."
+
+Chk_DelPropagate		"Zmazať odstránené súbory/zložky"
+Help_DelPropagate		"ZAPNUTÉ: Ak bol súbor alebo zložka odstranená užívateľom na jednej strane, GoodSync ich počas synchronizácie odstráni aj na druhej strane.  VYPNUTÉ pri 2-smerných úlohách: zmazané súbory sa opäť začnú Kopírovať. VYPNUTÉ pri 1-smerných úlohách: zmazané súbory sa nastavia ako vylúčené z kopírovania."
+
+Chk_CompareCheckSumAll		 "Porovnať kontrolné sumy MD5"
+Help_CompareCheckSumAll		 "Ak je to zaškrtnuté, porovná kontrolné sumy MD5 súborov pre kontrolu, či sú analyzované súbory rovnaké, naviac k zmene času a veľkosti.  Ak to nie je zaškrtnuté, na porovnanie, či sa jedná o rovnaké súbory, sa použije iba dátum zmeny a veľkosť"
+
+Chk_DetectsMovesRenames		 "Deteguj presun / premenovanie súborov"
+Help_DetectsMovesRenames	 "Zapnuté: Detegujú sa presun a premenovanie súborov, čo sa tak vykoná. Vypnuté: Presun a premenovanie súborov sa vykoná ako kopírovanie nového súboru a zmazanie starého."
+
+Chk_NoGsData_Side		 "Bez zložky _gsdata_"
+Help_NoGsData_Side		 "Ak je to zaškrtnuté, nevytvorí sa zložka _GSDATA_ folder vpravo (vzdialená) synchronizačná zložka úlohy, namiesto toho sa vytvorí zložka _GSDATA_ v zložke profilu GoodSync na tomto počítači. Ak to nie je zaškrtnuté, potom sa vytvorí zložka _GSDATA_ v oboch synchronizovaných zložkách tejto úlohy. Stále sa používa zložka _gsdata_ na ľavej strane úlohy.  Použite túto voľbu iba pre zložky, ktoré nie sú synchronizačné centrá (všekty úlohy sú čítaj z tejto zložky alebo iba zapíš do tejto zložky). Ak je zložka _gsdata_ zablokovaná, potom tieto možnosti sú zablokované tiež: Ulož predchádzajúcu / poslednú verziu"
+
+Chk_SaveBakFiles		"Uložiť predchádzajúcu verziu odstránených/nahradených súborov"
+Help_SaveBakFiles		"Uloži pri synchronizácii predchádzajúcu verziu zmazaných alebo nahradených súborov do zložky _gsdata_\_saved_. Sú uloženy len posledné verzie zmazaných/nahradených súborov."
+Chk_CleanupBakFiles	"Vyčisti zložku _saved_ po toľkých dňoch"
+Help_CleanupBakFiles	"Ak je to zaškrtnuté, potom odstráni súbory, ktoré boli uložené do zložky _gsdata_/_saved_ po určenom počte dní. Vyčistenie sa vykoná po synchronizácii. Ak to nie je zaškrtnuté, súbory uložené v zložke _gsdata_/_saved_ sú uchované navždy."
+Help_SavePrevDays		"Ponechaj prechádzajúce verzie zmazaných / prepísaných súborov počas daného počtu dní v zložke  _gsdata_\\_saved_"
+
+Chk_SavePastVersions		"Ulož predchádzajúce verzie zmazaných/nahradených súborov"
+Help_SavePastVersions		"Ulož predchádzajúce verzie súborov, ktoré sú zmazané, alebo nahradené programom. Súbory budú uložené do zložky _gsdata_\\_history_. Vždy, keď GoodSync bude prepisovať alebo mazať súbor, uloží ho do zložky _gsdata_\\_history_ s časovou značkou pridanou k menu súboru."
+Chk_CleanupPastVersions	 "Vyčisti zložku _history_ po toľkých dňoch"
+Help_CleanupPastVersions "Ak je to zaškrtnuté, potom odstráni súbory, ktoré boli uložené do zložky _gsdata_/_history_ po určenom počte dní. Vyčistenie sa vykoná po synchronizácii. Ak to nie je zaškrtnuté, súbory uložené v zložke _gsdata_/_history_ sú uchované navždy."
+Help_SavePastDays		"Ponechaj posledné verzie zmazaných/prepísaných súborov počas daného počtu dní v zložke _gsdata_\\_history_"
+
+Chk_CleanupOldGens	 "Zmazať generované súbory po mesiacoch"
+Help_CleanupOldGens  "Ak je to zaškrtnuté, odstráni staré generácie súborov zo stavového súboru, ktoré sú staršie, ako určený počet mesiacov. Ak sa vyčistí zoznam, súbor sa zmaže na oboch stranách. Vyčistenie sa vykoná po synchronizácii. Ak to nie je zaškrtnuté, potom ostanú staré generácie uložené v stavových súboroch navždy."
+Help_SaveOldGensMonths "Uloží staré generácie v stavovom súbore pre určený počet mesiacov"
+
+Chk_CalcReqSpace		"Odhadovať požadované voľné miesto na disku pre Synchronizáciu"
+Help_CalcReqSpace		"Ak je zvolené, potom dôjde k výpočtu požadovaného voľného miesta k dokončeniu Synchronizácie. Pri kopírovaní na disky s obmedzeným voľným miestom nechajte zapnuté. Pri synchronizáciách, kde je na oboch stranách dostatok voľného miesta, môžete túto voľbu vypnúť."
+
+Str_SpeedLimit			"Obmedzenie rýchlosti kopírovania v Kbajtoch/sek"
+Help_SpeedLimit  		"Spomaľ kopírovanie súboru (odosielanie alebo sťahovanie) ak priemerná rýchlosť kopírovania súboru prekročí túto hodnotu špecifikovanú v Kb / sek. 0 znamená žiadny limit. 100 znamená 100 Kbajtov/sekc alebo približne 1 Mbit/sek"
+Str_SpeedLimit_Upload		"Rýchlosť odosielania údajov"
+Help_SpeedLimit_Upload  		"Rýchlosť odosielania údajov v KB/s. 0 znamená, že limit pre rýchlosť odosielania údajov sa rovná limitu pre sťahovanie údajov"
+
+Str_ShowBalloon			"Zobrazovať bublinovú nápovedu"
+Str_DoNotShowBalloon	"Nikdy"
+Str_ShowBalloonAlways	"Pri zmenách a synchronizácii"
+Str_ShowBalloonOnError	"Pri konfliktoch a zmenách"
+Help_ShowBalloon		"Zvoľte, kedy chcete zobrazovať informačné správy programu GoodSync, bežiaceho v systémovej lište (ikonka vpravo dole pri hodinách)"
+
+
+# Job options - Filters page
+Title_Filters			"Filtre"
+Tip_Filters				"Filtre"
+Str_FilterExcluded		"Vylúčené"
+Help_FilterExcluded		"Súbory a zložky, ktoré sa v ktoromkoľvek riadku zhodujú s týmto zoznamom, budú vylúčené zo synchronizácie. Je možné použiť zástupné znaky '*' a '?'. Riadky začínajúce znakmi \\ predstavujú úplné cesty zložiek relatívne k synchronizovanej zložke. Napr.: *.txt *~ \\zložka\\*.obj size>1000 size<=5k (veľkosť < 5 Kb) size>4m (veľkosť > 4 Mb) time=2008/03/08 (8 máj 2008) time>=-6d (čas >= 6 dní späť)"
+Str_FilterIncluded		"Zahrnuté zložky"
+Help_FilterIncluded		"Ak nie je prázdny, potom sú do synchronizácie zahrnuté iba súbory, ktoré sa aspoň v jednom riadku zhodujú so zoznamom zahrnutých súborov a ktoré sa nezhodujú v žiadnom riadku so zoznamom vylúčených súborov. Platia rovnaké možnosti a pravidlá ako v zozname súborov zahrnutých k synchronizácii."
+Tip_Filter_New			"Vložiť nový filter"
+Tip_Filter_Edit			"Zmeniť označený filter"
+Tip_Filter_Del			"Zmazať označený filter"
+Str_Filter_DummyText	"<Pre pridanie novej položky dvakrát kliknite>"
+Str_Edit				"Upraviť"
+
+Chk_ExcludeEmptyFolders	 "Vylúčiť prázdné zložky"
+Help_ExcludeEmptyFolders "Vylúči zložky, ktoré sú buď prázdne alebo obsahujú iba vylúčené súbory a zložky."
+Chk_ExcludeHidden		 "Vylúčiť skryté súbory a zložky"
+Help_ExcludeHidden		 "Vylúči zo synchronizácie zložky a súbory, ktoré majú nastavený atribút Skrytý (Hidden)."
+Chk_ExcludeSystem		 "Vylúčiť systémové súbory a zložky"
+Help_ExcludeSystem		 "Vylúči ze synchronizácie zložky a súbory, ktoré majú nastavený atribút Systém (System)."
+Str_FiltersChooseFiles   "Vyberte súbory, ktoré budú zahrnuté alebo vylúčené počas synchronizácie."               
+
+# Job options - Auto page
+Title_Auto				"Auto"
+Tip_Auto				"Auto"
+Str_ColumnAnalyze		"Analýza"
+Str_ColumnSync			"Synchronizácia"
+Str_ColumnAnalyzeAndSync "Analýza a Synchronizácia"
+Str_Sec					"s."
+Str_Hour				"h."	
+Str_Min					"min."	
+Str_Delay				"Oneskorenie"
+
+Name_DoOnStart			"pri štarte"
+Chk_DoOnStart			"Pri štarte GoodSync"
+Help_DoOnStart			"Analyzovať (a možno aj Synchronizovať) úlohu pri spustení programu GoodSync."
+Chk_DoOnGsStart			"Pri štarte GoodSync"
+
+Name_DoOnFoldersConnect	"pri pripojení"
+Chk_DoOnFoldersConnect	"Pri pripojení zložky"
+Help_DoOnFoldersConnect	"Analyzovať (a možno i Synchronizovať) úlohu v momente pripojenia oboch zložiek. Napríklad pri vložení externého flash disku alebo pri vytvorení Internetového spojenia."
+
+Name_DoOnFileChange		"Zmena"
+Chk_DoOnFileChange		"Pri zmene súboru"
+Help_DoOnFileChange		"Analyzuj (a prípadne Synchronizuj) úlohu, v prípade zmien súborov v ľavého alebo práveho adresára, prípadne podadresárov"
+
+Name_DoBeforeLogout		"pri odhlásení"
+Chk_DoBeforeLogout		"Pri odhlásení"
+Help_DoBeforeLogout		"Spustí analýzu a potom synchronizáciu akonáhle dôjde k vypínaniu či reštartu počítača alebo k odhláseniu užívateľa. Pokiaľ behom synchronizácie Windows zobrazí správu 'Program neodpovedá' potom ju ignorujte, aby mohol GoodSync dokončiť synchronizáciu."
+
+Name_DoPeriodically		"pravidelne"
+Chk_DoPeriodically		"Pravidelne"
+Help_DoPeriodically		"Analyzovať (a možno i Synchronizovať) úlohu každých HH hodin a MM minút. Pre túto funkciu musí byť program GoodSync spustený."
+Str_ColumnLPath			"Ľavá cesta"
+Str_ColumnRPath			"Pravá cesta"
+
+Str_DoOnSchedule		"Použiť Plánovač úloh"
+Help_DoOnSchedule		"GoodSync bude spustený pomocou aplikácie Plánovač úloh v systéme podľa nastavenie časového plánu v Plánovači úloh. Stlačením tlačidla Konfigurácia otvorte Plánovač úloh systému Windows."
+Str_AutoUnattended		"Mód - neprihlásený (bezobslužný)"	
+Help_AutoUnattended    "Ak zaškrtnuté, potom plánovač systému Windows spustí túto úlohu, keď sa odhlásite zo svojho účtu v systéme windows. Úloha bude vykonaná programom GSYNC.EXE v móde príkazového riadku bez zásahu užívateľa, takže uvidíte iba výsledok úlohy iba v protokoloch analýzy a synchronizácie. Vyber Úloha -> Protokoly ľavý/pravý pre zobrazenie protokolov."
+Str_SchedConfig			"Konfigurácia..."
+Help_SchedConfig		"Kliknutím otvorte Plánovač úloh systému Windows"
+
+Str_ResolveConflicts	"Automaticky vyriešiť konflikty"
+Help_ResolveConflicts	"Zapne automatické riešenie konfliktov pri synchronizácii automatických úloh. U úloh, ktoré nie sú automatické a nie sú užívatelsky nastavené inak, všetky konflikty vyústia do akcie Nekopírovať."
+Str_DoNotCopy			"Nekopírovať"
+Str_NewerFileWins		"Vyhraje novší súbor"
+
+Str_LimitChanges		"Nesynchronizovať, ak je zmien viac ako"
+Help_LimitChanges		"Automatická synchronizácia sa nevykoná, ak sa zmení viac súborov, ako je uvedené. Neobvykle veľké množstvo zmenených súborov môže byť chybou a potom je nutná ručná kontrola úlohy. Nastavení na 100% vykoná synchronizáciu bez ohľadu na počet zmenených súborov a zložiek."
+
+Help_AutoStartDelay             "Posuň začiatok tejto úlohy o daný počet sekúnd po prvom štarte. Týka sa to On GoodSync Start a On Timer"
+
+Str_RenameLosingFile		"Premenovať stratené súbory. Nemazať ich"
+Help_RenameLosingFile		"Pri automatickom riešení konfliktov premenuj stratený súbor na <základné_meno_súboru>_lost-in-conflict-<date>.ext"
+
+Str_AutoClear			"Automaticky vyčistí strom po synchronizácii alebo analýze bez zmien"
+Help_AutoClear			"Automaticky vyčistí Strom zmien po analýze bez zmien alebo ukončení synchronizácie"
+
+Str_NotInPortable		"Nedostupné v prenosnej verzii"
+
+# Job options - Scripts page
+Title_Script			"Skripty"
+Tip_Script				"Skripty"
+Str_PreAnalyzeProgram	"Pre Analyze E-Mail or Program"
+Help_PreAnalyzeProgram	"If E-mail address then send log to this e-mail before Analyze starts (using server in Tools -> Program Options -> Connect). If program name with parameters, run this Program before Analyze starts"
+Str_PostAnalyzeEmailOrProgram	"Post Analyze with No Changes E-mail or Program"
+Help_PostAnalyzeEmailOrProgram	"If E-mail address then send Analyze log to this e-mail when Analyze finishes with No Changes (using server in Tools -> Program Options -> Connect). If program name with arguments, run this Program when Analyze finishes with No Changes"
+Str_PostSyncEmailOrProgram	"Post Sync E-mail or Program"
+Help_PostSyncEmailOrProgram	"If E-mail address then send Sync log to this e-mail when Sync (with Changes) finishes (using server in Tools -> Program Options -> Connect). If program name with arguments, run this Program when Sync (with Changes) finishes"
+Str_CallingProgramEmail "Volanie programov a odosielanie e-mailov"
+Str_PreAnalyze			"Pred-analýza:"
+Str_PostAnalyzeNoChanges "Post-analýza bez zmien:"
+Str_PostSync			"Post-synchronizácia:"
+Str_Variables		    "Premenné, ktoré budú použité ako argumenty programu:"
+Str_ScriptOptLegend 	"Zahrňte meno programu, ktoré obsahuje medzery do \"...\"\n'errors: ' prefix: spusť, iba ak sa objaví chyba\n'nowait: ' prefix: nečakaj na skončenie programu\n"
+Str_VarOptLegend 		"%%JOBNAME%%\tnázov úlohy\n%%RESULT%%\tvýsledok: prázdny alebo 'chybové hlásenie'\n%%LOGPATH%%\tcesta k súboru záznamu\n%%LF%% %%RF%%\tľavá alebo pravá zložka\n%%LF_ACT%% %%RF_ACT%%\tľavá alebo pravá zložka analyzovaná\n%%CHANGED%%\tpočet zmenených položiek v post-analýze\n%%ERRORS%%\tpočet chýb v post-analýze alebo post-synchronizácii\n%%CONFLICTS%%\tpočet konfliktov v post-analýze alebo post-synchronizácii\n%%SYNCOK%%\tpočet úspešne synchronizovaných v post-synchronizácii"
+
+
+# Job Options - Advanced
+Title_JobAdvanced		"Pokročilé"
+Tip_JobAdvanced			"Pokročilé"
+
+Chk_UseSafeCopy			"Bezpečné kopírovanie pomocou techniky dočasných súborov"
+Help_UseSafeCopy		"ZAPNUTÉ: Pri kopírovaní súboru je v cieľovom mieste najprv uložený dočasný súbor a potom je premenovaný. To zabraňuje vzniku nekompletných alebo poškodených súborov v prípade neočakávaného prerušenia synchronizácie. Vyžaduje viac voľného miesta na cieľovom disku.  VYPNUTÉ: priame kopírovanie súborov do cieľa: rýchlejšie, ale môže skončiť stratou súboru."
+
+Chk_CopyLocked			"Kopírovať zamknuté súbory"
+Help_CopyLocked			"Pre kopírovanie súborov, ktoré sú uzamknuté iným procesom, využite službu tieňovej kópie. Táto funkcia nie je dostupná na Windows 2000. Na 64-bitových systémoch požaduje 64-bitovú verziu programu GoodSync."
+
+Chk_FastPreAnalyze		"Rýchla analýza pomocou časových značiek"
+Help_FastPreAnalyze		"Ak zaškrtnuté, potom pred vykonaním plnej analýzy skontroluje, či súbor s časovou značkou sa zmenil na strane s pomalým serverom. Ak sa súbor s časovou značkou vytvorený pri synchronizácii nezmenil, analýza sa nevykoná. Ak nie je zaškrtnuté, vykoná sa plná analýza"
+
+Chk_WaitForLocks		"Počkaj na zánik blokovaní"
+Help_WaitForLocks		"Ak je to zaškrtnuté, potom pri analýze počkaj na súbory lock.gsl, aby boli zmazané inými úlohami, ktoré ich vytvoria, aby bolo zrejmé, že sú synchronizované. Ak to nie je zaškrtnuté, potom vygeneruj chybu blokovania, ak blokovacie súbory boli nájdené počas analýzy"
+
+LinksOption				"Odkazy na súbory:"
+Help_Links_Ignore		"Ak je to vybrané, GoodSync ignoruje odkazy na súbory. Všetky súbory na Windows Home Serveroch sú odkazy na súbory, pre to nevyberajte, ak chcete kopírovať súbory na WHS, vyberte Drill Down File Links"
+Help_Links_CopyAsIs		"Ak je to vybrané, GoodSync skopíruje odkaz na súbor na rovnaký odkaz na cieľovej strane. Všimnite si, že kopírované odkazy môžu odkazovať na súbory, ktoré neboli kopírované, pretože sú mimo kopírovaných zložiek"
+Help_Links_DrillDown	"Ak je to vybrané, GoodSync drills down file links. That is, file link will be copied as file that it points to. Note that the file duplication may occur, as more than one link may point to one file on the source side"
+
+Radio_Ignore			"Ignorovať"
+Radio_CopyAsIs			"Skopírovať tak, ako je"
+Radio_DrillDown			"Spracovať odkazy"
+
+Warn_KeepGsData			"Ste si istý, že chcete ponechať zložku _GSDATA_ v profilovej zložke GoodSync?\nTáto voľba je iba pre pokročilých užívateľov a najprv si prečítajte návod."
+Warn_MoveGsData			"Ste si istý, že chcete presunúť zložku _GSDATA_ späť do synchronizovanej zložky?\nTáto voľba je iba pre pokročilých užívateľov a najprv si prečítajte návod."
+
+Chk_CopyACL	   		    "Kopíruj bezpečnostné atribúty ACL"
+Help_CopyACL			"Kopíruj Access Control Lists (ACL), ak sa skopíruje súbor alebo zložka. Toto je dostupné iba na systémoch Windows so súborovým formátom NTFS, nie teda na FAT a iných"
+
+Chk_CopyCreateTime	    "Skopíruj dátum a čas vytvorenia súboru"
+Help_CopyCreateTime		"Ak je to zaškrtnuté, potom skopíruj dátum a čas vytvorenia a modifikácie súboru. Ak to nie je zaškrtnuté, potom skopíruje iba dátum a čas zmenu. Dostupné iba na systémoch Windows"
+
+
+# Left and Right
+Str_LeftFolder			"Ľavá zložka"
+Str_RightFolder			"Pravá zložka"
+
+Str_LeftAndRight		"Ľavá a pravá"
+Str_Left				"Ľavá"
+Str_Right				"Pravá"
+Str_Folder				"zložka"
+Str_File				"súbor"
+Str_Deleted				"zmazané"
+Str_NotPresent			"neprítomne"
+
+Str_LeftToRight			"Zľava doprava"
+Str_RightToLeft			"Sprava doľava"
+
+
+# Conflict resolution
+
+
+# Exclusion messages
+Str_ExclBy_FolderAbove  "vylúčené nadradenou zložkou"
+Str_ExclBy_SyncFolder   "vylúčené: dátová zložka programu GoodSync"
+
+
+
+
+
+Str_ExclBy_MatchName    "vylúčené: rovnaký názov "
+Str_ExclBy_NoMatchName  "nezahrnuto: rozdielny názov "
+Str_ExclBy_EmptyFolder  "vylúčené: prázdna zložka"
+Str_ExclBy_ChildOfExcl  "vylúčené: vnorené pod vylúčenou zložkou"
+
+Str_ExclBy_NoPropDels      "vylúčené: neprevádzať mazanie súborov"
+Str_Msg_SkipLink		"Preskočiť odkaz na zložku %1"
+
+# Job status and progress
+Str_Status_PressAnalyze		"Stlačením sa spustí analýza..."
+Str_Status_ConnectingToFolder	"Pripájam sa k zložke %1"
+Str_Status_Scanning				"Prebieha skenovanie %1"
+Str_Status_ReadStateFile        "Načítavam stavový súbor %1"
+Str_Status_ReadEmbeddedStateFile "Načítavam začlenený stavový súbor %1 a spájam ho s koreňovým stavom"
+Str_Status_NewStateFile			"%1: stavový súbor  nenájdený, bude vytvorený nový"
+Str_Status_SaveStateFile        "Ukladám stavový súbor %1"
+Str_Status_PostProcessing		"Prebiehajú dokončovacie operácie"
+Str_Status_ComputePrevVerSize	"Počítam veľkosť súborov v zložke _saved_"
+
+Str_Status_CompareOneSide		"Porovnávam %1"
+Str_Status_CompareLeftToRight	"Porovnávam ľavú a pravú stranu"
+
+Str_Status_NotYetAnalyzed		"Doposiaľ nebolo analyzované"
+Str_Status_Syncing			"Synchronizujem"
+Str_Status_Analyzing		"Analyzujem"
+Str_Status_Connecting		"Pripíjam"
+Str_Status_Paused			"Čakám"
+Str_Status_Resumed			"Obnovené"
+Str_Status_All			"Všetky súbory"
+Str_Status_NoFiles		"Žiadne súbory"
+Str_Status_Changes		"Zmeny"
+Str_Status_InSync		"V synchronizácii"
+Str_Status_Conflicts		"Konflikty"
+Str_Status_NoConflicts	"Bez konfliktov"
+Str_Status_Errors		"Chyby"
+Str_Status_NoErrors		"Bez chýb"
+Str_Status_SyncAttention	"Vyžadovaný zásah užívateľa"
+Str_Status_Connected		"Pripojené"
+Str_Status_Disconnected		"Odpojené"
+
+Str_Status_VolumeInfo_Free  "Voľné: %1, Celkom: %2"
+Str_Status_VolumeInfo_Reqd  "Požadované: %1"
+
+Str_Status_FilesChangedCnt	"Zmenených súborov: %1"
+Str_Status_ConflictsCnt		"Konfliktov: %1"
+Str_Status_ErrorsCnt		"Chýb: %1"
+Str_Status_SyncedCnt		"Synchronizované: %1"
+Warn_AllExcluded			"VAROVANIE!\r\nSú vyňaté všetky súbory. Pravdepodobne máte nastavené zle filtre.\r\nPrepnite na 'Všetky' alebo 'Vyňaté' pre zobrazenie a kontrolu správnej funkcie filtrov."
+Warn_AllNew					"VAROVANIE!\r\nĽavé a pravé zložky nemajú žiadne spločné súbory. Vyzerá to, ako keby ste sa pokúšali synchronizovať nerovnaké zložky.\r\nProsím, skontrolujte si zložky, ktoré sú vybraté pre synchronizáciu."
+Warn_AllDelete				"VAROVANIE!\r\nBudú zmazané všetky súbory z cieľovej zložky. \r\nOdporúčame Vám zálohovať si vaše dáta do prázdnej zložky."
+
+# Analyze messages
+Str_Msg_Job					"Úloha"
+Str_Msg_LeftRight_Descrs    "Vľavo: %1, Vpravo: %2"
+Str_Msg_JobFilters          "Filtrov: %1"
+Str_Msg_SetFolder		    "Nie je vybraná zložka"
+Str_Msg_CannotOpenFolder	"Zložku nie je možné otvoriť (zrejme neobsahuje absolútnu cestu): %1"
+Str_Msg_SameFolders			"Zložky vľavo a vpravo sú rovnaké."
+Str_Msg_NestedFolders2	    "Zložka '%1' je podzložkou zložky '%2'. Nie je možné analyzovať vnorené zložky."
+Str_Msg_WillCreateFolder    "Zložka '%1' nebola nájdená, pokúsim sa ju vytvoriť"
+Str_Msg_Created_Folder      "Zložka '%1' bola vytvorená."
+Str_Msg_CannotConnect       "Nie je možné sa pripojiť k"
+Str_Msg_CannotCreateGsdata  "Nie je možné vytvoriť GoodSync stavovú zložku _gsdata_ v %1: %2\nAk chcete zálohovať zložky, ktoré sú iba ja čítanie, potom v nastavenie úlohy nastavte úlohu na 1-smerný vynutený s voľbou zdrojová strana je iba na čítanie v menu Úloha -> Možnosti"
+Str_Msg_ErrReadStateFile    "Chyba pri čítaní stavového súboru '%1': %2.\nZlý stavový súbor bol premenováný na '%3'.\nPri nasledujúcej analýze bude vytvorený nový stavový súbor.\nProsím zašlite chybný stavový súbor na ask@goodsync.com."
+Str_Msg_EmbeddedJob         "Nájdená zložka pre ukladanie stavov '%1' ktorá patrí inej úlohe. To znamená, že je táto zložka synchronizovaná viac ako jednou úlohou. Toto nastavenie sa nedoporučuje."
+Str_Msg_DetectedDisconnect  "Kontrola spojenia: detegované odpojenie: %2"
+Str_Msg_RemainsConnected    "Kontrola spojenia: pripojenie v poriadku: %2"
+Str_Msg_DetectedConnect     "Kontrola spojenia: pripojenie v poriadku, spusťte analýzu"
+Str_Msg_RemainsDisconnected "Kontrola spojenia: zostáva odpojené: %2"
+
+Str_Msg_Filter_ExcludeHidden       "Vylúčiť skryté"
+Str_Msg_Filter_ExcludeSystem       "Vylúčiť systémové"
+Str_Msg_Filter_ExcludeEmptyFolders "Vylúčiť prázdné zložky"
+Str_Msg_Filter_Included     "Zahrnúť"
+Str_Msg_Filter_Excluded     "Vylúčiť"
+
+Str_Msg_OlderFileVsNewer	  "Varovanie: novší súbor bude nahradený starším"
+Str_Msg_Conflict_BothChanged  "Konflikt: súbor bol zmenený na oboch stranách"
+Str_Msg_Conflict_NewFilesDiff "Konflikt: Nové súbory, ktoré sa líšia"
+Str_Msg_Conflict_1way_RtoL    "Synchronizácia sprava-doľava v 1-smernej úlohe zľava-doprava"
+Str_Msg_Conflict_1way_LtoR    "Synchronizácia zľava-doprava v 1-smernej úlohe 	sprava-doľava"
+
+Str_Status_JobScheduled      "----- Úloha '%1': Naplánovaná k štartu pomocou %2"
+Str_Status_AnalysisStarted   "----- Úloha '%2': ANALÝZA spustená %3 na počítači '%4' (GoodSync v %5) -----"
+Str_Status_OneSideStats      "%1: súborov: %2 (vylúčených %3). Složek: %4 (vylúčených %5)."
+Str_Status_AnalysisSummary   "Zmenených: %1, Konflikty: %2, Čas kopírovania: %3, Skopírovaných stavových súborov: %4, Chýb: %5"
+Str_Status_AnalysisCompleted "----- Analýza dokončená. Čas %2, Rýchlosť: %3 súborov/s -----"
+Str_Status_AnalyzeStopped		"Analýza zastavená užívateľom "
+Str_Status_AnalyzeFinished_NoChanges   "Analýza dokončená, nenájdené žiadne zmeny"
+Str_Status_AnalyzeFinished_ReadyToSync "Analýza dokončená, stlačte Synchronizovať"
+Str_Status_Advise_HaveConflicts	"Analýza dokončená s konfliktami. Vyriešte konflikty voľbou správného smeru synchronizácie"
+Str_Status_Advise_HaveErrors	"Analýza dokončená s chybami. Pre zobrazenie všetkých chýb stlačte tlačidlo Chyby."
+Str_Status_FolderDisconnected   "Jedna zo zložiek bola odpojená"
+Str_Status_RemainsConnected     "Obe zložky zostali pripojené"
+Str_Status_RemainsDisconnected  "Jedna zo zložiek zostáva odpojená"
+
+Str_Status_SynchroStarted	 "===== Úloha '%2': SYNCHRONIZÁCIA začatá %3 na počítači '%4' ====="
+Str_Status_SavingStateFor		"Uložiť stav pre "
+Str_Status_SynchroSummary	 "Položky synchronizované OK: %1, Chyby: %2"
+Str_Status_SynchroErrors	 "Synchronizácia dokončená s %1 chybami. Zobrazte chyby kliknutím na tlačidlo Chyby"
+Str_Status_SynchroConflicts	 "Synchronizácia dokončená s %1 nevyriešenými konfliktmi. Zobrazte konflikty kliknutím na tlačidlo Konflikty"
+Str_Status_SynchroCompleted	 "===== Synchronizácia dokončená. Čas: %2, Rýchlosť: %3 ====="
+Str_Status_Remaining_Speed	"Ostáva %1, Rýchlosť %2"
+Str_Status_SyncError		"CHYBA"
+Str_Status_SyncStopped			"Synchronizácia zastavená užívateľom "
+Str_Status_SyncDisconnected "Zložka odpojená"
+Str_Status_SyncFinished_OK  "Synchronizácia úspešne dokončená"
+Str_Status_Advise_SyncAttention	 "Synchronizácia dokončená s chybami alebo nevyriešenými konfliktmi"
+
+Str_Msg_StoppedByUser		"Zastavené užívateľom"
+
+Str_Msg_DeleteOtherJobResults "Zmaž výsledky analýz úloh, ktoré sa prelínajú s touto úlohou: %1"
+Str_Msg_DeleteResultsReason   "Synchronizácia prelínajúcej sa úlohy %1"
+Str_Msg_DeleteThisJobResults  "Výsledky analýzy (strom súbor/zložka) tejto úlohy bol zmazaný %1"
+
+Str_Msg_Action_DeleteFolder "Odstrániť zložku"
+Str_Msg_Action_DeleteFile   "Odstrániť súbor"
+Str_Msg_Action_CreateFolder "Vytvořit zložku"
+Str_Msg_Action_CopyOver     "Prepísať"
+Str_Msg_Action_CopyNew      "Kopírovať nový"
+Str_Msg_Action_CopyTime     "Kopírovať čas %1 na %2"
+Str_Msg_Action_MoveFile       "Presunúť %1 -> %2"
+Str_Msg_Action_MoveFileDone   "Presunúť %1 <-> %2: už vykonané"
+Str_Msg_Action_MoveFolder     "Presunúť zložku %1 -> %2"
+
+Str_Msg_AndMoreSimilarLogLines "... a %1 viac podobných riadkov protokolu bolo tu preskočených (vyberte Úloha -> Otvoriť Ľavý/Pravý protokol pre zobrazenie celého protokolu)"
+
+Str_Msg_OldNewWholeHour_TimeShift  "%1: Detegovaný časový posun (starý-nový čas) %2 hodín  v %3 súboroch. Výsledok: Žiadna zmena na tejto strane"
+Str_Msg_OldNewRounding_TimeShift   "%1: Zistený časový posun medzi starým a novým súborom %2 hodín(-y) (typ %3) v %4 súboroch.Rozhodnutie: Žiadna zmena na tejto strane"
+Str_Msg_LeftRight_TimeShift        "Zistený časový posun zľava doprava - %1 hodín (type %2) v %3 súboroch: Rozhodnutie: Operácia kopírovania súborov zmenená na kopírovanie času"
+
+Str_Msg_SyncAgainAfterActiv "Po aktivácii verzie GoodSync Pro stlačte znovu tlačidlo Synchronizovať"
+
+
+Str_Msg_FolderLocked    	"Iná inštancia synchronizuje v zložke %1:\n, ktorá zamkla súbor %2"
+Str_Msg_LimitChanges2		"%1 súborov bolo zmenených, viac ako je nastavená hodnota %2. Inštancia nebude schopná toto synchronizovať automaticky.\nOdstraňte tento súbor, pokiaľ viete, že žiadna ďalšia synchronizácia v tejto zložke nebeží"
+Str_Msg_NotEnoughDiskSpace  "Na disku %1 nie je dostatok miesta. Je potrebných %2, k dispozícii je %3"
+Str_Msg_RequiredDiskSpace   "Pre synchronizáciu je na disku %1 potrebných %2, k dispozícii je %3"
+
+
+
+
+# Misc Messages
+Chk_DoNotAsk			"Opäť sa nepýtať"
+Str_TitleWarning		"GoodSync Upozornenie"
+Str_TitleError			"GoodSync Chyba"
+Str_MsgBoxTimeout		"Zatvorí sa za %1 sekúnd"
+
+Str_SaveOptions			"Zmeny úlohy budú uložené. Chcete vykonať?"
+
+Str_Win2kAtLeast		"GoodSync vyžaduje pre spustenie operačný systém Windows 2000 alebo novší."
+Str_SignedAppNeeded		"Aplikácia nie je podpísaná Siber Systems Inc.\nProsím, inštalujte podpísanú verziu od https://www.goodsync.com"
+
+Str_AskDeleteJob1		"Skutočne chcete zmazať úlohu '%1'?"
+Str_AskDeleteSelJob1	"Skutočne chcete zmazať %1 vybraných úloh?"
+
+Str_AskDeleteItem1		"Chcete zmazať %1 označených položiek?"
+Str_AskDeleteItem3		"Skutočne chcete zmazať %1%2 '%3'?"
+Str_Msg_FileDeleted     "Užívateľ zmazal súbor %1"
+Str_Msg_FolderDeleted   "Užívateľ zmazal zložku %1"
+Str_Msg_CannotDelete    "Nie je možné zmazať %1: %2"
+Str_Msg_StateFileDeleted "Bol zmazaný stavový súbor %1"
+
+Str_StopJobsBeforeClose	"Je spustených jeden alebo viac úloh: %1.\nChcete zastaviť všetky spustené úlohy?\nOK - zastaví všetky úlohy a ukončí GoodSync.\nStorno - pre návrat do GoodSync."
+
+Str_Warn_HideToTray		"Automatizované úlohy nemôžu bežať, ak nie je spustený GoodSync. Mali by ste\nzapnúť '%1' v možnostiach programu.\nChcete zapnúť túto voľbu?\nÁno - vykoná nastavenia a skryje sa do systémovej lišty.\nNie - ukončí GoodSync.\nStorno - pre návrat do GoodSync"
+
+Str_TitleResetState		"Reset stavov."
+Str_AskDeleteStates		"Skutočne chcete zmazať uložené stavy?"
+
+Str_TitleDeleteBackup	"Zmaž _Saved_ a _History_ Files"
+Str_AskDeleteBackup		"Chcete zmazať prechádzajúce súbory a súbory histórie (kôš) uložených v týchto zložkýách?"
+
+Str_TitleDeleteGsData	"Zmazať zložku _gsdata_"
+Str_AskDeleteGsData		"Chcete zmazať zložky _gsdata_?\nGoodSync si ukladá svoje údaje, záznamy a históriu v týchto zložkách.\nNebudú zmazané žiadne užívateľské údaje."
+
+Str_SyncOnLogoffAsk		"Nie je možné synchronizovať po odhlásení lebo: Windows automaticky ukončí úlohy pri odhlásení.\nChcete vypnúť túto voľbu (vykoná úlohu po reštarte Windows)?"
+Str_SyncOnLogoffReason	"Synchronizovať po odhlásení"
+Str_SyncOnLogoffJobs	"Synchronizovať po odhlásení. Ak je nastavené pre  úlohu:"
+
+Str_LogoffTitle			"Synchronizácia pri odhlásení - GoodSync"
+Str_LogoffPopup			"Synchronizácia sa zapnutou voľbou synchronizovať odhlásení. \nProsím počkajte na dokončenie synchronizácie.\nOdhlásenie prebehne po ukončení synchronizácie."
+Err_OpenLogFails		"Pre danú úlohu zlyhalo otvorenie súboru s protokolmi."
+Err_ExecLogViewer		"Nie je možné spustiť Log Viewer\nProsím kontaktujte GoodSync pre technickú podporu\n"
+
+
+# Tooltips
+Tooltip_Synchronizer	"GoodSync: synchronizácia a zálohovanie súborov"
+Tooltip_AnalyzingJob	"Analyzujem úlohy"
+Tooltip_SyncingJob		"Synchronizujem úlohy"
+
+TT_SetLeftSyncFolder	"Kliknite na tlačidlo "Prechádzať" pre nastavenie prvej (ľavej) zložky pre synchronizáciu alebo zadajte jej cestu"
+TT_SetRightSyncFolder	"Kliknite na tlačidlo "Prechádzať" pre nastavenie druhé (pravé) zložky pre synchronizáciu alebo zadejte jej cestu"
+TT_NewJob				"Nová úloha"
+TT_ClickToAnalyze		"Kliknite na tlačidlo Analýza a budú zistené rozdiely medzi zložkami pre navrhnutie synchronizačných volieb"
+TT_ClickToSynchronize	"Kliknite na tlačidlo Synchronizácia pre vykonanie synchronizačných volieb, ktoré boly navrhnuté analýzou"
+
+
+# Update toolbar and messages
+Info_Update_Avail	"Je k dispozícii nová verzia GoodSync. Pre stiahnute <a>kliknite tu</a>. Automatické aktualizácie môžete vypnúť v Nastaveniach programu." 
+ 
+Str_Ver_YesNewVersion	"GoodSync verzia %1, vydanie %2 je dostupná na stiahnutie. You have ver %3"
+Str_Update_Ask		"Chcete stiahnuť novšiu verziu?"
+Str_Update_Err_1	"Zlyhalo automatické získanie informácií o novej verzii z internetu:\n%1\nChete ísť na web s aktualizáciami?"
+Str_Ver_NoNewVersion "Vaše verzia je aktuálna: %1. Skutočne chcete vykonať reinštaláciu rovnakou verziou?"
+
+
+# Browse Dialog
+Browse_Btn_MyComputer "Tento počítač"
+Browse_Btn_MyNetwork  "Okolité počítače"
+Browse_Str_SecureMode     "Bezpečný mód (šifrované)"
+Browse_Tip_SecureMode     "Zaškrtnuté: Šifrovaná výmena užívateľského ID a hesla, šifrovaný prenos údajov pomocou SSL alebo obdobným spôsobom. Bezpečnejšie, ale oveľa pomalšie .\nNezaškrtnuté: Užívateľské ID a heslo nie sú šifrované, prenos nie je šifrovaný. Rýchlejšie, ale menej bezpečné."
+Browse_Str_PrivKey	  	  "Privátny kľúč"
+Browse_Tip_PrivKey	      "Súbor, ktorý obsahuje privátny SSH kľúč, vo formáte PuTTY"
+Browse_Str_HostBasedAddr  "Host-based addressing for Buckets (for euro buckets)"
+Browse_Tip_HostBasedAddr  "Checked: Host-based addressing for Buckets: works for Euro buckets, bucket names must be lower case letters and digits only.\nUchecked: URL-based addressing for buckets: buckets can have case-sensitive names, Amazon does not recommend it"
+Browse_Str_SpecifyACP	  "Kontrola prístupu"
+Browse_Tip_SpecifyACP	  "Politika riadenia prístupu, jeden z pripravených pravidiel: súkromné (prednastavené), verejné na čítanie, verejné na čítanie-zápis, čítanie povolené po autentifikácii"
+Browse_Str_ImplicitMode	  "Implicitne FTPS (vypnuté: Explicitne)"
+Browse_Tip_ImplicitMode	  "Zaškrtnuté: použi implicitne ftp mód: pripoj sa na port 990 pomocou SSL/TLS. \nNezaškrtnuté: použi explicitne mód FTPS: pripoj sa na port 21, dohodni šifrované"
+Browse_Str_ActiveMode	"Aktívny FTP režim (nezaškrtnuté znamená Pasivny FTP režim)"
+Browse_Tip_ActiveMode	  "Zaškrtnuté: použi aktívny FTP mód. V aktívnom móde bude spojenie zo servera späť k klientovi pre prenos údajov, ale musíte to povoliť vo firewall-e.\nNezaškrtnuté: použi pasívny ftp mód. Týmto spôsobom je možné sa jednoducho pripojiť cez firewally a NAT routery. Odporúčané a prednastavené."
+Browse_Str_UseMDTM_FTP    "Použi MDTM pre získanie presného času zmeny súboru"
+Browse_Tip_UseMDTM_FTP    "Zaškrtnuté: použije príkaz MDTM pre získanie presného čas zmeny súboru z FTP servera. \nNezaškrtnuté: použije "file listening" pre získanie času zmeny súboru. Tieto časy sú zaokrúhlené na najbližší deň, ak je súbor strší viac ako 3-6 mesiacov."
+Browse_Str_UTF8_encoding  "Názvy súborov v UTF-8 (vypnuté: kódovanie ANSI)"
+Browse_Tip_UTF8_encoding  "Zaškrtnuté: použi UTF-8 pre kódovanie názvov súborov a zložiek na serveri. Nezaškrtnuté: použi kódovanie ANSI pre kódovanie súbúro na serveri. Aj server, aj klient musia mať nastavený ten istý ANSI jazyk"
+Browse_Str_WinInet 		  "WinInet-based (complex proxies, auth)"
+Browse_Tip_WinInet		  "Zaškrtnuté: použi implementáciu založenú na WinInet pre prácu s proxy a Windows autentifikáciu, ale má obmedzenia a je to pomalšie.  Nezaškrtnuté: použí implementáciu založenú na socket-e, ktorá nepracuje s komplexnou autentifikáciou Windows a proxy, ale je rýchlejšia a robustnejšia"
+Browse_Str_Use_Proxy      "Pripojenie cez proxy, ak je to nastavené v Nástroje -> Voľby programu -> Pripojenie"
+Browse_Tip_Use_Proxy      "Pripojenie cez proxy, ak je to nastavené v Nástroje -> Voľby programu -> Pripojenie"
+Browse_Str_FatLike    "Súborový systém FAT, ktorý sa nezobrazuje"
+Browse_Tip_FatLike    "Použi pravidlá pre súborový systém FAT, dokonca aj keď sa nejedná o FAT. Niektoré NAS zariadenia nesprávne uvádzajú ich súborový systém."
+Browse_Str_PreferEncrypted    "Šifrovanie pomocou EFS"
+Browse_Tip_PreferEncrypted    "Šifruj túto stranu pomocou EFS. Funguje iba na zväzkoch NTFS, nie na FAT. Nefunguje na Windows XP Home alebo Vista Home, je potrebná verzia aspoň XP Pro alebo Vista Business"
+Browse_Str_PreferDecrypted    "Dešifruj pomocou EFS"
+Browse_Tip_PreferDecrypted    "Dešifruj túto stranu, ak tá druhá je šifrovaná pomocou EFS. Funguje iba na zväzkoch NTFS, nie na FAT. Nefunguje na Windows XP Home alebo Vista Home, je potrebná verzia aspoň XP Pro alebo Vista Business"
+Browse_Str_PreferCompressed   "Komprimuj(zbaľ) na NTFS"
+Browse_Tip_PreferCompressed   "Komprimuj(zbaľ) túto stranu pomocou LZ kompresie. Funguje iba na zväzkoch NTFS, nie na FAT."
+Browse_Str_PreferUncompressed "Rozbaľ na NTFS"
+Browse_Tip_PreferUncompressed "Rozbaľ túto stranu, ak tá druhá je zabalená (komprimovaná). Funguje iba na zväzkoch NTFS, nie na FAT."
+Browse_Str_IgnoreBadCerts     "Nekontroluj SSL certifikát servera"
+Browse_Tip_IgnoreBadCerts     "Zaškrtnuté: povoľuje chýbajúci, nesprávny, alebo expirovaný SSL certifikát servera, povoľuje neplatnú certifikačnú autoritu. Nezaškrtnuté: kontroluje certifikát servera a vygeneruje chybu, ak certifikát serveru chýba, je nesprávny alebo expiroval"
+Browse_Str_Redundancy		"Redukované redundantné úložisko"
+Browse_Tip_Redundancy		"Ak je to zaškrtnuté, použi možnosť redukovaného redundantného úložiska na S3 (RRS). Ak to nie je zaškrtnuté, použi prednastavenú skladovaciu redundanciu."
+Browse_Str_ServerEncrypt	"Šifrovanie na strane servera"
+Browse_Tip_ServerEncrypt	"Ak je to zaškrtnuté, zašifrovať súbory pomocou AES256 na S3. Ak to nie je zaškrtnuté, uložiť súrové súbory s údajmi."
+
+
+Browse_Btn_Go			    "Choď"
+Browse_Btn_NewFolder	"Vytvoriť novú zložku"
+Browse_Btn_NewFolder_Tip	    "Vytvoriť novú zložku v súčasnej zložke."
+Browse_NewFolder_Prompt_1	"Zadajte meno pre novú zložku vytváranú v '%1'"
+
+
+
+Browse_Tip_MyComputer		"Tento počítač: Disky pripojené priamo k tomuto počítaču. Adresované ako X:\\zlozka1\\zlozka2 kde X je písmeno disku. Môžu to byť disky lokálne, prenosné, prenosné zariadenia alebo prehrávače hudby, ktoré majú písmeno disku (Palm, starý iPod). Používajte cestu prenosnú =VolumeName:\\zlozka1\\zlozka2 pre pomenované zväzky, ktoré nie su pevne pripojené. Použite %%GSDISK%%:\\zlozka1\\zlozka2 pre určenie zložky na disku, z ktorej sa GoodSync.exe spúšťa ako GoodSync2Go."
+Browse_Tip_MyNetwork		"Moje siete: Windows Network Shares (SMB protokol). Adresované ako \\\\MenoPocitaca\\ZdielanyAdresar\\zlozka1\\zlozka2. Uistite sa, že zložku može vidieť cez Windows Explorer pred vojdením do nej. Zdieľanie sa musí nastaviť na serveroch, aby ste ich mohli vidieť. Nezabudnite nastaviť práva na zápis."
+Browse_Tip_FTP				"FTP servery. Zadajte zložku ako ftp://server.domain.com/zlozka1/zlozka2. Zadajte User ID a heslo pre overenie. Skúste aktívny mód, ak prednastavený pasívny mód nefunguje"
+Browse_Tip_SecureFTP		"Secure FTP servery (FTP cez SSH). Zadajte zložky SFTP pre pripojenie ako sftp://server.domain.com/zlozka1/zlozka2. Zadajte User ID a heslo alebo súbor privátneho kľúča (PuTTY format) a heslo pre overenie. Môžete použiť PuTTY Pageant pre ukladanie hesla privátneho kľúča. POužite PuTTY session pre určenie nastavenia proxy servera"
+Browse_Tip_AmazonS3			"Amazon S3 Online Storage. Zadajte zložku na pripojenie ako http://s3.amazonaws.com/bucket-name/zlozka1/zlozka2. Zadajte Access Key ID a Secret Access Key pre autentifikáciu. Bucket is top-level folder. Use Host-Based addressing for Euro buckets"
+Browse_Tip_WebDav			"WebDAV server. Zadajte URL zložky WebDAV pre pripojenie k ako http://www.somewhere.com/zlozka1/zlozka2. Zadajte User ID a heslo pre autentifikáciu na serveri."
+Browse_Tip_WinMobile		"Windows Mobile Phone alebo zariadenia Pocket PC. Adresované ako wm:DeviceName\zlozka1\zlozka2. Musí byť nainštalovaný a spustený program Microsoft ActiveSync alebo WMD a zariadenie musí byť v dokovacej stanici, aby ho GoodSync videl. Zariadenie nemusí mať vytvorené prepojenie s plochou."
+Browse_Tip_Unknown			"Žiadna pomoc pre tento neznámy súborový systém"
+
+
+# Buy License dialog
+BuyPro_Title	"Vlastnosti verzie PRO"
+BuyPro_Text_ProFixed   "Kúpiť GoodSync Pro dnes pre získanie:\n- Neobmedzeného počtu úloh,\n- Neobmedzeného počtu súborov v úlohách,\n- Telefonickej podpory, okamžitej aktivácie a i."
+BuyPro_Text_Pro2Go     "Kúpiť GoodSync2Go Pro dnes pre získanie:\n- Neobmedzeného počtu úloh,\n- Neobmedzeného počtu súborov v úlohách,\n- Telefonickej podpory, okamžitej aktivácie a i."
+BuyPro_Text_Server     "Kúpiť GoodSync Enterprise Server pre:\n- Odstránenie skúšobných obmedzení,\n- Pre získanie podpory,\n- pre získanie vlastného správcu kont"
+BuyPro_Limit_Pro        "Pre pokračovanie v používaní GoodSync by ste mali rozdeliť úlohu na viac úloh tak, aby ste neprekročili povolený limit zložiek a súborov alebo si zakúpte verziu PRO."
+BuyPro_Limit_Server     "Spúšťanie GoodSync na Windows Server-i si vyžaduje licenciu Enterprise Server license."
+BuyPro_Link				"Zistite rozdiely medzi verziami FREE a PRO"
+
+
+# Activation Wizard
+Act_Header			"Ďakujeme Vám, že ste si kúpili náš produkt"
+Act_Title			"Aktivácia GoodSync"
+Act_Field_Req_Err_1	"'%1' je požadované pre aktiváciu."
+Act_User_Name		"Uživateľské meno"
+Act_User_Order		"Objednávkové ID (NNNNNNNNNN) alebo objednávkový kód (XXX-XXX-XXX-XXX)"
+Act_User_Online_Btn	"Aktivácia cez online pripojenie (odporúča sa):"
+Act_User_Online_Tip	"GoodSync sa pripojí na aktivačný server cez internet"
+Act_User_ViaBrowser_Btn	"Activate Online cez prehliadač (použite iba v prípade, ak priama aktivácia zlyhala):"
+Act_User_ViaBrowser_Tip "Pripojte sa na aktivačný server cez Váš prehliadač"
+Act_User_Order_Err	"Prosím, vložte 10 aktivačných čísel objednávkového ID alebo objednávkový kód vo formáte XXX-XXX-XXX-XXX."
+
+
+
+
+
+
+
+
+
+
+Act_ViaBrowser_Txt	"Choďte na http://activate.goodsync.com ktorýmkoľvek prehliadačom alebo kliknite na odkaz nižšie. Kliknite na tlačidlo Kopírovať, skopíruje ID počítača do schránky. Potom ho vložte do poľa ID počítača vo vašom prehliadači a kliknite na Submit. Potom skopírujte Aktivačný kód (Activation Code) z prehliadača do okienka Aktivačný kód(Activation Code) nižšie a stlačte Ďalej"
+
+Act_ViaBrowser_Copy	"Kopírovať"
+Act_ViaBrowser_ActCode_Txt "Tu vložte aktivačný kód"
+
+Act_Finish_Success	"Ďakujeme za zakúpenie programu GoodSync!\nVaša kópie bola aktivována."
+Act_Finish_Connect	"Pripojiť na aktivačný server"
+Act_Finish_Fail		"Aktivácia zlyhala"
+
+
+# Create ticket 
+Ticket_File_Desc    "Nasledujúci súbor obsahuje rozpoznávacie informácie. Prosím, overte si, že neobsahuje nejaké Vaše dôležité informácie z PC."
+Ticket_Instruction  "Kopírovať cestu a potom ju vložiť do schránky 'Attach Files' Support System.\Kliknite na dole vytvorený odkaz."
+Ticket_Btn_Copy		"Kopírovať zadanú cestu"
+
+# Mini Mode
+Str_MiniDlgNoActiveJob	"<Žiadne aktívne úlohy>"
+
+# Log Viewer general
+LV_AppTitle					"Prehliadať protokolov"
+LV_LogListTitle				"Názvy súborov protokolov"
+LV_OpenLogDlg				"otvor zložku s protokolom"
+LV_TotalLine				"Celkom"
+
+# Log Viewer Error
+LV_Err_NoLogFileFound		"<Neboli najdené žiadne protokoly>"
+LV_Err_UnknownFs			"neznámy súborový systém"
+LV_Err_CannotOpenFile2		"Nie je možné otvoriť súbor %1: %2"
+LV_Err_ReadingFile2			"Chyba pri čítaní súboru %1: %2"
+LV_Err_ParseCmdLine			"Chybné parametre v príkazovom riadku"
+
+# Log Viewer Find Window
+LV_Find						"Nájsť:"
+LV_FindNext					"Ďalši"
+LV_FindPrev					"Prechádzajúci"
+LV_FindAll					"Nájdi všetko"
+LV_FindCaseSens				"Rozlišuj male/veľké"
+
+#Log Viewer Menu
+LV_MenuFile					"Súbor"
+LV_MenuView					"Prezrieť"
+LV_MenuOpen					"Otvoriť"
+LV_MenuExit					"Ukončiť"
+LV_MenuCopyAsText			"Skopíruj vybrané do schránky"
+LV_MenuSelectAll			"Vyber všetko"
+LV_MenuDelete				"Zmaž"
+LV_MenuFind					"Nájdi"
+LV_MenuSelectFont			"Vyber Font"
+
+# For Mac
+
+Menu_Mac_Window					"Okno"
+Menu_Mac_Zoom					"Zoom"
+Menu_Mac_Minimize				"Minimalizuj"
+Menu_Mac_BringToFront			"Prines všetko dopredu"
+Menu_Mac_Undo					"Dopredu"
+Menu_Mac_Redo					"Dozadu"
+Menu_Mac_Preferences			"Vlastnosti..."
+Menu_Mac_Wipeout				"Odinštalovať GoodSync..."
+Menu_Mac_Services				"Služby"
+Menu_Mac_HideProgram			"Skry GoodSync"
+Menu_Mac_HideOthers				"Skry Others"
+Menu_Mac_Quit					"Koniec"
+Menu_Mac_ShowToolbar			"zobraziť lištu nástrojov"
+Menu_Mac_HideToolbar			"Skryť lištu nástrojov"
+Menu_Mac_CustomizeToolBar		"Prispôsobiť lištu nástrojov"
+
+
+Chk_Mac_AutoStart					"Spusť GoodSync pri štarte Mac"
+
+Browse_Mac_Btn_Disconnect		"Odpojiť"
+
+Str_Mac_GSFolder						"Zložka"
+Str_Mac_FinderFavorities                 "~Obľúbené"
+Str_Mac_WelcomeScreenTitle				"Vitajte"
+
+
+
+Browse_Mac_Str_Network_UpdateBtn		"Aktualizácia"
+Browse_Mac_Str_Network_NetworkEnv		"Sieťové prostredie"
+Browse_Mac_Str_Network_IP_Column		"IP adresa"
+Browse_Mac_Str_Network_Desc_Column		"Popis"
+Browse_Mac_Str_Size						"Veľkosť"
+
+Menu_Mac_ShowAll						"Zobraz všetko"
+
+
+
+Cmd_Mac_Str_Show					"Zobraz"
+Cmd_Mac_ShowLeftTrashBin			"Ľavý kôš"
+Cmd_Mac_ShowRightTrashBin			"Pravý kôš"
+Cmd_Mac_MakeGSDataVisible			"Zobraz gsdata"
+Cmd_Mac_MakeGSDataInVisible			"Skry gsdata"
+
+Str_Status_Mac_AnalyzeFinished_OK	"Analýza ukončená úspešne"
+Str_Status_Mac_AnalysisStarted		"Analýza začatá"
+Str_Status_Mac_SyncStarted		"Sychronizácia začatá"
+
+Str_Mac_EqComprassion			"Obe súbory sú rovnaké"
+
+Btn_Mac_Check					"Prihlásiť"
+Btn_Mac_Install					"Inštalovať"
+Btn_Mac_Remove					"Odstrániť"
+Btn_Mac_Finish					"Ukončiť"
+
+Toolbar_Mac_Compare_OneShortWord		"Porovnať"
+ToolBar_Mac_ShowLog_OneShortWord		"Zobraziť záznam"
+Toolbar_Mac_HideLog_OneShortWord		"Skryť záznam"
+Toolbar_Mac_Preferences_OneShortWord	"Preferencie"
+Toolbar_Mac_Customize_OneShortWord		"Prispôsobiť"
+
+Str_Mac_Default_Group_Groups	 "SKUPINY"
+Str_Mac_Default_Group_Jobs		 "ÚLOHY"
+
+Str_Mac_Count_Jobs_In_Status_Bar	"úlohy"
+Str_Mac_Count_Job_In_Status_Bar		"úloha"
+
+
+Str_Mac_StartupScreen_WelcomeDescr "Zálohovať alebo synchronizovať vaše súbory"
+Str_Mac_StartupScreen_Btn_Create "Vytvoriť novú úlohu"
+Str_Mac_StartupScreen_Str_HowTo	 "Ako začať"
+Str_Mac_StartupScreen_Str_Choose "Vyberte ľavú a pravú zložku pre vašu novú úlohu."
+Str_Mac_StartupScreen_Str_ClickAnalyze "Kliknite za účelom analýzy a posúdenia zamýšľaných zmien."
+Str_Mac_StartupScreen_Str_ClickSync "Kliknite na synchronizáciu."
+Str_Mac_StartupScreen_Str_YesEasy "- Áno, je to jednoduché!"
+
+Str_Mac_ToolTipInStatusBar_Create "Vytvoriť novú úlohu"
+Str_Mac_ToolTipInStatusBar_Delete "Zmazať úlohu"
+Str_Mac_ToolTipInStatusBar_JobActions "Činnosť úloh"
+Str_Mac_ToolTipInStatusBar_ShowHideLog "Zobraziť/Skryť záznam"
+
+
+Str_Mac_GSStartUpScreen_CheckSucc				"Prihlásenie úspešné"
+Str_Mac_GSStartUpScreen_CreationSucc			"Vytvorenie úspešné"
+Str_Mac_GSStartUpScreen_HaveGSAccount			"Už mám účet GoodSync Connect"
+Str_Mac_GSStartUpScreen_CreateGSAccount			"Vytvoriť účet GoodSync Connect"
+Str_Mac_GSStartUpScreen_WillInstallGSServer		"GoodSync nainštaluje GoodSync server, aby poskytol lepšiu synchronizáciu."
+Str_Mac_GSStartUpScreen_WillUpdateGSServer		"GoodSync aktualizuje GoodSync server, aby poskytol lepšiu synchronizáciu."
+Str_Mac_GSStartUpScreen_GSServerInstallFailed	"Inštalácia GoodSync server bola neúspešná"
+Str_Mac_GSStartUpScreen_GSServerUpdateFailed	"Aktualizácia GoodSync server bola neúspešná"
+Str_Mac_GSStartUpScreen_PassNotMatch			"Heslá nie sú rovnaké"
+Str_Mac_GSStartUpScreen_WillRemoveGSServer		"GoodSync odstráni GoodSync server"
+Str_Mac_GSStartUpScreen_RemoveGSServerStatus	"Odstránenie Goodsync Connect bolo úspešné"
+Str_Mac_GSStartUpScreen_UpdateGSServerStatus	"Aktualizácia Goodsync Connect bola úspešná"
+Str_Mac_GSStartUpScreen_InstallGSServerStatus	"Inštalácia Goodsync Connect bola úspešná"
+Str_Mac_GSStartUpScreen_UserName				"Užívateľské ID GoodSync"
+Str_Mac_GSStartUpScreen_Password				"Heslo GoodSync"
+Str_Mac_GSStartUpScreen_ConfPassword			"Potvrdiť heslo"
+Str_Mac_GSStartUpScreen_AdminSubmitPassMessage	"Prosím, zadajte užívateľské ID a heslo pre existujúci účet GoodSync. Všetky počítače, ktoré majú rovnaký užívateľský účet a heslo, budú navzájom synchronizované"
+Str_Mac_GSStartUpScreen_AdminCreatePassMessage	"Prosím, zadajte užívateľské ID a heslo, ktoré jedinečne identifikuje vaše služby GoodSync. Všetky počítače, ktoré majú rovnaký užívateľský účet a heslo, budú navzájom synchronizované"
+Str_Mac_GSStartUpScreen_AdminPassHeader			"Nastavenie GoodSync Connect"
+
+#
+# Mac wipeout
+#
+Str_Mac_Wipeout_Text 			"Ste si istý, že chcete úplne odstrániť GoodSync z vášho Mac-u?"
+Str_Mac_Wipeout_Title 			"GoodSync bude odinštalovaný."
+
+#
+# GoodSync Connect setup wizard strings
+#
+
+# Wizard -- first page
+GsConnSetup_WindowTitle			"Nastavenie GoodSync Connect"
+GsConnSetup_FirstRunTitle		"Vitajte v nastaveniach GoodSync Connect"
+GsConnSetup_ConfigureTitle		"Nastaviť GoodSync Connect"
+GsConnSetup_WantConnectQuestion	"Chcete použiť tento počítať pre pripojenie k vašim ostatným počítačom?"
+
+
+
+
+GsConnSetup_SkipBtn				"Preskočiť"
+
+# Wizard -- account settings
+GsConnSetup_UseThisAccount		"Použi tento účet GoodSync Connect:"
+
+GsConnSetup_CreateNewAccount	"Vytvoriť nový účet GoodSync Connect"
+GsConnSetup_SameAccountNote		"Počítače pripojené k rovnakému účtu GoodSync Connect je možné synchronizovať navzájom medzi sebou."
+GsConnSetup_ComputerID			"ID počítača"
+GsConnSetup_UserID				"ID Užívateľa"
+GsConnSetup_Password			"Heslo"
+GsConnSetup_Retype				"Prepísať"
+GsConnSetup_YourName			"Vaše Meno"
+GsConnSetup_Email				"E-mail"
+
+# Wizard -- windows user settings
+GsConnSetup_ConfigureWinUser	"Konfigurovať užívateľa Windows"
+
+GsConnSetup_WinUser				"Užívateľ Windows"
+GsConnSetup_WinPassword			"Heslo užívateľa Windows"
+GsConnSetup_WinNote				"Vlož heslo pre Windows, ak chcete, aby GoodSync Server sa tváril ako užívateľ systému Windows.\nVydávanie sa za užívateľa je potrebné pre prístup k Windows Shares a pre čítanie šifrovaných súborov."
+
+# Wizard -- last page
+GsConnSetup_FinWillBeSetTo		"GoodSync Connect sa nastaví na"
+GsConnSetup_FinRunGoodSync		"Spusti GoodSync"
+GsConnSetup_FinRunGsExplorer	"Spusti GoodSync Explorer"
+
+# Wizard -- status and error messages
+GsConnSetup_StConnMediator		"Pripojovanie k mediátoru..."
+GsConnSetup_StLocalOnlyMode		"Iba lokálny kód"
+GsConnSetup_StServerMode		"GoodSync Connect: Serverový mód"
+GsConnSetup_ThisComputerAddr	"Adresa tohto počítača"
+GsConnSetup_ErrSelectSomething	"Prosím, vyberte niečo."
+GsConnSetup_ErrNoUserID			"Užívateľské ID GoodSync Connect nie je uvedené"
+
+GsConnSetup_ErrNoPassword		"Heslo GoodSync Connect nie je uvedené"
+GsConnSetup_ErrPasswordShort	"Heslo je príliš krátke"
+GsConnSetup_ErrPasswordMatch	"Heslá nie sú rovnaké"
+
+GsConnSetup_ErrBadEmail			"E-mailová adresa nie je platná"
+GsConnSetup_ErrNoWinAccount		"Meno účtu vo Windows-e nemôže byť prázdne"
+

@@ -1,0 +1,2299 @@
+﻿# RFS file codepage.
+RFS_CODEPAGE "1250"
+RFS_LANGUAGE "Polski"
+
+# Job menu
+Menu_Job				"&Zadanie"
+Cmd_JobNew              "Nowe"
+Btn_CreateNew           "Nowe Zadanie"
+Btn_CreateNewGroup      "Nowa Grupa"
+
+Btn_AccountSync_On		"Synch. konta WŁ."
+Btn_AccountSync_Off		"Synch. konta WYŁ."
+
+Cmd_Analyze             "&Analizuj"
+Btn_Analyze             "Analizuj"
+Cmd_Sync                "&Synchronizuj"
+Btn_SyncRun             "Synchronizuj"
+Cmd_AnalyzeAndSyncThis  "Analizuj i Synchronizuj"
+Cmd_Stop                "Z&atrzymaj"
+Btn_Stop                "Zatrzymaj"
+Btn_Clear               "Wyczyść"
+Cmd_Pause               "Wstrzymaj"
+Btn_Pause               "Wstrzymaj"
+Btn_Resume              "Wznów"
+Btn_SelectMultiple		"Wiele folderów / plików"
+Btn_SelectSingle		"Powrót do wyboru folderu"
+
+Cmd_JobOpenLogLeft      "Dzienniki dla &Lewej strony"
+Cmd_JobOpenLogRight     "Dzienniki dla &Prawej strony"
+
+Cmd_JobOptions          "Opcje..."
+Btn_ShowJobOptions      "Opcje"
+Btn_Auto                "Harmonogram"
+
+Str_Groups              "Grupy"
+Str_Group				"Grupa"
+Str_InGroups            "(W grupach)"
+Str_GroupsInitial       "(Brak grup, kliknij 'Nowa grupa', aby utworzyć)"
+Cmd_JobRemoveFromGroup  "Usuń z grupy"
+
+Str_Group_AllJobs       "Wszystkie zadania"
+Str_Group_SyncJobs      "Zadania synchronizacji"
+Str_Group_BackupJobs    "Zadania kopii zapasowych"
+
+Cmd_JobDelete           "Usuń"
+Cmd_JobRename           "Zmień nazwę..."
+Cmd_JobClone            "Klonuj..."
+
+Str_AskDeleteJob1		"Czy na pewno chcesz usunąć zadanie \"%1\"?"
+Str_AskDeleteSelJob1	"Czy na pewno chcesz usunąć %1 zaznaczonych zadań?"
+Str_AskDeleteGroup		"Czy na pewno chcesz usunąć grupę \"%1\"?"
+
+Cmd_SyncAccount_Once    "Jednorazowa synchronizacja konta"
+Cmd_SyncAccount_Analyze "Synchronizacja konta, pokaż zmiany"
+Cmd_SyncAccount_OnOff   "Auto synchronizacja konta"
+
+Str_JobMenuAdvanced     "Zaawansowane"
+Cmd_JobSwapSides        "Zamień strony zadania"
+Cmd_JobSaveTemplate     "Zapisz jako szablon..."
+Cmd_Analyze_Comp_MD5    "Analiza: Porównaj sumy kontrolne (wolne)"
+Cmd_Analyze_Comp_Body   "Analiza: Porównaj zawartości plików (bardzo wolne)"
+Cmd_JobListOfChanges    "Lista zmian"
+Cmd_JobResetState       "Usuń pliki stanu"
+Cmd_JobDeleteBackup     "Usuń odzyskane i historię folderów"
+Cmd_JobDeleteGsData     "Usuń foldery _gsdata_"
+Cmd_JobCleanupRecycled  "Wyczyść odzyskane i historię folderów"
+
+Str_TitleResetState		"Usuń pliki stanu"
+Str_AskDeleteStates		"Czy chcesz usunąć plik stanu synchronizacji?\nPliki te są wewnętrznymi plikami GoodSync, które śledzą historię plików użytkowników. \nŻadne pliki użytkownika nie zostaną usunięte."
+
+Str_TitleDeleteBackup	"Usuń pliki odzyskiwania i historii"
+Str_AskDeleteBackup		"Czy chcesz usunąć pliki odzyskiwania i historii zapisane w tych folderach?"
+
+Str_TitleDeleteGsData	"Usuń folder _gsdata_"
+Str_AskDeleteGsData		"Czy na pewno chcesz usunąć _gsdata_ folder?\nGoodSync przechowuja w nim swoje dane, pliki dzienika oraz historię.\nŻadne pliki użytkownika nie zostaną usunięte."
+
+Cmd_AppExit             "W&yjdź"
+
+# All menu
+Menu_All                "Wszystko"
+Cmd_AnalyzeAll          "Ana&lizuj wszystko"
+Cmd_SyncAll             "Syn&chronizuj wszystko"
+Cmd_AnalyzeAndSyncAll   "Analizuj i Synchronizuj wszystko"
+Cmd_StopAll             "Zatrzymaj &wszystko"
+Cmd_EnableAuto			"Auto Synch. WŁ."
+Cmd_SuspendAuto			"Auto Synch. WYŁ."
+
+# Mac Menu Window
+Menu_Mac_Window         "Okno"
+Menu_Mac_Zoom           "Zoom"
+Menu_Mac_Minimize       "Minimalizuj"
+Menu_Mac_BringToFront   "Bring All to Front"
+
+# Mac Menu File
+Menu_Mac_File           "File"
+
+# Mac Menu Edit
+Menu_Mac_Edit           "Edit"
+Menu_Mac_Undo           "Cofnij"
+Menu_Mac_Redo           "Redo"
+Menu_Mac_SelectAll      "SelectAll"
+
+# Mac Menu GoodSync
+Menu_Mac_Preferences    "Preferences..."
+Menu_Mac_Wipeout        "Odinstaluj GoodSync..."
+Menu_Mac_Services       "Usługi"
+Menu_Mac_HideProgram    "Ukryj GoodSync"
+Menu_Mac_HideArg        "Hide %1"
+Menu_Mac_ShowProgram    "Pokaż GoodSync"
+Menu_Mac_HideOthers     "Ukryj inne"
+Menu_Mac_ShowAll        "Show All"
+Menu_Mac_AddFDAccess    "Przyznaj pełny dostęp do dysku GoodSync"
+Menu_Mac_Quit           "Wyjdź"
+Menu_Mac_QuitArg        "Quit %1"
+
+# Mac App Menu
+Menu_Mac_OpenGSE        "Open GoodSync Explorer"
+
+# View menu
+Menu_View               "&Widok"
+Str_NeedSyncTree        "(Podglądy drzewa pojawiają się tutaj po analizie)"
+Menu_Mac_ShowToolbar    "Show Toolbar"
+Menu_Mac_HideToolbar    "Hide Toolbar"
+Menu_Mac_CustomizeToolBar "Customize Toolbar"
+
+Menu_View_Other         "&Wyświetlanie"
+
+Cmd_View_FullWindow     "Tryb pełny"
+Cmd_View_MiniWindow     "Tryb mini"
+Cmd_View_TrayIcon       "Ikona w zasobniku systemowym"
+
+Cmd_ViewStatusBar       "Pasek stanu"
+Cmd_ViewJobList         "&Lista zadań"
+Cmd_ViewJobFilter       "&Filtry"
+Cmd_ViewLog             "&Dziennik"
+
+Cmd_ShowAll             "W&szystko"
+Cmd_ShowChanges         "&Zmiany"
+
+Cmd_ShowConflict        "Kon&flikty"
+Cmd_ShowError           "&Błędy"
+
+Cmd_ShowIncluded        "Dołączone"
+Cmd_ShowExcluded        "Wykluczone"
+Cmd_ShowToCreate        "Utwórz"
+Cmd_ShowToOverwrite     "Nadpisz"
+Cmd_ShowToDelete        "Usuń"
+
+# VM: a lot of view names are the same as corresponding action names
+
+Cmd_ShowSameLenDiffTime  "Ten sam rozmiar - Różny czas"
+
+Cmd_ShowCountableChanges "Liczba zmian"
+Cmd_ShowChangesToSync   "Plik do synchronizacji"
+Cmd_ShowNotYetSynced    "Nie zsynchronizowane"
+
+Cmd_ShowAllAll          "Wszystko + Usunięte"
+
+
+# (Tree) Actions menu
+Grp_Actions   "Operacje"
+Str_NeedSyncNode       "(Dostępne operacje pojawią się po analizie i klknięciu na element drzewa)"
+
+Grp_Show               "Widok drzewa"
+
+# Action and Context menus
+Menu_Actions           "Operacje"
+
+Cmd_ItemLOpen          "Otwórz plik(i) z Lewej"
+Cmd_ItemROpen          "Otwórz plik(i) z Prawej"
+Cmd_OpenLFolder        "Otwórz folder(y) z Lewej"
+Cmd_OpenRFolder        "Otwórz folder(y) z Prawej"
+
+Cmd_Browse             "Zmień folder"
+Cmd_Browse_V11		   "Foldery"
+
+Cmd_OpenJobLeft        "Otwórz Lewy folder w Eksploratorze plików"
+Cmd_OpenJobRight       "Otwórz Prawy folder w Eksploratorze plików"
+
+Cmd_LeftSideOpts       "Opcje Lewego folderu"
+Cmd_RightSideOpts      "Opcje Prawego folderu"
+
+Cmd_ItemLDelete        "Usuń Lewy plik"
+Cmd_ItemRDelete        "Usuń Prawy plik"
+Cmd_ItemDeleteBoth     "Usuń Oba pliki"
+Cmd_DeleteLFolder      "Usuń Lewy folder"
+Cmd_DeleteRFolder      "Usuń Prawy folder"
+Cmd_DeleteBothFolders  "Usuń Oba foldery"
+
+Cmd_ItemLDeleteMul1    "Usuń %1 elementów z Lewej strony"
+Cmd_ItemRDeleteMul1    "Usuń %1 elementów z Prawej strony"
+Cmd_ItemBDeleteMul1    "Usuń %1 elementów z Obu stron"
+
+Cmd_ItemCompare			"&Porównaj pliki"
+
+Str_AskDeleteItem1		"Czy chcesz usunąć %1 wybranych elementów?"
+Str_AskDeleteItem3		"Czy chcesz usunąć %1 %2 \"%3\"?"
+
+
+# filter actions
+Cmd_ItemExcludeFile1		"&Wyklucz plik \"%1\""
+Cmd_ItemExcludeFolder1      "&Wyklucz folder \"%1\""
+Cmd_ItemExcludeMulti1       "W&yklucz %1 zaznaczonych elementów"
+
+Cmd_ItemIncludeFile1        "&Dołącz tylko plik \"%1\""
+Cmd_ItemIncludeFolder1      "&Dołącz tylko folder \"%1\""
+Cmd_ItemIncludeMulti1       "&Dołącz tylko %1 zaznaczonych elementów"
+
+Cmd_ItemExcludeAllFiles1    "Wyklucz &wszystkie pliki \"%1\""
+Cmd_ItemExcludeAllFolders1  "Wyklucz &wszystkie foldery \"%1\""
+Cmd_ItemExcludeAllMulti1    "Wyklucz elementy z nazwami takimi jak te z %1 zaznaczonych elementów"
+
+Cmd_ItemExcludeAllMask1			"Wy&klucz wszystkie pliki \"*%1\""
+Cmd_ItemExcludeAllMaskMulti1    "Wy&klucz elementy z rozszerzeniami takimi jak te z %1 zaznaczonych elementów"
+
+Cmd_ItemIncludeAllMask1         "Doł&ącz tylko pliki \"*%1\""
+Cmd_ItemIncludeAllMaskMulti2    "Dołącz tylko elementy z rozszeżeniami takimi jak te z %1 zaznaczonych elementów"
+
+
+# directions in commands
+Cmd_Recommended			 "Zalecane operacje"
+Cmd_DoNotCopy            "Nie &kopiuj"
+Cmd_CopyLeftToRight      "Kopiuj Lewy do Prawego"
+Cmd_CopyRightToLeft      "Kopiuj Prawy do Lewego"
+Cmd_DeleteLeftToRight    "Usuń z Prawej"
+Cmd_DeleteRightToLeft    "Usuń z Lewej"
+Cmd_RenameMove_LtoR      "Zmień nazwę/Przenieś na Prawą"
+Cmd_RenameMove_RtoL      "Zmień nazwę/Przenieś na Lewą"
+Cmd_CopyTimeLeftToRight  "Kopiuj czas z L do P"
+Cmd_CopyTimeRightToLeft  "Kopiuj czas z P do L"
+Cmd_NameCaseLeftToRight  "Kopiuj wielkość liter z L do P"
+Cmd_NameCaseRightToLeft  "Kopiuj wielkość liter z P do L"
+Cmd_CopyStateLeftToRight "Kopiuj stan z L do P"
+Cmd_CopyStateRightToLeft "Kopiuj stan z P do L"
+Cmd_CopyStateSyncTail    "Synchronizuj stan"
+
+# Directions sub-menu
+ChangeDirectionTo		 "Zmień kierunek na"
+
+# Directions in pane
+Str_ToLeft               "Lewy"
+Str_ToRight              "Prawy"
+Str_Errors               "Błędy"
+Str_Conflicts            "Konflikty"
+
+# tree toolbar
+TreeToolbar_Directions   "Kierunki"
+TreeToolbar_Filters      "Filtry"
+TreeToolbar_Clear        "Wyczyść drzewo"
+
+TreeToolbar_File_Folder_Ops	"Operacje na plikach/folderach"
+
+TreeToolbar_Directions_Explain "Po kliknięciu w dowolny folder lub plik na drzewie synchronizacji, będzie można dla niego zmienić kierunek synchronizacji, wybierając go z tego menu."
+TreeToolbar_Filters_Explain "Po kliknięciu w dowolny folder lub plik na drzewie synchronizacji, będzie można zmienić dla niego filtry, wybierając je z tego menu."
+TreeToolbar_Button_Explain "Objaśnienie użycia przycisku"
+
+# Tools menu
+Menu_Tools               "&Narzędzia"
+Cmd_Tools                "Narzędzia"
+Cmd_GsAccountSetup       "Konfiguracja konta GoodSync..."
+Cmd_GsAccountManage      "Zarządzaj kontem GoodSync..."
+Cmd_RunnerServiceSetup   "Konfiguracja usługi Runner..."
+Cmd_ServerControlPanel   "Zaawansowane opcje serwera"
+Cmd_ProgOptions          "Opcje programu..."
+Cmd_UploadAccounts       "Prześlij konta do Centrum kontroli"
+Cmd_UploadAccounts_Jobs	 "Prześlij zadania do Centrum kontroli"
+Cmd_ExportJobsList       "Eksportuj listę wszystkich zadań..."
+Cmd_ExportSelJobsList    "Eksportuj zaznaczone zadania ..."
+Cmd_ImportJobsList       "Importuj listę zadań..."
+Cmd_ImportAll            "Importuj wszystkie"
+
+Manage_NeedAccount_Err  "Dodaj ten komputer do konta GoodSync za pomocą Narzędzia -> Konfiguracja konta GoodSync:\nNastępnie będziesz mógł zalogować się do konta GoodSync za pomocą tego polecenia:\n"
+
+# Help menu
+Menu_Help                "&Pomoc"
+Cmd_AppAbout             "&O programie..."
+Cmd_AppManual            "&Instrukcja"
+Cmd_AppFAQ               "&FAQ (Często zadawane pytania)"
+Cmd_AppCreateTicket      "&Skontaktuj się z działem technicznym..."
+Cmd_Help_BuyPro			 "Kup licencję"
+Cmd_Help_RenewLicense	 "Odnów licencję"
+Cmd_Help_Activate		 "Aktywuj licencję..."
+Cmd_CheckUpdates         "Sprawdź dostępność aktualizacji"
+
+
+# Search options menu
+Search_Forward           "Wyszukaj w przód\tEnter"
+Search_Backward          "Wyszukaj wstecz\tEnter"
+Search_Case_Sensitive    "Rozróżnij wielkość liter"
+Search_Look_Files_Only   "Wyszukaj tylko w plikach"
+
+# Measures
+Str_Items1               " %1 elementów"
+Str_Bytes1               "bajt(ów)"
+Str_Kilobytes1           "kB"
+Str_Megabytes1           "MB"
+Str_Gigabytes1           "GB"
+
+# Misc
+Cmd_Cut                  "Wytnij"
+Cmd_Copy                 "Kopiuj"
+Cmd_Paste                "Wklej"
+Cmd_Skip	   			 "Pomiń"
+Cmd_Cancel			 	 "Anuluj"
+
+
+# Buttons below tree
+Btn_ShowJobOptionsToolTip   "Opcje zadania"
+
+Edit_Search                 "Wyszukaj..."
+Edit_Search_Tooltip         "Wpisz szukaną frazę"
+Edit_Search_Clear           "Wyczyść wyszukiwanie"
+Edit_Search_Find_Next       "Następne wystapienie (Enter)"
+Edit_Search_Find_Prev       "Poprzednie wystapienie (Enter)"
+Edit_Search_Show_DropDown   "Pokaż listę"
+
+Chk_AutoScroll          "Przewiń do bieżącego"
+
+Hint_NoJobs             "Brak zadań, kliknij opcję "Nowe Zadanie", aby je utworzyć"
+Hint_Select_Paths       "Proszę wybrać ścieżki"
+Hint_Click_Analyze      "Kliknij przycisk "Analizuj" by rozpocząć"
+Hint_Job_under_Runner   "Zadanie jest uruchomione w trybie nienadzorowanym"
+Hint_No_Changes         "Nie wykryto zmian"
+Hint_EmptyTree			"(Nic do oglądania w tym widoku)"
+Hint_Waiting_To_Run     "Oczekuję na uruchomienie"
+
+
+# Tree view Columns
+Str_TreeItem            "Pozycja"
+Str_TreeLSize           "L Rozmiar"
+Str_TreeLDate           "L Data"
+Str_TreeL               "L"
+Str_TreeCenter          ""
+Str_TreeR               "P"
+Str_TreeRSize           "P Rozmiar"
+Str_TreeRDate           "P Data"
+Str_TreeStatus          "Status"
+
+# View Options
+Str_TreeView            "Mniej"
+Str_ListView            "Więcej"
+
+# Job Tree view Columns
+Str_JobTreeColName      "Nazwa"
+
+# Browse Warnings
+Browse_SureAboutChange  "Czy na pewno chcesz zmienić folder synchronizacji?\nZmiana folderu synchronizacji spowoduje unieważnienie ustawień filtrów zadania,\noraz przywróci harmonogram do ustawień domyślnych (należy Analizę i Synchronizację uruchamiać ręcznie)."
+Browse_SyncFolderRoot   "Nie zalecamy synchronizowania z katalogiem głównym dysku, ponieważ:\n- istnieją ograniczenia dotyczące liczby plików i folderów, które można znaleźć w folderze głównym dysku,\n- nazwa folderu synchronizacji pomoże zidentyfikować kopię folderu, w którym się znajduje.\n Dlatego zalecamy synchronizację z folderem %1. Czy chcesz kontynuować?"
+Browse_Sync_ThisComp    "Próbujesz połączyć się z tym komputerem przez GoodSync Connect. Jest to nieefektywne, ponieważ:\n- jest wolniejsze niż bezpośrednie połączenie z systemem plików przy użyciu pliku://,\n- zużywa więcej zasobów niż bezpośrednie połączenie z lokalnym systemem plików.\nZalecamy zmienę adresu URL na %1. Czy chcesz kontynuować?"
+Browse_PortableGsDisk   "Zmieniono literę dysku przenośnego na %%GSDISK%% (dysk, z którego uruchomiono GoodSync), aby działał na innym komputerze"
+Browse_UsePortablePath  "Wykryto dysk wymienny z nazwą woluminu '%1'.\nZalecamy użycie przenośnej ścieżki do folderu\n'%2',\ndzięki temu wymienny wolumin zostanie znaleziony nawet jeśli zostanie zamontowany z inną literą dysku"
+Browse_UseUNC_Path      "Wykryto udział sieciowy '%1' -> '%2'.\nZalecamy użycie ścieżki UNC '%3' zamiast ścieżki z literą '%4'"
+
+# Short version for V11 browse dialog messages
+Browse_SyncFolderRootShort	"Zalecamy, aby nie synchronizować z głównym katalogiem dysku (%1), zamiast tego utwórz folder"
+
+# Browse mode indication (for job side buttons)
+Str_BrowseMode			"Tryb wyboru folderu (Przeglądaj)"
+
+Str_Startup_Str_ChooseLR     "Wybierz Lewy i Prawy folder synchronizacji dla swojego zadania."
+Str_Startup_Str_ClickApply   "Kliknij 'Zastosuj', aby potwierdzić wybór synchronizacji folderów."
+Str_Startup_Str_ClickAnalyze "Kliknij przycisk 'Analizuj', aby wyświetlić proponowane operacje kopiowania i usuwania plików."
+Str_Startup_Str_ClickSync    "Kliknij 'Synchronizuj', aby rozpocząć operacje tworzenia kopii zapasowych / synchronizacji plików."
+
+# Tooltips for buttons, for new users
+Tip_Select_Folsers      "Wybierz foldery i kierunek dla tego zadania"
+Tip_Browse_Left         "Wybierz Lewy folder synchronizacji.\nKliknij 'Przeglądaj', aby wprowadzić nazwę użytkownika, hasło i URL folderów sieciowych."
+Tip_Browse_Right        "Wybierz Prawy folder synchronizacji.\nKliknij 'Przeglądaj', aby wprowadzić nazwę użytkownika, hasło i URL folderów sieciowych."
+Tip_Change_Way          "Zmień kierunek zadania i inne ustawienia"
+Tip_Select_Direction    "Wybierz kierunek zadania"
+Tip_Analyze             "Przeanalizowane zadanie pokazuje listę różnic miedzy Lewem i Prawym panelem, proponując określone operacje."
+Tip_Sync                "Przycisk synchronizuje poprzednio przeanalizowne zadanie"
+Tip_SelectMultiple		"Wybierz wiele folderów, skonfiguruj podstawowe filtry dołączonych/wykluczonych"
+Tip_SelectSingle		"Powróć do wyboru pojedynczego folderu"
+Tip_Stop                "Zatrzymaj analizę lub synchronizację"
+Tip_Clear               "Wyczyść drzewo z różnicami, aby oszczędzić pamięć"
+Tip_Opt                 "Konfiguruj automatycznie uruchamianie zadania"
+Tip_Paused              "Wstrzymane. Kliknij by wznowić"
+Tip_Pause               "Kliknij by wstrzymać aktualną operację"
+
+# New Job dialog
+Title_JobName           "Nowe zadanie GoodSync"
+Str_NewJob              "Nowe zadanie"
+
+Str_JobName             "Wprowadź nazwę zadania"
+Str_JobTemplate         "Z szablonu:"
+Str_BadJobName1         "Nazwa zadania nie może zawierać następujących znaków: / \\ ? < > : * |"
+Str_BadJobName2         "Nazwa zadania nie może być równa \"%1\""
+Str_BadJobName3         "Nazwa zadania nie może być pusta lub dłuższa niż 100 znaków."
+
+Str_GroupName           "Wprowadź nazwę grupy"
+Str_BadGroupName1       "Nazwa grupy nie może zawierać następujących znaków: / \\ ? < > : * |"
+Str_BadGroupName2       "Nazwa grupy nie może być równa \"%1\""
+Str_BadGroupName3       "Nazwa grupy nie może być pusta lub dłuższa niż 100 znaków."
+
+Str_JobNameExists       "Zadanie o tej nazwie już istnieje."
+Str_GroupNameExists     "Grupa o tej nazwie już istnieje."
+Str_JobType             "Wybierz typ zadania"
+Str_JobType_Backup      "Kopia zapasowa"
+Str_JobDesc_Backup      "Zadanie 1-kierunkowe: Kopiuje pliki i foldery (oraz ich usunięcia) z folderu po Lewej stronie do folderu po Prawej stronie."
+Str_JobType_Sync        "Synchronizacja"
+Str_JobDesc_Sync        "Zadanie 2-kierunkowe: Propaguje zmiany (plik zmieniony, przemianowany lub usunięty) z Lewej do Prawej i z Prawej do Lewej. Pliki ukryte i systemowe są domyślnie wykluczone."
+Str_JobType_Template    "Z szablonu:"
+Str_JobDesc_Template    "Szablon jest częściowo zdefiniowanym zadaniem mogącym przechowywać Twoje preferowane ustawienia zadania. Szablon zawiera zapamiętane ustawienia zadania, ale nie zawiera informacji o ścieżkach do folderów."
+Str_Combo_NoTemplate    "<brak szablonu>"
+
+Title_RenameJob         "Zmiana nazwy zadania"
+Title_RenameGroup       "Zmiana nazwy grupy"
+Title_CloneJob          "Klonuj zadanie"
+Str_NewJob_Header       "Witamy w GoodSync"
+Str_NewJob_Descr        "Utwórzmy pierwsze zadanie"
+Str_NewJobClose         "Czy na pewno chcesz wyjść teraz z GoodSync?\nWciśnij OK, aby wyjść, GoodSync zapyta o utworzenie nowego zadania następym razem.\nWciśnij ANULUJ, aby cofnąć i wprowadzić nazwę dla nowego zadania."
+Lnk_Tutorial            "Samouczek"
+
+# Job Tabs control buttons
+Str_TabAddNewJob        "Dodaj nowe zadanie"
+Str_TabScrollLeft       "Przewiń w lewo"
+Str_TabScrollRight      "Przewiń w prawo"
+
+
+# Job List Pane
+Title_JobList           "Lista zadań"
+Title_TaskName          "Nazwa zadania"
+Title_LastRunTime       "Ostatnio uruchomiono"
+
+Str_ColumnAnalyze       "Analiza"
+Str_ColumnSync          "Synchronizacja"
+Str_ColumnAnalyzeAndSync "Analizuj i Synchronizuj"
+Str_ColumnLPath         "Lewa ścieżka"
+Str_ColumnRPath         "Prawa ścieżka"
+
+# job statuses
+Str_ColumnStatus        "Status"
+
+JobStatus_Idle          "bezczynny"
+JobStatus_Waiting       "Oczekiwanie"
+JobStatus_Analyzing     "Analizowanie %1%"
+JobStatus_Analyzed      "Przeanalizowano"
+JobStatus_ErrorTerm     "Błąd"
+JobStatus_Attention     "Uwaga"
+JobStatus_Conflicts     "Konflikty"
+JobStatus_ErrorsNonTerm "Błędy"
+JobStatus_Syncing       "Synchronizowanie %1%"
+JobStatus_Synced        "Zsynchronizowano"
+JobStatus_Paused        "Wstrzymane"
+JobStatus_Stopped       "Zatrzymane"
+JobStatus_SpOpRunning   "Operacje specjalne uruchomione"
+JobStatus_SpOpDone      "Operacje specjalne zakończone"
+
+
+# Job Tree View
+Str_Export_This_Group   "Eksport grupy"
+Str_New_Group           "Nowa grupa..."
+
+# Log Pane
+Title_LogWnd            "Okno dziennika"
+
+# Help -> About
+Title_About             "O programie"
+Tip_About               "Okno z informacjami o wersji programu i linku do strony producenta."
+Str_RegTo               "Zarejestrowany na:"
+Help_ChkVer             "Połącz się z www.goodsync.com i sprawdź czy jest dostępna do pobrania nowa wersja."
+Msg_JobGroupTimeTable   " uruchomi się o (harmonogram 1 roczny, pierwszych 10 uruchomień):\n"
+Cmd_Test                "Test"
+Help_SmtpTest           "Przetestuj poniższe ustawienia SMTP wysyłając testowy e-mail na podany adres."
+Help_SysStat            "Wyświetl informacje o wersji i środowisku GoodSync. Załącz te informacje w przypadku kontaktowania się ze wsparciem technicznym."
+
+# Mouse over
+Help_NotDefined         "Nie zdefiniowano pomocy dla tego elementu"
+Help_MouseOver          "Umieść kursor myszy nad opcja, aby zobaczyć jej opis. Wciśnij raz klawisz Alt jeśli chcesz przewinąć lub skopiować tekst pomocy."
+
+#
+# --- PROGRAM OPTIONS ---
+#
+
+Title_Options           "Opcje programu"
+Str_OptDetailedHelp     "Szczegółowa pomoc"
+Str_OpenProgrammOpt     "Otwórz opcje programu"
+
+# Program Options - General
+Title_General           "Ogólne"
+
+Str_UserInterface       "Interfejs użytkownika"
+Str_Lang                "Język:"
+Help_Lang               "Zmienia język GoodSync używany w menu, opcjach i wiadomościach.\n\nAby zmiany odniosły efekt konieczne jest ponowne uruchomienie programu."
+
+Str_TreeDisplayDensity  "Gęstość wyświetlania drzewa:"
+Tip_TreeDisplayDensity  "Ustaw odstępy między elementami na drzewie synchronizacji. Większa wartość pozwala zobaczyć więcej elementów w oknie programu.\n\nAby zmiany odniosły efekt konieczne jest ponowne uruchomienie programu."
+TreeDisplayDensity_Low  "Niska"
+TreeDisplayDensity_Med  "Średnia"
+TreeDisplayDensity_Hi   "Wysoka"
+
+Str_NoAnimations        "Bez animacji podczas analizy"
+Tip_NoAnimations        "Włącza/Wyłącza animację podczas analizy."
+
+Chk_SortNamesByAlpha    "Automatycznie sortuj nazwy zadań"
+Help_SortNamesByAlpha   "Zaznaczone: Oferuje alfabetyczne sortowanie nazw grup i zadań.\n\nOdznaczone: Oferuje sortowanie nazw grup i zadań w/g indeksu zadania tak, aby można było zmieniać ich kolejność poprzez przeciągnięcie i upuszczenie w widoku listy zadań (Więcej).\n\n** Aby zmiany odniosły efekt konieczne jest ponowne uruchomienie programu. **"
+
+Chk_ShowSystemGroups	"Pokaż grupy: Zadania kopii zapasowych / Zadania synchronizacji"
+Help_ShowSystemGroups	"Grupy: Zadania kopii zapasowych / Zadania synchronizacji, zostaną automatyczne umieszczone przez GoodSync na drzewie zadań.\n\n** Aby zmiany odniosły efekt konieczne jest ponowne uruchomienie programu. **"
+
+Str_WindowsIntegration  "Integracja z Windows"
+Str_Mac_SystemIntegration   "Integracja z systemem"
+Chk_ShowSysTray         "Ikona GoodSync w zasobniku systemowym"
+Help_ShowSysTray        "Zaznaczone: Pokazuje ikonę GoodSync w zasobniku systemowym, gdy GoodSync jest uruchomiony.\n\nOdznaczone: Ukrywa ikonę GoodSync w zasobniku systemowym, gdy GoodSync jest uruchomiony."
+
+Chk_TrayIcon            "Ukryj GoodSync w zasobniku systemowym po zamknięciu okna głównego"
+Help_TrayIcon           "Zaznaczone: Po zamknięciu okna Goodsync, będzie on nadal działał w tle. Aby przywrócić okno, użyj ikony w zasobniku systemowym (prawy dolny róg ekranu).\n\nOdznaczone: Po zamknięciu GoodSync, program zostanie całkowicie wyłączony."
+
+Chk_AutoStart           "Uruchom GoodSync podczas uruchamiania Windows"
+Help_AutoStart          "Zaznaczone: System Windows uruchomi GoodSync automatycznie po zalogowaniu się na konto systemu Windows. GoodSync uruchomi się w stanie zminimalizowanym. Zaznacz tę opcję, jeśli uruchamiasz zadania automatycznie z zaznaczonym dowolnym polem wyboru w Opcje (zadania) -> Harmonogram. Niedostępne w GoodSync2Go.\n\nOdnzaczone: GoodSync nie będzie się uruchamiał automatycznie wraz z systemem windows."
+
+Chk_Mac_AutoStart       "Uruchom GoodSync podczas startu systemu."
+Help_Mac_AutoStart      "Mac starts GoodSync automatically when you log in into your System Account, GoodSync is started in minimized state. Turn this option on if you run jobs automatically, that is, if you checked any boxed in Job Options -> Auto tab. Not available in Goodsync2Go."
+
+Chk_Mac_PreventSleep    "Nie zezwalaj na przejście systemu w stan uśpienia"
+Help_Mac_PreventSleep   "GoodSync will prevent macOS from going to sleep by timer while any job is running or can be scheduled to run. Note, that Force Sleep by selecting Sleep from the Apple menu or closing the lid on a laptop will still work and cannot be prevented."
+
+Chk_DesktopShortcuts    "Skrót GoodSync na pulpicie"
+Help_DesktopShortcuts   "Dodaje skrót GoodSync na pulpicie i na pasku szybkiego uruchamiania (jeśli włączony)"
+
+Chk_Warn_TimeOutOfRange  "Ostrzeż gdy czas spoza zakresu 1980-2037"
+Help_Warn_TimeOutOfRange "Ostrzegaj gdy czas modyfikacji plików nie mieści się w zakresie dat 1980-2037"
+
+Str_CompareProg         "Program porównujący"
+Help_CompareProg		"Program do porównania plików wywoływany poleceniem 'Porównaj pliki' z menu kontekstowego pliku/folderu. Jego argumentami wiersza poleceń są ścieżki do plików, które mają być porównywane. Przykład: Jeśli podasz WinDiff.Exe zostanie on uruchomiony jako: WinDiff plik1 plik2. Jeśli nic nie zostanie podane, zostanie użyty domyślny program do porównania, którym jest UNIX diff"
+Str_ExecutableFiles     "Pliki wykonywalne"
+
+Str_Logs                "Dzienniki"
+
+Str_LogDetailLevel      "Poziom szczegółów dziennika"
+Help_LogDetailLevel     "Poziom szczegółów dziennika wyświetlany w oknie dziennika. Tekstowe pliki dziennika są zapisywane:\n(1) w folderze _gsdata_ w Lewym i Prawym folderze synchronizacji zadania\n(2) w fodlerze z globalnym dziennikiem poniżej"
+Str_LogCritical         "Krytyczne"
+Str_LogError            "Błędy"
+Str_LogInfo             "Operacje"
+Str_LogDetails          "Szczególy"
+
+Str_LogFolderGlobal     "Przechowuj dzienniki w folderze"
+Help_LogFolderGlobal    "Jest to folder, do którego są zapisywane dzienniki globalne. Jeśli jest pusty, dzienniki zostaną zapisane do folderu GoodSync w profilu użytkownika."
+
+Str_LogRetainDays       "Przechowuj dzienniki przez podaną liczbę dni"
+Help_LogRetainDays      "Przez podaną liczbę dni będą przechowywane dzienniki z zadań oraz dzienniki globalne. Starsze pliki dziennika globalnego po tym czasie będą usuwane."
+
+Chk_ResetIM             "Przywróć wszystkie komunikaty informacyjne do ustawień domyślnych"
+Help_ResetIM            "Włącz ponownie wszystkie komunikaty ostrzegawcze."
+
+
+# Program Options -> Auto
+
+Chk_AutoHideMiniWin     "Automatycznie ukryj mini okno, gdy nie ma żadnych aktywnych zadań"
+Help_AutoHideMiniWin    "Zaznaczone: Automatycznie ukrywa okno (Tryb mini) w prawym dolnym rogu ekranu, gdy brak jest aktywnych zadań.\n\nOdznaczone: Zawsze pokazuje okno w prawym dolnym rogu ekranu."
+
+Str_ParallelAutoJobs    "Maksymalna liczba automatycznych zadań uruchomionych jednocześnie"
+Help_ParallelAutoJobs   "Maksymalna liczba automatycznych zadań, które mogą być uruchamiane równolegle. Wartość 1 oznacza, że wszystkie zadania uruchamiane automatycznie, będą uruchamiane kolejno."
+
+Str_AutoJobsQuant       "Uruchamiaj zadania co"
+Help_AutoJobsQuant      "Wszystkie zadania są sprawdzane co podaną liczbę sekund, aby ustalić, które z nich można uruchomić automatycznie"
+
+Str_FileHistory         "Historia pliku"
+Chk_CleanupOldGens      "Przechowuj historię pliku przez podaną liczbę miesięcy:"
+Help_CleanupOldGens     "Odrzuca historię pliku (historia zmian w pliku), który jest starszy niż określona liczba miesięcy. Tym sposobem historia pliku dla tych miesięcy zostaje pominięta, a GoodSync nie będzie w stanie kopiować zmian które są starsze.\n0 oznacza że historia pliku zostanie zachowana w pliku stanu na zawsze (nie zalecane)."
+Help_SaveOldGensMonths  "Zachowuje historię zmian pliku, w pliku stanu przez podaną liczbę miesięcy"
+
+Str_Updates             "Aktualizacje"
+Chk_AutoChkVer          "Sprawdzaj codziennie czy jest nowsza wersja programu"
+Help_AutoChkVer         "GoodSync codziennie połączy sie z www.goodsync.com, aby sprawdzić czy pojawiła się nowsza wersja programu."
+
+Chk_AutoInstallVer      "Automatycznie instaluj nową wersję programu"
+Help_AutoInstallVer     "Jeśli GoodSync znajdzie nowszą wersję programu, zainstaluje ją automatycznie."
+
+
+# Program Options -> Security
+Title_Security          "Bezpieczeństwo"
+
+Chk_OAuthBrowserPrivate "Użyj trybu prywatnego domyślnej przeglądarki dla OAuth"
+Tip_OAuthBrowserPrivate "Zaznaczone: Użyje trybu prywatnego w domyślnej przeglądarce dla OAuth\n\nOdznaczone: Użyje domyślnej przeglądarki dla OAuth"
+
+Chk_SavePwdsEncrd		"Zapisz hasła połączeń zaszyfrowane lokalnie"
+Tip_SavePwdsEncrd		"Zaznaczone: Hasła ze wszystkich połączeń są zapisywane, po zaszyfrowaniu za pomocą lokalnego hasła głównego systemu operacyjnego, którego nie zna GoodSync, co czyni je nieprzenośnymi między komputerami.\n\nOdznaczone: Hasła połączań są szyfrowane stałym hasłem głównym, co czyni je przenośnymi."
+
+Str_ControlCenter       "Centrum kontroli przesyłania"
+Str_CC_UserID           "Adres e-mail administratora firmy"
+Tip_CC_UserID           "Adres e-mail administratora firmy, który identyfikuje administratora w Centrum kontroli"
+Str_CC_Passwd           "Hasło administratora firmy"
+Tip_CC_Passwd           "Hasło administratora firmy, które będzie używane z adresem e-mail administratora w Centrum kontroli"
+Str_CC_Accounts_Passwd  "Hasło szyfrowania kont"
+Tip_CC_Accounts_Passwd  "Konta przesłane do Centrum kontroli są szyfrowane za pomocą tego hasła. Wszyscy użytkownicy usługi GoodSync Runners w firmie muszą podać to samo hasło, aby odszyfrować konta lokalnie"
+Str_CC_CompID			"Identyfikator firmy z Centrum Kontroli (numeryczny)"
+Tip_CC_CompID			"Twój identyfikator firmy, znajduje się na karcie ustawień w panelu Centrum kontroli."
+Str_CC_CompPIN			"PIN firmy"
+Tip_CC_CompPIN			"Twój PIN firmy, jeśli wymaga go Administrator firmy"
+Str_CC_RunnerService	"Wł: Runner działa jako usługa, WYŁ: Runner działa w sesji użytkownika"
+Str_CC_ServiceSysUser	"Użytkownik Windows dla usługi Runner"
+Str_CC_ServiceSysUserMac "MacOS User for Runner Service"
+Str_CC_ServiceSysPwd	"Hasło Windows dla usługi Runner"
+Str_CC_MiniProgress		"Pokaż okno statusu gs-runner na pasku zadań"
+Str_CC_AllowUserClose	"Zezwalaj użytkownikowi na zamkykanie okna statusu gs-runner na pasku zadań"
+Str_CC_AdminCredsNeed   "Do przesyłania wymaganae jest poświadczenie Administratora. \nOkreśl je w "Narzędzia" -> "Opcje programu" -> "Bezpieczeństwo" -> "Centrum kontroli przesyłania""
+
+# Program Options -> Connection
+SMTP_options            "Serwer poczty wychodzącej (SMTP)"
+
+Str_SMTP_Enable         "Użyj serwera SMTP do wysyłanie wiadomości e-mail"
+Help_SMTP_Enable        "Zaznaczone: Zostanie użyty poniższy serwer SMTP do wysłania wiadomość o zakończonej analizie i synchronizacji.\n\nOdznaczone: Zostanie użyty domyślny klient MAPI."
+
+Str_SMTP_Host           "Serwer poczty wychodzącej (SMTP):"
+Help_SMTP_Host          "Wprowadź nazwę serwera poczty wychodzącej (SMTP). Serwer ten jest używany do wysyłania poczty e-mail po analizie i synchronizacji."
+
+Str_SMTP_Port           "Port:"
+Help_SMTP_Port          "Wprowadź numer portu SMTP, zazwyczaj 587 lub 25"
+
+Str_SMTP_UserID         "Nazwa użytkownika:"
+Help_SMTP_UserID        "Wprowadź nazwę użytkownika serwera poczty wychodzącej (SMTP), który wymaga uwierzytelnienia."
+
+Str_SMTP_Passwd         "Hasło:"
+Help_SMTP_Passwd        "Wprowadź hasło serwera poczty wychodzącej (SMTP), który wymaga uwierzytelnienia."
+
+Str_SMTP_SenderEmail    "Adres e-mail nadawcy:"
+Help_SMTP_SenderEmail   "Wpisz adres e-mail i nazwę nadawcy, pojawi się ono w wierszu Od: wiadomości e-mail takich jak użytkownik@server.com, wysyłanych przez GoodSync"
+
+Str_SMTP_Secure			"Bezpieczne połączenie SMTP zawsze poprzez TLS/SSL (port 465)"
+Help_SMTP_Secure		"Zaznaczone: Połączenie zostanie zaszyfrowane przy użyciu protokołu SSL i portu 465. \n\n\Odznaczone: Połączenie nie będzie szyfrowane."
+
+Str_SMTP_StartTls		"Bezpieczne połączenie SMTP poprzez STARTTLS (port 587)"
+Help_SMTP_StartTls		"Zaznaczone: Rozpoczyna zwykłym tekstem na porcie 587, a następnie żąda TLS/SSL za pomocą polecenia STARTTLS.\n\nOdznaczone: Połączenie nie będzie szyfrowane."
+
+#
+# --- JOB OPTIONS ---
+#
+Str_Options             "Opcje"
+
+# Job Options - General
+Title_JobGeneral        "Ogólne"
+Tip_JobGeneral          "Zadanie ogólne"
+
+Options_job_type        "Typ zadania i sposób usuwania"
+Label_JobType           "Typ zadania"
+Str_JobType_TwoWay      "Synchronizacja 2-kierunkowa"
+Str_JobType_LeftToRight "Kopia z Lewej do Prawej (1-kierunkowa)"
+Str_JobType_RightToLeft "Kopia z Prawej do Lewej (1-kierunkowa)"
+Help_JobType            "Preferowany kierunek synchronizacji.\nZadania 2-kierunkowe umożliwiają synchronizację folderów Lewego i Prawego, nawet jeśli pliki zmieniają się po obu stronach.\nZadania 1-kierunkowe służą do synchronizacji tylko w jedną stronę (z Lewej do Prawej lub odwrotnie). Są używane głównie w celu tworzenia kopii zapasowych."
+
+Chk_DelPropagate        "Synchronizuj usunięcia"
+Help_DelPropagate       "Dla zadań 1-kierunkowych:\nZaznaczone: Jeśli pliki lub foldery zostaną usunięte przez użytkownika po stronie źródłowej, GoodSync usunie je także po stronie docelowej.\nOdznaczone: Jeśli pliki lub foldery zostaną usunięty przez użytkownika po stronie źródłowej, elementy te zostaną dodane do wykluczonych.\n\nDla zadań 2-kierunkowych:\nZaznaczone: Jeśli pliki lub foldery zostaną usunięte przez użytkownika z jednej strony, to podczas synchronizacji GoodSync usunie je także z drugiej strony.\nOdznaczone: Opcja nieaktywna (niedozwolne).\n "
+
+Str_ShowBalloon         "Wyświetlaj komunikaty w dymkach"
+Str_Mac_ShowNot         "Show notifications"
+Str_DoNotShowBalloon    "Nigdy"
+Str_ShowBalloonAlways   "Przy zmianach i synchronizacji"
+Str_ShowBalloonOnError  "Przy konfliktach i błędach"
+Help_ShowBalloon        "Wybierz kiedy GoodSync ma wyświetlać w dymkach w zasobniku systemowym."
+Help_Mac_ShowNot        "Choose when to display notification messages using Notification Center or Growl"
+
+Chk_CreateNewFolder     "Utwórz Lewy/Prawy folder synchronizacji, jeśli nie zostały odnalezione"
+Help_CreateNewFolder    "GoodSync utworzy Lewy i Prawy folder synchronizacji jeśli nie zostały odnalezione. Są wskazane podczas synchronizacji poszczególnych zadań."
+
+Recycled_files			"Kosz"
+
+Chk_SaveBakFiles        "Zapisz tylko ostatnią kopię usuniętych/zastąpionych plików w koszu"
+Help_SaveBakFiles       "Zaznaczone: Pliki które zostały usunięte/zastąpione przez GoodSync zostaną zapisane w koszu w folderze _gsdata _ / _ saved_. Zostaną zapisane tylko najnowsze wersje usuniętych/zastąpionych plików.\n\nOdznaczone: Usuniętych/zastąpionych plików nie będzie można już odzyskać."
+Chk_CleanupBakFiles     "Wyczyść folder _saved_ po podanej liczbie dni"
+Help_CleanupBakFiles    "Zaznaczone: Usuwa pliki, które zostały zapisane w folderze _gsdata_/_saved_ , po tym jak spędzą w nim określoną lub większą liczbę dni. Usunięcie nastąpi po synchronizacji.\n\nOdznaczone: Pliki zostaną zachowane w folderze _gsdata_/_saved_, i nigdy nie będą usuwane."
+Help_SavePrevDays       "Przechowuje poprzednie wersje usuniętych/zastąpionych plików w folderze _gsdata_/_saved_ przez podana liczbę dni."
+
+Chk_SavePastVersions    "Zachowaj wszystkie kopię usuniętych/zastąpionych plików w folderze z historią"
+Help_SavePastVersions   "Zaznaczone: Zapisuje pliki, które zostały usunięte lub zastąpione przez GoodSync do folderu _gsdata_/_history_. Wszystkie wersje są zapisywane. Za każdym razem gdy GoodSync nadpisze lub usunie plik, będzie on zapisany do folderu _gsdata_/_history_ ze znakiem czasu dodanym do jego nazwy.\n\nOdznaczone: Historia plików nie będzie zachowywana."
+Chk_CleanupPastVersions  "Wyczyść folder _history_ po podanej liczbie dni"
+Help_CleanupPastVersions "Zaznaczone: Usuwa pliki zapisane w folderze _gsdata_/_history_, po tym jak spędzą w nim podaną lub większą liczbę dni. Czyszczenie nastąpi po Synchronizacji.\n\nOdzaczone: Nigdy nie usuwa plików z folderu _gsdata_/_history_."
+Help_SavePastDays       "Przechowuj poprzednie wersje usuniętych/zastąpionych plików w folderze _gsdata_/_history_  przez podaną liczbę dni."
+
+Str_ReconnectSeconds    "Całkowita liczba sekund dla prób ponownego połączenia"
+Help_ReconnectSeconds   "Całkowita, dozwolona liczba sekund dla prób ponownego nawiązania połączenia dla każdej operacji systemu plików, które nie powiodły się ze względu na błąd połączenia."
+
+Str_WorkerThreads       "Liczba jednocześnie uruchomionych, równoległych wątków podczas synchronizacji:"
+Help_WorkerThreads      "Gdy zazaczone to może to przyspieszyć synchronizację z systemami plików, które mają długi czas oczekiwania i jednocześnie umożliwiają na kilka równoległych połączeń."
+
+SpeedLimit              "Ograniczenie prędkości kopiowania"
+Str_SpeedLimit          "Prędkość kopiowania pliku w kB/s"
+Help_SpeedLimit         "Ogranicz prędkość kopiowania (wysyłanie/pobieranie) jeśli średni stosunek Pobierania/Wysyłania przekracza podaną wartość w kB/s.\n0 oznacza 'Bez limitu'.\n125 oznacza 125kB/s lub 1Mb/s."
+
+TimeLimit				"Limit czasu"
+Str_MaxRunTime			"Maksymalny czas na wykonanie zadania (w minutach)"
+Help_MaxRunTime			"Zadanie zostanie zatrzymane gdy będzie działać dłużej niż podany czas (w minutach).\n0 oznacza brak limitu"
+
+AfterJobFinish			"Po zakończeniu zadania"
+Str_ShutdownOnFinish    "Wyłącz komputer po zakończeniu zadania"
+Help_ShutdownOnFinish   "Wyłącza komputer po wykonaniu tego zadania Analizy + Polecenie synchronizacji bez błędów terminala. OSTROŻNIE: Nastąpi zamknięcie zadań, które zostały uruchomione ręcznie lub automatycznie."
+
+
+
+# Job options - Filters page
+Title_Filters           "Filtry"
+Tip_Filters             "Filtry"
+Str_FilterExcluded      "Wyklucz"
+Str_FilterExcludedFull	"Wyklucz wybrane (brak wierszy: bez wykluczeń)"
+Help_FilterExcluded     "Pliki i foldery pasujące do dowolnego wiersza na tej liście zostaną wykluczone z synchronizacji. Mogą być użyte symbole wieloznaczne '*' i '?'. Wiersze, które zaczynają się od / wskazują na względne ścieżki folderu synchronizacji. Przykłady: *.txt *~ /Fo?der/*.obj size>1000 size<=5k (rozmiar < 5 Kb) size>4m (rozmiar > 4 Mb) time=2008/03/08 (Marzec 8, 2008) time>=-6d (czas >= 6 dni temu)"
+Str_FilterIncluded      "Dołącz"
+Str_FilterIncludedFull	"Dołącz wybrane (brak wierszy: dołącz wszystko)"
+Help_FilterIncluded     "Jeśli nie jest puste, synchronizacja obejmie tylko pliki, których nazwy pasują do jednego z wierszy tej listy Dołącz i nie pasują do żadnego wiersza listy Wyklucz. Obowiązują tutaj takie same reguły dopasowania wierszy jak w Wyklucz."
+Tip_Filter_New          "Wstaw nowy filtr"
+Tip_Filter_Edit         "Zmień wybrany filtr"
+Tip_Filter_Del          "Usuń wybrane filtry"
+Str_Filter_DummyText    "<Kliknij dwukrotnie by dodać nowy element>"
+Str_Edit                "Edytuj"
+
+Chk_ExcludeEmptyFolders  "Wyklucz puste foldery"
+Help_ExcludeEmptyFolders "Wyklucz puste foldery lub zawierające tylko wykluczone pliki i foldery"
+Chk_ExcludeHidden        "Wyklucz ukryte pliki i foldery"
+Help_ExcludeHidden       "Wyklucz pliki i foldery, które mają atrybut UKRYTY (HIDDEN)"
+Chk_ExcludeSystem        "Wyklucz systemowe pliki i foldery"
+Help_ExcludeSystem       "Wyklucz pliki i foldery, które mają atrybut SYSTEMOWY (SYSTEM)"
+Chk_ExcludeTemp 		 "Wyklucz pliki i foldery tymczasowe"
+Help_ExcludeTemp		 "Wyklucz pliki i foldery tymczasowe, które nie są warte zapisania"
+Str_FiltersChooseFiles   "Wybierz pliki/foldery, które mają być dołączone/wykluczone podczas synchronizacji."
+
+
+# Job options - Auto page
+Title_Auto              "Harmonogram"
+Tip_Auto                "Umożliwia skonfigurowanie zadań uruchamianych automatycznie przez określone zdarzenia."
+
+JobAutoAnalAndSync		"Automatyczna analiza i synchronizacja"
+
+Name_DoOnFileChange     "Po zmianie"
+Chk_DoOnFileChange      "Po zmianie pliku"
+Help_DoOnFileChange     "Analizuje i Synchronizuje zadanie po zmienie plików w folderach lub podfolderach po Lewej lub Prawej stronie. Początkowo wykonywana jest pełna analiza, następnie tylko zmienione pliki/foldery są analizowane w trybie zmian przyrostowych."
+Str_Delay               "Opóźnienie"
+Str_Sec                 "sekund"
+Help_AutoStartDelay     "Opóźnia uruchomienie zadania o podaną liczbę sekund, po uruchomieniu go przez zdefiniowane zdarzenie."
+
+Name_DoOnFoldersConnect "Połącz"
+Chk_DoOnFoldersConnect  "Po podłączeniu folderu"
+Help_DoOnFoldersConnect "Analizuje i Synchronizuje zadanie, gdy oba jego foldery (dyski) zostaną podłączone lub ustanowiono połączenie internetowe. Synchronizacja odbywa się również podczas uruchamiania GoodSync."
+
+Name_DoOnStart          "Rozpocznij"
+Chk_DoOnStart           "Przy uruchamianiu GoodSync, opóźnienie w sek."
+Help_DoOnStart          "Analizuje i Synchronizuje zadanie podczas uruchamiania GoodSync."
+Chk_DoOnGsStart         "Przy uruchamianiu GoodSync"
+
+Name_DoPeriodically     "Co"
+Chk_DoPeriodically      "Okresowo, co:"
+Help_DoPeriodically     "Analizuje i Synchronizuje zadanie co HH godzin MM minut."
+Str_Hour                "godzin"
+Str_Min                 "minut"
+
+Name_DoBeforeLogout     "Wyloguj"
+Chk_DoBeforeLogout      "Przed wylogowaniem"
+Help_DoBeforeLogout     "Analizuje i Synchronizuje zadanie przy zamykaniu, ponownym uruchamianiu lub wyłączaniu komputera. Jeśli podczas synchronizacji Windows wyświetla komunikat 'Program nie odpowiada', zignoruj go, aby GoodSync mógł dokończyć synchronizację."
+
+Str_DoOnSchedule        "Plan"
+Help_DoOnSchedule       "Analiza i Synchronizacja będzie uruchamiane zgodnie z harmonogramem ustawionym w oknie 'Konfiguruj'."
+Str_SchedConfig         "Konfiguruj..."
+Help_SchedConfig        "Kliknij, aby ustawić harmonogram realizacji dla tego zadania. Format harmonogramu jest podobny do narzędzia Cron."
+
+Str_ScheduleFor			"Harmonogram dla "
+Str_Schedule_Line1      "Zostanie uruchomiony zawsze, gdy wartości czasu będą zgodne z tymi wartościami:"
+Str_Schedule_Minute     "Minuta"
+Str_Schedule_Hour       "Godzia"
+Str_Schedule_DOM        "Dzień miesiąca"
+Str_Schedule_Month      "Miesiąc"
+Str_Schedule_DOW        "Dzień tygodnia"
+Str_Schedule_Explain    "(Pusty ciąg) pasuje do dowolnej wartości\nVal1, Val2, ..., ValN pasująca lista wartości\nn1-n2 pasujący zakres wartości od n1 do n2\nn1-n2/n3 pasujący zakres n1 do n2 z krokiem co n3\n\nPrzykład: Minuta=15 Godzina=03 Miesiąc=3-10/3 Dzień tygodnia=1,3,5\nUruchomi zadanie o 03:15 w każdy Pon, Śr, Pt w Marcu, Czerwcu, Wrześniu"
+
+Str_Unattended          "Nienadzorowany: Uruchom bez interfejsu użytkownika"
+Help_Mac_AutoUnattended "If checked then GoodSync Runner Service will auto-run this job with no User Interface, so it can run even when you are logged out from your User account. Job is run without user interaction, so you will see job status but not the sync tree. Select Job -> Open Left/Right Logs to see the logs. This mode applies to all Auto options."
+
+AdvancedAuto			"Opcje zaawansowane"
+
+Str_AutoRunMode         "Tryb uruchamiania"
+Str_AutoUnattended      "Uruchom bez interfejsu użytkownika (nienadzorowane)"
+Help_AutoUnattended     "Zaznaczone: Usługa GoodSync Runner automatycznie uruchomi zadanie bez interfejsu użytkownika, dzięki czemu może działać nawet po wylogowaniu się z konta systemu Windows. Zadanie jest uruchamiana bez udziału użytkownika, więc będzie widoczny tylko stan zadania bez drzewa synchronizacji. Wybierz 'Zadanie' następnie 'Otwórz dziennik Lewej/Prawej strony', aby zobaczyć szczegóły. Tryb ten dotyczy wszystkich opcji z 'Harmonogram'."
+
+Str_LimitChanges        "Nie synchronizuj jeśli zmieniło się więcej plików niż:"
+Help_LimitChanges       "Automatyczna synchronizacja nie jest przeprowadzana jeśli zmieniła się większa liczba plików niż ta określona przez użytkownika. Bardzo duża liczba zmienionych plików oznacza, że coś może być nie tak i wymagana jest ręczna interwencja. Ustaw na 100%, aby synchronizować niezależnie od liczby zmienionych plików."
+
+Chk_WaitForLocks        "Czekaj na usunięcie blokady przez podaną liczbę minut:"
+Help_WaitForLocks       "Zaznaczone: Operacja analizy zostanie wstrzymana do momentu, aż pliki lock.gsl zostaną usunięte przez inne zadanie, które ustawiły je w trakcie synchronizacji. Domyślny czas oczekiwania wynosi 20 minut.\n\nOdznaczone: Wyświetla błąd blokady, gdy podczas analizy zostaną znalezione pliki lock.gsl."
+
+Msg_Override_Locks      "Po kliknięciu 'Analizuj' nadpisuj plik blokady lock.gls, gdyż inne zadania zostały nieprawidłowo zakończone"
+Msg_Override_BadState   "Usuń uszkodzone pliki stanu po ponownym kliknięciu 'Analizuj'"
+
+Str_ResolveConflicts    "Automatycznie rozwiąż konflikty:"
+Help_ResolveConflicts   "Wymuszaj automatyczne rozwiązywanie konfliktów dla zadań synchronizowanych automatycznie. W przypadku zadań niezautomatyzowanych wszystkie konflikty są rozwiązywne jako 'Nie kopiuj', jeśli nie były zmodyfikowane przez użytkownika. Dotyczy tylko zadań 2-kierunkowych, ponieważ zadania 1-kierunkowe nie powodują konfliktów."
+Str_DoNotCopy           "Nie kopiuj"
+Str_LeftSideWins        "Lewa strona wygrywa"
+Str_RightSideWins       "Prawa strona wygrywa"
+Str_NewerFileWins       "Nowsze pliki wygrywają "
+Str_StopSync            "Zatrzymaj synchronizację"
+
+Str_RenameLosingFile    "Rozwiązywanie konfliktów: Zmień nazwę przegrywającego pliku, nie usuwaj"
+Help_RenameLosingFile   "Podczas automatycznego rozwiązywania konfliktów, zmienia nazwę pliku, który przegrał, na '<Nazwa pliku> (Konfliktowa kopia od <Komputer> na <Data>).ext'"
+
+Str_AutoClear           "Automatyczne wyczyść drzewo po zakończeniu Analizy/Synchronizacji"
+Help_AutoClear          "Automatycznie wyczyści drzewo zmian po zakończeniu opracji Analizy/Synchronizacji"
+
+Str_NotInPortable       "Niedostępne w wersji przenośnej"
+
+
+# Job options - Scripts page
+Title_Script            "Skrypty"
+Tip_Script              "Skrypty"
+Str_CallingProgramEmail "Wywołanie programów i wysyłanie wiadomości e-mail"
+
+Str_PreAnalyze			"Przed analizą:"
+Help_PreAnalyzeProgram	"Jeśli podano adrese e-mail wtedy przed rozpoczęciem analizy wyśle dziennik na ten adres  (za pomocą serwera, Narzędzia -> Opcje programu... -> Połączenie). Jeśli nazwa programu z parametrami, uruchomi ten program przed rozpoczęciem Analizy."
+
+Str_PostAnalyzeNoChanges "Analiza bez synchronizacji:"
+Help_PostAnalyzeEmailOrProgram	"Jeśli podano adres e-mail wtedy po analizie wyśle dziennik na ten adres  (za pomocą serwera, Narzędzia -> Opcje programu... -> Połączenie). Jeśli nazwa programu z argumentami, uruchomi ten program po zakończonej analizie bez synchronizacji po niej."
+
+Str_PostSync			"Po synchronizacji:"
+Help_PostSyncEmailOrProgram	"Jeśli podano adres e-mail wtedy po zakończonej Synchronizacji wyśle dziennik synchronizacji (ze zmianami) na ten adres (za pomocą serwera, Narzędzia -> Opcje programu... -> Połączenie). Jeśli nazwa programu z argumentami, uruchomi ten program po zakończonej synchronizacji (ze zmianami)."
+
+Str_Variables           "Zmienne które mogą być użyte w argumentach programu/e-mail:"
+Str_ScriptOptLegend "\n'errors: ' prefix: uruchom/e-mail tylko wtedy, gdy wystąpią błędy\n'nowait: ' prefix: nie czekaj do końca programu\n'noattach: ' prefix: nie dołączaj pliku dziennika do e-mail\nuser@email-co.com: Tekst e-mail ze zmiennymi -- wyśle niestandardowy e-mail\n"
+Str_VarOptLegend "%%JOBNAME%%\tnazwa zadania\n%%RESULT%%\twynik: pusty dla ok lub 'komunikat o błędzie'\n%%LOGPATH%%\tścieżka pliku dziennika\n%%LF%% %%RF%%\tlewy lub prawy folder\n%%LF_ACT%%\tlewy folder rozwiązany\n%%RF_ACT%%\tprawy folder rozwiązany\n%%CHANGED%%\tliczba zmienionych pozycji w Po-Analizie\n%%ERRORS%%\tliczba błędów w Po-Analizie lub Po-Synchronizacji\n%%CONFLICTS%%\tliczba konfliktów w Po-Analizie lub Po-Synchronizacji\n%%SYNCOK%%\tliczba pozycji Zsynchronizowanych-OK w Po-Synchronizacji\n%%SYNCCHG%%\tliczba Zsynchronizowanych-OK zmian w plikach w Po-Synchronizacji\n%%TSTART%%\tczas rozpoczęcia\n%%TFINISH%%\tczas zakończenia\n%%TELAPSED%%\tczas trwnia w min."
+
+
+# Job Options - Advanced
+Title_JobAdvanced       "Zaawansowane"
+Tip_JobAdvanced         "Zaawansowane"
+
+Title_JobLeftSide       "Lewa strona"
+Tip_JobLeftSide         "Opcje Lewej strony"
+
+Title_JobRightSide      "Prawa strona"
+Tip_JobRightSide        "Opcje Prawej strony"
+
+Chk_CopyCreateTime      "Kopiuj czas utworzenia pliku"
+Help_CopyCreateTime     "Zaznaczone: Kopiuje czas utworzenia i modyfikacji pliku.\n\nOdznaczone: Kopiuje tylko czas modyfikacji pliku. Dostępne tylko w systemie plików Windows."
+Help_Mac_CopyCreateTime "Zaznaczone: Kopiuje czas utworzenia i modyfikacji pliku.\n\n.Odznaczone: Kopiuje tylko czas modyfikacji pliku. Dostępne tylko w systemie plików Windows i Mac."
+
+Chk_CopyOrigFileNames       "Kopiuj oryginalne nazwy plików systemowych"
+Help_Mac_CopyOrigFileNames  "Nie zmieniaj symboli zabronionych (? \\ <> | * \ ") w nazwach plików. Ostrożnie! Ta opcja działa poprawnie TYLKO w zadaniach z Mac do Mac!"
+
+Chk_CopyAttrs           "Kopiuj atrybuty"
+Help_CopyAttrs          "Kopiuje atrybuty: ukryty, systemowy, tylko do odczytu i archiwalny. Działa tylko z systemu Windows do Windows."
+
+Chk_CopyAttrs_Unix      "Kopiuj uprawnienia"
+Help_CopyAttrs_Unix     "Kopiuje uprawnienia rwxrwxrwx. Działa tylko z Mac do Mac lub z Unix do Unix."
+
+Chk_CopyOwner           "Kopiuj właściciela"
+Help_CopyOwner          "Kopiuje właściciela pliku/folderu. Działa tylko w zadaniach na systememie plików NTFS do NTFS lub zadaniach Mac do Mac."
+
+Chk_CopyACL             "Kopiuj ACL"
+Help_CopyACL            "Kopiuje ACL (Listę Kontroli Dostępu), gdy kopiowany jest plik lub folder. Kopiowanie DACL (ale nie SACL) działa tylko podczas synchronizacji w systemach plików NTFS na NTFS, pliki muszą znajdować się w tej samej domenie NT."
+
+Chk_CopyACL_Mac         "Kopiuj ACL"
+Help_CopyACL_Mac        "Copy Access Control Lists when file or folder is copied. Works only in HFS to HFS syncs"
+
+Chk_CopyExtendedAttrs   "Kopiuj atrybuty rozszerzone"
+Help_CopyExtendedAttrs  "Kopiuje atrybuty rozszerzone. Działa tylko podczas synchronizacji z Mac HFS do Mac HFS."
+
+Chk_CompareCheckSumAll	"Porównaj sumy kontrolne wszystkich plików (wolne)"
+Help_CompareCheckSumAll	"Zaznaczone: Porówna sumy kontrolne wszystkich plików (nawet jeśli rozmiar i czas modyfikacji pliku jest taki sam); po synchronizacji suma kontrolna każdego pliku w katalogu źródłowym zostanie porównana z sumą kontrolną pliku w katalogu docelowym by upewnić się że pliki zostały skopiowane bez błędów. Opcja ta powoduje że synchronizacja jest wolniejsza ale gwarantuje że zawartość plików jest taka sama (dzięki porównaniu sum kontrolnych)\n\nOdznaczone: Porówna tylko rozmiar oraz czas modyfikacji pliku w celu ustalenia czy pliki się zmieniły, bez weryfikacji kopi plików po synchronizacji."
+
+
+Chk_CopyLocked          "Kopiuj zablokowane pliki za pomocą migawek VSS"
+Help_CopyLocked         "Użyje Volume Shadow Service do kopiowania plików zablokowanych przez inny proces. Niedostępne w Windows 2000. Wymaga 64-bitowej wersji GoodSync w systemach 64-bitowych."
+
+Chk_RetrySyncIfFileChanges   "Ponów synchronizację jeśli plik źródłowy zmienił sie między Analizą, a Synchronizacją"
+Help_RetrySyncIfFileChanges  "Zaznaczone: Jeśli plik zmianił się po analizie lub w trakcie synchronizacji, wtedy natychmiast ponowi synchronizację tego pliku.\n\nOdzaznaczone: Jeśli plik zmianił się po analizie lub w trakcie synchronizacji, to zakończy synchronizację i pozwoli następnej analizie skorygować nowo powstałe różnice."
+
+Chk_UberUnlockedUploads     "Tryb odblokowania Uber: Pliki źródłowe mogą być usuwane podczas przesyłania"
+Help_UberUnlockedUploads    "Zaznaczone: Pliki źródłowe mogą być usuwane lub przenoszone podczas przesyłania, nie są one w żaden sposób zablokowane.\n\nOdznaczone: Użyje systemowego trybu odblokowań dla wysyłania, nadal blokowane są pliki źródłowe przed przeniesieniem lub usunięciem."
+
+Chk_DetectsMovesRenames     "Wykryj przeniesienie i zmianę nazwy pliku i folderu"
+Help_DetectsMovesRenames    "Zaznaczone: Wykrywane są przeniesienia oraz zmiany nazw plików i folderów.\n\nOdznaczone: Przeniesienia oraz zmiany nazw plików są traktowane jako nowa kopia pliku, a stary plik jest usuwany."
+
+Chk_CalcReqSpace       "Oceń ilość miejsca na dysku potrzebnego dla synchronizacji"
+Help_CalcReqSpace      "Zaznaczone: Obliczy ile wolnego miejsca na dysku jest potrzebne do ukończenia synchronizacji. Włączaj dla zadań, które zapisują na dyski z ograniczoną ilością wolnego miejsca.\n\nOdznaczone: Dla zadań, które z małym prawdopodobieństwem przepełnią dyski, bo wolnego miejsca jest pod dostatkiem po obu stronach."
+
+
+Radio_OneWayDeleteSource "Tryb przenoszenia: Usuń źródło po skopiowaniu"
+Help_OneWayDeleteSource  "Zadania 1-kierunkowe: Usunie pliki źródłowe po pomyślnym skopiowaniu ich do folderu docelowego. To skutecznie przenosi pliki z folderu źródłowego do docelowego."
+Warn_OneWayDeleteSource  "Czy na pewno chcesz usunąć pliki źródłowe po skopiowaniu ich do miejsca docelowego?\nUsuniętych plików nie będzie można odzyskać po stronie źródłowej.\nKliknij przycisk TAK tylko wtedy, gdy jesteś tego pewien."
+
+Check_DeleteEmptyFolders "Tryb przeniesienia: Usuń puste foldery po skopiowaniu"
+Help_DeleteEmptyFolders  "Usuwanie pustych folderów w trybie przeniesienia: Usuwa folder źródłowy jeśli staje się on pusty po synchronizacji"
+
+
+LinksOption             "Dowiązania symboliczne (links) i węzły (junction):"
+Radio_Ignore            "Ignoruj"
+Help_Links_Ignore       "Zaznaczone: GoodSync zignoruje dowiązania symboliczne i węzłydo plików i folderów."
+
+Radio_CopyAsIs          "Kopiuj tak jak są"
+Help_Links_CopyAsIs     "Zaznaczone: GoodSync skopiuje linki do tych samych linków po stronie docelowej. Zauważ, że skopiowane linki mogą wskazywać na pliki, które nie zostały skopiowane, ponieważ znajdowały się poza drzewem skopiowanych folderów."
+
+Radio_DrillDown         "Kopiuj hierarchię linków"
+Help_Links_DrillDown    "Zaznaczone: GoodSync Drills down Links. Oznacza to, że link do folderu zostanie skopiowany jako jego folder docelowy i link do pliku zostanie skopiowany jako jego plik docelowy. Należy pamiętać, że mogą pojawić się duplikaty pliku, jako że więcej niż jeden link może wskazywać na ten sam plik po stronie źródła"
+
+
+#
+# Left/Right side options
+#
+Title_Left_Side         "Lewa strona"
+Tip_Left_Side           "Opcje Lewej strony"
+Title_Right_Side        "Prawa strona"
+Tip_Right_Side          "Opcje Prawej strony"
+
+Str_Side_Analyze        "Opcje analizy: Co zrobić gdy pliki się różnią"
+
+Chk_CompareFileSizeTime "(x) Porównaj rozmiar pliku i czas modyfikacji"
+
+Chk_CompareCheckSumSide	 "W razie potrzeby porównaj sumy kontrolne plików (wolne)"
+Help_CompareCheckSumSide "Zaznaczone: Jeśli analiza wykaże że rozmiar pliku nie zmienił się po tej stronie, ale zmienił się czas modyfikacji pliku wtedy porówna sumę kontrolną pliku by zweryfikować czy plik istotnie uległ zmianie. Po synchronizacji porówna sumy kontrolne pliku źródłowego oraz pliku z miejsca docelowego żeby upewnić się że pliki zostały skopiowanie poprawnie\n\nOdznaczone: Porównuje tylko rozmiar pliku oraz czas modyfikacji pliku by ustalić czy plik zmienił się po tej stronie, bez weryfikacji pliku po synchronizacji."
+
+Chk_CompareAttrs        "Porównaj atrybuty"
+Help_CompareAttrs       "Jeśli analiza wykaże że zawartość pliku nie zmieniła się po tej stronie, ale zmieniły się atrybuty tego pliku, wtedy zadeklaruje tylko zmianę atrybutów po tej stronie. Działa tylko przy synchronizacji w systemach NTFS do NTFS."
+
+Chk_CompareAttrs_Unix   "Porównaj uprawnienia"
+Help_CompareAttrs_Unix  "Jeśli analiza wykaże że zawartość pliku nie zmieniła się po jednej stronie, ale zmieniły się uprawnienia tego pliku, wtedy zadeklaruje tylko zmianę uprawnień po tej stronie. Działa tylko przy synchronizacji na komputerach Mac do Mac."
+
+Chk_CompareOwner       "Porównaj właściciela"
+Help_CompareOwner      "Jeśli analiza wykaże że zawartość pliku nie zmieniła się po tej stronie, ale zmienił się właściciel tego pliku, wtedy zadeklaruje tylko zmianę właściciela po tej stronie."
+
+Chk_CompareACL         "Porównaj ACL (wolne)"
+Help_CompareACL        "Jeśli analiza wykaże że zawartość pliku nie zmieniła się po tej stronie, ale ACL tego pliku zmienił się, wtedy zadeklaruje tylko zmianę ACL po tej stronie. Działa tylko podczas synchronizacji w systemach plików NTFS na NTFS, pliki/foldery muszą znajdować się w tej samej domenie NT."
+
+Chk_CompareACL_Mac     "Porównaj ACL"
+Help_CompareACL_Mac    "If Analyze sees that file body did not change on this side but ACL of this file has changed then declare ACL-only change on this side. Works only in HFS to HFS syncs"
+
+Chk_CompareExtendedAttrs "Porównaj atrybuty rozszerzone"
+Help_CompareExtendedAttrs "Jeśli analiza wykaże że plik nie zmienił się po jednej stronie, ale atrybuty rozszerzone tego pliku uległy zmianie, wtedy zadeklaruje zmiane atrybutów rozszerzonych tylko po tej stronie. Działa tylko z Mac (HFS) do Mac (HFS)."
+
+
+Str_Side_Exotic "Opcje nietypowe (nie zmieniaj)"
+
+Chk_NoGsData_Side		"Nie twórz folderu _gsdata_"
+Help_NoGsData_Side      "Zaznaczone: Nie utworzy folderu _gsdata_ po tej stronie zadania, zamiast tego utworzy folder _gsdata_ w folderze profilu GoodSync na tym komputerze.\n\nOdznaczone: Utworzy folder _gsdata_ w folderze synchronizacji po tej stronie co zadania. Użyj tej opcji tylko dla folderów, które nie zostały zsynchronizowane z innmi folderami przez inne zadania na tym lub na innych komputerach."
+Warn_KeepGsData         "Czy na pewno chcesz zachować folder _gsdata_ w folderze profilu GoodSync?\nTa opcja jest tylko dla zaawansowanych użytkowników i należy przeczytać instrukcję przed jej wybraniem."
+Warn_MoveGsData         "Czy na pewno chcesz przenieść folder _gsdata_ z powrotem do folderu synchronizacji?\nTa opcja jest dla zaawansowanych użytkowników i należy przeczytać instrukcję przed jej wybraniem."
+
+
+
+Chk_FastPreAnalyze      "Nie wyświetlaj folderów podczas analizy (niebezpieczne)"
+Help_FastPreAnalyze     "Zaznaczone: Nie skorzysta listy folderów, aby zobaczyć co w nich jest podczas Analizy, zamiast tego zaufa plikowi stanu GoodSync aby uzyskać listę plików.\n\nOdznaczone: Przeprowadzi pełną analizę, z listą wszystkich folderów. Opcja ta może być używana, jeśli tylko GoodSync (nie Ty i nie inny program) zmienia pliki w folderze i podfolderach na tej stronie. NIE należy używać tej opcji, chyba że naprawdę WIESZ co robisz."
+
+Chk_UseSafeCopy         "Bezpieczna kopia przy użyciu plików tymczasowych"
+Help_UseSafeCopy        "Zaznaczone: Podczas kopiowania pliku do folderu docelowego, plik jest najpierw kopiowany jako tymczasowy, a następnie jego nazwa zmieniana jest na docelową. Zapobiega to pozostawieniu niekompletnych plików w przypadku, gdy operacja synchronizacji zostanie niespodziewanie przerwana. Wymaga jednak dodatkowej przestrzeni dyskowej, w szczególności dla dużych plików.\n\nOdznaczone: Kopiuje pliki bezpośrednio do folderu docelowego. Działa szybciej, ale może spowodować utratę plików."
+
+
+Str_Side_Encryption  "Szyfrowanie po stronie klienta"
+
+Chk_Encrypt_FileAll  "Szyfruj zawartość plików i nazwy"
+Help_Encrypt_FileAll "Jeśli zaznaczone, pliki i nazwy zostaną zaszyfrowane za pomocą 256-bitowego klucza AES oraz losowych danych, rozmiar pliku zwiększy się o 32 bajty"
+
+Chk_Encrypt_FilePaths  "Szyfrowanie nazw plików (niedostępne jako samodzielne zadanie)"
+Help_Encrypt_FilePaths "Zaznaczone: Szyfruje nazwy pliku/folderu w folderze synchronizacji, za pomocą 256-bitowego klucza AES."
+
+Chk_Encrypt_FileBodies  "Szyfrowanie zawartości plików (niedostępne jako samodzielne zadanie)"
+Help_Encrypt_FileBodies "Zaznaczone: Szyfruje zawartość plików za pomocą 256-bitowego klucza AES i losowego łańcucha, rozmiar pliku wzrośnie o 32 bajty"
+
+Chk_Encrypt_Password    "Hasło szyfrowania:"
+Chk_Encrypt_Password2   "Hasło szyfrowania (powtórz):"
+Help_Encrypt_Password   "Hasło szyfrowania (klucz do zaszyfrowania zawartości plików i nazw)"
+
+Btn_Encrypt_Test             "Test szyfrowania"
+Help_Encrypt_Test            "Kliknij, aby przetestować szyfrowanie: spróbuj odczytać istniejący folder z określonym hasłem"
+Msg_Encr_Test_Empty          "Zaszyfrowany folder jest teraz pusty i jest gotowy do wypełnienia zaszyfrowanymi plikami, gdy synchronizujesz je z nieszyfrowanego foldereu."
+Msg_Encr_Test_List_Encrypted "Zaszyfrowany folder pokaże te pliki i foldery, jeśli próbujesz odszyfrować je za pomocą podanego hasła szyfrowania.\n\nJeśli te nazwy wyglądają jak bełkot, hasło szyfrowania jest nieprawidłowe.\nJeśli rozpoznajesz nazwy, hasło szyfrowania jest prawidłowe.\nJeśli nie pamiętasz hasła szyfrowania, kliknij przycisk 'Opróżnij folder synchronizacji', a następnie zsynchronizuj ponownie z folderem źródłowym.\n"
+Msg_Encr_Test_List_Plain     "Folder synchronizacji pokazuje te pliki i foldery, a Ty określasz czy występuje szyfrowanie.\n\nJeśli te nazwy wyglądają jak bełkot, włącz szyfrowanie i wprowadź poprawne hasło szyfrowania.\nJeżeli nie pamiętasz hasła szyfrowania, kliknij przycisk 'Opróżnij folder synchronizacji', a następnie zsynchronizuj z folderem źródłowym.\n"
+Msg_Encr_Test_Result         "Wyniki testowania szyfrowania folderu %1:\n\n%2"
+
+Warn_Encrypt_Changed         "Opcja szyfrowania lub hasło zostały zmienione dla folderu %1.\nOznacza to, że będziesz musiał ponownie zaszyfrować cały folder docelowy.\nJeśli nie masz pewności co do parametrów szyfrowania, kliknij przycisk 'Nie', a następnie użyj przycisku 'Test szyfrowania', aby sprawdzić, czy hasło szyfrowania działa na tym folderze.\nKliknij 'Nie' tylko po przetestowaniu lub opróżnieniu synchronizowanego folderu.\nCzy chcesz zatwierdzić opcje szyfrowania ?"
+
+Job_Opt_Title_Pwd_DontMatch	 "Hasła nie pasują"
+Job_Opt_Encr_Pwd_Short	     "Hasło szyfrowania nie może być krótsze niż 8 znaków"
+
+Btn_Delete_Create_Folder     "Folder synchronizacji jest pusty"
+Help_Delete_Create_Folder    "Usuń folder synchronizacji i utwórz nowy w jego miejsce, aby można było wykonać z nim nową synchronizację"
+Ask_Delete_Create_Folder     "Czy na pewno chcesz usunąć folder %1 wraz z jego zawartością i ponownie utworzyć go jako pusty ?"
+
+Str_Side_FileSystem "Specyficzny system plików"
+
+Browse_Str_PreferCompressed   "Skompresuj w NTFS"
+Browse_Tip_PreferCompressed   "Skompresuje tę stronę za pomocą kompresji LZ. Działa tylko na woluminach NTFS, a nie na FAT."
+Browse_Str_PreferUncompressed "Dekompresuj w NTFS"
+Browse_Tip_PreferUncompressed "Dekompresuje tę stronię jeśli jest skompresowana po drugiej stronie. Działa tylko na woluminach NTFS, a nie na FAT."
+Browse_Str_FatLike            "System plików FAT, który jest nie wykrywany"
+Browse_Tip_FatLike            "Użyje reguł systemu plików FAT, nawet jeśli system plików wskazuje że nie jest FAT. Niektóre urządzenia NAS nie zgłaszają swojego systemu plików."
+Browse_Str_PreferEncrypted    "Szyfruj z wykorzystaniem EFS"
+Browse_Tip_PreferEncrypted    "Zaszyfruje tę stronę za pomocą EFS. Działa tylko na woluminach NTFS, a nie na FAT. Nie działa na Windows XP Home lub Vista Home, wymagany jest co najmniej XP Pro lub Vista Business"
+Browse_Str_PreferDecrypted    "Odszyfruj za pomocą EFS"
+Browse_Tip_PreferDecrypted    "Odszyfruje tę stronę, gdy druga jest zaszyfrowana za pomocą EFS. Działa tylko na woluminach NTFS, a nie FAT. Nie działa na Windows XP Home lub Vista Home, wymagane jest co najmniej XP Pro lub Vista Business"
+Browse_Str_TimeTranslate      "System plików nie może skopiować/ustawić czasu modyfikacji pliku"
+Browse_Tip_TimeTranslate      "Zaznacz, jeśli ten system plików nie możne kopiować/ustawiać czasu modyfikacji pliku i wymagane jest zapamiętywanie rzeczywistego czasu w pliku stan."
+Browse_Mac_Str_UnmountOnDisc  "Odmontuj folder po synchronizacji"
+Browse_Mac_Tip_UnmountOnDisc  "Folder zostanie odmontowany po analizie lub zatrzymaniu synchronizacji"
+
+#
+# -- Misc Messages --
+#
+Warn_GoodSync           "Ostrzeżenie GoodSync"
+Warn_GoodSyncStrong     "Poważne ostrzeżenie GooodSync"
+
+Chk_DoNotAsk			"Nie pytaj ponownie"
+Str_MsgBoxTimeout		"Zamknięcie nastąpi za %1 sekund"
+
+Str_SignedAppNeeded		"Aplikacja nie jest poprawnie podpisana przez Siber Systems Inc.\nProszę, zainstaluj podpisaną wersję z https://www.goodsync.com/download"
+
+Str_StopJobsBeforeClose	"W tej chwili uruchomione jest jedno lub więcej zadań: %1.\nCzy chcesz zakończyć te zadania?\nKliknij OK, aby zatrzymać wszystkie zadania i wyjść.\nKliknij Anuluj aby powrócić do GoodSync."
+
+Str_Warn_HideToTray		"Automatycznego zadania nie można uruchomić jeśli GoodSync nie jest uruchomiony, więc GoodSync ukryje się w zasobniku systemowym jako ikona gdy go zamkniesz.\nAby to zmienić, odznacz opcję '%1' w Narzędzia -> Opcje programu..."
+
+Str_SyncOnLogoffAsk     "Nie jest możliwa synchronizacja przy wylogowaniu ponieważ Windows automatycznie kończy zadania przy wylogowaniu.\nCzy chcesz wyłączyć tą opcję w Windowsie?\n\nAby zmiany odniosły efekt konieczne jest ponowne uruchomienie programu."
+Str_SyncOnLogoffReason  "Synchronizacja przy wylogowaniu"
+Str_SyncOnLogoffJobs    "Synchronizacja przy wylogowaniu jest ustawiona dla następujących zadań:"
+
+# Tooltips
+Tooltip_Synchronizer    "GoodSync: Synchronizacja i kopia zapasowa plików"
+Tooltip_AnalyzingJob    "Analizowanie zadań"
+Tooltip_SyncingJob      "Synchronizowanie zadań"
+
+TT_SetLeftSyncFolder    "Klinij przycisk 'Przeglądaj', aby ustawić pierwszy (Lewy) folder do synchronizacji lub wpisz ścieżkę"
+TT_SetRightSyncFolder   "Klinij przycisk 'Przeglądaj', aby ustawić drugi (Prawy) folder do synchronizacji lub wpisz ścieżkę"
+TT_NewJob               "Nowe zadanie"
+TT_ClickToAnalyze       "Kliknij przycisk 'Analizuj', aby wykryć różnice między folderami i umożliwić operację synchronizacji"
+TT_ClickToSynchronize   "Kliknij przycisk 'Synchronizuj', aby wykonać synchronizację zaproponowaną przez operację analizy"
+
+TT_ClearLogs            "Wyczyść dzienniki"
+TT_CloseLogs            "Zamknij okno dziennika"
+TT_OpenLogs             "Otwórz okno dziennika"
+
+# Server Account and Job Sync
+Str_ServerAcctJobSync_Ask_On "Czy chcesz, aby GoodSync automatycznie tworzył kopie zapasowe i synchronizował pomiędzy komputerami Twoje:\n- Zadania, Grupy, Opcje programu (aby nie trzeba było ponownie tworzyć Zadań na każdym komputerze)?\n- Kont serwerów (aby nie trzeba było wpisywać hasła do serwera na każdym komputerze)?\n\nKliknij TAK, aby wyrazić zgodę na tworzenie kopii zapasowych i synchronizację zadań oraz kont serwerów za pośrednictwem konta GoodSync\nKliknij NIE, aby zachować tylko jedną lokalną kopię zadań i kont serwerów na tym komputerze (jak w wer. 10)"
+Str_ServerAcctJobSync_Ask_Off "Automatyczna synchronizacja Kont i Zadań jest teraz WŁĄCZONA.\nCzy chcesz wyłączyć automatyczną synchronizację Kont serwerów, Zadań, Grup, Opcji programu?"
+Str_ServerAcctJobSync_Ask_Merge "Czy chcesz *scalić* Lokalne konta serwera oraz Zadania-Grupy-Opcje\nz Globalnymi kontami serwerów i zadaniami przechowywanymi na serwerze GoodSync?\n\n- Kliknij TAK, aby *scalić* Lokalne konta serwerów i zadania z Globalnymi\n- Kliknij NIE, aby Globalne konta serwera i zadania *zastępowały* konta Lokalne\nZmiany zostaną wprowadzone, jeśli wybierzesz opcję Scal:"
+Str_ServerAcctJobSync_Changes "Zmiany na koncie, które zostaną dokonane, jeśli uruchomisz Narzędzia -> Jednorazowa synchronizacja konta:"
+Str_ServerAcctJobSync_SwitchExplain "Zmieniono konto GoodSync z '%1' na '%2'.\nGlobalna synchronizacja Zadań-Grup/Kont serwerów jest włączona,\nwięc teraz Twoje wszystkie lokalne Grupy zadań i konta serwerów zostaną zsynchronizowane z nowym kontem GoodSync,\npowodując usunięcie lokalnych zadań należących do starego konta GoodSYnc i \nzastępując je zadaniami należącymi do nowego konta GoodSync."
+
+# Update toolbar and messages
+Info_Update_Avail      "Pobrano nowszą wersja GoodSync. <a>Kliknij tutaj by zainstalować</a>"
+
+Info_Update_Available           "Dostępna jest nowsza wersja GoodSync."
+Info_Update_Click_To_Download   "Kliknij tutaj, aby ją zainstalować."
+
+Str_UpdateAvail_2	   "Dostępna jest nowsza wersja GoodSync %1, wydana %2."
+
+Str_Update_Ask         "Czy chcesz pobrać zaktualizowaną wersję?"
+Str_Update_Err_1       "Nie udało się pobrać informacji o wersji:\n%1\nCzy chciałbyś przejść do strony internetowej z najnowszą wersją GoodSync?"
+
+Str_Ver_YesNewVersion  "Dostępna jest nowsza wersja GoodSync %1, wydana %2. Obecnie posiadasz wersję %3"
+Str_Ver_NoNewVersion   "Posiadasz najnowszą wersję programu: %1\nCzy chcesz ponownie zainstalować tą samą wersję?"
+
+#
+# Create ticket
+#
+Ticket_File_Desc     "Poniższy plik zawiera informacje diagnostyczne.\nNie zawiera żadnych poufnych informacji z komputera."
+Ticket_Instruction   "Kliknij przycisk 'Kopiuj ścieżkę', aby skopiować do schowka ścieżkę pliku ZIP.\nKliknij link do wparcia GS, poniżej, podaj swój e-mail i kliknij 'Zaloguj'.\nOpisz swój problem w zgłoszeniu.\nKliknij 'Przeglądaj...' w sekcji 'Dołącz pliki'.\nNaciśnij Ctrl+V aby wkleić ścieżkę pliku ZIP do otwartego okna i 'Prześlij'."
+Ticket_Btn_Copy      "Kopiuj ścieżkę"
+
+Ticket_NeedAccount "Zarejestruj swój komputer na koncie GoodSync w menu Narzędzia -> Konfiguracja konta GoodSync, \nod teraz Konto GoodSync jest wymagane do kontaktu z pomocą techniczną"
+
+# Mini Mode
+Str_MiniDlgNoActiveJob  "<Brak aktywnych zadań>"
+
+
+#
+# Buy License dialog -- OLD, removed
+#
+BuyPro_Title           "Aktualizacja GoodSync"
+BuyPro_Text_ProFixed   "Uaktualnij GoodSync do płatnej wersji już dziś, aby uzyskać:\n- Nieograniczoną liczbę zadań,\n- Nieograniczoną liczbę plików w zadaniu, automatyczne uruchamianie zadań, wsparcie telefoniczne i więcej"
+BuyPro_Text_Pro2Go     "Uaktualnij GoodSync2Go do do płatnej wersji już dziś, aby uzyskać:\n- Nieograniczoną liczbę zadań,\n- Nieograniczoną liczbę plików w zadaniu, automatyczne uruchamianie zadań, wsparcie telefoniczne i więcej"
+BuyPro_Text_Server     "Uaktualnij do GoodSync Enterprise Server aby:\n- Usunąć ograniczenia wersji próbnej, otrzymać dedykowane wsparcie techniczne Enterprise, zdobyć swój własny Menadżer konta"
+BuyPro_Limit_Pro       "Przekroczono ograniczenia wersji darmowej. Aby kontynuować korzystanie z GoodSync, należy uaktualnić do wersji Pro lub ograniczyć zadania do 3 i pliki w zadaniu do 100 oraz nie używać opcji Harmonogramu."
+BuyPro_Limit_Server    "Uruchomiunie GoodSync na Windows Server wymaga licencji Enterprise Server."
+BuyPro_Link            "Kliknij tutaj, aby zobaczyć różnice między wersją darmową, a Pro"
+
+BuyPro_Text_WD_Pro		"Zaktualizuj do licencji płatnej GoodSync już dziś, aby uzyskać:\n- Nieograniczoną liczbę zadań, Więcej opcji dla źródła / miejsca docelowego"
+BuyPro_Text_WD_LimitPro	"Przekroczono ograniczenia wersji darmowej WD.\nZaktualizuj do licencji płatnej GoodSync WD już dziś, aby uzyskać nieograniczoną liczbę zadań."
+
+Str_Msg_SyncAgainAfterActiv "Po aktywacji GoodSync Pro kliknij ponownie przycisk 'Synchronizuj'"
+
+#
+# License Misc
+#
+License_Msg_HaveAlready "Masz już licencję, nie musisz aktywować"
+License_Msg_EnjoyTrial  "Ciesz się licencją próbną"
+License_Msg_TrialOver   "Okres próbny się skończył, a Twoje konto nie posiada płatnych licencji, użyj Narzędzia -> 'Zarządzaj kontem GoodSync', aby zobaczyć swoje licencje:\n"
+License_Msg_NeedAccount "Pamiętaj, że nie otrzymasz wersji próbnej, jeśli nie skonfigurujesz konta GoodSync"
+
+#
+# License Expiration Warning dialog
+#
+ProAd_Title_General    "Aktualizacja GoodSync"
+
+License_TrialExpired_Title		"Twoja bezpłatna wersja próbna GoodSync wygasła"
+License_TrialExpired_Text		"Okres próbny wygasł %1 dni temu."
+License_UpgradeNow_Button 		"Uaktualnij teraz"
+License_Activate_Link			"Już kupiłeś? Kliknij tutaj, aby aktywować"
+
+License_TrialExpires_Title		"Twoja bezpłatna wersja próbna GoodSync wygaśnie"
+License_TrialExpires_InDays	    "Okres próbny wygasa za %1 dni."
+License_TrialExpires_Today		"Okres próbny kończy się dzisiaj."
+License_TrialExpires_Tomorrow	"Twój bezpłatny okres próbny wygasa jutro"
+
+License_LicenseExpired_Title	"Twoja subskrypcja wygasła"
+License_LicenseExpired_Text		"Twoja licencja GoodSync wygasła %1 dni temu."
+
+License_LicenseExpires_Title	"Twoja subskrypcja wygasa"
+License_LicenseExpires_InDays	"Twoja licencja GoodSync wygaśnie za %1 dni."
+License_LicenseExpires_Tomorrow "Twoja subskrypcja wygasa jutro"
+License_LicenseExpires_Today	"Twoja licencja GoodSync wygasa dzisiaj."
+
+License_RenewExpl				"Powinieneś teraz odnowić swoją licencję, aby zapewnić działanie kopii zapasowej/synchronizacji."
+License_Renew_Button           	"Odnów teraz"
+
+License_PaidOnly_Title			"Funkcja tylko płatna"
+License_PaidOnly_Text_GS		"Funkcje dostępne tylko w płatnej wersji GoodSync: \nWięcej niż 3 zadania, ponad 100 pozycji w zadaniu, opcje automatyczne"
+License_PaidOnly_Text_WD		"Funkcje dostępne tylko w płatnej wersji GoodSync dla WD: \nWięcej niż 1 zadanie, systemy plików inne niż WD"
+
+License_Updated_NewExpiration	"Twoja licencja GoodSync została zaktualizowana.\nTwoja nowa data wygaśnięcia to %1."
+License_Updated_Expiration		"Twoja licencja GoodSync nie została zaktualizowana.\nTwoja data wygaśnięcia to %1."
+
+License_SelfAdv_BsnsCaption		"Skontaktuj się z administratorem firmowego konta GoodSync"
+License_SelfAdv_Caption			"Korzyści z GoodSync:"
+License_SelfAdv_Benefit1		"Synchronizuj zadania GoodSync i konta serwerów między wszystkimi swoimi urządzeniami"
+License_SelfAdv_Benefit2		"Udostępniaj swoje foldery znajomym i współpracownikom w bezpieczny sposób"
+License_SelfAdv_Benefit3		"Automatyczne tworzenie kopii zapasowych zadań i ustawień GoodSync"
+License_SelfAdv_Benefit4		"Wsparcie priorytetowe. Przez system zgłoszeniowy i telefon, 24/7"
+
+License_SelfAdv_Renewal_Caption	"Oferta odnowienia subskrypcji"
+License_SelfAdv_Renewal_Text	"DARMOWE 10 GB miejsca w chmurze GoodSync czeka!\n\nPo odnowieniu wyślemy Ci e-mail z instrukcjami dotyczącymi odebrania 10 GB miejsca w chmurze GoodSync ZA DARMO (zwykle 10 USD rocznie).\n\nNie zostaniesz obciążony kosztami za 10 GB miejsca w chmurze GoodSync, tak długo, jak Twoja płatna subskrypcja GoodSync pozostanie aktywna."
+
+#
+# -- Log Viewer general --
+#
+LV_AppTitle					"Przeglądarka dziennika"
+LV_LogListTitle             "Nazwy plików dziennika"
+LV_OpenLogDlg               "Otwórz folder dziennika"
+LV_TotalLine                "Razem"
+
+# Log Viewer Error
+LV_Err_NoLogFileFound       "<Brak plików dziennika>"
+LV_Err_UnknownFs            "Nieznany system plików"
+LV_Err_CannotOpenFile2      "Nie można otworzyć pliku \"%1\": %2"
+LV_Err_ReadingFile2         "Błąd odczytu pliku \"%1\": %2"
+LV_Err_ParseCmdLine         "Błąd członu wiersza polecenia"
+
+# Log Viewer Find Window
+LV_Find                     "Znajdź:"
+LV_FindNext                 "Następny"
+LV_FindPrev                 "Poprzedni"
+LV_FindAll                  "Znajdź wszystkie"
+LV_FindCaseSens             "Wielkość liter"
+
+#Log Viewer Menu
+LV_MenuFile                 "Plik"
+LV_MenuView                 "Widok"
+LV_MenuOpen                 "Otwórz"
+LV_MenuExit                 "Wyjdź"
+LV_MenuCopyAsText           "Kopiuj zaznaczone do schowka"
+LV_MenuSelectAll            "Zaznacz wszystkie"
+LV_MenuDelete               "Usuń"
+LV_MenuFind                 "Znajdź"
+LV_MenuSelectFont           "Zaznacz czcionkę"
+
+#
+# -- Installer --
+#
+Install_GoodSync_Title  "Instalacja GoodSync"
+Install_Portable_Title  "Instalacja GoodSync2Go"
+Install_Welcome_Header  "Witamy w GoodSync"
+Install_Welcome_Header_MidServer   "Witamy w GoodSync dla Windows Server"
+Install_Welcome_Header_FileServer  "Witamy na serwerze plików GoodSync"
+Install_Welcome_Header_BsnsClient  "Witamy w GoodSync Enterprise Workstation"
+Install_Welcome_Header_CC_Runner   "Witamy w Centrum Kontroli Runner"
+Install_Welcome_Header_WD          "Witamy w GoodSync dla WD"
+Install_Legal_Part1     "Kontynuując, akceptuję warunki GoodSync"
+Install_Legal_Part2     "Warunki użytkowania"
+Install_Legal_Part3     " oraz "
+Install_Legal_Part4     "Polityka prywatności"
+Install_Next            "Dalej"
+Install_Back            "Wstecz"
+Install_Cancel          "Anuluj"
+Install_AbortMessage    "Czy na pewno chcesz zatrzymać instalację GoodSync?"
+Install_Install         "Zainstaluj"
+Install_ShowAllDrives   "Pokaż wszystkie dyski"
+Install_Start_GoodSync  "GoodSync został pomyślnie zainstalowany.\nCzy chcesz go uruchomić?"
+Install_Start_2Go       "GoodSync2Go został pomyślnie zainstalowany.\nCzy chcesz go uruchomić?"
+
+Uninstall_Approve       "Czy chcesz odinstalować %1 ?"
+Uninstall_DeletePvt     "Usuń prywatne dane (Zadania, Poświadczenia, Dzienniki)"
+Uninstall_Uninstalling  "Odinstalowywanie "
+Unintsall_PrivateWarn   "Jeśli klikniesz Tak, wszystkie zadania GoodSync, poświadczenia i dzienniki zostaną usunięte.\nCzy nadal chcesz to zrobić?"
+
+#
+# --- For Mac ---
+#
+Str_Mac_GSFolder				"Folder"
+Str_Mac_FinderFavorities        "~Ulubione"
+
+Str_Mac_WelcomeScreenTitle      "Welcome"
+Str_Mac_StartupScreen_WelcomeDescr "Backup or Synchronize your files"
+Str_Mac_StartupScreen_Btn_Create   "Utwórz nowe zadanie"
+Str_Mac_StartupScreen_Str_HowTo    "How to start"
+Str_Mac_StartupScreen_Str_YesEasy   "- Tak, to proste!"
+Str_Mac_GSStartUpScreen_CheckSucc                   "Login succeeded"
+Str_Mac_GSStartUpScreen_CreationSucc				"Creation succeeded"
+Str_Mac_GSStartUpScreen_HaveGSAccount               "I have GoodSync Connect Account"
+Str_Mac_GSStartUpScreen_CreateGSAccount             "Create GoodSync Connect Account"
+Str_Mac_GSStartUpScreen_WillInstallGSServer         "GoodSync will install GoodSync server to provide better synchronization."
+Str_Mac_GSStartUpScreen_WillUpdateGSServer          "GoodSync will update GoodSync server to provide better synchronization."
+Str_Mac_GSStartUpScreen_GSServerInstallFailed       "GoodSync server installation failed"
+Str_Mac_GSStartUpScreen_GSServerUpdateFailed        "GoodSync server update failed"
+Str_Mac_GSStartUpScreen_PassNotMatch                "Passwords do not match"
+Str_Mac_GSStartUpScreen_WillRemoveGSServer          "GoodSync will remove GoodSync server"
+Str_Mac_GSStartUpScreen_RemoveGSServerStatus        "Goodsync Connect was removed succesfully"
+Str_Mac_GSStartUpScreen_UpdateGSServerStatus        "Goodsync Connect was updated succesfully"
+Str_Mac_GSStartUpScreen_InstallGSServerStatus       "Goodsync Connect was installed succesfully"
+Str_Mac_GSStartUpScreen_ConfPassword                "Confirm Password"
+
+Str_Mac_ToolTipInStatusBar_Create    "Utwórz nowe zadanie"
+Str_Mac_ToolTipInStatusBar_Delete    "Usuń zadanie"
+Str_Mac_ToolTipInStatusBar_JobActions  "Job actions"
+Str_Mac_ToolTipInStatusBar_ShowHideLog  "Pokaż\Ukryj dziennik"
+
+Cmd_Mac_Str_Show					"Show"
+Cmd_Mac_Str_Hide					"Hide"
+
+Str_Mac_Done                        "Done"
+
+# Grant Full Disk Permissions dialog
+Str_Mac_FDA_Title       "GoodSync requires Full Disk Access"
+Str_Mac_FDA_Info        "To backup your Application Data (Mail, Calendars etc.) and system protected folders, grant GoodSync, gs-server and gs-runner access to that data."
+Str_Mac_FDA_OpenPrivTab "Open Privacy Tab, select Full Disk Access"
+Str_Mac_FDA_Lock        "Click the lock icon to allow changes"
+Str_Mac_FDA_Drag        "Drag GoodSync icon below to Full Disk Access list"
+
+Btn_Mac_OpenSPSecPriv   "Open Security & Privacy Preferences"
+
+# Old Style Browse Dlg mac strings
+Browse_Mac_Btn_Disconnect		"Odłącz"
+Browse_Mac_Str_Address          "Adres"
+Browse_Mac_Str_Enter_Info       "Enter '%1' connection info and press \"Connect\""
+Browse_Mac_Str_ChooseFld        "Choose '%1' folder and press OK"
+Browse_Mac_Str_Network_UpdateBtn        "Update"
+Browse_Mac_Str_Network_NetworkEnv       "Network Environment"
+Browse_Mac_Str_Network_IP_Column        "IP Address"
+Browse_Mac_Str_Network_Desc_Column      "Description"
+Browse_Mac_Str_Size                     "Size"
+Browse_Mac_Chk_ShowHidden               "Show hidden Files/Folders"
+
+Cmd_Mac_ShowLeftTrashBin            "Left trash bin"
+Cmd_Mac_ShowRightTrashBin           "Right trash bin"
+Cmd_Mac_MakeGSDataVisible           "Make gsdata visible"
+Cmd_Mac_MakeGSDataInVisible         "Make gsdata invisible"
+
+Str_Status_Mac_TrayMenuMulyiAnalyze "%1 uruchomionych zadań"
+Str_Status_Mac_GsRunnerSetUpSuccess "GoodSync Runner Service successfully installed"
+Str_Status_Mac_AnalyzeFinished_OK   "Analiza zakończona pomyślnie"
+Str_Status_Mac_AnalysisStarted      "Analiza rozpoczęta"
+Str_Status_Mac_SyncStarted          "Synchronizacja rozpoczęta"
+Str_Mac_NoActiveJob             "No active jobs"
+
+Str_Mac_EqComprassion           "Both files are equal"
+
+Btn_Mac_Check                   "Zaloguj"
+Btn_Mac_Install                 "Zainstaluj"
+Btn_Mac_Update					"Aktualizuj"
+Btn_Mac_Remove                  "Usuń"
+
+Toolbar_Mac_Compare_OneShortWord		"Porównaj"
+ToolBar_Mac_ShowLog_OneShortWord        "Pokaż dziennik"
+Toolbar_Mac_HideLog_OneShortWord        "Ukryj dziennik"
+Toolbar_Mac_Preferences_OneShortWord    "Preferences"
+Toolbar_Mac_Customize_OneShortWord      "Dostosuj"
+
+Str_Mac_Default_Group_Groups            "GRUPY"
+Str_Mac_Default_Group_Jobs              "ZADANIA"
+
+Str_Mac_Count_Jobs_In_Status_Bar        "zadania"
+Str_Mac_Count_Job_In_Status_Bar         "zadanie"
+
+Str_Mac_Accept                          "Accept"
+Str_Mac_Decline                         "Decline"
+Str_Mac_LicenseAgreement                "License Agreement"
+
+#
+# Mac wipeout
+#
+Str_Mac_Wipeout_Text 			"Are you sure you want to completely remove GoodSync from your Mac?"
+Str_Mac_Wipeout_Title           "GoodSync is about to uninstall."
+
+#
+# Mac Auto Update
+#
+Str_Mac_UpdatingGS               "Updating GoodSync"
+Title_Mac_UpdateWnd              "GoodSync update window"
+
+Chk_Mac_AU                       "Update GoodSync automatically"
+Help_Mac_AU                      "Update will be performed automatically, with no user interaction, when new version becomes available on goodsync.com. GoodSync will wait while all jobs are finished, and provide auto update."
+
+#
+# GoodSync Explorer for Mac
+#
+Str_Mac_Bookmarks                "ZAKŁADKI"
+Str_Mac_Connected                "CONNECTED"
+Str_Mac_LoginTo                  "LOGIN TO"
+
+Str_Mac_UserName                 "Nazwa uzytkownika"
+Str_Mac_Server                   "Serwer"
+Str_Mac_Servers                  "Serwery"
+Str_Mac_InitPath                 "Initial path"
+Str_Mac_ServerAndPath            "Server, initial path"
+Str_Mac_DisplayNames             "Wyświetlana nazwa"
+Str_Mac_NetworkEnv               "Network Environment"
+Str_Mac_OptSubFolders            "/Folder/Subfolder/... (optional)"
+Str_Mac_OptFilePath              "File path (optional)"
+Str_Mac_Optional                 "optional"
+Str_Mac_Advanced                 "Advanced >>"
+Str_Mac_ConnectPrompt            "Enter %1 connection info and press \"Connect\""
+Str_Mac_AdvancedPrompt           "Advanced settings for %1"
+Str_Mac_UseProxy                 "Connect via proxy"
+
+#
+# IPhone Common
+#
+Iphone_Done "Done"
+Iphone_copy "copy"
+Iphone_move "move"
+Iphone_clone "clone"
+Iphone_Move_Clone_Copy_To_Itself_Message "You can't %1 to itself!"
+Iphone_Create_Folder "Create Folder"
+Iphone_Paste_From_Clipboard "Paste from Clipboard"
+Iphone_Enter_Not_Empty_Name_Message "Enter not empty name!"
+Iphone_New_Folder "New Folder"
+Iphone_copy_suffix "copy"
+Iphone_Sort_By "Sort by:"
+Iphone_SortedBy_Name "Sorted by Name"
+Iphone_SortedBy_Date "Sorted by Date"
+Iphone_SortedBy_Size "Sorted by Size"
+Iphone_SortedBy_Type "Sorted by Type"
+Iphone_Sort_Name "Name"
+Iphone_Sort_Date "Date"
+Iphone_Sort_Size "Size"
+Iphone_Sort_Type "Type"
+Iphone_Item_Existing_Message "Item already exists! Do you want to overwrite"
+Iphone_You_Want_To_Message "You want to"
+Iphone_Replace_Existing_Question "Replace Existing Item?"
+Iphone_Replace_Existing_Message "An %1 named '%2' already exists in this location! Do you want to replace it with the one you're copying?"
+Iphone_One_Time_Password "One Time Password"
+Iphone_Enter_OTP "Type your One Time Password here"
+Iphone_Items_Zero 	"%1 pozycje"
+Iphone_Items_One 	"%1 pozycja"
+Iphone_Items_Two 	"%1 pozycje"
+Iphone_Items_Few 	"%1 pozycje"
+Iphone_Items_Many 	"%1 pozycje"
+Iphone_Items_Other 	"%1 pozycje"
+Iphone_Available "dostępny %1"
+Iphone_Downloading_Now "Pobieranie"
+Iphone_Downloading_Cancel "Canceled"
+Iphone_Settings "Ustawienia"
+
+#
+# IPhone MultiSelect
+#
+Iphone_Select "Wybierz"
+Iphone_Select_All "Zaznacz wszystko"
+Iphone_Deselect_All "Odznacz wszystko "
+Iphone_Select_Items "Zaznacz pozycje"
+Iphone_Select_Title_Zero 	"Zaznacz pozycje"
+Iphone_Select_Title_One 	"%1 pozycja"
+Iphone_Select_Title_Two 	"%1 pozycje"
+Iphone_Select_Title_Few 	"%1 pozycje"
+Iphone_Select_Title_Many 	"%1 pozycje"
+Iphone_Select_Title_Other 	"%1 pozycje"
+
+#
+# IPhone Login
+#
+Iphone_Register "Register"
+Iphone_Registration "Registration"
+Iphone_Empty_Password_Message "Password is empty"
+Iphone_Repeat "Repeat"
+Iphone_Enter_ComputerID_Message "Enter Computer ID"
+Iphone_CopyRight "Copyright © 1999 - %1 Siber Systems, Inc.\nAll rights reserved."
+
+Iphone_Enter_OTP_SentToPhone "Enter One Time Password sent to Phone %1"
+Iphone_Enter_OTP_SentToEmail "Enter One Time Password sent to email %1"
+Iphone_Enter_OTP_PreviouslySentToPhone "Enter One Time Password previously sent to Phone %1"
+Iphone_Enter_OTP_PreviouslySentToEmail "Enter One Time Password previously sent to email %1"
+
+#
+# IPhone Actions
+#
+Iphone_Action_Delete "Delete"
+Iphone_Action_Rename "Rename"
+Iphone_Action_Edit "Edit"
+Iphone_Action_Download "Download"
+Iphone_Action_Copy_To_Clipboard "Copy to Clipboard"
+Iphone_Action_Clone "Clone"
+Iphone_Action_Replace "Replace"
+Iphone_Action_Replace_All "Replace All"
+Iphone_Action_Skip "Skip"
+Iphone_Action_Skip_All "Skip All"
+Iphone_Action_Keep_Both "Keep Both"
+Iphone_Action_Share "Share"
+
+#
+# IPhone Server
+#
+Iphone_Server_Status_Stopped "Stopped"
+Iphone_Server_Status_Starting "Starting"
+Iphone_Server_Status_Connecting "Connecting"
+Iphone_Server_Status_Stopping "Stopping"
+Iphone_Server_Status_Running "Running"
+Iphone_Server_Stopped_Message "Start Server to connect to your %1 using GoodSync"
+Iphone_Server_Running_Message "Now you can connect to this %1 from your desktop computer using GoodSync"
+Iphone_Server_Start_Button "Start"
+Iphone_Server_Stop_Button "Stop"
+Iphone_Server_Photo_Access "Photo access"
+Iphone_Server_Photo_Access_Settings "Zapewnij dostęp do Zdjęć w Ustawieniach"
+Iphone_Server_Address_Copied "Server address copied to clipboard"
+
+#
+# IPhone Locations
+#
+Iphone_Locations "Explorer"
+Iphone_Empty_Locations_Message "There are no items in this folder"
+Iphone_File_Downloaded_Message "File downloaded to '%1'!"
+Iphone_Files_Downloaded_Message "Files downloaded to '%1'!"
+Iphone_Folder_Downloaded_Message "Folder downloaded to '%1'!"
+
+Iphone_Save_to_Downloads "Save to Downloads"
+Iphone_Need_Auth "Please log in through the Goodsync Explorer application."
+Iphone_Share_Extension_Title "Goodsync Explorer"
+Iphone_Select_Folder "Select folder"
+Iphone_Error_Logs_Title "Error logs"
+
+#
+# IPhone Downloads
+#
+Iphone_Downloads "Vault"
+Iphone_Downloads2 "Downloads"
+Iphone_Downloading "Downloading"
+Iphone_Empty_Folder "Folder is empty"
+Iphone_Empty_Folder_Message "There are no items in this folder"
+Iphone_Empty_Downloads_Message "Files you download appear here"
+Iphone_Empty_Vault_Message "Secure local storage for your files"
+Iphone_Folder_Exists_Message "Folder already exists. Select another name."
+Iphone_Folder_Is_Not_Empty_Message "Folder is not empty. It contains %1 items!"
+Iphone_Folder_Delete_Message "Are you sure you want to delete folder '%1', and all it contents?"
+Iphone_File_Delete_Message "Are you sure you want to delete file '%1'?"
+Iphone_Link_Delete_Message "Are you sure you want to delete link '%1'?"
+Iphone_Delete_Items_Message "Are you sure you want to delete selected items?"
+
+#
+# IPhone Preferences
+#
+Iphone_Preferences "Preferences"
+Iphone_Account "Account"
+Iphone_Prefs_Security "Security"
+Iphone_Prefs_GoodSync_Unlock_Mode "GoodSync Explorer Unlock Mode"
+Iphone_Prefs_Unlock_Mode "Unlock Mode"
+Iphone_Prefs_Password "Password"
+Iphone_Prefs_Pin_Code "Pin Code"
+Iphone_Prefs_Touch_ID "Touch ID"
+Iphone_Prefs_Face_ID "Face ID"
+Iphone_Prefs_No_Authorization "No Authorization"
+Iphone_Prefs_Change_PIN "Change PIN"
+Iphone_Prefs_Change_Password "Change Password"
+Iphone_Prefs_TouchID_Footer "Touch ID cannot be used in Files application due to iOS restrictions"
+Iphone_Prefs_FaceID_Footer "Face ID cannot be used in Files application due to iOS restrictions"
+Iphone_Prefs_Photos_Title "iCloud Photos"
+Iphone_Prefs_Photos_DownloadCloud "Allow download from iCloud"
+Iphone_Prefs_Photos_Footer "Enabling this option will cause download of all files that are present in iCloud but not present on this device.\nSo you will need more space on device and if you do not have it, other files may be offloaded to iCloud."
+
+Iphone_Show_Hidden_Files "Show hidden files"
+Iphone_Cache_Small_Files "Cache small files (5 MB) automatically"
+Iphone_Show_Thumbnails_On_Cached_Items "Show thumbnails on cached items"
+Iphone_Clear_Files_Cache "Clear files cache"
+Iphone_Show_Thumbnails "Show thumbnails"
+Iphone_GoodSync_Account "GoodSync Account"
+Iphone_Manage_Account "Manage"
+Iphone_Log_Out "Log Out"
+Iphone_LogOut_Message "Do you really want to Log Out?"
+Iphone_Delete_Cached_Files_Message "Do you really want to delete all cached files?"
+Iphone_Review "Review on App Store"
+Iphone_Open_Source "Open source"
+Iphone_Support "Support"
+Iphone_SupportTicket_Subject_Placeholder "Subject"
+Iphone_SupportTicket_Message_Placeholder "Type your message here"
+Iphone_SupportTicket_Send "Send"
+
+#
+# Iphone PIN
+#
+IPhone_PIN_NotMatchedText "Pincode did not match."
+IPhone_PIN_ConfirmationText "Re-enter your new pincode"
+IPhone_PIN_LockedOutString "You have been locked out."
+IPhone_PIN_PluralAttemptsLeftString "attempts left"
+IPhone_PIN_SingleAttemptLeftString "attempt left"
+IPhone_PIN_Setup "Setup your PIN"
+IPhone_PIN_Setup_Title "Select a 4-digit PIN to unlock GoodSync Explorer"
+Iphone_EnterPIN "Enter PIN"
+Iphone_CreatePIN "Create PIN"
+Iphone_ChangePIN "Change PIN"
+Iphone_PINChangedTitle "PIN Changed"
+Iphone_PINChangedMessage "PIN was changed successfully"
+Iphone_PINEnabledTitle "PIN enabled"
+Iphone_PINEnabledMessage "Now you can open GoodSync Explorer using PIN"
+Iphone_LoginReason "Open GoodSync Explorer"
+Iphone_LoginWithPassword "Use Password"
+
+#
+# Iphone Authentication screens
+#
+Intro_TouchId_Title      "Touch ID"
+Intro_TouchId_Text       "Your device has Touch ID enabled.\nWould you like to use Touch ID for your GoodSync Explorer authentication?"
+Intro_TouchId_ButtonText "Use Touch ID"
+Intro_FaceId_Title      "Face ID"
+Intro_FaceId_Text       "Your device has Face ID enabled.\nWould you like to use Face ID for your GoodSync Explorer authentication?"
+Intro_FaceId_ButtonText "Use Face ID"
+
+Iphone_NoAuthorizationModeTitle "No authorization mode"
+Iphone_NoAuthorizationModeMessage "Now you can open GoodSync Explorer without authorization"
+Iphone_Pin_ConfirmChange "Confirm Your New PIN"
+Iphone_NoAuth_ConfirmChange "Confirm No authorization mode"
+
+Iphone_BiometryIsLockedMessage "Biometry is locked out on this device"
+Iphone_BiometryChangedTouchIdPin "Fingerprints have been changed in the device settings. In order to use it next time please enter PIN Code."
+Iphone_BiometryChangedTouchIdMP "Fingerprints have been changed in the device settings. In order to use it next time please enter Password."
+Iphone_BiometryChangedFaceIdPin "The faces have been changed in the device settings. In order to use it next time please enter PIN Code."
+Iphone_BiometryChangedFaceIdMP "The faces have been changed in the device settings. In order to use it next time please enter Password."
+Iphone_EnterPassword_Prompt "Enter Your Password"
+Iphone_EnterNewPassword_Prompt "Enter Your New Password"
+Iphone_PasswordChangedMessage "Your GoodSync Account Password was changed.\nPlease enter New Password to continue using GoodSync."
+
+Iphone_ConnectAccount "Connect Account"
+Iphone_FileSystemNotFound "FileSystem %1 not found!"
+
+Iphone_Success "Powodzenie"
+Iphone_ConnectionTestSuccessful "Test połączenia zakończony powodzeniem"
+#
+# --- GSFILESYS localization ---
+# RFS file codepage and Language -- see main default.rfs
+
+Btn_Browse              "Przeglądaj"
+Chk_DoNotShowAgain      "Nie pokazuj tego okna ponownie"
+
+# Misc buttons
+Btn_Add					"Dodaj"
+Btn_Delete              "Usuń"
+Btn_Save				"Zapisz"
+Btn_Apply				"Zastosuj"
+Btn_Finish				"Zakończ"
+Btn_Yes					"Tak"
+Btn_No					"Nie"
+Btn_Abort               "Przerwij"
+Btn_Retry               "Ponów"
+Btn_Ignore              "Ignoruj"
+Btn_Try                 "Próbuj"
+Btn_Close               "Zamknij"
+Btn_Help                "Pomoc"
+Btn_Continue			"Kontynuuj"
+Btn_Done				"Gotowe"
+
+Help_Browse_File		"Kliknij ten przycisk, aby wybrać plik w oknie dialogowym "Otwórz plik""
+Help_Browse_Folder		"Kliknij ten przycisk, aby wybrać folder w oknie dialogowym "Otwórz folder""
+Help_Browse_Edit		"Kliknij tutaj, aby wybrać folder"
+
+# Browse Dialog
+Btn_Ok                  "OK"
+Btn_Cancel              "Anuluj"
+Btn_Skip				"Pomiń"
+Btn_Overwrite			"Nadpisz"
+Btn_CopyErrToClipboard	"Kopiuj błędy do schowka"
+
+Tip_Ok					"Zapisz wartości i zamknij okno dialogowe"
+Tip_Cancel				"Zamknij okno bez zapisywania wartości"
+
+Browse_Btn_Go           "Przejdź"
+Browse_Btn_Go_Tip       "Przejdź do adresu"
+Browse_Btn_Stop         "Zatrzymaj"
+Browse_Btn_Stop_Tip     "Zatrzymaj bieżącą operację"
+
+Browse_Btn_FileSystem_Tip   "Wybierz system plików"
+Browse_Btn_Accounts         "Konta"
+Browse_Btn_Accounts_Tip     "Wybierz jedno z używanych kont do uwierzytelniania na serwer"
+Browse_Btn_Servers          "Serwery"
+Browse_Btn_Servers_Tip      "Wybierz jeden z serwerów, po dokonaniu uwierzytelnienia konta"
+Browse_Btn_Folders          "Foldery"
+Browse_Btn_Folders_Tip      "Wybierz jeden z folderów na serwerze"
+
+Browse_Btn_Opts_More        "Więcej"
+Browse_Btn_Opts_Less        "Mniej"
+Browse_Btn_Opts_Tip         "Kliknij, aby pokazać mniej lub więcej opcji systemu plików"
+
+Browse_MultiSelect			"Zaznacz wiele folderów"
+Browse_ShowFiles			"Pokaż pliki i linki"
+
+Browse_Btn_NewFolder        "Nowy folder"
+Browse_Btn_NewFolder_Tip    "Kliknij, aby utworzyć nowy folder w bieżącym folderze"
+Browse_NewFolder_Prompt_1   "Wprowadź nazwę dla nowego folderu utworzonego w \"%1\""
+
+Browse_Btn_New              "Nowe"
+Browse_Btn_New_Tip          "Utwórz nowe konto, aby wprowadzić nowe dane uwierzytelniające"
+Browse_Btn_Delete           "Usuń"
+Browse_Btn_Delete_Tip       "Usuń zaznaczone konto lub folder zakładek"
+Browse_Btn_Rename           "Zmień nazwę"
+Browse_Btn_Rename_Tip       "Zmień nazwę zaznaczonego konta"
+Browse_Str_Account_Name     "Nazwa konta"
+Browse_Str_Delete_Confirm   "Czy na pewno chcesz usunąć konto\n%1?"
+Browse_Str_DelBmk_Confirm   "Czy na pewno chcesz usunąć folder zakładek\n%1?"
+Browse_Str_Delete_Used      "To konto jest używane przez zadania: %1.\nPrzed usunięciem tego konta usuń te zadania lub przenieś je na inne konto."
+Browse_Str_DelBmk_Used      "Ten folder zakładek jest używany przez zadania:\n%1\nUsuń te zadania lub zmień adresy URL, do których się odnoszą."
+
+Browse_Multiple_SyncPlan    "Zaznacz wiele folderów wybireając je poniżej. Plan synchronizacji:"
+Browse_Multiple_OtherSide	"Wybierz folder, z którym będą synchronizowane foldery z drugiej strony: "
+Browse_Multiple_ParentChanged "Folder synchronizacji zadania (wspólny i nadrzędny, wszystkich zaznaczonych elementów) został zmieniony, więc wszystkie filtry zadania będą przebudowane."
+
+Browse_Tip_MultiSelectRoot	"Drzewo wielokrotnego wyboru, zobacz zaznaczone elementy poniżej"
+Browse_Tip_AndSoOn          "... (i tak dalej) ..."
+Browse_Tip_FilterNotListed  "Niektórych filtrowanych elementów nie ma na liście, należy zaznaczyć pole POKAŻ PLIKI I LINKI"
+Browse_Tip_SelectedSameDisk "Wszystkie wybrane foldery muszą znajdować się na jednym dysku/udziale, a nie na wielu dyskach"
+
+Browse_Tip_Include          "Dołącz %1"
+Browse_Tip_Exclude          "Wyklucz %1"
+
+Browse_Status_Connecting    "Łączenie..."
+Browse_Status_Listing       "Tworzenie listy..."
+Browse_Status_Expanding     "Rozwijanie..."
+
+#
+# File Systems
+#
+Browse_Btn_MyComputer       "Mój komputer"
+Browse_Short_Tip_MyComputer "Dyski podłączone bezpośrednio do tego komputera"
+Browse_Tip_MyComputer       "Mój komputer: Dyski podłączone bezpośrednio do tego komputera. Występują jako litery dysku X: lub ścieżka UNC \\\\DISK. Mogą to być dyski lokalne lub przenośne, urządzenia przenośne i odtwarzacze muzyczne, które mają literę dysku."
+
+Browse_Btn_MyNetwork        "Otoczenie sieciowe"
+Browse_Short_Tip_MyNetwork  "Udziały sieciowe Windows połączone za pośrednictwem protokołu SMB"
+Browse_Tip_MyNetwork        "Udziały sieciowe Windows połączone za pośrednictwem protokołu SMB. Widoczne jako \\\\SERVER\\SHARE. Foldery i dyski muszą być udostępniane na komputerach serwerowych aby pojawiły się tutaj. Nie zapomnij ustawić uprawnień udostępniania które umożliwiają zapisanie udziałów. Jeśli nie widzisz tu udziałów, upewnij się, że można je zobaczyć w Eksploratorze Windows."
+Browse_Warn_SMB_Offline     "Foldery robocze (foldery offline) są włączone: może to powodować nieprawidłowe wykazy folderów udostępnionych, więc wyłącz foldery robocze / offline."
+
+Browse_Short_Tip_MTP        "Urządzenia mobilne (telefony, aparaty) podłączone przez Media Transfer Protocol"
+Browse_Tip_MTP              "Urządzenia mobilne, takie jak aparaty i telefony połączone przez Media Transfer Protocol (MTP). Niezawodność zapisywania może być niska ze względu na protokół, więc używane głównie do odczytu."
+
+Browse_Short_Tip_GSConnect	"Komputery połączone przez GoodSync Connect: Szybki bezpośredni P2P"
+Browse_Tip_GSConnect		"GoodSync Connect. Komputery należące do tego samego konta mogą się ze sobą synchronizować. \nAby utworzyć konto GoodSync, wybierz Narzędzia -> Konfiguracja konta GoodSync"
+
+Browse_Short_Tip_GsStorage	"Pamięć online RealDisk: Działa naprawdę szybko"
+Browse_Tip_GsStorage		"Pamięć online RealDisk GoodSync. Szybka i wydajna pamięć online"
+
+Browse_Short_Tip_FTP        "Serwery FTP i FTPS"
+Browse_Tip_FTP              "Serwery FTP. Wprowadź nazwę serwera, nazwę użytkownika oraz hasło, i kliknij 'Przejdź'."
+
+Browse_Short_Tip_SecureFTP  "Serwery SFTP (protokół SFTP przez SSH)"
+Browse_Tip_SecureFTP        "Bezpieczne serwery FTP (SFTP przez SSH). Wprowadź serwer SFTP, nazwę użytkownika i hasło lub plik klucza prywatnego (format PuTTY) do uwierzytelniania. Możesz użyć PuTTY Pageant, aby zapisać w pamięci podręcznej hasło klucza prywatnego. Użyj sesji PuTTY, aby określić ustawienia proxy."
+
+Browse_Short_Tip_WebDav     "Serwery dostępne za pośrednictwem protokołu WebDAV"
+Browse_Tip_WebDav           "Serwer WebDAV. Wprowadź adres URL folderu WebDAV do połączenia jako https://www.somewhere.com/folder1/folder2. Wprowadź nazwę użytkownika i hasło, aby uwierzytelnić się na serwerze."
+
+Browse_Short_Tip_AmazonCD   "Amazon Cloud Drive"
+Browse_Tip_AmazonCldDrive   "Amazon Cloud Drive: Kliknij przycisk 'Przejdź', aby wprowadzić nazwę użytkownika konta Amazon i hasło w Twojej przeglądarce."
+
+Browse_Short_Tip_AmazonS3   "Pamięć online Amazon S3: Kontenery"
+Browse_Tip_AmazonS3         "Pamięć online Amazon S3. Wprowadź nazwę klucza dostępu i hasło, kliknij 'Przejdź', aby uwierzytelnić. Kontener jest to folder najwyższego poziomu. Domyślnie używane jest adresowanie oparte na hoście"
+
+Browse_Short_Tip_WindowsAzure "Windows Azure firmy Microsoft: Obiekty i Kontenery"
+Browse_Tip_WindowsAzure     "Obiekty Windows Azure firmy Microsoft. Wprowadź nazwę użytkownika i hasło Azure, następnie kliknij 'Przejdź' w celu uwierzytelnienia."
+
+Browse_Short_Tip_AzureFiles "Microsoft Azure: Pliki API"
+Browse_Tip_AzureFiles		"Microsoft Pliki Azure. Wprowadź nazwę użytkownika i hasło Azure, następnie kliknij 'Przejdź' w celu uwierzytelnienia."
+
+Browse_Short_Tip_GDrive     "Dysk Google (Consumer, V3 API, przy zmianie pliku)"
+Browse_Tip_GDrive           "Dysk Google (Consumer, V3 API, tylko Docs). Kliknij przycisk 'Przejdź', aby wprowadzić nazwę użytkownika i hasło konta Google w Twojej przeglądarce."
+
+Browse_Short_Tip_GTeamDrive	"Google Team Drives (Corporate, V3 API)"
+Browse_Tip_GTeamDrive		"Google Team Drives (Corporate, V3 API). Kliknij przycisk 'Przejdź', aby wprowadzić nazwę użytkownika i hasło konta Google w Twojej przeglądarce"
+
+Browse_Tip_GPhotos			"Zdjęcia Google"
+Browse_Short_Tip_GPhotos	"Biblioteka Zdjęć Google. Kliknij przycisk 'Przejdź', aby wprowadzić nazwę użytkownika i hasło konta Google w Twojej przeglądarce"
+
+Browse_Short_Tip_GNativeDocs "Import / eksport dokumentów natywnych Google (V3 API)"
+Browse_Tip_GNativeDocs		 "Import / eksport dokumentów natywnych Google (V3 API). Kliknij przycisk 'Przejdź', aby wprowadzić nazwę użytkownika i hasło konta Google w Twojej przeglądarce"
+
+Browse_Short_Tip_GDocs		"Dokumenty Google i Dysk Google (V2 API)"
+Browse_Tip_GDocs			"Dokumenty Google -- już niedostępne. Kliknij przycisk 'Przejdź', aby wprowadzić nazwę użytkownika i hasło konta Google w Twojej przeglądarce."
+
+Browse_Short_Tip_Dropbox    "Dropbox"
+Browse_Tip_Dropbox          "Magazyn Online Dropbox. Kliknij przycisk 'Przejdź', aby wprowadzić nazwę użytkownika i hasło konta Dropbox w Twojej przeglądarce."
+
+Browse_Short_Tip_MsGraph	"Microsoft: OneDrive Consumer, Office365, SharePoint (Graph API)"
+Browse_Tip_MsGraph 		    "Wszystkie dyski Microsoft: OneDrive, Office365, SharePoint. Kliknij przycisk 'Przejdź', aby wprowadzić nazwę użytkownika i hasło konta Microsoft w Twojej przeglądarce."
+
+Browse_Short_Tip_Mega		"Chmura MEGA"
+Browse_Tip_Mega 		    "Chmura MEGA. Wprowadź nazwę użytkownika i hasło konta MEGA, następnie kliknij 'Przejdź'."
+
+Browse_Short_Tip_OneDriveV2 "Dyski online Microsoft: OneDrive Consumer, Office365, OneDrive for Business (SharePoint)"
+Browse_Tip_OneDriveV2       "Wszystkie dyski Microsoft: OneDrive, Office365, SharePoint. Kliknij przycisk 'Przejdź', aby wprowadzić nazwę użytkownika i hasło konta Microsoft w Twojej przeglądarce."
+
+Browse_Short_Tip_SharePoint13 "SharePoint 2013 by Microsoft"
+Browse_Tip_SharePoint13		  "SharePoint 2013 (ale nie późniejsze wersje). Wprowadź adres serwera, kliknij przycisk 'Przejdź', a następnie wprowadź nazwę użytkownika i hasło konta Microsoft w Twojej przeglądarce."
+
+Browse_Short_Tip_BoxCom     "Box.com"
+Browse_Tip_BoxCom           "Box.com Storage: Kliknij przycisk 'Przejdź', aby wprowadzić nazwę użytkownika i hasło konta Box.com w Twojej przeglądarce."
+
+Browse_Short_Tip_Backblaze  "Backblaze B2 Cloud Storage"
+Browse_Tip_Backblaze        "Backblaze B2 Cloud Storage: Wprowadź swój identyfikator konta, klucz aplikacji i kliknij przycisk 'Przejdź'. Zobacz backblaze.com->B2 Cloud Storage->Moje Konto->Pokaż identyfikator konta i klucz aplikacji."
+
+Browse_Short_Tip_OneFile    "Całe drzewo pliku/folderu jest przechowywane w jednym pliku, skompresowane i zaszyfrowane, tylko małe drzewa"
+Browse_Tip_OneFile          "Całe drzewo pliku/folderu jest przechowywane w jednym pliku, skompresowane i zaszyfrowane. Wprowadź ścieżkę lokalnego pliku docelowego, który przechowuje drzewo pliku/folderu. Zapewnia największe bezpieczeństwo ze względu na całościowe szyfrowanie, a plik docelowy jest przechowywany w pamięci i zapisywany na dysku dopiero po zakończeniu synchronizacji, więc rozmiar pliku jest ograniczony przez dostępną pamięć."
+Browse_Str_OneFileTarget    "Jeden Plik"
+Browse_Tip_OneFileTarget    "Lokalny plik, do którego całe drzewo pliku/folderu zostanie zapisane lub z niego odczytane"
+
+Browse_Short_Tip_WinMobile	"Windows Mobile Phone lub urządzenia Pocket PC"
+Browse_Tip_WinMobile        "Windows Mobile Phone lub urządzenia Pocket PC. ActiveSync lub WMDC musi być zainstalowany i uruchomiony, aby GoodSync widział urządzenie do niego zadokowane."
+
+Browse_Short_Tip_MyMac		"My Mac"
+Browse_Tip_MyMac			"My Mac"
+
+Browse_Short_Tip_MacShares	"Net Shares Folders"
+Browse_Tip_MacShares		"Net Shares Folders"
+
+Browse_Short_Tip_MacSMBShares	"Network Shares connected via SMB protocol"
+Browse_Tip_MacSMBShares			"Network Shares connected via SMB protocol"
+
+Browse_Short_Tip_MacAFPShares	"Network Shares connected via AFP protocol"
+Browse_Tip_MacAFPShares			"Network Shares connected via AFP protocol"
+
+Browse_Short_Tip_WDNAS		"MyCloud NAS"
+Browse_Tip_WDNAS			"MyCloud NAS"
+
+Browse_Short_Tip_Unknown    "Brak pomocy dla tego nieznanego systemu plików"
+Browse_Tip_Unknown          "Nie ma pomocy dla tego nieznanego systemu plików"
+
+Browse_Short_Tip_Nokl		"Połączenie Nokl"
+Browse_Tip_Nokl				"Połączenie Nokl"
+
+# Browse dlg Options
+Browse_Str_SecureMode     "Tryb bezpieczny (Szyfrowane przez TLS)"
+Browse_Tip_SecureMode     "Zaznaczone: Szyfruje zmiany ID użytkownika i hasła, szyfruje transmisję danych za pomocą protokołu TLS lub podobnego schematu. Bardziej bezpieczne, ale nieco wolniejsze. \nNiezaznaczone: Nie szyfruje ID użytkownika i hasła, nie szyfrowuje transferu danych. Działa szybciej, ale jest mniej bezpieczne."
+
+Browse_Str_UTF8_encoding  "Nazwy plików - UTF-8 (Odznaczone: kodowanie ANSI)"
+Browse_Tip_UTF8_encoding  "Zaznaczone: Użyje UTF-8 do kodowania nazw plików i folderów na serwerze.\n\nOdznaczone: Użyje ANSI do kodowania nazw plików na serwerze, zarówno klient jak i serwer muszą być ustawieni na ten sam język ANSI"
+Browse_Str_WinInet        "Oparte na WinInet (kompleksowe proxy, uwierzytelnienie)"
+Browse_Tip_WinInet        "Zaznaczone: Użyje implementacji opartej na WinInet która może obsługiwać kompleksowe proxy i oparte na Windows uwierzytelnienie, ma swoje ograniczenia i jest wolniejsze.\n\nOdznaczone: Użyje implementacji opartej na wczepie, który nie obsługuje kompleksowego uwierzytelniania Windows i proxy ale jest szybsze i bardziej niezawodne"
+Browse_Str_Use_Proxy      "Połącz przez Proxy, ustawienia są w zakładce Narzędzia -> Opcje programu... -> Połączenie"
+Browse_Tip_Use_Proxy      "Połączy się z tym serwerem za pośrednictwem serwera proxy który jest określony i włączony w Narzędzia -> Opcje programu... -> Połączenie"
+Browse_Mac_Str_Use_Proxy  "Connect via Proxy if one is set in Preferences->Connection Tab"
+Browse_Mac_Tip_Use_Proxy  "Connect to this server via Proxy server that is specified and enabled in Preferences->Connection Tab"
+
+Browse_Str_IgnoreBadCerts "Nie sprawdzaj certyfikatów SSL serwera"
+Browse_Tip_IgnoreBadCerts "Zaznaczone: Zezwoli na niedopasowane, wygasłe certyfikaty SSL serwera lub na ich brak, dopuści Invalid Certificate Authority.\n\nOdznaczone: Sprawdzi certyfikat serwera i wywoła błąd, jeśli serwer ma zły, niepasujący, wygasły certyfikat SSL lub gdy go brakuje"
+
+Str_SSL_SecureConnection    "Bezpieczne połączenie"
+Str_SSL_UseSystemCerts		"Systemowe 'Zaufane główne urzędy certyfikacji' (wymagany restart)"
+Str_SSL_Warn_UseSystemCerts	"Zezwalaj programom zewnętrznym (takim jak programy AV) na nasłuchiwanie komunikacji GoodSync przez TLS, jeśli dodadzą swój certyfikat do pamięci systemowej"
+
+Browse_Str_PrivKey        "Klucz prywatny"
+Browse_Tip_PrivKey        "Plik, który zawiera prywatny klucz SSH, w formacie PuTTY"
+Browse_Str_ClientCert     "Certyfikat"
+Browse_Tip_ClientCert     "Plik zawierający parę certyfikat/klucz prywatny w formacie PEM"
+
+# GSTP options
+Browse_Str_DirectGstp	  "Bezpośredni adres GSTP"
+Browse_Tip_DirectGstp	  "Pomiń adresowanie mediatora i użyj tego adresu IP lub nazwy sieci"
+
+# FTP options
+Browse_Str_ActiveMode	  "Aktywny tryb FTP (odznaczone oznacza tryb pasywny)"
+Browse_Tip_ActiveMode     "Zaznaczone: Użyje aktywnego trybu FTP. W trybie aktywnym wystąpią połączenia zwrotne z serwera FTP do klienta w celu przesyłania danych i trzeba na to zezwolic w ustawieniach zapór. \n\nOdznaczone: Użyje trybu pasywnego FTP. Ten sposób połączenia FTP może być łatwo wykonywany poprzez zapory i routery NAT. Zalecany i domyślny."
+Browse_Str_UseMDTM_FTP    "Użyj MFMT/MDTM aby uzyskać/ustawić  dokładny czas modyfikacji plików (wolne)"
+Browse_Tip_UseMDTM_FTP    "Zaznaczone: Użyje polecenia MFMT/MDTM aby uzyskać/ustawić dokładny czas modyfikacji pliku z serwera FTP (WOLNE).MDMT, jeśli preferowane bardziej niż MDTM, gdy oba są dostępne.  \n\nOdznaczone: Użyje pliku zawierającego listę, aby uzyskać czas modyfikacji pliku. Te czasy są zaokrąglane do najbliższego dnia, jeśli plik jest starszy niż 3-6 miesiące."
+Browse_Str_UseMLSD_FTP    "Użyj polecenia MLSD/MLST, aby uzyskać listy plików"
+Browse_Tip_UseMLSD_FTP    "Zaznaczone: użyje polecenia MLSD/MLST, aby uzyskać listy plików. Jest to bardziej precyzyjny sposób, gdy prawidłowo wdrożony przez serwer FTP. \nNiezaznaczone: użyje starego stylu polecenia LIST aby uzyskać listę plików"
+Browse_Str_ImplicitMode   "Niejawne FTPS (Odznaczone: jawne)"
+Browse_Tip_ImplicitMode   "Zaznaczone: użyje niejawnego trybu FTP: połączy się przez port 990 przy użyciu SSL/TLS. \nNiezaznaczone: użyje jawnego trybu FTPS: połączy się przez port 21, wymaga zgody na szyfrowanie"
+Browse_Str_FtpListLa      "Użyj polecenia LIST -la"
+Browse_Tip_FtpListLa      "Zaznaczone: Przy definiowaniu folder użyje polecenia 'LIST -la' aby pokazać ukryte pliki i te których nazwy zaczynają się od kropki.  \nNiezaznaczone: użje standardowego poleceni (RFC 959) LIST"
+Browse_Str_MoveLevelOnly  "RENAME działa tylko na jednym poziomie"
+Browse_Tip_MoveLevelOnly  "Zaznaczone: polecenie RENAME (MOVE) FTP możne zmieniać nazwy plików tylko w folderze zawierającym te pliki, nie można przenieść ich do innego folderu.  \nNiezaznaczone: RENAME możne przenieść je do innego folderu."
+Browse_Str_SessionReuse	  "Wymagaj ponownego użycia sesji TLS podczas transmisji danych"
+Browse_Tip_SessionReuse   "Zaznaczone: Wymaga ponownego użycia sesji TLS podczas transmisji danych (bezpieczne).\n\nOdznaczone: Brak ponownego użycia sesji (tryb zgodności)."
+
+# S3 options
+Browse_Str_HostBasedAddr    "Oparta na hoście adresowanie dla koszyków (dla koszyków euro)"
+Browse_Tip_HostBasedAddr    "Zaznaczone: Adresowanie dla kontenerów oparte na hoście: działa dla kontenerów euro, nazwy kontenera muszą zawierać tylko małe litery i cyfry.\n\nOdznaczone: Adresowanie dla kontenera oparte na URL: Kontenery mogą mieć duże litery w nazwach, Amazon tego nie zaleca."
+Browse_Str_Redundancy       "Zmniejszona redundancja przechowywania"
+Browse_Tip_Redundancy       "Jeśli zaznaczone, użyje opcji S3 Zmniejszonej redundancji przechowywania (RRS). Jeśli niezaznaczone, użyje domyślnego magazynu przepełnienia."
+Browse_Str_InfrequentAccess "Infrequent Access Standard Storage"
+Browse_Tip_InfrequentAccess "Jeśli zaznaczone, użyje opcji S3 Infrequent Access Standard Storage. Jeśli niezaznaczone, użyje domyślnego magazynu przepełnienia."
+Browse_Str_ServerEncrypt    "Szyfrowanie po stronie serwera"
+Browse_Tip_ServerEncrypt    "Jeśli zaznaczone, szyfruje pliki przy użyciu AES256 na S3. Jeśli nie zaznaczone, przechowuje nieobrobione dane pliku."
+Browse_Str_ServerEncrKey    "Klucz szyfrowania serwera"
+Browse_Tip_ServerEncrKey	"Klucz szyfrowania określony przez klienta do szyfrowania po stronie serwera"
+Browse_Str_AwsV4Auth        "Użyj autoryzacji V4 (AWS4-HMAC-SHA256)"
+Browse_Tip_AwsV4Auth        "Jeśli zaznaczone, użyje schematu autoryzacji AWS4-HMAC-SHA256, który zwiększa bezpieczeństwo i może być wymagany przez niektóre regionalne kontenery."
+Browse_Str_UsGovCloud       "Chmura US Govt"
+Browse_Tip_UsGovCloud       "Jeśli zaznaczone, użyje serwerów US Government Cloud, oddzielnie od innych punktów końcowych S3."
+Browse_Str_SpecifyACP       "Kontrola dostępu"
+Browse_Tip_SpecifyACP       "Zasady kontroli dostępu (ACP), jedna z wstępnie przygotowanych zasad działania: prywatne (domyślne), do publicznego odczytu, do publicznego odczytu i zapisu, do autoryzowanego odczytu"
+Browse_Str_GeoLocation	    "Preferowana region dla nowych kontenerów"
+Browse_Tip_GeoLocation	    "Region geograficzny, w którym zostaną utworzone kontenery: pusty lub af-south-1 | ap-east-1 | ap-northeast-1 | ap-northeast-2 | ap-northeast-3 | ap-south-1 | ap-southeast-1 | ap-southeast-2 | ca-central-1 | cn-north-1 | cn-northwest-1 | EU | eu-central-1 | eu-north-1 | eu-south-1 | eu-west-1 | eu-west-2 | eu-west-3 | me-south-1 | sa-east-1 | us-east-2 | us-gov-east-1 | us-gov-west-1 | us-west-1 | us-west-2"
+
+# Google Drive options
+Browse_Str_NativeFiles      "Import/Eksport natywnych plików Google"
+Browse_Tip_NativeFiles		"Jeśli zaznaczone, natywny format dokumentów Google może być pobrany i przesłany, oprócz nienatywnych (zewnętrznych) plików: pobieranie pliku powoduje eksport z Google doc, przesyłanie Google doc powoduje import lokalnego pliku do Google doc. Jeśli niezaznaczone, tylko nienatywne (zewnętrzne) pliki są wymieniane. Tryb ten może powodować bardzo wolne analizy i błędy."
+
+# MS Graph options
+Browse_Str_Graph_GroupRead	"Poproś o uprawnienia Group.Read.All, które są nadawane przez administratora"
+Browse_Tip_Graph_GroupRead	"Zaznacz tę opcję, aby zażądać uprawnień Group.Read.All dla GoodSync. Umożliwi to GoodSync przeglądanie grup i powiązanych bibliotek dokumentów.\nZastosowanie tej opcji wymaga ponownego uwierzytelnienia."
+Browse_Str_Graph_National	"Lokalizacja (Chmura krajowa)"
+Browse_Tip_Graph_National	"Użyj tego pola, aby wybrać Chmurę danego kraju.\nPusty (domyślne) oznacza użycie lokalizacji międzynarodowej.\nUS oznacza Chmurę Microsoft dla rządu USA\nDE oznacza dla Chmurę Microsoft dla Niemiec\nCN oznacza Azure i Office 365 obsługiwane przez 21Vianet w Chinach."
+
+# OAuth2 dialog
+Browse_Str_OAuth2Title      "Instrukcje dla autoryzacji %1 OAuth2"
+Browse_Str_OAuth2Message    "Zostaniesz poproszony, w domyślnej przeglądarce, o zgodę\nczy GoodSync może uzyskać dostęp do %1. \n\nPrzed wyrażeniem zgody na dostęp, upewnij się, że \njesteś prawidłowo zalogowany na konto %1. \nJeśli nie, proszę się wylogować i zalogować, w razie potrzeby. \n\nTwój faktyczny ID użytkownika zostanie wyświetlony w polu ID użytkownika \nokna dialogowego po autoryzacji przeglądarki."
+
+# Browsing Tips
+Browse_TipLine_OAuth2_Chang "OAuth: Klikając przycisk 'Przejdź' będzie wymagane uwierzytelnienie konta w Twojej przeglądarce"
+Browse_TipLine_OAuth2_Fixed "OAuth identyfikatora użytkownika to %1. Nie można zmienić tutaj poświadczeń OAuth, ale mona dodać nowe konto, klikając przycisk 'Nowe'"
+Browse_TipLine_UserId_Fixed "Identyfikator użytkownika to %1. Aby zmienić uwierzytelnienie konta lub opcje połączenia, przejdź na kartę 'Konta' i kliknij 'Konto' żeby edytować."
+
+#
+# Browse Dlg Ver 11
+#
+Browse_MultiLeave_Title     "Opuszczanie trybu wielu folderów"
+Browse_MultiLeave_Text      "Wyjście z trybu wielu folderów spowoduje utratę wyboru folderu wyrażonego przez filtry ścieżek. Czy chcesz kontynuować?"
+
+Browse_UnlistedServer_Title "Dodaj serwer nieskatalogowany"
+Browse_UnlistedServer_Capt  "Wprowadź nazwę serwera"
+
+Browse_Account_Data			"Dane konta"
+Browse_Account_Name			"Nazwa konta"
+Browse_Account_URL			"URL konta"
+Browse_Account_UserID		"ID użytkownika"
+Browse_Account_Password		"Hasło"
+Browse_Account_Email		"E-Mail"
+Browse_Account_UserName		"Nazwa użytkownika"
+Browse_Account_ServerAddress "Adres serwera"
+Browse_Account_Credentials   "Poświadczenia"
+Browse_Account_AdvancedOpts  "Opcje zaawansowane"
+Browse_Account_Test			 "Test"
+Browse_Account_TestResults	 "Wyniki testów:"
+
+Browse_Account_Authorization "Autoryzacja"
+Browse_Account_StartAuth	 "Rozpocznij autoryzację"
+Browse_Account_RevokeAccess	 "Unieważnij dostęp"
+Browse_Account_RevokeConfirm "Unieważnić dostęp %1 do tego konta %2?"
+Browse_Account_RevokeDone	 "Dostęp %1 do tego konta %2 został unieważniony."
+Browse_Account_OAuthNeeded	 "%1 używa bezpiecznego dostępu delegowanego (OAuth2). \nBędziesz musiał wprowadzić dane logowania do konta w domyślnej przeglądarce internetowej.\nKliknij przycisk 'Rozpocznij autoryzację' poniżej, aby kontynuować."
+Browse_Account_OAuthNeeded2			"%1 używa bezpiecznego dostępu delegowanego (OAuth2). \nBędziesz musiał wprowadzić dane logowania do konta w domyślnej przeglądarce internetowej. \nKliknij przycisk 'Połącz' poniżej, aby kontynuować."
+Browse_Account_OAuthConnected		"Połączono z %1 jako %2."
+Browse_Account_OAuthConnectApp		"Połącz z %1"
+Browse_Account_OAuthDisconnectApp	"Odłącz od %1"
+Browse_Account_OAuthInProgress		"Trwa interaktywna autoryzacja przeglądarki %1.\nClKliknij zatrzymaj, aby zakończyć."
+
+Browse_Account_HomeFolder	 "Folder domowy (opcjonalnie)"
+Browse_Account_HomeFolderTip "Domyślny folder na serwerze zdalnym dla tego konta, jak /home/john"
+
+Browse_Account_InitialPath		"Ścieżka początkowa (opcjonalnie)"
+Browse_Account_InitialPathTip	"Początkowa ścieżka na serwerze dla tego konta, jak domyślny kontener dla S3"
+
+Browse_Account_ShareName		"Nazwa udziału (opcjonalnie)"
+Browse_Account_ShareNameTip		"Domyślny udział na tym serwerze dla tego konta, jak /MyShare"
+
+Browse_Account_DavRoot			"Katalog główny WebDAV (opcjonalnie)"
+Browse_Account_DavRootTip		"Ścieżka główna WebDAV na tym serwerze, jak /webdav"
+
+Browse_EmptyFolder        "pusty folder"
+
+# Browse dialog hint messages
+Browse_Hint_SelectLeft			"Wybierz folder po Lewej stronie"
+Browse_Hint_SelectRight			"Wybierz folder po Prawej stronie"
+Browse_Hint_Apply				"Kliknij 'Zastosuj', aby potwierdzić wybór lub kliknij opcję 'Wiele folderów', aby uwzględnić / wykluczyć foldery w wybranych folderach synchronizacji."
+Browse_Hint_Wait				"Proszę czekać..."
+
+Browse_Hint_BadLeft				"Lewy: nie może być folderem kopii zapasowej / synchronizacji: %1"
+Browse_Hint_BadRight			"Prawy: nie może być folderem kopii zapasowej / synchronizacji: %1"
+
+Browse_Hint_SameFolder			"Foldery Lewy i Prawy są takie same"
+Browse_Hint_SubFolder			"Podfolder folderu synchronizacji po drugiej stronie"
+
+Browse_Hint_Reason_NotAFolder	"nie folder, przejdź do szczegółów"
+Browse_Hint_Reason_NoFolders	"nie można tworzyć folderów na tym poziomie, przejdź do szczegółów"
+Browse_Hint_Reason_NoFiles		"nie można przesyłać plików na tym poziomie, przejdź do szczegółów"
+Browse_Hint_Reason_VirtFolder	"nieistniejący folder, wyszukaj folder rzeczywisty"
+
+Browse_Hint_WD_Restricted		"Zły wybór: Jedną ze stron zadania musi być urządzenie Western Digital"
+
+#
+# GoodSync Connect and Runner setup
+#
+Act_Btn_Back        "Wstecz"
+Act_Btn_Finish      "Zakończ"
+Act_Btn_Next        "Dalej"
+
+# Runner Setup
+GsRunnerSetup_Request           "Usługa GoodSync Runner jest potrzebna do uruchomienia zadania w trybie nienadzorowanym.\nCzy chcesz ją skonfigurować (zalecane)?"
+GsRunnerSetup_WindowTitle       "Konfiguracja usługi Runner"
+GsRunnerSetup_ThisWinUser       "Usługa GoodSync Runner zostanie uruchomiona przy użyciu tego konta Windows:"
+GsRunnerSetup_WinNote           "Usługa GoodSync Runner wymaga hasła Windows, aby uruchamiać zadania w trybie nienadzorowanym.\nJeśli wprowadzisz nieprawidłowe hasło, usługa GoodSync Runner nie uruchomi się."
+GsRunnerSetup_FinalMsg          "Usługa GoodSync Runner zostanie zaktualizowana"
+GsRunnerSetup_CannotStart		"Nie można uruchomić usługi Runner "
+
+# Connect Connect Page -- removed
+GsConnSetup_WantConnectQuestion "Chcesz bezpośrednio synchronizować ze sobą swoje komputery (P2P)?"
+GsConnSetup_FinRunGoodSync		"Uruchom GoodSync"
+GsConnSetup_FinRunGsExplorer	"Uruchom GoodSync Explorer"
+
+# GoodSync Account page
+GsConnSetup_RegisterThis        "Zarejestruj ten komputer na Twoim koncie GoodSync"
+GsConnSetup_ExplainWhy			"Konto GoodSync jest potrzebne do zestawienia synchronizacji P2P między komputerami z zainstalowanym programem GoodSync, zapewnienia wersji próbnej, aktywacji licencji, pomocy online, korzystania z pamięć online GoodSync"
+GsConnSetup_SetupLater       	"Skonfiguruj konto GoodSync później"
+GsConnSetup_UseThisAccount		"Użyj obecnego konta GoodSync"
+GsConnSetup_CreateNewAccount	"Utwórz nowe konto GoodSync"
+GsConnSetup_StNoDiscoveryMode	"Nie rejestruj przy pomocy Mediatora, podam nazwę/adres IP, aby dotrzeć do tego komputera, BRAK wersji próbnej w tym trybie"
+GsConnSetup_UserID              "ID użytkownika"
+GsConnSetup_Email               "E-mail"
+GsConnSetup_UserIdKey			"Nazwa użytkownika konta GoodSync"
+GsConnSetup_Password            "Hasło"
+GsConnSetup_Retype              "Powtórz hasło"
+GsConnSetup_YourName            "Imię i nazwisko"
+GsConnSetup_NoDisco_UserId      "Identyfikator administratora"
+GsConnSetup_NoDisco_Password    "Hasło administratora"
+GsConnSetup_SameAccountNote     "Komputery zarejestrowane na tym samym koncie GoodSync można synchronizować ze sobą."
+GsConnSetup_Account_Error       "Błąd kontroli konta"
+
+# GoodSync Connect Server page
+GsConnSetup_ComputerID          "Nazwa komputera"
+GsConnSetup_ServeFilesNo		"Nie udostępniaj plików z dysków tego komputera"
+GsConnSetup_ServeFilesYes		"Udostępniaj pliki z dysków tego komputera innym urządzeniom GoodSync"
+GsConnSetup_ConfigureWinUser	"Użytkownik Windows, właściciel nowych plików"
+GsConnSetup_WinUser             "Nazwa użytkownika Windows"
+GsConnSetup_WinAuthUser			"Uwierzytelnienie użytkownika Windows"
+GsConnSetup_WinPassword         "Hasło Windows"
+GsConnSetup_WinFullName			"Pełna nazwa użytkownika Windows"
+GsConnSetup_WinNote				"Konto Windows jest potrzebne, aby uzyskać dostęp do udziałów Windows, zaszyfrowanych dysków itp.\nPozostaw puste hasło systemu Windows, jeśli chcesz, aby GoodSync nie miał do nich dostępu."
+GsConnSetup_MacFullName			"Pełna nazwa użytkownika MacOS"
+
+GsConnSetup_ConfigureMacUser    "Użytkownik systemu, właściciel nowych plików"
+GsConnSetup_MacUser             "Użytkownik systemu"
+GsConnSetup_MacNote             "Konto MacOS jest wymagane, aby ten serwer mógł działać z plikami przy użyciu odpowiednich uprawnień."
+
+# GoodSync Account Confirm Settings page
+GsConnSetup_FinWillBeSetTo		"Konto GoodSync zostanie ustawione na"
+GsConnSetup_StLocalOnlyMode		"Nie udostępniaj plików"
+GsConnSetup_StServerMode		"Udostępnianie plików jako"
+
+# Wizard -- status and error messages
+GsConnSetup_StConnMediator      "Łączenie z Mediatorem..."
+GsConnSetup_ErrSelectSomething  "Proszę coś zaznaczyć."
+GsConnSetup_ErrNoUserID         "Nie określono nazwy użytkownika lub adresu e-mail GoodSync Connect"
+GsConnSetup_ErrNoUserName		"Nazwa użytkownika jest krótsza niż 5 znaków"
+GsConnSetup_ErrNoPassword       "Nie określono hasła GoodSync Connect"
+GsConnSetup_ErrPasswordShort    "Hasło jest za krótkie"
+GsConnSetup_ErrPasswordMatch    "Hasła nie pasują"
+GsConnSetup_ErrBadEmail         "Nieprawidłowy adres e-mail lub nazwa użytkownika"
+GsConnSetup_ErrNoWinAccount     "Nazwa konta Windows nie może być pusta"
+
+# Wizard -- misc
+Msg_StoppingService     "Stopping Service "
+
+#
+# Explorer Strings -- V11 incluided
+#
+Title_Connect			"Połączenie"
+Title_Proxy             "Ustwienia proxy"
+Str_UseProxy_No         "Nie używaj serwera proxy"
+Str_UseProxy_Auto       "Użyj serwera proxy używanego przez Internet Explorer dla połączeń zdalnych"
+Str_Mac_UseProxyAuto    "Użyj ustawień systemowego serwera proxy"
+Help_UseProxy_Auto      "Użyje serwera Proxy zdefiniowanego przez Internet Explorer we Właściwości Internetowe -> Połączenia -> Ustawienia sieci LAN dla połączń zdalnych. Obejmuje to serwery proxy zdefiniowane przez WinINet i proxy.pac. Opcja 'Połącz przez proxy' musi być zaznaczona w każdym zadaniu korzystającym z proxy, pod przyciskiem Przeglądaj po stronie zadania który wymaga proxy do połączenia"
+Help_Mac_UseProxy_Auto  "Use Proxy server defined in System Preferences->Network Tab->Advanced. 'Connect via Proxy' option must be checked in every Job that wants to use it, under Browse button on the side of the job that needs proxy to connect"
+Str_UseProxy_Manual     "Użyj tego serwera proxy dla połączeń zdalnych"
+Help_UseProxy_Manual    "Użyje serwera proxy dla połączeń zdalnych określonego poniżej. Również opcja 'Połącz przez proxy' musi być zaznaczona w każdym zadaniu korzystającym z proxy, pod przyciskiem Przeglądaj po stronie zadania które wymaga proxy do połączenia"
+Str_ProxyHost           "Serwer proxy:"
+Help_ProxyHost          "Wprowadź tutaj nazwę hosta proxy.\nUżyj prefiksu SOCKS5:// dla SOCKS5 proxy."
+Str_ProxyPort           "Port:"
+Help_ProxyPort          "Wprowadź tutaj numer portu."
+Str_ProxyUserID         "Nazwa użytkownika:"
+Str_ProxyPasswd         "Hasło:"
+Help_ProxyAuth          "Wprowadź tutaj nazwę użytkownika i hasło dla proxy, który wymaga uwierzytelniania."
+
+# Explorer File Operations
+Explorer_File_With_The_Same_Name_Exists  "Plik o tej samej nazwie już istnieje."
+Explorer_Replace_Src_By_Dst              "Zastąp plik w folderze docelowym, plikiem źródłowym (może wznawiać pracę):"
+Explorer_Keep_Dst_File                   "Żadne pliki nie zostaną zmienione. Zachowaj pliki docelowe:"
+Explorer_Copy_If_Newer                   "Kopiuj jeśli nowszy"
+Explorer_Copy_If_Src_Newer_Than_Dst      "Kopiuj jeśli plik źródłowy jest nowszy niż plik docelowy."
+
+Explorer_DestFilePresent "Miejsce docelowe ma już plik o nazwie "
+Explorer_Source			 "Źródło"
+Explorer_Destination	 "Miejsce docelowe"
+Explorer_FileSize		 "Rozmiar: %1 bitów"
+Explorer_DateModified	 "Data modyfikacji: %1"
+Explorer_Do_Same_For_Other_Conflicts	"To samo dla innych konfliktów."
+
+Explorer_EnterEncryptPass "Wprowadź hasło szyfrowania dla: "
+Explorer_UnnamedBmkList  "Kliknij lokalizację na liście, aby do niej przejść:"
+
+# Misc
+Cmd_Properties		   "Właściwości"
+Explorer_Properties    "właściwości"
+Txt_ItemProp            "TPath: %1\nLnew: %2\nLold: %3\nRnew: %4\nRold: %5\nLgen: %6\nRgen: %7"
+Explorer_CopyToClipboard "Skopiuj informacje do schowka"
+
+# Explorer Commands
+Explorer_OpOpen        "Otwórz"
+Explorer_OpDownload	   "Pobierz"
+Explorer_OpUpload      "Wyślij"
+Explorer_OpDelete      "Usuń"
+Explorer_OpRename      "Zmień nazwę"
+Explorer_OpNewFolder   "Nowy folder"
+Explorer_OpDetails     "Szczegóły"
+Explorer_OpExpand	   "Rozwiń"
+Explorer_OpGoto        "Idź do"
+Explorer_OpRefresh     "Odśwież"
+Explorer_OpBookmark	   "Zakładka"
+Explorer_OpCopy		   "Kopiuj"
+Explorer_OpCut		   "Wytnij"
+Explorer_OpPaste	   "Wklej"
+Explorer_OpMove        "Przenieś"
+Explorer_OpNew         "Nowy"
+Explorer_OpEdit        "Edytuj"
+Explorer_OpFavorites   "Ulubione (%1)"
+Explorer_OpRDC         "Podłączanie pulpitu zdalnego"
+
+# Explorer Columns
+Explore_Col_Type		"Typ"
+Explore_Col_Server		"Serwer"
+Explore_Col_Location	"Lokalizacja"
+Explore_Col_Name		"Nazwa"
+Explore_Col_Size		"Rozmiar"
+Explore_Col_Date		"Data"
+Explore_Col_ModTime		"Czas modyfikacji"
+Explore_Col_CreTime		"Czas utworzenia"
+Explore_Col_Attrs		"Atrybuty"
+Explore_Col_Owner		"Właściciel"
+Explore_Col_Comment		"Komentarz"
+
+#
+# Explorer V11
+#
+Explorer_About						"O programie"
+Explorer_1Tree						"1 Drzewo"
+Explorer_2Trees						"2 Drzewa"
+Explorer_Decrypt_Folder				"Odszyfruj folder"
+Explorer_Leave_Decrypted			"Pozostaw folder odszyfrowany"
+Explorer_Show_Checkboxes			"Pokaż pola wyboru pozycji"
+Explorer_Hide_Checkboxes			"Ukryj pola wyboru pozycji"
+Explorer_Op_From					"Z:"
+Explorer_Tasks_Question				"Czy chcesz zatrzymać zadania?"
+Explorer_Tasks_Close_Question		"Niektóre zadania są nadal uruchomione. Zamknąć mimo to?"
+Explorer_Known_Encrypted_Folder		"Znany zaszyfrowany folder"
+Explorer_View_Decrypted_Question	"Czy chcesz wyświetlić ten folder odszyfrowany?"
+Explorer_Op_To						"Do:"
+Explorer_Exit						"Wyjdź"
+
+#
+# Mac RDC
+#
+Str_RDC_Cannot_Start                  "Nie można uruchomić klienta RDP"
+Str_RDC_Error_Not_Installed           "aplikacja %1 nie jest zainstalowana"
+Str_RDC_Error_CannotOpenDistPage      "Nie można otworzyć %1 strony dystrybucji"
+Str_RDC_Error_CannotLaunchWithRDPFile "Nie można uruchomić %1 z plikiem %2 RDP"
+Str_RDC_Error_CannotGetTempFilePath   "Nie można uzyskać ścieżki pliku tymczasowego. Błąd: %1"
+Str_RDC_Error_CannotCreateRDPFile     "Nie można utworzyć %1 pliku RDP"
+Str_RDC_Error_UnableToFindAppBundle   "Nie można znaleźć pakietu aplikacji %1 na tym komputerze"
+Str_RDC_Error_SuggestDownloading      "Możesz pobrać %1 z Mac App Store i spróbować ponownie"
+Str_RDC_Error_GoToAppStore            "Przejdź do App Store"
+
+# Mac specific
+Explorer_OpShowInFinder             "Show in Finder"
+
+#
+# --- SYNCLIB localization ---
+# RFS file codepage and Language -- see main default.rfs
+
+# Left and Right
+Str_LeftFolder			"Lewy folder"
+Str_RightFolder         "Prawy folder"
+
+Str_LeftAndRight        "Lewy i Prawy"
+Str_Left                "L"
+Str_Right               "P"
+Str_Folder              "folder"
+Str_File                "plik"
+Str_Deleted             "usunięty"
+Str_NotPresent          "nieobecny"
+Str_NoSize				"nieznany"
+
+Str_LeftToRight         "Lewy do Prawego"
+Str_RightToLeft         "Prawy do Lewego"
+
+Msg_CompareCheckSum_Slow          "== Analiza porównuje sumy kontrolne każdego pliku, więc będzie działać WOLNIEJ, gdyż musi odczytać zawartość wszystkich plików, aby obliczyć ich sumy kontrolne"
+Msg_CompareCheckSum_Slow_DiffType "== Analiza porównuje sumy kontrolne każdego pliku z jego przechowywaną sumą kontrolną, gdy porównanie Lewej i Prawej sumy kontrolnej nie może być wykonane, jako że sumy kontrolne są różnych typów (SHA1 vs MD5)"
+Msg_CompareCheckSum_Fast          "== Analiza porównuje sumy kontrolne plików które mają ten sam rozmiar, ale różny czas modyfikacji pliku"
+Msg_CompareCheckSum_Fast_DiffType "== Analiza porównuje sumy kontrolne zmienianych plików o tym samym rozmiarze, sumy kontrolne Lewej i Prawej strony są różnych typów (takich jak SHA1 vs MD5)"
+Msg_CompareCheckSum_Sync          "== Analiza porównuje sumy kontrolne plików, które właśnie zsynchronizowano, aby upewnić się, że plik zostały skopiowane prawidłowo"
+
+Msg_CompareFileBodies_Slow        "== Analiza działa w trybie porównynia zawartości, więc będzie działać BARDZO WOLNO, jako że będą odczytywane zawartości wszystkich plików"
+
+Str_Msg_FileDeleted     "Użytkownik usunął plik %1"
+Str_Msg_FolderDeleted   "Użytkownik usunął folder %1"
+Str_Msg_CannotDelete    "Nie można usunąć %1: %2"
+Str_Msg_StateFileDeleted "Usunięto plik stanu %1"
+
+
+# Exclusion messages
+Str_ExclBy_FolderAbove  "wykluczony z powodu folderu powyżej"
+Str_ExclBy_SyncFolder   "wykluczony: folder danych GoodSync"
+Str_ExclBy_MatchName    "wykluczony: pasuje "
+Str_ExclBy_NoMatchName  "nie dołączony: nie pasuje "
+Str_ExclBy_EmptyFolder  "wykluczony: pusty folder"
+Str_ExclBy_ChildOfExcl  "wykluczony: nadrzędny został wykluczony"
+Str_ExclBy_NoPropDels   "wykluczony: nie synchronizuje usunięć"
+Str_Msg_SkipLink        "Pomiń link %1"
+
+# Job status and progress
+Str_Status_PressAnalyze			"Kliknij 'Analizuj', aby rozpocząć..."
+Str_Status_ConnectingToFolder   "Łączę się z folderem %1"
+Str_Status_Scanning             "Skanowanie %1"
+Str_Status_ReadStateFile         "Czytam plik stanu %1"
+Str_Status_ReadEmbeddedStateFile "Czytam plik stanu %1 i łączę go z plikiem nadrzędnym"
+Str_Status_NewStateFile         "%1: Nie znaleziono pliku stanu, tworzę nowy"
+Str_Status_SaveStateFile        "Zapisuję plik stanu %1"
+Str_Status_PostProcessing       "Przetwarzanie końcowe"
+Str_Status_ComputePrevVerSize   "Obliczam rozmiar plików w folderze _saved_"
+
+Str_Status_CompareOneSide       "Porównywanie %1"
+Str_Status_CompareLeftToRight   "Porównywanie Lewy z Prawym"
+
+Str_Status_NotYetAnalyzed   "Jeszcze nie przeanalizowane"
+Str_Status_Syncing          "Synchronizowanie"
+Str_Status_Analyzing        "Analizowanie"
+Str_Status_Connecting       "Łączę"
+Str_Status_Paused           "Wstrzymane"
+Str_Status_Resumed          "Wznowione"
+Str_Status_All              "Wszystkie pliki"
+Str_Status_NoFiles          "Brak plików"
+Str_Status_Changes          "Zmiany"
+Str_Status_InSync           "W synchronizacji"
+Str_Status_Conflicts        "Konflikty"
+Str_Status_NoConflicts      "Brak konfliktów"
+Str_Status_Errors           "Błędy"
+Str_Status_NoErrors         "Brak błędów"
+Str_Status_SyncAttention    "Wymaga uwagi"
+Str_Status_Connected        "Podłączony"
+Str_Status_Disconnected     "Odłączony"
+
+Str_Status_VolumeInfo_Free  "Wolne: %1, Pojemność: %2"
+Str_Status_VolumeInfo_Reqd  "Wymagane: %1"
+Str_Status_Volume_Unknown      "Wolne : nieznane"
+Str_Status_Volume_Disconnected "Odłączony"
+
+Str_Status_FilesChangedCnt  "Zmienione pliki: %1"
+Str_Status_ConflictsCnt     "Konfliky: %1"
+Str_Status_ErrorsCnt        "Błędy: %1"
+Str_Status_SyncedCnt        "Zsynchroniozwane: %1"
+Warn_AllExcluded            "Ostrzeżenie!\r\nWszystkie pliki są wykluczone, konfiguracja filtrów jest prawdopodobnie nieprawidłowa.\r\nPrzełącz na 'Wszystko' lub 'Wykluczone' i sprawdź, czy filtry działają prawidłowo."
+Warn_AllNew                 "Ostrzeżenie!\r\nFoldery Lewy i Prawy nie mają wspólnych plików. Wygląda na to, że próbujesz synchronizować foldery niepowiązane.\r\nProszę sprawdź, czy wybrano odpowiednie foldery do synchronizacji."
+Warn_AllDelete              "Ostrzeżenie!\r\nWszystkie pliki zostaną usunięte z folderu docelowego.\r\nZaleca się utworzenie kopii zapasowej danych tego folderu."
+
+# Analyze messages
+Str_Msg_Job                 "Zadanie"
+Str_Msg_LeftRight_Descrs    "Lewy: %1, Prawy: %2"
+Str_Msg_JobFilters          "Filtry: %1"
+Str_Msg_SetFolder           "Nie wybrano folderu"
+Str_Msg_CannotOpenFolder    "Brak systemu plików dla %1"
+Str_Msg_SameFolders         "Foldery Lewy i Prawy są takie same."
+Str_Msg_NestedFolders2      "Folder %1 jest podfolderem folderu %2 lub odwrotnie. Nie można analizować zagnieżdżonych folderów."
+Str_Msg_WillCreateFolder    "Nie znaleziono folderu %1, spróbuje go utworzyć"
+Str_Msg_CannotConnect       "Nie można połączyć z "
+Str_Msg_Created_Folder      "Pomyślnie utworzono folder '%1'"
+Str_Msg_CannotCreateGsdata  "Nie można utworzyć folderu stanu GoodSync _gsdata_ w %1: %2\Jeśli to folder tylko do odczytu, przejdź do Zadanie -> Opcje i ustaw zadanie jako 1-kierunkowe. W 'Lewa strona' zaznacz 'Nie twórz folderu _gsdata_'"
+Str_Msg_ErrReadStateFile    "Błąd przy odczycie pliku stanu %1: %2.\nZły plik został zmieniony na %3.\nPrzy następnej analizie zostanie utworzony nowy plik stanu.\nWyślij uszkodzony plik stanu pod adres ask@goodsync.com."
+Str_Msg_EmbeddedJob         "Znaleziono folder danych synchronizacji %1, który należy do innego zadania. Oznacza to, że więcej niż jedno zadanie może synchronizować ten folder. Nie jest to wskazane."
+Str_Msg_DetectedDisconnect  "Wykryto rozłączenie: %2"
+Str_Msg_RemainsConnected    "Nadal podłączony: %2"
+Str_Msg_DetectedConnect     "Wykryto podłączenie, wykonaj analizę"
+Str_Msg_RemainsDisconnected "Nadal rozłączony: %2"
+
+Str_Msg_Filter_ExcludeHidden       "Wyklucz ukryte"
+Str_Msg_Filter_ExcludeSystem       "Wyklucz systemowe"
+Str_Msg_Filter_ExcludeTemp         "Wyklucz tymczasowe"
+Str_Msg_Filter_ExcludeDisregarded  "Wyklucz ignorowane"
+Str_Msg_Filter_ExcludeEmptyFolders "Wyklucz puste foldery"
+Str_Msg_Filter_Included            "Dołącz"
+Str_Msg_Filter_Excluded            "Wyklucz"
+
+Str_Msg_OlderFileVsNewer	  "Uwaga: Starszy plik zastąpi nowszy"
+Str_Msg_Conflict_BothChanged  "Konflikt: Plik zmodyfikowany po Obu stronach"
+Str_Msg_Conflict_NewFilesDiff "Konflikt: Nowe pliki, które się różnią"
+Str_Msg_Conflict_1way_RtoL    "Synchronizacja Prawej do Lewej w zadaniu 1-kierunkowym z Lewej do Prawej"
+Str_Msg_Conflict_1way_LtoR    "Synchronizacja Lewej do Prawej w zadaniu 1-kierunkowym z Prawej do Lewej"
+
+Str_Status_JobScheduled      "-- %1: Zaplanowane do uruchomienia przez %2"
+Str_Status_AnalysisStart     "-- Analiza rozpoczęta przez %1"
+Str_Status_AnalysisStarted   "%2: Alaliza rozpoczęta przez %3 na '%4' (GoodSync %5)"
+Str_Status_OneSideStats      "%1: Pliki: %2 (wykluczone %3). Foldery: %4 (wykluczone %5)."
+Str_Status_CurrSideStats     "Pliki+Foldery %1 Wykluczone %2 Prędkość %3 pozycje/s"
+Str_Status_AnalysisSummary   "Zmiany: %1, Konflikty: %2, Czas kopiowania: %3, Aktualizacja stanu: %4, Błędy: %5"
+Str_Status_AnalysisCompleted "-- Analiza zakończona. Czas %2, Prędkość: %3 plików/s"
+Str_Status_AnalyzeStopped    "Analiza zatrzymana przez użytkownika"
+Str_Status_AnalyzeFinished_NoChanges   "Przeanalizowano, nie wykryto zmian"
+Str_Status_AnalyzeFinished_ReadyToSync "Przeanalizowano, kliknij 'Synchronizuj' by uruchomić synchronizację"
+Str_Status_Advise_HaveConflicts "Analiza zakończona. Wykryto konflikty. Rozwiąż konflikty wybierając odpowiedni kierunek synchronizacji"
+Str_Status_Advise_HaveErrors    "Analiza zakończona. Wykryto błędy. Kliknij przycisk 'Błędy' by zobaczyć szczegóły"
+Str_Status_FolderDisconnected   "Jeden z folderów został odłączony"
+Str_Status_RemainsConnected     "Oba foldery pozostają podłączone"
+Str_Status_RemainsDisconnected  "Jeden z folderów pozostaje odłączony"
+
+Str_Status_SyncStart         "== Synchronizacja rozpoczęta przez %1"
+Str_Status_SynchroStarted    "%2: Synchronizacja rozpoczęta przez %3 na \"%4\""
+Str_Status_SavingStateFor    "Zapisywanie stanu dla "
+Str_Status_SynchroSummary    "OK: %1, Błędów: %2"
+Str_Status_SynchroErrors     "Synchronizacja zakończona. Ilość błędów: %1. Kliknij przycisk 'Błędy' by zobaczyć szczegóły"
+Str_Status_SynchroConflicts  "Synchronizacja zakończona. Ilość nierozwiązanych konfliktów: %1. Kliknij przycisk 'Konflikty' by zobaczyć szczegóły"
+Str_Status_SynchroCompleted  "== Synchronizacja zakończona. Czas: %2, Prędkość: %3"
+Str_Status_Computing_Speed  "Prędkość obliczania"
+Str_Status_Remaining_Speed  "Pozostało %1 Średnia prędkość %2"
+Str_Status_Curr_Recycling   "Usunięto %1 z %2 pozycji"
+Str_Status_Current_Speed	"Aktualnie "
+Str_Status_Elapsed_Time		"Upłynęło "
+Str_Status_SyncError        "BŁĄD"
+Str_Status_SyncStopped      "Synchronizacja zatrzymana przez użytkownika, kliknij ponownie 'Synchronizuj' by kontynuować"
+Str_Status_SyncDisconnected "Folder odłączony"
+Str_Status_SyncFinished_OK  "Pomyślnie zakończono synchronizację"
+Str_Status_Advise_AnalyzeAttention   "Analiza zakończona. Wykryto błędy"
+Str_Status_Advise_SyncAttention      "Synchronizacja zakończona. Wykryto błędy i nierozwiązane konflikty"
+Str_Status_Advise_AnalyzeConflict    "Wykryto konflikt. Wybierz kierunek synchronizacji by rozwiązać konflikt:"
+
+Str_Msg_StoppedByUser       "Zatrzymane przez użytkownika"
+Str_Msg_OTP_InBrowse		"Ten użytkownik wymaga dodatkowego uwierzytelnienia (OTP lub OAuth). Kliknij przycisk 'Ustaw folder' (Przeglądaj), aby przeprowadzić dodatkowe uwierzytelnianie"
+
+Str_Msg_DeleteOtherJobResults  "Usuń wyniki analizy zadań, które pokrywają się z tym zadaniem: %1"
+Str_Msg_DeleteResultsReason    "Synchronizacja zadania pokrywającego się %1"
+Str_Msg_DeleteThisJobResults   "Wyniki analizy (pliki/drzewo folderów) dla tego zadania zostały usunięte przez %1"
+
+Str_Msg_Action_DeleteFolder "Usuń folder"
+Str_Msg_Action_DeleteFile   "Usuń plik"
+Str_Msg_Action_DeleteLink   "Usuń link"
+Str_Msg_Action_CreateFolder "Utwórz folder"
+Str_Msg_Action_CopyOver     "Nadpisz"
+Str_Msg_Action_CopyNew      "Kopiuj nowy"
+Str_Msg_Action_CopyTime     "Kopiuj czas modyfikacji %1 do %2"
+Str_Msg_Action_MoveFile       "Przenieś plik %1 -> %2"
+Str_Msg_Action_MoveFileDone   "Przenieś plik %1 -> %2: gotowe"
+Str_Msg_Action_MoveFolder     "Przenieś folder %1 -> %2"
+
+
+Str_Msg_OldNewWholeHour_TimeShift  "%1: Wykryto zmianę czasu Stary-Nowy o %2 godzin dla %3 plików. Zdecydowano: Bez zmian po tej stronie"
+Str_Msg_OldNewRounding_TimeShift   "%1: Wykryto zmianę zaokrąglenia czasu Stary-Nowy o %2 godzin (typ %3) dla %4 plików. Zdecydowano: Bez zmian po tej stronie"
+Str_Msg_LeftRight_TimeShift        "Wykryto zmianę czasu o %1 godzin (typ %2) pomiędzy Lewą i Prawą stroną dla %3 plików. Zdecydowano: Zmiana operacji Kopiuj plik na Kopiuj czas"
+
+Str_Msg_FolderLocked	    "Inne zadanie jest w trakcie synchronizacji w folderze %1,\nrozpoczęto: %2."
+Str_Msg_LimitChanges2       "%1 plików zmieniło się (wykluczając zmiany nazw), więcej niż próg %2. Z tego powodu zadanie nie zsynchronizuje się automatycznie."
+Str_Msg_NotEnoughDiskSpace  "Brak wystarczającej ilości miejsca na dysku %1. Wymagane %2, jest %3"
+Str_Msg_RequiredDiskSpace   "Na dysku %1 wymagane jest %2 miejsca na synchronizację, jest %3"
+Str_Msg_UnknownDiskSpace    "Na dysku %1 ilość wymaganego miejsca na synchronizację wynosi %2, ilość wolnego miejsca jest nieznana"
+
+Str_Msg_CannotOpenStateFile  "Nie można otworzyć pliku stanu, usuń go, jeśli został uszkodzony"
+Str_Msg_CannotParseStateFile "Nie można przeanalizować pliku stanu, usuń go, jeśli jest uszkodzony"
+
+Str_Msg_AndMoreSimilarLogLines "... i %1 podobnych linii dziennika zostało pominiętych (wybierz Zadanie -> Dzienniki dla Lewej/Prawej strony by podejrzeć cały dziennik)"
+
+Str_Msg_AnalyzeAfterStateFileChange "Kliknij ponownie przycisk 'Analizuj, ponieważ inne zadanie zostało zsynchronizowane i unieważniło wyniki analizy tego zadania.\nStatus pliku: %1\nNowy: [%2] != \nStary: [%3]\n"
+
+Str_Msg_JobCommonFolder  "Zadanie %1 ma wspólny folder z tym zadaniem i jest teraz uruchomione. Niech skończy jako pierwszy"
+
+#
+# License Activation Wizard
+#
+Act_Header			"Dziękujemy za zakup GoodSync"
+Act_Title			"Aktywacja GoodSync"
+Act_Msg_NeedAccount   "Aby aktywować licencję GoodSync, musisz najpierw skonfigurować konto GoodSync"
+Act_Msg_AcctSetup_Win "Wybierz Narzędzia -> Konfiguracja konta GoodSync..."
+Act_Msg_AcctSetup_Mac "Wybierz GoodSync -> Konfiguracja konta GoodSync..."
+Act_PasswordOnFile    "(w pliku)"
+
+Act_User_Account_Btn    "Aktywuj za pomocą konta GoodSync"
+Act_User_Account_Tip    "Aktywuj przy pomocy nieużywanej licencji na koncie GoodSync"
+Act_User_Online_Btn	    "Aktywuj za pomocą ID zamówienia i nazwy:"
+Act_User_Online_Tip	    "GoodSync wyszuka zamówienie według identyfikatora oraz nazwy i aktywuje się przy jego pomocy"
+Act_User_Manage_Link    "Zarządzaj licencjami na swoim koncie"
+Act_User_ViaBrowser_Btn	"Aktywuj za pomocą przeglądarki (użyj tylko, jeśli ten komputer jest offline):"
+Act_User_ViaBrowser_Tip "Przekazuje dane do serwera aktywacji za pośrednictwem przeglądarki, która może znajdować się na innym komputerze"
+Act_User_Acct_Email	"Adres e-mail konta GoodSync"
+Act_User_Acct_Pwd	"Hasło konta GoodSync"
+
+Act_ViaBrowser_Txt			""Przejdź do strony aktywacji ViaBrowser, link podany przez obsługę GoodSync. Skopiuj żądanie aktywacji do schowka. Następnie wklej go w polu żądanie aktywacji na stronie aktywacji w przeglądarce i kliknij "Prześlij". Następnie skopiuj odpowiedź aktywacji wygenerowaną przez serwer z przeglądarki do pola odpowiedź aktywacji poniżej i kliknij "Dalej"."
+Act_ViaBrowser_ActReq_Text	"Skopiuj stąd żądanie aktywacji"
+Act_ViaBrowser_Copy			"Kopiuj"
+Act_ViaBrowser_ActCode_Txt	"Tutaj wklej odpowiedź aktywacyjną"
+
+Act_Finish_Success	"Te licencje są teraz aktywne:"
+Act_Finish_Connect	"Łączenie z serwerem aktywacji"
+Act_Finish_Fail		"Aktywacja nieudana"
+
+
+#
+# Free Version limitations
+#
+FreeLimit_JobCount  "Ograniczenie wersji bezpłatnej: Więcej niż 3 zadania są niedozwolone"
+FreeLimit_ItemCount "Ograniczenie wersji bezpłatnej: Zadania zawierające więcej niż 100 plików / folderów są niedozwolone"
+FreeLimit_AutoRun   "Ograniczenie wersji bezpłatnej: Automatyczne uruchamianie zadań jest niedozwolone"
+FreeLimit_WDJobCount   "Ograniczenie wersji bezpłatnej (WD): Więcej niż 1 zadanie jest niedozwolona"
+FreeLimit_WDFileSystem "Ograniczenie wersji bezpłatnej (WD): System plików inny niż WD na %1"

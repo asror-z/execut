@@ -1,0 +1,778 @@
+﻿# RFS file codepage.
+RFS_CODEPAGE "1252"
+RFS_LANGUAGE "Norwegian"
+
+# Menus
+Menu_Job					"&Jobb"
+Cmd_JobNew					"&Ny"
+Cmd_JobDelete				"Sl&ett"
+Cmd_JobRename				"Nytt navn..."
+Cmd_JobSaveTemplate			"Lagre som &Template..."
+Cmd_JobClone				"Lag klone..."
+Cmd_JobSwapSides			"Bytte Jobbsider"
+Cmd_Analyze				"&Analyser"
+Cmd_AnalyzeAll				"Ana&lyser Alle"
+Cmd_Sync					"&Synkroniser"
+Cmd_SyncAll					"Synkroniser Alle"
+Cmd_AnalyzeAndSyncThis		"Analyser og Synk"
+Cmd_AnalyzeAndSyncAll		"Analyser og Synk Alle"
+Cmd_Stop				"Stopp"
+Cmd_StopAll			"Avbryt alle"
+Cmd_JobListOfChanges	"Liste over end&ringer"
+Cmd_JobOpenLogLeft			"Åpne Venstre Loggfil"
+Cmd_JobOpenLogRight			"Åpne Høyre Loggfil"
+Cmd_JobOptions				"&Innstillinger..."
+Cmd_JobResetState			"G&jenopprett Tilstand"
+Cmd_AppExit					"A&vslutt"
+Cmd_Cut					"Klipp"
+Cmd_Copy				"Kopier"
+Cmd_Paste				"Lim inn"
+Cmd_ExportJobsList			"Eksporter Jobbliste..."
+Cmd_ExportSelJobsList		"Eksporter Utvalgte Jobber ..."
+Cmd_ImportJobsList			"Importer Jobbliste..."
+
+Menu_View					"&Vis"
+Cmd_ViewStatusBar			"&Statuslinje"
+Cmd_ProgOptions				"&Programinnstillinger..."
+
+
+Cmd_View_FullWindow		"&Full modus"
+Cmd_View_MiniWindow		"&Minimodus"
+Cmd_View_TrayIcon		"&Oppgavelinje-ikon"
+
+Menu_Help					"&Hjelp"
+Cmd_AppAbout				"&Om..."
+Cmd_AppManual				"&Manual"
+Cmd_AppFAQ					"&FAQ"
+Cmd_AppCreateTicket			"&Lag Support Billett..."
+Cmd_Help_BuyPro				"Kjøp Pro..."
+Cmd_Help_Activate			"Aktiver Pro..."
+Cmd_CheckUpdates				    	"Se etter oppdateringer"
+
+Cmd_ShowAll					"Alle"
+Cmd_ShowChanges				"&Endringer"
+Cmd_ShowConflict			"Kon&flikter"
+Cmd_ShowError				"&Feil"
+
+Cmd_ShowToDelete			"Slett"
+Cmd_ShowExcluded			"Utelate"
+Cmd_ShowIncluded			"Inkludert"
+Cmd_ShowSameLenDiffTime		"Samme lengde, Ulik tid"
+Cmd_ShowNotYetSynced		"Ikke synkronisert ennå"
+Cmd_ShowAllAll				"Alle Aktive + Inaktive"
+
+Menu_Actions				"&Handling "
+Cmd_ViewJobList				"&Jobbliste"
+Cmd_ViewJobFilter			"&Filtre"
+Cmd_ViewLog					"&Logger"
+
+Menu_Tools					"&Verktøy"
+Menu_View_Other				"&Andre"
+
+
+# Context menus
+
+Cmd_ItemProp				"&Egenskaper"
+
+Cmd_ItemLOpen				"Åpne &Venstre Fil"
+Cmd_ItemROpen				"Åpne &Høyre Fil"
+Cmd_ItemLDelete				"&Slett Venstre Fil"
+Cmd_ItemRDelete				"&Slett Høyre Fil"
+Cmd_ItemDeleteBoth			"&Slett begge Filer"
+
+Cmd_ItemLDeleteMul1			"Slett %1 element fra Venstre side"
+Cmd_ItemRDeleteMul1			"Slett %1 element fra Høyre side"
+Cmd_ItemBDeleteMul1			"Slett %1 element fra Begge sider"
+
+Cmd_OpenLFolder				"Åpne Venstre Folder"
+Cmd_OpenRFolder				"Åpne Høyre Folder"
+Cmd_DeleteLFolder			"&Slett Venstre Folder"
+Cmd_DeleteRFolder			"&Slett Høyre Folder"
+Cmd_DeleteBothFolders		"&Slett begge Foldere"
+
+Cmd_ItemCompare				"&Sammenligne Venstre til Høyre"
+
+Cmd_Recommended				"&Anbefalt"
+Cmd_DoNotCopy				"&Ikke Kopier"
+Cmd_CopyLeftToRight			"Venstre til &Høyre"
+Cmd_CopyRightToLeft			"Høyre til &Venstre"
+Cmd_CopyTimeLeftToRight		"Kopieringstid Venstre til Høyre"
+Cmd_CopyTimeRightToLeft		"Kopieringstid Høyre til Venstre"
+Cmd_CopyStateSyncTail				"Synk-status"
+
+Str_Items1					" %1 Elementer"
+
+Cmd_ItemExcludeFile1		"&Utelukke '%1' File"
+Cmd_ItemExcludeFolder1		"&Utelukke '%1' Foldere"
+Cmd_ItemExcludeMulti1		"&Utelukke %1 Valgte Elementer"
+
+Cmd_ItemIncludeFile1		"&Inkludere Bare '%1' File"
+Cmd_ItemIncludeFolder1		"&Inkludere Bare '%1' Folder"
+Cmd_ItemIncludeMulti1		"&Inkludere Bare %1 Valgte Elementer"
+
+Cmd_ItemExcludeAllFiles1	"Utelukke &Alle '%1' Filer"
+Cmd_ItemExcludeAllFolders1	"Utelukke &Alle '%1' Foldere"
+Cmd_ItemExcludeAllMulti1	"Utelukke &Alle %1 Navn"
+
+Cmd_ItemExcludeAllMask1			"Ut&elukke Alle '*%1' Filer"
+Cmd_ItemExcludeAllMaskMulti1	"Ute&lukke alle filer av type %1 "
+
+Cmd_ItemIncludeAllMask1			"T&a bare med '*%1' Filer"
+
+
+# Taskbar Icon menu
+
+
+# Buttons below tree
+Grp_Actions					"Handlinger"
+Btn_Analyze					"Analyser"
+Btn_SyncRun					"Synk"
+Btn_Stop				"Stopp"
+Btn_Pause					"&Pause"
+Btn_Resume					"&Fortsette"
+Btn_Auto				"Auto"
+Btn_Clear               "Fjerne"
+Grp_Show					"Tre-visning"
+Cmd_ShowToCreate			"Ny"
+Cmd_ShowToOverwrite			"Overskrive"
+
+Chk_AutoScroll				"Skrolle"
+
+# Tree view Columns
+Str_TreeItem				"Dataelement"
+Str_TreeLSize				"L Størrelse"
+Str_TreeLDate				"L Dato"
+Str_TreeL					"L"
+Str_TreeCenter				""
+Str_TreeR					"R"
+Str_TreeRSize				"R Størrelse"
+Str_TreeRDate				"R Dato"
+Str_TreeStatus				"Status"
+
+# Misc buttons
+Btn_Ok					"OK"
+Btn_Cancel				"Avbryte"
+Btn_Apply				"Legg til"
+Btn_Yes					"Ja"
+Btn_No					"Nei"
+Btn_Abort               "Avbryte"
+Btn_Retry               "Gjenta"
+Btn_Ignore              "Ignorer"
+Btn_Close               "Lukk"
+Btn_Help                "Hjelp"
+Btn_Continue			"Fortsette"
+Btn_Browse				"Bla igjennom"
+
+
+# Tooltips for buttons, for new users
+Tip_Browse_Left			"Velg venstre folder"
+Tip_Browse_Right		"Velg høyre folder"
+Tip_Change_Way			"Endre jobbretning og andre innstillinger"
+Tip_Analyze				"Klikk her for å analysere jobb"
+Tip_Sync				"Klikk her for å synkronisere jobb"
+Tip_Stop				"Klikk her for å stoppe kjørende arbeidsoperasjon"
+Tip_Clear				"Fjern differanse-treet for å spare minneplass"
+Tip_Opt					"Konfigurere automatisk jobboppsett"
+Tip_Paused				"Pauset. Klikk her for å fortsette"
+Tip_Pause				"Klikk her for å pause gjeldende operasjon"
+
+# New Job dialog
+Title_JobName				"Skriv inn jobbnavn"
+Str_JobName					"Jobbnavn:"
+Str_JobTemplate				"Fra Mal:"
+Str_BadJobName1				"Jobbnavn kan ikke inneholde disse tegnene: / \\ ? < > : * |"
+Str_BadJobName2				"Jobbnavn kan ikke være  '%1'."
+Str_BadJobName3				"Jobbnavn kan ikke være mer enn 100 tegn."
+Str_JobNameExists			"Jobb med dette navnet eksisterer allerede."
+Str_JobType					"Velg Jobb-type"
+Str_JobType_Sync			"Synkroniser"
+Str_JobDesc_Sync			"To-Veis Jobb, brukes når filer er endret på begge sider og GoodSync skal overføre endringer begge veier, eks. på en pc og en bærbar"
+Str_JobType_Backup			"Backup"
+Str_JobDesc_Backup			"En-veis Jobb, brukes for å kopiere endrede filer fra Venstre side til en Backup folder på Høyre side"
+Str_JobType_Template		"Fra mal:"
+Str_JobDesc_Template	 	"Maler er delvis utfylte jobber som brukes til å lagre dine favorittjobber. Maler husker jobbvalg men ikke folder-stier."
+Str_JobDesc_NoTemplate_1 	"Ingen Maler er laget enda. Bruk '%1' kommandoen for å lage en ny mal fra eksisterende jobb."
+Str_Combo_NoTemplate	 	"<ingen maler>"
+Title_RenameJob						"Nytt navn på Jobb"
+Title_CloneJob						"Lag klone av Jobb"
+Str_NewJob_Header		"Velkommen til GoodSync"
+Str_NewJob_Descr		"La oss opprette din første synkroniseringsjobb"
+Str_NewJobClose			"Er du sikker på at du vil avslutte GoodSync nå?\nTrykk OK for å avslutte. GoodSync vil spørre deg om å opprette en ny synkroniseringsjobb neste gang.\nTrykk Avbryt for å gå tilbake og legge inn navn på ny jobb."
+Lnk_Tutorial			"Veiledning"
+
+# Job Tabs control buttons
+Str_TabAddNewJob			"Legge til ny Jobb"
+Str_TabScrollLeft			"Skrolle mot Ventre"
+Str_TabScrollRight			"Skrolle mot Høyre"
+
+# Windows menu and dialog
+
+
+
+# Job List Pane
+Title_JobList				"Jobblister"
+Title_TaskName				"Oppgavenavn"
+Title_LastRunTime			"Siste kjøringstid"	
+
+#Log Pane
+Title_LogWnd						"Loggevindu"
+
+# Help -> About
+Title_About					"Om"
+Tip_About				"Om"
+Str_RegTo					"Registert på:"
+Help_ChkVer					"Koble til GoodSync web-server for å se om ny versjon er tillgjengelig for nedlasting."
+Help_SysStat				"Vise informasjon om GoodSync versjon og bruksmiljø. Vennligst oppgi denne informasjonen når du kontakter Teknisk Support."
+
+# Program Options
+Title_Options				"GoodSync-innstillinger"
+Str_Options					"Innstillinger"
+
+Help_NotDefined				"Ingen hjelp definert"
+Help_MouseOver				"Flytt musa over valgene for å se en detaljert beskrivelse. Trykk Alt-tasten hvis du ønsker å skrolle eller kopiere hjelpetekst."
+
+# Program Options - General
+Title_General				"Generelt"
+Str_Lang					"Språk"
+Help_Lang					"Endre GoodSyncs språkgrensesnitt, tillegg og meldinger. GoodSync må restartes for å aktivere valgt språk."
+Chk_TrayIcon				"Skjul til oppgavelinjen når hovedvindu er lukket"
+Help_TrayIcon				"PÅ: Når du lukker GoodSync, vil programmet kjøre i bakgrunnen. For å få tilgang til GoodSync, trykk på ikonet i systemlinjen (i høyre hjørne nederst).  AV: Når du lukker GoodSync, frigjøres det fra minne."
+Chk_AutoStart				"Starte GoodSync når Windows starter"
+Help_AutoStart				"Windows starter GoodSync automatisk når du logger inn på din Windows-bruker. Slå på dette valget hvis du kjører automatiske jobber."
+Chk_ShowSysTray				"Vis GoodSync-ikon i systemlinjen"
+Help_ShowSysTray			"Vis GoodSync-ikon i systemlinjen"
+
+Chk_ResetIM					"Sett alle informasjonsmeldinger til standard"
+Help_ResetIM				"Slå på alle tidligere deaktiverte advarselsmeldinger"
+Chk_AutoChkVer				"Se etter ny versjon daglig"
+Help_AutoChkVer				"GoodSync vil kontakte www.goodsync.com daglig for å sjekke om ny versjon er tilgjengelig for nedlasting."
+Chk_CreateNewFolder			"Opprette venstre/høyre synk-foldere hvis de ikke finnes"
+Help_CreateNewFolder		"GoodSync vil opprette venstre/høyre synk-foldere hvis de ikke finnes."
+Chk_AutoHideMiniWin		"Automatisk skjuling av Minivindu når det ikke er aktive jobber"
+Help_AutoHideMiniWin	"Automatisk skjuling av Minivindu når det ikke er aktive jobber"
+
+Str_LogDetailLevel			"Loggenivå:"
+Str_LogCritical				"Kritisk"
+Str_LogError				"Feil"
+Str_LogInfo					"Informasjon"
+Str_LogDetails				"Detaljer"
+Help_LogDetailLevel			"Velg hvor mye detaljer det skal være i loggefilene."
+
+
+
+Str_CompareProg			"Sammenligne Filer ved bruk av eksternt Program"
+Help_CompareProg			"Fil sammenligningsprogram. Det bør være et program med grafisk grensesnitt som tar to argument: sti til filer for å sammenligne. Eksempel: Hvis du spesifiserer WinDiff.Exe her skriver du: WinDiff fil1 fil2"
+Str_ExecutableFiles			"Kjørbar EXE Fil"
+
+# Program Options -> Connection
+Title_Connect			"Oppkobling"
+Str_UseProxy_Auto		"Bruk Proxy-server til Internet Explorer for fjerntilkoblinger"
+Help_UseProxy_Auto  	"Bruk Proxy-server definert for Internet Explorer i Internet Properties -> Connections -> LAN Settings for fjerntilkoblinger. Dette dekker proxyservere definert av WinINet og proxy.pac. 'Koble til via Proxy' opsjonen må være valgt i alle Jobber som den skal brukes i. Dette velges under "Bla igjennom"-knappen på siden av jobben som trenger proxy for å koble til"
+Str_UseProxy_Manual			"Bruk Proxy-server for remote oppkobling"
+Help_UseProxy_Manual			"Bruk Proxy server for remote oppkobling"
+Str_ProxyHost			"Navn på vertsmaskin"
+Help_ProxyHost			"Legg inn navn på Proxy-server her "
+Str_ProxyPort			"Port"
+Help_ProxyPort			"Legg inn Proxy port-nummer"
+Str_ProxyUserID         "Proxy Bruker-ID"
+Str_ProxyPasswd         "Passord"
+Help_ProxyAuth          "Legg inn proxy Bruker-ID og Passord for proxier som krever autentsering. Proxy finnes i Internett Alternativer. Disse globale innstillingene gjelder for alle koblinger til FTP, DAV, S3 filsystemer"
+
+Str_SMTP_Enable			"Bruk SMTP-server for å sende epost (Av: Bruk Default MAPI-klient)"
+Help_SMTP_Enable		"Avkrysset: Bruk SMTP-server spesifisert under for å sende Post-Analyse og Post-Synk eposter. Ikke avkrysset: Bruk Default MAPI-klient for å sende Post-Analyse og Post-Synk eposter"
+Str_SMTP_Host			"SMTP-server"
+Help_SMTP_Host			"Legg inn SMTP-servernavn her. Denne serveren brukes for å sende Post-Synk og Post-Analyse eposter"
+Str_SMTP_Port			"Port"
+Help_SMTP_Port			"Legg inn SMTP-port-nummer, vanligvis 587 eller 25."
+Str_SMTP_UserID         "SMTP BrukerID"
+Str_SMTP_Passwd         "Passord"
+Help_SMTP_UserID          "Legg inn SMTP-server BrukerID og Passord for servere som krever autentisering"
+Str_SMTP_SenderEmail    "Avsenders Epost"
+Help_SMTP_SenderEmail   "Legg inn avsenders Epost (din epost-adresse) som rapportert til SMTP-server"
+Str_SMTP_Secure			"Sikker SMTP sendes over SSL"
+Help_SMTP_Secure		"Hvis avkrysset, krypter SMTP-kommunikasjon vha. SSL på port 465. Hvis ikke avkrysset, bruk klartekst-kommunikasjon."
+
+
+# Job Options - General
+Title_JobGeneral			"Generelt"
+Tip_JobGeneral			"Jobb, generell"
+Label_JobType				"Jobbtype"
+Str_JobType_TwoWay			"2-Veis"
+
+Str_JobType_LeftToRight		"1-Veis Venstre til Høyre"
+Str_JobType_RightToLeft		"1-Veis Høyre til Venstre"
+Help_JobType				"Synkroniseringstype definerer prioritet og retningen av synkronisering.  To-Veis jobber beholder venstre og høyre foldere synkronisert, selv om filer endres på begge sider.  En-Veis jobber overfører endringer fra Venstre til Høyre eller Høyre til Venstre, Brukes mest til backup."
+
+
+Radio_OneWayDeleteSource "Flytt filer (Avansert)"
+Help_OneWayDeleteSource	 "Slett kildefiler etter vellykket Synk av filene.  ADVARSEL: IKKE bruk denne opsjonen med mindre du er helt sikker på konsekvensene"
+Warn_OneWayDeleteSource  "Er du helt sikker på at du vil slette kildefilene etter Synk?\nKlikk NEI hvis du ikke er HELT sikker."
+
+Chk_DelPropagate		"Overføre slettinger"
+Help_DelPropagate		"Hvis filer eller foldere har blitt slettet av bruker på ene siden, GoodSync vil slette det på andre siden ved kjøring av Synk."
+
+Chk_SaveBakFiles		"Lagre backup-kopi av slettede/gjenopprettede filer"
+Help_SaveBakFiles		"Lagre backup-kopi av filer som er slettet eller gjenopprettet som et resultat av Synk. Filer er lagret til _gsdata_\\_saved_ folder. Bare den nyeste versjon av slettede/gjenoppettede filer blir lagret."
+
+Chk_CalcReqSpace		"Beregnet diskplass nødvendig for Synk"
+Help_CalcReqSpace		"Hvis kontrollert, vil det beregnes hvor mye fri diskplass som trengs for å kjøre synkronisering. La denne stå på hvis det skrives til disker med begrenset fri diskplass. Slå av for jobber som er usannsynlig fyller disken, fordi det er rikelig med diskplass på begge sider"
+
+Str_SpeedLimit			"Hastighetsgrense for filkopiering i Kb/sek"
+Help_SpeedLimit  		"Reduser hastighet for filkopiering (opp- eller nedlasting) hvis gjennomsnitlig hastighet overstiger denne hastigheten i Kbytes / sekund. 0 betyr ingen grense."
+
+Str_ShowBalloon			"Vise ballongmeldinger"
+Str_DoNotShowBalloon	"Aldri"
+Str_ShowBalloonAlways	"Ved Endringer og Synk"
+Str_ShowBalloonOnError	"Ved Konflikter og Feil"
+Help_ShowBalloon		"Velg når det skal vises meldingsvarsel i GoodSync-ikon på systemlinjen"
+
+
+# Job options - Filters page
+Title_Filters			"Filtre"
+Tip_Filters				"Filtre"
+Str_FilterExcluded		"Utelate Filer/Foldere"
+Help_FilterExcluded		"Filer og foldere i denne lista vil bli utelatt fra synkroniseringen. Jokertegn '*' og '?' kan brukes her. Linjer som starter med \\ tilsvarer komplett sti til Synk-folder. Eksempel *.txt *~ \\Fo?der\\*.obj"
+Str_FilterIncluded		"Inkluder Filer"
+Help_FilterIncluded		"Hvis den ikke er tom vil bare disse filen, men unntatt de som er på ekskluderingslista, bli synkronisert."
+Tip_Filter_New			"Sett inn nytt filter"
+Tip_Filter_Edit			"Endre valgt filter"
+Tip_Filter_Del			"Slett valgt filter"
+Str_Filter_DummyText	"<Dobbelklikk her for å legge til nytt element>"
+Str_Edit				"Rediger"
+
+Chk_ExcludeEmptyFolders	 "Utelukke tomme foldere"
+Help_ExcludeEmptyFolders "Utelukke foldere som er tomme, eller som bare inneholder utelukkede filer og foldere"
+Chk_ExcludeHidden		 "Utelate skjulte filer og foldere"
+Help_ExcludeHidden		 "Utelate filer og foldere som har SKJULT egenskap satt"
+Chk_ExcludeSystem		 "Utelate System-filer og -foldere"
+Help_ExcludeSystem		 "Utelate filer og foldere som har SYSTEM-egenskap satt"
+
+# Job options - Auto page
+Title_Auto				"Auto"
+Tip_Auto				"Auto"
+Str_ColumnAnalyze		"Analyser"
+Str_ColumnSync			"Synkroniser"
+Str_ColumnAnalyzeAndSync "Analyser og Sync"
+
+Name_DoOnStart			"Starte"
+Chk_DoOnStart			"Når GoodSync starter"
+Help_DoOnStart			"Analyser (og mulig Synk) jobber når GoodSync starter."
+
+Name_DoOnFoldersConnect	"Koble til"
+Chk_DoOnFoldersConnect	"Når Folder kobles til"
+Help_DoOnFoldersConnect	"Analyser (og kanskje Synk) jobben når begge foldere av Jobben har blitt koblet til, dvs. når den dukker opp fordi disken har blitt koblet til, en Internett blir oppkoblet, eller Telefon har blitt tilkoblet."
+
+
+Name_DoBeforeLogout		"Logge av"
+Chk_DoBeforeLogout		"Ved Avlogging"
+Help_DoBeforeLogout		"Analyser og mulig Synk jobber når du skrur av PC'en, restarter eller logger av. Hvis Windows viser 'Program kjører ikke' melding i løpet av Synk, vennligst overse meldingen."
+
+Name_DoPeriodically		"Timer"
+Chk_DoPeriodically		"Periodisk"
+Help_DoPeriodically		"Analyser (og mulig Synk) jobber hver HH timer og MM minutter. GoodSync må kjøre for å kunne gjøre dette."
+Str_ColumnLPath			"Venstre sti"
+Str_ColumnRPath			"Høyre sti"
+
+Str_DoOnSchedule		"Bruk tidsplanlegger"
+Help_DoOnSchedule		"GoodSync vil bli startet med Windows tidsplanlegger. Kikk 'Konfigurer' knappen for å åpne Windows Tidsplanlegger."
+Str_AutoUnattended     "Planlagt: Utlogget Modus (Unattended)"
+Help_AutoUnattended    "Hvis avkrysset vil Windows Oppgaveplanlegger kjøre denne jobben selv om du ikke er pålogget din Windows-bruker. Jobben kjøres av GSYNC.EXE i kommandolinje-modus uten interaksjon med bruker. Du kan se resultatet av jobben bare i analyse- og synk-loggene. Velg Jobb -> Åpne Venstre/Høyre Logger for å se loggene."
+Str_SchedConfig			"Konfigurer..."
+Help_SchedConfig		"Klikk for å åpne Windows Tidsplanlegger"
+
+Str_ResolveConflicts	"Automatisk løse konflikter"
+Help_ResolveConflicts	"Automantisk tvinge frem løsning av konfilikter for jobber som Synkes. I ikke-automatisk løsning av konflikter vil jobber resultere til at det Ikke kopieres."
+Str_DoNotCopy			"Ikke kopier"
+Str_NewerFileWins		"Nyeste Fil Overskriver"
+
+Str_LimitChanges		"Ikke Synk hvis filer er endret mer enn"
+Help_LimitChanges		"Automatisert Synk blir ikke utført hvis mer enn spesifisert destillasjon av filer i Jobben har blitt endret. Særlig hvis mange filer er indikert som endret, kan det være en feil og manuellt inngrep trengs. Velg 100% til Synk hvis det ikke gjør noe hvor store endringene er."
+
+
+
+Str_AutoClear			"Automatisk fjerning av tre etter Sync eller Analyse uten endringer"
+Help_AutoClear			"Automatisk fjerning av Endrings-tre etter Analyse uten endringer eller når Sync er fullført"
+
+Str_NotInPortable		"Ikke tilgjengelig i Bærbar versjon"
+
+
+# Job options - Scripts page
+Title_Script			"Script"
+Tip_Script				"Script"
+Str_PreAnalyzeProgram	"Pre-analyse-program"
+Help_PreAnalyzeProgram	"Kjør dette programmet før Analyse startes, med argumentene: jobb-navn"
+Str_PostAnalyzeEmailOrProgram	"Post-Analyse uten endringer, E-post eller Program"
+Help_PostAnalyzeEmailOrProgram	"Hvis E-post-adresse, send Analyse-logg til denne e-postadressen når Analyse er avsluttet uten endringer (bruker  server definert i Verktøy -> Programinnstillinger -> Oppkobling). Hvis programnavn med argumentliste, kjør dette programmet når Analyse er avsluttet uten endringer"
+Str_PostSyncEmailOrProgram	"Send synk E-post eller program"
+Help_PostSyncEmailOrProgram	"Hvis E-post-adresse, send Synk-logg til e-post når Synk er ferdig. Hvis program-navn, kjør dette programmet når Synk er ferdig, med argumentene: jobb-navn terminal-error-msg log-path synced-ok errors conflicts"
+
+
+# Job Options - Advanced
+Title_JobAdvanced		"Avansert"
+Tip_JobAdvanced			"Avansert"
+
+Chk_UseSafeCopy					"Lagre kopi ved bruk av Temp-filer"
+Help_UseSafeCopy				"Når du kopierer fil til bestemmelsessted, kopier til en temp til først, gi deretter filen nytt navn når det kopierers til bestemmelsessted. Dette forhindrer ufullstendige/korrupte filer å bli kopiert til venstre når Sync er avsluttet feil eller annen feil oppstår. Trenger ekstra diskplass, spesiellt for stor filer."
+
+
+Chk_CopyLocked					"Kopier låste filer"
+Help_CopyLocked					"Bruk Volume Shadow Service for å kopiere fra filer låst av en annen prosess"
+
+Chk_CopyACL	   		    "Kopier ACL Security Attributes"
+Help_CopyACL			"Kopier Tilgangskontroll-lister når fil eller mappe blir kopiert. Disse er tilgjengelige kun på Windows NTFS filsystem, ikke på FAT eller andre"
+
+
+# Left and Right
+Str_LeftFolder			"Venstre Folder"
+Str_RightFolder			"Høyre Folder"
+
+Str_LeftAndRight		"venstre og høyre"
+Str_Left				"venstre"
+Str_Right				"høyre"
+Str_Folder				"folder"
+Str_File				"fil"
+Str_Deleted				"slettet"
+Str_NotPresent			"ikke tilstede"
+
+Str_LeftToRight			"Venstre mot Høyre"
+Str_RightToLeft			"Høyre mot Venstre"
+
+# Exclusion messages
+Str_ExclBy_FolderAbove		"bortsett fra folder ovenfor"
+Str_ExclBy_SyncFolder		"bortsett fra: GoodSync data-folder"
+
+
+
+
+
+Str_ExclBy_MatchName		"bortsett fra: like filer "
+Str_ExclBy_NoMatchName		"ikke inkludert: ikke like filer "
+Str_ExclBy_EmptyFolder		"bortsett fra: tomme foldere"
+Str_ExclBy_ChildOfExcl		"bortsett fra: child of excluded"
+
+Str_ExclBy_NoPropDels		"bortsett fra: ikke overføre slettinger"
+Str_Msg_SkipLink		"Hoppe over Folder Link %1"
+
+# Job status and progress
+Str_Status_PressAnalyze			"Trykk Analyser for å starte..."
+Str_Status_ConnectingToFolder	"Koble til folder %1"
+Str_Status_Scanning				"Skanne %1"
+Str_Status_ReadStateFile        "Lese Statusfil %1"
+Str_Status_ReadEmbeddedStateFile "Les Embedded statusfil %1 og slå den sammen med rot-status"
+Str_Status_NewStateFile			"Bygget Ny Filstatus på %1"
+Str_Status_SaveStateFile        "Lagre Statusfil %1"
+Str_Status_PostProcessing		"Etterbehandling "
+Str_Status_ComputePrevVerSize	"Beregn _saved_ filstørrelse"
+
+Str_Status_CompareOneSide		"Sammenligne %1"
+Str_Status_CompareLeftToRight	"Sammenligne Venstre med Høyre"
+
+Str_Status_NotYetAnalyzed		"Ikke analysert ennå"
+Str_Status_Syncing				"Synkonisering"
+Str_Status_Analyzing			"Analysering"
+Str_Status_Connecting		"Kobler opp"
+Str_Status_Paused				"Pause"
+Str_Status_Resumed				"Forsette"
+Str_Status_All					"Alle"
+Str_Status_NoFiles				"Ingen Filer"
+Str_Status_Changes				"Forandringer"
+Str_Status_InSync				"I Synk"
+Str_Status_Conflicts			"Konflikter"
+Str_Status_NoConflicts			"Ingen Konflikter"
+Str_Status_Errors				"Feil"
+Str_Status_NoErrors				"Ingen Feil"
+Str_Status_SyncAttention	"Må sjekkes!"
+Str_Status_Connected		"Koblet til"
+Str_Status_Disconnected		"Koblet fra"
+
+Str_Status_VolumeInfo_Free		"Fri: %1, Total: %2"
+Str_Status_VolumeInfo_Reqd		"Nødvendig: %1"
+
+Str_Status_FilesChangedCnt		"Endrede Filer: %1"
+Str_Status_ConflictsCnt			"Konflikter: %1"
+Str_Status_ErrorsCnt			"Feil: %1"
+Str_Status_SyncedCnt			"Synkonisert: %1"
+Warn_AllExcluded			"Advarsel!\r\nAlle filene er ekskludert, ditt Filter-oppsett er sannsynligvis feil.\r\nBytt til 'Alle' eller 'Ekskludert' visning for å verifisere at filtrene fungerer korrekt."
+Warn_AllNew					"Advarsel!\r\nVenstre og høyre katalog har felles filer. Det ser ut som du prøver å synkronisere kataloger som ikke er relaterte.\r\nVennligst, verifiser at riktige kataloger er valgt."
+Warn_AllDelete				"Advarsel!\r\nAlle filene vil bli slettet fra destinasjons-katalogen.\r\nVi anbefaler at du tar back-up av dine data til en tom katalog."
+
+# Analyze messages
+Str_Msg_Job					"Jobb"
+Str_Msg_LeftRight_Descrs    "Venstre: %1, Høyre: %2"
+Str_Msg_JobFilters          "Filtre: %1"
+Str_Msg_SetFolder		    "Velg folder før du analyserer."
+Str_Msg_CannotOpenFolder	"Folder inneholde ikke noen sti:\n'%1'"
+Str_Msg_SameFolders			"Venstre og høyre folder er identiske."
+Str_Msg_NestedFolders2	    "Folder '%1' er en sub-folder\n av folder '%2'.\nKan ikke Analysere innkapslet folder."
+Str_Msg_WillCreateFolder    "Folder '%1' ikke funnet, så vi forsøker å opprette den"
+Str_Msg_Created_Folder      "Opprettet folder '%1'"
+Str_Msg_CannotConnect       "Kan ikke koble til "
+Str_Msg_CannotCreateGsdata  "Kan ikke opprette GoodSync State Folder _gsdata_ på %1: %2\nHvis du vil ta backup på skrivebeskyttet folder sett jobb til 1-veis Tvunget Skrivebeskyttet Kilde i Jobb -> Valg"
+Str_Msg_ErrReadStateFile    "Feil ved lesing av status fil '%1': %2.\nØdelagt statusfil har blitt døpt om til '%3'.\nPå neste Analysering vil en ny fil bli opprettet.\nVennligst send feilstatusfil til ask@goodsync.com."
+Str_Msg_EmbeddedJob         "Funnet synk data folder '%1' tillater ikke denne jobben, men til en annen jobb. Dette betyr at mer enn en jobb synkroniserer mot samme folder. Dette er ikke å anbefale"
+Str_Msg_DetectedDisconnect			"Sjekk nettverksforbindelse: Nedkoblet: %2"
+Str_Msg_RemainsConnected			"Sjekk nettverksforbindelse: Fortsatt oppkoblet: %2"
+Str_Msg_DetectedConnect				"Sjekk nettverksforbindelse: Forbindelse opprettet, utfører Analyse"
+Str_Msg_RemainsDisconnected			"Sjekk nettverksforbindelse: Fortsatt nedkoblet: %2"
+
+Str_Msg_Filter_ExcludeHidden       "Ekskluder skjulte"
+Str_Msg_Filter_ExcludeSystem       "Ekskluder system"
+Str_Msg_Filter_ExcludeEmptyFolders "Ekskluder tomme mapper"
+Str_Msg_Filter_Included     	   "Inkluder"
+Str_Msg_Filter_Excluded     	   "Ekskluder"
+
+Str_Msg_OlderFileVsNewer					"Advarsel: Eldre filer vil bli ersattet med nyere filer"
+Str_Msg_Conflict_BothChanged				"Konflikter: Fil Modifisert på Begge Sider"
+Str_Msg_Conflict_1way_RtoL					"HøvreTilVenstre synk i VenstreTilHøyre 1-Veis jobber"
+Str_Msg_Conflict_1way_LtoR					"VenstreTilHøyre synk i HøvreTilVenstre 1-Veis jobber"
+
+Str_Status_JobScheduled      "----- Jobb '%1': Planlagt kjørt av %2"
+Str_Status_AnalysisStarted				"----- Jobb '%2': ANALYSERING startet av %3 på PC '%4' (GoodSync v %5) -----"
+Str_Status_OneSideStats					"%1: Filer: %2 (Utelatt %3). Foldere: %4 (Utelatt %5)."
+Str_Status_AnalysisSummary				"Endringer: %1, Konflikter: %2, KopieringsTid: %3, KopiStatus: %4, Feil: %5"
+Str_Status_AnalysisCompleted			"----- Analysering Ferdig. Tid %2, Hastighet: %3 fil/er -----"
+Str_Status_AnalyzeStopped				"Analysering Stoppet"
+Str_Status_AnalyzeFinished_NoChanges	"Analysert, ingen forandringer er oppdaget"
+Str_Status_AnalyzeFinished_ReadyToSync	"Analysert, klikk Synk for å synkronisere"
+Str_Status_Advise_HaveConflicts			"Løse Konflikter ved å velge korrekt synk retning"
+Str_Status_Advise_HaveErrors		"Analysen er ferdig med feil. Klikk Feil-knappen for å se alle feilmeldingene"
+Str_Status_FolderDisconnected		"En av folderne er blitt nedkoblet"
+Str_Status_RemainsConnected			"Begge folderne er fortsatt oppkoblet"
+Str_Status_RemainsDisconnected		"En av folderne er fortsatt nedkoblet"
+
+Str_Status_SynchroStarted			"===== Jobb '%2': SYNK startet av %3 på PC '%4' ====="
+Str_Status_SavingStateFor			"Lagrer status for "
+Str_Status_SynchroSummary			"Elementer Synkronisert OK: %1, Feil: %2"
+Str_Status_SynchroErrors			"Synk ferdig med %1 feil. Klikk Feil-knappen for å se synk-feilene"
+Str_Status_SynchroConflicts			"Synk ferdig med %1 uløst konflikt. Klikk Konflikter-knappen for å se uløste konflikter"
+Str_Status_SynchroCompleted			"===== Synkronisering ferdig. Tid: %2, Hastighet: %3 ====="
+Str_Status_Remaining_Speed			"Gjenstående %1, Hastighet %2"
+Str_Status_SyncError		"FEIL"
+Str_Status_SyncStopped				"Synkronisering stoppet av bruker"
+Str_Status_SyncDisconnected			"Folder frakoblet, Synk er stoppet"
+Str_Status_SyncFinished_OK			"Synk ferdig"
+Str_Status_Advise_SyncAttention		"Synk er ferdig med feil eller uløste konflikter"
+
+Str_Msg_StoppedByUser				"Stoppet av bruker"
+
+Str_Msg_DeleteOtherJobResults "Slett Analyse-resultater på jobbene som overlapper med denne jobben: %1"
+Str_Msg_DeleteResultsReason   "Synk av overlappende jobb %1"
+Str_Msg_DeleteThisJobResults  "Analyse-resultater (fil/mappe-tre) til denne jobben har blitt slettet: %1"
+
+Str_Msg_Action_DeleteFolder "Slett mappe"
+Str_Msg_Action_DeleteFile   "Slett Fil"
+Str_Msg_Action_CreateFolder "Opprett mappe"
+Str_Msg_Action_CopyOver     "Kopier over"
+Str_Msg_Action_CopyNew      "Kopier Ny"
+Str_Msg_Action_CopyTime     "Kopier modifisert-tid fra %1 til %2"
+
+Str_Msg_AndMoreSimilarLogLines "... og %1 lignende logg-linjer er droppet her (velg Jobb -> Åpne Venstr/Høyre Logg for å se hele loggen)"
+
+Str_Msg_OldNewWholeHour_TimeShift  "%1: Gammel-Ny tids-skift på %2 timer oppdaget for %3 filer. Valgt: Ingen endring på denne siden"
+Str_Msg_OldNewRounding_TimeShift   "%1: Gammel-Ny avrundet tids-skift på %2 timer (type %3) oppdaget for %4 filer. Valgt: Ingen endring på denne siden"
+Str_Msg_LeftRight_TimeShift        "Venstre-Høyre tids-skift på %1 timer (type %2) oppdaget for %3 filer: Valgt: Endre 'Kopier Fil'-operationer til 'Kopier Tid'"
+
+Str_Msg_SyncAgainAfterActiv			"Klikk Synk igjen når Goodsync Pro har blitt aktivert"
+
+
+Str_Msg_FolderLocked				"En annen jobb utfører Synk av folder %1:\nStartet: %2"
+Str_Msg_LimitChanges2				"%1 filer er endret, ,mer enn en terskel av %2. Jobben vil ikke synkronisere automatisk."
+Str_Msg_NotEnoughDiskSpace			"Ikke nok plass på disk %1 trenger %2, har %3\n"
+Str_Msg_RequiredDiskSpace   "På disk %1 er nødvendig ledig plass for synk %2, du har %3"
+
+
+
+
+# Misc Messages
+Chk_DoNotAsk			"Ikke spør meg igjen"
+Str_TitleWarning		"GoodSync Advarsel"
+Str_TitleError			"GoodSync Feil"
+Str_MsgBoxTimeout		"Lukker om %1 sekunder"
+
+Str_SaveOptions			"Jobbens valg har blitt endret. Lagre endringer?"
+
+Str_Win2kAtLeast		"GoodSync krever minst Windows 2000 eller nyere."
+Str_SignedAppNeeded		"Dette program er ikke korrekt signert av Siber Systems Inc.\nVennligst innstaller den signerte versjon fra https://www.goodsync.com"
+
+Str_AskDeleteJob1		"Vil du virkelig slette denne jobben '%1'?"
+Str_AskDeleteSelJob1				"Vil du virkelig slette %1 valgte jobber?"
+
+Str_AskDeleteItem1		"Er du sikker på å slette %1 valgte elementer?"
+Str_AskDeleteItem3		"Er du sikker på du vil slette %1%2 '%3'?"
+Str_Msg_FileDeleted     "Bruker slettet fil %1"
+Str_Msg_FolderDeleted   "Bruker slettet folder %1"
+Str_Msg_CannotDelete    "Kan ikke slette %1: %2"
+Str_Msg_StateFileDeleted "Slettet statusfil %1"
+
+Str_StopJobsBeforeClose	"En eller flere jobber kjører: %1.\nVil du stoppe alle disse jobbene?\nKlikk OK for å stoppe alle jobbene og avslutt.\nKlikk på Avslutt for å gå tilbake til GoodSync."
+
+Str_Warn_HideToTray		"Automatiserte jobber can ikke kjøre hvis GoodSync ikke kjører, så GoodSync skjules som Oppgavelinje-ikon når du lukker vinduet.\nFor å endre dette, fjern avkryssing på opsjon '%1' i Verktøy -> Programinnstillinger"
+
+Str_TitleResetState		"Nullstil tilstand."
+Str_AskDeleteStates		"Er du sikker på at du vil slette skjult tilstand?"
+
+
+
+Str_SyncOnLogoffAsk		"Det kan ikke Synkroniseres ved Avlogging fordi: Windows automatisk avslutter oppgavene ved avlogging.\nVil du slå av dette valget (vil aktiveres etter restart av Windows)?"
+Str_SyncOnLogoffReason	"Synkronisering ved avlogging"
+Str_SyncOnLogoffJobs	"Synkroniser ved avlogging er satt i jobben:"
+
+Str_LogoffTitle			"Synk ved avlogging - GoodSync"
+Str_LogoffPopup			"Synk har blitt startet ved avlogging.\nVennligst vent til synkronisering er ferdig.\nAvlogging vil fortsette etter at synkronisering er ferdig."
+Err_OpenLogFails		"Kan ikke åpne loggefil for jobber."
+Err_ExecLogViewer		"Kan ikke kjøre Logg Viewer\nVennligst kontact GoodSync tech support\n"
+
+
+# Tooltips
+Tooltip_Synchronizer	"GoodSync Fil Synkronisering"
+Tooltip_AnalyzingJob	"Analyseringsjobb"
+Tooltip_SyncingJob		"Synkroniseringsjobber"
+
+TT_SetLeftSyncFolder	"Klikk 'Bla gjennom'-knappen for å sette første (venstre) folder til synkronisering, eller skriv inn folder sti"
+TT_SetRightSyncFolder	"Klikk 'Bla gjennom'-knappen for å sette første (høyre) folder til synkronisering, eller skriv inn folder sti"
+TT_NewJob				"Ny Jobb"
+TT_ClickToAnalyze		"Klikk Analyse-knappen for å analysere forskjellen mellom foldere og planlegge synk-arbeid"
+TT_ClickToSynchronize	"Klikk Synk-knappen for å utføre synkroniseringsarbeid planlagt ved Analyse"
+
+
+# Update toolbar and messages
+Info_Update_Avail			"Ny versjon av GoodSync er tilgjengelig. <a>Klikk her</a> for å laste ned. Du kan koble ut AutoUpdate i Verktøy->Programinnstillinger-> Om dialogen."
+ 
+Str_Ver_YesNewVersion		"GoodSync version %1, utgitt %2 er tilgjengelig for nedlasting. You have ver %3"
+Str_Update_Ask				"Vil du hente ned den oppdaterte versjon?"
+Str_Update_Err_1			"Mislykkes å få versjonsinformasjon fra nettside:\n%1\nVil du gå til nettsiden med oppdateringer?"
+Str_Ver_NoNewVersion		"Din versjon er nyeste: %1. Vil du installere samme versjon på nytt for å reparere?"
+
+
+# Browse Dialog
+Browse_Btn_MyComputer		"Min Datamaskin"
+Browse_Btn_MyNetwork		"Mitt Netverk"
+Browse_Str_SecureMode     "Sikker modus (kryptert)"
+Browse_Tip_SecureMode     "Krypter bytte av BrukerID og Passord. Krypter overføring av data"
+Browse_Str_PrivKey			"Privat nøkkel"
+Browse_Tip_PrivKey	      "Filer som inneholder Private SSH nøkler, i PuTTY-format"
+Browse_Str_HostBasedAddr  "Verts-basert addressering for Buckets (for euro buckets)"
+Browse_Tip_HostBasedAddr  "Avkrysset: Verts-basert addressering for Buckets: fungerer for Euro buckets, bucket-navn må kun ha små bokstaver og tall.\nIkke avkrysset: URL-basert addressering for buckets: buckets kan ha case-sensitive navn, Amazon anbefaler ikke dette."
+Browse_Str_SpecifyACP	  "Access Ctrl"
+Browse_Tip_SpecifyACP	  "Access Control Policy, en av de forhåndsdefinerte policiene: private (default), public-read, public-read-write, authenticated-read"
+Browse_Str_ImplicitMode	  "Implisitt FTPS (av: Eksplisitt)"
+Browse_Tip_ImplicitMode	  "Hvis avkrysset, bruk Implisitt FTP Modus: koble opp på port 990 ved bruk av SSL/TLS. Hvis ikke avkrysset, bruk Eksplisitt FTPS modus: koble opp på port 21, be om kryptering"
+Browse_Str_ActiveMode		"Aktive FTP Modus (ukontrollert blir Passive modus)"
+Browse_Tip_ActiveMode	  "Hvis avkrysset, bruk Aktiv FTP Modus. I Aktiv modus vil det opprettes en kobling fra FTP server og tilbake til klienten for å overføre data og du må tillate dette i din(e) brannmur(er). Hvis ikke avkrysset, bruk Passiv FTP modus (default)"
+Browse_Str_UseMDTM_FTP		"Finn rett filmodifiseringstid i FTP ved å bruke MDTM-kommandoen"
+Browse_Tip_UseMDTM_FTP    "Bruk MDTM kommandoen i FTP protokollen for å få fil-modifikasjonstid fra FTP-server"
+Browse_Str_UTF8_encoding  "UTF-8 koding for filnavn (av: ANSI-koding)"
+Browse_Tip_UTF8_encoding  "Hvis avkrysset: bruk UTF-8 for å kode fil- og mappenavn på server. Ikke avkrysset: bruk ANSI for å kode filnavn på server"
+Browse_Str_WinInet 		  "WinInet-basert (komplekse proxier, autentisering)"
+Browse_Tip_WinInet		  "Avkrysset: Bruk WinInet-basert løsning som kan håndtere komplekse proxier og komplekse Windows-basert autentisering men har begrensninger og er langsommere.  Ikke avkrysset: Bruk socket-basert løsning som ikke kan håndtere kompleks Windows-autentisering og proxier men er raskere og mer robust"
+Browse_Str_Use_Proxy      "Koble til via Proxy hvis definert i Verktøy -> Programinnstillinger -> Oppkobling"
+Browse_Tip_Use_Proxy      "Koble til denne serveren via Proxy-server som er spesifisert og aktivert i Verktøy -> Programinnstillinger -> Oppkobling"
+Browse_Str_PreferEncrypted    "Krypter ved hjelp av EFS"
+Browse_Tip_PreferEncrypted    "Krypter denne siden ved hjelp av EFS. Virker bare på NTFS-disker, ikke på FAT"
+Browse_Str_PreferDecrypted    "Dekrypter ved hjelp av EFS"
+Browse_Tip_PreferDecrypted    "Dekrypter denne side hvis den andre siden er kryptert, ved hjelp av EFS. Virker bare på NTFS-disker, ikke på FAT"
+Browse_Str_PreferCompressed   "Komprimer i NTFS"
+Browse_Tip_PreferCompressed   "Komprimer denne side ved hjelp av LZ kompresjon. Virker bare på NTFS-disker, ikke på FAT"
+Browse_Str_PreferUncompressed "Dekomprimer i NTFS"
+Browse_Tip_PreferUncompressed "Dekomprimer denne side hvis den andre siden er komprimert. Virker bare på NTFS-disker, ikke på FAT"
+Browse_Str_IgnoreBadCerts     "Tillat ikke-matchende eller utgåtte SSL server-sertifikater"
+Browse_Tip_IgnoreBadCerts     "Hvis avkrysset, tillat ikke-matchende eller utgåtte SSL server-sertifikater i HTTPS-protokollen. Hvis ikke avkrysset, gi feilmelding om ugyldig sertifikat"
+
+
+Browse_Btn_Go				"Kjør"
+Browse_Btn_NewFolder		"Lag Ny Folder"
+Browse_Btn_NewFolder_Tip	    "Opprett Ny mappe i gjeldende mappe"
+Browse_NewFolder_Prompt_1	"Gi et navn på ny folder der fil skal opprettes i '%1'"
+
+
+
+Browse_Tip_MyComputer		"Min Datamaskin betyr Disker som finnes på denne maskinen, slik som: lokale disker, flyttbare disker koblet til denne datamaskinen, bærbare enheter som har et filsystem (de fleste Palm/PDAer, mp3-spillere, eldre iPod, o.l.). %%GSDISK%% i stien betyr disker som GoodSync.exe startet fra, bruk dette for å spesifisere Min Disk i GoodSync2Go"
+Browse_Tip_MyNetwork		"Mitt Nettverk betyr Windows Network Shares (SMB protocol) som du kan se i Windows Utforsker (Windows Explorer) fra andre datamaskiner i ditt lokale nettverk. Kataloger og disker må være Delt ut fra den andre maskinen for å være synlige her."
+Browse_Tip_FTP				"FTP-servere. Trenger IP-adresse for serveren for å koble opp, BrukerID og Passord for å logge på. Prøv Aktiv modus hvis Passiv modus ikke fungerer"
+Browse_Tip_SecureFTP		"Sikre FTP-servere (SFTP over SSH). Trenger IP-adresse til serveren for å koble opp, BrukerID og Passord eller Private nøkkelfil (PuTTY format) og Passord for å logge på. Du kan bruke PuTTY Pageant for å cache privat nøkkel-passord. Bruke PuTTY sesjon for å spesifisere Proxy-innstillingene"
+Browse_Tip_AmazonS3			"Amazon S3 Online Storage. Så langt finnes bare en slik server, så du kan ikke endre server-navnet. Trenger Access Key ID og Secret Access Key for å logge på. Bucket er katalognavn på topp-nivå."
+Browse_Tip_WebDav			"WebDAV server. Trenger IP-adresse på serveren for å koble opp, BrukerID og Passord for å logge på. Bruk https:// prefiks for å kryptere traffikken ved bruk av SSL"
+Browse_Tip_WinMobile		"Windows Mobile device. Kan være Phone eller Pocket PC. Microsoft ActiveSync eller WMDC må være installert og kjøre og enheten må være tilkoblet for at GoodSync skal kunne se den. Enheten trenger ikke å være registrert som "partner" med datamaskinen."
+Browse_Tip_Unknown			"Ingen hjelp tilgjengelig for dette Ukjente fil-systemet"
+
+
+# Buy License dialog
+BuyPro_Title				"PRO Egenskaper"
+BuyPro_Text_ProFixed	"Oppgrader til GoodSync Pro i dag og få:\n- Ubegrenset antall jobber,\n- Ubegrenset antall filer i en jobb,\n- Telefonsupport, umiddelbar aktivering, og mer.."
+BuyPro_Text_Pro2Go     "Oppgrader til GoodSync2Go Pro i dag og få:\n- Ubegrenset med Jobber,\n- Ubegrenset med Filer i en Jobb,\n- Telefonsupport, Umiddelbar aktivering, m.m."
+BuyPro_Text_Server     "Oppgrader til GoodSync Enterprise Server og få:\n- Fjern begrensningene i testversjonen,\n- Dedikert Enterprise Support,\n- Få din egen Account Manager"
+BuyPro_Limit_Pro		"Du har overskredet begrensninger i Gratis-versjonen. For å fortsette å bruke GoodSync bør du oppgradere til GoodSync Pro-versjon eller redusere antall jobber til 3 eller antall filer i en jobb til 100."
+BuyPro_Limit_Server     "For å kjøre GoodSync på en Windows Server trenger du Enterprise Server lisens."
+BuyPro_Link		"Klikk her for å lære mer om Gratis- og Pro-versjon"
+
+
+# Activation Wizard
+Act_Header			"Takk for at du kjøpte produktet"
+Act_Title					"GoodSync Aktivering"
+Act_Field_Req_Err_1			"'%1' er påkrevd for aktivering."
+Act_User_Name				"Brukernavn"
+Act_User_Order				"Ordrenummer (NNNNNNNNNN) eller ordrekode (XXX-XXX-XXX-XXX)"
+Act_User_Online_Btn			"Aktiver Online (anbefalt):"
+Act_User_Online_Tip			"GoodSync vil koble seg til AktiveringsServer via Internet"
+Act_User_ViaBrowser_Btn		"Aktiver Offline: Start (bruk kun dette hvis Online-aktivering mislykkes):"
+Act_User_ViaBrowser_Tip		"Kobles til AktiveringsServer med nettleser"
+Act_User_Order_Err			"Skriv inn komplett 10-talls ordrenummer eller din ordrekode i XXX-XXX-XXX-XXX formatet."
+
+
+
+
+
+
+
+
+
+
+Act_ViaBrowser_Txt			"Gå til Aktiveringssiden http://activate.goodsync.com i din foretrukne browser på en hvilken som helst PC. Skriv inn PC ID vist nedenunder i skjemaet på nettsiden. Kopier deretter Aktiveringskoden fra nettleseren inn i Aktiveringskodevinduet nedenfor og klikk Neste."
+
+Act_ViaBrowser_Copy			"Kopi"
+Act_ViaBrowser_ActCode_Txt	"Skriv inn Aktiveringskode her"
+
+Act_Finish_Success			"Takk fordi du kjøpte GoodSync!\nDin kopi er nå aktivert."
+Act_Finish_Connect			"Kobler til Aktiveringsserver"
+Act_Finish_Fail				"Aktivering mislykket"
+
+
+# Create ticket 
+Ticket_File_Desc			"Følgende fil inneholder diagnoseinformasjon. Merk, fila inneholder ikke noe privat informasjon om din PC."
+Ticket_Instruction			"Kopier stien til skrivebordet og lim den inn 'Tilknyttet Filer' boksen System Sertifikat .\nKlikk på linken under for å lage et Sertifikat."
+Ticket_Btn_Copy				"Kopieringsbane"
+
+# Mini Mode
+Str_MiniDlgNoActiveJob	"<Ingen aktive jobber>"
+
+# Log Viewer general
+LV_AppTitle					"Logg-Visning"
+LV_LogListTitle				"Logg Filnavn"
+LV_OpenLogDlg				"Åpne loggmappe"
+LV_TotalLine				"Total"
+
+# Log Viewer Error
+LV_Err_NoLogFileFound		"<Ingen loggefiler funnet>"
+LV_Err_UnknownFs			"Ukjent filsystem"
+LV_Err_CannotOpenFile2		"Kan ikke åpne fil %1: %2"
+LV_Err_ReadingFile2			"Feil under lesing av fil %1: %2"
+LV_Err_ParseCmdLine			"Feil i kommandolinje"
+
+# Log Viewer Find Window
+LV_Find						"Finn:"
+LV_FindNext					"Neste"
+LV_FindPrev					"Forrige"
+LV_FindAll					"Finn Alle"
+LV_FindCaseSens				"Case-sensitiv"
+
+#Log Viewer Menu
+LV_MenuFile					"Fil"
+LV_MenuView					"Vis"
+LV_MenuOpen					"Åpne"
+LV_MenuExit					"Avslutt"
+LV_MenuCopyAsText			"Kopier utvalg til Utklippstavle"
+LV_MenuSelectAll			"Velg Alle"
+LV_MenuDelete				"Slett"
+LV_MenuFind					"Finn"
+LV_MenuSelectFont			"Velg Font"
+

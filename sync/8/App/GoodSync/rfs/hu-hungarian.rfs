@@ -1,0 +1,845 @@
+﻿# RFS file codepage.
+RFS_CODEPAGE "1250"
+RFS_LANGUAGE "Hungarian"
+
+# Menus
+Menu_Job			"&Feladat"
+Cmd_JobNew			"Új"
+Cmd_JobDelete			"Töröl"
+Cmd_JobRename			"Átnevez..."
+Cmd_JobSaveTemplate		"Mentés sablonként..."
+Cmd_JobClone			"Feladat másolása..."
+Cmd_JobSwapSides		"F&eladat két oldalának felcserélése"
+Cmd_Analyze			"&Analizálás"
+Cmd_AnalyzeAll			"&Összes Vizsgálata"
+Cmd_Sync			"&Szinkronizálás"
+Cmd_SyncAll			"Összes S&zinkronizálása"
+Cmd_AnalyzeAndSyncThis		"Vizsgálat és szinkronizálás"
+Cmd_AnalyzeAndSyncAll		"Összes a&nalizálása és szinkronizálása"
+Cmd_Stop				"Megállítás"
+Cmd_StopAll				"Mind megállítása"
+Cmd_SuspendAuto			"Automatikus indítás tiltása"
+Cmd_JobListOfChanges		"&Változások listája"
+Cmd_JobOpenLogLeft		"Bal log fájl megnyitása"
+Cmd_JobOpenLogRight		"Jobb log fájl megnyitása"
+Cmd_JobOptions			"Fe&ladatbeállítások..."
+Cmd_JobResetState		"Ala&pállapot visszaállítása"
+Cmd_JobDeleteBackup		"Előzmények törlése (Lomtár ürítése)"
+Cmd_AppExit			"&Kilépés"
+Cmd_Cut			"Kivágás"
+Cmd_Copy		"Másol"
+Cmd_Paste			"Beillesztés"
+Cmd_ExportJobsList		"Feladatlista exportálása..."
+Cmd_ExportSelJobsList		"Kiválasztott feladatok exportálása..."
+Cmd_ImportJobsList		"Feladatlista importálása..."
+
+Menu_View			"&Nézet"
+Cmd_ViewStatusBar		"&Állapotsor"
+Cmd_ProgOptions			"&Beállítások..."
+
+
+Cmd_View_FullWindow		"Tel&jes méret"
+Cmd_View_MiniWindow		"&Minimalizált mód"
+Cmd_View_TrayIcon		"Értes&ítési terület"
+
+Menu_Help			"&Súgó"
+Cmd_AppAbout			"&Névjegy..."
+Cmd_AppManual			"&Kézikönyv"
+Cmd_AppFAQ			"&Gyakori kérdések"
+Cmd_AppCreateTicket		"&Segítség kérése..."
+Cmd_Help_BuyPro			"&Pro változat vásárlása..."
+Cmd_Help_Activate		"P&ro változat aktiválása..."
+Cmd_CheckUpdates				"&Frissítések keresése"
+
+Cmd_ShowAll			"&Minden"
+Cmd_ShowChanges			"&Változások"
+Cmd_ShowConflict		"&Ütközések"
+Cmd_ShowError			"&Hibák"
+
+Cmd_ShowToDelete		"&Törlés"
+Cmd_ShowExcluded		"&Kizártak"
+Cmd_ShowIncluded		"&Beleértett"
+Cmd_ShowSameLenDiffTime	"Azonos méret, különböző idő"
+Cmd_ShowNotYetSynced    "Nem lett még Szinkronizálva"
+Cmd_ShowAllAll          "Összes Élő és Halott"
+
+Menu_Actions			"&Műveletek"
+Cmd_ViewJobList			"&Feladatlista"
+Cmd_ViewJobFilter		"&Szűrők"
+Cmd_ViewLog			"&Napló"
+
+Menu_Tools			"&Eszközök"
+Menu_View_Other			"&Egyéb"
+
+
+# Context menus
+
+Cmd_ItemProp			"&Tulajdonságok"
+
+Cmd_ItemLOpen			"Ba&l fájl megnyitása"
+Cmd_ItemROpen			"Job&b fájl megnyitása"
+Cmd_ItemLDelete			"B&al oldali file törlése"
+Cmd_ItemRDelete			"Jobb oldal&i file törlése"
+Cmd_ItemDeleteBoth		"Mindkét fájl törlése"
+
+Cmd_ItemLDeleteMul1		"A(z) %1 fájl(ok) törlése balról"
+Cmd_ItemRDeleteMul1		"A(z) %1 fájl(ok) törlése jobbról"
+Cmd_ItemBDeleteMul1		"A(z) %1 fájl(ok) törlése mindkét oldalról"
+
+Cmd_OpenLFolder			"Bal mappa megnyitása"
+Cmd_OpenRFolder			"Jobb mappa megnyitása"
+Cmd_DeleteLFolder		"Bal mappa törlése"
+Cmd_DeleteRFolder		"Jobb mappa törlése"
+Cmd_DeleteBothFolders		"Mindkét mappa törlése"
+
+Cmd_ItemCompare			"Ö&sszehasonlítás balról jobbra"
+
+Cmd_Recommended			"A&jánlott"
+Cmd_DoNotCopy			"&Ne másolja"
+Cmd_CopyLeftToRight		"Ba&lról jobbra"
+Cmd_CopyRightToLeft		"Jobb&ról balra"
+Cmd_DeleteLeftToRight		"Törlés jobb oldalon"
+Cmd_DeleteRightToLeft		"Törlés bal oldalon"
+Cmd_CopyTimeLeftToRight		"Idő másolása balról jobbra"
+Cmd_CopyTimeRightToLeft		"Idő másolása jobbról balra"
+Cmd_CopyStateSyncTail		"Szinkronizálás állapota"
+
+Str_Items1			" %1 fájlok"
+
+Cmd_ItemExcludeFile1		"a '%1' fájl ki&hagyása"
+Cmd_ItemExcludeFolder1		"'%1' mappa kizárása"
+Cmd_ItemExcludeMulti1		" %1 ki&választott fájlok kihagyása"
+
+Cmd_ItemIncludeFile1		"&Csak '%1' fájl hozzávétele"
+Cmd_ItemIncludeFolder1		"&Csak '%1' mappa hozzávétele"
+Cmd_ItemIncludeMulti1		"&Csak %1 kiválasztott fájl hozzáadása"
+
+Cmd_ItemExcludeAllFiles1	"&Minden '%1' fájl kihagyása"
+Cmd_ItemExcludeAllFolders1	"Összes '%1' mappa kizárása"
+Cmd_ItemExcludeAllMulti1	"Fájlok kihagyása név alapján a %1 kiválasztottak közül"
+
+Cmd_ItemExcludeAllMask1		"Összesen '*%1' fájl kizárása"
+Cmd_ItemExcludeAllMaskMulti1	"Fájlok ki&hagyása kiterjesztés alapján a %1 kiválasztottak közül"
+
+Cmd_ItemIncludeAllMask1		"Csak '*%1' fájl belevétele"
+
+
+# Taskbar Icon menu
+
+
+# Buttons below tree
+Grp_Actions			"&Műveletek"
+Btn_Analyze			"&Vizsgálat"
+Btn_SyncRun			"&Szinkronizálás"
+Btn_Stop				"Állj"
+Btn_Pause			"S&zünet"
+Btn_Resume			"Fol&ytatás"
+Btn_Auto				"Auto"
+Btn_Clear               "Törlés"
+Grp_Show			"&Fa nézet"
+Cmd_ShowToCreate		"&Új"
+Cmd_ShowToOverwrite		"&Felülír"
+
+Chk_AutoScroll			"Görgetés"
+
+# Tree view Columns
+Str_TreeItem			"Tétel"
+Str_TreeLSize			"Bal mérete"
+Str_TreeLDate			"Bal dátuma"
+Str_TreeL			"Bal"
+Str_TreeCenter			""
+Str_TreeR			"Jobb"
+Str_TreeRSize			"Jobb mérete"
+Str_TreeRDate			"Jobb dátuma"
+Str_TreeStatus			"Státusz"
+
+# Misc buttons
+Btn_Ok				"&Rendben"
+Btn_Cancel			"&Mégsem"
+Btn_Apply			"&Alkalmaz"
+Btn_Yes				"&Igen"
+Btn_No				"&Nem"
+Btn_Abort			"&Elvetés"
+Btn_Retry			"&Újrapróbálás"
+Btn_Ignore			"&Kihagyás"
+Btn_Close			"&Bezárás"
+Btn_Help			"&Súgó"
+Btn_Continue			"&Folytatás"
+Btn_Browse			"&Tallózás"
+
+
+# Tooltips for buttons, for new users
+Tip_Browse_Left			"Baloldali mappa kiválasztása"
+Tip_Browse_Right		"Jobboldali mappa kiválasztása"
+Tip_Change_Way			"Feladat irányának megváltoztatása és egyéb lehetőségek"
+Tip_Analyze			"Kattintson ide a feladat vizsgálatához"
+Tip_Sync			"Kattintson ide a feladat szinkronizálásához"
+Tip_Stop			"Kattintson ide a feladat megállításához"
+Tip_Clear				"Töröld a különbségek listáját memória megtakarítás érdekében"
+Tip_Opt				"Automatikus feladatvégrehajtás beállítása"
+Tip_Paused		"Megállítva. Kattintson ide a folytatáshoz"
+Tip_Pause		"Kattintson ide az aktuális művelet folytatásához"
+
+# New Job dialog
+Title_JobName			"Új feladat"
+Str_JobName			"Adja meg a feladat nevét"
+Str_JobTemplate			"Sablonból:"
+Str_BadJobName1			"A feladat neve nem tartalmazhatja a következő szimbólumokat: / \\ ? < > : * |"
+Str_BadJobName2			"A feladat neve nem lehet '%1'."
+Str_BadJobName3			"A feladat neve nem lehet üres vagy 100 karakternél hosszabb."
+Str_JobNameExists		"Ilyen nevű feladat már létezik."
+Str_JobType			"Jelölje ki a feladat típusát"
+Str_JobType_Sync		"Szinkronizálás"
+Str_JobDesc_Sync		"Kétirányú feladat: használja amikor a fájlok mindkét oldalt megváltoztak, például asztali és hordozható számítógépen (notebook-on)"
+Str_JobType_Backup		"Biztonsági másolat"
+Str_JobDesc_Backup		"Egyirányú feladat: használja a megváltoztatott fájlok bal oldalról jobb oldalra való másolásához"
+Str_JobType_Template		"Sablonból:"
+Str_JobDesc_Template		"A sablon egy részben kitöltött feladat, amit a kedvenc Feladat Beállítások tárolására használhat. A sablon elmentett Feladat Beállításokat tartalmaz, de nem elérési útvonalakat."
+Str_JobDesc_NoTemplate_1		"Eddig nem lett sablon készítve. Használja a '%1' parancsot, hogy egy új sablont készítsen egy már meglévő feladatból."
+Str_Combo_NoTemplate		"<nincs sablon>"
+Title_RenameJob			"Feladat átnevezése"
+Title_CloneJob			"Feladat másolása"
+Str_NewJob_Header		"Üdvözli a GoodSync"
+Str_NewJob_Descr		"Az első feladat készítése"
+Str_NewJobClose			"Biztosan kilép a GoodSync programból?\nNyomjon OK-t a kilépéshez, a GoodSync a következő alkalommal rákérdez az új feladat készítésére.\nNyomjon Mégsem-et a megszakításhoz, és adjon nevet a feladatnak."
+Lnk_Tutorial			"Bemutató"
+
+# Job Tabs control buttons
+Str_TabAddNewJob		"Új feladat létrehozása"
+Str_TabScrollLeft		"Görgetés balra"
+Str_TabScrollRight		"Görgetés jobbra"
+
+# Windows menu and dialog
+
+
+
+# Job List Pane
+Title_JobList			"Feladatlista"
+Title_TaskName			"Feladat neve"
+Title_LastRunTime		"Utolsó futtatás ideje"	
+
+#Log Pane
+Title_LogWnd			"Naplófájl"
+
+# Help -> About
+Title_About			"Névjegy"
+Tip_About				"Névjegy"
+Str_RegTo			"Jogos felhasználó:"
+Help_ChkVer			"Újabb letölthető változat keresése a GoodSync.com-on"
+Help_SysStat			"GoodSync verzió és környezeti információk megjelenítése. Kérjük adjon meg információkat amikor a Technikai Támogatással lép kapcsolatba."
+
+# Program Options
+Title_Options			"GoodSync beállítások"
+Str_Options			"Beállítások"
+
+Help_NotDefined			"Nincs súgó definiálva ehhez a beállításhoz"
+Help_MouseOver			"Részletes leírás megjelenítése egér felülvitelével. Nyomja le az Alt billentyűt egyszer, ha görgetni vagy másolni akarja a súgó szöveget."
+
+
+# Program Options - General
+Title_General			"Általános"
+Str_Lang			"Nyelv"
+Help_Lang			"GoodSync menüihez, beállításaihoz és üzeneteihez használt kezelőfelület nyelvének megváltoztatása. GoodSync újraindítása szükséges a beállítások érvénybe lépéséhez."
+Chk_TrayIcon			"Főablak bezárásakor tálcaikonok közé való helyezés"
+Help_TrayIcon			"BE: Amikor bezárja a GoodSync-et, háttérben fog futni. GoodSync eléréséhez használja a tálcaikont (jobb alsó sarokban). KI: Amikor bezárja a GoodSync-et, az kiüríti magát a memoriából."
+Chk_AutoStart			"GoodSync indítása Windows indításakor"
+Help_AutoStart			"A Windows automatikusan elindítja a GoodSync-et amikor bejelentkezik a felhasználói fiókjába, tálcára helyezve. Kapcsolja be ezt a lehetőséget, ha ön futtat feladatokat automatikusan, tehát bepipált jelölő dobozokat a Feladatbeállítások -> Automatikus fülön."
+Chk_ShowSysTray			"A GoodSync ikon mutatása a tálcaikonok között"
+Help_ShowSysTray		"A GoodSync ikon mutatása a tálcaikonok között"
+
+Chk_ResetIM			"Minden információs üzenet visszaállítása eredeti beállításokra"
+Help_ResetIM			"Minden előzőleg kikapcsolt figyelmeztető üzenet újraengedélyezése"
+Chk_AutoChkVer			"Újabb változat keresése naponta"
+Help_AutoChkVer			"A GoodSync minden nap ellenőrizni fogja a www.goodsync.com oldalt újabb letölthető változat után."
+Chk_CreateNewFolder		"Bal/jobb oldali szinkronizációs mappa készítése, ha az nem található"
+Help_CreateNewFolder		"A GoodSync csinál egy szinkronizációs mappát a bal/jobb oldalon, ha az nem létezik."
+Chk_AutoHideMiniWin		"Mini-ablak elrejtése, ha nincs aktív feladat"
+Help_AutoHideMiniWin		"AUtomatikusan elrejti a Mini-ablakot, amennyiben nincsen aktív feladat"
+
+Str_LogDetailLevel		"Logok mentése, részletek mélysége"
+Help_LogDetailLevel		"A logok részleteinek mélysége látható. Szöveges fájlok mentése: (1) _gsdata_ mappa a bal oldalon és jobb oldalon a feladat szinkronmappája, (2) teljes log-mappa alul"
+Str_LogCritical			"Kritikus"
+Str_LogError			"Hibák"
+Str_LogInfo				"Információ"
+Str_LogDetails			"Részletek"
+
+Str_LogFolderGlobal		"Mappa helye"
+Help_LogFolderGlobal	"Azon mappa, ahova a teljes logok kerülnek. Ha üres, a program a felhasználó profiljához tartozó mappába ment"
+
+Str_LogRetainDays		"Logok megtartása néhány napig"
+Help_LogRetainDays		"Néhány napig megtartásra kerülnek a teljes log-fájlok és feladatok. Törölje a régi teljes log-fájlokat. A '0 nap' '2 órát' jelent"
+
+Str_CompareProg			"Fájlok összehasonlítása külső program használatával"
+Help_CompareProg			"Fájl összehasonlító program. Legyen ez egy grafikus felületű program, ami két argumentumot kér be: elérési útvonalak az összehasonlítandó fájlokhoz. Például: ön mondjuk a WinDiff.Exe-t állítja be ide akkor annak meghívhatónak kell lennie a WinDiff file1 file2 formulával."
+Str_ExecutableFiles		"Futtatható (végrehajtható) fájlok"
+
+# Program Options -> Connection
+Title_Connect			"Kapcsolat"
+Str_UseProxy_Auto		"Az Internet Explorer által használt proxy használata a távoli kapcsolatokhoz"
+Help_UseProxy_Auto		"Az Internet Explorer beállításaiban található proxy szerver használata a távoli kapcsolatokhoz. Internetbeállítások -> Kapcsolatok -> LAN beállítások távoli kapcsolathoz. A WinINet és proxy.pac által meghatározott beállítások lépnek érvénybe. A 'Kapcsolódás proxy-n keresztül' opció minden használni kívánt feladat esetében bekapcsolandó azon az oldalon, ahol a kapcsolódáshoz proxy használata szükséges!"
+Str_UseProxy_Manual			"Proxy kiszolgáló használata a távoli kapcsolatokhoz"
+Help_UseProxy_Manual			"Proxy kiszolgáló használata a távoli kapcsolatokhoz"
+Str_ProxyHost			"Proxy neve"
+Help_ProxyHost			"Adja meg ide a Proxy nevét "
+Str_ProxyPort			"Átjáró"
+Help_ProxyPort			"Adja meg a Proxy átjáró számát"
+Str_ProxyUserID			"Proxy felh. azonosító"
+Str_ProxyPasswd			"Jelszó"
+Help_ProxyAuth			"Bejelentkezéshez adja meg felhasználói azonosítóját és jelszavát a proxyhoz. A proxy az internetbeállítások között választható ki. Az általános beállítások érvényesek az FTP, DAV, S3 kapcsolatokra"
+
+Str_SMTP_Enable			"SMTP használata levélküldéshez (Kikapcsolva: alapértelmezett MAPI kliens használata)"
+Help_SMTP_Enable		"Bejelölve: megadott SMTP szerveren keresztüli levélküldés vizsgálat és szinkronizáció után. Nincs bejelölve: alapértelmezett MAPI kliens használata"
+Str_SMTP_Host			"SMTP szerver"
+Help_SMTP_Host			"Adja meg az SMTP szerver elérését, ez fog vizsgálati és szinkronizációs értesítő levelet küldeni"
+Str_SMTP_Port			"Port"
+Help_SMTP_Port			"Adja meg az SMTP portját, általában 587 vagy 25."
+Str_SMTP_UserID			"SMTP felhasználói név"
+Str_SMTP_Passwd			"Jelszó"
+Help_SMTP_UserID			"Adja meg az SMTP szerverhez való kapcsolódáshoz felhasználói nevét és jelszavát"
+Str_SMTP_SenderEmail		"Küldő e-mail címe"
+Help_SMTP_SenderEmail		"Adja meg a küldő e-mail címét (az Ön e-mail címe)"
+Str_SMTP_Secure			"Biztonságos SMTP SSl titkosításon keresztül"
+Help_SMTP_Secure		"Bejelölve: a 465-ös porton keresztül SSL titkosítással védi az SMTP kommunikációját. Nincs bejelölve: egyszerű szöveg-alapú kommunikáció."
+
+
+# Job Options - General
+Title_JobGeneral		"Általános"
+Tip_JobGeneral			"Általános Feladat"
+Label_JobType			"Szinkronizálás iránya"
+Str_JobType_TwoWay		"Kétirányú"
+
+Str_JobType_LeftToRight		"Egyirányú Balról Jobbra"
+Str_JobType_RightToLeft		"Egyirányú Jobbról Balra"
+Help_JobType			"Megadja a szinkronizáció előnyben részesített irányát. A kétirányú feladatok szinkronizálva tartják a bal és jobb mappát, még ha a fájlok mindkét oldalt meg is változtak. Az egy irányú feladatok Balról Jobbra vagy Jobbról Balra terjesztik el a fájlokat, leginkább biztonsági másolat létrehozására használandó."
+
+
+Radio_OneWayDeleteSource "Fájlok áthelyezése (haladóknak)"
+Help_OneWayDeleteSource	 "A forrásfájlok törlése ezen fájlok sikeres Szinkronizálása után. VESZÉLY: NE használja ezt a beállítást, ha csak nem érti biztosan, hogy mit csinál"
+Warn_OneWayDeleteSource  "Biztos benne, hogy törölni akarja a forrás oldali fájlokat a szinkronizálásuk után?\nNE kattintson az IGEN-re, ha csak nem biztos teljesen."
+
+Chk_DelPropagate		"Törlések átvezetése"
+Help_DelPropagate		"BE: Ha egy fájl vagy mappa törölve lett a felhasználó által az egyik oldalon, a GoodSync törölni fogja a másik oldalon amikor végrehajtja a Szinkronizálást. KI: A törölt fájlok állapota átváltozik Nincs Másolás műveletté."
+
+Chk_SaveBakFiles		"Törölt/felülírt fájlok biztonsági másolatának mentése"
+Help_SaveBakFiles		"BE: Szinkronizálás eredményeként törölt vagy áthelyezett fájlok biztonsági másolatának mentése. A fájlok a _gsdata_\\_saved_ mappába kerülnek. A törölt/áthelyezett fájlok legutolsó változata kerül csak mentésre. KI: Ne legyen mentés a törölt/áthelyezett fájlok korábbi változatáról."
+Help_SavePrevDays		"Megtartja az előzőleg törölt/felülírt fájlokat néhány napig a _gsdata_\\_saved_ mappában"
+
+Chk_SavePastVersions		"Törölt/felülírt fájlok előző verziójának mentése"
+Help_SavePastVersions		"A törölt/felülírt fájlok előző verzióját menti a GoodSync. A fájlok a _gsdata_\\_history_ mappába kerülnek. Minden alkalommal, amikor a GoodSync újraírja/törli a fájlt, az a _gsdata_\\_history_ mappába kerül időbélyegzővel ellátva."
+Help_SavePastDays		"Megtartj az előzőleg törölt/felülírt fájlokat a néhány napig a _gsdata_\\_history_ mappában"
+
+Chk_CalcReqSpace		"Szinkronizáláshoz szükséges szabad lemezterület számítása"
+Help_CalcReqSpace		"Bejelölés esetén kiszámolja a Szinkronizáció teljesítéséhez szükséges szabad hely mennyiségét. Hagyja bekapcsolva a korlátozott szabad hellyel rendelkező meghajtókra író feladatoknál. Kapcsolja ki az olyan feladatoknál, amelyeknél valószínűtlen, hogy megtöltik a lemezt, mert bőségesen van szabad hely mindkét oldalon."
+
+Str_SpeedLimit			"Fájlok másolási sebessége (Kb/sec)"
+Help_SpeedLimit			"Lassítja a másolási sebességet (fel- vagy letöltés), ha az átlagos másolási sebesség túllépi a megadott értéket (Kbytes/másodperc). Írjon 0-t, ha nem kíván korlátozást."
+
+Str_ShowBalloon			"Buboréküzenetek megjelenítése"
+Str_DoNotShowBalloon		"Soha"
+Str_ShowBalloonAlways		"Változások és szinkronizálás esetén"
+Str_ShowBalloonOnError		"Ütközések és hibák esetén"
+Help_ShowBalloon		"Válassza ki mikor jelenítsen meg üzeneteket a GoodSync a tálcaikonban."
+
+
+# Job options - Filters page
+Title_Filters			"Szűrők"
+Tip_Filters				"Szűrők"
+Str_FilterExcluded		"Kizártak"
+Help_FilterExcluded		"A fájlok és mappák, amik egyeznek bármelyik sorával ennek a listának kizárásra kerülnek a szinkronizációból. Használhatók a '*' és '?' helyettesítő karakterek . A \\ karakterekkel kezdődő sorok megegyeznek a szinkronizációs mappából induló elérési útvonalakkal. Például: *.txt *~ \\Ma?panév\\*.obj"
+Str_FilterIncluded		"Beleértett"
+Help_FilterIncluded		"Ha nem üres akkor csak azok a fájlok lesznek a szinkronizációba beleértve, amelyikek neve egyezik a Beleértettek listájának egy sorával és nem egyezik a Kizártak listájának egyetlen sorával se."
+Tip_Filter_New		"Új szűrő"
+Tip_Filter_Edit		"Szűrő változtatása"
+Tip_Filter_Del		"Szűrő törlése"
+Str_Filter_DummyText	"<Kattinson ide duplán új elem hozzáadásához>"
+Str_Edit		"Szerkesztés"
+
+Chk_ExcludeEmptyFolders		"Üres mappák kizárása"
+Help_ExcludeEmptyFolders	"Azon mappák kizárása, melyek üresek, vagy csak kizárt fájlokat és mappákat tartalmaznak"
+Chk_ExcludeHidden		"Rejtett fájlok és mappák kizárása"
+Help_ExcludeHidden		"REJTETT attribútumú fájlok és mappák kizárása"
+Chk_ExcludeSystem		"Rendszerfájlok és -mappák kizárása"
+Help_ExcludeSystem		"RENDSZER attribútumú fájlok és mappák kizárása"
+
+# Job options - Auto page
+Title_Auto			"Automatikus"
+Tip_Auto				"Auto"
+Str_ColumnAnalyze		"Vizsgálat"
+Str_ColumnSync			"Szinkronizálás"
+Str_ColumnAnalyzeAndSync	"Vizsgálat és szinkronizálás"
+
+Name_DoOnStart			"Start"
+Chk_DoOnStart			"GoodSync indításakor"
+Help_DoOnStart			"Feladat Vizsgálata (és esetleg Szinkronizálása) a GoodSync indításakor"
+
+Name_DoOnFoldersConnect		"Kapcsolódás"
+Chk_DoOnFoldersConnect		"Mappák kapcsolódásakor"
+Help_DoOnFoldersConnect		"Vizsgálat (és szinkronizálsá) ha a feladat mindkét mappája csatlakozott, azaz ha a megfelelő meghajtók csatlakoztatásra kerültek, van internetkapcsolat vagy telefont csatlakoztatott."
+
+Name_DoOnFileChange		"Változás"
+Chk_DoOnFileChange		"Fájl változásakor"
+Help_DoOnFileChange		"Feladat vizsgálata (és esetleges szinkronizálás), ha a fájl jobb vagy bal oldali szinkornizációs mappában vagy almappájában változott"
+
+Name_DoBeforeLogout		"Kijelentkezés"
+Chk_DoBeforeLogout		"Kijelentkezéskor"
+Help_DoBeforeLogout		"Feladatok Analizálása és utána Szinkronizálása minden számítógép Leállításnál, Újraindításnál vagy Kijelentkezésnél. Ha a Windows "Program nem válaszol" ablakot jelenít meg a Szinkronizáció alatt, hagyja figyelmen kívül, hogy a GoodSync befejezhesse a Szinkronizációt."
+
+Name_DoPeriodically		"Időzítés"
+Chk_DoPeriodically		"Ismétlődően"
+Help_DoPeriodically		"Vizsgálja (és esetleg Szinkronizálja) a Feladatot minden HH óra MM percében. A GoodSync-nek futnia kell, hogy ezt meg tudja tenni."
+Str_ColumnLPath			"Bal elérési út"
+Str_ColumnRPath			"Jobb elérési út"
+
+Str_DoOnSchedule		"Feladatütemező használata"
+Help_DoOnSchedule		"A GoodSync-et a Windows Feladatütemező fogja elindítani, az abban megadott időtábla használatával. Kattintson a Beállítás gombra a Windows Feladatütemező megnyitásához."
+Str_AutoUnattended     "Ütemezett: Kijelentkezett mód (felügyelet nélkül)"
+Help_AutoUnattended    "Ha be van jelölve, akkor a Windows Feladatütemező futtatni fogja ezt a feladatot, akkor is, ha ki van jelentkezve a Windows fiókjából. A feladat a GSYNC.EXE által lesz futtatva parancssoros üzemmódban és nem lesz lehetőség felhasználói beavatkozásra, tehát csak az analizálási és szinkronizációs naplókban fogja látni a feladat eredményeit. Megtekintésükhöz jelölje ki a Feladat -> Bal/Jobb Napló menüpontot."
+Str_SchedConfig			"Beállítás..."
+Help_SchedConfig		"Kattintson ide a Windows Feladatütemező megnyitásához"
+
+Str_ResolveConflicts		"Automatikusan döntsön az ütközésekben"
+Help_ResolveConflicts		"Automatikus ütközésmegoldás erőltetése az automatikusan Szinkronizáló feladatoknál. A nem automatizált feladatoknál minden Ütközés eredménye Nincs Másolás ha nem lett megváltoztatva a felhasználó által."
+Str_DoNotCopy			"Nem másolandó"
+Str_NewerFileWins		"Az újabb fájl "nyer""
+
+Str_LimitChanges		"Ne szinkronzáljon, ha a módosított fájl több, mint"
+Help_LimitChanges		"Az Automatizált Szinkronizáció nem lesz végrehajtva, ha több mint a fájlok Feladatban megadott hányada meg lett változtatva. A megváltoztatott fájlok szokatlanul magas száma jelzi, hogy valami esetleg rossz és manuális beavatkozásra van szükség. Állítsa 100%-ra a szinkronizáláshoz bármekkora változások esetén is."
+
+Help_AutoStartDelay		"Feladat indításának késleltetése ennyi másodperccel az első indításnál. A GoodSync automatikus indításánál és az Ütemezésnél használható"
+
+
+Str_AutoClear			"Automatikusan Törölje a listát Szinkronizálás vagy Vizsgálat után változtatások nélkül"
+Help_AutoClear			"Automatikusan Törölje a Változások listáját változások nélküli Vizsgálat vagy Szinkronizálás befejeztekor"
+
+Str_NotInPortable		"Nem elérhető a Hordozható (Portable) változatban"
+
+
+# Job options - Scripts page
+Title_Script			"Script-ek"
+Tip_Script				"Script-ek"
+Str_PreAnalyzeProgram		"Program elővizsgálata"
+Help_PreAnalyzeProgram		"Futassa a programot vizsgálat előtt a következő kapcsolóval: job-name (feladat-neve)"
+Str_PostAnalyzeEmailOrProgram	"E-mail vagy program - utóvizsgálat"
+Help_PostAnalyzeEmailOrProgram	"E-mail megadása esetén a vizsgálati eredményeinek küldése. Program esetén futtassa a vizsgálat befejeztével az alábbi kapcsolóval: job-name terminal-error-msg log-path changes errors conflicts"
+Str_PostSyncEmailOrProgram	"E-mail vagy program - utószinkronizálás"
+Help_PostSyncEmailOrProgram	"E-mail megadása esetén a szinkronizálás eredményeinek küldése. Program esetén futtassa a vizsgálat befejeztével az alábbi kapcsolóval: job-name terminal-error-msg log-path synced-ok errors conflicts"
+
+
+
+# Job Options - Advanced
+Title_JobAdvanced		"Haladó"
+Tip_JobAdvanced			"Haladó"
+
+Chk_UseSafeCopy			"Biztonságos Másolás ideiglenes fájlok használatával"
+Help_UseSafeCopy		"BE: Egy fájl másolásakor elöször átmeneti fájl készítése, aztán ennek az átnevezése a célfájl elérési útvonalára. Ez meggátolja a nem teljes vagy sérült fájlok keletkezését a bal oldalon váratlan Szinkronizációs műveleti hiba esetén is. További szabad hely szükséges hozzá, főleg nagy fájlok esetén. KI: Másolás közvetlenül a célfájlra: gyorsabb, de felmerülhet fájl veszteség."
+
+Chk_CopyLocked			"Használatban lévő fájlok másolása"
+Help_CopyLocked			"A Volume Shadow Service használata a más folyamatok által használt fájlok másolásához"
+
+Chk_FastPreAnalyze		"Gyors elő-vizsgálat időbélyegző alapján"
+Help_FastPreAnalyze		"A teljes vizsgálat előtt időbélyegző-fájl segítségével állapítja meg, hogy történt-e változás. Ha a szinkornizálás során létrehozott időbélyegző-fájl nem változott, nem kerül sor vizsgálatra. Ha nincs bekapcsolva, mindig teljes vizsgálatot hajt végre a GoodSync."
+
+Help_Links_Ignore		"A GoodSync figyelmen kívül hagyja a fájlhivatkozásokat. A Windows Szervereken minden fájl egy link, NE jellölje be ezt az opciót, ha WHS fájlokat másol. Használja inkább a fájlhivatkozások erőltetése funkciót."
+Help_Links_CopyAsIs		"A GoodSync a fájlhivatkozásokat változtatás nélkül másolja a céloldalra. FIGYELEM: lehetséges, hogy a másolt hivatkozás nem másolt fájlra fog mutatni, mert az a mappastruktúrán kívül helyezkedik el!"
+Help_Links_DrillDown	"A GoodSync a fájlhivatkozások erőltetni fogja, azaz a fájlhivatkozás hivatkozásként kerül másolásra. FIGYELEM: a fájlok megduplázása hibát okozhat, mivel több link is mutathat egy fájlra az eredeti helyen!"
+
+Chk_CopyACL			"Minden HJL biztonsági tulajdonság másolása"
+Help_CopyACL		"Másolja a Hozzáférési Jogok Listáját fájlok vagy mappák másolásakor. Csak Windows NTFS fájlrendszer esetében működik, FAT és egyéb fájlrendszereken nem!"
+
+
+# Left and Right
+Str_LeftFolder		"Baloldali mappa"
+Str_RightFolder		"Jobboldali mappa"
+
+Str_LeftAndRight	"Bal és Jobb"
+Str_Left			"Bal"
+Str_Right			"Jobb"
+Str_Folder			"mappa"
+Str_File			"fájl"
+Str_Deleted			"töröld"
+Str_NotPresent		"nincs jelen"
+
+Str_LeftToRight		"Balról Jobbra"
+Str_RightToLeft		"Jobbról Balra"
+
+# Exclusion messages
+Str_ExclBy_FolderAbove		"kizárva a feljebb levő mappa által"
+Str_ExclBy_SyncFolder		"kizárva: szinkronizációs adatmappa"
+
+
+
+
+
+Str_ExclBy_MatchName		"kizárva: egyezés "
+Str_ExclBy_NoMatchName		"nem beleértve: nincs párja "
+Str_ExclBy_EmptyFolder		"kizárva: üres mappa"
+Str_ExclBy_ChildOfExcl		"kizárva: kizárt "gyermeke""
+
+Str_ExclBy_NoPropDels		"kihagyva: törléseket ne terjessze ki"
+Str_Msg_SkipLink			"%1 mappa hivatkozás átugorva"
+
+# Job status and progress
+Str_Status_PressAnalyze		"Kattintson az Analizálás-ra az indításhoz..."
+Str_Status_ConnectingToFolder	"Kapcsolódás a %1 mappához"
+Str_Status_Scanning			"%1 összehasonlítása"
+Str_Status_ReadStateFile	"%1 állapotfájl olvasása"
+Str_Status_ReadEmbeddedStateFile	"Beágyazott %1 állapotfájl olvasása és egyesítése az alapértelmezett állapottal"
+Str_Status_NewStateFile		"Új fájlállapot építése %1-en"
+Str_Status_SaveStateFile	"Állapotfájl mentése %1"
+Str_Status_PostProcessing	"Utólagos feldolgozás"
+Str_Status_ComputePrevVerSize	"A _mentett_ fájlok méretének kiszámítása"
+
+Str_Status_CompareOneSide	"%1 összehasonlítása"
+Str_Status_CompareLeftToRight	"Bal hasonlítása a Jobbhoz"
+
+Str_Status_NotYetAnalyzed	"Még nincs vizsgálva"
+Str_Status_Syncing		"Szinkronizálás folyamatban"
+Str_Status_Analyzing		"Vizsgálat folyamatban"
+Str_Status_Connecting	"Kapcsolódás"
+Str_Status_Paused		"Szüneteltetve"
+Str_Status_Resumed		"Folytatott"
+Str_Status_All			"Minden fájl"
+Str_Status_NoFiles		"Nincsenek fájlok"
+Str_Status_Changes		"Változások"
+Str_Status_InSync		"Szinkronizálás alatt"
+Str_Status_Conflicts		"Ütközések"
+Str_Status_NoConflicts		"Nincsenek ütközések"
+Str_Status_Errors		"Hibák"
+Str_Status_NoErrors		"Nincsenek hibák"
+Str_Status_SyncAttention	"Azonosítás szükséges"
+Str_Status_Connected	"Kapcsolódva"
+Str_Status_Disconnected	"Szétkapcsolva"
+
+Str_Status_VolumeInfo_Free	"Szabad: %1, Összesen: %2"
+Str_Status_VolumeInfo_Reqd	"Szükséges: %1"
+
+Str_Status_FilesChangedCnt	"Megváltoztatott fájlok: %1"
+Str_Status_ConflictsCnt		"Ütközések: %1"
+Str_Status_ErrorsCnt		"Hibák: %1"
+Str_Status_SyncedCnt		"Szinkronizálva: %1"
+Warn_AllExcluded			"Figyelem!\r\nMinden fájl ki van zárva, az Ön szűrő beállításai valószínűleg nem hibásak.\r\nÁllítsa át 'Minden' vagy 'Kizárt' módba a megjelenítést és vizsgálja meg, hogy a szűrők jól működnek-e."
+Warn_AllNew					"Figyelem!\r\nA Bal és jobb oldali mappáknak nincs közös fájljuk. Úgy látszik, Ön nem összefüggő mappákat próbál szinkronizálni.\r\nKérjük ellenőrizze, hogy a helyes mappák vannak-e kijelölve szinkronizációra."
+Warn_AllDelete				"Figyelem!\r\nMinden fájl törölve lesz a cél mappából.\r\nAzt ajánljuk, mentse adatait egy üres mappába."
+
+# Analyze messages
+Str_Msg_Job		"Feladat"
+Str_Msg_LeftRight_Descrs	"Bal: %1, Jobb: %2"
+Str_Msg_JobFilters		"Szűrő: %1"
+Str_Msg_SetFolder		"A mappa nincs megadva"
+Str_Msg_CannotOpenFolder	"A mappát nem lehet megnyitni (talán mert nem abszolút elérési útvonal): %1"
+Str_Msg_SameFolders		"Bal és Jobb mappa megegyezik."
+Str_Msg_NestedFolders2		"A '%1' mappa a\n '%2' egy almappája.\nNem lehet a egymásba ágyazott mappákat vizsgálni."
+Str_Msg_WillCreateFolder	"A '%1' mappa nem található, a program megpróbálja létrehozni"
+Str_Msg_Created_Folder		"'%1' mappa létrehozva"
+Str_Msg_CannotConnect		"Nem lehet kapcsolódni a következőhöz: "
+Str_Msg_CannotCreateGsdata	"Nem lehet létrehozni a GoodSync Állapotmappát (_gsdata_) a %1 lemezen: %2\nHa egy csak olvasható mappáról szeretne biztonsági másolatot készíteni, akkor állítsa ezt a feladatot Egy irányú, Erőltetett, Csak olvasható forrásoldalúvá a Feladat -> Beállítások menüben."
+Str_Msg_ErrReadStateFile	"Hiba a(z) '%1' állapotfájl olvasásakor:%2.\nRossz állapotfájl át lett nevezve '%3'.\nA következő Vizsgálatnál új állapotfájl lesz létrehozva.\nKérjük küldje el a rossz állapotfájlt az ask@goodsync.com címre."
+Str_Msg_EmbeddedJob		"A '%1' egy szinkronizációs adatmappa, ami nem tartozik ehhez a feladathoz. Ez azt jelenti, hogy van egy Beágyazott Feladat ami szinkronizálja ennek a feladatnak az almappáit. A Beágyazott feladatok használata nem ajánlott."
+Str_Msg_DetectedDisconnect	"kapcsolat vizsgálata: észlelt szétkapcsolás(ok): %2"
+Str_Msg_RemainsConnected	"kapcsolat vizsgálata: megmaradt kapcsolat(ok): %2"
+Str_Msg_DetectedConnect		"Kapcsolat vizsgálata: kapcsolódás érzékelése, vizsgálat (analizálás) végrehajtása"
+Str_Msg_RemainsDisconnected	"kapcsolat vizsgálata: megmaradt szétkapcsolás(ok): %2"
+
+Str_Msg_Filter_ExcludeHidden	"Rejtett fájlok kihagyása"
+Str_Msg_Filter_ExcludeSystem	"System fájlok kihagyása"
+Str_Msg_Filter_ExcludeEmptyFolders	"Üres mappák kihagyása"
+Str_Msg_Filter_Included	"Hozzáadott"
+Str_Msg_Filter_Excluded	"Kihagyott"
+
+Str_Msg_OlderFileVsNewer	"Figyelmeztetés: Régebbi fájl fog felülírni Újabb fájlt"
+Str_Msg_Conflict_BothChanged	"Ütközés: Fájl Módosítva mindkét oldalon"
+Str_Msg_Conflict_1way_RtoL	"Jobbról Balra szinkronizáció az Egyirányú Balról Jobbra feladatban"
+Str_Msg_Conflict_1way_LtoR	"Balról Jobbra szinkronizáció az Egyirányú Jobbról Balra feladatban"
+
+Str_Status_JobScheduled	"----- Feladat '%1': ütemezve %2 által"
+Str_Status_AnalysisStarted	"----- Feladat '%2': Vizsgálatot elkezdte %3 a '%4' számítógépen (GoodSync v %5) -----"
+Str_Status_OneSideStats		"%1: fájlok: %2 (kihagyva %3). Mappák: %4 (kihagyva %5)."
+Str_Status_AnalysisSummary	"Változások: %1, Ütközések: %2, Másolási idő: %3, Másolás állapota: %4, Hibák: %5"
+Str_Status_AnalysisCompleted	"----- Vizsgálat kész. Idő %2, Sebesség: %3 fájlok/s -----"
+Str_Status_AnalyzeStopped	"Vizsgálat a felhasználó által megszakítva"
+Str_Status_AnalyzeFinished_NoChanges	"Vizsgálat befejezve, változások nem észlelhetők"
+Str_Status_AnalyzeFinished_ReadyToSync	"Vizsgálat befejezve, kattintson a Szinkronizálás-ra a Szinkronizáláshoz"
+Str_Status_Advise_HaveConflicts	"A hibák megszüntetéséhez válassza a helyes szinkronizálási irányt"
+Str_Status_Advise_HaveErrors	"A vizsgálat során hibákat észlelt a program. Kattintson a Hibák gombra azok megtekintéséhez"
+Str_Status_FolderDisconnected	"Az egyik mappa szétkapcsolt"
+Str_Status_RemainsConnected	"Mindkét mappa kapcsolatban maradt"
+Str_Status_RemainsDisconnected	"Az egyik mappa szétkapcsolt állapotban maradt"
+
+Str_Status_SynchroStarted	"===== Feladat '%2': Szinkronizálást elkezdte %3 a '%4' számítógépen ====="
+Str_Status_SavingStateFor	"Állapot mentése "
+Str_Status_SynchroSummary	"Rendben szinkronizált fájlok: %1, Hibák: %2"
+Str_Status_SynchroErrors	"A szinkronizálás %1 hibával zárult. Kattintson a Hibák gombra azok megtekintéséhez"
+Str_Status_SynchroConflicts	"A szinkronizálás %1 feloldhatlan konfliktussal zárult. Kattintson a Konfliktusok gombra azok megtekintéséhez"
+Str_Status_SynchroCompleted	"===== Szinkronizálás kész. Idő: %2, Sebesség: %3 ====="
+Str_Status_Remaining_Speed	"Hátra van még %1, Sebesség %2"
+Str_Status_SyncError	"HIBA"
+Str_Status_SyncStopped		"Szinkronizálás a felhasználó által megszakítva"
+Str_Status_SyncDisconnected	"Mappa szétkapcsolva, Stop"
+Str_Status_SyncFinished_OK	"Szinkronizálás sikeresen befejezve"
+Str_Status_Advise_SyncAttention	"Szinkronizálás hibákkal vagy konfliktusokkal befejződött be"
+
+Str_Msg_StoppedByUser		"Felhasználó általi leállítás"
+
+Str_Msg_DeleteOtherJobResults	"Vizsgálat eredményeinek törlése, melyek a %1 feladattal kereszteződnek, ütköznek"
+Str_Msg_DeleteResultsReason	"Keresztező %1 feladat szinkronizálása"
+Str_Msg_DeleteThisJobResults	"A(z) %1 feladat vizsgálatának eredménye (fájl/mappa struktúra) törlésre kerültek"
+
+Str_Msg_Action_DeleteFolder	"Mappa törlése"
+Str_Msg_Action_DeleteFile	"Fájl törlése"
+Str_Msg_Action_CreateFolder	"Mappa létrehozása"
+Str_Msg_Action_CopyOver		"Másolás (felülírás)"
+Str_Msg_Action_CopyNew		"Másolás (új)"
+Str_Msg_Action_CopyTime		"%1 módosítás idejének másolása %2-ba/be"
+
+Str_Msg_AndMoreSimilarLogLines	"... és %1 több hasonló log sor kihagyásra került (Feladat -> Jobb/Bal log megnyitása a teljes log-fájl megtekintéséhez)"
+
+Str_Msg_OldNewWholeHour_TimeShift	"%1: %2 órányi régi/új időeltérés észlelve %3 fájlok esetében. Nincs szükség változtatásra ezen az oldalon"
+Str_Msg_OldNewRounding_TimeShift	"%1: %2 órányi kerekített régi/új időeltérés (%3 típusú) észlelve %4 fájlok esetében. Nincs szükség változtatásra ezen az oldalon"
+Str_Msg_LeftRight_TimeShift	"%1 órányi Bal/Jobb időeltérés (%2 típusú) észlelve %3 fájlok esetében: Ajánlott, hogy Fájlok másolását változtassa meg az Idő másolására"
+
+Str_Msg_SyncAgainAfterActiv	"Kattintson újra a Szinkronizálásra amikor a GoodSync Pro aktiválva lett"
+
+
+Str_Msg_FolderLocked		"Egy másik feladat hajt végre Szinkronizációt a %1 mappában:\nIndítva: %2"
+Str_Msg_LimitChanges2		"%1 fájl lett megváltoztatva, több mint a %2 küszöb. A feladat nem fog automatikusan szinkronizálni."
+Str_Msg_NotEnoughDiskSpace	"Nincs elég szabad hely a %1 lemezen, szükséges lenne még %2, rendelkezésre áll %3\n"
+Str_Msg_RequiredDiskSpace	"A(z) %1 lemezen a szinkronizációhoz %2 hely szükséges, de csak %3 áll rendelkezésre"
+
+
+
+
+# Misc Messages
+Chk_DoNotAsk			"Ne kérdezze meg újra"
+Str_TitleWarning		"GoodSync Figyelmeztetés"
+Str_TitleError			"GoodSync Hiba"
+Str_MsgBoxTimeout		"Bezárás %1 másodperc múlva"
+
+Str_SaveOptions			"A Feladatbeállítások megváltoztak. Menti a változásokat?"
+
+Str_Win2kAtLeast		"A GoodSync futtatásához legalább Windows 2000 szükséges."
+Str_SignedAppNeeded		"Ez az alkalmazás nincs megfelelően aláírva a Siber Systems Inc. által.\nKérem telepítse az aláírt változatot a https://www.goodsync.com címről."
+
+Str_AskDeleteJob1		"Biztosan töröli akarja a '%1' feladatot?"
+Str_AskDeleteSelJob1		"Biztosan törölni szeretné %1 kiválasztott feladatot?"
+
+Str_AskDeleteItem1		"Biztos benne, hogy törli a kiválasztott %1 elemeket?"
+Str_AskDeleteItem3		"Biztos benne, hogy törölni akarja a következőket: %1 %2 '%3'?"
+Str_Msg_FileDeleted		"Felhasználó által törölt fájl %1"
+Str_Msg_FolderDeleted		"Felhasználó által törölt mappa %1"
+Str_Msg_CannotDelete		"Nem lehet törölni %1-t mert %2"
+Str_Msg_StateFileDeleted	"%1 állapotfájl törlése"
+
+Str_StopJobsBeforeClose		"Egy vagy több feladat is fut most: %1.\nLe akarja állítani ezeket a feladatokat?\nKattintson az OK-ra hogy leállítsa a feladatokat és kilépjen.\nKattintson a Mégsem gombra a GoodSync-hez való visszatéréshez."
+
+Str_Warn_HideToTray		"Automatizált feladatok nem futhatnak a GoodSync nélkül, ezért a GoodSync az érteítési tárra minimalizálásra kerül.\nMegváltoztatáshoz kapcsolja ki Beállításokban a(z) '%1' opciót -> Program beállításai"
+
+Str_TitleResetState		"Állapot visszaállítása"
+Str_AskDeleteStates		"Biztos benne, hogy törölni akarja az elmentett szinkronizációs állapotot (felhasználói fájlok nem kerülnek törlésre)?"
+
+Str_TitleDeleteBackup		"A _Saved_ és _History_ fájlok törlése"
+Str_AskDeleteBackup		"Biztosan törölni szeretné a mappákban lévő régebbi verziójú és előzmény fájlokat?"
+
+
+Str_SyncOnLogoffAsk		"Nem lehet Szinkronizálni vagy Kijelentkezni, mert a Windows Minden Feladat Automatikus Befejezése Kijelentkezéskor funkció be van kapcsolva.\nKívánja kikapcsolni ezt a funkciót (a változás Windows újraindítása után lép érvénybe)?"
+Str_SyncOnLogoffReason		"Szinkronizálás Kijelentkezéskor"
+Str_SyncOnLogoffJobs		"Szinkronizálás Kijelentkezéskor az alábbi feladatoknál:"
+
+Str_LogoffTitle			"Szinkronizálás kijelentkezéskor - GoodSync"
+Str_LogoffPopup			"A szinkronizálást a Szinkronizálás Kijelentkezéskor beállítás indította el.\nKérem várja meg a szinkronizáció befejeződését.\nA kijelentkezés végrehajtódik a szinkronizáció végeztével."
+Err_OpenLogFails		"A feladatok napló fájlja nem megnyitható"
+Err_ExecLogViewer		"Nem futtatható a Log Tallózó\nVegye fel a kapcsolatot a GoodSync támogatási részlegével!\n"
+
+
+# Tooltips
+Tooltip_Synchronizer		"GoodSync: Fájlok szinkronizálása és biztonsági másolása"
+Tooltip_AnalyzingJob		"Feladatok vizsgálata"
+Tooltip_SyncingJob		"Feladatok szinkronizálása"
+
+TT_SetLeftSyncFolder		"Kattintson a Tallózás gombra az első (Bal oldali) szinkronizálni kívánt mappa megadásához vagy gépelje be az elérési útvonalat"
+TT_SetRightSyncFolder		"Kattintson a Tallózás gombra a második (Jobb oldali) szinkronizálni kívánt mappa megadásához vagy gépelje be az elérési útvonalat"
+TT_NewJob			"Új feladat"
+TT_ClickToAnalyze		"Kattintson a Vizsgálat gombra a mappák közötti különbségek vizsgálatához és a szinkronizációs művelet előkészítéséhez"
+TT_ClickToSynchronize		"Kattintson a Szinkronizáció gombra a Vizsgálat által előkészített szinkronizációs műveletek végrehajtásához"
+
+
+# Update toolbar and messages
+Info_Update_Avail		"A GoodSync újabb változata érhető el. <a>Kattintson ide a letöltéséhez</a>"
+ 
+Str_Ver_YesNewVersion	"Az ön GoodSync változata %1, a legfrissebb forgalomba hozott változat %2. You have ver %3"
+Str_Update_Ask			"Szeretné letölteni a frissített változatot?"
+Str_Update_Err_1		"Nem elérhető a változat-információ:\n%1\nMeg akarja nyitni a frissítések weboldalát?"
+Str_Ver_NoNewVersion	"Az Ön programja naprakész: %1, kívánja ugyanezt a verziót újrainstallálni?"
+
+
+# Browse Dialog
+Browse_Btn_MyComputer		"Sajátgép"
+Browse_Btn_MyNetwork		"Hálózatok"
+Browse_Str_SecureMode     "Biztonságos mód (titkosított)"
+Browse_Tip_SecureMode     "Felhasználói azonosító (UserID) és jelszó cseréjének titkosítása. Ezzel együtt az adat továbbításának titkosítása is."
+Browse_Str_PrivKey		"Privát kulcs"
+Browse_Tip_PrivKey		"A személyes SSH kulcsot tartlamazó fájl PuTTY formátumban"
+Browse_Str_HostBasedAddr	"Szolgáltató alapú konténer-címkiosztás"
+Browse_Tip_HostBasedAddr	"Bejelölve: a konténernév csak kisbetűs lehet, és csak számokat tartalmazhet.\nNincs bejelölve: URL alapú konténer-címkiosztás: kis/nagybetűs név lehetséges, az Amazon nem ajánlja"
+Browse_Str_SpecifyACP		"Hozzáférés ellenőrzése"
+Browse_Tip_SpecifyACP		"Hozzáférési ellenőrzés, előre meghatározott jogosultságok: private/személyes (alapbeállítás), public-read/nyilvános-olvasható, public-read-write/nyilvános-olvasható-írható, authenticated-read/hitelesített-olvasható"
+Browse_Str_ImplicitMode	  "Implicit FTPS (kikapcsolva: Explicit)"
+Browse_Tip_ImplicitMode	  "Ha be van jelölve, Implicit FTP mód lesz használva: a 990-es átjárón való kapcsolódás SSL/TLS használatával. Ha nincs bejelölve, Explicit FTPS mód lesz használva: a 21-es átjárón való kapcsolódás, egyeztetve a titkosítást"
+Browse_Str_ActiveMode		"Aktív FTP Mód (a jelöletlen Passzív módot jelent)"
+Browse_Tip_ActiveMode		"Bejelölt állapotban aktív FTP-mód. Ekkor szükséges a tűzfalon az FTP szerver és a kliens teljes értékű kommunikációjának engedélyezése. Ha nincs bejelölve, passzív FTP-mód (alapbeállítás)"
+Browse_Str_UseMDTM_FTP		"Használja a MTDM parancsot az ftp kapcsolatban a fájlok módosítái idejének megtekintéséhez"
+Browse_Tip_UseMDTM_FTP		"MDTM parancs használata a fájl módosítási idejének lekérdezéséhez"
+Browse_Str_UTF8_encoding	"UTF-8 fájlnév-kódolás (kikapcsolva: ANSI kódolás)"
+Browse_Tip_UTF8_encoding	"Bejelölve: UTF-8 fájlnév- és mappanév kódolás a szerveren. Kikapcsolva: ANSI kódolás"
+Browse_Str_WinInet		"WinInet-alapú"
+Browse_Tip_WinInet		"Bejelölved: WinInet-alapú végrehajtás, mely képes összetett átjárók kezelésére és Windows alapú azonosításra, azonban lassabb.  Nincs bejelölve: socket-alapú végrehajtás, mely nem támogatja az előbbi lehetőségeket, azonban gyorsabb és stabilabb."
+Browse_Str_Use_Proxy		"Kapcsolódás proxy-n keresztül, ha az Eszközök -> Program beállításai -> Kapcsolatok menüpontban kiválasztásra került"
+Browse_Tip_Use_Proxy		"Proxy használata a kapcsolódáshoz, bekapcsolása az Eszközök -> Program beállításai -> Kapcsolatok menüpontból érhető el"
+Browse_Str_PreferEncrypted	"EFS titkosítás"
+Browse_Tip_PreferEncrypted	"EFS rendszerű tikosítás, csak NTFS fájlrendszeren használható, FAT fájlrendszeren nem működik"
+Browse_Str_PreferDecrypted	"Dekódolás EFS-sel"
+Browse_Tip_PreferDecrypted	"Ezen oldal dekódolása, ha a másik oldal EFS-t használ. Csak NTFS fájlrendszeren használható, FAT fájlrendszeren nem működik"
+Browse_Str_PreferCompressed	"NTFS tömörítés"
+Browse_Tip_PreferCompressed	"Ezen oldalt LZ-vel tömöríti. Csak NTFS fájlrendszeren használható, FAT fájlrendszeren nem működik"
+Browse_Str_PreferUncompressed	"NTFS kitömörítése"
+Browse_Tip_PreferUncompressed	"Kitömöríti az oldalt, ha a másik oldal tömörítve van. Csak NTFS fájlrendszeren használható, FAT fájlrendszeren nem működik"
+Browse_Str_IgnoreBadCerts	"Nem egyező vagy lejárt tanúsítványú SSL szerver engedélyezése"
+Browse_Tip_IgnoreBadCerts	"Bejelölt állapotban engedélyezi a nem egyező vagy lejárt tanúsítványú SSL szerver elérését HTTPS-en keresztül. Ha nincs bejelölve, hibaüzenetet jelenít meg rossz tanúsítvány esetén"
+
+
+Browse_Btn_Go			"Ugrás"
+Browse_Btn_NewFolder		"Új mappa létrehozása"
+Browse_Btn_NewFolder_Tip		"Új mappa létrehozása a jelenlegi mappában"
+Browse_NewFolder_Prompt_1	"Adja meg a(z) '%1'ben létrehozandó új mappa nevét"
+
+
+
+Browse_Tip_MyComputer		"A Sajátgép azt jelenti, hogy a Lemezek közvetlenül erre a számítógépre vannak csatolva: helyi lemezek, hordozható lemezek ehhez a számítógéphez csatlakoztatva, hordozható eszközök, amelyek fájl rendszert mutatnak (legtöbb Palm eszköz), zenelejátszók, amelyek megmutatják a fájl rendszerüket (régebbi iPod-ok). A %%GSDISK%% az elérési útvonalakban azt jelenti, hogy a lemez, ahonnan a GoodSync.exe el lett indítva, használja ezt a Lemezem beállítására a GoodSync2Go-ban"
+Browse_Tip_MyNetwork		"A Hálózatom a Windows Intézővel (Explorer) a helyi hálózatodon levő más gépekről megtekinthető, Windows Hálózati Megosztások (Windows Network Shares - SMB protokollal) alatti elemeket tartalmazza. A mappáknak és lemezeknek megosztva kell lenniük a másik számítógépeken, hogy itt megjelenjenek."
+Browse_Tip_FTP				"FTP kiszolgálók. A kiszolgáló IP címe szükséges a kapcsolódáshoz, felhasználói név (User ID) és jelszó szükséges a hitelesítéshez. Próbálja meg az Aktív módot, ha az alapértelmezett Passzív mód nem működne"
+Browse_Tip_SecureFTP		"A Biztonságos FTP kiszolgálók (SFTP vagy FTP SSH-n keresztül). A kiszolgáló IP címe szükséges a kapcsolódáshoz, felhasználói név (User ID) és jelszó vagy Személyes Kulcs Fájl (Private Key File - PuTTY formátum) és jelszó szükséges a hitelesítéshez. Használhatja a PuTTY Pageant-ot a személyes kulcs jelszavának elrejtésére. Használja a PuTTY munkamenetet (session) a Proxy beállítások megadásához"
+Browse_Tip_AmazonS3			"Amazon S3 Online Tárhely (Storage). Jelenleg egy ilyen kiszolgáló van csak, ezért Ön nem változtathatja meg a kiszolgáló nevét. Hozzáférési Kulcs Azonosító (Access Key ID) és Titkos Hozzáférési Kulcs (Secret Access Key) szükséges a hitelesítéshez. A 'bucket' egy csúcsszintű mappa."
+Browse_Tip_WebDav			"WebDAV kiszolgáló. A kiszolgáló IP címe szükséges a kapcsolódáshoz, felhasználói név (User ID) és jelszó szükséges a hitelesítéshez. Használja a https:// előtagot a forgalom SSL alapú titkosításához"
+Browse_Tip_WinMobile		"Windows Mobile eszközök. Lehet telefon vagy Pocket PC. Microsoft ActiveSync vagy WDMC telepítve és futtatva kell, hogy legyen, és az eszköznek dokkolva kell lennie, hogy a GoodSync láthassa. Az eszköznek nem szükséges párosítva (partnership) lennie az asztali számítógéppel."
+Browse_Tip_Unknown			"Ehhez az ismeretlen fájl rendszerhez nincs súgó"
+
+
+# Buy License dialog
+BuyPro_Title			"A PRO változat képességei"
+BuyPro_Text_ProFixed	"Vásárolja meg a GoodSync Pro változatát ma, és megkapja ezeket:\n- Korlátlan számú Feladat,\n-Korlátlan számú Fájl egy Feladatban,\n- Telefonos Támogatás, Azonnali Aktiváció, és ennél még Több"
+BuyPro_Text_Pro2Go     "Vásárolja meg a GoodSync2Go Pro-t most, hogy megkapja:\n- Korlátlan számú Feladat,\n- Korlátlan számú Fájl egy Feladatban,\n- Telefonos Támogatás, Azonnali Aktiválás, és még Több"
+BuyPro_Text_Server     "Vásárolja meg a GoodSync Vállalati Klienst (Enterprise Client), ezzel:\n- Eltávolíthatja a Próbaváltozat Korlátozásait,\n- Dedikált Vállalati Támogatást kaphat,\n- Megkaphatja az Ön saját Fiók Menedzserét"
+BuyPro_Limit_Pro		"Ön átlépte az Ingyenes változat korlátozásait. A GoodSync használatának folytatásához ajánlott lenne megvennie a GoodSync Pro változatát vagy lecsökkentenie a feladatok számát 3-ra vagy a fájlok számát 100-ra."
+BuyPro_Limit_Server     "A GoodSync Windows Server-en való futtatásához szüksége van egy Vállalati Kiszolgáló licenszre (Enterprise Server license)."
+BuyPro_Link		"Kattintson ide, hogy többet tudjon meg az Ingyenes és a Pro változat különbségeiről"
+
+
+# Activation Wizard
+Act_Header			"Köszönjük, hogy megvásárolta a termékünket"
+Act_Title			"GoodSync Aktiváció"
+Act_Field_Req_Err_1		"'%1' szükséges az aktiváláshoz."
+Act_User_Name			"Felhasználónév"
+Act_User_Order			"Rendelési Azonosító (NNNNNNNNNN) vagy Rendelési Kód (XXX-XXX-XXX-XXX)"
+Act_User_Online_Btn		"Közvetlen Internetes Aktiválás (ajánlott):"
+Act_User_Online_Tip		"A GoodSync kapcsolódni fog az Aktivációs Szerverhez az Interneten keresztül"
+Act_User_ViaBrowser_Btn	"Böngészőn keresztüli Internetes Aktiválás"
+Act_User_ViaBrowser_Tip	"Ön az alapértelmezett böngészője használatával fog kapcsolódni az Aktivációs Szerverhez"
+Act_User_Order_Err		"Kérem gépelje be az ön teljes 10 számjegyű Rendelési Azonosítóját vagy Rendelési Kódját az XXX-XXX-XXX-XXX formában."
+
+
+
+
+
+
+
+
+
+
+Act_ViaBrowser_Txt		"Keresse fel a http://activate.goodsync.com weboldalt bármely böngészővel vagy kattintson az alábbi hivatkozásra. Kattintson a Másolás gombra, ezzel átmásolva a Számítógép Azonosítóját (Computer ID) a vágólapra. Ezután illessze be ezt a Computer ID mezőbe a böngészőben és kattintson az Elküldés (Submit) gombra. Ezután másolja át az Aktivációs Kódot a böngészőböl az alábbi Aktivációs Kód (Activation Code) ablakba és kattintson a Tovább gombra."
+
+Act_ViaBrowser_Copy		"Másolás"
+Act_ViaBrowser_ActCode_Txt	"Aktivációs kód beillesztése"
+
+Act_Finish_Success		"Köszönjük, hogy megvásárolta a GoodSync-et!\nAz ön példánya most aktiválódott."
+Act_Finish_Connect		"Kapcsolódás az aktivációs szerverhez"
+Act_Finish_Fail			"Sikertelen aktiválás"
+
+
+# Create ticket 
+Ticket_File_Desc		"A következő file csak diagnosztikai információkat és nem a számítógépéről vett személyes információkat tartalmaz."
+Ticket_Instruction		"Másolja az elérési útvonalat a vágólapra, és illessze be a Csatolandó Fájlok (Attach Files) szövegdobozba a Támogatás (Support System Ticket) oldalon.\nKattintson az alábbi linkre a Támogatás oldal megnyitásához."
+Ticket_Btn_Copy			"Elérési útvonal másolása"
+
+# Mini Mode
+Str_MiniDlgNoActiveJob		"<Nincsenek aktív feladatok>"
+
+# Log Viewer general
+LV_AppTitle			"Log Tallózó"
+LV_LogListTitle			"Log fájlnevek"
+LV_OpenLogDlg			"Log fájlokat tartalmazó mappa megnyitása"
+LV_TotalLine			"Összesen"
+
+# Log Viewer Error
+LV_Err_NoLogFileFound		"<Nincs log fájl>"
+LV_Err_UnknownFs		"Ismeretlen fájlrendszer"
+LV_Err_CannotOpenFile2		"Nem nyitható meg a fájl %1: %2"
+LV_Err_ReadingFile2		"Hiba a(z) %1 fájl megnyitásakor: %2"
+LV_Err_ParseCmdLine		"Hiba a parancssor elemzésekor"
+
+# Log Viewer Find Window
+LV_Find				"Keresés:"
+LV_FindNext			"Következő"
+LV_FindPrev			"Előző"
+LV_FindAll			"Mindegyik keresése"
+LV_FindCaseSens			"Kis- és nagybetűk különbözőek"
+
+#Log Viewer Menu
+LV_MenuFile			"Fájl"
+LV_MenuView			"Nézet"
+LV_MenuOpen			"Megnyitás"
+LV_MenuExit			"Kilépés"
+LV_MenuCopyAsText		"Kijelölés másolása a vágólapra"
+LV_MenuSelectAll		"Minden kijelölése"
+LV_MenuDelete			"Törlés"
+LV_MenuFind			"Keresés"
+LV_MenuSelectFont		"Betűtípus kiválasztása"
+
+# For Mac
+
+Menu_Mac_Window					"Ablak"
+Menu_Mac_Zoom					"Nagyítás"
+Menu_Mac_Minimize				"Kicsinyítés"
+Menu_Mac_BringToFront			"Összes előrehozása"
+Menu_Mac_Undo					"Visszavonás"
+Menu_Mac_Redo					"Újra"
+Menu_Mac_Preferences			"Beállítások..."
+Menu_Mac_Services				"Szolgáltatások"
+Menu_Mac_HideProgram			"GoodSync elrejtése"
+Menu_Mac_HideOthers				"Többi elrejtése"
+Menu_Mac_Quit					"Kilépés"
+
+
+Chk_Mac_AutoStart					"GoodSync indítása amikor a Mac elindul"
+
+Browse_Mac_Btn_Disconnect		"Kapcsolat bontása"
+
+Str_Mac_GSFolder						"Mappa"
+Str_Mac_WelcomeScreenTitle				"Üdvözöljük"
+
+
+
+Browse_Mac_Str_Size						"Méret"
+
+Menu_Mac_ShowAll		"Minden mutatása"
+
+
+
+Cmd_Mac_Str_Show		"Megmutat"
+Cmd_Mac_ShowLeftTrashBin	"Bal lomtár"
+Cmd_Mac_ShowRightTrashBin	"Jobb lomtár"
+Cmd_Mac_MakeGSDataVisible	"A gsdata mappa mutatása"
+Cmd_Mac_MakeGSDataInVisible	"A gsdata mappa elrejtése"
+
+Str_Status_Mac_AnalyzeFinished_OK	"Vizsgálat rendben lefutott"
+Str_Status_Mac_AnalysisStarted		"Vizsgálat elkezdődött"
+Str_Status_Mac_SyncStarted		"Szinkronizáció elkezdődött"
+

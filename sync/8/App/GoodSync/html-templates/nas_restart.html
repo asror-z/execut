@@ -1,0 +1,99 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>GoodSync Server: Restarting</title>
+    <link rel=stylesheet href="/style.css" type="text/css" media="screen, print">
+    <script type="text/javascript">
+        function nasRestartProc() {
+            if (nasRestartProc.nCounter % 6 == 0) {
+                var xmlhttp = new XMLHttpRequest();
+
+                xmlhttp.open("GET", "nas_restart_test?uid=<!-- target_userid_key -->&nonce=" + makenonce(32), true, "restart_test", "restart_test");
+
+                xmlhttp.onreadystatechange = function () {
+                    if (this.readyState === XMLHttpRequest.DONE && this.status == 200) {
+                        clearInterval(nasRestartProc.timerId);
+                        document.cookie = 'GSNasSetupData' + '=; Max-Age=-99999999;'
+                        window.location.href = '/post_install';
+                    } else if (this.status == 500) {
+                        clearInterval(nasRestartProc.timerId);
+                        document.getElementById('status_detail').innerHTML = this.getResponseHeader("reason");
+                        document.getElementById('status_detail').style.color = "red";
+                    } else {
+                        document.getElementById('status_detail').innerHTML = this.statusText;
+                    }
+                }
+
+                try {
+                    xmlhttp.send("");
+                } catch (err) {
+                }
+            }
+            var highlight = nasRestartProc.nCounter % 16;
+            var draw_elem = document.getElementById('restart_spinner');
+            if (draw_elem == null) {
+                nasRestartProc.nCounter++;
+                return;
+            }
+
+            var ctx = draw_elem.getContext("2d");
+            ctx.lineWidth = 1;
+            ctx.lineCap = "round";
+            for (i = 0; i < 16; i += 2) {
+                ctx.beginPath();
+                ctx.moveTo(nasRestartProc.spinnerArray[i][0], nasRestartProc.spinnerArray[i][1]);
+                ctx.lineTo(nasRestartProc.spinnerArray[i + 1][0], nasRestartProc.spinnerArray[i + 1][1]);
+                ctx.strokeStyle = nasRestartProc.colorArray[Math.abs(i - highlight)];
+                ctx.stroke();
+            }
+            nasRestartProc.nCounter++;
+        }
+        function makenonce(length) {
+            var result = '';
+            var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            var charactersLength = characters.length;
+            for (var i = 0; i < length; i++) {
+                result += characters.charAt(Math.floor(Math.random() * charactersLength));
+            }
+            return result;
+        }
+        nasRestartProc.nCounter = 0;
+        nasRestartProc.spinnerArray = [[15, 0], [15, 9],
+                                       [26, 5], [20, 11],
+                                       [22, 16], [31, 16],
+                                       [26, 27], [20, 21],
+                                       [15, 23], [15, 31],
+                                       [4, 27], [10, 21],
+                                       [0, 16], [9, 16],
+                                       [4, 5], [10, 11]];
+        nasRestartProc.colorArray = ["#ffffff", "#a0a0a0", "#404040", "#303030",
+                                      "#202020", "#101010", "#000000", "#000000",
+                                      "#000000", "#000000", "#000000", "#000000",
+                                      "#000000", "#000000", "#000000", "#000000"];
+    </script>
+  </head>
+  <body onload="nasRestartProc(); nasRestartProc.timerId = setInterval(nasRestartProc, 300)">
+    <div id="container">
+      <div id="header">
+        <div id="version"></div>
+      </div>
+      <div id="menu_and_contents">
+        <div id="menubar"></div>
+        <div id="contents">
+            <h1>GoodSync Server for <!-- nastype --> NAS Setup</h1>
+            <h2>Restarting server to apply new settings, please wait...<canvas id="restart_spinner" width="32" height="32"></canvas></h2>
+            <div id="status_detail"></div>
+        </div>
+      </div>
+      <div id="footer">
+        Copyright &copy; 1997-2021 Siber Systems Inc. All rights reserved.
+      </div>
+    </div>
+    <script> 
+            if (typeof(Storage) !== "undefined") {
+                document.getElementById('version').innerHTML = localStorage.getItem("gs_setup_version");
+            }
+    </script>
+  </body>
+</html>
