@@ -108,7 +108,9 @@
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="no" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="0" transparency="150" dotMatchesNewline="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="no" directionDown="no" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="0" transparency="150" dotMatchesNewline="no">
+        <Find name="&#x041C;&#x043E;&#x0434;&#x0443;&#x043B;&#x044C;" />
+        <Find name="." />
         <Find name='&quot;public&quot;.' />
         <Find name="zip" />
         <Find name="extension" />
@@ -117,8 +119,7 @@
         <Find name="parser-d" />
         <Find name="parser-s" />
         <Find name="parse" />
-        <Find name="readme" />
-        <Find name="readmy" />
+        <Replace name="&#x043C;&#x043E;&#x0434;&#x0443;&#x043B;&#x044F;" />
         <Replace name="zetsoftllc_official" />
         <Replace name="&apos;," />
         <Replace name="ALL-cmd" />
@@ -128,7 +129,6 @@
         <Replace name="hotels" />
         <Replace name="/" />
         <Replace name="&gt;" />
-        <Replace name="$model-&gt;" />
     </FindHistory>
     <History nbMaxFile="0" inSubMenu="no" customLength="-1" />
     <ProjectPanels>
