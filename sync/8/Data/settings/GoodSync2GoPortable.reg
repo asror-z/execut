@@ -1,17 +1,17 @@
 REGEDIT4
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync]
-"CleanUpTime"=dword:60e55936
+"CleanUpTime"=dword:60eeedfc
 "LastUpdateCheck2Go"=dword:60ce0f3b
 "TreeViewSelected"=dword:00000001
-"CurrentJobName"="Sysadmin"
+"CurrentJobName"="Projects"
 "CurrentGroupName"="Develop"
-"LastLicenseCheck"=dword:60e55937
-"SyncTreeColumnWidths"="359,264,180,72,31,138,96,180,120"
+"LastLicenseCheck"=dword:60eedfed
+"SyncTreeColumnWidths"="622,264,180,72,31,138,96,180,120"
 "Str_TreeDisplayDensity"=dword:00000016
 "Str_NoAnimations"=dword:00000000
-"GS_WINPOSWindowPlacement"=hex:2c,00,00,00,02,00,00,00,01,00,00,00,00,83,ff,ff,\
-  00,83,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,4f,00,00,00,47,00,00,00,44,05,00,00,d8,\
+"GS_WINPOSWindowPlacement"=hex:2c,00,00,00,02,00,00,00,03,00,00,00,00,83,ff,ff,\
+  00,83,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,40,00,00,00,3a,00,00,00,35,05,00,00,e0,\
   02,00,00
 "FiltersWidth"=dword:00000000
 "LocalizationFile"="en-English.rfs"
@@ -57,10 +57,13 @@ REGEDIT4
 "LastRunTime32"=dword:60b8bfb0
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs\Mega]
-"LastRunTime32"=dword:60d0d01c
+"LastRunTime32"=dword:60ebe155
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs\Projects]
-"LastRunTime32"=dword:60e5593b
+"LastRunTime32"=dword:60eefb4c
+
+[HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs\Registry]
+"LastRunTime32"=dword:60eeea88
 
 [HKEY_CURRENT_USER\Software\Siber Systems\GoodSync\Jobs\Softs]
 "LastRunTime32"=dword:609d48d7

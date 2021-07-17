@@ -17,7 +17,7 @@
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="yes" edge="no" edgeNbColumn="100" wrapSymbolShow="hide" zoom="-2" whiteSpaceShow="hide" eolShow="hide" lineWrapMethod="aligned" disableAdvancedScrolling="no" zoom2="-4" borderWidth="2" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="yes" edge="no" edgeNbColumn="100" wrapSymbolShow="hide" zoom="2" whiteSpaceShow="hide" eolShow="hide" lineWrapMethod="aligned" disableAdvancedScrolling="no" zoom2="-4" borderWidth="2" />
         <!-- For the secodary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box" -->
@@ -109,6 +109,7 @@
     </GUIConfigs>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="no" directionDown="no" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="0" transparency="150" dotMatchesNewline="no">
+        <Find name="71150" />
         <Find name="&#x041C;&#x043E;&#x0434;&#x0443;&#x043B;&#x044C;" />
         <Find name="." />
         <Find name='&quot;public&quot;.' />
@@ -118,7 +119,7 @@
         <Find name="**" />
         <Find name="parser-d" />
         <Find name="parser-s" />
-        <Find name="parse" />
+        <Replace name="78150" />
         <Replace name="&#x043C;&#x043E;&#x0434;&#x0443;&#x043B;&#x044F;" />
         <Replace name="zetsoftllc_official" />
         <Replace name="&apos;," />
@@ -128,7 +129,6 @@
         <Replace name="nssm-ALL.cmd" />
         <Replace name="hotels" />
         <Replace name="/" />
-        <Replace name="&gt;" />
     </FindHistory>
     <History nbMaxFile="0" inSubMenu="no" customLength="-1" />
     <ProjectPanels>
