@@ -71,7 +71,7 @@
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
         <GUIConfig name="MaitainIndent">yes</GUIConfig>
         <GUIConfig name="MRU">yes</GUIConfig>
-        <GUIConfig name="URL">0</GUIConfig>
+        <GUIConfig name="URL">1</GUIConfig>
         <GUIConfig name="globalOverride" fg="no" bg="no" font="no" fontSize="no" bold="no" italic="no" underline="no" />
         <GUIConfig name="auto-completion" autoCAction="2" triggerFromNbChar="1" funcParams="yes" />
         <GUIConfig name="multiInst" setting="0" />
